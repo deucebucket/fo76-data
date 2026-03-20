@@ -1,0 +1,1444 @@
+[
+  {
+    "name": "AIProcess::DoUpdate3dModel",
+    "retail_va": "0x1418cabc0",
+    "retail_rva": "0x18cabc0",
+    "class": "AIProcess",
+    "function": "DoUpdate3dModel"
+  },
+  {
+    "name": "AIProcess::ProcessGreet",
+    "retail_va": "0x1407ec450",
+    "retail_rva": "0x7ec450",
+    "class": "AIProcess",
+    "function": "ProcessGreet"
+  },
+  {
+    "name": "AIProcess::SetFurniture",
+    "retail_va": "0x14065aa40",
+    "retail_rva": "0x65aa40",
+    "class": "AIProcess",
+    "function": "SetFurniture"
+  },
+  {
+    "name": "AIProcess::Update3dModel",
+    "retail_va": "0x14065aa40",
+    "retail_rva": "0x65aa40",
+    "class": "AIProcess",
+    "function": "Update3dModel"
+  },
+  {
+    "name": "AIProcess::UpdateKnockState",
+    "retail_va": "0x142c339f0",
+    "retail_rva": "0x2c339f0",
+    "class": "AIProcess",
+    "function": "UpdateKnockState"
+  },
+  {
+    "name": "AIProcess::UpdateTimers",
+    "retail_va": "0x14177a070",
+    "retail_rva": "0x177a070",
+    "class": "AIProcess",
+    "function": "UpdateTimers"
+  },
+  {
+    "name": "ActiveEffectManager::ForEachActiveEffect",
+    "retail_va": "0x14203c930",
+    "retail_rva": "0x203c930",
+    "class": "ActiveEffectManager",
+    "function": "ForEachActiveEffect"
+  },
+  {
+    "name": "Actor::AdjustForCap",
+    "retail_va": "0x1406e8f90",
+    "retail_rva": "0x6e8f90",
+    "class": "Actor",
+    "function": "AdjustForCap"
+  },
+  {
+    "name": "Actor::ApplyPerksFromBase",
+    "retail_va": "0x1406d6ec0",
+    "retail_rva": "0x6d6ec0",
+    "class": "Actor",
+    "function": "ApplyPerksFromBase"
+  },
+  {
+    "name": "Actor::ChangeProcessLevel",
+    "retail_va": "0x140949990",
+    "retail_rva": "0x949990",
+    "class": "Actor",
+    "function": "ChangeProcessLevel"
+  },
+  {
+    "name": "Actor::ClearLookAtTarget",
+    "retail_va": "0x141c17640",
+    "retail_rva": "0x1c17640",
+    "class": "Actor",
+    "function": "ClearLookAtTarget"
+  },
+  {
+    "name": "Actor::DetachHavok",
+    "retail_va": "0x1438822e0",
+    "retail_rva": "0x38822e0",
+    "class": "Actor",
+    "function": "DetachHavok"
+  },
+  {
+    "name": "Actor::Disable",
+    "retail_va": "0x1406d6ec0",
+    "retail_rva": "0x6d6ec0",
+    "class": "Actor",
+    "function": "Disable"
+  },
+  {
+    "name": "Actor::InitiateDialogue",
+    "retail_va": "0x141ab1ed0",
+    "retail_rva": "0x1ab1ed0",
+    "class": "Actor",
+    "function": "InitiateDialogue"
+  },
+  {
+    "name": "Actor::MovetoMiddleHigh",
+    "retail_va": "0x140a15420",
+    "retail_rva": "0xa15420",
+    "class": "Actor",
+    "function": "MovetoMiddleHigh"
+  },
+  {
+    "name": "Actor::PostReanimate",
+    "retail_va": "0x1438f1fe0",
+    "retail_rva": "0x38f1fe0",
+    "class": "Actor",
+    "function": "PostReanimate"
+  },
+  {
+    "name": "Actor::RagdollHandler::DoRagdoll",
+    "retail_va": "0x140bcdf00",
+    "retail_rva": "0xbcdf00",
+    "class": "Actor",
+    "function": "DoRagdoll"
+  },
+  {
+    "name": "Actor::ResetCachedValuesForPerk",
+    "retail_va": "0x1416a25d0",
+    "retail_rva": "0x16a25d0",
+    "class": "Actor",
+    "function": "ResetCachedValuesForPerk"
+  },
+  {
+    "name": "Actor::SetLooking",
+    "retail_va": "0x1438f1fe0",
+    "retail_rva": "0x38f1fe0",
+    "class": "Actor",
+    "function": "SetLooking"
+  },
+  {
+    "name": "Actor::TrymoveToMiddleLow",
+    "retail_va": "0x1406d6ec0",
+    "retail_rva": "0x6d6ec0",
+    "class": "Actor",
+    "function": "TrymoveToMiddleLow"
+  },
+  {
+    "name": "Actor::WornArmorChanged",
+    "retail_va": "0x1406d6ec0",
+    "retail_rva": "0x6d6ec0",
+    "class": "Actor",
+    "function": "WornArmorChanged"
+  },
+  {
+    "name": "ActorEquipManager::EquipFirstEqual",
+    "retail_va": "0x1438f39e0",
+    "retail_rva": "0x38f39e0",
+    "class": "ActorEquipManager",
+    "function": "EquipFirstEqual"
+  },
+  {
+    "name": "ActorEquipManager::UseItem",
+    "retail_va": "0x14202e7b0",
+    "retail_rva": "0x202e7b0",
+    "class": "ActorEquipManager",
+    "function": "UseItem"
+  },
+  {
+    "name": "ActorMotionComponent::HandleActorNetworkedLocationWarp",
+    "retail_va": "0x141ead020",
+    "retail_rva": "0x1ead020",
+    "class": "ActorMotionComponent",
+    "function": "HandleActorNetworkedLocationWarp"
+  },
+  {
+    "name": "ActorPerksSnapshotComponent::Serialize",
+    "retail_va": "0x14113c8a0",
+    "retail_rva": "0x113c8a0",
+    "class": "ActorPerksSnapshotComponent",
+    "function": "Serialize"
+  },
+  {
+    "name": "ActorUtils::ForEachPlayerWithinRange",
+    "retail_va": "0x1409990c0",
+    "retail_rva": "0x9990c0",
+    "class": "ActorUtils",
+    "function": "ForEachPlayerWithinRange"
+  },
+  {
+    "name": "AnimationFileManagerSingleton::Update",
+    "retail_va": "0x14202b9d0",
+    "retail_rva": "0x202b9d0",
+    "class": "AnimationFileManagerSingleton",
+    "function": "Update"
+  },
+  {
+    "name": "BGSCombinedCellGeometryDB::DeferredPreload",
+    "retail_va": "0x14391f9e0",
+    "retail_rva": "0x391f9e0",
+    "class": "BGSCombinedCellGeometryDB",
+    "function": "DeferredPreload"
+  },
+  {
+    "name": "BGSDebris::SpawnDebris",
+    "retail_va": "0x14316db20",
+    "retail_rva": "0x316db20",
+    "class": "BGSDebris",
+    "function": "SpawnDebris"
+  },
+  {
+    "name": "BGSDynamicPersistenceManager::QueueTask",
+    "retail_va": "0x14203c930",
+    "retail_rva": "0x203c930",
+    "class": "BGSDynamicPersistenceManager",
+    "function": "QueueTask"
+  },
+  {
+    "name": "BGSGrassManager::AddCellGrass",
+    "retail_va": "0x1420256f0",
+    "retail_rva": "0x20256f0",
+    "class": "BGSGrassManager",
+    "function": "AddCellGrass"
+  },
+  {
+    "name": "BGSGrassManager::ProcessAttachQueue()",
+    "retail_va": "0x141ab6750",
+    "retail_rva": "0x1ab6750",
+    "class": "BGSGrassManager",
+    "function": "ProcessAttachQueue()"
+  },
+  {
+    "name": "BGSInventoryUtils::RemoveNonRefItem",
+    "retail_va": "0x14181a040",
+    "retail_rva": "0x181a040",
+    "class": "BGSInventoryUtils",
+    "function": "RemoveNonRefItem"
+  },
+  {
+    "name": "BGSSceneInstance::SetSceneActive",
+    "retail_va": "0x141e8c320",
+    "retail_rva": "0x1e8c320",
+    "class": "BGSSceneInstance",
+    "function": "SetSceneActive"
+  },
+  {
+    "name": "BGSScenePhaseInstance::EndPhase",
+    "retail_va": "0x141cfaff0",
+    "retail_rva": "0x1cfaff0",
+    "class": "BGSScenePhaseInstance",
+    "function": "EndPhase"
+  },
+  {
+    "name": "BGSStoryTeller::BeginStartUpQuest",
+    "retail_va": "0x1409aec40",
+    "retail_rva": "0x9aec40",
+    "class": "BGSStoryTeller",
+    "function": "BeginStartUpQuest"
+  },
+  {
+    "name": "BGSStoryTeller::PushUpdateEventsFromChanges:OnPreFlushFunc",
+    "retail_va": "0x141787130",
+    "retail_rva": "0x1787130",
+    "class": "BGSStoryTeller",
+    "function": "PushUpdateEventsFromChanges:OnPreFlushFunc"
+  },
+  {
+    "name": "BGSTerrainManager::RunUpdate",
+    "retail_va": "0x1420b7b60",
+    "retail_rva": "0x20b7b60",
+    "class": "BGSTerrainManager",
+    "function": "RunUpdate"
+  },
+  {
+    "name": "BGSTerrainManager::SetClipVolume",
+    "retail_va": "0x141ccc5a0",
+    "retail_rva": "0x1ccc5a0",
+    "class": "BGSTerrainManager",
+    "function": "SetClipVolume"
+  },
+  {
+    "name": "BGSUnloadedFormBuffer::Save",
+    "retail_va": "0x140de5460",
+    "retail_rva": "0xde5460",
+    "class": "BGSUnloadedFormBuffer",
+    "function": "Save"
+  },
+  {
+    "name": "BSCastUtility::ShapeCastInWorld",
+    "retail_va": "0x14043f4a0",
+    "retail_rva": "0x43f4a0",
+    "class": "BSCastUtility",
+    "function": "ShapeCastInWorld"
+  },
+  {
+    "name": "BSClusterRenderer::AppendIndices",
+    "retail_va": "0x14172fb80",
+    "retail_rva": "0x172fb80",
+    "class": "BSClusterRenderer",
+    "function": "AppendIndices"
+  },
+  {
+    "name": "BSClusterRenderer::DoCullingAndPrepareForRendering",
+    "retail_va": "0x1412b9990",
+    "retail_rva": "0x12b9990",
+    "class": "BSClusterRenderer",
+    "function": "DoCullingAndPrepareForRendering"
+  },
+  {
+    "name": "BSClusterRenderer::GatherToUnifiedBuffer",
+    "retail_va": "0x142c582b0",
+    "retail_rva": "0x2c582b0",
+    "class": "BSClusterRenderer",
+    "function": "GatherToUnifiedBuffer"
+  },
+  {
+    "name": "BSClusterRenderer::GenerateBoundingSphere",
+    "retail_va": "0x1412b9990",
+    "retail_rva": "0x12b9990",
+    "class": "BSClusterRenderer",
+    "function": "GenerateBoundingSphere"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::ReinitializeMaterials",
+    "retail_va": "0x142097e90",
+    "retail_rva": "0x2097e90",
+    "class": "BSEnlighten",
+    "function": "ReinitializeMaterials"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::UpdateCubeMaps",
+    "retail_va": "0x141806700",
+    "retail_rva": "0x1806700",
+    "class": "BSEnlighten",
+    "function": "UpdateCubeMaps"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::UpdateDustersGPUVisibility",
+    "retail_va": "0x141709f70",
+    "retail_rva": "0x1709f70",
+    "class": "BSEnlighten",
+    "function": "UpdateDustersGPUVisibility"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::UpdateProbeSetPriorities",
+    "retail_va": "0x141b89ed0",
+    "retail_rva": "0x1b89ed0",
+    "class": "BSEnlighten",
+    "function": "UpdateProbeSetPriorities"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::UpdateSystemPriorities",
+    "retail_va": "0x141b89ed0",
+    "retail_rva": "0x1b89ed0",
+    "class": "BSEnlighten",
+    "function": "UpdateSystemPriorities"
+  },
+  {
+    "name": "BSEnlighten::Global::ScopedLockPppiManager::EndUpdatePPPIIndirection",
+    "retail_va": "0x140e99200",
+    "retail_rva": "0xe99200",
+    "class": "BSEnlighten",
+    "function": "EndUpdatePPPIIndirection"
+  },
+  {
+    "name": "BSEnlighten::Lightmaps::UpdateLights",
+    "retail_va": "0x141f49670",
+    "retail_rva": "0x1f49670",
+    "class": "BSEnlighten",
+    "function": "UpdateLights"
+  },
+  {
+    "name": "BSEnlighten::Probes::Scene::LoadProbeData",
+    "retail_va": "0x143149940",
+    "retail_rva": "0x3149940",
+    "class": "BSEnlighten",
+    "function": "LoadProbeData"
+  },
+  {
+    "name": "BSEnlighten::Probes::Scene::UpdateProbesVisualization",
+    "retail_va": "0x140f20665",
+    "retail_rva": "0xf20665",
+    "class": "BSEnlighten",
+    "function": "UpdateProbesVisualization"
+  },
+  {
+    "name": "BSHkbHkxDB::Demand",
+    "retail_va": "0x14043ea20",
+    "retail_rva": "0x43ea20",
+    "class": "BSHkbHkxDB",
+    "function": "Demand"
+  },
+  {
+    "name": "BSImGuiWebSocketRenderer::ProcessEvent",
+    "retail_va": "0x141ab3de0",
+    "retail_rva": "0x1ab3de0",
+    "class": "BSImGuiWebSocketRenderer",
+    "function": "ProcessEvent"
+  },
+  {
+    "name": "BSImGuiWebSocketRenderer::Render",
+    "retail_va": "0x141ab3de0",
+    "retail_rva": "0x1ab3de0",
+    "class": "BSImGuiWebSocketRenderer",
+    "function": "Render"
+  },
+  {
+    "name": "BSJobs::CombatUpdateJob",
+    "retail_va": "0x142c48cf0",
+    "retail_rva": "0x2c48cf0",
+    "class": "BSJobs",
+    "function": "CombatUpdateJob"
+  },
+  {
+    "name": "BSPreCulledObjects::AddToShadowCullingGroups",
+    "retail_va": "0x141cac750",
+    "retail_rva": "0x1cac750",
+    "class": "BSPreCulledObjects",
+    "function": "AddToShadowCullingGroups"
+  },
+  {
+    "name": "BSPrecomputedVisibility::BuildShadowCullerJob",
+    "retail_va": "0x141a12fb0",
+    "retail_rva": "0x1a12fb0",
+    "class": "BSPrecomputedVisibility",
+    "function": "BuildShadowCullerJob"
+  },
+  {
+    "name": "BSPrecomputedVisibility::CombineStaticQueryResults",
+    "retail_va": "0x141a12fb0",
+    "retail_rva": "0x1a12fb0",
+    "class": "BSPrecomputedVisibility",
+    "function": "CombineStaticQueryResults"
+  },
+  {
+    "name": "BSPrecomputedVisibility::ShadowCullerBuilder::Build",
+    "retail_va": "0x1419b4900",
+    "retail_rva": "0x19b4900",
+    "class": "BSPrecomputedVisibility",
+    "function": "Build"
+  },
+  {
+    "name": "BSResource::GlobalLocations::DoCreateAsyncStream",
+    "retail_va": "0x140848290",
+    "retail_rva": "0x848290",
+    "class": "BSResource",
+    "function": "DoCreateAsyncStream"
+  },
+  {
+    "name": "BSResource::GlobalLocations::DoCreateStream",
+    "retail_va": "0x140848290",
+    "retail_rva": "0x848290",
+    "class": "BSResource",
+    "function": "DoCreateStream"
+  },
+  {
+    "name": "BSResource::GlobalLocations::Traverse",
+    "retail_va": "0x14069fbf0",
+    "retail_rva": "0x69fbf0",
+    "class": "BSResource",
+    "function": "Traverse"
+  },
+  {
+    "name": "BSResource::GlobalPaths::DoCreateAsyncStream",
+    "retail_va": "0x140848290",
+    "retail_rva": "0x848290",
+    "class": "BSResource",
+    "function": "DoCreateAsyncStream"
+  },
+  {
+    "name": "BSResource::GlobalPaths::DoCreateStream",
+    "retail_va": "0x140848290",
+    "retail_rva": "0x848290",
+    "class": "BSResource",
+    "function": "DoCreateStream"
+  },
+  {
+    "name": "BSResource::GlobalPaths::Traverse",
+    "retail_va": "0x14065ae00",
+    "retail_rva": "0x65ae00",
+    "class": "BSResource",
+    "function": "Traverse"
+  },
+  {
+    "name": "BSShaderAccumulator::FinishAccumulating_LODOnly",
+    "retail_va": "0x142027d70",
+    "retail_rva": "0x2027d70",
+    "class": "BSShaderAccumulator",
+    "function": "FinishAccumulating_LODOnly"
+  },
+  {
+    "name": "BSShaderAccumulator::RenderBatches",
+    "retail_va": "0x140949990",
+    "retail_rva": "0x949990",
+    "class": "BSShaderAccumulator",
+    "function": "RenderBatches"
+  },
+  {
+    "name": "BSSystemFileStreamer::WaitOnSignalCount",
+    "retail_va": "0x140495700",
+    "retail_rva": "0x495700",
+    "class": "BSSystemFileStreamer",
+    "function": "WaitOnSignalCount"
+  },
+  {
+    "name": "BSTextureStreamer::HandleLoadRequest",
+    "retail_va": "0x140ed1720",
+    "retail_rva": "0xed1720",
+    "class": "BSTextureStreamer",
+    "function": "HandleLoadRequest"
+  },
+  {
+    "name": "BSTextureStreamer::HandleModifyRequest",
+    "retail_va": "0x1438d9340",
+    "retail_rva": "0x38d9340",
+    "class": "BSTextureStreamer",
+    "function": "HandleModifyRequest"
+  },
+  {
+    "name": "BSTextureStreamer::HandleUpgradeLoadRequest",
+    "retail_va": "0x141fbcee0",
+    "retail_rva": "0x1fbcee0",
+    "class": "BSTextureStreamer",
+    "function": "HandleUpgradeLoadRequest"
+  },
+  {
+    "name": "BSTextureStreamer::WaitForStreamedHandle",
+    "retail_va": "0x140b0efc0",
+    "retail_rva": "0xb0efc0",
+    "class": "BSTextureStreamer",
+    "function": "WaitForStreamedHandle"
+  },
+  {
+    "name": "BSTransCon::UdAllButTgt",
+    "retail_va": "0x143942660",
+    "retail_rva": "0x3942660",
+    "class": "BSTransCon",
+    "function": "UdAllButTgt"
+  },
+  {
+    "name": "BShkbHkxDB::Create",
+    "retail_va": "0x141166340",
+    "retail_rva": "0x1166340",
+    "class": "BShkbHkxDB",
+    "function": "Create"
+  },
+  {
+    "name": "CELL::AttachToWorld",
+    "retail_va": "0x140ede1b0",
+    "retail_rva": "0xede1b0",
+    "class": "CELL",
+    "function": "AttachToWorld"
+  },
+  {
+    "name": "CellLoaderTask::Finish",
+    "retail_va": "0x141efd430",
+    "retail_rva": "0x1efd430",
+    "class": "CellLoaderTask",
+    "function": "Finish"
+  },
+  {
+    "name": "CharacterCustomizationNetworkData::Set",
+    "retail_va": "0x143092ec0",
+    "retail_rva": "0x3092ec0",
+    "class": "CharacterCustomizationNetworkData",
+    "function": "Set"
+  },
+  {
+    "name": "CharacterManager::LocalCharGenCompleted",
+    "retail_va": "0x140aeea00",
+    "retail_rva": "0xaeea00",
+    "class": "CharacterManager",
+    "function": "LocalCharGenCompleted"
+  },
+  {
+    "name": "ClientInventoryMutator::SetEquipped",
+    "retail_va": "0x14148f440",
+    "retail_rva": "0x148f440",
+    "class": "ClientInventoryMutator",
+    "function": "SetEquipped"
+  },
+  {
+    "name": "ConvergenceAim::ClearAimAtPoints",
+    "retail_va": "0x1412892a0",
+    "retail_rva": "0x12892a0",
+    "class": "ConvergenceAim",
+    "function": "ClearAimAtPoints"
+  },
+  {
+    "name": "DeferredComponentUpdate::Impl::TryFlush",
+    "retail_va": "0x1419e9fd0",
+    "retail_rva": "0x19e9fd0",
+    "class": "DeferredComponentUpdate",
+    "function": "TryFlush"
+  },
+  {
+    "name": "DistantAudioManager::Update",
+    "retail_va": "0x140952c20",
+    "retail_rva": "0x952c20",
+    "class": "DistantAudioManager",
+    "function": "Update"
+  },
+  {
+    "name": "DrawWorld::MainRenderSetup",
+    "retail_va": "0x14065aa40",
+    "retail_rva": "0x65aa40",
+    "class": "DrawWorld",
+    "function": "MainRenderSetup"
+  },
+  {
+    "name": "DrawWorld::Render_PostUI",
+    "retail_va": "0x140f23120",
+    "retail_rva": "0xf23120",
+    "class": "DrawWorld",
+    "function": "Render_PostUI"
+  },
+  {
+    "name": "DrawWorld::Render_UI",
+    "retail_va": "0x143169fe0",
+    "retail_rva": "0x3169fe0",
+    "class": "DrawWorld",
+    "function": "Render_UI"
+  },
+  {
+    "name": "DrawWorld::UpdateOcclusionMap",
+    "retail_va": "0x1434d9bb0",
+    "retail_rva": "0x34d9bb0",
+    "class": "DrawWorld",
+    "function": "UpdateOcclusionMap"
+  },
+  {
+    "name": "DynPersistance::Pause",
+    "retail_va": "0x141b96f40",
+    "retail_rva": "0x1b96f40",
+    "class": "DynPersistance",
+    "function": "Pause"
+  },
+  {
+    "name": "Events::ActorForOnPCDialogueTarget",
+    "retail_va": "0x14157c360",
+    "retail_rva": "0x157c360",
+    "class": "Events",
+    "function": "ActorForOnPCDialogueTarget"
+  },
+  {
+    "name": "Events::CommandModeEnter",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "CommandModeEnter"
+  },
+  {
+    "name": "Events::CommandModeExit",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "CommandModeExit"
+  },
+  {
+    "name": "Events::EnterBleedout",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "EnterBleedout"
+  },
+  {
+    "name": "Events::EnterSneaking",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "EnterSneaking"
+  },
+  {
+    "name": "Events::EscortWaitStart",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "EscortWaitStart"
+  },
+  {
+    "name": "Events::EscortWaitStop",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "EscortWaitStop"
+  },
+  {
+    "name": "Events::ExitBleedout",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "ExitBleedout"
+  },
+  {
+    "name": "Events::ExitLooksMenu",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "ExitLooksMenu"
+  },
+  {
+    "name": "Events::LockChanged",
+    "retail_va": "0x14157c360",
+    "retail_rva": "0x157c360",
+    "class": "Events",
+    "function": "LockChanged"
+  },
+  {
+    "name": "Events::OnPlayerCompanionDismiss",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "OnPlayerCompanionDismiss"
+  },
+  {
+    "name": "Events::OnPlayerCreateRobot",
+    "retail_va": "0x14157c360",
+    "retail_rva": "0x157c360",
+    "class": "Events",
+    "function": "OnPlayerCreateRobot"
+  },
+  {
+    "name": "Events::OnPlayerEnterVertibird",
+    "retail_va": "0x14157c360",
+    "retail_rva": "0x157c360",
+    "class": "Events",
+    "function": "OnPlayerEnterVertibird"
+  },
+  {
+    "name": "Events::OnPlayerHealTeammate",
+    "retail_va": "0x14157c360",
+    "retail_rva": "0x157c360",
+    "class": "Events",
+    "function": "OnPlayerHealTeammate"
+  },
+  {
+    "name": "Events::OnPlayerUseWorkBench",
+    "retail_va": "0x14157c360",
+    "retail_rva": "0x157c360",
+    "class": "Events",
+    "function": "OnPlayerUseWorkBench"
+  },
+  {
+    "name": "Events::OnSpeechChallengeAvailable",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "OnSpeechChallengeAvailable"
+  },
+  {
+    "name": "Events::PickNewIdleEvent",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "PickNewIdleEvent"
+  },
+  {
+    "name": "Events::Reset",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "Reset"
+  },
+  {
+    "name": "Events::Resurrect",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "Resurrect"
+  },
+  {
+    "name": "Events::SwitchRaceCompleteEvent",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "SwitchRaceCompleteEvent"
+  },
+  {
+    "name": "Events::WaitStartEvent",
+    "retail_va": "0x1434a3b50",
+    "retail_rva": "0x34a3b50",
+    "class": "Events",
+    "function": "WaitStartEvent"
+  },
+  {
+    "name": "Events::WorkshopReferenceReservationChanged",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "class": "Events",
+    "function": "WorkshopReferenceReservationChanged"
+  },
+  {
+    "name": "ExamineMenu::AdvanceMovie",
+    "retail_va": "0x1404ac7a0",
+    "retail_rva": "0x4ac7a0",
+    "class": "ExamineMenu",
+    "function": "AdvanceMovie"
+  },
+  {
+    "name": "ExamineMenu::CalculateKnownModsStatus",
+    "retail_va": "0x142022820",
+    "retail_rva": "0x2022820",
+    "class": "ExamineMenu",
+    "function": "CalculateKnownModsStatus"
+  },
+  {
+    "name": "Explosion::ProcessTargets",
+    "retail_va": "0x140a15420",
+    "retail_rva": "0xa15420",
+    "class": "Explosion",
+    "function": "ProcessTargets"
+  },
+  {
+    "name": "ExtraDataList::CompareList",
+    "retail_va": "0x14177cc40",
+    "retail_rva": "0x177cc40",
+    "class": "ExtraDataList",
+    "function": "CompareList"
+  },
+  {
+    "name": "ExtraPowerArmorBeacon::UpdateBeaconState",
+    "retail_va": "0x14213555f",
+    "retail_rva": "0x213555f",
+    "class": "ExtraPowerArmorBeacon",
+    "function": "UpdateBeaconState"
+  },
+  {
+    "name": "FirstPersonState::Update",
+    "retail_va": "0x142c166b0",
+    "retail_rva": "0x2c166b0",
+    "class": "FirstPersonState",
+    "function": "Update"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage",
+    "retail_va": "0x142000620",
+    "retail_rva": "0x2000620",
+    "class": "GameNetworkMessageManager",
+    "function": "HandleMessage"
+  },
+  {
+    "name": "GamePadAnalogEvent::AS3Constructor",
+    "retail_va": "0x1419f6810",
+    "retail_rva": "0x19f6810",
+    "class": "GamePadAnalogEvent",
+    "function": "AS3Constructor"
+  },
+  {
+    "name": "HUDDataModel::UpdateCompassModel::CompassMarkerFunctor.ClearParamList",
+    "retail_va": "0x140659c05",
+    "retail_rva": "0x659c05",
+    "class": "HUDDataModel",
+    "function": "CompassMarkerFunctor.ClearParamList"
+  },
+  {
+    "name": "HUDNotificationsModel::ProcessEvent_InventoryList",
+    "retail_va": "0x140610bd0",
+    "retail_rva": "0x610bd0",
+    "class": "HUDNotificationsModel",
+    "function": "ProcessEvent_InventoryList"
+  },
+  {
+    "name": "IOManager::OnProcessResources",
+    "retail_va": "0x1420ed020",
+    "retail_rva": "0x20ed020",
+    "class": "IOManager",
+    "function": "OnProcessResources"
+  },
+  {
+    "name": "InstancedCellManager::ForEachLoc",
+    "retail_va": "0x140bcdf00",
+    "retail_rva": "0xbcdf00",
+    "class": "InstancedCellManager",
+    "function": "ForEachLoc"
+  },
+  {
+    "name": "InventoryDataModel::FlushRemoveQueue",
+    "retail_va": "0x141b96f40",
+    "retail_rva": "0x1b96f40",
+    "class": "InventoryDataModel",
+    "function": "FlushRemoveQueue"
+  },
+  {
+    "name": "InventoryDataModel::ProcessEvent::BGSInventoryListEvent",
+    "retail_va": "0x141716200",
+    "retail_rva": "0x1716200",
+    "class": "InventoryDataModel",
+    "function": "BGSInventoryListEvent"
+  },
+  {
+    "name": "LoadedAreaBound::AddToBirdsEyeHavokVisualDebugger",
+    "retail_va": "0x143882010",
+    "retail_rva": "0x3882010",
+    "class": "LoadedAreaBound",
+    "function": "AddToBirdsEyeHavokVisualDebugger"
+  },
+  {
+    "name": "LoadedAreaManager::ClearOldestUnattachedBufferedCell",
+    "retail_va": "0x141716200",
+    "retail_rva": "0x1716200",
+    "class": "LoadedAreaManager",
+    "function": "ClearOldestUnattachedBufferedCell"
+  },
+  {
+    "name": "LoadedAreaManager::ForEachLoadedExteriorCell",
+    "retail_va": "0x14113c8a0",
+    "retail_rva": "0x113c8a0",
+    "class": "LoadedAreaManager",
+    "function": "ForEachLoadedExteriorCell"
+  },
+  {
+    "name": "LocalPlayerCharacter::ClearQuickPlayContext",
+    "retail_va": "0x1438939b0",
+    "retail_rva": "0x38939b0",
+    "class": "LocalPlayerCharacter",
+    "function": "ClearQuickPlayContext"
+  },
+  {
+    "name": "LocalPlayerCharacter::GetInventoryEncumbrance",
+    "retail_va": "0x141671550",
+    "retail_rva": "0x1671550",
+    "class": "LocalPlayerCharacter",
+    "function": "GetInventoryEncumbrance"
+  },
+  {
+    "name": "LocalPlayerCharacter::OnNetworkBaselinesComplete::RunScript",
+    "retail_va": "0x141ffbdd0",
+    "retail_rva": "0x1ffbdd0",
+    "class": "LocalPlayerCharacter",
+    "function": "RunScript"
+  },
+  {
+    "name": "LocalPlayerCharacter::PreNetUpdate",
+    "retail_va": "0x1438822e0",
+    "retail_rva": "0x38822e0",
+    "class": "LocalPlayerCharacter",
+    "function": "PreNetUpdate"
+  },
+  {
+    "name": "LocalPlayerCharacter::Update Block 1",
+    "retail_va": "0x142d191c0",
+    "retail_rva": "0x2d191c0",
+    "class": "LocalPlayerCharacter",
+    "function": "Update Block 1"
+  },
+  {
+    "name": "LocalPlayerCharacter::UpdatePickRef",
+    "retail_va": "0x143944610",
+    "retail_rva": "0x3944610",
+    "class": "LocalPlayerCharacter",
+    "function": "UpdatePickRef"
+  },
+  {
+    "name": "ModelLoader::ClearUnusedModels",
+    "retail_va": "0x142c59150",
+    "retail_rva": "0x2c59150",
+    "class": "ModelLoader",
+    "function": "ClearUnusedModels"
+  },
+  {
+    "name": "ModelLoader::UpdateAttachDistant3DQueue",
+    "retail_va": "0x140b0efc0",
+    "retail_rva": "0xb0efc0",
+    "class": "ModelLoader",
+    "function": "UpdateAttachDistant3DQueue"
+  },
+  {
+    "name": "MultiCellVisibilityData::StaticShadowSet",
+    "retail_va": "0x141f67810",
+    "retail_rva": "0x1f67810",
+    "class": "MultiCellVisibilityData",
+    "function": "StaticShadowSet"
+  },
+  {
+    "name": "NetworkJobAccumulator::ProcessJobFunctor",
+    "retail_va": "0x141ac00c0",
+    "retail_rva": "0x1ac00c0",
+    "class": "NetworkJobAccumulator",
+    "function": "ProcessJobFunctor"
+  },
+  {
+    "name": "NetworkPathManager::BuildPathImpl",
+    "retail_va": "0x140a36d90",
+    "retail_rva": "0xa36d90",
+    "class": "NetworkPathManager",
+    "function": "BuildPathImpl"
+  },
+  {
+    "name": "ObjectInterface::CreateEmptyMovieClip",
+    "retail_va": "0x143955fb0",
+    "retail_rva": "0x3955fb0",
+    "class": "ObjectInterface",
+    "function": "CreateEmptyMovieClip"
+  },
+  {
+    "name": "ObjectInterface::GetArraySize",
+    "retail_va": "0x140ec07d0",
+    "retail_rva": "0xec07d0",
+    "class": "ObjectInterface",
+    "function": "GetArraySize"
+  },
+  {
+    "name": "ObjectInterface::GetCxform",
+    "retail_va": "0x140ec07d0",
+    "retail_rva": "0xec07d0",
+    "class": "ObjectInterface",
+    "function": "GetCxform"
+  },
+  {
+    "name": "ObjectInterface::GetMember",
+    "retail_va": "0x1439776c0",
+    "retail_rva": "0x39776c0",
+    "class": "ObjectInterface",
+    "function": "GetMember"
+  },
+  {
+    "name": "ObjectInterface::Invoke",
+    "retail_va": "0x1413b1e80",
+    "retail_rva": "0x13b1e80",
+    "class": "ObjectInterface",
+    "function": "Invoke"
+  },
+  {
+    "name": "ObjectInterface::InvokeClosure",
+    "retail_va": "0x14272f500",
+    "retail_rva": "0x272f500",
+    "class": "ObjectInterface",
+    "function": "InvokeClosure"
+  },
+  {
+    "name": "ObjectInterface::SetArraySize",
+    "retail_va": "0x140ec07d0",
+    "retail_rva": "0xec07d0",
+    "class": "ObjectInterface",
+    "function": "SetArraySize"
+  },
+  {
+    "name": "ObjectInterface::SetCxform",
+    "retail_va": "0x140ec07d0",
+    "retail_rva": "0xec07d0",
+    "class": "ObjectInterface",
+    "function": "SetCxform"
+  },
+  {
+    "name": "ObjectInterface::SetMember",
+    "retail_va": "0x1413b1e80",
+    "retail_rva": "0x13b1e80",
+    "class": "ObjectInterface",
+    "function": "SetMember"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::ContainerInteractionMsg",
+    "retail_va": "0x1420b7b60",
+    "retail_rva": "0x20b7b60",
+    "class": "OtherInventoryTypeDataModel",
+    "function": "ContainerInteractionMsg"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::UpdateSlotData",
+    "retail_va": "0x14189b050",
+    "retail_rva": "0x189b050",
+    "class": "OtherInventoryTypeDataModel",
+    "function": "UpdateSlotData"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::VendorSnapshotData::PSRPreREFR",
+    "retail_va": "0x141ae9790",
+    "retail_rva": "0x1ae9790",
+    "class": "OtherInventoryTypeDataModel",
+    "function": "PSRPreREFR"
+  },
+  {
+    "name": "PathManagerArbiter::SetGoal",
+    "retail_va": "0x140c44020",
+    "retail_rva": "0xc44020",
+    "class": "PathManagerArbiter",
+    "function": "SetGoal"
+  },
+  {
+    "name": "PerkVisitor::NotifyPerksOnLoad",
+    "retail_va": "0x140a085d0",
+    "retail_rva": "0xa085d0",
+    "class": "PerkVisitor",
+    "function": "NotifyPerksOnLoad"
+  },
+  {
+    "name": "PerkVisitor::RenderPerkVisitor",
+    "retail_va": "0x14158e4b0",
+    "retail_rva": "0x158e4b0",
+    "class": "PerkVisitor",
+    "function": "RenderPerkVisitor"
+  },
+  {
+    "name": "PipboyMenu::MovieLoaded",
+    "retail_va": "0x142c59150",
+    "retail_rva": "0x2c59150",
+    "class": "PipboyMenu",
+    "function": "MovieLoaded"
+  },
+  {
+    "name": "PipboyPlayerInfoData::FillCarryWeightData",
+    "retail_va": "0x1435468f0",
+    "retail_rva": "0x35468f0",
+    "class": "PipboyPlayerInfoData",
+    "function": "FillCarryWeightData"
+  },
+  {
+    "name": "PlayerCamera::GetCameraPosition",
+    "retail_va": "0x1409ae220",
+    "retail_rva": "0x9ae220",
+    "class": "PlayerCamera",
+    "function": "GetCameraPosition"
+  },
+  {
+    "name": "PowerArmor::PowerArmorWorkBenchExitComplete",
+    "retail_va": "0x14202f530",
+    "retail_rva": "0x202f530",
+    "class": "PowerArmor",
+    "function": "PowerArmorWorkBenchExitComplete"
+  },
+  {
+    "name": "ProcessLists::AddReference::SkippingBecauseInstanced",
+    "retail_va": "0x142027d70",
+    "retail_rva": "0x2027d70",
+    "class": "ProcessLists",
+    "function": "SkippingBecauseInstanced"
+  },
+  {
+    "name": "ProcessLists::UpdateClient",
+    "retail_va": "0x142c339f0",
+    "retail_rva": "0x2c339f0",
+    "class": "ProcessLists",
+    "function": "UpdateClient"
+  },
+  {
+    "name": "ProjectilePhysicsSnapshotComponent::UpdateInterpolator",
+    "retail_va": "0x140a15420",
+    "retail_rva": "0xa15420",
+    "class": "ProjectilePhysicsSnapshotComponent",
+    "function": "UpdateInterpolator"
+  },
+  {
+    "name": "QuestTrackerDataModel::SynchronizeObjectives",
+    "retail_va": "0x1416a25d0",
+    "retail_rva": "0x16a25d0",
+    "class": "QuestTrackerDataModel",
+    "function": "SynchronizeObjectives"
+  },
+  {
+    "name": "QuestTrackerDataModel::UpdateDataModel",
+    "retail_va": "0x14393cc50",
+    "retail_rva": "0x393cc50",
+    "class": "QuestTrackerDataModel",
+    "function": "UpdateDataModel"
+  },
+  {
+    "name": "QuickPlayContext::ActivityBorderGeometry::Render",
+    "retail_va": "0x140549e20",
+    "retail_rva": "0x549e20",
+    "class": "QuickPlayContext",
+    "function": "Render"
+  },
+  {
+    "name": "RemotePlayerCharacter::ApplySavedInventory",
+    "retail_va": "0x141159960",
+    "retail_rva": "0x1159960",
+    "class": "RemotePlayerCharacter",
+    "function": "ApplySavedInventory"
+  },
+  {
+    "name": "ServerPromptDataModel::ShowPrompt",
+    "retail_va": "0x1436be7d0",
+    "retail_rva": "0x36be7d0",
+    "class": "ServerPromptDataModel",
+    "function": "ShowPrompt"
+  },
+  {
+    "name": "Sky::Update",
+    "retail_va": "0x140873760",
+    "retail_rva": "0x873760",
+    "class": "Sky",
+    "function": "Update"
+  },
+  {
+    "name": "SnapTemplateUtils::ForEachSnapPoint",
+    "retail_va": "0x141fbe5b0",
+    "retail_rva": "0x1fbe5b0",
+    "class": "SnapTemplateUtils",
+    "function": "ForEachSnapPoint"
+  },
+  {
+    "name": "SnapshotFollowingPlannerHandlerAgent::PerformMovementPlanning",
+    "retail_va": "0x140adc100",
+    "retail_rva": "0xadc100",
+    "class": "SnapshotFollowingPlannerHandlerAgent",
+    "function": "PerformMovementPlanning"
+  },
+  {
+    "name": "SnapshotFollowingPlannerHandlerAgent::UpdateSmallDelta_Planner",
+    "retail_va": "0x140887290",
+    "retail_rva": "0x887290",
+    "class": "SnapshotFollowingPlannerHandlerAgent",
+    "function": "UpdateSmallDelta_Planner"
+  },
+  {
+    "name": "StormWallManager::UpdateEffects",
+    "retail_va": "0x141ac00c0",
+    "retail_rva": "0x1ac00c0",
+    "class": "StormWallManager",
+    "function": "UpdateEffects"
+  },
+  {
+    "name": "TES::LoadAndAttachInteriorCell",
+    "retail_va": "0x140d8c6b0",
+    "retail_rva": "0xd8c6b0",
+    "class": "TES",
+    "function": "LoadAndAttachInteriorCell"
+  },
+  {
+    "name": "TES::LoadGridCell()",
+    "retail_va": "0x1408ff419",
+    "retail_rva": "0x8ff419",
+    "class": "TES",
+    "function": "LoadGridCell()"
+  },
+  {
+    "name": "TES::LoadedAndAttachInteriorCell",
+    "retail_va": "0x140d8c6b0",
+    "retail_rva": "0xd8c6b0",
+    "class": "TES",
+    "function": "LoadedAndAttachInteriorCell"
+  },
+  {
+    "name": "TESActorBaseData::CreateTemplateActorBase",
+    "retail_va": "0x141654b30",
+    "retail_rva": "0x1654b30",
+    "class": "TESActorBaseData",
+    "function": "CreateTemplateActorBase"
+  },
+  {
+    "name": "TESDataHandler::ConstructObject",
+    "retail_va": "0x141abbf00",
+    "retail_rva": "0x1abbf00",
+    "class": "TESDataHandler",
+    "function": "ConstructObject"
+  },
+  {
+    "name": "TESForm::GetFormByNumericID",
+    "retail_va": "0x140d96eb1",
+    "retail_rva": "0xd96eb1",
+    "class": "TESForm",
+    "function": "GetFormByNumericID"
+  },
+  {
+    "name": "TESObjectCELL::AddReference",
+    "retail_va": "0x14146bdc0",
+    "retail_rva": "0x146bdc0",
+    "class": "TESObjectCELL",
+    "function": "AddReference"
+  },
+  {
+    "name": "TESObjectCELL::AttachModels",
+    "retail_va": "0x1418f5580",
+    "retail_rva": "0x18f5580",
+    "class": "TESObjectCELL",
+    "function": "AttachModels"
+  },
+  {
+    "name": "TESObjectCELL::UnlockEnlightenData",
+    "retail_va": "0x141ac00c0",
+    "retail_rva": "0x1ac00c0",
+    "class": "TESObjectCELL",
+    "function": "UnlockEnlightenData"
+  },
+  {
+    "name": "TESObjectCELL::UpdateManagedNodes",
+    "retail_va": "0x1408d9530",
+    "retail_rva": "0x8d9530",
+    "class": "TESObjectCELL",
+    "function": "UpdateManagedNodes"
+  },
+  {
+    "name": "TESObjectREFR::ActivateRef",
+    "retail_va": "0x141245829",
+    "retail_rva": "0x1245829",
+    "class": "TESObjectREFR",
+    "function": "ActivateRef"
+  },
+  {
+    "name": "TESObjectREFR::CreateInventoryList",
+    "retail_va": "0x141ab40b0",
+    "retail_rva": "0x1ab40b0",
+    "class": "TESObjectREFR",
+    "function": "CreateInventoryList"
+  },
+  {
+    "name": "TESObjectREFR::DetachHavok",
+    "retail_va": "0x1416a25d0",
+    "retail_rva": "0x16a25d0",
+    "class": "TESObjectREFR",
+    "function": "DetachHavok"
+  },
+  {
+    "name": "TESObjectREFR::Events::SendResolveNPCTemplatesEvent",
+    "retail_va": "0x1436be7d0",
+    "retail_rva": "0x36be7d0",
+    "class": "TESObjectREFR",
+    "function": "SendResolveNPCTemplatesEvent"
+  },
+  {
+    "name": "TESObjectREFR::GetInteraction()",
+    "retail_va": "0x143935cb0",
+    "retail_rva": "0x3935cb0",
+    "class": "TESObjectREFR",
+    "function": "GetInteraction()"
+  },
+  {
+    "name": "TESObjectREFR::GetWeightInContainer",
+    "retail_va": "0x140d389c0",
+    "retail_rva": "0xd389c0",
+    "class": "TESObjectREFR",
+    "function": "GetWeightInContainer"
+  },
+  {
+    "name": "TESObjectREFR::InitHavok()",
+    "retail_va": "0x141f508c0",
+    "retail_rva": "0x1f508c0",
+    "class": "TESObjectREFR",
+    "function": "InitHavok()"
+  },
+  {
+    "name": "TESQuestInstance::AddPlayerToActiveArray",
+    "retail_va": "0x1413764d0",
+    "retail_rva": "0x13764d0",
+    "class": "TESQuestInstance",
+    "function": "AddPlayerToActiveArray"
+  },
+  {
+    "name": "TESQuestInstance::GetAllMatchingInfosHelper",
+    "retail_va": "0x141cb6bf0",
+    "retail_rva": "0x1cb6bf0",
+    "class": "TESQuestInstance",
+    "function": "GetAllMatchingInfosHelper"
+  },
+  {
+    "name": "TESWorldSpace::LoadCell",
+    "retail_va": "0x1428972f0",
+    "retail_rva": "0x28972f0",
+    "class": "TESWorldSpace",
+    "function": "LoadCell"
+  },
+  {
+    "name": "TESWorldSpace::RemoveFromPersistentRefData",
+    "retail_va": "0x141ab6750",
+    "retail_rva": "0x1ab6750",
+    "class": "TESWorldSpace",
+    "function": "RemoveFromPersistentRefData"
+  },
+  {
+    "name": "TeamSnapshotComponent::PostSerializeRead",
+    "retail_va": "0x142bf7ed0",
+    "retail_rva": "0x2bf7ed0",
+    "class": "TeamSnapshotComponent",
+    "function": "PostSerializeRead"
+  },
+  {
+    "name": "UIDataShuttleManager::Flush",
+    "retail_va": "0x142032890",
+    "retail_rva": "0x2032890",
+    "class": "UIDataShuttleManager",
+    "function": "Flush"
+  },
+  {
+    "name": "Umbra::ProcessMultiStreamInstanceShadows",
+    "retail_va": "0x141cb6bf0",
+    "retail_rva": "0x1cb6bf0",
+    "class": "Umbra",
+    "function": "ProcessMultiStreamInstanceShadows"
+  },
+  {
+    "name": "VirtualMachine::DispatchMethodCallImpl",
+    "retail_va": "0x142db9d30",
+    "retail_rva": "0x2db9d30",
+    "class": "VirtualMachine",
+    "function": "DispatchMethodCallImpl"
+  },
+  {
+    "name": "VirtualMachine::FindBoundObject",
+    "retail_va": "0x14065aa40",
+    "retail_rva": "0x65aa40",
+    "class": "VirtualMachine",
+    "function": "FindBoundObject"
+  },
+  {
+    "name": "WorkbenchMenuBase::ProcessMessage",
+    "retail_va": "0x140ede1b0",
+    "retail_rva": "0xede1b0",
+    "class": "WorkbenchMenuBase",
+    "function": "ProcessMessage"
+  },
+  {
+    "name": "Workshop::CreateWall",
+    "retail_va": "0x141d06890",
+    "retail_rva": "0x1d06890",
+    "class": "Workshop",
+    "function": "CreateWall"
+  },
+  {
+    "name": "Workshop::ExtraData::CreateWall Called.",
+    "retail_va": "0x141d06890",
+    "retail_rva": "0x1d06890",
+    "class": "Workshop",
+    "function": "CreateWall Called."
+  },
+  {
+    "name": "Workshop::UpdateCellAttachment::CaptureBorders",
+    "retail_va": "0x14117b0e0",
+    "retail_rva": "0x117b0e0",
+    "class": "Workshop",
+    "function": "CaptureBorders"
+  },
+  {
+    "name": "WorkshopClient::MultiEditHelper::PreStackItem",
+    "retail_va": "0x141bbcff0",
+    "retail_rva": "0x1bbcff0",
+    "class": "WorkshopClient",
+    "function": "PreStackItem"
+  },
+  {
+    "name": "WorkshopClient::MultiEditHelper::PrepareBlueprintPackin",
+    "retail_va": "0x140c91a60",
+    "retail_rva": "0xc91a60",
+    "class": "WorkshopClient",
+    "function": "PrepareBlueprintPackin"
+  },
+  {
+    "name": "WorkshopClient::TestBlueprintSupport",
+    "retail_va": "0x140c91a60",
+    "retail_rva": "0xc91a60",
+    "class": "WorkshopClient",
+    "function": "TestBlueprintSupport"
+  },
+  {
+    "name": "WorkshopCommonUpdate::CheckCollisionAgainstWorld",
+    "retail_va": "0x140ed1720",
+    "retail_rva": "0xed1720",
+    "class": "WorkshopCommonUpdate",
+    "function": "CheckCollisionAgainstWorld"
+  }
+]

@@ -1,0 +1,1650 @@
+{
+  "LoadedAreaManager::ForEachLoadedExteriorCell": {
+    "dev_va": 5379427136,
+    "dev_rva": 10718016,
+    "retail_rva": 18073760,
+    "retail_va": 5386782880,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ExtraDataList::CompareList": {
+    "dev_va": 5380924912,
+    "dev_rva": 12215792,
+    "retail_rva": 24628288,
+    "retail_va": 5393337408,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ModelLoader::UpdateAttachDistant3DQueue": {
+    "dev_va": 5381905328,
+    "dev_rva": 13196208,
+    "retail_rva": 11595712,
+    "retail_va": 5380304832,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ModelLoader::ClearUnusedModels": {
+    "dev_va": 5381910368,
+    "dev_rva": 13201248,
+    "retail_rva": 46502224,
+    "retail_va": 5415211344,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TES::LoadAndAttachInteriorCell": {
+    "dev_va": 5381966416,
+    "dev_rva": 13257296,
+    "retail_rva": 14206640,
+    "retail_va": 5382915760,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TES::LoadedAndAttachInteriorCell": {
+    "dev_va": 5381966416,
+    "dev_rva": 13257296,
+    "retail_rva": 14206640,
+    "retail_va": 5382915760,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TES::LoadGridCell()": {
+    "dev_va": 5382007520,
+    "dev_rva": 13298400,
+    "retail_rva": 9434137,
+    "retail_va": 5378143257,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "TESDataHandler::ConstructObject": {
+    "dev_va": 5382152480,
+    "dev_rva": 13443360,
+    "retail_rva": 28032768,
+    "retail_va": 5396741888,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "TESActorBaseData::CreateTemplateActorBase": {
+    "dev_va": 5382386896,
+    "dev_rva": 13677776,
+    "retail_rva": 23415600,
+    "retail_va": 5392124720,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESForm::GetFormByNumericID": {
+    "dev_va": 5382426768,
+    "dev_rva": 13717648,
+    "retail_rva": 14249649,
+    "retail_va": 5382958769,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSDynamicPersistenceManager::QueueTask": {
+    "dev_va": 5382700576,
+    "dev_rva": 13991456,
+    "retail_rva": 33802544,
+    "retail_va": 5402511664,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "DynPersistance::Pause": {
+    "dev_va": 5382701616,
+    "dev_rva": 13992496,
+    "retail_rva": 28929856,
+    "retail_va": 5397638976,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSGrassManager::ProcessAttachQueue()": {
+    "dev_va": 5382778400,
+    "dev_rva": 14069280,
+    "retail_rva": 28010320,
+    "retail_va": 5396719440,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSGrassManager::AddCellGrass": {
+    "dev_va": 5382796000,
+    "dev_rva": 14086880,
+    "retail_rva": 33707760,
+    "retail_va": 5402416880,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BSTransCon::UdAllButTgt": {
+    "dev_va": 5383147280,
+    "dev_rva": 14438160,
+    "retail_rva": 60040800,
+    "retail_va": 5428749920,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "InstancedCellManager::ForEachLoc": {
+    "dev_va": 5383238704,
+    "dev_rva": 14529584,
+    "retail_rva": 12377856,
+    "retail_va": 5381086976,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "LoadedAreaManager::ClearOldestUnattachedBufferedCell": {
+    "dev_va": 5383370224,
+    "dev_rva": 14661104,
+    "retail_rva": 24207872,
+    "retail_va": 5392916992,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "SnapTemplateUtils::ForEachSnapPoint": {
+    "dev_va": 5383571008,
+    "dev_rva": 14861888,
+    "retail_rva": 33285552,
+    "retail_va": 5401994672,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "WorkshopCommonUpdate::CheckCollisionAgainstWorld": {
+    "dev_va": 5383948928,
+    "dev_rva": 15239808,
+    "retail_rva": 15537952,
+    "retail_va": 5384247072,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Workshop::UpdateCellAttachment::CaptureBorders": {
+    "dev_va": 5384240768,
+    "dev_rva": 15531648,
+    "retail_rva": 18329824,
+    "retail_va": 5387038944,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "WorkshopClient::TestBlueprintSupport": {
+    "dev_va": 5384305872,
+    "dev_rva": 15596752,
+    "retail_rva": 13179488,
+    "retail_va": 5381888608,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "WorkshopClient::MultiEditHelper::PreStackItem": {
+    "dev_va": 5384313424,
+    "dev_rva": 15604304,
+    "retail_rva": 29085680,
+    "retail_va": 5397794800,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "WorkshopClient::MultiEditHelper::PrepareBlueprintPackin": {
+    "dev_va": 5384314464,
+    "dev_rva": 15605344,
+    "retail_rva": 13179488,
+    "retail_va": 5381888608,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Workshop::CreateWall": {
+    "dev_va": 5384463200,
+    "dev_rva": 15754080,
+    "retail_rva": 30435472,
+    "retail_va": 5399144592,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Workshop::ExtraData::CreateWall Called.": {
+    "dev_va": 5384463200,
+    "dev_rva": 15754080,
+    "retail_rva": 30435472,
+    "retail_va": 5399144592,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSSceneInstance::SetSceneActive": {
+    "dev_va": 5385512224,
+    "dev_rva": 16803104,
+    "retail_rva": 32031520,
+    "retail_va": 5400740640,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "TESQuestInstance::AddPlayerToActiveArray": {
+    "dev_va": 5385657760,
+    "dev_rva": 16948640,
+    "retail_rva": 20407504,
+    "retail_va": 5389116624,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BGSDebris::SpawnDebris": {
+    "dev_va": 5386115904,
+    "dev_rva": 17406784,
+    "retail_rva": 51829536,
+    "retail_va": 5420538656,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSCombinedCellGeometryDB::DeferredPreload": {
+    "dev_va": 5386958576,
+    "dev_rva": 18249456,
+    "retail_rva": 59898336,
+    "retail_va": 5428607456,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "CellLoaderTask::Finish": {
+    "dev_va": 5387115680,
+    "dev_rva": 18406560,
+    "retail_rva": 32494640,
+    "retail_va": 5401203760,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "TESObjectCELL::UpdateManagedNodes": {
+    "dev_va": 5387194704,
+    "dev_rva": 18485584,
+    "retail_rva": 9278768,
+    "retail_va": 5377987888,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "CELL::AttachToWorld": {
+    "dev_va": 5387216016,
+    "dev_rva": 18506896,
+    "retail_rva": 15589808,
+    "retail_va": 5384298928,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESObjectCELL::AttachModels": {
+    "dev_va": 5387267280,
+    "dev_rva": 18558160,
+    "retail_rva": 26170752,
+    "retail_va": 5394879872,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "TESObjectCELL::UnlockEnlightenData": {
+    "dev_va": 5387347824,
+    "dev_rva": 18638704,
+    "retail_rva": 28049600,
+    "retail_va": 5396758720,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "TESObjectCELL::AddReference": {
+    "dev_va": 5387530560,
+    "dev_rva": 18821440,
+    "retail_rva": 21413312,
+    "retail_va": 5390122432,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESObjectREFR::GetInteraction()": {
+    "dev_va": 5387636288,
+    "dev_rva": 18927168,
+    "retail_rva": 59989168,
+    "retail_va": 5428698288,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "TESObjectREFR::DetachHavok": {
+    "dev_va": 5387661824,
+    "dev_rva": 18952704,
+    "retail_rva": 23733712,
+    "retail_va": 5392442832,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESObjectREFR::ActivateRef": {
+    "dev_va": 5387712432,
+    "dev_rva": 19003312,
+    "retail_rva": 19159081,
+    "retail_va": 5387868201,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESObjectREFR::InitHavok()": {
+    "dev_va": 5387756336,
+    "dev_rva": 19047216,
+    "retail_rva": 32835776,
+    "retail_va": 5401544896,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::CommandModeEnter": {
+    "dev_va": 5388023168,
+    "dev_rva": 19314048,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::CommandModeExit": {
+    "dev_va": 5388023744,
+    "dev_rva": 19314624,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::Resurrect": {
+    "dev_va": 5388028064,
+    "dev_rva": 19318944,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::EnterBleedout": {
+    "dev_va": 5388029968,
+    "dev_rva": 19320848,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::ExitBleedout": {
+    "dev_va": 5388030544,
+    "dev_rva": 19321424,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::EnterSneaking": {
+    "dev_va": 5388031120,
+    "dev_rva": 19322000,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::EscortWaitStart": {
+    "dev_va": 5388031696,
+    "dev_rva": 19322576,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::EscortWaitStop": {
+    "dev_va": 5388032272,
+    "dev_rva": 19323152,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::ExitLooksMenu": {
+    "dev_va": 5388034160,
+    "dev_rva": 19325040,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::LockChanged": {
+    "dev_va": 5388043552,
+    "dev_rva": 19334432,
+    "retail_rva": 22528864,
+    "retail_va": 5391237984,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Events::Reset": {
+    "dev_va": 5388053856,
+    "dev_rva": 19344736,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "TESObjectREFR::Events::SendResolveNPCTemplatesEvent": {
+    "dev_va": 5388054432,
+    "dev_rva": 19345312,
+    "retail_rva": 57403344,
+    "retail_va": 5426112464,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Events::WaitStartEvent": {
+    "dev_va": 5388065712,
+    "dev_rva": 19356592,
+    "retail_rva": 55196496,
+    "retail_va": 5423905616,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Events::SwitchRaceCompleteEvent": {
+    "dev_va": 5388066720,
+    "dev_rva": 19357600,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::PickNewIdleEvent": {
+    "dev_va": 5388068720,
+    "dev_rva": 19359600,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::ActorForOnPCDialogueTarget": {
+    "dev_va": 5388069296,
+    "dev_rva": 19360176,
+    "retail_rva": 22528864,
+    "retail_va": 5391237984,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Events::OnPlayerHealTeammate": {
+    "dev_va": 5388071840,
+    "dev_rva": 19362720,
+    "retail_rva": 22528864,
+    "retail_va": 5391237984,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Events::OnPlayerCompanionDismiss": {
+    "dev_va": 5388072432,
+    "dev_rva": 19363312,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::OnPlayerCreateRobot": {
+    "dev_va": 5388074112,
+    "dev_rva": 19364992,
+    "retail_rva": 22528864,
+    "retail_va": 5391237984,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Events::OnPlayerEnterVertibird": {
+    "dev_va": 5388076336,
+    "dev_rva": 19367216,
+    "retail_rva": 22528864,
+    "retail_va": 5391237984,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Events::OnPlayerUseWorkBench": {
+    "dev_va": 5388076928,
+    "dev_rva": 19367808,
+    "retail_rva": 22528864,
+    "retail_va": 5391237984,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Events::OnSpeechChallengeAvailable": {
+    "dev_va": 5388077520,
+    "dev_rva": 19368400,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Events::WorkshopReferenceReservationChanged": {
+    "dev_va": 5388078096,
+    "dev_rva": 19368976,
+    "retail_rva": 10975680,
+    "retail_va": 5379684800,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "TESObjectREFR::GetWeightInContainer": {
+    "dev_va": 5388445712,
+    "dev_rva": 19736592,
+    "retail_rva": 13863360,
+    "retail_va": 5382572480,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESObjectREFR::CreateInventoryList": {
+    "dev_va": 5388451040,
+    "dev_rva": 19741920,
+    "retail_rva": 28000432,
+    "retail_va": 5396709552,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESWorldSpace::LoadCell": {
+    "dev_va": 5388585648,
+    "dev_rva": 19876528,
+    "retail_rva": 42562288,
+    "retail_va": 5411271408,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "TESWorldSpace::RemoveFromPersistentRefData": {
+    "dev_va": 5388602752,
+    "dev_rva": 19893632,
+    "retail_rva": 28010320,
+    "retail_va": 5396719440,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSScenePhaseInstance::EndPhase": {
+    "dev_va": 5390188816,
+    "dev_rva": 21479696,
+    "retail_rva": 30388208,
+    "retail_va": 5399097328,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "TESQuestInstance::GetAllMatchingInfosHelper": {
+    "dev_va": 5390919504,
+    "dev_rva": 22210384,
+    "retail_rva": 30108656,
+    "retail_va": 5398817776,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "LoadedAreaBound::AddToBirdsEyeHavokVisualDebugger": {
+    "dev_va": 5391020416,
+    "dev_rva": 22311296,
+    "retail_rva": 59252752,
+    "retail_va": 5427961872,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Sky::Update": {
+    "dev_va": 5391112912,
+    "dev_rva": 22403792,
+    "retail_rva": 8861536,
+    "retail_va": 5377570656,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ActorUtils::ForEachPlayerWithinRange": {
+    "dev_va": 5391943136,
+    "dev_rva": 23234016,
+    "retail_rva": 10064064,
+    "retail_va": 5378773184,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BGSTerrainManager::SetClipVolume": {
+    "dev_va": 5392975360,
+    "dev_rva": 24266240,
+    "retail_rva": 30197152,
+    "retail_va": 5398906272,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSTerrainManager::RunUpdate": {
+    "dev_va": 5392979440,
+    "dev_rva": 24270320,
+    "retail_rva": 34306912,
+    "retail_va": 5403016032,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BGSStoryTeller::BeginStartUpQuest": {
+    "dev_va": 5393364768,
+    "dev_rva": 24655648,
+    "retail_rva": 10153024,
+    "retail_va": 5378862144,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BGSStoryTeller::PushUpdateEventsFromChanges:OnPreFlushFunc": {
+    "dev_va": 5393390752,
+    "dev_rva": 24681632,
+    "retail_rva": 24670512,
+    "retail_va": 5393379632,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "QuestTrackerDataModel::UpdateDataModel": {
+    "dev_va": 5394283344,
+    "dev_rva": 25574224,
+    "retail_rva": 60017744,
+    "retail_va": 5428726864,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "QuestTrackerDataModel::SynchronizeObjectives": {
+    "dev_va": 5394285936,
+    "dev_rva": 25576816,
+    "retail_rva": 23733712,
+    "retail_va": 5392442832,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "LocalPlayerCharacter::PreNetUpdate": {
+    "dev_va": 5397011648,
+    "dev_rva": 28302528,
+    "retail_rva": 59253472,
+    "retail_va": 5427962592,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "NetworkPathManager::BuildPathImpl": {
+    "dev_va": 5397057952,
+    "dev_rva": 28348832,
+    "retail_rva": 10710416,
+    "retail_va": 5379419536,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "ExtraPowerArmorBeacon::UpdateBeaconState": {
+    "dev_va": 5397108480,
+    "dev_rva": 28399360,
+    "retail_rva": 34821471,
+    "retail_va": 5403530591,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "PowerArmor::PowerArmorWorkBenchExitComplete": {
+    "dev_va": 5397216752,
+    "dev_rva": 28507632,
+    "retail_rva": 33748272,
+    "retail_va": 5402457392,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "RemotePlayerCharacter::ApplySavedInventory": {
+    "dev_va": 5397227376,
+    "dev_rva": 28518256,
+    "retail_rva": 18192736,
+    "retail_va": 5386901856,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "PerkVisitor::RenderPerkVisitor": {
+    "dev_va": 5397734096,
+    "dev_rva": 29024976,
+    "retail_rva": 22602928,
+    "retail_va": 5391312048,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "QuickPlayContext::ActivityBorderGeometry::Render": {
+    "dev_va": 5398733808,
+    "dev_rva": 30024688,
+    "retail_rva": 5545504,
+    "retail_va": 5374254624,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "StormWallManager::UpdateEffects": {
+    "dev_va": 5399058512,
+    "dev_rva": 30349392,
+    "retail_rva": 28049600,
+    "retail_va": 5396758720,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "TeamSnapshotComponent::PostSerializeRead": {
+    "dev_va": 5399148224,
+    "dev_rva": 30439104,
+    "retail_rva": 46104272,
+    "retail_va": 5414813392,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "ServerPromptDataModel::ShowPrompt": {
+    "dev_va": 5401233264,
+    "dev_rva": 32524144,
+    "retail_rva": 57403344,
+    "retail_va": 5426112464,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "InventoryDataModel::FlushRemoveQueue": {
+    "dev_va": 5402699744,
+    "dev_rva": 33990624,
+    "retail_rva": 28929856,
+    "retail_va": 5397638976,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "OtherInventoryTypeDataModel::ContainerInteractionMsg": {
+    "dev_va": 5402711008,
+    "dev_rva": 34001888,
+    "retail_rva": 34306912,
+    "retail_va": 5403016032,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "InventoryDataModel::ProcessEvent::BGSInventoryListEvent": {
+    "dev_va": 5402822416,
+    "dev_rva": 34113296,
+    "retail_rva": 24207872,
+    "retail_va": 5392916992,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "OtherInventoryTypeDataModel::UpdateSlotData": {
+    "dev_va": 5402963392,
+    "dev_rva": 34254272,
+    "retail_rva": 25800784,
+    "retail_va": 5394509904,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "HUDDataModel::UpdateCompassModel::CompassMarkerFunctor.ClearParamList": {
+    "dev_va": 5404546192,
+    "dev_rva": 35837072,
+    "retail_rva": 6659077,
+    "retail_va": 5375368197,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "HUDNotificationsModel::ProcessEvent_InventoryList": {
+    "dev_va": 5404644224,
+    "dev_rva": 35935104,
+    "retail_rva": 6360016,
+    "retail_va": 5375069136,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "ExamineMenu::AdvanceMovie": {
+    "dev_va": 5405446736,
+    "dev_rva": 36737616,
+    "retail_rva": 4900768,
+    "retail_va": 5373609888,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ExamineMenu::CalculateKnownModsStatus": {
+    "dev_va": 5405520528,
+    "dev_rva": 36811408,
+    "retail_rva": 33695776,
+    "retail_va": 5402404896,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "PipboyMenu::MovieLoaded": {
+    "dev_va": 5406217008,
+    "dev_rva": 37507888,
+    "retail_rva": 46502224,
+    "retail_va": 5415211344,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "WorkbenchMenuBase::ProcessMessage": {
+    "dev_va": 5406622112,
+    "dev_rva": 37912992,
+    "retail_rva": 15589808,
+    "retail_va": 5384298928,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "PipboyPlayerInfoData::FillCarryWeightData": {
+    "dev_va": 5407135184,
+    "dev_rva": 38426064,
+    "retail_rva": 55863536,
+    "retail_va": 5424572656,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ActiveEffectManager::ForEachActiveEffect": {
+    "dev_va": 5407299488,
+    "dev_rva": 38590368,
+    "retail_rva": 33802544,
+    "retail_va": 5402511664,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BGSInventoryUtils::RemoveNonRefItem": {
+    "dev_va": 5407744144,
+    "dev_rva": 39035024,
+    "retail_rva": 25272384,
+    "retail_va": 5393981504,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ActorMotionComponent::HandleActorNetworkedLocationWarp": {
+    "dev_va": 5408491088,
+    "dev_rva": 39781968,
+    "retail_rva": 32165920,
+    "retail_va": 5400875040,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ActorPerksSnapshotComponent::Serialize": {
+    "dev_va": 5408509312,
+    "dev_rva": 39800192,
+    "retail_rva": 18073760,
+    "retail_va": 5386782880,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ConvergenceAim::ClearAimAtPoints": {
+    "dev_va": 5408520192,
+    "dev_rva": 39811072,
+    "retail_rva": 19436192,
+    "retail_va": 5388145312,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "CharacterCustomizationNetworkData::Set": {
+    "dev_va": 5408688736,
+    "dev_rva": 39979616,
+    "retail_rva": 50933440,
+    "retail_va": 5419642560,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "CharacterManager::LocalCharGenCompleted": {
+    "dev_va": 5408717024,
+    "dev_rva": 40007904,
+    "retail_rva": 11463168,
+    "retail_va": 5380172288,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ClientInventoryMutator::SetEquipped": {
+    "dev_va": 5408815168,
+    "dev_rva": 40106048,
+    "retail_rva": 21558336,
+    "retail_va": 5390267456,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "DeferredComponentUpdate::Impl::TryFlush": {
+    "dev_va": 5408856864,
+    "dev_rva": 40147744,
+    "retail_rva": 27172816,
+    "retail_va": 5395881936,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "DistantAudioManager::Update": {
+    "dev_va": 5408863680,
+    "dev_rva": 40154560,
+    "retail_rva": 9776160,
+    "retail_va": 5378485280,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "NetworkJobAccumulator::ProcessJobFunctor": {
+    "dev_va": 5409159664,
+    "dev_rva": 40450544,
+    "retail_rva": 28049600,
+    "retail_va": 5396758720,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "OtherInventoryTypeDataModel::VendorSnapshotData::PSRPreREFR": {
+    "dev_va": 5409446800,
+    "dev_rva": 40737680,
+    "retail_rva": 28219280,
+    "retail_va": 5396928400,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ProjectilePhysicsSnapshotComponent::UpdateInterpolator": {
+    "dev_va": 5409469248,
+    "dev_rva": 40760128,
+    "retail_rva": 10572832,
+    "retail_va": 5379281952,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "GameNetworkMessageManager::HandleMessage": {
+    "dev_va": 5409547120,
+    "dev_rva": 40838000,
+    "retail_rva": 33556000,
+    "retail_va": 5402265120,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BGSUnloadedFormBuffer::Save": {
+    "dev_va": 5410841072,
+    "dev_rva": 42131952,
+    "retail_rva": 14570592,
+    "retail_va": 5383279712,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "PerkVisitor::NotifyPerksOnLoad": {
+    "dev_va": 5411361136,
+    "dev_rva": 42652016,
+    "retail_rva": 10520016,
+    "retail_va": 5379229136,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Actor::Disable": {
+    "dev_va": 5411430000,
+    "dev_rva": 42720880,
+    "retail_rva": 7171776,
+    "retail_va": 5375880896,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::TrymoveToMiddleLow": {
+    "dev_va": 5411434608,
+    "dev_rva": 42725488,
+    "retail_rva": 7171776,
+    "retail_va": 5375880896,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::DetachHavok": {
+    "dev_va": 5411442560,
+    "dev_rva": 42733440,
+    "retail_rva": 59253472,
+    "retail_va": 5427962592,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::RagdollHandler::DoRagdoll": {
+    "dev_va": 5411452912,
+    "dev_rva": 42743792,
+    "retail_rva": 12377856,
+    "retail_va": 5381086976,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Actor::ChangeProcessLevel": {
+    "dev_va": 5411546528,
+    "dev_rva": 42837408,
+    "retail_rva": 9738640,
+    "retail_va": 5378447760,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::InitiateDialogue": {
+    "dev_va": 5411583968,
+    "dev_rva": 42874848,
+    "retail_rva": 27991760,
+    "retail_va": 5396700880,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::SetLooking": {
+    "dev_va": 5411601536,
+    "dev_rva": 42892416,
+    "retail_rva": 59711456,
+    "retail_va": 5428420576,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Actor::MovetoMiddleHigh": {
+    "dev_va": 5411615872,
+    "dev_rva": 42906752,
+    "retail_rva": 10572832,
+    "retail_va": 5379281952,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::ResetCachedValuesForPerk": {
+    "dev_va": 5411657824,
+    "dev_rva": 42948704,
+    "retail_rva": 23733712,
+    "retail_va": 5392442832,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::ApplyPerksFromBase": {
+    "dev_va": 5411658272,
+    "dev_rva": 42949152,
+    "retail_rva": 7171776,
+    "retail_va": 5375880896,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::ClearLookAtTarget": {
+    "dev_va": 5411704672,
+    "dev_rva": 42995552,
+    "retail_rva": 29455936,
+    "retail_va": 5398165056,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::WornArmorChanged": {
+    "dev_va": 5411834896,
+    "dev_rva": 43125776,
+    "retail_rva": 7171776,
+    "retail_va": 5375880896,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::AdjustForCap": {
+    "dev_va": 5412206176,
+    "dev_rva": 43497056,
+    "retail_rva": 7245712,
+    "retail_va": 5375954832,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "Actor::PostReanimate": {
+    "dev_va": 5412334256,
+    "dev_rva": 43625136,
+    "retail_rva": 59711456,
+    "retail_va": 5428420576,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ActorEquipManager::EquipFirstEqual": {
+    "dev_va": 5412361952,
+    "dev_rva": 43652832,
+    "retail_rva": 59718112,
+    "retail_va": 5428427232,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ActorEquipManager::UseItem": {
+    "dev_va": 5412370624,
+    "dev_rva": 43661504,
+    "retail_rva": 33744816,
+    "retail_va": 5402453936,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "AIProcess::ProcessGreet": {
+    "dev_va": 5412446096,
+    "dev_rva": 43736976,
+    "retail_rva": 8307792,
+    "retail_va": 5377016912,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "AIProcess::Update3dModel": {
+    "dev_va": 5412530512,
+    "dev_rva": 43821392,
+    "retail_rva": 6662720,
+    "retail_va": 5375371840,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "AIProcess::DoUpdate3dModel": {
+    "dev_va": 5412640672,
+    "dev_rva": 43931552,
+    "retail_rva": 25996224,
+    "retail_va": 5394705344,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "AIProcess::UpdateKnockState": {
+    "dev_va": 5412760576,
+    "dev_rva": 44051456,
+    "retail_rva": 46348784,
+    "retail_va": 5415057904,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "AIProcess::SetFurniture": {
+    "dev_va": 5412776384,
+    "dev_rva": 44067264,
+    "retail_rva": 6662720,
+    "retail_va": 5375371840,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "AIProcess::UpdateTimers": {
+    "dev_va": 5412787552,
+    "dev_rva": 44078432,
+    "retail_rva": 24617072,
+    "retail_va": 5393326192,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "LocalPlayerCharacter::GetInventoryEncumbrance": {
+    "dev_va": 5412935184,
+    "dev_rva": 44226064,
+    "retail_rva": 23532880,
+    "retail_va": 5392242000,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "LocalPlayerCharacter::Update Block 1": {
+    "dev_va": 5412941824,
+    "dev_rva": 44232704,
+    "retail_rva": 47288768,
+    "retail_va": 5415997888,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "LocalPlayerCharacter::UpdatePickRef": {
+    "dev_va": 5413003792,
+    "dev_rva": 44294672,
+    "retail_rva": 60048912,
+    "retail_va": 5428758032,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "LocalPlayerCharacter::OnNetworkBaselinesComplete::RunScript": {
+    "dev_va": 5413041584,
+    "dev_rva": 44332464,
+    "retail_rva": 33537488,
+    "retail_va": 5402246608,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "LocalPlayerCharacter::ClearQuickPlayContext": {
+    "dev_va": 5413044384,
+    "dev_rva": 44335264,
+    "retail_rva": 59324848,
+    "retail_va": 5428033968,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ProcessLists::AddReference::SkippingBecauseInstanced": {
+    "dev_va": 5413367312,
+    "dev_rva": 44658192,
+    "retail_rva": 33717616,
+    "retail_va": 5402426736,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ProcessLists::UpdateClient": {
+    "dev_va": 5413372880,
+    "dev_rva": 44663760,
+    "retail_rva": 46348784,
+    "retail_va": 5415057904,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "Explosion::ProcessTargets": {
+    "dev_va": 5414108576,
+    "dev_rva": 45399456,
+    "retail_rva": 10572832,
+    "retail_va": 5379281952,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSJobs::CombatUpdateJob": {
+    "dev_va": 5415213920,
+    "dev_rva": 46504800,
+    "retail_rva": 46435568,
+    "retail_va": 5415144688,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "FirstPersonState::Update": {
+    "dev_va": 5417267856,
+    "dev_rva": 48558736,
+    "retail_rva": 46229168,
+    "retail_va": 5414938288,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "PlayerCamera::GetCameraPosition": {
+    "dev_va": 5417307344,
+    "dev_rva": 48598224,
+    "retail_rva": 10150432,
+    "retail_va": 5378859552,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ObjectInterface::GetMember": {
+    "dev_va": 5426474816,
+    "dev_rva": 57765696,
+    "retail_rva": 60257984,
+    "retail_va": 5428967104,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ObjectInterface::SetMember": {
+    "dev_va": 5426475952,
+    "dev_rva": 57766832,
+    "retail_rva": 20651648,
+    "retail_va": 5389360768,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ObjectInterface::Invoke": {
+    "dev_va": 5426477232,
+    "dev_rva": 57768112,
+    "retail_rva": 20651648,
+    "retail_va": 5389360768,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ObjectInterface::InvokeClosure": {
+    "dev_va": 5426479088,
+    "dev_rva": 57769968,
+    "retail_rva": 41088256,
+    "retail_va": 5409797376,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "ObjectInterface::GetArraySize": {
+    "dev_va": 5426483040,
+    "dev_rva": 57773920,
+    "retail_rva": 15468496,
+    "retail_va": 5384177616,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ObjectInterface::SetArraySize": {
+    "dev_va": 5426483280,
+    "dev_rva": 57774160,
+    "retail_rva": 15468496,
+    "retail_va": 5384177616,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ObjectInterface::GetCxform": {
+    "dev_va": 5426495696,
+    "dev_rva": 57786576,
+    "retail_rva": 15468496,
+    "retail_va": 5384177616,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ObjectInterface::SetCxform": {
+    "dev_va": 5426496000,
+    "dev_rva": 57786880,
+    "retail_rva": 15468496,
+    "retail_va": 5384177616,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "ObjectInterface::CreateEmptyMovieClip": {
+    "dev_va": 5426497952,
+    "dev_rva": 57788832,
+    "retail_rva": 60121008,
+    "retail_va": 5428830128,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BShkbHkxDB::Create": {
+    "dev_va": 5441883984,
+    "dev_rva": 73174864,
+    "retail_rva": 18244416,
+    "retail_va": 5386953536,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSHkbHkxDB::Demand": {
+    "dev_va": 5441888336,
+    "dev_rva": 73179216,
+    "retail_rva": 4450848,
+    "retail_va": 5373159968,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "AnimationFileManagerSingleton::Update": {
+    "dev_va": 5442079296,
+    "dev_rva": 73370176,
+    "retail_rva": 33733072,
+    "retail_va": 5402442192,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSCastUtility::ShapeCastInWorld": {
+    "dev_va": 5444510448,
+    "dev_rva": 75801328,
+    "retail_rva": 4453536,
+    "retail_va": 5373162656,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "IOManager::OnProcessResources": {
+    "dev_va": 5446565696,
+    "dev_rva": 77856576,
+    "retail_rva": 34525216,
+    "retail_va": 5403234336,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSTextureStreamer::HandleLoadRequest": {
+    "dev_va": 5446927200,
+    "dev_rva": 78218080,
+    "retail_rva": 15537952,
+    "retail_va": 5384247072,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BSTextureStreamer::HandleModifyRequest": {
+    "dev_va": 5446928880,
+    "dev_rva": 78219760,
+    "retail_rva": 59609920,
+    "retail_va": 5428319040,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSTextureStreamer::HandleUpgradeLoadRequest": {
+    "dev_va": 5446930384,
+    "dev_rva": 78221264,
+    "retail_rva": 33279712,
+    "retail_va": 5401988832,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSTextureStreamer::WaitForStreamedHandle": {
+    "dev_va": 5446956704,
+    "dev_rva": 78247584,
+    "retail_rva": 11595712,
+    "retail_va": 5380304832,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BSImGuiWebSocketRenderer::Render": {
+    "dev_va": 5447248224,
+    "dev_rva": 78539104,
+    "retail_rva": 27999712,
+    "retail_va": 5396708832,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BSImGuiWebSocketRenderer::ProcessEvent": {
+    "dev_va": 5447249056,
+    "dev_rva": 78539936,
+    "retail_rva": 27999712,
+    "retail_va": 5396708832,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "UIDataShuttleManager::Flush": {
+    "dev_va": 5447470192,
+    "dev_rva": 78761072,
+    "retail_rva": 33761424,
+    "retail_va": 5402470544,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "GamePadAnalogEvent::AS3Constructor": {
+    "dev_va": 5447920368,
+    "dev_rva": 79211248,
+    "retail_rva": 27224080,
+    "retail_va": 5395933200,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "PathManagerArbiter::SetGoal": {
+    "dev_va": 5448760512,
+    "dev_rva": 80051392,
+    "retail_rva": 12861472,
+    "retail_va": 5381570592,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "SnapshotFollowingPlannerHandlerAgent::UpdateSmallDelta_Planner": {
+    "dev_va": 5448937024,
+    "dev_rva": 80227904,
+    "retail_rva": 8942224,
+    "retail_va": 5377651344,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "SnapshotFollowingPlannerHandlerAgent::PerformMovementPlanning": {
+    "dev_va": 5448938912,
+    "dev_rva": 80229792,
+    "retail_rva": 11387136,
+    "retail_va": 5380096256,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSResource::GlobalLocations::Traverse": {
+    "dev_va": 5449278544,
+    "dev_rva": 80569424,
+    "retail_rva": 6945776,
+    "retail_va": 5375654896,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSResource::GlobalPaths::Traverse": {
+    "dev_va": 5449279504,
+    "dev_rva": 80570384,
+    "retail_rva": 6663680,
+    "retail_va": 5375372800,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BSResource::GlobalLocations::DoCreateAsyncStream": {
+    "dev_va": 5449294688,
+    "dev_rva": 80585568,
+    "retail_rva": 8684176,
+    "retail_va": 5377393296,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSResource::GlobalPaths::DoCreateAsyncStream": {
+    "dev_va": 5449295568,
+    "dev_rva": 80586448,
+    "retail_rva": 8684176,
+    "retail_va": 5377393296,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSResource::GlobalLocations::DoCreateStream": {
+    "dev_va": 5449297584,
+    "dev_rva": 80588464,
+    "retail_rva": 8684176,
+    "retail_va": 5377393296,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSResource::GlobalPaths::DoCreateStream": {
+    "dev_va": 5449298464,
+    "dev_rva": 80589344,
+    "retail_rva": 8684176,
+    "retail_va": 5377393296,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "VirtualMachine::FindBoundObject": {
+    "dev_va": 5449711504,
+    "dev_rva": 81002384,
+    "retail_rva": 6662720,
+    "retail_va": 5375371840,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "VirtualMachine::DispatchMethodCallImpl": {
+    "dev_va": 5449776448,
+    "dev_rva": 81067328,
+    "retail_rva": 47947056,
+    "retail_va": 5416656176,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSEnlighten::Global::ScopedLockPppiManager::EndUpdatePPPIIndirection": {
+    "dev_va": 5450432128,
+    "dev_rva": 81723008,
+    "retail_rva": 15307264,
+    "retail_va": 5384016384,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSEnlighten::EnlightenSceneData::UpdateCubeMaps": {
+    "dev_va": 5450449728,
+    "dev_rva": 81740608,
+    "retail_rva": 25192192,
+    "retail_va": 5393901312,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSEnlighten::EnlightenSceneData::UpdateSystemPriorities": {
+    "dev_va": 5450450144,
+    "dev_rva": 81741024,
+    "retail_rva": 28876496,
+    "retail_va": 5397585616,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSEnlighten::EnlightenSceneData::UpdateProbeSetPriorities": {
+    "dev_va": 5450450608,
+    "dev_rva": 81741488,
+    "retail_rva": 28876496,
+    "retail_va": 5397585616,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSEnlighten::EnlightenSceneData::UpdateDustersGPUVisibility": {
+    "dev_va": 5450451264,
+    "dev_rva": 81742144,
+    "retail_rva": 24158064,
+    "retail_va": 5392867184,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSEnlighten::EnlightenSceneData::ReinitializeMaterials": {
+    "dev_va": 5450453344,
+    "dev_rva": 81744224,
+    "retail_rva": 34176656,
+    "retail_va": 5402885776,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSEnlighten::Lightmaps::UpdateLights": {
+    "dev_va": 5450459264,
+    "dev_rva": 81750144,
+    "retail_rva": 32806512,
+    "retail_va": 5401515632,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSClusterRenderer::DoCullingAndPrepareForRendering": {
+    "dev_va": 5450565824,
+    "dev_rva": 81856704,
+    "retail_rva": 19634576,
+    "retail_va": 5388343696,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSClusterRenderer::GenerateBoundingSphere": {
+    "dev_va": 5450565824,
+    "dev_rva": 81856704,
+    "retail_rva": 19634576,
+    "retail_va": 5388343696,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSClusterRenderer::AppendIndices": {
+    "dev_va": 5450572944,
+    "dev_rva": 81863824,
+    "retail_rva": 24312704,
+    "retail_va": 5393021824,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSClusterRenderer::GatherToUnifiedBuffer": {
+    "dev_va": 5450574432,
+    "dev_rva": 81865312,
+    "retail_rva": 46498480,
+    "retail_va": 5415207600,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "DrawWorld::Render_UI": {
+    "dev_va": 5450753664,
+    "dev_rva": 82044544,
+    "retail_rva": 51814368,
+    "retail_va": 5420523488,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "DrawWorld::Render_PostUI": {
+    "dev_va": 5450757216,
+    "dev_rva": 82048096,
+    "retail_rva": 15872288,
+    "retail_va": 5384581408,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "DrawWorld::UpdateOcclusionMap": {
+    "dev_va": 5450771840,
+    "dev_rva": 82062720,
+    "retail_rva": 55417776,
+    "retail_va": 5424126896,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "DrawWorld::MainRenderSetup": {
+    "dev_va": 5450787408,
+    "dev_rva": 82078288,
+    "retail_rva": 6662720,
+    "retail_va": 5375371840,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSShaderAccumulator::FinishAccumulating_LODOnly": {
+    "dev_va": 5450872624,
+    "dev_rva": 82163504,
+    "retail_rva": 33717616,
+    "retail_va": 5402426736,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSShaderAccumulator::RenderBatches": {
+    "dev_va": 5450877248,
+    "dev_rva": 82168128,
+    "retail_rva": 9738640,
+    "retail_va": 5378447760,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSPreCulledObjects::AddToShadowCullingGroups": {
+    "dev_va": 5450902224,
+    "dev_rva": 82193104,
+    "retail_rva": 30066512,
+    "retail_va": 5398775632,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSPrecomputedVisibility::CombineStaticQueryResults": {
+    "dev_va": 5451150272,
+    "dev_rva": 82441152,
+    "retail_rva": 27340720,
+    "retail_va": 5396049840,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "BSPrecomputedVisibility::BuildShadowCullerJob": {
+    "dev_va": 5451151120,
+    "dev_rva": 82442000,
+    "retail_rva": 27340720,
+    "retail_va": 5396049840,
+    "sig_length_used": 16,
+    "match_type": "unique"
+  },
+  "MultiCellVisibilityData::StaticShadowSet": {
+    "dev_va": 5451151808,
+    "dev_rva": 82442688,
+    "retail_rva": 32929808,
+    "retail_va": 5401638928,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSPrecomputedVisibility::ShadowCullerBuilder::Build": {
+    "dev_va": 5451183344,
+    "dev_rva": 82474224,
+    "retail_rva": 26953984,
+    "retail_va": 5395663104,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "Umbra::ProcessMultiStreamInstanceShadows": {
+    "dev_va": 5451194112,
+    "dev_rva": 82484992,
+    "retail_rva": 30108656,
+    "retail_va": 5398817776,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSEnlighten::Probes::Scene::LoadProbeData": {
+    "dev_va": 5451845536,
+    "dev_rva": 83136416,
+    "retail_rva": 51681600,
+    "retail_va": 5420390720,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  },
+  "BSEnlighten::Probes::Scene::UpdateProbesVisualization": {
+    "dev_va": 5451852448,
+    "dev_rva": 83143328,
+    "retail_rva": 15861349,
+    "retail_va": 5384570469,
+    "sig_length_used": 24,
+    "match_type": "unique"
+  },
+  "BSSystemFileStreamer::WaitOnSignalCount": {
+    "dev_va": 5452769328,
+    "dev_rva": 84060208,
+    "retail_rva": 4806400,
+    "retail_va": 5373515520,
+    "sig_length_used": 32,
+    "match_type": "unique"
+  }
+}
