@@ -1,0 +1,994 @@
+{
+  "ConvertHalfToFloat": {
+    "address": "0x006944A0",
+    "source": "BSGeometry.cpp"
+  },
+  "UpdateShaderProperty": {
+    "address": "0x02845180",
+    "source": "BSGeometry.h"
+  },
+  "g_renderer": {
+    "address": "0x06759728",
+    "source": "BSGraphics.cpp"
+  },
+  "g_renderManager": {
+    "address": "0x06219900",
+    "source": "BSGraphics.cpp"
+  },
+  "g_renderTargetManager": {
+    "address": "0x03887D30",
+    "source": "BSGraphics.cpp"
+  },
+  "g_shaderResourceManager": {
+    "address": "0x05C41F08",
+    "source": "BSGraphics.cpp"
+  },
+  "g_D3D11Device": {
+    "address": "0x060D4F88",
+    "source": "BSGraphics.cpp"
+  },
+  "g_D3D11DeviceContext": {
+    "address": "0x06216C60",
+    "source": "BSGraphics.cpp"
+  },
+  "LockTextureType": {
+    "address": "0x01D32890",
+    "source": "BSGraphics.h"
+  },
+  "ReleaseTextureType": {
+    "address": "0x01D32920",
+    "source": "BSGraphics.h"
+  },
+  "Unk_01": {
+    "address": "0x01D32840",
+    "source": "BSGraphics.h"
+  },
+  "g_TESProcessor": {
+    "address": "0x0590C3F0",
+    "source": "BSModelDB.cpp"
+  },
+  "dtor": {
+    "address": "0x01BB90A0",
+    "source": "NiSerialization.h"
+  },
+  "Impl_Process": {
+    "address": "0x00137E50",
+    "source": "BSModelDB.h"
+  },
+  "g_consoleHandle": {
+    "address": "0x05B144A8",
+    "source": "GameAPI.cpp"
+  },
+  "g_mainHeap": {
+    "address": "0x03905A00",
+    "source": "GameAPI.cpp"
+  },
+  "g_console": {
+    "address": "0x05919B30",
+    "source": "GameAPI.cpp"
+  },
+  "Free": {
+    "address": "0x01B0F1C0",
+    "source": "GameAPI.h"
+  },
+  "VPrint": {
+    "address": "0x01262DA0",
+    "source": "GameAPI.h"
+  },
+  "Print": {
+    "address": "0x01262E30",
+    "source": "GameAPI.h"
+  },
+  "g_playerCamera": {
+    "address": "0x05907BA8",
+    "source": "GameCamera.cpp"
+  },
+  "SetCameraState": {
+    "address": "0x0082E810",
+    "source": "Hooks_Camera.cpp"
+  },
+  "CreateCharacterTintEntry": {
+    "address": "0x002A5630",
+    "source": "GameCustomization.cpp"
+  },
+  "CopyCharacterTints": {
+    "address": "0x002A4620",
+    "source": "GameCustomization.cpp"
+  },
+  "ClearCharacterTints": {
+    "address": "0x002AA8A0",
+    "source": "GameCustomization.cpp"
+  },
+  "FillTintTemplates": {
+    "address": "0x002A47C0",
+    "source": "GameCustomization.cpp"
+  },
+  "MergeTintTextures": {
+    "address": "0x00689A90",
+    "source": "GameCustomization.cpp"
+  },
+  "CreateMergeTintTextures": {
+    "address": "0x00689880",
+    "source": "GameCustomization.cpp"
+  },
+  "s_BGSCharacterTint_Template_MaskVtbl": {
+    "address": "0x02C94D58",
+    "source": "GameCustomization.cpp"
+  },
+  "s_BGSCharacterTint_Template_PaletteVtbl": {
+    "address": "0x02C94D88",
+    "source": "GameCustomization.cpp"
+  },
+  "s_BGSCharacterTint_Template_TextureSetVtbl": {
+    "address": "0x02C94DB8",
+    "source": "GameCustomization.cpp"
+  },
+  "g_characterCreation": {
+    "address": "0x05AA0470",
+    "source": "GameCustomization.cpp"
+  },
+  "g_characterIndex": {
+    "address": "0x05AA0490",
+    "source": "GameCustomization.cpp"
+  },
+  "g_faceGenManager": {
+    "address": "0x05909900",
+    "source": "GameCustomization.cpp"
+  },
+  "g_customizationDummy1": {
+    "address": "0x05A13DE8",
+    "source": "GameCustomization.cpp"
+  },
+  "g_customizationDummy2": {
+    "address": "0x05A13DB0",
+    "source": "GameCustomization.cpp"
+  },
+  "LoadPreset": {
+    "address": "0x00CACC20",
+    "source": "GameCustomization.h"
+  },
+  "ApplyDynamicData": {
+    "address": "0x00678D20",
+    "source": "GameCustomization.h"
+  },
+  "g_dataHandler": {
+    "address": "0x05908100",
+    "source": "GameData.cpp"
+  },
+  "g_isGameDataReady": {
+    "address": "0x05A91A64",
+    "source": "GameData.cpp"
+  },
+  "g_defaultObjectMap": {
+    "address": "0x0590C750",
+    "source": "GameData.cpp"
+  },
+  "g_defaultObjectMapLock": {
+    "address": "0x0590D1B8",
+    "source": "GameData.cpp"
+  },
+  "g_favoritesManager": {
+    "address": "0x05A98CE0",
+    "source": "GameData.cpp"
+  },
+  "g_globalEvents": {
+    "address": "0x05907C98",
+    "source": "GameEvents.cpp"
+  },
+  "s_ExtraPowerLinksVtbl": {
+    "address": "0x02C7C3C8",
+    "source": "GameExtraData.cpp"
+  },
+  "s_ExtraInstanceDataVtbl": {
+    "address": "0x02C7DC50",
+    "source": "GameExtraData.cpp"
+  },
+  "s_ExtraHealthVtbl": {
+    "address": "0x02C7C228",
+    "source": "GameExtraData.cpp"
+  },
+  "s_ExtraMaterialSwapVtbl": {
+    "address": "0x02C7C928",
+    "source": "GameExtraData.cpp"
+  },
+  "EvaluationConditions": {
+    "address": "0x0072AE60",
+    "source": "GameFormComponents.cpp"
+  },
+  "SetSex": {
+    "address": "0x00149720",
+    "source": "GameFormComponents.h"
+  },
+  "GetLevel": {
+    "address": "0x001497F0",
+    "source": "GameFormComponents.h"
+  },
+  "Get": {
+    "address": "0x0014FAF0",
+    "source": "GameFormComponents.h"
+  },
+  "ctor": {
+    "address": "0x027EFA70",
+    "source": "NiProperties.h"
+  },
+  "Evaluate": {
+    "address": "0x0072C410",
+    "source": "GameFormComponents.h"
+  },
+  "LookupFormByID": {
+    "address": "0x00152C90",
+    "source": "GameForms.cpp"
+  },
+  "g_formFactoryList": {
+    "address": "0x0590CC70",
+    "source": "GameForms.cpp"
+  },
+  "g_inputEventTable": {
+    "address": "0x05A98AB0",
+    "source": "GameInput.cpp"
+  },
+  "g_inputDeviceMgr": {
+    "address": "0x05A986B8",
+    "source": "GameInput.cpp"
+  },
+  "g_inputMgr": {
+    "address": "0x05A13260",
+    "source": "GameInput.cpp"
+  },
+  "g_menuControls": {
+    "address": "0x05909B58",
+    "source": "GameInput.cpp"
+  },
+  "g_playerControls": {
+    "address": "0x05A13268",
+    "source": "GameInput.cpp"
+  },
+  "Impl_OnGameMenuBaseButtonEvent": {
+    "address": "0x0210F610",
+    "source": "GameInput.h"
+  },
+  "HasHUDContext": {
+    "address": "0x00A4F270",
+    "source": "GameMenus.cpp"
+  },
+  "GetChildElement": {
+    "address": "0x020F0CA0",
+    "source": "GameMenus.cpp"
+  },
+  "g_ui": {
+    "address": "0x05909918",
+    "source": "GameMenus.cpp"
+  },
+  "g_uiMessageManager": {
+    "address": "0x05909B48",
+    "source": "GameMenus.cpp"
+  },
+  "g_menuTableLock": {
+    "address": "0x065B04B8",
+    "source": "GameMenus.cpp"
+  },
+  "SendUIMessage": {
+    "address": "0x0204CA70",
+    "source": "GameMenus.h"
+  },
+  "SendUIMessageEx": {
+    "address": "0x012BA8F0",
+    "source": "GameMenus.h"
+  },
+  "Impl_DrawNextFrame": {
+    "address": "0x0210EDB0",
+    "source": "GameMenus.h"
+  },
+  "Impl_ProcessMessage": {
+    "address": "0x0210ED30",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk07": {
+    "address": "0x0210F1F0",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk08": {
+    "address": "0x00B32930",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk09": {
+    "address": "0x0210F430",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk0A": {
+    "address": "0x00B329A0",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk0B": {
+    "address": "0x00B32A60",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk0C": {
+    "address": "0x00B32AA0",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk0D": {
+    "address": "0x0210F580",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk10": {
+    "address": "0x00B32750",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk11": {
+    "address": "0x00B327E0",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk12": {
+    "address": "0x00B32850",
+    "source": "GameMenus.h"
+  },
+  "Impl_Unk13": {
+    "address": "0x00B328A0",
+    "source": "GameMenus.h"
+  },
+  "LoadCharacterParameters": {
+    "address": "0x00B41460",
+    "source": "GameMenus.h"
+  },
+  "Impl_IsVisible": {
+    "address": "0x00A22C90",
+    "source": "GameMenus.h"
+  },
+  "Impl_UpdateComponent": {
+    "address": "0x00A229F0",
+    "source": "GameMenus.h"
+  },
+  "RegisterMenu": {
+    "address": "0x02043BD0",
+    "source": "GameMenus.h"
+  },
+  "IsMenuOpen": {
+    "address": "0x02042040",
+    "source": "GameMenus.h"
+  },
+  "SetTextureSet": {
+    "address": "0x00D5DE40",
+    "source": "GameMessages.h"
+  },
+  "PlaceAtMe_Native": {
+    "address": "0x0140AFC0",
+    "source": "GameObjects.cpp"
+  },
+  "HasOverlays": {
+    "address": "0x005BFFF0",
+    "source": "GameObjects.h"
+  },
+  "GetNumOverlayHeadParts": {
+    "address": "0x005C01C0",
+    "source": "GameObjects.h"
+  },
+  "GetSex": {
+    "address": "0x005A2440",
+    "source": "GameObjects.h"
+  },
+  "ChangeHeadPartRemovePart": {
+    "address": "0x005B5440",
+    "source": "GameObjects.h"
+  },
+  "ChangeHeadPart": {
+    "address": "0x005B9A10",
+    "source": "GameObjects.h"
+  },
+  "GetSkinColorFromTint": {
+    "address": "0x005B57C0",
+    "source": "GameObjects.h"
+  },
+  "Runtime_DynamicCast_Internal": {
+    "address": "0x0295BC2A",
+    "source": "GameRTTI.cpp"
+  },
+  "LookupREFRByHandle": {
+    "address": "0x0000AB60",
+    "source": "GameReferences.cpp"
+  },
+  "CreateHandleByREFR": {
+    "address": "0x0000A8A0",
+    "source": "GameReferences.cpp"
+  },
+  "HasDetectionLOS": {
+    "address": "0x0135B560",
+    "source": "GameReferences.cpp"
+  },
+  "GetLinkedRef_Native": {
+    "address": "0x00480EE0",
+    "source": "GameReferences.cpp"
+  },
+  "SetLinkedRef_Native": {
+    "address": "0x00480F00",
+    "source": "GameReferences.cpp"
+  },
+  "MoveRefrToPosition": {
+    "address": "0x013FE6C0",
+    "source": "GameReferences.cpp"
+  },
+  "g_player": {
+    "address": "0x05ADD3D8",
+    "source": "GameReferences.cpp"
+  },
+  "g_invalidRefHandle": {
+    "address": "0x03905E84",
+    "source": "GameReferences.cpp"
+  },
+  "GetInventoryWeight": {
+    "address": "0x00400350",
+    "source": "GameReferences.h"
+  },
+  "GetCarryWeight": {
+    "address": "0x00D870D0",
+    "source": "GameReferences.h"
+  },
+  "ForEachAlias": {
+    "address": "0x003F7840",
+    "source": "GameReferences.h"
+  },
+  "UpdateEquipment": {
+    "address": "0x00408150",
+    "source": "GameReferences.h"
+  },
+  "QueueUpdate": {
+    "address": "0x00D8A0D0",
+    "source": "GameReferences.h"
+  },
+  "IsHostileToActor": {
+    "address": "0x00D90F60",
+    "source": "GameReferences.h"
+  },
+  "g_iniSettings": {
+    "address": "0x05F14528",
+    "source": "GameSettings.cpp"
+  },
+  "g_iniPrefSettings": {
+    "address": "0x05B94E58",
+    "source": "GameSettings.cpp"
+  },
+  "g_regSettings": {
+    "address": "0x060D4DC0",
+    "source": "GameSettings.cpp"
+  },
+  "g_gameSettings": {
+    "address": "0x0591A080",
+    "source": "GameSettings.cpp"
+  },
+  "GetSetting": {
+    "address": "0x0001E290",
+    "source": "GameSettings.h"
+  },
+  "CreateFileStream": {
+    "address": "0x00535940",
+    "source": "GameStreams.cpp"
+  },
+  "ReadLine": {
+    "address": "0x01B93B20",
+    "source": "GameStreams.h"
+  },
+  "Destroy": {
+    "address": "0x02715910",
+    "source": "PapyrusValue.h"
+  },
+  "IsValid": {
+    "address": "0x01B93A00",
+    "source": "GameStreams.h"
+  },
+  "Seek": {
+    "address": "0x01B93A10",
+    "source": "GameStreams.h"
+  },
+  "Unk_04": {
+    "address": "0x01B93A80",
+    "source": "GameStreams.h"
+  },
+  "Read": {
+    "address": "0x01B93BE0",
+    "source": "GameStreams.h"
+  },
+  "Write": {
+    "address": "0x01B93C70",
+    "source": "GameStreams.h"
+  },
+  "LockForRead": {
+    "address": "0x01B10810",
+    "source": "GameTypes.h"
+  },
+  "LockForWrite": {
+    "address": "0x01B10890",
+    "source": "GameTypes.h"
+  },
+  "Release": {
+    "address": "0x01B42EB0",
+    "source": "GameTypes.h"
+  },
+  "CalculateCRC32_64": {
+    "address": "0x01B10710",
+    "source": "GameUtilities.cpp"
+  },
+  "CalculateCRC32_32": {
+    "address": "0x01B10680",
+    "source": "GameUtilities.cpp"
+  },
+  "LinkPower_Internal": {
+    "address": "0x001F6D70",
+    "source": "GameWorkshop.cpp"
+  },
+  "LinkPower2_Internal": {
+    "address": "0x00201A60",
+    "source": "GameWorkshop.cpp"
+  },
+  "GetObjectAtConnectPoint": {
+    "address": "0x001FF2B0",
+    "source": "GameWorkshop.cpp"
+  },
+  "LinkPower3_Internal": {
+    "address": "0x001F67E0",
+    "source": "GameWorkshop.cpp"
+  },
+  "LinkPower4_Internal": {
+    "address": "0x00204560",
+    "source": "GameWorkshop.cpp"
+  },
+  "SetWireEndpoints_Internal": {
+    "address": "0x00200DA0",
+    "source": "GameWorkshop.cpp"
+  },
+  "FinalizeWireLink": {
+    "address": "0x00200AA0",
+    "source": "GameWorkshop.cpp"
+  },
+  "ScrapReference": {
+    "address": "0x002083D0",
+    "source": "GameWorkshop.cpp"
+  },
+  "InitGameDataThread_Run_Original": {
+    "address": "0x00D53460",
+    "source": "Hooks_GameData.cpp"
+  },
+  "GameDataReady_Original": {
+    "address": "0x0082F930",
+    "source": "Hooks_GameData.cpp"
+  },
+  "InitGameDataThread_Run": {
+    "address": "0x02D65EE8",
+    "source": "Hooks_GameData.cpp"
+  },
+  "g_gameVersion": {
+    "address": "0x02C87748",
+    "source": "Hooks_Gameplay.cpp"
+  },
+  "kHook_ShowVersion_Offset": {
+    "address": "0x00BBC390",
+    "source": "Hooks_Gameplay.cpp"
+  },
+  "kHook_ShowVersion_OffsetBase": {
+    "address": "0x00BBC390",
+    "source": "Hooks_Gameplay.cpp"
+  },
+  "kHook_CustomControlMap_Offset": {
+    "address": "0x01B2A0B0",
+    "source": "Hooks_Gameplay.cpp"
+  },
+  "kHook_CustomControlMap_Return": {
+    "address": "0x01B2A0B0",
+    "source": "Hooks_Gameplay.cpp"
+  },
+  "CreateMenuControlHandlers": {
+    "address": "0x012A7FD0",
+    "source": "Hooks_Input.cpp"
+  },
+  "CreatePlayerControlHandlers": {
+    "address": "0x00F44BA0",
+    "source": "Hooks_Input.cpp"
+  },
+  "kHook_IMemoryStoreCtor_Offset": {
+    "address": "0x00000000",
+    "source": "Hooks_Memory.cpp"
+  },
+  "kHook_IMemoryStoreCtor_VTable": {
+    "address": "0x00000000",
+    "source": "Hooks_Memory.cpp"
+  },
+  "kHook_IMemoryStoreDtor_Offset": {
+    "address": "0x00000000",
+    "source": "Hooks_Memory.cpp"
+  },
+  "RegisterPapyrusFunctions_Start": {
+    "address": "0x013E6AA0",
+    "source": "Hooks_Papyrus.cpp"
+  },
+  "DelayFunctorQueue_Start": {
+    "address": "0x01377BB0",
+    "source": "Hooks_Papyrus.cpp"
+  },
+  "SaveRegistrationHandles": {
+    "address": "0x014749B0",
+    "source": "Hooks_Papyrus.cpp"
+  },
+  "LoadRegistrationHandles": {
+    "address": "0x01474A40",
+    "source": "Hooks_Papyrus.cpp"
+  },
+  "RevertGlobalData": {
+    "address": "0x013761D0",
+    "source": "Hooks_Papyrus.cpp"
+  },
+  "SaveGame": {
+    "address": "0x00CDE3D0",
+    "source": "Hooks_SaveLoad.cpp"
+  },
+  "LoadGame": {
+    "address": "0x00CDE8D0",
+    "source": "Hooks_SaveLoad.cpp"
+  },
+  "DeleteSaveGame": {
+    "address": "0x00CECE30",
+    "source": "Hooks_SaveLoad.cpp"
+  },
+  "BSScaleformManager_Ctor": {
+    "address": "0x02110310",
+    "source": "Hooks_Scaleform.cpp"
+  },
+  "BSScaleformTint": {
+    "address": "0x020F2870",
+    "source": "Hooks_Scaleform.cpp"
+  },
+  "ScaleformInitHook_Start": {
+    "address": "0x2867B05",
+    "source": "Hooks_Scaleform.cpp"
+  },
+  "IMenuCreateHook_Start": {
+    "address": "0x02042310",
+    "source": "Hooks_Scaleform.cpp"
+  },
+  "SetMenuName": {
+    "address": "0x01B41DB0",
+    "source": "Hooks_Scaleform.cpp"
+  },
+  "MessageQueueProcessTask": {
+    "address": "0x00D57E80",
+    "source": "Hooks_Threads.cpp"
+  },
+  "ProcessEventQueue_HookTarget": {
+    "address": "0x02042310",
+    "source": "Hooks_Threads.cpp"
+  },
+  "ProcessEventQueue_Internal": {
+    "address": "0x0211CE60",
+    "source": "Hooks_Threads.cpp"
+  },
+  "s_NiStringExtraDataVtbl": {
+    "address": "0x02E3FA78",
+    "source": "NiExtraData.cpp"
+  },
+  "s_BSFaceGenBaseMorphExtraDataVtbl": {
+    "address": "0x02D15158",
+    "source": "NiExtraData.cpp"
+  },
+  "s_BSDynPosDataVtbl": {
+    "address": "0x02E40CD8",
+    "source": "NiExtraData.cpp"
+  },
+  "s_NiBinaryExtraDataVtbl": {
+    "address": "0x02E437D8",
+    "source": "NiExtraData.cpp"
+  },
+  "Internal_LoadBinary": {
+    "address": "0x01B962E0",
+    "source": "NiExtraData.h"
+  },
+  "Internal_SaveBinary": {
+    "address": "0x01B96380",
+    "source": "NiExtraData.h"
+  },
+  "CreateShaderMaterialByType": {
+    "address": "0x0284BC60",
+    "source": "NiMaterials.cpp"
+  },
+  "LoadMaterialFile": {
+    "address": "0x01C9D050",
+    "source": "NiMaterials.cpp"
+  },
+  "Copy": {
+    "address": "0x0284AC20",
+    "source": "NiMaterials.h"
+  },
+  "ApplyMaterialData": {
+    "address": "0x027E9500",
+    "source": "NiMaterials.h"
+  },
+  "WorldToScreen_Internal": {
+    "address": "0x00AE2720",
+    "source": "NiObjects.cpp"
+  },
+  "Internal_IsEqual": {
+    "address": "0x01B94970",
+    "source": "NiObjects.h"
+  },
+  "Internal_AddExtraData": {
+    "address": "0x01B977A0",
+    "source": "NiObjects.h"
+  },
+  "SetScenegraphChange": {
+    "address": "0x01BA46A0",
+    "source": "NiObjects.h"
+  },
+  "SetMaterial": {
+    "address": "0x027E1510",
+    "source": "NiProperties.h"
+  },
+  "SetFlag": {
+    "address": "0x027E1390",
+    "source": "NiProperties.h"
+  },
+  "MakeValidForRendering": {
+    "address": "0x027F1B20",
+    "source": "NiProperties.h"
+  },
+  "ApplyMaterial": {
+    "address": "0x00054170",
+    "source": "NiProperties.h"
+  },
+  "LoadTextureSet": {
+    "address": "0x027F21B0",
+    "source": "NiProperties.h"
+  },
+  "NiRTTI_BSLightingShaderProperty": {
+    "address": "0x06758F48",
+    "source": "NiRTTI.cpp"
+  },
+  "NiRTTI_BSEffectShaderProperty": {
+    "address": "0x06758F38",
+    "source": "NiRTTI.cpp"
+  },
+  "NiRTTI_BSShaderProperty": {
+    "address": "0x06758ED0",
+    "source": "NiRTTI.cpp"
+  },
+  "NiRTTI_NiExtraData": {
+    "address": "0x05C41E90",
+    "source": "NiRTTI.cpp"
+  },
+  "AddObject": {
+    "address": "0x01BB91D0",
+    "source": "NiSerialization.h"
+  },
+  "CreateTexture": {
+    "address": "0x01BA5100",
+    "source": "NiTextures.cpp"
+  },
+  "CreateBSShaderTextureSet": {
+    "address": "0x027E2180",
+    "source": "NiTextures.cpp"
+  },
+  "LoadTextureByPath": {
+    "address": "0x027FB1A0",
+    "source": "NiTextures.cpp"
+  },
+  "g_firstObScriptCommand": {
+    "address": "0x0372EDD0",
+    "source": "ObScript.cpp"
+  },
+  "g_firstConsoleCommand": {
+    "address": "0x0373EDC0",
+    "source": "ObScript.cpp"
+  },
+  "GetOffset": {
+    "address": "0x02728FB0",
+    "source": "PapyrusArgs.h"
+  },
+  "SendCustomEvent_Internal": {
+    "address": "0x013D9340",
+    "source": "PapyrusEvents.cpp"
+  },
+  "CallFunctionNoWait_Internal": {
+    "address": "0x013D68B0",
+    "source": "PapyrusEvents.cpp"
+  },
+  "CallGlobalFunctionNoWait_Internal": {
+    "address": "0x01451960",
+    "source": "PapyrusEvents.cpp"
+  },
+  "GetRefFromHandle": {
+    "address": "0x012C6470",
+    "source": "PapyrusInterfaces.cpp"
+  },
+  "GetVMPropertyInfo": {
+    "address": "0x02718920",
+    "source": "PapyrusInterfaces.cpp"
+  },
+  "g_objectHandlePolicy": {
+    "address": "0x06755BC0",
+    "source": "PapyrusInterfaces.cpp"
+  },
+  "BindObject": {
+    "address": "0x02708B70",
+    "source": "PapyrusInterfaces.h"
+  },
+  "GetParam": {
+    "address": "0x02732DB0",
+    "source": "PapyrusNativeFunctions.h"
+  },
+  "Impl_Invoke": {
+    "address": "0x02732500",
+    "source": "PapyrusNativeFunctions.h"
+  },
+  "Impl_GetParamName": {
+    "address": "0x027323F0",
+    "source": "PapyrusNativeFunctions.h"
+  },
+  "Impl_dtor": {
+    "address": "0x020F15B0",
+    "source": "ScaleformValue.h"
+  },
+  "g_gameVM": {
+    "address": "0x0590C388",
+    "source": "PapyrusVM.cpp"
+  },
+  "SendPapyrusEvent": {
+    "address": "0x01374E90",
+    "source": "PapyrusVM.h"
+  },
+  "Set": {
+    "address": "0x02715F60",
+    "source": "PapyrusValue.h"
+  },
+  "Destroy_Internal": {
+    "address": "0x02710F50",
+    "source": "PapyrusValue.h"
+  },
+  "g_scaleformHeap": {
+    "address": "0x065B0EB0",
+    "source": "ScaleformAPI.cpp"
+  },
+  "RegisterNativeFunction": {
+    "address": "0x02110270",
+    "source": "ScaleformCallbacks.h"
+  },
+  "g_scaleformManager": {
+    "address": "0x05917490",
+    "source": "ScaleformLoader.cpp"
+  },
+  "MountImage": {
+    "address": "0x022E59B0",
+    "source": "ScaleformLoader.h"
+  },
+  "UnmountImage": {
+    "address": "0x022E5CC0",
+    "source": "ScaleformLoader.h"
+  },
+  "LoadMovie": {
+    "address": "0x021109B0",
+    "source": "ScaleformLoader.h"
+  },
+  "CreateEmptyString": {
+    "address": "0x01B429A0",
+    "source": "ScaleformTranslator.cpp"
+  },
+  "SetWideString": {
+    "address": "0x01B42AF0",
+    "source": "ScaleformTranslator.cpp"
+  },
+  "GetFilterColorByType": {
+    "address": "0x020F2B70",
+    "source": "ScaleformValue.cpp"
+  },
+  "ApplyColorFilter": {
+    "address": "0x020F2870",
+    "source": "ScaleformValue.cpp"
+  },
+  "SetDefaultColors": {
+    "address": "0x020F2AC0",
+    "source": "ScaleformValue.cpp"
+  },
+  "GetExtDisplayInfo": {
+    "address": "0x0210DAC0",
+    "source": "ScaleformValue.cpp"
+  },
+  "SetExtDisplayInfoAlpha": {
+    "address": "0x0210DDD0",
+    "source": "ScaleformValue.cpp"
+  },
+  "SetExtDisplayInfo": {
+    "address": "0x0210DC50",
+    "source": "ScaleformValue.cpp"
+  },
+  "PlayUISound": {
+    "address": "0x012BE200",
+    "source": "ScaleformValue.cpp"
+  },
+  "CreateBaseShaderTarget": {
+    "address": "0x00B06C80",
+    "source": "ScaleformValue.cpp"
+  },
+  "HasMember": {
+    "address": "0x1C1C220",
+    "source": "ScaleformValue.h"
+  },
+  "GetMember": {
+    "address": "0x1C1C220",
+    "source": "ScaleformValue.h"
+  },
+  "SetMember": {
+    "address": "0x1C1C220",
+    "source": "ScaleformValue.h"
+  },
+  "Invoke": {
+    "address": "0x1C1C220",
+    "source": "ScaleformValue.h"
+  },
+  "CreateEmptyMovieClip": {
+    "address": "0x02089FA0",
+    "source": "ScaleformValue.h"
+  },
+  "AttachMovie": {
+    "address": "0x02081510",
+    "source": "ScaleformValue.h"
+  },
+  "GetArraySize": {
+    "address": "0x020A1D40",
+    "source": "ScaleformValue.h"
+  },
+  "SetArraySize": {
+    "address": "0x0219C770",
+    "source": "ScaleformValue.h"
+  },
+  "GetElement": {
+    "address": "0x020A5A30",
+    "source": "ScaleformValue.h"
+  },
+  "PushBack": {
+    "address": "0x020C2850",
+    "source": "ScaleformValue.h"
+  },
+  "PopBack": {
+    "address": "0x020BE770",
+    "source": "ScaleformValue.h"
+  },
+  "VisitElements": {
+    "address": "0x020DAFC0",
+    "source": "ScaleformValue.h"
+  },
+  "GotoLabeledFrame": {
+    "address": "0x020AF5D0",
+    "source": "ScaleformValue.h"
+  },
+  "VisitMembers": {
+    "address": "0x020DB0F0",
+    "source": "ScaleformValue.h"
+  },
+  "GetText": {
+    "address": "0x020AD7B0",
+    "source": "ScaleformValue.h"
+  },
+  "SetText": {
+    "address": "0x020D35A0",
+    "source": "ScaleformValue.h"
+  },
+  "GetDisplayInfo": {
+    "address": "0x020A5120",
+    "source": "ScaleformValue.h"
+  },
+  "SetDisplayInfo": {
+    "address": "0x020CEDD0",
+    "source": "ScaleformValue.h"
+  },
+  "AddManaged_Internal": {
+    "address": "0x1C1C220",
+    "source": "ScaleformValue.h"
+  },
+  "ReleaseManaged_Internal": {
+    "address": "0x1C1C220",
+    "source": "ScaleformValue.h"
+  },
+  "RemoveChild_Internal": {
+    "address": "0x0210D220",
+    "source": "ScaleformValue.h"
+  },
+  "Impl_Fn1": {
+    "address": "0x020F1AD0",
+    "source": "ScaleformValue.h"
+  }
+}
