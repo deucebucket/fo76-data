@@ -561,6 +561,250 @@ body::after {
   padding: 3rem;
   color: var(--text-faint);
 }
+
+/* Profile Panel */
+.profile-backdrop {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 5000;
+  backdrop-filter: blur(2px);
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+.profile-backdrop.active {
+  display: block;
+  opacity: 1;
+}
+
+.profile-panel {
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 70%;
+  max-width: 900px;
+  background: #0d0d0d;
+  z-index: 5001;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--green-dark);
+  box-shadow: -4px 0 30px rgba(0, 0, 0, 0.6);
+}
+.profile-panel.active {
+  transform: translateX(0);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid var(--border);
+  background: #0a0a0a;
+  flex-shrink: 0;
+  min-height: 3.5rem;
+}
+
+.profile-back-btn,
+.profile-close-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--green-dim);
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  flex-shrink: 0;
+}
+.profile-back-btn:hover,
+.profile-close-btn:hover {
+  border-color: var(--green);
+  color: var(--green);
+  text-shadow: 0 0 8px rgba(20, 254, 23, 0.4);
+}
+
+.profile-back-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+  border-color: var(--border);
+  color: var(--text-faint);
+  text-shadow: none;
+}
+
+.profile-title-area {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  overflow: hidden;
+}
+
+.profile-title-text {
+  font-size: 1.1rem;
+  color: var(--green);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 12px rgba(20, 254, 23, 0.3);
+}
+
+.profile-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.2rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--green-dark) #0d0d0d;
+}
+
+.profile-section {
+  margin-bottom: 1.5rem;
+}
+
+.profile-section-title {
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.6rem;
+}
+
+.profile-curve-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  margin: 0.4rem 0;
+}
+.profile-curve-table th {
+  text-align: left;
+  color: var(--text-faint);
+  padding: 0.3rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+.profile-curve-table td {
+  padding: 0.3rem 0.6rem;
+  border-bottom: 1px solid var(--green-dark);
+  color: var(--text-dim);
+}
+.profile-curve-table tr:hover td {
+  background: rgba(20, 254, 23, 0.03);
+}
+
+.profile-linked-card {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--border);
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  background: rgba(15, 26, 15, 0.5);
+}
+.profile-linked-card:hover {
+  border-color: var(--green-dim);
+  background: var(--bg-card-hover);
+}
+.profile-linked-card .badge {
+  flex-shrink: 0;
+}
+.profile-linked-card-title {
+  color: var(--green-dim);
+  font-size: 0.85rem;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.profile-linked-card:hover .profile-linked-card-title {
+  color: var(--green);
+}
+
+.profile-inline-section {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border: 1px solid var(--border);
+  background: rgba(10, 10, 10, 0.6);
+}
+
+.profile-inline-title {
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-body .detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.4rem 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.profile-body .detail-item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.profile-body .detail-label {
+  color: var(--text-faint);
+  min-width: 120px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.profile-body .detail-value {
+  color: var(--text-dim);
+}
+
+.profile-body .card-image {
+  max-width: 100%;
+  max-height: 500px;
+  display: block;
+  margin: 0.5rem 0;
+  border: 1px solid var(--border);
+  cursor: zoom-in;
+  transition: border-color 0.2s;
+}
+.profile-body .card-image:hover {
+  border-color: var(--green-dim);
+}
+
+.profile-body .md-content h1 { font-size: 1.3rem; color: var(--green); margin: 1rem 0 0.5rem; }
+.profile-body .md-content h2 { font-size: 1.1rem; color: var(--green); margin: 1rem 0 0.4rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+.profile-body .md-content h3 { font-size: 1rem; color: var(--text); margin: 0.8rem 0 0.3rem; }
+.profile-body .md-content p { margin: 0.4rem 0; color: var(--text-dim); }
+
+@media (max-width: 700px) {
+  .profile-panel {
+    width: 100%;
+    max-width: none;
+  }
+  .profile-title-text {
+    font-size: 0.95rem;
+  }
+  .profile-body {
+    padding: 0.8rem;
+  }
+  .profile-body .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 </head>
 <body>
@@ -584,6 +828,12 @@ body::after {
   </div>
 
   <div class="sentinel" id="sentinel"></div>
+
+  <div class="profile-backdrop" id="profile-backdrop"></div>
+  <div class="profile-panel" id="profile-panel">
+    <div class="profile-header" id="profile-header"></div>
+    <div class="profile-body" id="profile-body"></div>
+  </div>
 
   <div class="lightbox" id="lightbox">
     <button class="lightbox-close" id="lightbox-close">&times;</button>
@@ -1564,7 +1814,504 @@ function closeLightbox() {
 lightbox.addEventListener('click', closeLightbox);
 document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
 document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeLightbox();
+  if (e.key === 'Escape') {
+    if (lightbox.classList.contains('active')) {
+      closeLightbox();
+    } else if (document.getElementById('profile-panel').classList.contains('active')) {
+      closeProfile();
+    }
+  }
+});
+
+/* Profile Panel */
+
+var profileHistory = [];
+var profilePanel = document.getElementById('profile-panel');
+var profileBackdrop = document.getElementById('profile-backdrop');
+var profileHeader = document.getElementById('profile-header');
+var profileBody = document.getElementById('profile-body');
+
+function findEntryById(id) {
+  for (var i = 0; i < allData.length; i++) {
+    if (allData[i].id === id) return allData[i];
+  }
+  return null;
+}
+
+function findEntriesUsingCurve(curveItem) {
+  var curveFile = curveItem.curve_file || curveItem.title || '';
+  var curveTitle = (curveItem.title || '').toLowerCase();
+  var results = [];
+  if (!curveFile && !curveTitle) return results;
+  for (var i = 0; i < allData.length; i++) {
+    var it = allData[i];
+    if (it.id === curveItem.id) continue;
+    var cf = it.curve_file || (it.data && it.data.damage_curve_file) || (it.data && it.data.bonus_curve_file) || (it.data && it.data.curve_file) || '';
+    if (cf && (cf === curveFile || cf.toLowerCase().indexOf(curveTitle) !== -1)) {
+      results.push(it);
+    }
+    // Also check links
+    if (it.links) {
+      for (var j = 0; j < it.links.length; j++) {
+        if (it.links[j].id === curveItem.id) {
+          var alreadyAdded = false;
+          for (var k = 0; k < results.length; k++) { if (results[k].id === it.id) { alreadyAdded = true; break; } }
+          if (!alreadyAdded) results.push(it);
+          break;
+        }
+      }
+    }
+  }
+  return results;
+}
+
+function renderBadgeForType(type) {
+  var badgeClass = 'badge-' + (type || '').replace(/_/g, '-');
+  var label = TYPE_TO_DISPLAY[type] || type || 'unknown';
+  return '<span class="badge ' + badgeClass + '">' + esc(label.toLowerCase()) + '</span>';
+}
+
+function renderCurvePointsTable(points) {
+  if (!points || !Array.isArray(points) || points.length === 0) return '';
+  var html = '<table class="profile-curve-table"><tr><th>Input (X)</th><th>Output (Y)</th></tr>';
+  points.forEach(function(p) {
+    var x = p.x != null ? p.x : (p.X != null ? p.X : (Array.isArray(p) ? p[0] : ''));
+    var y = p.y != null ? p.y : (p.Y != null ? p.Y : (Array.isArray(p) ? p[1] : ''));
+    html += '<tr><td>' + formatNum(x) + '</td><td>' + formatNum(y) + '</td></tr>';
+  });
+  html += '</table>';
+  return html;
+}
+
+function renderLinkedCard(item) {
+  return '<div class="profile-linked-card" data-profile-id="' + item.id + '">' +
+    renderBadgeForType(item.type) +
+    '<span class="profile-linked-card-title">' + esc(item.title) + '</span>' +
+  '</div>';
+}
+
+function renderInlineCurve(curveEntry) {
+  if (!curveEntry) return '';
+  var d = curveEntry.data || {};
+  var points = d.points || [];
+  if (points.length === 0) return '';
+  return '<div class="profile-inline-section">' +
+    '<div class="profile-inline-title">' + renderBadgeForType('curve_table') + ' ' + esc(curveEntry.title) + '</div>' +
+    renderCurvePointsTable(points) +
+  '</div>';
+}
+
+function buildProfileContent(item) {
+  var d = item.data || {};
+  var html = '';
+
+  // Type-specific content
+  switch (item.type) {
+    case 'weapon':
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">weapon stats</div>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Category', [item.category, item.subcategory].filter(Boolean).join(' / '));
+      html += detailItem('Damage Type', item.damage_type || 'ballistic');
+      html += detailItem('Damage (Lv50)', item.damage_50);
+      html += detailItem('AP Cost', d.ap_cost);
+      html += detailItem('Fire Rate', d.fire_rate);
+      html += detailItem('Accuracy', d.accuracy);
+      html += detailItem('Range', d.range_val);
+      html += detailItem('Weight', d.weight);
+      html += detailItem('Magazine', d.magazine_size);
+      html += detailItem('Ammo Type', item.ammo_type);
+      html += detailItem('Ammo/Shot', d.ammo_per_shot);
+      html += detailItem('Durability', d.durability);
+      html += detailItem('Automatic', d.is_automatic ? 'Yes' : 'No');
+      html += detailItem('Legendary', d.is_legendary ? 'Yes' : 'No');
+      html += '</div>';
+      html += '</div>';
+
+      // Damage scaling table
+      var levels = [1,5,10,15,20,25,30,35,40,45,50];
+      var hasCurve = false;
+      levels.forEach(function(lv) { if (d['damage_level_' + lv] != null) hasCurve = true; });
+      if (hasCurve) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">damage scaling by level</div>';
+        html += '<table class="profile-curve-table"><tr>';
+        levels.forEach(function(l) { html += '<th>Lv ' + l + '</th>'; });
+        html += '</tr><tr>';
+        levels.forEach(function(lv) {
+          var val = d['damage_level_' + lv];
+          html += '<td>' + (val != null ? formatNum(val) : '-') + '</td>';
+        });
+        html += '</tr></table>';
+        html += '</div>';
+      }
+
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">identifiers</div>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Editor ID', item.editor_id || d.editor_id);
+      html += detailItem('Form ID', item.form_id || d.form_id);
+      html += detailItem('Curve File', item.curve_file || d.damage_curve_file);
+      html += detailItem('Data Source', d.data_source);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    case 'perk':
+      var specialClass = SPECIAL_CLASSES[item.special] || '';
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">perk details</div>';
+      if (item.description) {
+        html += '<p style="color:var(--text-dim);margin-bottom:0.8rem">' + esc(item.description) + '</p>';
+      }
+      html += '<div class="detail-grid">';
+      html += detailItem('SPECIAL', item.special);
+      html += detailItem('Rank', (item.rank || '?') + ' / ' + (item.max_rank || '?'));
+      html += detailItem('Cost', item.cost);
+      html += detailItem('Min Level', item.min_level);
+      html += detailItem('Legendary', item.is_legendary ? 'Yes' : 'No');
+      html += detailItem('Ghoul Only', d.is_ghoul ? 'Yes' : 'No');
+      html += detailItem('Editor ID', d.editor_id);
+      html += detailItem('Form ID', d.form_id);
+      html += detailItem('Bonus Curve', d.bonus_curve_file);
+      html += detailItem('Data Source', d.data_source);
+      html += '</div>';
+      html += '</div>';
+      if (d.conditions) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">conditions</div>';
+        html += '<p style="color:var(--text-dim)">' + esc(d.conditions) + '</p>';
+        html += '</div>';
+      }
+      break;
+
+    case 'legendary':
+      var starCount = item.star_slot || 1;
+      var stars = '\u2605'.repeat(starCount);
+      var scalingExplained = {
+        flat: 'Fixed value, does not scale',
+        health_percent: 'Scales with health percentage',
+        level: 'Scales with player level',
+        damage_percent: 'Scales as percentage of damage',
+        resistance: 'Scales with resistance values',
+        stacking: 'Stacks with repeated hits'
+      };
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">legendary effect</div>';
+      if (item.description) {
+        html += '<p style="color:var(--text-dim);margin-bottom:0.8rem">' + esc(item.description) + '</p>';
+      }
+      html += '<div class="detail-grid">';
+      html += detailItem('Stars', stars + ' (' + starCount + '-star)');
+      html += detailItem('Applies To', item.applies_to || 'unknown');
+      html += detailItem('Scaling Type', scalingExplained[item.scaling_type] || item.scaling_type || 'Unknown');
+      html += detailItem('Base Magnitude', d.base_magnitude != null ? formatPercent(d.base_magnitude) : null);
+      html += detailItem('Max Magnitude', item.max_magnitude != null ? formatPercent(item.max_magnitude) : null);
+      html += detailItem('OMOD Name', d.omod_name);
+      html += detailItem('Curve File', item.curve_file || d.curve_file);
+      html += detailItem('Editor ID', item.editor_id || d.editor_id);
+      html += detailItem('Form ID', d.form_id);
+      html += detailItem('Star', d.star);
+      html += detailItem('Type', d.type);
+      html += detailItem('Data Source', d.data_source);
+      html += '</div>';
+      html += '</div>';
+
+      var curveData = d.curve_data || [];
+      if (curveData.length > 0) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">scaling curve</div>';
+        html += renderCurvePointsTable(curveData);
+        html += '</div>';
+      }
+      break;
+
+    case 'mutation':
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">mutation effects</div>';
+      var benefit = d.benefit_description || '';
+      var penalty = d.penalty_description || '';
+      if (benefit) html += '<p class="positive">+ ' + esc(benefit) + '</p>';
+      if (penalty) html += '<p class="negative">- ' + esc(penalty) + '</p>';
+      html += '<div class="detail-grid" style="margin-top:0.6rem">';
+      html += detailItem('Benefit Value', d.benefit_value);
+      html += detailItem('Penalty Value', d.penalty_value);
+      html += detailItem('Class Freak', d.class_freak_penalty);
+      html += detailItem('Strange in Numbers', d.strange_in_numbers_bonus);
+      html += detailItem('Stacks With', d.stacks_with);
+      html += detailItem('Curve File', d.curve_file);
+      html += detailItem('Data Source', d.data_source);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    case 'curve_table':
+      var points = d.points || [];
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">curve data</div>';
+      html += '<div class="detail-grid">';
+      html += detailItem('File', item.curve_file);
+      html += detailItem('Category', item.category);
+      html += detailItem('Points', item.num_points);
+      html += detailItem('Min Value', item.min_value);
+      html += detailItem('Max Value', item.max_value);
+      html += '</div>';
+      html += '</div>';
+
+      if (points.length > 0) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">data points</div>';
+        html += renderCurvePointsTable(points);
+        html += '</div>';
+      }
+
+      // Find items using this curve
+      var users = findEntriesUsingCurve(item);
+      if (users.length > 0) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">used by (' + users.length + ' items)</div>';
+        users.forEach(function(u) { html += renderLinkedCard(u); });
+        html += '</div>';
+      }
+      break;
+
+    case 'finding':
+      html += '<div class="profile-section">';
+      if (item.status) {
+        var statusClassMap = {
+          'CONFIRMED': 'status-confirmed',
+          'SPECULATIVE': 'status-speculative',
+          'PARTIALLY CONFIRMED': 'status-partial',
+          'OLD NEWS': 'status-partial',
+          'PARTIALLY KNOWN': 'status-partial'
+        };
+        var cls = 'status-unknown';
+        var upper = item.status.toUpperCase();
+        Object.keys(statusClassMap).forEach(function(k) {
+          if (upper.indexOf(k) !== -1) cls = statusClassMap[k];
+        });
+        html += '<span class="badge ' + cls + '" style="margin-bottom:0.6rem;display:inline-block">' + esc(item.status) + '</span> ';
+      }
+      if (item.source) html += '<span class="dim">' + esc(item.source) + '</span>';
+      if (item.file) html += '<div class="dim" style="margin:0.4rem 0">Source: ' + esc(item.file) + '</div>';
+      html += '<div class="md-content" style="margin-top:0.8rem">' + renderMarkdown(item.content || 'No content available.') + '</div>';
+      html += '</div>';
+      break;
+
+    case 'model_render':
+      var allImages = item.images || (item.image ? [item.image] : []);
+      if (allImages.length > 0) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">images</div>';
+        allImages.forEach(function(img) {
+          html += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
+        });
+        html += '</div>';
+      }
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">model details</div>';
+      if (item.description) html += '<p style="color:var(--text-dim);margin-bottom:0.6rem">' + esc(item.description) + '</p>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Mesh', d.mesh);
+      html += detailItem('Status', d.status);
+      html += detailItem('Images', d.image_count);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    case 'speculation':
+      var allImages = item.images || (item.image ? [item.image] : []);
+      if (allImages.length > 0) {
+        html += '<div class="profile-section">';
+        allImages.forEach(function(img) {
+          html += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
+        });
+        html += '</div>';
+      }
+      if (d.theory) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--amber)">theory</div>';
+        html += '<p style="color:var(--text-dim)">' + esc(d.theory) + '</p>';
+        html += '</div>';
+      }
+      if (d.evidence && Array.isArray(d.evidence)) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--amber)">evidence</div>';
+        html += '<ul style="margin:0 0 0 1.5rem;color:var(--text-dim)">';
+        d.evidence.forEach(function(e) { html += '<li>' + esc(e) + '</li>'; });
+        html += '</ul>';
+        html += '</div>';
+      }
+      if (d.counter) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">counter-arguments</div>';
+        html += '<p style="color:var(--text-faint)">' + esc(d.counter) + '</p>';
+        html += '</div>';
+      }
+      if (item.description && !d.theory) {
+        html += '<div class="profile-section">';
+        html += '<p style="color:var(--text-dim)">' + esc(item.description) + '</p>';
+        html += '</div>';
+      }
+      break;
+
+    case 'game_setting':
+      var val = d.value_float != null ? d.value_float : (d.value_int != null ? d.value_int : d.value_string);
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">game setting</div>';
+      if (item.description) html += '<p style="color:var(--text-dim);margin-bottom:0.6rem">' + esc(item.description) + '</p>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Setting Name', d.setting_name || item.title);
+      html += detailItem('Value', val);
+      html += detailItem('Float Value', d.value_float);
+      html += detailItem('Int Value', d.value_int);
+      html += detailItem('String Value', d.value_string);
+      html += detailItem('Category', d.category || item.category);
+      html += detailItem('Form ID', d.form_id);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    case 'native_function':
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">native function</div>';
+      if (item.description) html += '<p style="color:var(--text-dim);margin-bottom:0.6rem">' + esc(item.description) + '</p>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Class', item.class_name);
+      html += detailItem('Function', item.function_name);
+      html += detailItem('Return Type', item.return_type);
+      html += detailItem('Parameters', item.params);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    case 'power_armor':
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">power armor</div>';
+      html += '<div class="detail-grid">';
+      html += detailItem('PA Type', d.pa_type);
+      html += detailItem('Display Name', d.display_name);
+      html += detailItem('Min Level', d.min_level);
+      html += detailItem('Max Level', d.max_level);
+      html += detailItem('Carry Weight Bonus', d.carry_weight_bonus);
+      html += detailItem('Unique Effects', d.unique_effects);
+      html += detailItem('Data Source', d.data_source);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    default:
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">details</div>';
+      html += '<div class="detail-grid">' + renderAllProps(item) + '</div>';
+      html += '</div>';
+  }
+
+  // Inline linked curve data
+  var links = item.links || [];
+  var curveLinks = [];
+  var otherLinks = [];
+  links.forEach(function(link) {
+    if (link.type === 'filter') return;
+    var linkedEntry = findEntryById(link.id);
+    if (linkedEntry && linkedEntry.type === 'curve_table') {
+      curveLinks.push({ link: link, entry: linkedEntry });
+    } else if (linkedEntry) {
+      otherLinks.push({ link: link, entry: linkedEntry });
+    }
+  });
+
+  if (curveLinks.length > 0) {
+    html += '<div class="profile-section">';
+    html += '<div class="profile-section-title">linked curves</div>';
+    curveLinks.forEach(function(cl) {
+      html += renderInlineCurve(cl.entry);
+    });
+    html += '</div>';
+  }
+
+  if (otherLinks.length > 0) {
+    html += '<div class="profile-section">';
+    html += '<div class="profile-section-title">connected items</div>';
+    otherLinks.forEach(function(ol) {
+      html += renderLinkedCard(ol.entry);
+    });
+    html += '</div>';
+  }
+
+  // Also render curve links as clickable cards
+  if (curveLinks.length > 0) {
+    curveLinks.forEach(function(cl) {
+      html += renderLinkedCard(cl.entry);
+    });
+  }
+
+  return html;
+}
+
+function openProfile(id) {
+  var item = findEntryById(id);
+  if (!item) return;
+
+  // Push to history only if different from current top
+  var currentId = profileHistory.length > 0 ? profileHistory[profileHistory.length - 1] : null;
+  if (currentId !== id) {
+    profileHistory.push(id);
+  }
+
+  profileHeader.innerHTML =
+    '<button class="profile-back-btn" id="profile-back" ' + (profileHistory.length <= 1 ? 'disabled' : '') + '>&larr; Back</button>' +
+    '<div class="profile-title-area">' +
+      '<span class="profile-title-text">' + esc(item.title) + '</span>' +
+      renderBadgeForType(item.type) +
+    '</div>' +
+    '<button class="profile-close-btn" id="profile-close-btn">&times; Close</button>';
+
+  profileBody.innerHTML = buildProfileContent(item);
+  profileBody.scrollTop = 0;
+
+  profilePanel.classList.add('active');
+  profileBackdrop.classList.add('active');
+  document.body.style.overflow = 'hidden';
+
+  // Wire up header buttons
+  document.getElementById('profile-back').addEventListener('click', goBack);
+  document.getElementById('profile-close-btn').addEventListener('click', closeProfile);
+}
+
+function goBack() {
+  if (profileHistory.length <= 1) return;
+  profileHistory.pop();
+  var prevId = profileHistory[profileHistory.length - 1];
+  // Remove from history so openProfile re-pushes it
+  profileHistory.pop();
+  openProfile(prevId);
+}
+
+function closeProfile() {
+  profilePanel.classList.remove('active');
+  profileBackdrop.classList.remove('active');
+  document.body.style.overflow = '';
+  profileHistory = [];
+}
+
+profileBackdrop.addEventListener('click', closeProfile);
+
+// Handle clicks inside profile body (linked cards, images)
+profileBody.addEventListener('click', function(e) {
+  // Image click -> lightbox
+  if (e.target.tagName === 'IMG' && e.target.classList.contains('card-image')) {
+    e.stopPropagation();
+    openLightbox(e.target.src);
+    return;
+  }
+  // Linked card click -> navigate profile
+  var linkedCard = e.target.closest('.profile-linked-card');
+  if (linkedCard) {
+    var linkId = parseInt(linkedCard.getAttribute('data-profile-id'));
+    if (linkId) openProfile(linkId);
+    return;
+  }
 });
 
 /* Card expand/collapse */
@@ -1576,21 +2323,24 @@ document.getElementById('results').addEventListener('click', function(e) {
     openLightbox(e.target.src);
     return;
   }
-  // Data link click -> navigate to linked entry
+  // Data link click -> open in profile panel
   var dataLink = e.target.closest('.data-link');
   if (dataLink) {
     e.preventDefault();
     e.stopPropagation();
     var linkId = parseInt(dataLink.getAttribute('data-link-id'));
-    navigateToEntry(linkId);
+    openProfile(linkId);
     return;
   }
   var card = e.target.closest('.card');
   if (!card) return;
   if (e.target.tagName === 'A') return;
-  // Don't toggle if clicking inside expanded details on non-image elements
   if (e.target.tagName === 'IMG') return;
-  card.classList.toggle('expanded');
+  // Open profile panel instead of expanding
+  var cardId = parseInt(card.getAttribute('data-id'));
+  if (cardId) {
+    openProfile(cardId);
+  }
 });
 
 function navigateToEntry(id) {
