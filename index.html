@@ -285,6 +285,11 @@ body::after {
   display: block;
   margin: 0.5rem 0;
   border: 1px solid var(--border);
+  cursor: zoom-in;
+  transition: border-color 0.2s;
+}
+.card-image:hover {
+  border-color: var(--green-dim);
 }
 .card-image-thumb {
   max-width: 120px;
@@ -293,6 +298,39 @@ body::after {
   margin: 0 0 0.5rem 0.5rem;
   border: 1px solid var(--border);
 }
+
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 10000;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.lightbox.active { display: flex; }
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 40px rgba(20, 254, 23, 0.15);
+}
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  color: var(--green);
+  font-size: 2rem;
+  cursor: pointer;
+  font-family: inherit;
+  background: none;
+  border: none;
+  text-shadow: 0 0 10px rgba(20, 254, 23, 0.5);
+}
+.lightbox-close:hover { color: var(--text); }
 
 .lazy-load-notice {
   text-align: center;
@@ -531,6 +569,11 @@ body::after {
   </div>
 
   <div class="sentinel" id="sentinel"></div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
 
   <footer class="footer">
     FO76-DATA by <a href="https://github.com/deucebucket" target="_blank" rel="noopener">deucebucket</a>
@@ -1434,12 +1477,41 @@ function setupInfiniteScroll() {
   observer.observe(sentinel);
 }
 
+/* Lightbox */
+
+var lightbox = document.getElementById('lightbox');
+var lightboxImg = document.getElementById('lightbox-img');
+
+function openLightbox(src) {
+  lightboxImg.src = src;
+  lightbox.classList.add('active');
+}
+
+function closeLightbox() {
+  lightbox.classList.remove('active');
+  lightboxImg.src = '';
+}
+
+lightbox.addEventListener('click', closeLightbox);
+document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeLightbox();
+});
+
 /* Card expand/collapse */
 
 document.getElementById('results').addEventListener('click', function(e) {
+  // Image click -> lightbox
+  if (e.target.tagName === 'IMG' && e.target.classList.contains('card-image')) {
+    e.stopPropagation();
+    openLightbox(e.target.src);
+    return;
+  }
   var card = e.target.closest('.card');
   if (!card) return;
   if (e.target.tagName === 'A') return;
+  // Don't toggle if clicking inside expanded details on non-image elements
+  if (e.target.tagName === 'IMG') return;
   card.classList.toggle('expanded');
 });
 
