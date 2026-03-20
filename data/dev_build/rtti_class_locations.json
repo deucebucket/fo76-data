@@ -1,0 +1,79 @@
+{
+  "Actor": {
+    "dev_string_offset": 135983944,
+    "retail_string_offset": 95666752,
+    "found": true,
+    "dev_td_rva": 305423672,
+    "retail_td_rva": 219544624
+  },
+  "TESObjectREFR": {
+    "dev_string_offset": 135978800,
+    "retail_string_offset": 95662536,
+    "found": true,
+    "dev_td_rva": 305418528,
+    "retail_td_rva": 219540408
+  },
+  "TESForm": {
+    "dev_string_offset": 135978200,
+    "retail_string_offset": 95662024,
+    "found": true,
+    "dev_td_rva": 305417928,
+    "retail_td_rva": 219539896
+  },
+  "TESObjectCELL": {
+    "dev_string_offset": 135978240,
+    "retail_string_offset": 95662056,
+    "found": true,
+    "dev_td_rva": 305417968,
+    "retail_td_rva": 219539928
+  },
+  "ActiveEffect": {
+    "dev_string_offset": 137663408,
+    "retail_string_offset": 97229056,
+    "found": true,
+    "dev_td_rva": 307103136,
+    "retail_td_rva": 221106928
+  },
+  "TESWorldSpace": {
+    "dev_string_offset": 135978528,
+    "retail_string_offset": 95662304,
+    "found": true,
+    "dev_td_rva": 305418256,
+    "retail_td_rva": 219540176
+  },
+  "TESObjectWEAP": {
+    "dev_string_offset": 136062048,
+    "retail_string_offset": 95719728,
+    "found": true,
+    "dev_td_rva": 305501776,
+    "retail_td_rva": 219597600
+  },
+  "TESObjectARMO": {
+    "dev_string_offset": 136066984,
+    "retail_string_offset": 95723800,
+    "found": true,
+    "dev_td_rva": 305506712,
+    "retail_td_rva": 219601672
+  },
+  "AlchemyItem": {
+    "dev_string_offset": 136040704,
+    "retail_string_offset": 95690672,
+    "found": true,
+    "dev_td_rva": 305480432,
+    "retail_td_rva": 219568544
+  },
+  "SpellItem": {
+    "dev_string_offset": 136040744,
+    "retail_string_offset": 95690712,
+    "found": true,
+    "dev_td_rva": 305480472,
+    "retail_td_rva": 219568584
+  },
+  "MagicCaster": {
+    "dev_string_offset": 136056704,
+    "retail_string_offset": 95714984,
+    "found": true,
+    "dev_td_rva": 305496432,
+    "retail_td_rva": 219592856
+  }
+}
