@@ -292,6 +292,7 @@ body::after {
 .badge-rtti-class { color: #c864fe; border-color: #c864fe; }
 .badge-script { color: #fe64a0; border-color: #fe64a0; }
 .badge-model-render { color: #fe14a0; border-color: #fe14a0; }
+.badge-speculation { color: #feaa14; border-color: #feaa14; }
 
 .card-image {
   max-width: 100%;
@@ -625,13 +626,14 @@ var TYPE_TO_DISPLAY = {
   curve_table: 'Curve Tables',
   rtti_class: 'C++ Classes',
   script: 'Scripts',
-  model_render: 'Model Renders'
+  model_render: 'Model Renders',
+  speculation: 'Speculations'
 };
 
 var DISPLAY_TO_TYPE = {};
 Object.keys(TYPE_TO_DISPLAY).forEach(function(k) { DISPLAY_TO_TYPE[TYPE_TO_DISPLAY[k]] = k; });
 
-var FILTER_ORDER = ['All', 'Findings', 'Model Renders', 'Weapons', 'Perks', 'Legendary', 'Mutations', 'Power Armor', 'Game Settings', 'Native Functions', 'Curve Tables', 'C++ Classes', 'Scripts'];
+var FILTER_ORDER = ['All', 'Findings', 'Model Renders', 'Speculations', 'Weapons', 'Perks', 'Legendary', 'Mutations', 'Power Armor', 'Game Settings', 'Native Functions', 'Curve Tables', 'C++ Classes', 'Scripts'];
 
 var LAZY_COUNTS = { 'C++ Classes': 28866, 'Scripts': 7095 };
 
@@ -1267,6 +1269,43 @@ function renderModelRenderCard(item) {
   return { header: header, details: details, summary: summary };
 }
 
+function renderSpeculationCard(item) {
+  var d = item.data || {};
+
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-speculation">speculation</span>' +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>';
+
+  var thumbHtml = item.image ? '<img class="card-image-thumb" src="' + esc(item.image) + '" alt="' + esc(item.title) + '" loading="lazy">' : '';
+  var summary = '<div class="card-summary">' + thumbHtml + esc(item.description || '') + '</div>';
+
+  var allImages = item.images || (item.image ? [item.image] : []);
+  var imagesHtml = '';
+  allImages.forEach(function(img) {
+    imagesHtml += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
+  });
+
+  var evidenceHtml = '';
+  if (d.evidence && Array.isArray(d.evidence)) {
+    evidenceHtml = '<div style="margin-top:0.8rem"><span class="detail-label" style="color:var(--amber)">evidence</span><ul style="margin:0.3rem 0 0 1.5rem;color:var(--text-dim)">';
+    d.evidence.forEach(function(e) { evidenceHtml += '<li>' + esc(e) + '</li>'; });
+    evidenceHtml += '</ul></div>';
+  }
+
+  var details = '<div class="card-details-inner">' +
+    imagesHtml +
+    (d.theory ? '<div style="margin-top:0.8rem"><span class="detail-label" style="color:var(--amber)">theory</span><div style="color:var(--text-dim);margin-top:0.3rem">' + esc(d.theory) + '</div></div>' : '') +
+    evidenceHtml +
+    (d.counter ? '<div style="margin-top:0.5rem"><span class="detail-label">counter-arguments</span><div style="color:var(--text-faint);margin-top:0.3rem">' + esc(d.counter) + '</div></div>' : '') +
+  '</div>';
+
+  return { header: header, details: details, summary: summary };
+}
+
 function renderScriptCard(item) {
   var d = item.data || {};
 
@@ -1306,6 +1345,7 @@ function renderCard(item) {
     case 'rtti_class': parts = renderRttiClassCard(item); break;
     case 'script': parts = renderScriptCard(item); break;
     case 'model_render': parts = renderModelRenderCard(item); break;
+    case 'speculation': parts = renderSpeculationCard(item); break;
     default: parts = {
       header: '<div class="card-header-top"><div class="card-title">' + esc(item.title) + '</div><div class="card-meta"><span class="badge" style="color:var(--text-dim);border-color:var(--text-faint)">' + esc(item.type) + '</span><span class="expand-indicator">&#9654;</span></div></div>',
       details: '<div class="card-details-inner"><div class="detail-grid">' + renderAllProps(item) + '</div></div>',
