@@ -1646,5 +1646,1125 @@
     "retail_va": 5373515520,
     "sig_length_used": 32,
     "match_type": "unique"
+  },
+  "EntityManager::AddPlayerHelper player id [": {
+    "dev_va": 5380265440,
+    "dev_rva": 11556320,
+    "retail_rva": 6547536,
+    "retail_va": 5375256656,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "EntityManager::AddTESObjectREFRHelper entity id [": {
+    "dev_va": 5380266032,
+    "dev_rva": 11556912,
+    "retail_rva": 6547536,
+    "retail_va": 5375256656,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "TES::LoadExteriorCell": {
+    "dev_va": 5381967344,
+    "dev_rva": 13258224,
+    "retail_rva": 61621882,
+    "retail_va": 5430331002,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "TESDataHandler::UnloadCell": {
+    "dev_va": 5382115488,
+    "dev_rva": 13406368,
+    "retail_rva": 7608368,
+    "retail_va": 5376317488,
+    "sig_length_used": 16,
+    "match_type": "wildcard-16b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 12
+  },
+  "TESDataHandler::CompileFiles": {
+    "dev_va": 5382134048,
+    "dev_rva": 13424928,
+    "retail_rva": 16056064,
+    "retail_va": 5384765184,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "DynPersistance::Resume": {
+    "dev_va": 5382702832,
+    "dev_rva": 13993712,
+    "retail_rva": 8485712,
+    "retail_va": 5377194832,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "BGSObjectVisibilityManager::CalculateVisibilityCount": {
+    "dev_va": 5383062768,
+    "dev_rva": 14353648,
+    "retail_rva": 28033872,
+    "retail_va": 5396742992,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "BGSSceneInfo::CollectSceneDataForLoadedArea": {
+    "dev_va": 5383110240,
+    "dev_rva": 14401120,
+    "retail_rva": 37563952,
+    "retail_va": 5406273072,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 20
+  },
+  "LoadedAreaManager::LoadExteriorCell": {
+    "dev_va": 5383365856,
+    "dev_rva": 14656736,
+    "retail_rva": 51821808,
+    "retail_va": 5420530928,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "LoadedAreaManager::AttachCell": {
+    "dev_va": 5383374057,
+    "dev_rva": 14664937,
+    "retail_rva": 23483296,
+    "retail_va": 5392192416,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 16
+  },
+  "LoadedAreaManager::ProcessPending": {
+    "dev_va": 5383378908,
+    "dev_rva": 14669788,
+    "retail_rva": 7595818,
+    "retail_va": 5376304938,
+    "sig_length_used": 16,
+    "match_type": "wildcard-16b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 12
+  },
+  "LoadedAreaManager::NotifyCellUnloaded": {
+    "dev_va": 5383380928,
+    "dev_rva": 14671808,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "LoadedAreaManager::LoadCellInternal": {
+    "dev_va": 5383383488,
+    "dev_rva": 14674368,
+    "retail_rva": 8254784,
+    "retail_va": 5376963904,
+    "sig_length_used": 20,
+    "match_type": "wildcard-20b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 16
+  },
+  "LoadedAreaManager::ForEachEntryInBuffer": {
+    "dev_va": 5383397920,
+    "dev_rva": 14688800,
+    "retail_rva": 30064928,
+    "retail_va": 5398774048,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "StatChallengeManager::ChallengeData::SetValue": {
+    "dev_va": 5383444528,
+    "dev_rva": 14735408,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "Workshop::DestroyWall": {
+    "dev_va": 5384462928,
+    "dev_rva": 15753808,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "Workshop::ExtraData::DestroyWall Called.": {
+    "dev_va": 5384462928,
+    "dev_rva": 15753808,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "WorkshopNetwork::SnapshotComponent::Serialize": {
+    "dev_va": 5384549504,
+    "dev_rva": 15840384,
+    "retail_rva": 31980896,
+    "retail_va": 5400690016,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "BGSLODTerrainManager::UpdateDB": {
+    "dev_va": 5385165728,
+    "dev_rva": 16456608,
+    "retail_rva": 41257184,
+    "retail_va": 5409966304,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "BGSLODTerrain::Manager::GetGroundCoverParameters": {
+    "dev_va": 5385204352,
+    "dev_rva": 16495232,
+    "retail_rva": 41021893,
+    "retail_va": 5409731013,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "PerkCard::Unequip": {
+    "dev_va": 5385322320,
+    "dev_rva": 16613200,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "ExteriorCellLoader::AttachLoadedCell": {
+    "dev_va": 5387116720,
+    "dev_rva": 18407600,
+    "retail_rva": 10162256,
+    "retail_va": 5378871376,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "ExteriorCellLoader::CancelAllCellLoads": {
+    "dev_va": 5387121984,
+    "dev_rva": 18412864,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "ExteriorCellLoader::FinishLoadingAllQueuedCells": {
+    "dev_va": 5387125024,
+    "dev_rva": 18415904,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "ExteriorCellLoader::RemoveCell": {
+    "dev_va": 5387127488,
+    "dev_rva": 18418368,
+    "retail_rva": 41113531,
+    "retail_va": 5409822651,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "CELL::UpdateActivateParents": {
+    "dev_va": 5387268896,
+    "dev_rva": 18559776,
+    "retail_rva": 34368000,
+    "retail_va": 5403077120,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "TESObjectREFR::Enable": {
+    "dev_va": 5387722576,
+    "dev_rva": 19013456,
+    "retail_rva": 34369520,
+    "retail_va": 5403078640,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "Events::OnPlayerConnectionChange": {
+    "dev_va": 5388070544,
+    "dev_rva": 19361424,
+    "retail_rva": 28502448,
+    "retail_va": 5397211568,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "GlobalChanges::SetValue::InitialValue": {
+    "dev_va": 5388966784,
+    "dev_rva": 20257664,
+    "retail_rva": 29529488,
+    "retail_va": 5398238608,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "GlobalChanges::SetValue::Script": {
+    "dev_va": 5388966784,
+    "dev_rva": 20257664,
+    "retail_rva": 29529488,
+    "retail_va": 5398238608,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "GlobalChanges::SetValue::Console": {
+    "dev_va": 5388966784,
+    "dev_rva": 20257664,
+    "retail_rva": 29529488,
+    "retail_va": 5398238608,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "BSTempEffectDebris::Init": {
+    "dev_va": 5392190507,
+    "dev_rva": 23481387,
+    "retail_rva": 2170399,
+    "retail_va": 5370879519,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "BGSTerrainManager::UpdateLODLighting": {
+    "dev_va": 5392976528,
+    "dev_rva": 24267408,
+    "retail_rva": 12086768,
+    "retail_va": 5380795888,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "BGSStoryManager::AddLogEntry": {
+    "dev_va": 5393320240,
+    "dev_rva": 24611120,
+    "retail_rva": 45421199,
+    "retail_va": 5414130319,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "UI::Trace": {
+    "dev_va": 5394214112,
+    "dev_rva": 25504992,
+    "retail_rva": 9361968,
+    "retail_va": 5378071088,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "PC::UpdateAnimation": {
+    "dev_va": 5394429216,
+    "dev_rva": 25720096,
+    "retail_rva": 12086768,
+    "retail_va": 5380795888,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "PC::UpdateActor3DPosition": {
+    "dev_va": 5394433104,
+    "dev_rva": 25723984,
+    "retail_rva": 50002464,
+    "retail_va": 5418711584,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "BasePlayerCharacter::SetVisitorType": {
+    "dev_va": 5394439744,
+    "dev_rva": 25730624,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "BasePlayerCharacter::NotifyLeftCombatGroup": {
+    "dev_va": 5394440336,
+    "dev_rva": 25731216,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "BasePlayerCharacter::SetVATSCriticalCharge": {
+    "dev_va": 5394448144,
+    "dev_rva": 25739024,
+    "retail_rva": 7255968,
+    "retail_va": 5375965088,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "BasePlayerCharacter::SetGodMode": {
+    "dev_va": 5394462176,
+    "dev_rva": 25753056,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "NetworkQuest::NetDelete": {
+    "dev_va": 5398683792,
+    "dev_rva": 29974672,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "NetworkQuestManager::GetNetworkQuest": {
+    "dev_va": 5398704352,
+    "dev_rva": 29995232,
+    "retail_rva": 56065360,
+    "retail_va": 5424774480,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "VisibilityTests::ObjectVisibleToAnyPlayer": {
+    "dev_va": 5399229248,
+    "dev_rva": 30520128,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "HubDataModel::ProcessEvent::InitialClientInfoMsg_Execute": {
+    "dev_va": 5401831456,
+    "dev_rva": 33122336,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "HubDataModel::ProcessEvent::ResetFromQuickplay_Event": {
+    "dev_va": 5401831648,
+    "dev_rva": 33122528,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "HubDataModel::ProcessEvent::ResetFromBabylon_Event": {
+    "dev_va": 5401831856,
+    "dev_rva": 33122736,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "GameStatePromptDataModel::Suspend": {
+    "dev_va": 5403117792,
+    "dev_rva": 34408672,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "GameStatePromptDataModel::Resume": {
+    "dev_va": 5403118016,
+    "dev_rva": 34408896,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "WorldDataModel::BabylonConnect": {
+    "dev_va": 5403581024,
+    "dev_rva": 34871904,
+    "retail_rva": 46647168,
+    "retail_va": 5415356288,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "GameUIModel::OnGameDataLoaded": {
+    "dev_va": 5403900624,
+    "dev_rva": 35191504,
+    "retail_rva": 31980896,
+    "retail_va": 5400690016,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "HUDCrosshair::UpdateSpreadReticleRadius": {
+    "dev_va": 5404163312,
+    "dev_rva": 35454192,
+    "retail_rva": 37480192,
+    "retail_va": 5406189312,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "UI::Warning": {
+    "dev_va": 5404552793,
+    "dev_rva": 35843673,
+    "retail_rva": 23483296,
+    "retail_va": 5392192416,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 16
+  },
+  "PipboyMenu::Call::SCF_ON_NEW_TAB": {
+    "dev_va": 5406220435,
+    "dev_rva": 37511315,
+    "retail_rva": 48093002,
+    "retail_va": 5416802122,
+    "sig_length_used": 14,
+    "match_type": "wildcard-14b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 10
+  },
+  "WorkshopMenu::ProcessMessage": {
+    "dev_va": 5406652667,
+    "dev_rva": 37943547,
+    "retail_rva": 37611577,
+    "retail_va": 5406320697,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "HeroStats::UpdateHeroStat": {
+    "dev_va": 5407050672,
+    "dev_rva": 38341552,
+    "retail_rva": 35047888,
+    "retail_va": 5403757008,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "PipboyQuestData::Populate()": {
+    "dev_va": 5407096128,
+    "dev_rva": 38387008,
+    "retail_rva": 46647168,
+    "retail_va": 5415356288,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "ActiveEffect::OnRemove": {
+    "dev_va": 5407263504,
+    "dev_rva": 38554384,
+    "retail_rva": 56603712,
+    "retail_va": 5425312832,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "ActiveEffectManager::RegisterActiveEffect": {
+    "dev_va": 5407298528,
+    "dev_rva": 38589408,
+    "retail_rva": 61619904,
+    "retail_va": 5430329024,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "MagicTarget::CheckAddEffect": {
+    "dev_va": 5407433255,
+    "dev_rva": 38724135,
+    "retail_rva": 23483296,
+    "retail_va": 5392192416,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 16
+  },
+  "Social::Lobby::KickError - Error sending kick. Not lobby leader.": {
+    "dev_va": 5408014630,
+    "dev_rva": 39305510,
+    "retail_rva": 23704646,
+    "retail_va": 5392413766,
+    "sig_length_used": 10,
+    "match_type": "wildcard-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "ActiveEffectNetworkEntity::NetDelete": {
+    "dev_va": 5408440096,
+    "dev_rva": 39730976,
+    "retail_rva": 56603712,
+    "retail_va": 5425312832,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "ActiveEffectSnapshotComponent::Serialize": {
+    "dev_va": 5408448776,
+    "dev_rva": 39739656,
+    "retail_rva": 23483296,
+    "retail_va": 5392192416,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 16
+  },
+  "ActorValuesSnapshotComponent::Serialize": {
+    "dev_va": 5408596919,
+    "dev_rva": 39887799,
+    "retail_rva": 23483296,
+    "retail_va": 5392192416,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 16
+  },
+  "AnimationProgressComponent::UpdateInterpolatorTask": {
+    "dev_va": 5408621056,
+    "dev_rva": 39911936,
+    "retail_rva": 61619904,
+    "retail_va": 5430329024,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "CellNonRefrEntity::PostSerializeRead::NotFound": {
+    "dev_va": 5408640414,
+    "dev_rva": 39931294,
+    "retail_rva": 23483296,
+    "retail_va": 5392192416,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 16
+  },
+  "AddInstantEffectMessage::Execute (Failed)": {
+    "dev_va": 5410300013,
+    "dev_rva": 41590893,
+    "retail_rva": 23482569,
+    "retail_va": 5392191689,
+    "sig_length_used": 14,
+    "match_type": "wildcard-14b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 10
+  },
+  "SSyncedVariable::Serialize": {
+    "dev_va": 5410429026,
+    "dev_rva": 41719906,
+    "retail_rva": 6651690,
+    "retail_va": 5375360810,
+    "sig_length_used": 16,
+    "match_type": "wildcard-16b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 8
+  },
+  "Game::TESObjectREFR::Selected::SnapshotContents::SSyncedVariable::ScriptValue": {
+    "dev_va": 5410432716,
+    "dev_rva": 41723596,
+    "retail_rva": 14821206,
+    "retail_va": 5383530326,
+    "sig_length_used": 10,
+    "match_type": "wildcard-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "SnapshotInterpolator::Update": {
+    "dev_va": 5410510096,
+    "dev_rva": 41800976,
+    "retail_rva": 31980896,
+    "retail_va": 5400690016,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "BGSSaveLoadGame::SaveGlobalData": {
+    "dev_va": 5410659527,
+    "dev_rva": 41950407,
+    "retail_rva": 23423975,
+    "retail_va": 5392133095,
+    "sig_length_used": 10,
+    "match_type": "wildcard-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "BGSSaveLoadGame::RevertGlobalData": {
+    "dev_va": 5410663428,
+    "dev_rva": 41954308,
+    "retail_rva": 24204580,
+    "retail_va": 5392913700,
+    "sig_length_used": 10,
+    "match_type": "wildcard-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "Actor::Jump": {
+    "dev_va": 5411427824,
+    "dev_rva": 42718704,
+    "retail_rva": 12086768,
+    "retail_va": 5380795888,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "Actor::RagdollHandler::PrepareForRagdoll": {
+    "dev_va": 5411453888,
+    "dev_rva": 42744768,
+    "retail_rva": 59258704,
+    "retail_va": 5427967824,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "Actor::UpdateMinimal": {
+    "dev_va": 5411481216,
+    "dev_rva": 42772096,
+    "retail_rva": 59252752,
+    "retail_va": 5427961872,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "Actor::SetCurrentTarget": {
+    "dev_va": 5411500880,
+    "dev_rva": 42791760,
+    "retail_rva": 59258704,
+    "retail_va": 5427967824,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "Actor::CancelNetPredictDeath": {
+    "dev_va": 5411523536,
+    "dev_rva": 42814416,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "ActorUtils::ForEachRelevantPlayer": {
+    "dev_va": 5411609696,
+    "dev_rva": 42900576,
+    "retail_rva": 8371761,
+    "retail_va": 5377080881,
+    "sig_length_used": 40,
+    "match_type": "wildcard-40b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 32
+  },
+  "Actor::HideLimb": {
+    "dev_va": 5411628848,
+    "dev_rva": 42919728,
+    "retail_rva": 53552112,
+    "retail_va": 5422261232,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "Actor::UpdateCastPowers": {
+    "dev_va": 5412336080,
+    "dev_rva": 43626960,
+    "retail_rva": 8237200,
+    "retail_va": 5376946320,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "ActorMediator::DoAction": {
+    "dev_va": 5412401336,
+    "dev_rva": 43692216,
+    "retail_rva": 3264752,
+    "retail_va": 5371973872,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "LocalPlayerCharacter::RequestNetworkAuthorityUpdate": {
+    "dev_va": 5413039344,
+    "dev_rva": 44330224,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "wildcard-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "PerkVisitor::ExportProgressDataPerkVisitor": {
+    "dev_va": 5413268256,
+    "dev_rva": 44559136,
+    "retail_rva": 33421696,
+    "retail_va": 5402130816,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "AnimationEventHandlers::GetUpEndImpl": {
+    "dev_va": 5413993136,
+    "dev_rva": 45284016,
+    "retail_rva": 49763168,
+    "retail_va": 5418472288,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "Projectile::Update": {
+    "dev_va": 5414334448,
+    "dev_rva": 45625328,
+    "retail_rva": 8485712,
+    "retail_va": 5377194832,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "CombatBehaviorContextMelee::StartAttack": {
+    "dev_va": 5416285413,
+    "dev_rva": 47576293,
+    "retail_rva": 23483296,
+    "retail_va": 5392192416,
+    "sig_length_used": 24,
+    "match_type": "wildcard-24b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 16
+  },
+  "MovieImpl::Advance": {
+    "dev_va": 5423924464,
+    "dev_rva": 55215344,
+    "retail_rva": 55960592,
+    "retail_va": 5424669712,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "MovieImpl::ProcessUnloadQueue": {
+    "dev_va": 5423928912,
+    "dev_rva": 55219792,
+    "retail_rva": 18480800,
+    "retail_va": 5387189920,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
+  },
+  "MovieImpl::GetTopMostEntity": {
+    "dev_va": 5423934864,
+    "dev_rva": 55225744,
+    "retail_rva": 51004288,
+    "retail_va": 5419713408,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "RTHandle::NextCapture": {
+    "dev_va": 5424046496,
+    "dev_rva": 55337376,
+    "retail_rva": 26210352,
+    "retail_va": 5394919472,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "GlyphTextureMapper::Create": {
+    "dev_va": 5424764384,
+    "dev_rva": 56055264,
+    "retail_rva": 60204800,
+    "retail_va": 5428913920,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "ObjectInterface::VisitElements": {
+    "dev_va": 5426484336,
+    "dev_rva": 57775216,
+    "retail_rva": 10703104,
+    "retail_va": 5379412224,
+    "sig_length_used": 8,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 8
+  },
+  "ObjectInterface::AttachMovie": {
+    "dev_va": 5426498992,
+    "dev_rva": 57789872,
+    "retail_rva": 15537952,
+    "retail_va": 5384247072,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "MovieRoot::ExecuteCtors": {
+    "dev_va": 5426546768,
+    "dev_rva": 57837648,
+    "retail_rva": 55716704,
+    "retail_va": 5424425824,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "MovieRoot::DoActions": {
+    "dev_va": 5426550848,
+    "dev_rva": 57841728,
+    "retail_rva": 55716704,
+    "retail_va": 5424425824,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "Object::AS3propertyIsEnumerable": {
+    "dev_va": 5426972288,
+    "dev_rva": 58263168,
+    "retail_rva": 59823840,
+    "retail_va": 5428532960,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "XML::Construct": {
+    "dev_va": 5427105792,
+    "dev_rva": 58396672,
+    "retail_rva": 46392464,
+    "retail_va": 5415101584,
+    "sig_length_used": 12,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 12
+  },
+  "Proxy::GetDescendants": {
+    "dev_va": 5427693728,
+    "dev_rva": 58984608,
+    "retail_rva": 21146320,
+    "retail_va": 5389855440,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "BSStaticTriShapeDB::Request": {
+    "dev_va": 5446828208,
+    "dev_rva": 78119088,
+    "retail_rva": 47795845,
+    "retail_va": 5416504965,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "BSTextureStreamer::Schedule": {
+    "dev_va": 5446948816,
+    "dev_rva": 78239696,
+    "retail_rva": 24656922,
+    "retail_va": 5393366042,
+    "sig_length_used": 10,
+    "match_type": "wildcard-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "CullingJob::BatchProcessCuller": {
+    "dev_va": 5447075280,
+    "dev_rva": 78366160,
+    "retail_rva": 33428224,
+    "retail_va": 5402137344,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "CullingJob::BatchProcessNodeCuller": {
+    "dev_va": 5447075280,
+    "dev_rva": 78366160,
+    "retail_rva": 33428224,
+    "retail_va": 5402137344,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "CullingJob::BatchCullP1Arena": {
+    "dev_va": 5447075280,
+    "dev_rva": 78366160,
+    "retail_rva": 33428224,
+    "retail_va": 5402137344,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "CullingJob::Accum": {
+    "dev_va": 5447075280,
+    "dev_rva": 78366160,
+    "retail_rva": 33428224,
+    "retail_va": 5402137344,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "UI::Assert": {
+    "dev_va": 5447552368,
+    "dev_rva": 78843248,
+    "retail_rva": 56065360,
+    "retail_va": 5424774480,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "UiFlashPublisher::Publish": {
+    "dev_va": 5447634224,
+    "dev_rva": 78925104,
+    "retail_rva": 32360240,
+    "retail_va": 5401069360,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "SnapshotFollowingPlannerHandlerAgent::UpdateSmallDelta_Handler": {
+    "dev_va": 5448938096,
+    "dev_rva": 80228976,
+    "retail_rva": 36457756,
+    "retail_va": 5405166876,
+    "sig_length_used": 20,
+    "match_type": "wildcard-20b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 12
+  },
+  "ShadowSceneNode::ProcessQueuedAdditionsInternal": {
+    "dev_va": 5450636448,
+    "dev_rva": 81927328,
+    "retail_rva": 4755344,
+    "retail_va": 5373464464,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "BSDynamicObjectQueryManager::PostProcess": {
+    "dev_va": 5451470112,
+    "dev_rva": 82760992,
+    "retail_rva": 3560272,
+    "retail_va": 5372269392,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "BSEnlighten::BSEnlightenTexture::Update": {
+    "dev_va": 5451879392,
+    "dev_rva": 83170272,
+    "retail_rva": 55598256,
+    "retail_va": 5424307376,
+    "sig_length_used": 20,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20
+  },
+  "BNetWebsocket::Connect: Failed to parse websocket address": {
+    "dev_va": 5457168960,
+    "dev_rva": 88459840,
+    "retail_rva": 34472192,
+    "retail_va": 5403181312,
+    "sig_length_used": 14,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 14
+  },
+  "BNetWebsocket::Connect: Initialize failed setup": {
+    "dev_va": 5457170528,
+    "dev_rva": 88461408,
+    "retail_rva": 8816322,
+    "retail_va": 5377525442,
+    "sig_length_used": 10,
+    "match_type": "exact",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 10
   }
 }
