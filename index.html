@@ -197,23 +197,38 @@ body::after {
 
 .card-header {
   display: flex;
-  align-items: flex-start;
-  gap: 0.8rem;
+  flex-direction: column;
+  gap: 0.4rem;
   padding: 0.8rem 1rem;
-  flex-wrap: wrap;
+}
+
+.card-header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
 }
 
 .card-title {
   font-size: 1rem;
   color: var(--green);
   flex: 1;
-  min-width: 200px;
+  min-width: 0;
+  word-wrap: break-word;
 }
 
 .card-meta {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.card-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   flex-wrap: wrap;
 }
 
@@ -580,6 +595,9 @@ function formatNum(n) {
 
 function formatPercent(n) {
   if (n == null) return null;
+  // Values > 1 are already percentages (e.g. 130 = 130%)
+  // Values <= 1 are fractions (e.g. 0.5 = 50%)
+  if (Math.abs(n) > 1) return n.toFixed(1) + '%';
   return (n * 100).toFixed(1) + '%';
 }
 
@@ -706,14 +724,18 @@ function renderWeaponCard(item) {
   var dmgLabel = item.damage_type || 'ballistic';
   var catText = [item.category, item.subcategory].filter(Boolean).join(' \u2022 ');
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-weapon">weapon</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-weapon">weapon</span>' +
+        (item.damage_50 != null ? '<span class="dmg-value">' + formatNum(item.damage_50) + ' dmg</span>' : '') +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>' +
+    '<div class="card-tags">' +
       (catText ? '<span class="dim">' + esc(catText) + '</span>' : '') +
       '<span class="dmg-type ' + dmgClass + '">' + esc(dmgLabel) + '</span>' +
-      (item.damage_50 != null ? '<span class="dmg-value">' + formatNum(item.damage_50) + ' dmg</span>' : '') +
       (item.ammo_type ? '<span class="dim">' + esc(item.ammo_type) + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
     '</div>';
 
   var levels = [1,5,10,15,20,25,30,35,40,45,50];
@@ -767,14 +789,18 @@ function renderPerkCard(item) {
   var specialClass = SPECIAL_CLASSES[item.special] || '';
   var costDots = item.cost ? '\u2666'.repeat(item.cost) : '';
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-perk">perk</span>' +
-      (item.special ? '<span class="badge ' + specialClass + '">' + esc(item.special) + '</span>' : '') +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-perk">perk</span>' +
+        (item.special ? '<span class="badge ' + specialClass + '">' + esc(item.special) + '</span>' : '') +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>' +
+    '<div class="card-tags">' +
       (costDots ? '<span class="dim" title="Card cost: ' + item.cost + '">' + costDots + '</span>' : '') +
       '<span class="dim">Rank ' + (item.rank || '?') + '/' + (item.max_rank || '?') + '</span>' +
       (item.is_legendary ? '<span class="badge badge-legendary">legendary</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
     '</div>';
 
   var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
@@ -814,27 +840,49 @@ function renderLegendaryCard(item) {
   };
   var scalingText = scalingExplained[item.scaling_type] || item.scaling_type || 'Unknown';
 
-  var header = '<div class="card-title">' + esc(item.effect_name || item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-legendary">legendary</span>' +
-      '<span class="stars">' + stars + '</span>' +
-      '<span class="badge ' + (appliesToLabel === 'weapon' ? 'badge-weapon' : appliesToLabel === 'armor' ? 'badge-perk' : 'badge-legendary') + '">' + esc(appliesToLabel) + '</span>' +
-      '<span class="expand-indicator">&#9654;</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.effect_name || item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-legendary">legendary</span>' +
+        '<span class="stars">' + stars + '</span>' +
+        '<span class="badge ' + (appliesToLabel === 'weapon' ? 'badge-weapon' : appliesToLabel === 'armor' ? 'badge-perk' : 'badge-legendary') + '">' + esc(appliesToLabel) + '</span>' +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
     '</div>';
 
   var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
 
+  // Build curve data table if available
+  var curveTable = '';
+  var curveData = d.curve_data || [];
+  if (curveData.length > 0) {
+    var rows = '';
+    curveData.forEach(function(p) {
+      var x = p.x != null ? p.x : '';
+      var y = p.y != null ? p.y : '';
+      rows += '<tr><td>' + formatNum(x) + '</td><td>' + formatNum(y) + '</td></tr>';
+    });
+    curveTable = '<div style="margin-top:0.8rem"><span class="detail-label">scaling curve</span>' +
+      '<table class="data-table"><tr><th>Input</th><th>Output</th></tr>' + rows + '</table></div>';
+  }
+
   var details = '<div class="card-details-inner">' +
     '<div class="detail-grid">' +
-      detailItem('Scaling', scalingText) +
+      detailItem('Effect', d.effect || item.description) +
+      detailItem('Scaling Type', scalingText) +
       detailItem('Base Magnitude', d.base_magnitude != null ? formatPercent(d.base_magnitude) : null) +
       detailItem('Max Magnitude', item.max_magnitude != null ? formatPercent(item.max_magnitude) : null) +
       detailItem('Star Slot', starCount + '-star') +
       detailItem('Applies To', appliesToLabel) +
-      detailItem('Curve File', item.curve_file) +
+      detailItem('OMOD Name', d.omod_name) +
+      detailItem('Curve File', item.curve_file || d.curve_file) +
       detailItem('Editor ID', item.editor_id || d.editor_id) +
+      detailItem('Form ID', d.form_id) +
+      detailItem('Star', d.star) +
+      detailItem('Type', d.type) +
       detailItem('Data Source', d.data_source) +
     '</div>' +
+    curveTable +
   '</div>';
 
   return { header: header, details: details, summary: summary };
@@ -843,10 +891,12 @@ function renderLegendaryCard(item) {
 function renderMutationCard(item) {
   var d = item.data || {};
 
-  var header = '<div class="card-title">' + esc(d.mutation_name || item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-mutation">mutation</span>' +
-      '<span class="expand-indicator">&#9654;</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(d.mutation_name || item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-mutation">mutation</span>' +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
     '</div>';
 
   var benefit = d.benefit_description || '';
@@ -875,11 +925,13 @@ function renderMutationCard(item) {
 function renderPowerArmorCard(item) {
   var d = item.data || {};
 
-  var header = '<div class="card-title">' + esc(d.display_name || item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-power-armor">power armor</span>' +
-      (d.min_level ? '<span class="dim">Level ' + d.min_level + (d.max_level && d.max_level !== d.min_level ? '-' + d.max_level : '') + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(d.display_name || item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-power-armor">power armor</span>' +
+        (d.min_level ? '<span class="dim">Level ' + d.min_level + (d.max_level && d.max_level !== d.min_level ? '-' + d.max_level : '') + '</span>' : '') +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
     '</div>';
 
   var details = '<div class="card-details-inner">' +
@@ -900,13 +952,15 @@ function renderGameSettingCard(item) {
   var d = item.data || {};
   var val = d.value_float != null ? d.value_float : (d.value_int != null ? d.value_int : d.value_string);
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-game-setting">setting</span>' +
-      '<span class="dim">' + esc(item.category || '') + '</span>' +
-      (val != null ? '<span class="dmg-value" style="font-size:0.9rem">' + esc(String(val)) + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
-    '</div>';
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-game-setting">setting</span>' +
+        (val != null ? '<span class="dmg-value" style="font-size:0.9rem">' + esc(String(val)) + '</span>' : '') +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>' +
+    (item.category ? '<div class="card-tags"><span class="dim">' + esc(item.category) + '</span></div>' : '');
 
   var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
 
@@ -943,12 +997,16 @@ function renderFindingCard(item) {
     statusBadge = '<span class="badge ' + cls + '">' + esc(item.status) + '</span>';
   }
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-finding">finding</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-finding">finding</span>' +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>' +
+    '<div class="card-tags">' +
       statusBadge +
       (item.source ? '<span class="dim">' + esc(item.source) + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
     '</div>';
 
   var preview = '';
@@ -974,15 +1032,39 @@ function renderFindingCard(item) {
   return { header: header, details: details, summary: preview };
 }
 
+function renderAllProps(item) {
+  var html = '';
+  var skip = ['id', 'type', 'data'];
+  Object.keys(item).forEach(function(k) {
+    if (skip.indexOf(k) !== -1) return;
+    var v = item[k];
+    if (v == null || v === '') return;
+    if (typeof v === 'object') return;
+    html += detailItem(k.replace(/_/g, ' '), v);
+  });
+  if (item.data && typeof item.data === 'object') {
+    Object.keys(item.data).forEach(function(k) {
+      var v = item.data[k];
+      if (v == null || v === '' || typeof v === 'object') return;
+      html += detailItem(k.replace(/_/g, ' '), v);
+    });
+  }
+  return html;
+}
+
 function renderNativeFunctionCard(item) {
   var d = item.data || {};
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-native-function">native</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-native-function">native</span>' +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>' +
+    '<div class="card-tags">' +
       '<span class="dim">' + esc(item.class_name || '') + '</span>' +
       (item.return_type ? '<span class="dim">→ ' + esc(item.return_type) + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
     '</div>';
 
   var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
@@ -994,6 +1076,7 @@ function renderNativeFunctionCard(item) {
       detailItem('Return Type', item.return_type) +
       detailItem('Parameters', item.params) +
       detailItem('Description', item.description) +
+      renderAllProps(item.data || {}) +
     '</div>' +
   '</div>';
 
@@ -1004,13 +1087,18 @@ function renderCurveTableCard(item) {
   var d = item.data || {};
   var points = d.points || [];
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-curve-table">curve</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-curve-table">curve</span>' +
+        (item.min_value != null && item.max_value != null ? '<span class="dim">' + formatNum(item.min_value) + ' → ' + formatNum(item.max_value) + '</span>' : '') +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>' +
+    '<div class="card-tags">' +
       '<span class="dim">' + esc(item.category || '') + '</span>' +
-      (item.num_points ? '<span class="dim">' + item.num_points + ' points</span>' : '') +
-      (item.min_value != null && item.max_value != null ? '<span class="dim">' + formatNum(item.min_value) + ' → ' + formatNum(item.max_value) + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
+      (item.num_points ? '<span class="dim">' + item.num_points + ' data points</span>' : '') +
+      '<span class="dim">' + esc(item.curve_file || '') + '</span>' +
     '</div>';
 
   var curveTable = '';
@@ -1041,12 +1129,16 @@ function renderCurveTableCard(item) {
 function renderRttiClassCard(item) {
   var d = item.data || {};
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-rtti-class">C++ class</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-rtti-class">C++ class</span>' +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>' +
+    '<div class="card-tags">' +
       (item.category ? '<span class="dim">' + esc(item.category) + '</span>' : '') +
-      (item.parent ? '<span class="dim">: ' + esc(item.parent) + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
+      (item.parent ? '<span class="dim">extends ' + esc(item.parent) + '</span>' : '') +
     '</div>';
 
   var details = '<div class="card-details-inner">' +
@@ -1063,11 +1155,13 @@ function renderRttiClassCard(item) {
 function renderScriptCard(item) {
   var d = item.data || {};
 
-  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
-    '<div class="card-meta">' +
-      '<span class="badge badge-script">script</span>' +
-      (item.script_type ? '<span class="dim">' + esc(item.script_type) + '</span>' : '') +
-      '<span class="expand-indicator">&#9654;</span>' +
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-script">script</span>' +
+        (item.script_type ? '<span class="dim">' + esc(item.script_type) + '</span>' : '') +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
     '</div>';
 
   var details = '<div class="card-details-inner">' +
@@ -1096,7 +1190,11 @@ function renderCard(item) {
     case 'curve_table': parts = renderCurveTableCard(item); break;
     case 'rtti_class': parts = renderRttiClassCard(item); break;
     case 'script': parts = renderScriptCard(item); break;
-    default: parts = { header: '<div class="card-title">' + esc(item.title) + '</div>', details: '', summary: '' };
+    default: parts = {
+      header: '<div class="card-header-top"><div class="card-title">' + esc(item.title) + '</div><div class="card-meta"><span class="badge" style="color:var(--text-dim);border-color:var(--text-faint)">' + esc(item.type) + '</span><span class="expand-indicator">&#9654;</span></div></div>',
+      details: '<div class="card-details-inner"><div class="detail-grid">' + renderAllProps(item) + '</div></div>',
+      summary: ''
+    };
   }
 
   var card = document.createElement('div');
