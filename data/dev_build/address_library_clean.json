@@ -1673,13 +1673,6 @@
     "class": "Actor"
   },
   {
-    "name": "Actor::vfunc_0",
-    "retail_va": "0x141abaac0",
-    "retail_rva": "0x1abaac0",
-    "match_type": "vtable",
-    "class": "Actor"
-  },
-  {
     "name": "Actor::vfunc_0_base40",
     "retail_va": "0x141ab92e0",
     "retail_rva": "0x1ab92e0",
@@ -4872,6 +4865,13 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::~Actor",
+    "retail_va": "0x141abaac0",
+    "retail_rva": "0x1abaac0",
+    "match_type": "vtable",
+    "class": "Actor"
+  },
+  {
     "name": "ActorEquipManager::EquipFirstEqual",
     "retail_va": "0x1438f39e0",
     "retail_rva": "0x38f39e0",
@@ -5612,6 +5612,13 @@
     "retail_rva": "0x391f9e0",
     "match_type": "unique",
     "class": "BGSCombinedCellGeometryDB"
+  },
+  {
+    "name": "BGSConstructFormsInFileMap::ConstructForms",
+    "retail_va": "0x14355e410",
+    "retail_rva": "0x355e410",
+    "match_type": "wildcard_skip7",
+    "class": "BGSConstructFormsInFileMap"
   },
   {
     "name": "BGSConstructibleObject::vfunc_0",
@@ -6648,6 +6655,13 @@
     "retail_rva": "0x604950",
     "match_type": "vtable",
     "class": "BGSPerk"
+  },
+  {
+    "name": "BGSPreloadable::QueueModels",
+    "retail_va": "0x140c44020",
+    "retail_rva": "0xc44020",
+    "match_type": "wildcard_skip10",
+    "class": "BGSPreloadable"
   },
   {
     "name": "BGSProjectile::vfunc_0",
@@ -8610,6 +8624,13 @@
     "class": "BSJobs"
   },
   {
+    "name": "BSPSysFollowStaticsUpdateModifier::Update",
+    "retail_va": "0x141fd8e60",
+    "retail_rva": "0x1fd8e60",
+    "match_type": "wildcard_skip7",
+    "class": "BSPSysFollowStaticsUpdateModifier"
+  },
+  {
     "name": "BSPreCulledObjects::AddToShadowCullingGroups",
     "retail_va": "0x141cac750",
     "retail_rva": "0x1cac750",
@@ -9632,6 +9653,13 @@
     "class": "EnchantmentItem"
   },
   {
+    "name": "EntityManager::AddEntityHelper",
+    "retail_va": "0x1438939b0",
+    "retail_rva": "0x38939b0",
+    "match_type": "wildcard_skip3",
+    "class": "EntityManager"
+  },
+  {
     "name": "EntityManager::AddPlayerHelper player id [",
     "retail_va": "0x14063e850",
     "retail_rva": "0x63e850",
@@ -10357,6 +10385,13 @@
     "retail_va": "0x1438ca738",
     "retail_rva": "0x38ca738",
     "match_type": "wildcard-12b-4wc",
+    "class": "ExteriorCellLoader"
+  },
+  {
+    "name": "ExteriorCellLoader::LoadCellData",
+    "retail_va": "0x140c387b2",
+    "retail_rva": "0xc387b2",
+    "match_type": "wildcard_skip1",
     "class": "ExteriorCellLoader"
   },
   {
@@ -12068,6 +12103,13 @@
     "class": "PerkCard"
   },
   {
+    "name": "PerkEntryVisitor::HandleEntryPointVisitor",
+    "retail_va": "0x14290fa60",
+    "retail_rva": "0x290fa60",
+    "match_type": "wildcard_skip7",
+    "class": "PerkEntryVisitor"
+  },
+  {
     "name": "PerkVisitor::ExportProgressDataPerkVisitor",
     "retail_va": "0x141fdf980",
     "retail_rva": "0x1fdf980",
@@ -12229,6 +12271,13 @@
     "class": "PlayerCamera"
   },
   {
+    "name": "PowerArmor::Extradata::DestroyPowerArmorWorkBenchData",
+    "retail_va": "0x1420f4b70",
+    "retail_rva": "0x20f4b70",
+    "match_type": "wildcard_skip7",
+    "class": "PowerArmor"
+  },
+  {
     "name": "PowerArmor::PowerArmorWorkBenchExitComplete",
     "retail_va": "0x14202f530",
     "retail_rva": "0x202f530",
@@ -12283,6 +12332,13 @@
     "retail_rva": "0x393cc50",
     "match_type": "unique",
     "class": "QuestTrackerDataModel"
+  },
+  {
+    "name": "QueuedCellAttachManager::RunCellAttachJob",
+    "retail_va": "0x141ac00c0",
+    "retail_rva": "0x1ac00c0",
+    "match_type": "wildcard_skip7",
+    "class": "QueuedCellAttachManager"
   },
   {
     "name": "QuickPlayContext::ActivityBorderGeometry::Render",
@@ -13580,7 +13636,14 @@
     "class": "TESForm"
   },
   {
-    "name": "TESForm::vfunc_0",
+    "name": "TESForm::InitItem",
+    "retail_va": "0x14290fa60",
+    "retail_rva": "0x290fa60",
+    "match_type": "wildcard_skip10",
+    "class": "TESForm"
+  },
+  {
+    "name": "TESForm::~TESForm",
     "retail_va": "0x1405f7cb0",
     "retail_rva": "0x5f7cb0",
     "match_type": "vtable",
@@ -15372,6 +15435,13 @@
     "class": "TESObjectCELL"
   },
   {
+    "name": "TESObjectCELL::GetWaterHeight",
+    "retail_va": "0x14148fee0",
+    "retail_rva": "0x148fee0",
+    "match_type": "wildcard_skip3",
+    "class": "TESObjectCELL"
+  },
+  {
     "name": "TESObjectCELL::UnlockEnlightenData",
     "retail_va": "0x141ac00c0",
     "retail_rva": "0x1ac00c0",
@@ -15671,6 +15741,13 @@
     "retail_rva": "0x8b7490",
     "match_type": "vtable",
     "class": "TESObjectCONT"
+  },
+  {
+    "name": "TESObjectDOOR::HandlePlayerTeleport",
+    "retail_va": "0x140eb3b30",
+    "retail_rva": "0xeb3b30",
+    "match_type": "wildcard_skip7",
+    "class": "TESObjectDOOR"
   },
   {
     "name": "TESObjectDOOR::vfunc_0",
@@ -16156,10 +16233,17 @@
     "class": "TESObjectREFR"
   },
   {
-    "name": "TESObjectREFR::vfunc_0",
-    "retail_va": "0x1409b54c0",
-    "retail_rva": "0x9b54c0",
-    "match_type": "vtable",
+    "name": "TESObjectREFR::InitScripts",
+    "retail_va": "0x143883750",
+    "retail_rva": "0x3883750",
+    "match_type": "wildcard_skip3",
+    "class": "TESObjectREFR"
+  },
+  {
+    "name": "TESObjectREFR::MarkForPredictiveDisable",
+    "retail_va": "0x1438939b0",
+    "retail_rva": "0x38939b0",
+    "match_type": "wildcard_skip3",
     "class": "TESObjectREFR"
   },
   {
@@ -17517,6 +17601,13 @@
     "name": "TESObjectREFR::vfunc_9_base80",
     "retail_va": "0x14097aa30",
     "retail_rva": "0x97aa30",
+    "match_type": "vtable",
+    "class": "TESObjectREFR"
+  },
+  {
+    "name": "TESObjectREFR::~TESObjectREFR",
+    "retail_va": "0x1409b54c0",
+    "retail_rva": "0x9b54c0",
     "match_type": "vtable",
     "class": "TESObjectREFR"
   },

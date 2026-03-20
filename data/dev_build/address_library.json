@@ -4630,15 +4630,6 @@
     "vtable_class": "ActiveEffect",
     "vtable_index": 29
   },
-  "Actor::vfunc_0": {
-    "dev_va": 5369523486,
-    "dev_rva": 814366,
-    "retail_rva": 28027584,
-    "retail_va": 5396736704,
-    "match_type": "vtable",
-    "vtable_class": "Actor",
-    "vtable_index": 0
-  },
   "Actor::vfunc_1": {
     "dev_va": 5369538301,
     "dev_rva": 829181,
@@ -18310,15 +18301,6 @@
     "vtable_class": "TESFlora",
     "vtable_index": 0
   },
-  "TESForm::vfunc_0": {
-    "dev_va": 5369612791,
-    "dev_rva": 903671,
-    "retail_rva": 6257840,
-    "retail_va": 5374966960,
-    "match_type": "vtable",
-    "vtable_class": "TESForm",
-    "vtable_index": 0
-  },
   "TESFurniture::vfunc_0": {
     "dev_va": 5369583966,
     "dev_rva": 874846,
@@ -20927,15 +20909,6 @@
     "retail_va": 5377896384,
     "match_type": "vtable",
     "vtable_class": "TESObjectMISC",
-    "vtable_index": 0
-  },
-  "TESObjectREFR::vfunc_0": {
-    "dev_va": 5368799011,
-    "dev_rva": 89891,
-    "retail_rva": 10179776,
-    "retail_va": 5378888896,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
     "vtable_index": 0
   },
   "TESObjectREFR::vfunc_21": {
@@ -24636,5 +24609,142 @@
     "match_type": "vtable",
     "vtable_class": "UI",
     "vtable_index": 0
+  },
+  "TESForm::~TESForm": {
+    "dev_va": 5369612791,
+    "dev_rva": 903671,
+    "retail_rva": 6257840,
+    "retail_va": 5374966960,
+    "match_type": "vtable",
+    "vtable_class": "TESForm",
+    "vtable_index": 0,
+    "naming_source": "fo4_convention",
+    "original_vtable_name": "TESForm::vfunc_0"
+  },
+  "TESObjectREFR::~TESObjectREFR": {
+    "dev_va": 5368799011,
+    "dev_rva": 89891,
+    "retail_rva": 10179776,
+    "retail_va": 5378888896,
+    "match_type": "vtable",
+    "vtable_class": "TESObjectREFR",
+    "vtable_index": 0,
+    "naming_source": "fo4_convention",
+    "original_vtable_name": "TESObjectREFR::vfunc_0"
+  },
+  "Actor::~Actor": {
+    "dev_va": 5369523486,
+    "dev_rva": 814366,
+    "retail_rva": 28027584,
+    "retail_va": 5396736704,
+    "match_type": "vtable",
+    "vtable_class": "Actor",
+    "vtable_index": 0,
+    "naming_source": "fo4_convention",
+    "original_vtable_name": "Actor::vfunc_0"
+  },
+  "EntityManager::AddEntityHelper": {
+    "dev_va": 5380270928,
+    "dev_rva": 11561808,
+    "retail_rva": 59324848,
+    "retail_va": 5428033968,
+    "match_type": "wildcard_skip3",
+    "sig_length_used": 15
+  },
+  "PowerArmor::Extradata::DestroyPowerArmorWorkBenchData": {
+    "dev_va": 5381006464,
+    "dev_rva": 12297344,
+    "retail_rva": 34556784,
+    "retail_va": 5403265904,
+    "match_type": "wildcard_skip7",
+    "sig_length_used": 19
+  },
+  "BGSPreloadable::QueueModels": {
+    "dev_va": 5381991472,
+    "dev_rva": 13282352,
+    "retail_rva": 12861472,
+    "retail_va": 5381570592,
+    "match_type": "wildcard_skip10",
+    "sig_length_used": 22
+  },
+  "TESForm::InitItem": {
+    "dev_va": 5382425456,
+    "dev_rva": 13716336,
+    "retail_rva": 43055712,
+    "retail_va": 5411764832,
+    "match_type": "wildcard_skip10",
+    "sig_length_used": 22
+  },
+  "BGSConstructFormsInFileMap::ConstructForms": {
+    "dev_va": 5382617264,
+    "dev_rva": 13908144,
+    "retail_rva": 55960592,
+    "retail_va": 5424669712,
+    "match_type": "wildcard_skip7",
+    "sig_length_used": 19
+  },
+  "BSPSysFollowStaticsUpdateModifier::Update": {
+    "dev_va": 5383183824,
+    "dev_rva": 14474704,
+    "retail_rva": 33394272,
+    "retail_va": 5402103392,
+    "match_type": "wildcard_skip7",
+    "sig_length_used": 19
+  },
+  "TESObjectDOOR::HandlePlayerTeleport": {
+    "dev_va": 5386656256,
+    "dev_rva": 17947136,
+    "retail_rva": 15416112,
+    "retail_va": 5384125232,
+    "match_type": "wildcard_skip7",
+    "sig_length_used": 19
+  },
+  "ExteriorCellLoader::LoadCellData": {
+    "dev_va": 5387126016,
+    "dev_rva": 18416896,
+    "retail_rva": 12814258,
+    "retail_va": 5381523378,
+    "match_type": "wildcard_skip1",
+    "sig_length_used": 13
+  },
+  "TESObjectCELL::GetWaterHeight": {
+    "dev_va": 5387238400,
+    "dev_rva": 18529280,
+    "retail_rva": 21561056,
+    "retail_va": 5390270176,
+    "match_type": "wildcard_skip3",
+    "sig_length_used": 15
+  },
+  "QueuedCellAttachManager::RunCellAttachJob": {
+    "dev_va": 5387553888,
+    "dev_rva": 18844768,
+    "retail_rva": 28049600,
+    "retail_va": 5396758720,
+    "match_type": "wildcard_skip7",
+    "sig_length_used": 19
+  },
+  "TESObjectREFR::InitScripts": {
+    "dev_va": 5387649184,
+    "dev_rva": 18940064,
+    "retail_rva": 59258704,
+    "retail_va": 5427967824,
+    "match_type": "wildcard_skip3",
+    "sig_length_used": 15
+  },
+  "TESObjectREFR::MarkForPredictiveDisable": {
+    "dev_va": 5387716656,
+    "dev_rva": 19007536,
+    "retail_rva": 59324848,
+    "retail_va": 5428033968,
+    "match_type": "wildcard_skip3",
+    "sig_length_used": 15
+  },
+  "PerkEntryVisitor::HandleEntryPointVisitor": {
+    "dev_va": 5389917152,
+    "dev_rva": 21208032,
+    "retail_rva": 43055712,
+    "retail_va": 5411764832,
+    "match_type": "wildcard_skip7",
+    "sig_length_used": 19
   }
 }
