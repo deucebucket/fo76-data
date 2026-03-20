@@ -2221,6 +2221,7 @@ function buildProfileContent(item) {
     }
   });
 
+  // Show linked curves inline (with their data)
   if (curveLinks.length > 0) {
     html += '<div class="profile-section">';
     html += '<div class="profile-section-title">linked curves</div>';
@@ -2230,20 +2231,19 @@ function buildProfileContent(item) {
     html += '</div>';
   }
 
-  if (otherLinks.length > 0) {
+  // Show other connected items (exclude self and already-shown curves)
+  var shownIds = new Set();
+  shownIds.add(item.id);
+  curveLinks.forEach(function(cl) { shownIds.add(cl.entry.id); });
+
+  var filteredOther = otherLinks.filter(function(ol) { return !shownIds.has(ol.entry.id); });
+  if (filteredOther.length > 0) {
     html += '<div class="profile-section">';
     html += '<div class="profile-section-title">connected items</div>';
-    otherLinks.forEach(function(ol) {
+    filteredOther.forEach(function(ol) {
       html += renderLinkedCard(ol.entry);
     });
     html += '</div>';
-  }
-
-  // Also render curve links as clickable cards
-  if (curveLinks.length > 0) {
-    curveLinks.forEach(function(cl) {
-      html += renderLinkedCard(cl.entry);
-    });
   }
 
   return html;
