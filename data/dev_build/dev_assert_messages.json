@@ -1,0 +1,2057 @@
+{
+  "summary": {
+    "total_assert_strings": 22,
+    "total_error_messages": 583,
+    "total_assert_file_references": 2163,
+    "note": "Assert file references come from source tree entries with File:, Line:, Value: format - these are compile-time assertions or static_assert values"
+  },
+  "assert_strings": {
+    "Graphics": [
+      "ENLIGHTEN Assert %u: %s",
+      "bEnlightenFullTerrainAssert:EnlightenDebug"
+    ],
+    "Memory": [
+      "--copyRCS MemoryAssert.rcs",
+      "assertOnRunningOutOfSolverMemory"
+    ],
+    "Other": [
+      "%s: assert: NULL ah",
+      "%s: assert: len %ld",
+      "%s: assert: no wsi attached to ah",
+      "%s: assert: rxpos %d, rxlen %d",
+      ".?AVAssertHandler@?A0x680b214e@@",
+      "ASSERT - ATTACH DEBUGGER!",
+      "BROADPHASE_BORDER_ASSERT",
+      "Fire an assert",
+      "FireAssert",
+      "assertion failed!",
+      "bAssertsWithoutDebugger:Messages",
+      "bNoBreaksForAsserts:Messages",
+      "bShowAssertsInTimingOverlay:Debug",
+      "game.exception.assert",
+      "messages.assert"
+    ],
+    "Physics": [
+      "sDisableHavokAssertList:HAVOK"
+    ],
+    "UI": [
+      "\"UI::Assert\"",
+      "UI::Assert"
+    ]
+  },
+  "error_messages_by_system": {
+    "Animation": [
+      "Animations could not be loaded for behavior.  Setting character's behavior to null.",
+      "an odd behavior and you cannot figure out why."
+    ],
+    "Character": [
+      "Attempted to add invalid perk to the actor",
+      "BETAVERSION Error: CharacterManager::CallbackResult %s",
+      "Cannot add invalid form to leveled spell",
+      "CharacterManager::Create: Unable Create new character. result:",
+      "Could not get Selected Character. Error code:",
+      "Invalid: Attempted to modify an invalid perk card",
+      "Invalid: Attempted to set an invalid perk card rank",
+      "RemovePerk called with invalid Perk",
+      "StartMatchmaking was unable to get the selected character from platform.",
+      "Unable to find Challenge Pass Level Up ENTM.",
+      "Warning: LOD level is locked.",
+      "] who had invalid character id",
+      "unable to find matching level xp threshold",
+      "unable to find matching level xp threshold or matching reward"
+    ],
+    "Combat": [
+      "BeamProjectile cannot find valid a valid ProjectileNode on Actor (",
+      "FlameProjectile cannot find valid a valid ProjectileNode on Actor ("
+    ],
+    "Graphics": [
+      "BSBloodSplatterShader: Unable to load Textures\\Blood\\FXBloodFlare.dds",
+      "Cannot combine %s and %s because their shader flags do not match.",
+      "ImageFixtureManager::ImageFixtureBuffer::LoadImage - Cannot Load Texture for filepath :",
+      "Land texture %s could not be loaded properly"
+    ],
+    "Inventory": [
+      "Check ImGui->Systems->Catalog for invalid catalog items.",
+      "Could not find death item (%08X)",
+      "Created object '%s' (%08X) is an invalid type to be created in a container. Ref cannot be created.",
+      "Invalid Catalog Items: [ %I64u ]",
+      "Invalid: Cannot scrap item handle",
+      "Invalid: Invalid dest containers when transferring",
+      "Invalid: Invalid item handle",
+      "Invalid: Invalid source item handle",
+      "Invalid: Invalid source item type",
+      "Invalid: Invalid target item handle",
+      "Invalid: Unexpected owner of item",
+      "Invalid: Unexpected owner of source item",
+      "Invalid: Unexpected owner of target item",
+      "Invalid: invalid item",
+      "Invalid: invalid pickup item",
+      "Invalid: invalid pickup item count",
+      "Invalid: orig cannot be replaced with new item",
+      "ReferenceHandleCleanupPolicy::CleanupItem (Failed)",
+      "ReferenceHandleCleanupPolicy::CleanupItem (Success)",
+      "Unable to find Reward Item.",
+      "] cannot retrieve item.",
+      "]) could not resolve equip index for slot '",
+      "cannot find associated item to remove",
+      "cannot retrieve item to change equip state to [",
+      "could not add initial item with form id [",
+      "could not create item with formId [",
+      "could not retrieve item for handle"
+    ],
+    "Memory": [
+      "%s: Cannot allocate memory for CGI variable [%s]",
+      "%s: Cannot allocate memory for boundary [%lu]",
+      "%s: Cannot set internally-allocated user_space",
+      "%s: cannot allocate mutexes: %s",
+      "BSString::Set(): Could not allocate full amount of memory asked for with aiMaxLen.",
+      "Error: CGI program \"%s\": Not enough memory for buffer (%u bytes)",
+      "Error: Not enough memory for CGI buffer (%u bytes)",
+      "Invalid: invalid point cost allocation",
+      "MTAccessWarning:Reader overflow. Too many concurrent/recursive reads?",
+      "MTAccessWarning:Writer overflow. Too many recursive writes?",
+      "Out of memory: Cannot allocate buffer for worker %i",
+      "memory allocation error: block too big",
+      "truncated send: unable to malloc %lu"
+    ],
+    "Networking": [
+      "\"Variable (%s) on script (%s) on entity (%08X) cannot sync unsupported type (%i)\"",
+      "%s: getsockopt(SOL_SOCKET SO_ERROR) failed: %s",
+      "%s: setsockopt(SOL_SOCKET SO_KEEPALIVE) failed: %s",
+      "%s: setsockopt(SOL_SOCKET SO_LINGER(%i,%i)) failed: %s",
+      "BNet account details error:",
+      "BNet notification-websocket-connect failed: commencing retries",
+      "BNet user's session is invalid and/or BNet re-log required",
+      "BNetWebsocket: Connection failed:",
+      "BNetWebsocket::Connect: Failed to parse websocket address",
+      "BNetWebsocket::Connect: Failed:",
+      "BNetWebsocket::Connect: Initialize failed setup",
+      "BNetWebsocket::InternalRead: Read failed:",
+      "BNetWebsocket::Send: Write failed:",
+      "BNetWebsocket::Shutdown: called",
+      "Cannot add SSL socket (entry %i). Is -ssl_certificate option set?",
+      "Cannot initialize thread synchronization objects",
+      "Client could not find a closest map marker for respawn; all map markers either invisible or disabled. Falling back to Vault 76.",
+      "Could not associate local address (port %d) with listener socket. Error %d",
+      "Could not connect to server. Error %d",
+      "Could not create listener socket. Error %d",
+      "Could not create socket. Error %d",
+      "Could not get character list. Connect to platform.",
+      "Could not place socket in listening state. Error %d",
+      "Detected invalid executable hash sent by client during the one time abnormality check via BNETSEC",
+      "Error: Client did not specify content length",
+      "If true, server will disconnect player when motion validation cannot correct them.",
+      "Invalid: Invalid client form id",
+      "Out of memory: Cannot allocate memory for client certificate",
+      "PrintQuestEventRelays cannot be run on the client",
+      "RequestGameAccountInformation could not find or create an entry in the Client Account Data Set for:",
+      "SSL_CTX_new (server) error: %s",
+      "Social::Lobby::BecameLeader - This client is now the lobby leader",
+      "Social::Lobby::LostLeadership - This client is no longer the lobby leader",
+      "Social::Lobby::MessageError - Attempted to send member message to the local client.",
+      "Social::Lobby::Reconnect error  msg:",
+      "Social::Lobby::ReconnectToLobby - Reconnect request sent",
+      "Social::Lobby::RemovedFromLobby - This client was removed from the lobby. Reason:",
+      "Unable to allocate events array for %d connections",
+      "Unable to load SSL Client certs file from %s -- client ssl isn't going to work",
+      "Unable to load SSL Client certs from %s (set by --with-client-cert-dir= in configure) --  client ssl isn't going to work",
+      "Unable to open socket",
+      "Unexpected connector create while connection status was",
+      "UpdateOrAddFriendAccountData could not find or create an entry in the Client Account Data Set for:",
+      "UpdateOrAddTeamAccountData could not find or create an entry in the Client Account Data Set for:",
+      "Variable (%s) on script (%s) on entity (%08X) cannot sync unsupported type (%i)",
+      "WorkshopClient::MultiEditHelper ::ResolveMustSnapItems",
+      "cannot create socket (entry %i)",
+      "cannot set socket option SO_EXCLUSIVEADDRUSE (entry %i)",
+      "unable to open socket",
+      "unexpected connection close based on peer state",
+      "unexpected connection rejection based on peer state"
+    ],
+    "Other": [
+      "\"%s (%08X) could not reach power armor %s (%08X). No accessible markers.\"",
+      "\"%s (%08X) could not reach power armor. Obstructed by %s (%08X).\"",
+      "\"%s (%08x) could not use marker %s (%08x) as it is in use by %s (%08x)\"",
+      "\"Could not find matching instance data for %s with FormId %i. Falling back to Base Object Match.\"",
+      "\"Could not find member named %s\"",
+      "\"Effect %d is unable to be instanced; doing normal clones instead\"",
+      "\"Unexpected selection id %u\"",
+      "%.*s: invalid port spec (entry %i). Expecting list of: %s",
+      "%s %s - Distance %.2f  Player cannot detect group",
+      "%s %s - Player cannot detect",
+      "%s (%08X) could not reach power armor %s (%08X). No accessible markers.",
+      "%s (%08X) could not reach power armor. Obstructed by %s (%08X).",
+      "%s (%08x) could not use marker %s (%08x) as it is in use by %s (%08x)",
+      "%s: %p: CANNOT DETACH rxpos:%d, rxlen:%d",
+      "%s: Cannot register CGI variable [%s]",
+      "%s: Unable to get hostname",
+      "%s: cannot open %s: %s",
+      "%s: fseeko() failed: %s",
+      "%s: getsockname() failed: %s",
+      "%s: mg_stat(%s) failed: %s",
+      "%s: option value cannot be NULL",
+      "%s: setsockopt(IPPROTO_TCP TCP_NODELAY) failed: %s",
+      "%s: unable to parse remote def '%s'",
+      "%s: unable to parse user defaults '%s'",
+      "** error invalid sock but expected to send",
+      "- Fire location data has an invalid grid location (%i, %i): (%.2f, %.2f, %.2f) for fire location %s",
+      "- Fire location data has an invalid location: (%.2f, %.2f, %.2f) for fire location %s",
+      "- Node location %s has an invalid location: (%.2f, %.2f, %.2f) for stance %s",
+      "AIProcess::UpdateDetection (vs target)",
+      "AddInstantEffectMessage::Execute (Failed)",
+      "AddInstantEffectMessage::Execute (Success)",
+      "An invalid register {0} was accessed.",
+      "An object cannot be added as a child of itself.",
+      "Argument {0} cannot be null.",
+      "BSInputEventUser::HandleInputEvent: UserEvent:",
+      "Cannot SSI #exec: [%s]: %s",
+      "Cannot SignIn with no auth code or user and pass supplied.",
+      "Cannot access a property or method of a null object reference.",
+      "Cannot assign to a method {0} on {1}.",
+      "Cannot call OP_findproperty when scopeDepth is 0.",
+      "Cannot call method {0} as constructor.",
+      "Cannot cast a None scroll",
+      "Cannot change the length of a fixed Vector.",
+      "Cannot check doing a command on a none ref",
+      "Cannot combine %s and %s because their materials do not match.",
+      "Cannot combine %s and %s because their occlusion flags do not match.",
+      "Cannot combine %s and %s because their vertex descs do not match.",
+      "Cannot convert {0} to primitive.",
+      "Cannot create convex hull",
+      "Cannot create property {0} on {1}.",
+      "Cannot create threads: error %ld",
+      "Cannot delete property {0} on {1}.",
+      "Cannot open SSI #include: [%s]: fopen(%s): %s",
+      "Cannot see target( Last seen %.2fs ) Visibility: [%.2f]",
+      "Cannot start worker thread %i: error %ld",
+      "Cannot supply flags when constructing one RegExp from another.",
+      "Cannot use optimized shrinking on non-volumetric(3D) shapes, falling back to legacy method.",
+      "Cannot verify method until it is referenced.",
+      "Cannot verify method {0} with unknown scope.",
+      "Class {0} cannot extend final base class.",
+      "Class {0} could not be found.",
+      "Code cannot fall off the end of a method.",
+      "Control map max size reached, unable to add new input context. skipping. . .",
+      "ConvertCurrencyAmount: \"type\" could not be converted to a valid enum",
+      "Could Not Retrieve GPU info.",
+      "Could not fetch door with form ID %08x",
+      "Could not find created object (%08X).",
+      "Could not find filter form (%08X)",
+      "Could not find forced voice type (%08X)",
+      "Could not find loc ref type (%08X).",
+      "Could not find matching instance data for %s with FormId %i. Falling back to Base Object Match.",
+      "Could not find member named %s",
+      "Could not find package (%08X).",
+      "Could not find splitting plane for child",
+      "Could not find terminal (%08X).",
+      "Could not find unique actor (%08X).",
+      "Could not resolve form id to ENTM",
+      "Created object '%s' (%08X) is an invalid type. Ref cannot be created.",
+      "Cylinder shape too small compared to 'extra radius' - unable to shrink.",
+      "ERROR: Did not find entity ID for %s",
+      "Effect %d is unable to be instanced; doing normal clones instead",
+      "Error: CGI can not open fdin",
+      "Error: CGI can not open fdout",
+      "Error: CGI program \"%s\" sent error message: [%.*s]",
+      "Error: CGI program \"%s\": Can not create CGI pipes: %s",
+      "Error: CGI program \"%s\": Can not open stderr: %s",
+      "Error: CGI program \"%s\": Can not open stdin: %s",
+      "Error: CGI program \"%s\": Can not open stdout: %s",
+      "Error: CGI program \"%s\": Can not spawn CGI process: %s",
+      "Error: CGI program \"%s\": Forward body data failed",
+      "Error: CGI program sent malformed or too big (>%u bytes) HTTP headers: [%.*s]",
+      "Error: Can not create directory",
+      "Error: Can not fulfill expectation %s",
+      "Error: Cannot create CGI pipe: %s",
+      "Error: Cannot open directory",
+      "Error: Cannot spawn CGI process [%s]: %s",
+      "Error: Could not delete %s",
+      "Error: Delete not possible",
+      "Error: Directory listing denied",
+      "Error: Put not possible"
+    ],
+    "Physics": [
+      "\"%s (%08X) could not reach power armor %s (%08X). Invalid physics world.\"",
+      "%s (%08X) could not reach power armor %s (%08X). Invalid physics world.",
+      "Unable to get players current Havok world. Snapshot not created!",
+      "bhkCollisionQuery::RequestQuery - Closest point query request queue is full, invalid handle being returned.  Attempt request at a later time.",
+      "bhkCollisionQuery::RequestQuery - Contact query request queue is full, invalid handle being returned.  Attempt request at a later time.",
+      "bhkCollisionQuery::RequestQuery - Invalid handle being returned.",
+      "bhkCollisionQuery::RequestQuery - Invalid request passed.",
+      "bhkCollisionQuery::RequestQuery - Raycast query request queue is full, invalid handle being returned.  Attempt request at a later time."
+    ],
+    "Quest": [
+      "\"Invalid Quest - QuestInstanceID: %d\"",
+      "\"Invalid Quest - QuestInstanceID: %d. StageID: %d. ItemID: %d.\"",
+      "\"Invalid Quest Instance - QuestInstanceID: %d\"",
+      "\"Invalid Quest Instance - QuestInstanceID: %d. StageID: %d. ItemID: %d.\"",
+      "\"QuestInstanceID: %d (%s). QuestStarted: %s. Failed: %s.\"",
+      "Alias %u is non-optional and Forced to NONE. This quest cannot start.",
+      "Alias '%s' %u uses non-preceding UNKNOWN alias. This alias cannot be filled.",
+      "Alias '%s' %u uses non-preceding alias '%s' %u. This alias cannot be filled.",
+      "Alias '%s' (%u) could not use form [unloaded] (%08X) because [%u].",
+      "Alias '%s' (%u) could not use form [unloaded] (%08X) because it is instance reserved.",
+      "Alias '%s' (%u) could not use form [unloaded] (%08X) because it is reserved.",
+      "Alias '%s' (%u) has invalid from event data selected.",
+      "Alias '%s' (%u) on quest '%s' (%08X) ID[%u] was unable to find itself in the InstanceReservedFormMap",
+      "Attempted use of invalid index on reference collection alias %s (%u) from quest %s (%08X).",
+      "BGSQuestText::ProcessEvent(TESFormDeleteEvent) - Removing [",
+      "BGSQuestText::UnregisterForActorChangeEvent - Could not find entity [",
+      "Cannot create alias (%s) at runtime because its form type does not support it.",
+      "Cannot create new request handler struct, OOM",
+      "Cannot delete corpse that has an alias",
+      "Cannot fill alias (%s) at runtime because unique actor are not supported in instanced cells.",
+      "Cannot handle teleport request. Target:",
+      "Could not determine request info",
+      "Could not find close to ref for alias '%s' (%u). Closest location will not be picked.",
+      "Could not find external quest (%08X).",
+      "Could not find forced ref (%08X) for Ref Alias '%s'.",
+      "Could not find forced ref (%08X) for unnamed Ref Alias %u.",
+      "Could not find text global (%08X) for quest '%s' (%08X)",
+      "Could not get correct speed (%.2f), closest request: %.2f",
+      "Error: Range requests in gzipped files are not supported",
+      "Error: Unable to access file at requested position.",
+      "Invalid Quest - QuestInstanceID: %d",
+      "Invalid Quest - QuestInstanceID: %d. StageID: %d. ItemID: %d.",
+      "Invalid Quest Instance - QuestInstanceID: %d",
+      "Invalid Quest Instance - QuestInstanceID: %d. StageID: %d. ItemID: %d.",
+      "Invalid event %08X for quest '%s' (%08X)",
+      "Invalid loc alias ID %u for force into alias. Data will be cleared.",
+      "Invalid ref alias ID %u for force into alias. Data will be cleared.",
+      "Invalid: Cannot equip requested item",
+      "Invalid: Invalid Requested locked emote",
+      "Invalid: Invalid items in requested loadout",
+      "Invalid: Invalid merged hit requests. Unable to unmerge, ignored",
+      "Invalid:requested transfer from own stash to another invalid container",
+      "Invalid:requested transfer to own stash from another invalid container",
+      "Loc Alias unable to find BGSLocation that satisfies conditions in alias %s on quest %s (%08X)_%u",
+      "Loc Alias unable to find aliased loc for close to location in alias %s on quest %s (%08X)_%u",
+      "Objective timer cannot set quest stage %u because the parent quest %s (%08X) doesn't have a stage with that index.",
+      "PipboyQuestData::ProcessEvent(const BGSQuestObjectiveInstanceEvent::Event) -- QuestID =",
+      "PipboyQuestData::ProcessEvent(const TESQuestEvent::Event) -- QuestID =",
+      "PipboyQuestData::ProcessEvent(const TESQuestInstanceEvent::Event) -- QuestID =",
+      "Quest '%s' (%08X) contains aliases with invalid dependencies.",
+      "Quest '%s' (%08X): Alias %u is non-optional and Forced to NONE. This quest cannot start.",
+      "QuestInstanceID: %d (%s). QuestStarted: %s. Failed: %s.",
+      "Received a token for an invalid or inactive request:",
+      "Received unexpected friend request when status was:",
+      "Social::Lobby::JoinConfirmError - Lobby Join confirm for lobby without a matching join request:",
+      "Social::Lobby::JoinLobby - Join Lobby request sent",
+      "Social::Lobby::JoinRequestConfirm - Join Confirm received for lobby:",
+      "Social::Lobby::JoinRequestConfirm - Join confirm received, but current operation was not sendJoinRequest",
+      "Social::Lobby::JoinRequestConfirmFalse - Join Confirm FALSE received for lobby:",
+      "Social::Lobby::JoinRequestReceived - Join Request received for lobby:",
+      "Social::Lobby::RequestInvite error  msg:",
+      "Unable to find alias %u for quest target.",
+      "Unable to read object in stream.  The class {0} does not implement flash.utils.IExternalizable but is aliased to an externalizable class.",
+      "invalid request (eid:"
+    ],
+    "Resources/IO": [
+      "%s: Cannot create file %s",
+      "%s: Cannot decode filename",
+      "%s: Cannot remove invalid file %s",
+      "%s: Cannot write file %s",
+      "%s: cannot open authorization file: %s",
+      "%s: cannot open certificate file %s: %s",
+      "%s: cannot open private key file %s: %s",
+      "%s: cannot use certificate chain file %s: %s",
+      "Batch file could not be found/opened.",
+      "Error: Can not create file",
+      "Error: Cannot delete file",
+      "Error: Cannot open file",
+      "Error: Cannot read file",
+      "Error: File not found",
+      "Error: File size is too large to send",
+      "Masterfile %s could not be found.",
+      "PlayerLoadoutSlots_DO contains unexpected form",
+      "SaveGameWarning: (%s) %s [%s:%d]",
+      "The SWF file {0} contains invalid data.",
+      "Unable to to promote ref '%s' (%08X). Unable to find unloadedref data",
+      "Unexpected CloudSave configuration error, status: %04d, code: %05d",
+      "Unloading all resident LOD (including map).  (Warning: this may break stuff!)",
+      "Unloading any resident LOD (except map).  (Warning: this may break stuff!)",
+      "cannot close standard file",
+      "cannot open file '%s' (%s)",
+      "cannot update player 3d as it is not yet loaded",
+      "unable to get ModuleFileName",
+      "unable to load active effect"
+    ],
+    "Scripting": [
+      "\"Unable to call GotoState(%s) on script (%s)\"",
+      "%s %s on script %s attached to %s cannot be bound because %s is not the right type",
+      "Could not create script object for test name: %s",
+      "Could not find Descriptor: %s",
+      "Mtx::ProcessLocalizedDescription: Could not find description language to match \"",
+      "Unable to call GotoState(%s) on script (%s)"
+    ],
+    "UI": [
+      "\"buid\" could not be parsed",
+      "Cannot build widget data. No season UI data available.",
+      "Invalid menu icon '%s' for parameter %s.",
+      "Invalid: Attempted to apply a build with an invalid build ID.",
+      "Invalid: Attempted to respec specials with an invalid build ID.",
+      "MTAccessWarning:Cannot acquire read access while a different thread has write access",
+      "MTAccessWarning:Cannot acquire write access while any thread has read access",
+      "MTAccessWarning:Cannot release write access from a different thread that acquired it",
+      "MTAccessWarning:Reader underflow. Mismatched acquireReadAccess()/releaseReadAccess()?",
+      "MTAccessWarning:Writer underflow. Mismatched acquireWriteAccess()/releaseWriteAccess()?",
+      "Retrieving required legal documents failed: %s",
+      "Social::Lobby::SetLocalMemberAccountData - Local account data BUID:",
+      "Unable to find interface %s",
+      "Unable to locate provided method in current menu stack.",
+      "[Cannot enter fluidly.]",
+      "cannot parse main menu motd",
+      "terminal.inv.invalid-sub-menuInvalid: Attempted to access invalid sub menu"
+    ],
+    "Workshop/CAMP": [
+      "Workshop::ExtraData::CreateWall Called.",
+      "Workshop::ExtraData::DestroyWall Called."
+    ],
+    "World/Navigation": [
+      "\"Unable to find babylon world Error: %s - Code: %s\"",
+      "\"Unable to find world: Error: %s - Code: %s\"",
+      "\"Unexpected shutdown encountered for World: %i. Reason: %s\"",
+      "%s - Cannot build path from escorted actor to goal. (Escorting actor is %.2f from goal.)",
+      "%s - Cannot build path from escorting actor to goal. (Escorted actor is %.2f from goal.)",
+      "- Error: Triangle %u(%.2f, %.2f, %.2f) on navmesh %08X has an invalid cover index for edge %u",
+      "- Error: Triangle %u(%.2f, %.2f, %.2f) on navmesh %08X has cover index %u on edge %u that is outside the cover array: %u",
+      "Cannot build detailed Path",
+      "Context Menu Join World was unable to find world Error - Region :",
+      "Context Menu Join World: Could not find selected character.",
+      "Could not fetch the pathing location of door %s(%08x)",
+      "Could not find navmesh path from Start Cell (%s) to End Cell (%s).",
+      "Could not find point on navmesh to fit the sphere",
+      "Could not get cell coordinates from",
+      "Could not resolve pathing location (%s)",
+      "Could not resolve pathing location (%s) in cell (%s)",
+      "Error: CGI program \"%s\": Path too long",
+      "Error: Path of zipped file too long (%s)",
+      "FindWorld: Unable to find world:",
+      "Invalid: Invalid cellid and/or worldid",
+      "PlatformSessionManager::FindBabylonWorld: Unable to find babylon world Error:",
+      "PlatformSessionManager::JoinWorld: Unable to find world Error:",
+      "Report could not be created at path: %s",
+      "SSL_CTX_load_verify_locations error: %s ssl_verify_peer requires setting either ssl_ca_path or ssl_ca_file. Is any of them present in the .conf file?",
+      "SSL_CTX_set_default_verify_paths error: %s",
+      "Unable to find babylon world Error: %s - Code: %s",
+      "Unable to find world: Error: %s - Code: %s",
+      "Unexpected shutdown encountered for World: %i. Reason: %s",
+      "WorldDataModel::NewCharacter: Creating new character and find a world to join",
+      "cannot be reloaded. CELL_ID or WRLD_ID type",
+      "could not find cell or worldspace for moved reference",
+      "could not find world or cell for reference",
+      "is in an unloaded cell, so it cannot cast spells.",
+      "no Worldspace or Cell could not be found"
+    ]
+  },
+  "assert_file_references_by_system": {
+    "Character": [
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3779,
+        "value": "Level"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3781,
+        "value": "SharedPerkCardRank"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3782,
+        "value": "SharedPerkCardIsFoil"
+      },
+      {
+        "file": "shared/tesforms/character/bgskeyword.cpp",
+        "line": 391,
+        "value": "formId"
+      },
+      {
+        "file": "shared/tesforms/character/bgspackcarddata.cpp",
+        "line": 29,
+        "value": "Rank"
+      },
+      {
+        "file": "shared/tesforms/character/bgspackcarddata.cpp",
+        "line": 31,
+        "value": "Foil"
+      },
+      {
+        "file": "shared/tesforms/character/bgspackcarddata.cpp",
+        "line": 32,
+        "value": "DuplicateOverseerXP"
+      },
+      {
+        "file": "shared/tesforms/character/bgspackcarddata.cpp",
+        "line": 33,
+        "value": "OverseerTickets"
+      }
+    ],
+    "Combat": [
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2924,
+        "value": "BGSBodyPartDefs::LIMB_ENUM"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2925,
+        "value": "HitEffectID"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2926,
+        "value": "uEquipIndex"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2927,
+        "value": "HitData::InitializationType"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2928,
+        "value": "bPredictedKill"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2930,
+        "value": "uFireID"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2931,
+        "value": "uAckIndex"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3019,
+        "value": "BGSBodyPartDefs::LIMB_ENUM"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3021,
+        "value": "uiAckIndex"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3069,
+        "value": "fDamageToDisplay"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3070,
+        "value": "fHealthDamage"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3071,
+        "value": "fTotalDamage"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3072,
+        "value": "fResistedPhysicalDamage"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3073,
+        "value": "fResistedTypedDamage"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3074,
+        "value": "fTargetedLimbDamage"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3075,
+        "value": "fSneakAttackBonus"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3076,
+        "value": "STAGGER_MAGNITUDE"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3077,
+        "value": "uTimeStamp"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3078,
+        "value": "uiFlags"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3092,
+        "value": "uiTimeStamp"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3153,
+        "value": "bVatsCritical"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3154,
+        "value": "bVatsAttack"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3159,
+        "value": "ExplosionLocation.z"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3160,
+        "value": "ExplosionLocation.y"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3161,
+        "value": "ExplosionLocation.x"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3163,
+        "value": "bTargetWasDead"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3164,
+        "value": "fProjectilePower"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3196,
+        "value": "TargetID"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3197,
+        "value": "MaterialID"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3198,
+        "value": "SourceID"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3199,
+        "value": "ProjectileID"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3233,
+        "value": "Items"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3241,
+        "value": "Target"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3242,
+        "value": "ProjectileID"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3243,
+        "value": "Location.x"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3244,
+        "value": "Location.y"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3245,
+        "value": "Location.z"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3246,
+        "value": "Direction.x"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3247,
+        "value": "Direction.y"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3248,
+        "value": "Direction.z"
+      },
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 3267,
+        "value": "Items"
+      },
+      {
+        "file": "game/ai/combat/hitdata.h",
+        "line": 531,
+        "value": "Hits"
+      },
+      {
+        "file": "game/ai/combat/hitdata.h",
+        "line": 532,
+        "value": "MergedHitCounts"
+      },
+      {
+        "file": "game/ai/combat/hitdata.h",
+        "line": 533,
+        "value": "UniqueData"
+      }
+    ],
+    "Inventory": [
+      {
+        "file": "game/ai/playerstoragecontainer/extradata/extraplayerstorage.cpp",
+        "line": 117,
+        "value": "mOrderedStorageTypes"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/extradata/extraplayerstorage.cpp",
+        "line": 118,
+        "value": "mOrderedStorageIds"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/extradata/extraplayerstorage.cpp",
+        "line": 151,
+        "value": "extraExists"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/extradata/extraplayerstorage.cpp",
+        "line": 23,
+        "value": "PlayerStorageContainer::Type"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 632,
+        "value": "mVisibleInInventory"
+      },
+      {
+        "file": "shared/extradata/bgsobjectinstanceextra.cpp",
+        "line": 1528,
+        "value": "usItemIndex"
+      },
+      {
+        "file": "shared/extradata/bgsobjectinstanceextra.cpp",
+        "line": 1529,
+        "value": "ItemInstanceLevel"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 10233,
+        "value": "uiMenuItemListIndex"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 10236,
+        "value": "usItemID"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 6374,
+        "value": "ItemName"
+      },
+      {
+        "file": "shared/tesforms/objects/tesutilityitem.cpp",
+        "line": 107,
+        "value": "Type"
+      },
+      {
+        "file": "shared/tesforms/objects/tesutilityitem.cpp",
+        "line": 126,
+        "value": "serializeID"
+      }
+    ],
+    "Memory": [
+      {
+        "file": "game/misc/radiosignaltrackerinfo.cpp",
+        "line": 33,
+        "value": "fBuffer"
+      }
+    ],
+    "Networking": [
+      {
+        "file": "game/ai/combat/hitdata.cpp",
+        "line": 2922,
+        "value": "uiWeaponServerID"
+      },
+      {
+        "file": "game/ai/movement/networkpathmessages.cpp",
+        "line": 42,
+        "value": "GoalLocation.x"
+      },
+      {
+        "file": "game/ai/movement/networkpathmessages.cpp",
+        "line": 43,
+        "value": "GoalLocation.y"
+      },
+      {
+        "file": "game/ai/movement/networkpathmessages.cpp",
+        "line": 44,
+        "value": "GoalLocation.z"
+      },
+      {
+        "file": "game/ai/movement/networkpathmessages.cpp",
+        "line": 45,
+        "value": "GoalCellID"
+      },
+      {
+        "file": "game/ai/movement/networkpathmessages.cpp",
+        "line": 46,
+        "value": "GoalWorldspaceID"
+      },
+      {
+        "file": "game/ai/playercoresnapshotcomponentssharedparams.cpp",
+        "line": 29,
+        "value": "iDetecion"
+      },
+      {
+        "file": "game/ai/playercoresnapshotcomponentssharedparams.cpp",
+        "line": 30,
+        "value": "SneakMode"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/network/playerstoragecontainermessages.cpp",
+        "line": 185,
+        "value": "mSourceContainerEntityId"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/network/playerstoragecontainermessages.cpp",
+        "line": 186,
+        "value": "PlayerStorageContainer::Type"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/network/playerstoragecontainermessages.cpp",
+        "line": 58,
+        "value": "mSourceContainerEntityId"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/network/playerstoragecontainermessages.cpp",
+        "line": 59,
+        "value": "PlayerStorageContainer::Type"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/network/playerstoragecontainermessages.cpp",
+        "line": 60,
+        "value": "mItemServerHandleId"
+      },
+      {
+        "file": "game/ai/playerstoragecontainer/network/playerstoragecontainermessages.cpp",
+        "line": 61,
+        "value": "mCount"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1050,
+        "value": "HeaderFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1051,
+        "value": "EventQuestWidgetType"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1056,
+        "value": "BodyTextFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1060,
+        "value": "LeftTextFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1061,
+        "value": "RightTextFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1062,
+        "value": "CurrentValue"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1063,
+        "value": "MaxValue"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1064,
+        "value": "QuestObjectiveProgressBarType"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1071,
+        "value": "size"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1082,
+        "value": "size"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1097,
+        "value": "size"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1108,
+        "value": "size"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1127,
+        "value": "LabelFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1128,
+        "value": "ValueFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1135,
+        "value": "LabelFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 1136,
+        "value": "ImageFormID"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 701,
+        "value": "NetworkQuestType"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 702,
+        "value": "QuestId"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 703,
+        "value": "QuestInstanceId"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 957,
+        "value": "RootTESObjectId"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 958,
+        "value": "ShouldWaitingForRootEntityOnNetwork"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 959,
+        "value": "CurrentStage"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 960,
+        "value": "StagesDone"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 961,
+        "value": "LateJoinDisabled"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 962,
+        "value": "IsInstancedCopy"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 963,
+        "value": "NumActivePlayers"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 969,
+        "value": "numWidgets"
+      },
+      {
+        "file": "game/gameplay/networkquest.cpp",
+        "line": 980,
+        "value": "numWidgets"
+      },
+      {
+        "file": "game/gameplay/quickplaybabylonfacade.cpp",
+        "line": 1964,
+        "value": "connectedPlayerCount"
+      },
+      {
+        "file": "game/network/activeduelsmessages.cpp",
+        "line": 194,
+        "value": "DuelMessageType"
+      },
+      {
+        "file": "game/network/activeduelsmessages.cpp",
+        "line": 199,
+        "value": "Data.Requesting.RequesterId"
+      },
+      {
+        "file": "game/network/activeduelsmessages.cpp",
+        "line": 200,
+        "value": "Data.Requesting.ChallengedId"
+      },
+      {
+        "file": "game/network/activeduelsmessages.cpp",
+        "line": 201,
+        "value": "Data.Requesting.Ante"
+      },
+      {
+        "file": "game/network/activeduelsmessages.cpp",
+        "line": 202,
+        "value": "Data.Requesting.AnteServerCut"
+      },
+      {
+        "file": "game/network/activeduelsmessages.cpp",
+        "line": 208,
+        "value": "Data.Accepting.RequesterId"
+      },
+      {
+        "file": "game/network/activeduelsmessages.cpp",
+        "line": 209,
+        "value": "Data.Accepting.AccepterId"
+      }
+    ],
+    "Other": [
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 191,
+        "value": "mBeaconId"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 192,
+        "value": "mTransitionId"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 193,
+        "value": "entityId"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 194,
+        "value": "PowerArmor::ArmorState"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 195,
+        "value": "mAllowExit"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 196,
+        "value": "mImmediate"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 237,
+        "value": "extraExists"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 505,
+        "value": "BeaconId"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 508,
+        "value": "PowerArmor::BeaconState"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 513,
+        "value": "PowerArmor::BeaconState"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 631,
+        "value": "mBeaconId"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 785,
+        "value": "mOwnerEntityId"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 786,
+        "value": "mBeaconId"
+      },
+      {
+        "file": "game/ai/powerarmor/extradata/extrapowerarmor.cpp",
+        "line": 811,
+        "value": "extraExists"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 970,
+        "value": "Constriction.FromPosition.x"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 971,
+        "value": "Constriction.FromPosition.y"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 972,
+        "value": "Constriction.FromPosition.z"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 973,
+        "value": "Constriction.FromRadius"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 974,
+        "value": "Constriction.ToPosition.x"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 975,
+        "value": "Constriction.ToPosition.y"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 976,
+        "value": "Constriction.ToPosition.z"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 977,
+        "value": "Constriction.ToRadius"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 978,
+        "value": "Constriction.StartTime"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 979,
+        "value": "Constriction.EndTime"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 981,
+        "value": "Enabled"
+      },
+      {
+        "file": "game/gameplay/stormzone.cpp",
+        "line": 982,
+        "value": "ForceUpdateConstriction"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3784,
+        "value": "IsOnAnDailyOp"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3785,
+        "value": "IsOnAnExpedition"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3786,
+        "value": "IsMutated"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3794,
+        "value": "HealthPercentage"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3795,
+        "value": "RadsPercentage"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3796,
+        "value": "LifeState"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3803,
+        "value": "BGSVivoxUtils::VOICE_CHAT_STATUS"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3804,
+        "value": "BGSVivoxUtils::VIVOX_CHANNEL_TYPE"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4034,
+        "value": "rPlayerTeam.LobbyId"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4035,
+        "value": "rPlayerTeam.LeaderID"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4036,
+        "value": "TeamInviteType"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4037,
+        "value": "PlayerTeamType"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4038,
+        "value": "rPlayerTeam.Members"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4039,
+        "value": "rPlayerTeam.BlockedPlayerList"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4136,
+        "value": "rPlayerTeam.HealthData"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 4163,
+        "value": "rPlayerTeam.VoiceChatData"
+      },
+      {
+        "file": "game/misc/fowsetting.cpp",
+        "line": 1010,
+        "value": "value"
+      },
+      {
+        "file": "game/misc/fowsetting.cpp",
+        "line": 419,
+        "value": "key"
+      },
+      {
+        "file": "game/misc/fowsetting.cpp",
+        "line": 544,
+        "value": "count"
+      },
+      {
+        "file": "game/misc/fowsetting.cpp",
+        "line": 554,
+        "value": "crc"
+      },
+      {
+        "file": "game/misc/fowsettingenum.cpp",
+        "line": 108,
+        "value": "value"
+      },
+      {
+        "file": "game/misc/radiosignaltrackerinfo.cpp",
+        "line": 25,
+        "value": "Targets"
+      },
+      {
+        "file": "game/misc/radiosignaltrackerinfo.cpp",
+        "line": 27,
+        "value": "PulseIntervalSeconds"
+      },
+      {
+        "file": "game/misc/radiosignaltrackerinfo.cpp",
+        "line": 28,
+        "value": "InnerRadius"
+      }
+    ],
+    "Physics": [
+      {
+        "file": "game/network/actorprojectilesnapshotcomponent.cpp",
+        "line": 1070,
+        "value": "bIgnoreNearCollisions"
+      },
+      {
+        "file": "game/network/gamenetworkmessages.h",
+        "line": 717,
+        "value": "DisableCollision"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 167,
+        "value": "fvalue"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 443,
+        "value": "HavokAuthorityReady"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 460,
+        "value": "HavokActivatedCacheA[i]"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 463,
+        "value": "LocationID"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 464,
+        "value": "EventSeqNumber"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 465,
+        "value": "TriggeredExplosionTimer"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 466,
+        "value": "DisarmedProjectile"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 467,
+        "value": "HasFinalImpactResults"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 468,
+        "value": "ImpactLocationX"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 469,
+        "value": "ImpactLocationY"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 470,
+        "value": "ImpactLocationZ"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 471,
+        "value": "ImpactRotationEulerX"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 472,
+        "value": "ImpactRotationEulerY"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 473,
+        "value": "ImpactRotationEulerZ"
+      },
+      {
+        "file": "game/network/projectilephysicssnapshotcomponent.cpp",
+        "line": 477,
+        "value": "reinterpret_cast<unsigned char&>(SyncType)"
+      },
+      {
+        "file": "game/network/reliableworkshopmessages.h",
+        "line": 75,
+        "value": "NoCollisionEnabled"
+      },
+      {
+        "file": "game/network/tesobjectrefrcoresnapshotcomponent.cpp",
+        "line": 250,
+        "value": "NoHavok"
+      },
+      {
+        "file": "game/network/tesobjectrefrphysicssnapshotcomponent.cpp",
+        "line": 133,
+        "value": "fvalue"
+      },
+      {
+        "file": "game/network/tesobjectrefrphysicssnapshotcomponent.cpp",
+        "line": 391,
+        "value": "HavokAuthorityReady"
+      },
+      {
+        "file": "game/network/tesobjectrefrphysicssnapshotcomponent.cpp",
+        "line": 394,
+        "value": "count"
+      },
+      {
+        "file": "game/network/tesobjectrefrphysicssnapshotcomponent.cpp",
+        "line": 408,
+        "value": "HavokActivatedCacheA[i]"
+      },
+      {
+        "file": "game/network/tesobjectrefrphysicssnapshotcomponent.cpp",
+        "line": 411,
+        "value": "LocationID"
+      },
+      {
+        "file": "game/network/tesobjectrefrphysicssnapshotcomponent.cpp",
+        "line": 412,
+        "value": "EventSeqNumber"
+      },
+      {
+        "file": "game/network/tesobjectrefrphysicssnapshotcomponent.cpp",
+        "line": 416,
+        "value": "reinterpret_cast<unsigned char&>(SyncType)"
+      }
+    ],
+    "Quest": [
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2205,
+        "value": "BaseQuestId"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2206,
+        "value": "OwningQuestId"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2314,
+        "value": "Teams[i].QuestInstanceId"
+      },
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3783,
+        "value": "IsOnAnEventQuest"
+      },
+      {
+        "file": "game/misc/radiosignaltrackerinfo.cpp",
+        "line": 30,
+        "value": "QuestFormID"
+      },
+      {
+        "file": "game/misc/radiosignaltrackerinfo.cpp",
+        "line": 31,
+        "value": "QuestInstanceID"
+      },
+      {
+        "file": "game/misc/radiosignaltrackerinfo.cpp",
+        "line": 32,
+        "value": "QuestObjectiveID"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 5527,
+        "value": "QuestID"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 5528,
+        "value": "AliasID"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 7060,
+        "value": "QuestInstanceId"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 802,
+        "value": "_Index"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 809,
+        "value": "QUEST_OBJECTIVE_STATE"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 812,
+        "value": "_AnnounceState"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 813,
+        "value": "_ProgressMeter"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 816,
+        "value": "hasTimer"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 927,
+        "value": "BatchCount"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 931,
+        "value": "BGSQuestObjectiveInstanceEvent::Type"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 936,
+        "value": "ObjectiveIndices[i]"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 941,
+        "value": "QUEST_OBJECTIVE_STATE"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 945,
+        "value": "Key.QuestInstanceID"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquestobjective.cpp",
+        "line": 953,
+        "value": "SharedFromPlayerID"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 652,
+        "value": "aliasArraySize"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 663,
+        "value": "globalValArraySize"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 674,
+        "value": "textVarValArraySize"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 690,
+        "value": "aliasArraySize"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 694,
+        "value": "globalValArraySize"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 698,
+        "value": "textVarValArraySize"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 704,
+        "value": "alias.AliasId"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 705,
+        "value": "alias.FormId"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 706,
+        "value": "alias.RefDisplayMessageFormId"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 707,
+        "value": "alias.EntityId"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 716,
+        "value": "globalVal.FormId"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 717,
+        "value": "globalVal.Value"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 723,
+        "value": "textVarVal.Id"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 724,
+        "value": "textVarVal.Value"
+      },
+      {
+        "file": "shared/tesforms/character/bgsquesttext.cpp",
+        "line": 725,
+        "value": "textVarVal.FormID"
+      },
+      {
+        "file": "shared/tesforms/character/questobjectkey.cpp",
+        "line": 163,
+        "value": "QuestInstanceID"
+      },
+      {
+        "file": "shared/tesforms/character/questobjectkey.cpp",
+        "line": 164,
+        "value": "ObjectiveIndex"
+      },
+      {
+        "file": "shared/tesforms/character/questobjectkey.cpp",
+        "line": 178,
+        "value": "QuestObjectiveKey"
+      },
+      {
+        "file": "shared/tesforms/character/questobjectkey.cpp",
+        "line": 179,
+        "value": "QuestTargetInstanceID"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 615,
+        "value": "Flags"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 616,
+        "value": "CurrentRadiantID"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 617,
+        "value": "Stage"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 618,
+        "value": "StageItem"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 619,
+        "value": "LastValidLogStage"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 620,
+        "value": "LastValidLogStageItem"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 623,
+        "value": "ParentModuleQuestInstanceID"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 624,
+        "value": "UserData"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 627,
+        "value": "hasTimer"
+      },
+      {
+        "file": "shared/tesforms/character/tesquestinstance.cpp",
+        "line": 650,
+        "value": "totalXPRewarded"
+      }
+    ],
+    "Resources/IO": [
+      {
+        "file": "game/gameplay/playerloadout.cpp",
+        "line": 148,
+        "value": "numEquppedSlots"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 7053,
+        "value": "StreamingDataSequenceNumber"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1955,
+        "value": "FilenameCRC"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1956,
+        "value": "FileSize"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1972,
+        "value": "FilenameCRC"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1973,
+        "value": "Filename"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1995,
+        "value": "MasterFileCRC"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1996,
+        "value": "ModsCRC"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1997,
+        "value": "NumRegisteredArchives"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1998,
+        "value": "ArchiveStatsA"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 1999,
+        "value": "UnrecognizedArchivesA"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2000,
+        "value": "CGMMainArchiveStatsA"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2036,
+        "value": "Offset"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2037,
+        "value": "Size"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2067,
+        "value": "numSerializedArchives"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2082,
+        "value": "numChunks"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2093,
+        "value": "archiveChunksA[ chunkIdx ]"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2114,
+        "value": "FilenameCRC"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2118,
+        "value": "numChunks"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2129,
+        "value": "ChunkCRCA[ chunkIdx ]"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2139,
+        "value": "numSerializedArchives"
+      },
+      {
+        "file": "shared/misc/archivevalidation.cpp",
+        "line": 2150,
+        "value": "ArchiveValidationA[ archiveIdx ]"
+      }
+    ],
+    "UI": [
+      {
+        "file": "game/gameplay/quickplayactivityspace.cpp",
+        "line": 193,
+        "value": "rootObjectId"
+      },
+      {
+        "file": "game/gameplay/quickplaybabylonfacade.cpp",
+        "line": 1965,
+        "value": "totalPlayersInMatch"
+      },
+      {
+        "file": "game/gameplay/quickplaybabylonfacade.cpp",
+        "line": 1966,
+        "value": "alivePlayers"
+      },
+      {
+        "file": "game/gameplay/quickplaybabylonfacade.cpp",
+        "line": 1967,
+        "value": "shutdownTime"
+      },
+      {
+        "file": "game/gameplay/quickplaybabylonfacade.cpp",
+        "line": 1970,
+        "value": "botVal"
+      },
+      {
+        "file": "game/gameplay/quickplayclock.cpp",
+        "line": 101,
+        "value": "ElapsedTime"
+      },
+      {
+        "file": "game/gameplay/quickplayclock.cpp",
+        "line": 102,
+        "value": "TimeScale"
+      },
+      {
+        "file": "game/gameplay/quickplayclock.cpp",
+        "line": 103,
+        "value": "Paused"
+      },
+      {
+        "file": "game/gameplay/quickplayclock.h",
+        "line": 105,
+        "value": "elapsedTimeMS"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2200,
+        "value": "bRespawnDisabled"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2202,
+        "value": "iWaitingForMorePlayers"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2203,
+        "value": "teamScoreKeyCount"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2204,
+        "value": "playerScoreKeyCount"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2207,
+        "value": "RootTESObjectId"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2208,
+        "value": "BoundsRootTESObjectId"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2209,
+        "value": "ActivityRadius"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2210,
+        "value": "bOpenTeamEvent"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2211,
+        "value": "bUseEventRespawnSystem"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2303,
+        "value": "teamCount"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2315,
+        "value": "Teams[i].bIsNeutralTeam"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2322,
+        "value": "playersOnTeam"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2337,
+        "value": "Teams[i].Players[j]"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2349,
+        "value": "teamScoreDataSize"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2350,
+        "value": "playerScoreDataSize"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2360,
+        "value": "TeamScores[i]"
+      },
+      {
+        "file": "game/gameplay/quickplaycontext.cpp",
+        "line": 2364,
+        "value": "PlayerScores[i]"
+      },
+      {
+        "file": "game/gameplay/quickplaymapvoting.cpp",
+        "line": 396,
+        "value": "EligibleMaps"
+      },
+      {
+        "file": "game/gameplay/quickplaymapvoting.cpp",
+        "line": 397,
+        "value": "EndTime"
+      },
+      {
+        "file": "game/gameplay/quickplaymapvoting.h",
+        "line": 122,
+        "value": "arData.EntityId"
+      },
+      {
+        "file": "game/gameplay/quickplaynukescheduler.cpp",
+        "line": 211,
+        "value": "TimeToLaunch"
+      },
+      {
+        "file": "game/gameplay/quickplaynukescheduler.cpp",
+        "line": 212,
+        "value": "LaunchingNuke"
+      },
+      {
+        "file": "game/gameplay/quickplayspawnpicker.cpp",
+        "line": 78,
+        "value": "count"
+      },
+      {
+        "file": "game/gameplay/quickplayspawnpicker.cpp",
+        "line": 93,
+        "value": "rdata"
+      },
+      {
+        "file": "game/gameplay/quickplayspawnpicker.h",
+        "line": 150,
+        "value": "arData.Id"
+      },
+      {
+        "file": "game/gameplay/quickplayspawnpicker.h",
+        "line": 151,
+        "value": "arData.Point.x"
+      },
+      {
+        "file": "game/gameplay/quickplayspawnpicker.h",
+        "line": 152,
+        "value": "arData.Point.y"
+      },
+      {
+        "file": "game/gameplay/quickplaystagingarea.cpp",
+        "line": 590,
+        "value": "EndTime"
+      },
+      {
+        "file": "game/gameplay/quickplaystagingarea.cpp",
+        "line": 591,
+        "value": "QPStagingAreaState"
+      },
+      {
+        "file": "game/gameplay/quickplaystagingarea.cpp",
+        "line": 592,
+        "value": "AllPlayersHaveLoadedTheGame"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 730,
+        "value": "ActiveBuildID"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 731,
+        "value": "NumberOfUnlockedSlots"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 732,
+        "value": "startingIndex"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 740,
+        "value": "specialBuild.ID"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 741,
+        "value": "specialBuild.Name"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 752,
+        "value": "specialBuild.Specials[specialIndex]"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 756,
+        "value": "NumberOfPerkCards"
+      },
+      {
+        "file": "game/gameplay/specialbuildshandler.cpp",
+        "line": 763,
+        "value": "perkRank"
+      },
+      {
+        "file": "shared/extradata/bgsobjectinstanceextra.cpp",
+        "line": 1579,
+        "value": "uimodcount"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 1110,
+        "value": "uiFlags"
+      },
+      {
+        "file": "shared/extradata/extradataobjects.cpp",
+        "line": 11479,
+        "value": "BuiltByID"
+      }
+    ],
+    "World/Navigation": [
+      {
+        "file": "game/gameplay/teammanager.cpp",
+        "line": 3787,
+        "value": "BaseInstanceCellID"
+      }
+    ]
+  },
+  "notable_asserts": {
+    "havok_asserts": [
+      "sDisableHavokAssertList:HAVOK"
+    ],
+    "ui_assert": [
+      "\"UI::Assert\"",
+      "UI::Assert"
+    ],
+    "memory_assert": [
+      "assertOnRunningOutOfSolverMemory",
+      "--copyRCS MemoryAssert.rcs"
+    ],
+    "enlighten_assert": [
+      "bEnlightenFullTerrainAssert:EnlightenDebug",
+      "ENLIGHTEN Assert %u: %s"
+    ]
+  }
+}
