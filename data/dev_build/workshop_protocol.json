@@ -1,0 +1,919 @@
+{
+  "total_fields": 133,
+  "messages": [
+    {
+      "start": 0,
+      "fields": [
+        {
+          "line": 176,
+          "field": "ParentCellFormID"
+        },
+        {
+          "line": 177,
+          "field": "WorldSpaceFormID"
+        },
+        {
+          "line": 178,
+          "field": "Position.x"
+        },
+        {
+          "line": 179,
+          "field": "Position.y"
+        },
+        {
+          "line": 180,
+          "field": "Position.z"
+        },
+        {
+          "line": 181,
+          "field": "ZRotation"
+        },
+        {
+          "line": 186,
+          "field": "WorkshopItemID"
+        },
+        {
+          "line": 188,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 189,
+          "field": "PlacedItemFormID"
+        },
+        {
+          "line": 190,
+          "field": "ParentReferenceFormID"
+        },
+        {
+          "line": 191,
+          "field": "ClientReferenceFormID"
+        },
+        {
+          "line": 192,
+          "field": "ScrapToBuildItemID"
+        },
+        {
+          "line": 193,
+          "field": "Scale"
+        },
+        {
+          "line": 194,
+          "field": "ItemCount"
+        },
+        {
+          "line": 200,
+          "field": "PlacedPackinFormID"
+        },
+        {
+          "line": 201,
+          "field": "ParentReferenceFormID"
+        },
+        {
+          "line": 202,
+          "field": "ClientReferenceFormID"
+        },
+        {
+          "line": 203,
+          "field": "ScrapToBuildItemID"
+        },
+        {
+          "line": 204,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 205,
+          "field": "Scale"
+        },
+        {
+          "line": 212,
+          "field": "ItemID"
+        },
+        {
+          "line": 213,
+          "field": "Operation"
+        },
+        {
+          "line": 218,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 223,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 228,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 229,
+          "field": "ServerItemID"
+        },
+        {
+          "line": 230,
+          "field": "ParentReferenceFormID"
+        },
+        {
+          "line": 231,
+          "field": "NewVariantFormID"
+        },
+        {
+          "line": 232,
+          "field": "TempRefID"
+        },
+        {
+          "line": 239,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 240,
+          "field": "ServerItemID"
+        },
+        {
+          "line": 241,
+          "field": "ModToApplyFormID"
+        },
+        {
+          "line": 246,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 247,
+          "field": "ItemID"
+        },
+        {
+          "line": 252,
+          "field": "bFreeScrap"
+        },
+        {
+          "line": 253,
+          "field": "ItemID"
+        },
+        {
+          "line": 254,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 259,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 260,
+          "field": "ItemID"
+        },
+        {
+          "line": 265,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 266,
+          "field": "ItemID"
+        },
+        {
+          "line": 271,
+          "field": "ItemID"
+        },
+        {
+          "line": 276,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 281,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 286,
+          "field": "Endpoint0ID"
+        },
+        {
+          "line": 287,
+          "field": "Endpoint1ID"
+        },
+        {
+          "line": 288,
+          "field": "ConnectType0"
+        },
+        {
+          "line": 289,
+          "field": "ConnectType1"
+        },
+        {
+          "line": 294,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 295,
+          "field": "ClientReferenceFormID"
+        },
+        {
+          "line": 302,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 303,
+          "field": "WireID"
+        },
+        {
+          "line": 310,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 311,
+          "field": "RequestStart"
+        },
+        {
+          "line": 316,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 321,
+          "field": "ItemFormID"
+        },
+        {
+          "line": 322,
+          "field": "RequestType"
+        },
+        {
+          "line": 323,
+          "field": "Operation"
+        },
+        {
+          "line": 324,
+          "field": "ResponseCode"
+        },
+        {
+          "line": 331,
+          "field": "BuildRepairItemCounts.BuildCount"
+        },
+        {
+          "line": 336,
+          "field": "componentCount"
+        },
+        {
+          "line": 339,
+          "field": "rcomponent.ComponentID"
+        },
+        {
+          "line": 340,
+          "field": "rcomponent.RequiredCount"
+        },
+        {
+          "line": 341,
+          "field": "rcomponent.AvailableCount"
+        },
+        {
+          "line": 342,
+          "field": "rcomponent.AvailableCountAtWorkshop"
+        },
+        {
+          "line": 347,
+          "field": "componentCount"
+        },
+        {
+          "line": 351,
+          "field": "component.ComponentID"
+        },
+        {
+          "line": 352,
+          "field": "component.RequiredCount"
+        },
+        {
+          "line": 353,
+          "field": "component.AvailableCount"
+        },
+        {
+          "line": 354,
+          "field": "component.AvailableCountAtWorkshop"
+        }
+      ]
+    },
+    {
+      "start": 1408,
+      "fields": [
+        {
+          "line": 1408,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 1409,
+          "field": "ReplacementFormID"
+        },
+        {
+          "line": 1410,
+          "field": "NewBaseObjectID"
+        },
+        {
+          "line": 1411,
+          "field": "ItemID"
+        },
+        {
+          "line": 1412,
+          "field": "bSwapForFree"
+        }
+      ]
+    },
+    {
+      "start": 1438,
+      "fields": [
+        {
+          "line": 1438,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 1439,
+          "field": "ItemID"
+        },
+        {
+          "line": 1440,
+          "field": "NewLockLevel"
+        }
+      ]
+    },
+    {
+      "start": 1464,
+      "fields": [
+        {
+          "line": 1464,
+          "field": "ItemID"
+        }
+      ]
+    },
+    {
+      "start": 1498,
+      "fields": [
+        {
+          "line": 1498,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 1499,
+          "field": "Status"
+        },
+        {
+          "line": 1500,
+          "field": "WorkshopState"
+        },
+        {
+          "line": 1501,
+          "field": "Permissions"
+        },
+        {
+          "line": 1502,
+          "field": "Budget"
+        },
+        {
+          "line": 1506,
+          "field": "count"
+        },
+        {
+          "line": 1511,
+          "field": "formID"
+        },
+        {
+          "line": 1512,
+          "field": "formCount"
+        },
+        {
+          "line": 1517,
+          "field": "count"
+        },
+        {
+          "line": 1522,
+          "field": "formID"
+        },
+        {
+          "line": 1523,
+          "field": "formCount"
+        }
+      ]
+    },
+    {
+      "start": 1542,
+      "fields": [
+        {
+          "line": 1542,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 1543,
+          "field": "RequestSeqNum"
+        },
+        {
+          "line": 1544,
+          "field": "bHasCachedData"
+        }
+      ]
+    },
+    {
+      "start": 1591,
+      "fields": [
+        {
+          "line": 1591,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 1592,
+          "field": "Workshop::RecipeConditionsResponseStatus"
+        },
+        {
+          "line": 1593,
+          "field": "RequestNumber"
+        },
+        {
+          "line": 1598,
+          "field": "numFormTypes"
+        },
+        {
+          "line": 1602,
+          "field": "ENUM_FORM_ID"
+        },
+        {
+          "line": 1604,
+          "field": "count"
+        },
+        {
+          "line": 1615,
+          "field": "isEnabled"
+        },
+        {
+          "line": 1616,
+          "field": "isTrue"
+        },
+        {
+          "line": 1617,
+          "field": "isTrueForAllButHasPerkAndHasLearnedRecipe"
+        },
+        {
+          "line": 1618,
+          "field": "isTrueForHasLearnedRecipe"
+        },
+        {
+          "line": 1619,
+          "field": "isTrueForHasEntitlement"
+        },
+        {
+          "line": 1620,
+          "field": "shouldBeVisibleInMenu"
+        },
+        {
+          "line": 1626,
+          "field": "numFormTypes"
+        },
+        {
+          "line": 1630,
+          "field": "ENUM_FORM_ID"
+        },
+        {
+          "line": 1632,
+          "field": "count"
+        },
+        {
+          "line": 1643,
+          "field": "isEnabled"
+        },
+        {
+          "line": 1644,
+          "field": "isTrue"
+        },
+        {
+          "line": 1645,
+          "field": "isTrueForAllButHasPerkAndHasLearnedRecipe"
+        },
+        {
+          "line": 1646,
+          "field": "isTrueForHasLearnedRecipe"
+        },
+        {
+          "line": 1647,
+          "field": "isTrueForHasEntitlement"
+        },
+        {
+          "line": 1648,
+          "field": "shouldBeVisibleInMenu"
+        }
+      ]
+    },
+    {
+      "start": 1664,
+      "fields": [
+        {
+          "line": 1664,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 1665,
+          "field": "StoredItemID"
+        },
+        {
+          "line": 1666,
+          "field": "Stored"
+        }
+      ]
+    },
+    {
+      "start": 1697,
+      "fields": [
+        {
+          "line": 1697,
+          "field": "CampID"
+        }
+      ]
+    },
+    {
+      "start": 1752,
+      "fields": [
+        {
+          "line": 1752,
+          "field": "WorkshopID"
+        },
+        {
+          "line": 1753,
+          "field": "Workshop::Budget::BudgetReport::BudgetReportType"
+        },
+        {
+          "line": 1754,
+          "field": "ObjectID"
+        }
+      ]
+    },
+    {
+      "start": 1862,
+      "fields": [
+        {
+          "line": 1862,
+          "field": "Workshop::Budget::BudgetReport::BudgetReportType"
+        },
+        {
+          "line": 1863,
+          "field": "BudgetCostFactors"
+        }
+      ]
+    },
+    {
+      "start": 1905,
+      "fields": [
+        {
+          "line": 1905,
+          "field": "WorkshopObjectID"
+        },
+        {
+          "line": 1906,
+          "field": "PlayerAdjustableSettingsType"
+        },
+        {
+          "line": 1907,
+          "field": "settingID"
+        },
+        {
+          "line": 1914,
+          "field": "abValue"
+        },
+        {
+          "line": 1925,
+          "field": "auiValue"
+        },
+        {
+          "line": 1937,
+          "field": "auiValue"
+        },
+        {
+          "line": 1938,
+          "field": "TimeMeasurementType"
+        },
+        {
+          "line": 1950,
+          "field": "auiValue"
+        },
+        {
+          "line": 1951,
+          "field": "TimeMeasurementType"
+        }
+      ]
+    },
+    {
+      "start": 1967,
+      "fields": [
+        {
+          "line": 1967,
+          "field": "TargetType"
+        }
+      ]
+    }
+  ],
+  "workshop_functions": [
+    "Events::WorkshopReferenceReservationChanged",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::CampCollisionMsg",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::CampPlacedSendPowered",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ContestWorkshopMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::EditItemInPlaceMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::EditItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ForceExitMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::LockItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::NewWireMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::PermissionsForWorkbenchReceiptMsg",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::PlaceItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::PlacePackinMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ReceiptMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ReconnectWireMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RemoveItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RepairAllMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RepairItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ReplaceItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RequestAdjustableSettingUpdate",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RequestCampPackUpMsg",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RequestPermissionsForWorkbenchMsg",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RequestRecipeConditionsMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RequestWorkshopBudgetReportMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ReserveForRepairAllMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ReserveForSheltersScrapAllMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ReserveItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ReserveItemMessageCancel",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ScrapItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ScrapStoredItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::SelectItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::ShelterScrapAllMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::StoreItemMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::StoredItemTransactionMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::WorkshopModeMessage",
+    "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::WorkshopModeReceiptMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::CampCollisionMsg",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::CampPlacedSendPowered",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ContestWorkshopMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::EditItemInPlaceMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::EditItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ForceExitMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::LockItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::NewWireMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::PermissionsForWorkbenchReceiptMsg",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::PlaceItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::PlacePackinMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReceiptMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReconnectWireMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RemoveItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RepairAllMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RepairItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReplaceItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestAdjustableSettingUpdate",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestCampPackUpMsg",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestPermissionsForWorkbenchMsg",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestRecipeConditionsMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestWorkshopBudgetReportMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReserveForRepairAllMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReserveForSheltersScrapAllMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReserveItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReserveItemMessageCancel",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ScrapItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ScrapStoredItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::SelectItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ShelterScrapAllMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::StoreItemMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::StoredItemTransactionMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::WorkshopModeMessage",
+    "GameNetworkMessageManager::SendMessage::WorkshopNetwork::WorkshopModeReceiptMessage",
+    "HandleMessage::WorkshopNetwork::CampCollisionMsg",
+    "HandleMessage::WorkshopNetwork::CampPlacedSendPowered",
+    "HandleMessage::WorkshopNetwork::ForceExitMessage",
+    "HandleMessage::WorkshopNetwork::PermissionsForWorkbenchReceiptMsg",
+    "HandleMessage::WorkshopNetwork::ReceiptMessage",
+    "HandleMessage::WorkshopNetwork::StoredItemTransactionMessage",
+    "HandleMessage::WorkshopNetwork::WorkshopModeReceiptMessage",
+    "LoggingSystem::DEV::game.workshop.server",
+    "LoggingSystem::PROD::game.workshop.server",
+    "Quests::GQ_WorkshopAttack::Scenes",
+    "Quests::GQ_WorkshopAttack::Scripts",
+    "Quests::GQ_WorkshopAttack::Warning",
+    "Quests::GQ_WorkshopAttackScorchbeasts::Scenes",
+    "Quests::GQ_WorkshopAttackScorchbeasts::Scripts",
+    "Quests::GQ_WorkshopAttackScorchbeasts::Warning",
+    "Quests::GQ_WorkshopAttackVultures::Scenes",
+    "Quests::GQ_WorkshopAttackVultures::Scripts",
+    "Quests::GQ_WorkshopAttackVultures::Warning",
+    "Quests::GQ_WorkshopAttack_Takeover::Scenes",
+    "Quests::GQ_WorkshopAttack_Takeover::Scripts",
+    "Quests::GQ_WorkshopAttack_Takeover::Warning",
+    "Quests::GQ_WorkshopClear::Scenes",
+    "Quests::GQ_WorkshopClear::Scripts",
+    "Quests::GQ_WorkshopClear::Warning",
+    "Quests::GQ_WorkshopReclaim::Scenes",
+    "Quests::GQ_WorkshopReclaim::Scripts",
+    "Quests::GQ_WorkshopReclaim::Warning",
+    "Quests::SQ_WorkshopArtillery::Scenes",
+    "Quests::SQ_WorkshopArtillery::Scripts",
+    "Quests::SQ_WorkshopArtillery::Warning",
+    "Quests::SQ_WorkshopVertibirdFind::Scenes",
+    "Quests::SQ_WorkshopVertibirdFind::Scripts",
+    "Quests::SQ_WorkshopVertibirdFind::Warning",
+    "Quests::WorkshopInitializeLocation::Scenes",
+    "Quests::WorkshopInitializeLocation::Scripts",
+    "Quests::WorkshopInitializeLocation::Warning",
+    "Quests::WorkshopParent::Scenes",
+    "Quests::WorkshopParent::Scripts",
+    "Quests::WorkshopParent::Warning",
+    "Quests::WorkshopPermanentActors::Scenes",
+    "Quests::WorkshopPermanentActors::Scripts",
+    "Quests::WorkshopPermanentActors::Warning",
+    "Quests::WorkshopTutorial::Scenes",
+    "Quests::WorkshopTutorial::Scripts",
+    "Quests::WorkshopTutorial::Warning",
+    "Scripts::DebugTrace::Workshop",
+    "Workshop::Budget::BudgetReport::BudgetReportType",
+    "Workshop::CreateWall",
+    "Workshop::DestroyWall",
+    "Workshop::ExtraData::CreateWall Called.",
+    "Workshop::ExtraData::DestroyWall Called.",
+    "Workshop::RecipeConditionsResponseStatus",
+    "Workshop::UpdateCellAttachment::CaptureBorders",
+    "Workshop::UpdateCellAttachment::CellAttached",
+    "Workshop::UpdateCellAttachment::Walls",
+    "Workshop::WorkshopCodes",
+    "Workshop::WouldSnapFromDistance",
+    "WorkshopClient::MultiEditHelper ::ResolveMustSnapItems",
+    "WorkshopClient::MultiEditHelper::PreStackItem",
+    "WorkshopClient::MultiEditHelper::PrepareBlueprintPackin",
+    "WorkshopClient::MultiEditHelper::SelectPivotRef",
+    "WorkshopClient::MultiEditHelper::SelectPivotRef::Loop1",
+    "WorkshopClient::MultiEditHelper::SetupPlacementValues",
+    "WorkshopClient::PackinUtils::StackPackin",
+    "WorkshopClient::PrepareReferences",
+    "WorkshopClient::SetupTheWholeThing::Loop2",
+    "WorkshopClient::TestBlueprintSupport",
+    "WorkshopCommonUpdate::CheckCollisionAgainstWorld",
+    "WorkshopCommonUpdate::GetClosestPoints",
+    "WorkshopMenu::AdvanceMovie",
+    "WorkshopMenu::Ctor",
+    "WorkshopMenu::ProcessMessage",
+    "WorkshopNetwork::CampCollisionMsg",
+    "WorkshopNetwork::CampPlacedSendPowered",
+    "WorkshopNetwork::ContestWorkshopMessage",
+    "WorkshopNetwork::EditItemInPlaceMessage",
+    "WorkshopNetwork::EditItemMessage",
+    "WorkshopNetwork::ForceExitMessage",
+    "WorkshopNetwork::LockItemMessage",
+    "WorkshopNetwork::NewWireMessage",
+    "WorkshopNetwork::PermissionsForWorkbenchReceiptMsg",
+    "WorkshopNetwork::PlaceItemMessage",
+    "WorkshopNetwork::PlacePackinMessage",
+    "WorkshopNetwork::ReceiptMessage",
+    "WorkshopNetwork::ReconnectWireMessage",
+    "WorkshopNetwork::RemoveItemMessage",
+    "WorkshopNetwork::RepairAllMessage",
+    "WorkshopNetwork::RepairItemMessage",
+    "WorkshopNetwork::ReplaceItemMessage",
+    "WorkshopNetwork::RequestAdjustableSettingUpdate",
+    "WorkshopNetwork::RequestCampPackUpMsg",
+    "WorkshopNetwork::RequestPermissionsForWorkbenchMsg",
+    "WorkshopNetwork::RequestRecipeConditionsMessage",
+    "WorkshopNetwork::RequestReserveForRepairAll",
+    "WorkshopNetwork::RequestReserveForScrapAll",
+    "WorkshopNetwork::RequestReserveItem",
+    "WorkshopNetwork::RequestWorkshopBudgetReportMessage",
+    "WorkshopNetwork::ReserveForRepairAllMessage",
+    "WorkshopNetwork::ReserveForSheltersScrapAllMessage",
+    "WorkshopNetwork::ReserveItemMessage",
+    "WorkshopNetwork::ReserveItemMessageCancel",
+    "WorkshopNetwork::ScrapItemMessage",
+    "WorkshopNetwork::ScrapStoredItemMessage",
+    "WorkshopNetwork::SelectItemMessage",
+    "WorkshopNetwork::ShelterScrapAllMessage",
+    "WorkshopNetwork::SnapshotComponent::Serialize",
+    "WorkshopNetwork::StoreItemMessage",
+    "WorkshopNetwork::StoredItemTransactionMessage",
+    "WorkshopNetwork::WorkshopModeMessage",
+    "WorkshopNetwork::WorkshopModeReceiptMessage",
+    "WorkshopPackin::Setup"
+  ],
+  "raw_fields": {
+    "176": "ParentCellFormID",
+    "177": "WorldSpaceFormID",
+    "178": "Position.x",
+    "179": "Position.y",
+    "180": "Position.z",
+    "181": "ZRotation",
+    "186": "WorkshopItemID",
+    "188": "WorkshopID",
+    "189": "PlacedItemFormID",
+    "190": "ParentReferenceFormID",
+    "191": "ClientReferenceFormID",
+    "192": "ScrapToBuildItemID",
+    "193": "Scale",
+    "194": "ItemCount",
+    "200": "PlacedPackinFormID",
+    "201": "ParentReferenceFormID",
+    "202": "ClientReferenceFormID",
+    "203": "ScrapToBuildItemID",
+    "204": "WorkshopID",
+    "205": "Scale",
+    "212": "ItemID",
+    "213": "Operation",
+    "218": "WorkshopID",
+    "223": "WorkshopID",
+    "228": "WorkshopID",
+    "229": "ServerItemID",
+    "230": "ParentReferenceFormID",
+    "231": "NewVariantFormID",
+    "232": "TempRefID",
+    "239": "WorkshopID",
+    "240": "ServerItemID",
+    "241": "ModToApplyFormID",
+    "246": "WorkshopID",
+    "247": "ItemID",
+    "252": "bFreeScrap",
+    "253": "ItemID",
+    "254": "WorkshopID",
+    "259": "WorkshopID",
+    "260": "ItemID",
+    "265": "WorkshopID",
+    "266": "ItemID",
+    "271": "ItemID",
+    "276": "WorkshopID",
+    "281": "WorkshopID",
+    "286": "Endpoint0ID",
+    "287": "Endpoint1ID",
+    "288": "ConnectType0",
+    "289": "ConnectType1",
+    "294": "WorkshopID",
+    "295": "ClientReferenceFormID",
+    "302": "WorkshopID",
+    "303": "WireID",
+    "310": "WorkshopID",
+    "311": "RequestStart",
+    "316": "WorkshopID",
+    "321": "ItemFormID",
+    "322": "RequestType",
+    "323": "Operation",
+    "324": "ResponseCode",
+    "331": "BuildRepairItemCounts.BuildCount",
+    "336": "componentCount",
+    "339": "rcomponent.ComponentID",
+    "340": "rcomponent.RequiredCount",
+    "341": "rcomponent.AvailableCount",
+    "342": "rcomponent.AvailableCountAtWorkshop",
+    "347": "componentCount",
+    "351": "component.ComponentID",
+    "352": "component.RequiredCount",
+    "353": "component.AvailableCount",
+    "354": "component.AvailableCountAtWorkshop",
+    "1408": "WorkshopID",
+    "1409": "ReplacementFormID",
+    "1410": "NewBaseObjectID",
+    "1411": "ItemID",
+    "1412": "bSwapForFree",
+    "1438": "WorkshopID",
+    "1439": "ItemID",
+    "1440": "NewLockLevel",
+    "1464": "ItemID",
+    "1498": "WorkshopID",
+    "1499": "Status",
+    "1500": "WorkshopState",
+    "1501": "Permissions",
+    "1502": "Budget",
+    "1506": "count",
+    "1511": "formID",
+    "1512": "formCount",
+    "1517": "count",
+    "1522": "formID",
+    "1523": "formCount",
+    "1542": "WorkshopID",
+    "1543": "RequestSeqNum",
+    "1544": "bHasCachedData",
+    "1591": "WorkshopID",
+    "1592": "Workshop::RecipeConditionsResponseStatus",
+    "1593": "RequestNumber",
+    "1598": "numFormTypes",
+    "1602": "ENUM_FORM_ID",
+    "1604": "count",
+    "1615": "isEnabled",
+    "1616": "isTrue",
+    "1617": "isTrueForAllButHasPerkAndHasLearnedRecipe",
+    "1618": "isTrueForHasLearnedRecipe",
+    "1619": "isTrueForHasEntitlement",
+    "1620": "shouldBeVisibleInMenu",
+    "1626": "numFormTypes",
+    "1630": "ENUM_FORM_ID",
+    "1632": "count",
+    "1643": "isEnabled",
+    "1644": "isTrue",
+    "1645": "isTrueForAllButHasPerkAndHasLearnedRecipe",
+    "1646": "isTrueForHasLearnedRecipe",
+    "1647": "isTrueForHasEntitlement",
+    "1648": "shouldBeVisibleInMenu",
+    "1664": "WorkshopID",
+    "1665": "StoredItemID",
+    "1666": "Stored",
+    "1697": "CampID",
+    "1752": "WorkshopID",
+    "1753": "Workshop::Budget::BudgetReport::BudgetReportType",
+    "1754": "ObjectID",
+    "1862": "Workshop::Budget::BudgetReport::BudgetReportType",
+    "1863": "BudgetCostFactors",
+    "1905": "WorkshopObjectID",
+    "1906": "PlayerAdjustableSettingsType",
+    "1907": "settingID",
+    "1914": "abValue",
+    "1925": "auiValue",
+    "1937": "auiValue",
+    "1938": "TimeMeasurementType",
+    "1950": "auiValue",
+    "1951": "TimeMeasurementType",
+    "1967": "TargetType"
+  }
+}
