@@ -1,0 +1,247 @@
+{
+  "total_fields": 34,
+  "messages": [
+    {
+      "start_line": 0,
+      "fields": [
+        {
+          "line": 79,
+          "field": "TopicInfoFormID"
+        },
+        {
+          "line": 80,
+          "field": "ResponseIndex"
+        },
+        {
+          "line": 81,
+          "field": "SpeakerEntityID"
+        },
+        {
+          "line": 82,
+          "field": "TargetEntityID"
+        },
+        {
+          "line": 83,
+          "field": "VoiceOverrideEntityID"
+        }
+      ]
+    },
+    {
+      "start_line": 113,
+      "fields": [
+        {
+          "line": 113,
+          "field": "NoteFormId"
+        },
+        {
+          "line": 114,
+          "field": "bStart"
+        }
+      ]
+    },
+    {
+      "start_line": 141,
+      "fields": [
+        {
+          "line": 141,
+          "field": "SpeakerID"
+        },
+        {
+          "line": 142,
+          "field": "TopicInfoID"
+        }
+      ]
+    },
+    {
+      "start_line": 169,
+      "fields": [
+        {
+          "line": 169,
+          "field": "HistoryOwner"
+        },
+        {
+          "line": 174,
+          "field": "historySize"
+        },
+        {
+          "line": 178,
+          "field": "historySize"
+        },
+        {
+          "line": 184,
+          "field": "ConversationHistory[i].NPCResponseTopicInfoID"
+        },
+        {
+          "line": 185,
+          "field": "ConversationHistory[i].SpeakerID"
+        }
+      ]
+    },
+    {
+      "start_line": 213,
+      "fields": [
+        {
+          "line": 213,
+          "field": "TargetEntityID"
+        },
+        {
+          "line": 214,
+          "field": "TargetOverride"
+        },
+        {
+          "line": 215,
+          "field": "TrackTarget"
+        }
+      ]
+    },
+    {
+      "start_line": 242,
+      "fields": [
+        {
+          "line": 242,
+          "field": "HolotapeTaken"
+        }
+      ]
+    },
+    {
+      "start_line": 271,
+      "fields": [
+        {
+          "line": 271,
+          "field": "SpeakerFormID"
+        },
+        {
+          "line": 272,
+          "field": "QuestInstanceID"
+        },
+        {
+          "line": 273,
+          "field": "PlayerSceneActionTopicInfoIDs"
+        },
+        {
+          "line": 274,
+          "field": "AlwaysShowPlayerSceneActionTopicInfoIDs"
+        }
+      ]
+    },
+    {
+      "start_line": 318,
+      "fields": [
+        {
+          "line": 318,
+          "field": "TrackingActorID"
+        },
+        {
+          "line": 319,
+          "field": "TargetTrackID"
+        },
+        {
+          "line": 320,
+          "field": "FaceTarget"
+        },
+        {
+          "line": 321,
+          "field": "PreviousTargetID"
+        }
+      ]
+    },
+    {
+      "start_line": 347,
+      "fields": [
+        {
+          "line": 347,
+          "field": "InPrivateScene"
+        },
+        {
+          "line": 348,
+          "field": "TargetActorID"
+        }
+      ]
+    },
+    {
+      "start_line": 387,
+      "fields": [
+        {
+          "line": 387,
+          "field": "ActorIDToRequestSkipFor"
+        }
+      ]
+    },
+    {
+      "start_line": 410,
+      "fields": [
+        {
+          "line": 410,
+          "field": "SpeakerID"
+        }
+      ]
+    },
+    {
+      "start_line": 433,
+      "fields": [
+        {
+          "line": 433,
+          "field": "PlayerToGetHistoryFrom"
+        }
+      ]
+    },
+    {
+      "start_line": 457,
+      "fields": [
+        {
+          "line": 457,
+          "field": "ChosenTopicID"
+        }
+      ]
+    },
+    {
+      "start_line": 481,
+      "fields": [
+        {
+          "line": 481,
+          "field": "SpeakerFormID"
+        },
+        {
+          "line": 482,
+          "field": "TopicInfoFormID"
+        }
+      ]
+    }
+  ],
+  "raw_fields": {
+    "79": "TopicInfoFormID",
+    "80": "ResponseIndex",
+    "81": "SpeakerEntityID",
+    "82": "TargetEntityID",
+    "83": "VoiceOverrideEntityID",
+    "113": "NoteFormId",
+    "114": "bStart",
+    "141": "SpeakerID",
+    "142": "TopicInfoID",
+    "169": "HistoryOwner",
+    "174": "historySize",
+    "178": "historySize",
+    "184": "ConversationHistory[i].NPCResponseTopicInfoID",
+    "185": "ConversationHistory[i].SpeakerID",
+    "213": "TargetEntityID",
+    "214": "TargetOverride",
+    "215": "TrackTarget",
+    "242": "HolotapeTaken",
+    "271": "SpeakerFormID",
+    "272": "QuestInstanceID",
+    "273": "PlayerSceneActionTopicInfoIDs",
+    "274": "AlwaysShowPlayerSceneActionTopicInfoIDs",
+    "318": "TrackingActorID",
+    "319": "TargetTrackID",
+    "320": "FaceTarget",
+    "321": "PreviousTargetID",
+    "347": "InPrivateScene",
+    "348": "TargetActorID",
+    "387": "ActorIDToRequestSkipFor",
+    "410": "SpeakerID",
+    "433": "PlayerToGetHistoryFrom",
+    "457": "ChosenTopicID",
+    "481": "SpeakerFormID",
+    "482": "TopicInfoFormID"
+  }
+}
