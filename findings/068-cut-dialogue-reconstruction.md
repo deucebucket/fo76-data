@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-We extracted and converted 1,958 orphaned voice recordings from 7 cut NPCs to playable WAV audio (1.4 GB total). All conversions succeeded. The most significant discovery is that **Moe the Mole's complete 16-line dialogue script survives in the strings files** despite the quest being cut, and **Beckett's original finale was radically different** from what shipped -- set at Poseidon Power Plant with a branching moral choice involving a second villain called "The Bone."
+A total of 1,958 orphaned voice recordings from 7 cut NPCs were extracted and converted to playable WAV audio (1.4 GB total). All conversions succeeded. The most significant discovery is that **Moe the Mole's complete 16-line dialogue script survives in the strings files** despite the quest being cut, and **Beckett's original finale was radically different** from what shipped -- set at Poseidon Power Plant with a branching moral choice involving a second villain called "The Bone."
 
 The Paladin Radio was a cut Brotherhood of Steel radio station with 5 broadcast segments (45 voice recordings, 4.3 minutes of audio). Ryan Ainsley and Marcus Wellsby were pre-war Whitespring Resort staffers with 14 total voice recordings (1.7 minutes) who were meant to be interactive ghost NPCs.
 

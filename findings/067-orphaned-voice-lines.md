@@ -254,7 +254,7 @@ The most clearly documented cut NPC quest in the orphaned data:
 **NPC**: `SF07_MoeTheMole_VOICEONLY` (0x0034142E) -- a voice-only mascot character
 **Voice Type**: `_CUT_NPCM_SF07_MoeTheMole` (0x0034142F) -- doubly confirmed as cut
 
-**What we know from ESM records**:
+**What the ESM records reveal**:
 - The quest involved radscorpions (both `SF07LvlRadscorpionLarge` and `SF07LvlRadscorpionSmall` NPCs exist)
 - It had creature spawn markers and swarm markers
 - Three scene variants were built (Scene1, SceneOne, SceneTest) -- suggesting iterative development

@@ -13,7 +13,7 @@
 
 None of the 12 UpdateMain.ba2 archives contain ANY overridden curve table JSONs.
 The curve files in `SeventySix - Startup.ba2` are the ONLY versions that have ever existed.
-**Every curve value we previously reported is the current live value.**
+**Every curve value previously reported is the current live value.**
 
 ## Methodology: How OMOD -> CURV -> JSON Works
 
@@ -288,7 +288,7 @@ Nerd Rage is now a single-rank perk (NerdRage01 only). The old 3-rank system
 was collapsed into one rank with the full curve scaling.
 
 **CONFIRMED VALUES**: +80% damage and +30 AP regen at 5% HP.
-**Previous claim status**: These values match what we reported.
+**Previous claim status**: These values match the previous report.
 
 ---
 
@@ -371,15 +371,15 @@ All previously reported curve values are confirmed correct through the active re
 3. **"The ESM records were changed to POINT TO DIFFERENT CURVES"** - UNVERIFIABLE.
    The CURV records `CT_Legendary_Armor_Cavalier` and `CT_Legendary_Armor_Sentinel`
    have FormIDs in the 0x008Axxxx range (very high = added in a late update). This suggests
-   they were added post-launch, possibly replacing an older curve system. However, we
-   cannot determine what the OMODs pointed to BEFORE these CURVs existed without
+   they were added post-launch, possibly replacing an older curve system. However, it is
+   not possible to determine what the OMODs pointed to BEFORE these CURVs existed without
    historical ESM snapshots.
 
 ## Key Takeaway
 
-**Every curve value we previously reported is verifiably the current live value.**
+**Every curve value previously reported is verifiably the current live value.**
 No update archive has ever overridden a curve JSON file. The initial concern that
 "old curves still exist but aren't referenced anymore" was partially valid - the
 `armor_lessdamagesprinting.json` and `armor_lessdamagestandstill.json` files are
 indeed orphaned - but the ACTIVE curves (`armor_cavalier.json` and `armor_sentinel.json`)
-contain the exact values we reported. The Nocturnal "cloaking rework" was a false premise.
+contain the exact values previously reported. The Nocturnal "cloaking rework" was a false premise.
