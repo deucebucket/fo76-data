@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "pa_type": "ultracite",
+    "display_name": "Ultracite Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 2,
+    "pa_type": "t65",
+    "display_name": "T-65 Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 3,
+    "pa_type": "vulcan",
+    "display_name": "Vulcan Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 4,
+    "pa_type": "t60_presidential",
+    "display_name": "Presidential T-60 Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 5,
+    "pa_type": "x01",
+    "display_name": "X-01 Power Armor",
+    "min_level": 40,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 6,
+    "pa_type": "standard",
+    "display_name": "Standard Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 7,
+    "pa_type": "t45",
+    "display_name": "T-45 Power Armor",
+    "min_level": 25,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 8,
+    "pa_type": "x01_enclave",
+    "display_name": "Enclave X-01 Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 9,
+    "pa_type": "excavator",
+    "display_name": "Excavator Power Armor",
+    "min_level": 25,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 10,
+    "pa_type": "t60",
+    "display_name": "T-60 Power Armor",
+    "min_level": 40,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 11,
+    "pa_type": "hellcat",
+    "display_name": "Hellcat Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 12,
+    "pa_type": "t51",
+    "display_name": "T-51b Power Armor",
+    "min_level": 30,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 13,
+    "pa_type": "union",
+    "display_name": "Union Power Armor",
+    "min_level": 50,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  },
+  {
+    "id": 14,
+    "pa_type": "raider",
+    "display_name": "Raider Power Armor",
+    "min_level": 15,
+    "max_level": 50,
+    "carry_weight_bonus": 0,
+    "unique_effects": null,
+    "data_source": "curve"
+  }
+]

@@ -1,0 +1,1633 @@
+[
+  {
+    "id": 1,
+    "effect_name": "Anti-Armor (flat)",
+    "curve_file": "weapon_damage.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.2
+  },
+  {
+    "id": 2,
+    "effect_name": "Anti-Armor (flat)",
+    "curve_file": "weapon_damage.json",
+    "input_value": 100.0,
+    "effect_magnitude": 0.2
+  },
+  {
+    "id": 3,
+    "effect_name": "Bloodied",
+    "curve_file": "weapon_damageinversehealth.json",
+    "input_value": 0.05,
+    "effect_magnitude": 130.0
+  },
+  {
+    "id": 4,
+    "effect_name": "Bloodied",
+    "curve_file": "weapon_damageinversehealth.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 5,
+    "effect_name": "Junkie's",
+    "curve_file": "weapon_damageviahealth.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 6,
+    "effect_name": "Junkie's",
+    "curve_file": "weapon_damageviahealth.json",
+    "input_value": 1000.0,
+    "effect_magnitude": 100.0
+  },
+  {
+    "id": 7,
+    "effect_name": "Aristocrat's",
+    "curve_file": "weapon_damageviacaps.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 8,
+    "effect_name": "Aristocrat's",
+    "curve_file": "weapon_damageviacaps.json",
+    "input_value": 1000.0,
+    "effect_magnitude": 3.0
+  },
+  {
+    "id": 9,
+    "effect_name": "Aristocrat's",
+    "curve_file": "weapon_damageviacaps.json",
+    "input_value": 2000.0,
+    "effect_magnitude": 5.0
+  },
+  {
+    "id": 10,
+    "effect_name": "Aristocrat's",
+    "curve_file": "weapon_damageviacaps.json",
+    "input_value": 15000.0,
+    "effect_magnitude": 27.0
+  },
+  {
+    "id": 11,
+    "effect_name": "Aristocrat's",
+    "curve_file": "weapon_damageviacaps.json",
+    "input_value": 16000.0,
+    "effect_magnitude": 28.0
+  },
+  {
+    "id": 12,
+    "effect_name": "Aristocrat's",
+    "curve_file": "weapon_damageviacaps.json",
+    "input_value": 17000.0,
+    "effect_magnitude": 30.0
+  },
+  {
+    "id": 13,
+    "effect_name": "Aristocrat's",
+    "curve_file": "weapon_damageviacaps.json",
+    "input_value": 29000.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 14,
+    "effect_name": "Instigating",
+    "curve_file": "weapon_damageunarmored.json",
+    "input_value": 0.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 15,
+    "effect_name": "Instigating",
+    "curve_file": "weapon_damageunarmored.json",
+    "input_value": 20.0,
+    "effect_magnitude": 30.0
+  },
+  {
+    "id": 16,
+    "effect_name": "Instigating",
+    "curve_file": "weapon_damageunarmored.json",
+    "input_value": 40.0,
+    "effect_magnitude": 17.0
+  },
+  {
+    "id": 17,
+    "effect_name": "Instigating",
+    "curve_file": "weapon_damageunarmored.json",
+    "input_value": 60.0,
+    "effect_magnitude": 5.0
+  },
+  {
+    "id": 18,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 19,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 1.0,
+    "effect_magnitude": 5.0
+  },
+  {
+    "id": 20,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 2.0,
+    "effect_magnitude": 10.0
+  },
+  {
+    "id": 21,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 3.0,
+    "effect_magnitude": 15.0
+  },
+  {
+    "id": 22,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 4.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 23,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 5.0,
+    "effect_magnitude": 25.0
+  },
+  {
+    "id": 24,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 6.0,
+    "effect_magnitude": 30.0
+  },
+  {
+    "id": 25,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 7.0,
+    "effect_magnitude": 35.0
+  },
+  {
+    "id": 26,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 8.0,
+    "effect_magnitude": 40.0
+  },
+  {
+    "id": 27,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 9.0,
+    "effect_magnitude": 45.0
+  },
+  {
+    "id": 28,
+    "effect_name": "Mutant's",
+    "curve_file": "weapon_dmgwithmutation.json",
+    "input_value": 10.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 29,
+    "effect_name": "Executioner",
+    "curve_file": "weapon_damageperkill.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 30,
+    "effect_name": "Executioner",
+    "curve_file": "weapon_damageperkill.json",
+    "input_value": 1.0,
+    "effect_magnitude": 10.0
+  },
+  {
+    "id": 31,
+    "effect_name": "Executioner",
+    "curve_file": "weapon_damageperkill.json",
+    "input_value": 10.0,
+    "effect_magnitude": 100.0
+  },
+  {
+    "id": 32,
+    "effect_name": "Executioner's (curve)",
+    "curve_file": "weapon_execute.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 33,
+    "effect_name": "Executioner's (curve)",
+    "curve_file": "weapon_execute.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 34,
+    "effect_name": "Nocturnal",
+    "curve_file": "weapon_damagenight.json",
+    "input_value": 0.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 35,
+    "effect_name": "Nocturnal",
+    "curve_file": "weapon_damagenight.json",
+    "input_value": 5.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 36,
+    "effect_name": "Nocturnal",
+    "curve_file": "weapon_damagenight.json",
+    "input_value": 6.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 37,
+    "effect_name": "Nocturnal",
+    "curve_file": "weapon_damagenight.json",
+    "input_value": 20.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 38,
+    "effect_name": "Nocturnal",
+    "curve_file": "weapon_damagenight.json",
+    "input_value": 21.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 39,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 40,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 1.0,
+    "effect_magnitude": 10.0
+  },
+  {
+    "id": 41,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 2.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 42,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 3.0,
+    "effect_magnitude": 30.0
+  },
+  {
+    "id": 43,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 4.0,
+    "effect_magnitude": 40.0
+  },
+  {
+    "id": 44,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 5.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 45,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 6.0,
+    "effect_magnitude": 60.0
+  },
+  {
+    "id": 46,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 7.0,
+    "effect_magnitude": 70.0
+  },
+  {
+    "id": 47,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 8.0,
+    "effect_magnitude": 80.0
+  },
+  {
+    "id": 48,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 9.0,
+    "effect_magnitude": 90.0
+  },
+  {
+    "id": 49,
+    "effect_name": "Junkie's (addiction)",
+    "curve_file": "weapon_damageaddiction.json",
+    "input_value": 10.0,
+    "effect_magnitude": 100.0
+  },
+  {
+    "id": 50,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 51,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 1.0,
+    "effect_magnitude": 5.0
+  },
+  {
+    "id": 52,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 2.0,
+    "effect_magnitude": 10.0
+  },
+  {
+    "id": 53,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 3.0,
+    "effect_magnitude": 15.0
+  },
+  {
+    "id": 54,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 4.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 55,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 5.0,
+    "effect_magnitude": 25.0
+  },
+  {
+    "id": 56,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 6.0,
+    "effect_magnitude": 30.0
+  },
+  {
+    "id": 57,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 7.0,
+    "effect_magnitude": 35.0
+  },
+  {
+    "id": 58,
+    "effect_name": "Gourmand",
+    "curve_file": "weapon_gourmand.json",
+    "input_value": 8.0,
+    "effect_magnitude": 40.0
+  },
+  {
+    "id": 59,
+    "effect_name": "Hunter",
+    "curve_file": "weapon_dmgvsanimals.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 60,
+    "effect_name": "Hunter",
+    "curve_file": "weapon_dmgvsanimals.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 61,
+    "effect_name": "Exterminator",
+    "curve_file": "weapon_dmgvsbugs.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 62,
+    "effect_name": "Exterminator",
+    "curve_file": "weapon_dmgvsbugs.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 63,
+    "effect_name": "Ghoul Slayer",
+    "curve_file": "weapon_dmgvsghouls.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 64,
+    "effect_name": "Ghoul Slayer",
+    "curve_file": "weapon_dmgvsghouls.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 65,
+    "effect_name": "Troubleshooter",
+    "curve_file": "weapon_dmgvsrobots.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 66,
+    "effect_name": "Troubleshooter",
+    "curve_file": "weapon_dmgvsrobots.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 67,
+    "effect_name": "Scorched Killer",
+    "curve_file": "weapon_dmgvsscorched.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 68,
+    "effect_name": "Scorched Killer",
+    "curve_file": "weapon_dmgvsscorched.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 69,
+    "effect_name": "Mutant Slayer",
+    "curve_file": "weapon_dmgvssupermutants.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 70,
+    "effect_name": "Mutant Slayer",
+    "curve_file": "weapon_dmgvssupermutants.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 71,
+    "effect_name": "Stalker",
+    "curve_file": "weapon_dmgvscryptids.json",
+    "input_value": 1.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 72,
+    "effect_name": "Stalker",
+    "curve_file": "weapon_dmgvscryptids.json",
+    "input_value": 100.0,
+    "effect_magnitude": 50.0
+  },
+  {
+    "id": 73,
+    "effect_name": "Furious (Swing Speed)",
+    "curve_file": "weapon_melee_swingspeed.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.4
+  },
+  {
+    "id": 74,
+    "effect_name": "Furious (Swing Speed)",
+    "curve_file": "weapon_melee_swingspeed.json",
+    "input_value": 100.0,
+    "effect_magnitude": 0.4
+  },
+  {
+    "id": 75,
+    "effect_name": "Furious (Fire Rate)",
+    "curve_file": "weapon_guns_rof.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.25
+  },
+  {
+    "id": 76,
+    "effect_name": "Furious (Fire Rate)",
+    "curve_file": "weapon_guns_rof.json",
+    "input_value": 100.0,
+    "effect_magnitude": 0.25
+  },
+  {
+    "id": 77,
+    "effect_name": "Durable",
+    "curve_file": "weapon_durability.json",
+    "input_value": 1.0,
+    "effect_magnitude": 1.5
+  },
+  {
+    "id": 78,
+    "effect_name": "Durable",
+    "curve_file": "weapon_durability.json",
+    "input_value": 100.0,
+    "effect_magnitude": 1.5
+  },
+  {
+    "id": 79,
+    "effect_name": "Lightweight (Melee)",
+    "curve_file": "weapon_melee_weight.json",
+    "input_value": 1.0,
+    "effect_magnitude": -0.9
+  },
+  {
+    "id": 80,
+    "effect_name": "Lightweight (Melee)",
+    "curve_file": "weapon_melee_weight.json",
+    "input_value": 100.0,
+    "effect_magnitude": -0.9
+  },
+  {
+    "id": 81,
+    "effect_name": "Quick (Speed per Kill)",
+    "curve_file": "weapon_reloadmeleespeedperkill.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.03
+  },
+  {
+    "id": 82,
+    "effect_name": "Quick (Speed per Kill)",
+    "curve_file": "weapon_reloadmeleespeedperkill.json",
+    "input_value": 10.0,
+    "effect_magnitude": 0.3
+  },
+  {
+    "id": 83,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 84,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 0.4,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 85,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 0.8,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 86,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 1.2,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 87,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 1.6,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 88,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 2.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 89,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 2.4,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 90,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 2.8,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 91,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 3.2,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 92,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 3.6,
+    "effect_magnitude": 2.0
+  },
+  {
+    "id": 93,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 4.0,
+    "effect_magnitude": 3.0
+  },
+  {
+    "id": 94,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 4.4,
+    "effect_magnitude": 4.0
+  },
+  {
+    "id": 95,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 4.8,
+    "effect_magnitude": 5.0
+  },
+  {
+    "id": 96,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 5.2,
+    "effect_magnitude": 6.0
+  },
+  {
+    "id": 97,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 5.6,
+    "effect_magnitude": 8.0
+  },
+  {
+    "id": 98,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 6.0,
+    "effect_magnitude": 11.0
+  },
+  {
+    "id": 99,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 6.4,
+    "effect_magnitude": 14.0
+  },
+  {
+    "id": 100,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 6.8,
+    "effect_magnitude": 19.0
+  },
+  {
+    "id": 101,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 7.2,
+    "effect_magnitude": 25.0
+  },
+  {
+    "id": 102,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 7.6,
+    "effect_magnitude": 32.0
+  },
+  {
+    "id": 103,
+    "effect_name": "Overeater's",
+    "curve_file": "armor_overeater.json",
+    "input_value": 8.0,
+    "effect_magnitude": 40.0
+  },
+  {
+    "id": 104,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 105,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 106,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 107,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 6.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 108,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 8.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 109,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 10.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 110,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 12.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 111,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 14.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 112,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 16.0,
+    "effect_magnitude": 2.0
+  },
+  {
+    "id": 113,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 18.0,
+    "effect_magnitude": 2.0
+  },
+  {
+    "id": 114,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 20.0,
+    "effect_magnitude": 3.0
+  },
+  {
+    "id": 115,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 22.0,
+    "effect_magnitude": 4.0
+  },
+  {
+    "id": 116,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 24.0,
+    "effect_magnitude": 5.0
+  },
+  {
+    "id": 117,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 26.0,
+    "effect_magnitude": 6.0
+  },
+  {
+    "id": 118,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 28.0,
+    "effect_magnitude": 8.0
+  },
+  {
+    "id": 119,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 30.0,
+    "effect_magnitude": 11.0
+  },
+  {
+    "id": 120,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 32.0,
+    "effect_magnitude": 14.0
+  },
+  {
+    "id": 121,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 34.0,
+    "effect_magnitude": 19.0
+  },
+  {
+    "id": 122,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 36.0,
+    "effect_magnitude": 25.0
+  },
+  {
+    "id": 123,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 38.0,
+    "effect_magnitude": 32.0
+  },
+  {
+    "id": 124,
+    "effect_name": "Overeater's (effect)",
+    "curve_file": "armor_overeater_effect.json",
+    "input_value": 40.0,
+    "effect_magnitude": 40.0
+  },
+  {
+    "id": 125,
+    "effect_name": "Bolstering (piece 1)",
+    "curve_file": "armor_bolstering_01.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.9
+  },
+  {
+    "id": 126,
+    "effect_name": "Bolstering (piece 1)",
+    "curve_file": "armor_bolstering_01.json",
+    "input_value": 0.15,
+    "effect_magnitude": 0.9
+  },
+  {
+    "id": 127,
+    "effect_name": "Bolstering (piece 1)",
+    "curve_file": "armor_bolstering_01.json",
+    "input_value": 0.3,
+    "effect_magnitude": 0.91
+  },
+  {
+    "id": 128,
+    "effect_name": "Bolstering (piece 1)",
+    "curve_file": "armor_bolstering_01.json",
+    "input_value": 0.5,
+    "effect_magnitude": 0.975
+  },
+  {
+    "id": 129,
+    "effect_name": "Bolstering (piece 1)",
+    "curve_file": "armor_bolstering_01.json",
+    "input_value": 0.75,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 130,
+    "effect_name": "Bolstering (piece 1)",
+    "curve_file": "armor_bolstering_01.json",
+    "input_value": 0.9,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 131,
+    "effect_name": "Bolstering (piece 1)",
+    "curve_file": "armor_bolstering_01.json",
+    "input_value": 1.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 132,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 0.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 133,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 100.0,
+    "effect_magnitude": 0.999
+  },
+  {
+    "id": 134,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 136.0,
+    "effect_magnitude": 0.999
+  },
+  {
+    "id": 135,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 185.0,
+    "effect_magnitude": 0.998
+  },
+  {
+    "id": 136,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 252.0,
+    "effect_magnitude": 0.998
+  },
+  {
+    "id": 137,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 342.0,
+    "effect_magnitude": 0.996
+  },
+  {
+    "id": 138,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 465.0,
+    "effect_magnitude": 0.993
+  },
+  {
+    "id": 139,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 633.0,
+    "effect_magnitude": 0.983
+  },
+  {
+    "id": 140,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 861.0,
+    "effect_magnitude": 0.943
+  },
+  {
+    "id": 141,
+    "effect_name": "Vanguard's (piece 1)",
+    "curve_file": "armor_vanguard_01.json",
+    "input_value": 1000.0,
+    "effect_magnitude": 0.94
+  },
+  {
+    "id": 142,
+    "effect_name": "Unyielding",
+    "curve_file": "armor_lowhealthincreasesstats.json",
+    "input_value": 0.0,
+    "effect_magnitude": 3.0
+  },
+  {
+    "id": 143,
+    "effect_name": "Unyielding",
+    "curve_file": "armor_lowhealthincreasesstats.json",
+    "input_value": 0.1999,
+    "effect_magnitude": 3.0
+  },
+  {
+    "id": 144,
+    "effect_name": "Unyielding",
+    "curve_file": "armor_lowhealthincreasesstats.json",
+    "input_value": 0.2,
+    "effect_magnitude": 2.0
+  },
+  {
+    "id": 145,
+    "effect_name": "Unyielding",
+    "curve_file": "armor_lowhealthincreasesstats.json",
+    "input_value": 0.3999,
+    "effect_magnitude": 2.0
+  },
+  {
+    "id": 146,
+    "effect_name": "Unyielding",
+    "curve_file": "armor_lowhealthincreasesstats.json",
+    "input_value": 0.4,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 147,
+    "effect_name": "Unyielding",
+    "curve_file": "armor_lowhealthincreasesstats.json",
+    "input_value": 0.5999,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 148,
+    "effect_name": "Unyielding",
+    "curve_file": "armor_lowhealthincreasesstats.json",
+    "input_value": 0.6,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 149,
+    "effect_name": "Vanguard's (full curve)",
+    "curve_file": "armor_resistancesproportionalhealth.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 150,
+    "effect_name": "Vanguard's (full curve)",
+    "curve_file": "armor_resistancesproportionalhealth.json",
+    "input_value": 0.5,
+    "effect_magnitude": 7.0
+  },
+  {
+    "id": 151,
+    "effect_name": "Vanguard's (full curve)",
+    "curve_file": "armor_resistancesproportionalhealth.json",
+    "input_value": 0.6,
+    "effect_magnitude": 14.0
+  },
+  {
+    "id": 152,
+    "effect_name": "Vanguard's (full curve)",
+    "curve_file": "armor_resistancesproportionalhealth.json",
+    "input_value": 0.7,
+    "effect_magnitude": 21.0
+  },
+  {
+    "id": 153,
+    "effect_name": "Vanguard's (full curve)",
+    "curve_file": "armor_resistancesproportionalhealth.json",
+    "input_value": 0.8,
+    "effect_magnitude": 28.0
+  },
+  {
+    "id": 154,
+    "effect_name": "Vanguard's (full curve)",
+    "curve_file": "armor_resistancesproportionalhealth.json",
+    "input_value": 0.9,
+    "effect_magnitude": 35.0
+  },
+  {
+    "id": 155,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.0,
+    "effect_magnitude": 35.0
+  },
+  {
+    "id": 156,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.1,
+    "effect_magnitude": 35.0
+  },
+  {
+    "id": 157,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.2,
+    "effect_magnitude": 32.0
+  },
+  {
+    "id": 158,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.3,
+    "effect_magnitude": 28.0
+  },
+  {
+    "id": 159,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.4,
+    "effect_magnitude": 24.0
+  },
+  {
+    "id": 160,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.5,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 161,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.6,
+    "effect_magnitude": 16.0
+  },
+  {
+    "id": 162,
+    "effect_name": "Bolstering (full curve)",
+    "curve_file": "armor_resistancesinversehealth.json",
+    "input_value": 0.61,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 163,
+    "effect_name": "Sentinel",
+    "curve_file": "armor_sentinel.json",
+    "input_value": 0.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 164,
+    "effect_name": "Sentinel",
+    "curve_file": "armor_sentinel.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.95
+  },
+  {
+    "id": 165,
+    "effect_name": "Sentinel",
+    "curve_file": "armor_sentinel.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.9
+  },
+  {
+    "id": 166,
+    "effect_name": "Sentinel",
+    "curve_file": "armor_sentinel.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.86
+  },
+  {
+    "id": 167,
+    "effect_name": "Sentinel",
+    "curve_file": "armor_sentinel.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.81
+  },
+  {
+    "id": 168,
+    "effect_name": "Sentinel",
+    "curve_file": "armor_sentinel.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.77
+  },
+  {
+    "id": 169,
+    "effect_name": "Cavalier",
+    "curve_file": "armor_cavalier.json",
+    "input_value": 0.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 170,
+    "effect_name": "Cavalier",
+    "curve_file": "armor_cavalier.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.9
+  },
+  {
+    "id": 171,
+    "effect_name": "Cavalier",
+    "curve_file": "armor_cavalier.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.81
+  },
+  {
+    "id": 172,
+    "effect_name": "Cavalier",
+    "curve_file": "armor_cavalier.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.729
+  },
+  {
+    "id": 173,
+    "effect_name": "Cavalier",
+    "curve_file": "armor_cavalier.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.6561
+  },
+  {
+    "id": 174,
+    "effect_name": "Cavalier",
+    "curve_file": "armor_cavalier.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.59049
+  },
+  {
+    "id": 175,
+    "effect_name": "Ammo Weight Reduction",
+    "curve_file": "armor_weightammo.json",
+    "input_value": 1.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 176,
+    "effect_name": "Ammo Weight Reduction",
+    "curve_file": "armor_weightammo.json",
+    "input_value": 100.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 177,
+    "effect_name": "Weapon Weight Reduction",
+    "curve_file": "armor_weightweapons.json",
+    "input_value": 1.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 178,
+    "effect_name": "Weapon Weight Reduction",
+    "curve_file": "armor_weightweapons.json",
+    "input_value": 100.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 179,
+    "effect_name": "Food/Drink Weight Reduction",
+    "curve_file": "armor_weightfooddrink.json",
+    "input_value": 1.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 180,
+    "effect_name": "Food/Drink Weight Reduction",
+    "curve_file": "armor_weightfooddrink.json",
+    "input_value": 100.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 181,
+    "effect_name": "Junk Weight Reduction",
+    "curve_file": "armor_weightjunk.json",
+    "input_value": 1.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 182,
+    "effect_name": "Junk Weight Reduction",
+    "curve_file": "armor_weightjunk.json",
+    "input_value": 100.0,
+    "effect_magnitude": 20.0
+  },
+  {
+    "id": 183,
+    "effect_name": "Regenerating",
+    "curve_file": "armor_healthregen.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.5
+  },
+  {
+    "id": 184,
+    "effect_name": "Regenerating",
+    "curve_file": "armor_healthregen.json",
+    "input_value": 100.0,
+    "effect_magnitude": 0.5
+  },
+  {
+    "id": 185,
+    "effect_name": "Ghoul (Rad Regen)",
+    "curve_file": "armor_radsregen.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.25
+  },
+  {
+    "id": 186,
+    "effect_name": "Ghoul (Rad Regen)",
+    "curve_file": "armor_radsregen.json",
+    "input_value": 100.0,
+    "effect_magnitude": 0.25
+  },
+  {
+    "id": 187,
+    "effect_name": "Durable (Armor)",
+    "curve_file": "armor_durability.json",
+    "input_value": 1.0,
+    "effect_magnitude": 1.5
+  },
+  {
+    "id": 188,
+    "effect_name": "Durable (Armor)",
+    "curve_file": "armor_durability.json",
+    "input_value": 100.0,
+    "effect_magnitude": 1.5
+  },
+  {
+    "id": 189,
+    "effect_name": "Weightless",
+    "curve_file": "armor_weightless.json",
+    "input_value": 0.0,
+    "effect_magnitude": 1.0
+  },
+  {
+    "id": 190,
+    "effect_name": "Weightless",
+    "curve_file": "armor_weightless.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.9
+  },
+  {
+    "id": 191,
+    "effect_name": "Weightless",
+    "curve_file": "armor_weightless.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.81
+  },
+  {
+    "id": 192,
+    "effect_name": "Weightless",
+    "curve_file": "armor_weightless.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.73
+  },
+  {
+    "id": 193,
+    "effect_name": "Weightless",
+    "curve_file": "armor_weightless.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.66
+  },
+  {
+    "id": 194,
+    "effect_name": "Weightless",
+    "curve_file": "armor_weightless.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.59
+  },
+  {
+    "id": 195,
+    "effect_name": "Hunter's (Armor)",
+    "curve_file": "armor_lessdmganimals.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.85
+  },
+  {
+    "id": 196,
+    "effect_name": "Hunter's (Armor)",
+    "curve_file": "armor_lessdmganimals.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.7225
+  },
+  {
+    "id": 197,
+    "effect_name": "Hunter's (Armor)",
+    "curve_file": "armor_lessdmganimals.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.6141
+  },
+  {
+    "id": 198,
+    "effect_name": "Hunter's (Armor)",
+    "curve_file": "armor_lessdmganimals.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.522
+  },
+  {
+    "id": 199,
+    "effect_name": "Hunter's (Armor)",
+    "curve_file": "armor_lessdmganimals.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.4437
+  },
+  {
+    "id": 200,
+    "effect_name": "Troubleshooter's (Armor)",
+    "curve_file": "armor_lessdmgrobots.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.85
+  },
+  {
+    "id": 201,
+    "effect_name": "Troubleshooter's (Armor)",
+    "curve_file": "armor_lessdmgrobots.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.7225
+  },
+  {
+    "id": 202,
+    "effect_name": "Troubleshooter's (Armor)",
+    "curve_file": "armor_lessdmgrobots.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.6141
+  },
+  {
+    "id": 203,
+    "effect_name": "Troubleshooter's (Armor)",
+    "curve_file": "armor_lessdmgrobots.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.522
+  },
+  {
+    "id": 204,
+    "effect_name": "Troubleshooter's (Armor)",
+    "curve_file": "armor_lessdmgrobots.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.4437
+  },
+  {
+    "id": 205,
+    "effect_name": "Ghoul Slayer's (Armor)",
+    "curve_file": "armor_lessdmgghouls.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.85
+  },
+  {
+    "id": 206,
+    "effect_name": "Ghoul Slayer's (Armor)",
+    "curve_file": "armor_lessdmgghouls.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.7225
+  },
+  {
+    "id": 207,
+    "effect_name": "Ghoul Slayer's (Armor)",
+    "curve_file": "armor_lessdmgghouls.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.6141
+  },
+  {
+    "id": 208,
+    "effect_name": "Ghoul Slayer's (Armor)",
+    "curve_file": "armor_lessdmgghouls.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.522
+  },
+  {
+    "id": 209,
+    "effect_name": "Ghoul Slayer's (Armor)",
+    "curve_file": "armor_lessdmgghouls.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.4437
+  },
+  {
+    "id": 210,
+    "effect_name": "Mutant Slayer's (Armor)",
+    "curve_file": "armor_lessdmgsupermutants.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.85
+  },
+  {
+    "id": 211,
+    "effect_name": "Mutant Slayer's (Armor)",
+    "curve_file": "armor_lessdmgsupermutants.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.7225
+  },
+  {
+    "id": 212,
+    "effect_name": "Mutant Slayer's (Armor)",
+    "curve_file": "armor_lessdmgsupermutants.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.6141
+  },
+  {
+    "id": 213,
+    "effect_name": "Mutant Slayer's (Armor)",
+    "curve_file": "armor_lessdmgsupermutants.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.522
+  },
+  {
+    "id": 214,
+    "effect_name": "Mutant Slayer's (Armor)",
+    "curve_file": "armor_lessdmgsupermutants.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.4437
+  },
+  {
+    "id": 215,
+    "effect_name": "Zealot's (Armor)",
+    "curve_file": "armor_lessdmgscorched.json",
+    "input_value": 1.0,
+    "effect_magnitude": 0.85
+  },
+  {
+    "id": 216,
+    "effect_name": "Zealot's (Armor)",
+    "curve_file": "armor_lessdmgscorched.json",
+    "input_value": 2.0,
+    "effect_magnitude": 0.7225
+  },
+  {
+    "id": 217,
+    "effect_name": "Zealot's (Armor)",
+    "curve_file": "armor_lessdmgscorched.json",
+    "input_value": 3.0,
+    "effect_magnitude": 0.6141
+  },
+  {
+    "id": 218,
+    "effect_name": "Zealot's (Armor)",
+    "curve_file": "armor_lessdmgscorched.json",
+    "input_value": 4.0,
+    "effect_magnitude": 0.522
+  },
+  {
+    "id": 219,
+    "effect_name": "Zealot's (Armor)",
+    "curve_file": "armor_lessdmgscorched.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.4437
+  },
+  {
+    "id": 220,
+    "effect_name": "Sentinel (stand still)",
+    "curve_file": "armor_lessdamagestandstill.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 221,
+    "effect_name": "Sentinel (stand still)",
+    "curve_file": "armor_lessdamagestandstill.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.95
+  },
+  {
+    "id": 222,
+    "effect_name": "Sentinel (stand still)",
+    "curve_file": "armor_lessdamagestandstill.json",
+    "input_value": 10.0,
+    "effect_magnitude": 0.9025
+  },
+  {
+    "id": 223,
+    "effect_name": "Sentinel (stand still)",
+    "curve_file": "armor_lessdamagestandstill.json",
+    "input_value": 15.0,
+    "effect_magnitude": 0.8574
+  },
+  {
+    "id": 224,
+    "effect_name": "Sentinel (stand still)",
+    "curve_file": "armor_lessdamagestandstill.json",
+    "input_value": 20.0,
+    "effect_magnitude": 0.8145
+  },
+  {
+    "id": 225,
+    "effect_name": "Sentinel (stand still)",
+    "curve_file": "armor_lessdamagestandstill.json",
+    "input_value": 25.0,
+    "effect_magnitude": 0.7737
+  },
+  {
+    "id": 226,
+    "effect_name": "Cavalier (sprinting)",
+    "curve_file": "armor_lessdamagesprinting.json",
+    "input_value": 0.0,
+    "effect_magnitude": 0.0
+  },
+  {
+    "id": 227,
+    "effect_name": "Cavalier (sprinting)",
+    "curve_file": "armor_lessdamagesprinting.json",
+    "input_value": 5.0,
+    "effect_magnitude": 0.95
+  },
+  {
+    "id": 228,
+    "effect_name": "Cavalier (sprinting)",
+    "curve_file": "armor_lessdamagesprinting.json",
+    "input_value": 10.0,
+    "effect_magnitude": 0.9025
+  },
+  {
+    "id": 229,
+    "effect_name": "Cavalier (sprinting)",
+    "curve_file": "armor_lessdamagesprinting.json",
+    "input_value": 15.0,
+    "effect_magnitude": 0.8574
+  },
+  {
+    "id": 230,
+    "effect_name": "Cavalier (sprinting)",
+    "curve_file": "armor_lessdamagesprinting.json",
+    "input_value": 20.0,
+    "effect_magnitude": 0.8145
+  },
+  {
+    "id": 231,
+    "effect_name": "Cavalier (sprinting)",
+    "curve_file": "armor_lessdamagesprinting.json",
+    "input_value": 25.0,
+    "effect_magnitude": 0.7737
+  },
+  {
+    "id": 232,
+    "effect_name": "Acrobat",
+    "curve_file": "armor_lessfalldamage.json",
+    "input_value": 1.0,
+    "effect_magnitude": -50.0
+  },
+  {
+    "id": 233,
+    "effect_name": "Acrobat",
+    "curve_file": "armor_lessfalldamage.json",
+    "input_value": 100.0,
+    "effect_magnitude": -50.0
+  }
+]

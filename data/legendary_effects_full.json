@@ -1,0 +1,8699 @@
+{
+  "metadata": {
+    "source": "FO76 Tempest data curvetable JSONs (legendarymods/)",
+    "total_curve_files": 108,
+    "extraction_date": "2026-03-20",
+    "notes": "All values extracted from game data files, not wiki estimates. Curve X values represent input parameters (health %, caps count, mutation count, etc.) and Y values represent the effect magnitude."
+  },
+  "armor_effects": {
+    "1star": {
+      "Aristocrat's": {
+        "effect": "Damage and Energy Resistance scale with caps",
+        "star": 1,
+        "type": "armor",
+        "omod_name": "mod_Legendary_Armor1_Aristocrat",
+        "curve_file": "armor_aristocrat_01",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 2000,
+            "y": 0.13
+          },
+          {
+            "x": 4000,
+            "y": 0.16
+          },
+          {
+            "x": 6000,
+            "y": 0.2
+          },
+          {
+            "x": 8000,
+            "y": 0.25
+          },
+          {
+            "x": 10000,
+            "y": 0.32
+          },
+          {
+            "x": 12000,
+            "y": 0.4
+          },
+          {
+            "x": 14000,
+            "y": 0.5
+          },
+          {
+            "x": 16000,
+            "y": 0.63
+          },
+          {
+            "x": 18000,
+            "y": 0.79
+          },
+          {
+            "x": 20000,
+            "y": 1
+          },
+          {
+            "x": 22000,
+            "y": 1.26
+          },
+          {
+            "x": 24000,
+            "y": 1.58
+          },
+          {
+            "x": 26000,
+            "y": 2
+          },
+          {
+            "x": 28000,
+            "y": 2.51
+          },
+          {
+            "x": 30000,
+            "y": 3.16
+          },
+          {
+            "x": 32000,
+            "y": 3.98
+          },
+          {
+            "x": 34000,
+            "y": 5.01
+          },
+          {
+            "x": 36000,
+            "y": 6.31
+          },
+          {
+            "x": 38000,
+            "y": 7.94
+          },
+          {
+            "x": 40000,
+            "y": 10
+          }
+        ],
+        "interpretation": "X = caps held, Y = DR/ER multiplier. At 0 caps: 0% bonus. At 20,000 caps: 1% bonus. At 40,000 caps: 10% bonus. Logarithmic scaling - severely diminishing returns.",
+        "key_values": {
+          "0_caps": 0,
+          "2000_caps": 0.13,
+          "10000_caps": 0.32,
+          "20000_caps": 1.0,
+          "30000_caps": 3.16,
+          "40000_caps": 10.0
+        },
+        "wiki_comparison": "Wiki says 'up to 20% DR/ER'. Game data shows max multiplier of 10 at 40,000 caps. This is likely a multiplier applied to base armor value, not a flat percentage. The actual effect depends on how the game applies this curve.",
+        "notes": "Logarithmic curve. Nearly worthless below 20k caps."
+      },
+      "Bolstering": {
+        "effect": "Damage Resistance increases as health decreases",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Bolstering",
+          "mod_Legendary_PowerArmor1_Bolstering"
+        ],
+        "curve_files": {
+          "1_piece": "armor_bolstering_01",
+          "2_pieces": "armor_bolstering_02",
+          "3_pieces": "armor_bolstering_03",
+          "4_pieces": "armor_bolstering_04",
+          "5_pieces": "armor_bolstering_05",
+          "description": "armor_bolstering_desc"
+        },
+        "curve_data": {
+          "1_piece": [
+            {
+              "x": 0,
+              "y": 0.9
+            },
+            {
+              "x": 0.15,
+              "y": 0.9
+            },
+            {
+              "x": 0.3,
+              "y": 0.91
+            },
+            {
+              "x": 0.5,
+              "y": 0.975
+            },
+            {
+              "x": 0.75,
+              "y": 1
+            },
+            {
+              "x": 0.9,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "2_pieces": [
+            {
+              "x": 0,
+              "y": 0.81
+            },
+            {
+              "x": 0.15,
+              "y": 0.81
+            },
+            {
+              "x": 0.3,
+              "y": 0.828
+            },
+            {
+              "x": 0.5,
+              "y": 0.951
+            },
+            {
+              "x": 0.75,
+              "y": 1
+            },
+            {
+              "x": 0.9,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "3_pieces": [
+            {
+              "x": 0,
+              "y": 0.729
+            },
+            {
+              "x": 0.15,
+              "y": 0.729
+            },
+            {
+              "x": 0.3,
+              "y": 0.754
+            },
+            {
+              "x": 0.5,
+              "y": 0.927
+            },
+            {
+              "x": 0.75,
+              "y": 1
+            },
+            {
+              "x": 0.9,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "4_pieces": [
+            {
+              "x": 0,
+              "y": 0.656
+            },
+            {
+              "x": 0.15,
+              "y": 0.656
+            },
+            {
+              "x": 0.3,
+              "y": 0.686
+            },
+            {
+              "x": 0.5,
+              "y": 0.904
+            },
+            {
+              "x": 0.75,
+              "y": 1
+            },
+            {
+              "x": 0.9,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "5_pieces": [
+            {
+              "x": 0,
+              "y": 0.59
+            },
+            {
+              "x": 0.15,
+              "y": 0.59
+            },
+            {
+              "x": 0.3,
+              "y": 0.624
+            },
+            {
+              "x": 0.5,
+              "y": 0.881
+            },
+            {
+              "x": 0.75,
+              "y": 1
+            },
+            {
+              "x": 0.9,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 1
+            }
+          ],
+          "description": [
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 0.15,
+              "y": 10
+            },
+            {
+              "x": 0.3,
+              "y": 9
+            },
+            {
+              "x": 0.5,
+              "y": 2.5
+            },
+            {
+              "x": 0.75,
+              "y": 0
+            },
+            {
+              "x": 0.9,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0
+            }
+          ]
+        },
+        "interpretation": "X = health percentage (0.0=dead, 1.0=full). Y = damage multiplier (lower = more DR). At 0% HP, 1 piece = 0.9x (10% DR), 5 pieces = 0.59x (41% DR). Kicks in below 75% HP. Description curve shows displayed value: up to +10 DR/ER per piece at 0% HP.",
+        "key_values": {
+          "1pc_at_0pct_hp": {
+            "multiplier": 0.9,
+            "dr_bonus_pct": 10
+          },
+          "2pc_at_0pct_hp": {
+            "multiplier": 0.81,
+            "dr_bonus_pct": 19
+          },
+          "3pc_at_0pct_hp": {
+            "multiplier": 0.729,
+            "dr_bonus_pct": 27.1
+          },
+          "4pc_at_0pct_hp": {
+            "multiplier": 0.656,
+            "dr_bonus_pct": 34.4
+          },
+          "5pc_at_0pct_hp": {
+            "multiplier": 0.59,
+            "dr_bonus_pct": 41.0
+          },
+          "threshold": "Effect starts below 75% HP",
+          "desc_max_per_piece": 10
+        },
+        "wiki_comparison": "Wiki says 'up to +35 DR/ER at low health'. Game data shows multiplicative stacking: each piece multiplies incoming damage by 0.9 at lowest HP, for 5 pieces = 0.59x total (41% reduction). The desc curve shows up to +10 displayed per piece."
+      },
+      "Chameleon": {
+        "effect": "Invisibility while sneaking and stationary",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Chameleon",
+          "mod_Legendary_PowerArmor1_Chameleon"
+        ],
+        "curve_files": null,
+        "key_values": {
+          "effect": "binary_toggle"
+        },
+        "wiki_comparison": "Wiki accurate - no numerical curve, it's a boolean effect."
+      },
+      "Cloaking": {
+        "effect": "Stealth field when hit in melee",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_CloakOnMelee",
+          "mod_Legendary_PowerArmor1_CloakOnMelee"
+        ],
+        "curve_files": null,
+        "key_values": {
+          "effect": "stealth_field_on_melee_hit",
+          "cooldown": "30s"
+        },
+        "wiki_comparison": "Wiki accurate."
+      },
+      "Auto-Stim": {
+        "effect": "Auto-use Stimpak when health drops below 25%",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LowHealthTriggersStimpak",
+          "mod_Legendary_PowerArmor1_LowHealthTriggersStimpak"
+        ],
+        "curve_files": null,
+        "key_values": {
+          "threshold": "25% HP",
+          "cooldown": "30s"
+        }
+      },
+      "Ghoul Slayer's": {
+        "effect": "Reduces damage from ghouls by 15% per piece",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LessDMGGhouls",
+          "mod_Legendary_PowerArmor1_LessDMGGhouls"
+        ],
+        "curve_file": "armor_lessdmgghouls",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.85
+          },
+          {
+            "x": 2,
+            "y": 0.7225
+          },
+          {
+            "x": 3,
+            "y": 0.6141
+          },
+          {
+            "x": 4,
+            "y": 0.522
+          },
+          {
+            "x": 5,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "2_pieces": {
+            "multiplier": 0.7225,
+            "reduction_pct": 27.75
+          },
+          "3_pieces": {
+            "multiplier": 0.6141,
+            "reduction_pct": 38.59
+          },
+          "4_pieces": {
+            "multiplier": 0.522,
+            "reduction_pct": 47.8
+          },
+          "5_pieces": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        },
+        "interpretation": "Multiplicative stacking. Each piece multiplies ghoul damage by 0.85. 5 pieces = 0.85^5 = 0.4437 (55.6% reduction).",
+        "wiki_comparison": "Wiki says '-15% damage from ghouls'. Game confirms 15% per piece with multiplicative stacking."
+      },
+      "Hunter's": {
+        "effect": "Reduces damage from animals by 15% per piece",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LessDMGAnimals",
+          "mod_Legendary_PowerArmor1_LessDMGAnimals"
+        ],
+        "curve_file": "armor_lessdmganimals",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.85
+          },
+          {
+            "x": 2,
+            "y": 0.7225
+          },
+          {
+            "x": 3,
+            "y": 0.6141
+          },
+          {
+            "x": 4,
+            "y": 0.522
+          },
+          {
+            "x": 5,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "5_pieces": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        },
+        "interpretation": "Identical curve to all type-specific damage reduction effects. 15% multiplicative per piece."
+      },
+      "Troubleshooter's": {
+        "effect": "Reduces damage from robots by 15% per piece",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LessDMGRobots",
+          "mod_Legendary_PowerArmor1_LessDMGRobots"
+        ],
+        "curve_file": "armor_lessdmgrobots",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.85
+          },
+          {
+            "x": 2,
+            "y": 0.7225
+          },
+          {
+            "x": 3,
+            "y": 0.6141
+          },
+          {
+            "x": 4,
+            "y": 0.522
+          },
+          {
+            "x": 5,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "5_pieces": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        }
+      },
+      "Zealot's": {
+        "effect": "Reduces damage from Scorched by 15% per piece",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LessDmgScorched",
+          "mod_Legendary_PowerArmor1_LessDmgScorched"
+        ],
+        "curve_file": "armor_lessdmgscorched",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.85
+          },
+          {
+            "x": 2,
+            "y": 0.7225
+          },
+          {
+            "x": 3,
+            "y": 0.6141
+          },
+          {
+            "x": 4,
+            "y": 0.522
+          },
+          {
+            "x": 5,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "5_pieces": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        }
+      },
+      "Assassin's": {
+        "effect": "Reduces damage from players by 15% per piece",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LessDMGPlayers",
+          "mod_Legendary_PowerArmor1_LessDMGPlayers"
+        ],
+        "curve_file": "armor_lessdmgplayers",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.85
+          },
+          {
+            "x": 2,
+            "y": 0.7225
+          },
+          {
+            "x": 3,
+            "y": 0.6141
+          },
+          {
+            "x": 4,
+            "y": 0.522
+          },
+          {
+            "x": 5,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "5_pieces": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        },
+        "wiki_comparison": "Wiki says '-8% damage from players' but game data shows 15% per piece multiplicative, same as all other type-specific reductions. MAJOR DISCREPANCY - wiki may reflect a PvP-specific nerf not in the curve data."
+      },
+      "Exterminator's": {
+        "effect": "Reduces damage from bugs by 15% per piece",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LessDMGBugs",
+          "mod_Legendary_PowerArmor1_LessDMGBugs"
+        ],
+        "curve_file": "armor_lessdmgbugs",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.85
+          },
+          {
+            "x": 2,
+            "y": 0.7225
+          },
+          {
+            "x": 3,
+            "y": 0.6141
+          },
+          {
+            "x": 4,
+            "y": 0.522
+          },
+          {
+            "x": 5,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "5_pieces": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        }
+      },
+      "Mutant Slayer's": {
+        "effect": "Reduces damage from Super Mutants by 15% per piece",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LessDMGSuperMutants",
+          "mod_Legendary_PowerArmor1_LessDMGSuperMutants"
+        ],
+        "curve_file": "armor_lessdmgsupermutants",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.85
+          },
+          {
+            "x": 2,
+            "y": 0.7225
+          },
+          {
+            "x": 3,
+            "y": 0.6141
+          },
+          {
+            "x": 4,
+            "y": 0.522
+          },
+          {
+            "x": 5,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "5_pieces": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        }
+      },
+      "Life Saving": {
+        "effect": "50% chance to auto-revive with Stimpak when downed",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_AutoRevive"
+        ],
+        "curve_files": null,
+        "key_values": {
+          "chance": 50,
+          "cooldown": "60s"
+        }
+      },
+      "Regenerating": {
+        "effect": "Slowly regenerate HP when not in combat",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_HealthRegen",
+          "mod_Legendary_PowerArmor1_HealthRegen"
+        ],
+        "curve_file": "armor_healthregen",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.5
+          },
+          {
+            "x": 100,
+            "y": 0.5
+          }
+        ],
+        "key_values": {
+          "regen_rate": 0.5
+        },
+        "interpretation": "Flat 0.5 HP/s regeneration rate per piece. Not level-scaled.",
+        "wiki_comparison": "Wiki says 'slowly regenerate HP'. Game data: 0.5 HP/s per piece."
+      },
+      "Unyielding": {
+        "effect": "Up to +3 to all SPECIAL stats (except END) when low health",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_LowHealthIncreasesStats"
+        ],
+        "curve_file": "armor_lowhealthincreasesstats",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 0.1999,
+            "y": 3
+          },
+          {
+            "x": 0.2,
+            "y": 2
+          },
+          {
+            "x": 0.3999,
+            "y": 2
+          },
+          {
+            "x": 0.4,
+            "y": 1
+          },
+          {
+            "x": 0.5999,
+            "y": 1
+          },
+          {
+            "x": 0.6,
+            "y": 0
+          }
+        ],
+        "key_values": {
+          "below_20pct_hp": 3,
+          "20_to_40pct_hp": 2,
+          "40_to_60pct_hp": 1,
+          "above_60pct_hp": 0
+        },
+        "interpretation": "X = health percentage. Stepped function: +3 SPECIAL below 20% HP, +2 at 20-40%, +1 at 40-60%, +0 above 60%. Per piece, so 5 pieces = +15 to all SPECIAL (except END) at <20% HP.",
+        "wiki_comparison": "Wiki says '+3 to all stats except END when low health'. Game data CONFIRMS +3 per piece, with thresholds at 20%/40%/60% HP. 5 pieces = +15 total. Wiki is accurate.",
+        "build_rating": "S-TIER for bloodied builds"
+      },
+      "Vanguard's": {
+        "effect": "Damage Resistance increases with higher health",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Vanguard"
+        ],
+        "curve_files": {
+          "1_piece": "armor_vanguard_01",
+          "2_pieces": "armor_vanguard_02",
+          "3_pieces": "armor_vanguard_03",
+          "4_pieces": "armor_vanguard_04",
+          "5_pieces": "armor_vanguard_05",
+          "description": "armor_vanguard_desc"
+        },
+        "curve_data": {
+          "1_piece": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 100,
+              "y": 0.999
+            },
+            {
+              "x": 136,
+              "y": 0.999
+            },
+            {
+              "x": 185,
+              "y": 0.998
+            },
+            {
+              "x": 252,
+              "y": 0.998
+            },
+            {
+              "x": 342,
+              "y": 0.996
+            },
+            {
+              "x": 465,
+              "y": 0.993
+            },
+            {
+              "x": 633,
+              "y": 0.983
+            },
+            {
+              "x": 861,
+              "y": 0.943
+            },
+            {
+              "x": 1000,
+              "y": 0.94
+            }
+          ],
+          "2_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 100,
+              "y": 0.998
+            },
+            {
+              "x": 136,
+              "y": 0.998
+            },
+            {
+              "x": 185,
+              "y": 0.997
+            },
+            {
+              "x": 252,
+              "y": 0.995
+            },
+            {
+              "x": 342,
+              "y": 0.993
+            },
+            {
+              "x": 465,
+              "y": 0.986
+            },
+            {
+              "x": 633,
+              "y": 0.966
+            },
+            {
+              "x": 861,
+              "y": 0.89
+            },
+            {
+              "x": 1000,
+              "y": 0.884
+            }
+          ],
+          "3_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 100,
+              "y": 0.997
+            },
+            {
+              "x": 136,
+              "y": 0.996
+            },
+            {
+              "x": 185,
+              "y": 0.995
+            },
+            {
+              "x": 252,
+              "y": 0.993
+            },
+            {
+              "x": 342,
+              "y": 0.989
+            },
+            {
+              "x": 465,
+              "y": 0.979
+            },
+            {
+              "x": 633,
+              "y": 0.95
+            },
+            {
+              "x": 861,
+              "y": 0.839
+            },
+            {
+              "x": 1000,
+              "y": 0.831
+            }
+          ],
+          "4_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 100,
+              "y": 0.996
+            },
+            {
+              "x": 136,
+              "y": 0.995
+            },
+            {
+              "x": 185,
+              "y": 0.994
+            },
+            {
+              "x": 252,
+              "y": 0.991
+            },
+            {
+              "x": 342,
+              "y": 0.985
+            },
+            {
+              "x": 465,
+              "y": 0.972
+            },
+            {
+              "x": 633,
+              "y": 0.934
+            },
+            {
+              "x": 861,
+              "y": 0.792
+            },
+            {
+              "x": 1000,
+              "y": 0.781
+            }
+          ],
+          "5_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 100,
+              "y": 0.995
+            },
+            {
+              "x": 136,
+              "y": 0.994
+            },
+            {
+              "x": 185,
+              "y": 0.992
+            },
+            {
+              "x": 252,
+              "y": 0.989
+            },
+            {
+              "x": 342,
+              "y": 0.982
+            },
+            {
+              "x": 465,
+              "y": 0.965
+            },
+            {
+              "x": 633,
+              "y": 0.918
+            },
+            {
+              "x": 861,
+              "y": 0.747
+            },
+            {
+              "x": 1000,
+              "y": 0.734
+            }
+          ],
+          "description": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 100,
+              "y": 0.1
+            },
+            {
+              "x": 136,
+              "y": 0.1
+            },
+            {
+              "x": 185,
+              "y": 0.2
+            },
+            {
+              "x": 252,
+              "y": 0.2
+            },
+            {
+              "x": 342,
+              "y": 0.4
+            },
+            {
+              "x": 465,
+              "y": 0.7
+            },
+            {
+              "x": 633,
+              "y": 1.7
+            },
+            {
+              "x": 861,
+              "y": 5.7
+            },
+            {
+              "x": 1000,
+              "y": 6
+            }
+          ]
+        },
+        "interpretation": "X = current HP value (not percentage). Most benefit at full health. At very high HP (1000), 1 piece = 0.94x (6% DR), 5 pieces = 0.734x (26.6% DR). Sharp dropoff around 633-861 HP range. Description shows up to +6 displayed per piece.",
+        "key_values": {
+          "1pc_at_full_hp": {
+            "multiplier": 0.94,
+            "dr_bonus_pct": 6
+          },
+          "5pc_at_full_hp": {
+            "multiplier": 0.734,
+            "dr_bonus_pct": 26.6
+          },
+          "desc_max_per_piece": 6
+        },
+        "wiki_comparison": "Wiki says 'up to +35 DR/ER at high health'. Game data shows multiplicative per-piece stacking. Max benefit lower than Bolstering's max. 5pc Vanguard = 26.6% DR vs 5pc Bolstering = 41% DR.",
+        "build_rating": "A-TIER for full health builds, but mathematically weaker than Bolstering at extremes"
+      },
+      "Nocturnal": {
+        "effect": "DR/ER increases at night, decreases during day",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_ResistancesNight",
+          "mod_Legendary_PowerArmor1_ResistancesNight"
+        ],
+        "curve_files": null,
+        "key_values": {
+          "night_bonus": "increased",
+          "day_penalty": "decreased"
+        },
+        "wiki_comparison": "No dedicated curve file found; effect likely shares weapon_damagenight logic."
+      },
+      "Mutant's": {
+        "effect": "DR/ER increases per mutation",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_ResistancesMutation",
+          "mod_Legendary_PowerArmor1_ResistancesMutation"
+        ],
+        "curve_files": {
+          "1_piece": "armor_mutant",
+          "2_pieces": "armor_mutant2",
+          "3_pieces": "armor_mutant3",
+          "4_pieces": "armor_mutant4",
+          "5_pieces": "armor_mutant5",
+          "description": "armor_mutant_desc"
+        },
+        "curve_data": {
+          "1_piece": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.998
+            },
+            {
+              "x": 2,
+              "y": 0.995
+            },
+            {
+              "x": 3,
+              "y": 0.993
+            },
+            {
+              "x": 4,
+              "y": 0.99
+            },
+            {
+              "x": 5,
+              "y": 0.988
+            },
+            {
+              "x": 6,
+              "y": 0.984
+            },
+            {
+              "x": 7,
+              "y": 0.98
+            },
+            {
+              "x": 8,
+              "y": 0.975
+            },
+            {
+              "x": 9,
+              "y": 0.968
+            },
+            {
+              "x": 10,
+              "y": 0.96
+            },
+            {
+              "x": 11,
+              "y": 0.955
+            },
+            {
+              "x": 12,
+              "y": 0.953
+            },
+            {
+              "x": 13,
+              "y": 0.952
+            },
+            {
+              "x": 14,
+              "y": 0.951
+            },
+            {
+              "x": 15,
+              "y": 0.951
+            },
+            {
+              "x": 16,
+              "y": 0.95
+            }
+          ],
+          "2_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.995
+            },
+            {
+              "x": 2,
+              "y": 0.99
+            },
+            {
+              "x": 3,
+              "y": 0.985
+            },
+            {
+              "x": 4,
+              "y": 0.98
+            },
+            {
+              "x": 5,
+              "y": 0.975
+            },
+            {
+              "x": 6,
+              "y": 0.968
+            },
+            {
+              "x": 7,
+              "y": 0.96
+            },
+            {
+              "x": 8,
+              "y": 0.951
+            },
+            {
+              "x": 9,
+              "y": 0.936
+            },
+            {
+              "x": 10,
+              "y": 0.922
+            },
+            {
+              "x": 11,
+              "y": 0.912
+            },
+            {
+              "x": 12,
+              "y": 0.908
+            },
+            {
+              "x": 13,
+              "y": 0.906
+            },
+            {
+              "x": 14,
+              "y": 0.904
+            },
+            {
+              "x": 15,
+              "y": 0.903
+            },
+            {
+              "x": 16,
+              "y": 0.903
+            }
+          ],
+          "3_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.993
+            },
+            {
+              "x": 2,
+              "y": 0.985
+            },
+            {
+              "x": 3,
+              "y": 0.978
+            },
+            {
+              "x": 4,
+              "y": 0.97
+            },
+            {
+              "x": 5,
+              "y": 0.963
+            },
+            {
+              "x": 6,
+              "y": 0.953
+            },
+            {
+              "x": 7,
+              "y": 0.941
+            },
+            {
+              "x": 8,
+              "y": 0.927
+            },
+            {
+              "x": 9,
+              "y": 0.906
+            },
+            {
+              "x": 10,
+              "y": 0.885
+            },
+            {
+              "x": 11,
+              "y": 0.871
+            },
+            {
+              "x": 12,
+              "y": 0.866
+            },
+            {
+              "x": 13,
+              "y": 0.862
+            },
+            {
+              "x": 14,
+              "y": 0.86
+            },
+            {
+              "x": 15,
+              "y": 0.859
+            },
+            {
+              "x": 16,
+              "y": 0.857
+            }
+          ],
+          "4_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.99
+            },
+            {
+              "x": 2,
+              "y": 0.98
+            },
+            {
+              "x": 3,
+              "y": 0.97
+            },
+            {
+              "x": 4,
+              "y": 0.961
+            },
+            {
+              "x": 5,
+              "y": 0.951
+            },
+            {
+              "x": 6,
+              "y": 0.938
+            },
+            {
+              "x": 7,
+              "y": 0.922
+            },
+            {
+              "x": 8,
+              "y": 0.904
+            },
+            {
+              "x": 9,
+              "y": 0.876
+            },
+            {
+              "x": 10,
+              "y": 0.849
+            },
+            {
+              "x": 11,
+              "y": 0.832
+            },
+            {
+              "x": 12,
+              "y": 0.825
+            },
+            {
+              "x": 13,
+              "y": 0.821
+            },
+            {
+              "x": 14,
+              "y": 0.818
+            },
+            {
+              "x": 15,
+              "y": 0.816
+            },
+            {
+              "x": 16,
+              "y": 0.815
+            }
+          ],
+          "5_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.988
+            },
+            {
+              "x": 2,
+              "y": 0.975
+            },
+            {
+              "x": 3,
+              "y": 0.963
+            },
+            {
+              "x": 4,
+              "y": 0.951
+            },
+            {
+              "x": 5,
+              "y": 0.939
+            },
+            {
+              "x": 6,
+              "y": 0.923
+            },
+            {
+              "x": 7,
+              "y": 0.904
+            },
+            {
+              "x": 8,
+              "y": 0.881
+            },
+            {
+              "x": 9,
+              "y": 0.848
+            },
+            {
+              "x": 10,
+              "y": 0.815
+            },
+            {
+              "x": 11,
+              "y": 0.794
+            },
+            {
+              "x": 12,
+              "y": 0.786
+            },
+            {
+              "x": 13,
+              "y": 0.781
+            },
+            {
+              "x": 14,
+              "y": 0.778
+            },
+            {
+              "x": 15,
+              "y": 0.776
+            },
+            {
+              "x": 16,
+              "y": 0.774
+            }
+          ],
+          "description": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0.25
+            },
+            {
+              "x": 2,
+              "y": 0.5
+            },
+            {
+              "x": 3,
+              "y": 0.75
+            },
+            {
+              "x": 4,
+              "y": 1
+            },
+            {
+              "x": 5,
+              "y": 1.25
+            },
+            {
+              "x": 6,
+              "y": 1.6
+            },
+            {
+              "x": 7,
+              "y": 2
+            },
+            {
+              "x": 8,
+              "y": 2.5
+            },
+            {
+              "x": 9,
+              "y": 3.25
+            },
+            {
+              "x": 10,
+              "y": 4
+            },
+            {
+              "x": 11,
+              "y": 4.5
+            },
+            {
+              "x": 12,
+              "y": 4.7
+            },
+            {
+              "x": 13,
+              "y": 4.83
+            },
+            {
+              "x": 14,
+              "y": 4.9
+            },
+            {
+              "x": 15,
+              "y": 4.95
+            },
+            {
+              "x": 16,
+              "y": 5
+            }
+          ]
+        },
+        "interpretation": "X = number of mutations. Diminishing returns after 10 mutations. 1 piece at 10 mutations = 0.96x (4% DR). 5 pieces at 10 mutations = 0.815x (18.5% DR). Caps around 12+ mutations. Description shows up to 5% displayed per piece at 16 mutations.",
+        "key_values": {
+          "1pc_at_5_mutations": {
+            "multiplier": 0.988,
+            "dr_bonus_pct": 1.2
+          },
+          "1pc_at_10_mutations": {
+            "multiplier": 0.96,
+            "dr_bonus_pct": 4.0
+          },
+          "5pc_at_10_mutations": {
+            "multiplier": 0.815,
+            "dr_bonus_pct": 18.5
+          },
+          "5pc_at_16_mutations": {
+            "multiplier": 0.774,
+            "dr_bonus_pct": 22.6
+          },
+          "desc_max_per_piece_at_16": 5
+        },
+        "wiki_comparison": "Wiki says '+10 DR/ER per mutation up to 5'. Game data shows much more granular scaling with diminishing returns past 10 mutations."
+      },
+      "Overeater's": {
+        "effect": "Damage reduction increases with higher food/water",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Overeater",
+          "mod_Legendary_PowerArmor1_Overeater"
+        ],
+        "curve_files": {
+          "main": "armor_overeater",
+          "effect": "armor_overeater_effect"
+        },
+        "curve_data": {
+          "main": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0.4,
+              "y": 0
+            },
+            {
+              "x": 0.8,
+              "y": 0
+            },
+            {
+              "x": 1.2,
+              "y": 0
+            },
+            {
+              "x": 1.6,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 1
+            },
+            {
+              "x": 2.4,
+              "y": 1
+            },
+            {
+              "x": 2.8,
+              "y": 1
+            },
+            {
+              "x": 3.2,
+              "y": 1
+            },
+            {
+              "x": 3.6,
+              "y": 2
+            },
+            {
+              "x": 4,
+              "y": 3
+            },
+            {
+              "x": 4.4,
+              "y": 4
+            },
+            {
+              "x": 4.8,
+              "y": 5
+            },
+            {
+              "x": 5.2,
+              "y": 6
+            },
+            {
+              "x": 5.6,
+              "y": 8
+            },
+            {
+              "x": 6,
+              "y": 11
+            },
+            {
+              "x": 6.4,
+              "y": 14
+            },
+            {
+              "x": 6.8,
+              "y": 19
+            },
+            {
+              "x": 7.2,
+              "y": 25
+            },
+            {
+              "x": 7.6,
+              "y": 32
+            },
+            {
+              "x": 8,
+              "y": 40
+            }
+          ],
+          "effect": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 0
+            },
+            {
+              "x": 4,
+              "y": 0
+            },
+            {
+              "x": 6,
+              "y": 0
+            },
+            {
+              "x": 8,
+              "y": 1
+            },
+            {
+              "x": 10,
+              "y": 1
+            },
+            {
+              "x": 12,
+              "y": 1
+            },
+            {
+              "x": 14,
+              "y": 1
+            },
+            {
+              "x": 16,
+              "y": 2
+            },
+            {
+              "x": 18,
+              "y": 2
+            },
+            {
+              "x": 20,
+              "y": 3
+            },
+            {
+              "x": 22,
+              "y": 4
+            },
+            {
+              "x": 24,
+              "y": 5
+            },
+            {
+              "x": 26,
+              "y": 6
+            },
+            {
+              "x": 28,
+              "y": 8
+            },
+            {
+              "x": 30,
+              "y": 11
+            },
+            {
+              "x": 32,
+              "y": 14
+            },
+            {
+              "x": 34,
+              "y": 19
+            },
+            {
+              "x": 36,
+              "y": 25
+            },
+            {
+              "x": 38,
+              "y": 32
+            },
+            {
+              "x": 40,
+              "y": 40
+            }
+          ]
+        },
+        "interpretation": "Main curve: X = food/water satisfaction (0-8 scale, where 8 = fully stuffed). At max (8.0): 40% damage reduction per piece. Zero benefit below 1.6 satisfaction. Ramps sharply above 4.0. Effect curve similar but X=0-40 scale.",
+        "key_values": {
+          "at_max_food_water": {
+            "reduction_pct": 40
+          },
+          "at_zero": 0,
+          "threshold": "No benefit below ~20% satisfaction",
+          "at_half": {
+            "reduction_pct": 3
+          }
+        },
+        "wiki_comparison": "Wiki says '6% damage reduction when well-fed'. Game data shows up to 40 at max but this may be divided by armor pieces or have a cap. SIGNIFICANT DISCREPANCY - likely 40 is the raw curve value that gets processed further.",
+        "build_rating": "S-TIER for full health tank builds when well-fed"
+      },
+      "Heavyweight": {
+        "effect": "Damage Resistance scales with carried weight",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Heavyweight"
+        ],
+        "curve_files": {
+          "1_piece": "armor_heavyweight_01",
+          "2_pieces": "armor_heavyweight_02",
+          "3_pieces": "armor_heavyweight_03",
+          "4_pieces": "armor_heavyweight_04",
+          "5_pieces": "armor_heavyweight_05",
+          "description": "armor_heavyweight_desc"
+        },
+        "curve_data": {
+          "1_piece": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0.1,
+              "y": 0.994
+            },
+            {
+              "x": 0.28,
+              "y": 0.991
+            },
+            {
+              "x": 0.46,
+              "y": 0.986
+            },
+            {
+              "x": 0.64,
+              "y": 0.98
+            },
+            {
+              "x": 0.82,
+              "y": 0.971
+            },
+            {
+              "x": 1,
+              "y": 0.958
+            },
+            {
+              "x": 1.18,
+              "y": 0.94
+            },
+            {
+              "x": 1.36,
+              "y": 0.912
+            },
+            {
+              "x": 1.5,
+              "y": 0.9
+            }
+          ],
+          "2_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0.1,
+              "y": 0.987
+            },
+            {
+              "x": 0.28,
+              "y": 0.981
+            },
+            {
+              "x": 0.46,
+              "y": 0.973
+            },
+            {
+              "x": 0.64,
+              "y": 0.961
+            },
+            {
+              "x": 0.82,
+              "y": 0.943
+            },
+            {
+              "x": 1,
+              "y": 0.918
+            },
+            {
+              "x": 1.18,
+              "y": 0.883
+            },
+            {
+              "x": 1.36,
+              "y": 0.832
+            },
+            {
+              "x": 1.5,
+              "y": 0.81
+            }
+          ],
+          "3_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0.1,
+              "y": 0.981
+            },
+            {
+              "x": 0.28,
+              "y": 0.972
+            },
+            {
+              "x": 0.46,
+              "y": 0.96
+            },
+            {
+              "x": 0.64,
+              "y": 0.942
+            },
+            {
+              "x": 0.82,
+              "y": 0.916
+            },
+            {
+              "x": 1,
+              "y": 0.88
+            },
+            {
+              "x": 1.18,
+              "y": 0.829
+            },
+            {
+              "x": 1.36,
+              "y": 0.76
+            },
+            {
+              "x": 1.5,
+              "y": 0.729
+            }
+          ],
+          "4_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0.1,
+              "y": 0.974
+            },
+            {
+              "x": 0.28,
+              "y": 0.963
+            },
+            {
+              "x": 0.46,
+              "y": 0.946
+            },
+            {
+              "x": 0.64,
+              "y": 0.923
+            },
+            {
+              "x": 0.82,
+              "y": 0.89
+            },
+            {
+              "x": 1,
+              "y": 0.843
+            },
+            {
+              "x": 1.18,
+              "y": 0.779
+            },
+            {
+              "x": 1.36,
+              "y": 0.693
+            },
+            {
+              "x": 1.5,
+              "y": 0.656
+            }
+          ],
+          "5_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 0.1,
+              "y": 0.968
+            },
+            {
+              "x": 0.28,
+              "y": 0.954
+            },
+            {
+              "x": 0.46,
+              "y": 0.934
+            },
+            {
+              "x": 0.64,
+              "y": 0.905
+            },
+            {
+              "x": 0.82,
+              "y": 0.864
+            },
+            {
+              "x": 1,
+              "y": 0.808
+            },
+            {
+              "x": 1.18,
+              "y": 0.732
+            },
+            {
+              "x": 1.36,
+              "y": 0.632
+            },
+            {
+              "x": 1.5,
+              "y": 0.59
+            }
+          ],
+          "description": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0.1,
+              "y": 0.65
+            },
+            {
+              "x": 0.28,
+              "y": 0.94
+            },
+            {
+              "x": 0.46,
+              "y": 1.37
+            },
+            {
+              "x": 0.64,
+              "y": 1.98
+            },
+            {
+              "x": 0.82,
+              "y": 2.87
+            },
+            {
+              "x": 1,
+              "y": 4.17
+            },
+            {
+              "x": 1.18,
+              "y": 6.04
+            },
+            {
+              "x": 1.36,
+              "y": 8.76
+            },
+            {
+              "x": 1.5,
+              "y": 10
+            }
+          ]
+        },
+        "interpretation": "X = carry weight ratio (current/max, 0-1.5 where >1.0 = overencumbered). More DR when carrying more. 1 piece at max (1.5): 0.9x (10% DR). 5 pieces at max: 0.59x (41% DR). Description shows up to +10 displayed.",
+        "key_values": {
+          "1pc_at_max_carry": {
+            "multiplier": 0.9,
+            "dr_bonus_pct": 10
+          },
+          "5pc_at_max_carry": {
+            "multiplier": 0.59,
+            "dr_bonus_pct": 41
+          },
+          "desc_max_per_piece": 10
+        }
+      },
+      "Weightless": {
+        "effect": "Armor weighs less, improves sneak",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Weightless (zzz'd on PA)"
+        ],
+        "curve_files": {
+          "weight_mult": "armor_weightless",
+          "description": "armor_weightless_desc"
+        },
+        "curve_data": {
+          "weight_mult": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.9
+            },
+            {
+              "x": 2,
+              "y": 0.81
+            },
+            {
+              "x": 3,
+              "y": 0.73
+            },
+            {
+              "x": 4,
+              "y": 0.66
+            },
+            {
+              "x": 5,
+              "y": 0.59
+            }
+          ],
+          "description": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 10
+            }
+          ]
+        },
+        "interpretation": "X = piece count. Weight multiplier: 1pc = 0.9x (10% lighter), 5pc = 0.59x (41% lighter). Description: up to 10% displayed.",
+        "key_values": {
+          "1_piece_weight_reduction": 10,
+          "5_pieces_weight_reduction": 41,
+          "desc_max": 10
+        }
+      },
+      "Adrenal": {
+        "effect": "DR/ER based on health",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Adrenal",
+          "mod_Legendary_PowerArmor1_Adrenal"
+        ],
+        "curve_files": null,
+        "key_values": {
+          "effect": "DR/ER scaling"
+        }
+      },
+      "Lucid": {
+        "effect": "Damage Resistance scales with rads taken",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_Lucid",
+          "mod_Legendary_PowerArmor1_Lucid"
+        ],
+        "curve_files": {
+          "1_piece": "armor_lucid_01",
+          "2_pieces": "armor_lucid_02",
+          "3_pieces": "armor_lucid_03",
+          "4_pieces": "armor_lucid_04",
+          "5_pieces": "armor_lucid_05",
+          "description": "armor_lucid_desc"
+        },
+        "curve_data": {
+          "1_piece": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.996
+            },
+            {
+              "x": 2,
+              "y": 0.994
+            },
+            {
+              "x": 3,
+              "y": 0.991
+            },
+            {
+              "x": 4,
+              "y": 0.987
+            },
+            {
+              "x": 5,
+              "y": 0.981
+            },
+            {
+              "x": 6,
+              "y": 0.972
+            },
+            {
+              "x": 7,
+              "y": 0.959
+            },
+            {
+              "x": 8,
+              "y": 0.94
+            }
+          ],
+          "2_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.992
+            },
+            {
+              "x": 2,
+              "y": 0.988
+            },
+            {
+              "x": 3,
+              "y": 0.983
+            },
+            {
+              "x": 4,
+              "y": 0.975
+            },
+            {
+              "x": 5,
+              "y": 0.963
+            },
+            {
+              "x": 6,
+              "y": 0.945
+            },
+            {
+              "x": 7,
+              "y": 0.92
+            },
+            {
+              "x": 8,
+              "y": 0.884
+            }
+          ],
+          "3_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.988
+            },
+            {
+              "x": 2,
+              "y": 0.983
+            },
+            {
+              "x": 3,
+              "y": 0.975
+            },
+            {
+              "x": 4,
+              "y": 0.963
+            },
+            {
+              "x": 5,
+              "y": 0.945
+            },
+            {
+              "x": 6,
+              "y": 0.919
+            },
+            {
+              "x": 7,
+              "y": 0.882
+            },
+            {
+              "x": 8,
+              "y": 0.831
+            }
+          ],
+          "4_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.984
+            },
+            {
+              "x": 2,
+              "y": 0.977
+            },
+            {
+              "x": 3,
+              "y": 0.966
+            },
+            {
+              "x": 4,
+              "y": 0.95
+            },
+            {
+              "x": 5,
+              "y": 0.927
+            },
+            {
+              "x": 6,
+              "y": 0.894
+            },
+            {
+              "x": 7,
+              "y": 0.846
+            },
+            {
+              "x": 8,
+              "y": 0.781
+            }
+          ],
+          "5_pieces": [
+            {
+              "x": 0,
+              "y": 1
+            },
+            {
+              "x": 1,
+              "y": 0.981
+            },
+            {
+              "x": 2,
+              "y": 0.971
+            },
+            {
+              "x": 3,
+              "y": 0.958
+            },
+            {
+              "x": 4,
+              "y": 0.938
+            },
+            {
+              "x": 5,
+              "y": 0.91
+            },
+            {
+              "x": 6,
+              "y": 0.869
+            },
+            {
+              "x": 7,
+              "y": 0.811
+            },
+            {
+              "x": 8,
+              "y": 0.734
+            }
+          ],
+          "description": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0.39
+            },
+            {
+              "x": 2,
+              "y": 0.58
+            },
+            {
+              "x": 3,
+              "y": 0.85
+            },
+            {
+              "x": 4,
+              "y": 1.26
+            },
+            {
+              "x": 5,
+              "y": 1.87
+            },
+            {
+              "x": 6,
+              "y": 2.77
+            },
+            {
+              "x": 7,
+              "y": 4.1
+            },
+            {
+              "x": 8,
+              "y": 6
+            }
+          ]
+        },
+        "interpretation": "X = rads level (0-8 scale). More DR with more rads. 1pc at 8 rads: 0.94x (6% DR). 5pc at 8 rads: 0.734x (26.6% DR). Description shows up to 6% displayed.",
+        "key_values": {
+          "1pc_at_max_rads": {
+            "multiplier": 0.94,
+            "dr_bonus_pct": 6
+          },
+          "5pc_at_max_rads": {
+            "multiplier": 0.734,
+            "dr_bonus_pct": 26.6
+          },
+          "desc_max_per_piece": 6
+        },
+        "notes": "Newer Tempest-era effect."
+      },
+      "Bolstering (Inverse Health DR)": {
+        "effect": "DR increases as health decreases (flat DR version)",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_ResistancesInverseHealth",
+          "mod_Legendary_PowerArmor1_ResistancesInverseHealth"
+        ],
+        "curve_file": "armor_resistancesinversehealth",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 35
+          },
+          {
+            "x": 0.1,
+            "y": 35
+          },
+          {
+            "x": 0.2,
+            "y": 32
+          },
+          {
+            "x": 0.3,
+            "y": 28
+          },
+          {
+            "x": 0.4,
+            "y": 24
+          },
+          {
+            "x": 0.5,
+            "y": 20
+          },
+          {
+            "x": 0.6,
+            "y": 16
+          },
+          {
+            "x": 0.61,
+            "y": 0
+          }
+        ],
+        "key_values": {
+          "at_0pct_hp": 35,
+          "at_10pct_hp": 35,
+          "at_20pct_hp": 32,
+          "at_30pct_hp": 28,
+          "at_40pct_hp": 24,
+          "at_50pct_hp": 20,
+          "at_60pct_hp": 16,
+          "above_61pct_hp": 0
+        },
+        "interpretation": "X = HP percentage. Flat DR value, not multiplier. +35 DR/ER at 0-10% HP, linearly drops, +0 above 61% HP. This is the RAW Bolstering backing curve for resistances.",
+        "wiki_comparison": "Wiki says '+35 DR/ER at low health'. Game data CONFIRMS +35 per piece max. Cuts off sharply above 60% HP."
+      },
+      "Resistances Per Kill": {
+        "effect": "DR increases per kill (stacking)",
+        "star": 1,
+        "type": "armor",
+        "curve_file": "armor_resistancesperkill",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 10
+          },
+          {
+            "x": 10,
+            "y": 100
+          }
+        ],
+        "key_values": {
+          "per_kill": 10,
+          "max_stacks": 10,
+          "max_dr": 100
+        },
+        "interpretation": "X = kill count (1-10). Y = DR bonus. +10 DR per kill, max +100 DR at 10 kills. Linear scaling."
+      },
+      "Resistances via Caps (Aristocrat's backing)": {
+        "effect": "DR/ER scales with caps held",
+        "star": 1,
+        "type": "armor",
+        "curve_file": "armor_resistancesproportionalcaps",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1000,
+            "y": 0.67
+          },
+          {
+            "x": 2000,
+            "y": 1.34
+          },
+          {
+            "x": 3000,
+            "y": 2.01
+          },
+          {
+            "x": 4000,
+            "y": 2.68
+          },
+          {
+            "x": 5000,
+            "y": 3.35
+          },
+          {
+            "x": 6000,
+            "y": 4.02
+          },
+          {
+            "x": 7000,
+            "y": 4.69
+          },
+          {
+            "x": 8000,
+            "y": 5.36
+          },
+          {
+            "x": 9000,
+            "y": 6.03
+          },
+          {
+            "x": 10000,
+            "y": 6.7
+          },
+          {
+            "x": 11000,
+            "y": 7.37
+          },
+          {
+            "x": 12000,
+            "y": 8.04
+          },
+          {
+            "x": 13000,
+            "y": 8.71
+          },
+          {
+            "x": 14000,
+            "y": 9.38
+          },
+          {
+            "x": 15000,
+            "y": 10.05
+          },
+          {
+            "x": 16000,
+            "y": 10.72
+          },
+          {
+            "x": 17000,
+            "y": 11.39
+          },
+          {
+            "x": 18000,
+            "y": 12.06
+          },
+          {
+            "x": 19000,
+            "y": 12.73
+          },
+          {
+            "x": 20000,
+            "y": 13.4
+          },
+          {
+            "x": 21000,
+            "y": 14.07
+          },
+          {
+            "x": 22000,
+            "y": 14.74
+          },
+          {
+            "x": 23000,
+            "y": 15.41
+          },
+          {
+            "x": 24000,
+            "y": 16.08
+          },
+          {
+            "x": 25000,
+            "y": 16.75
+          },
+          {
+            "x": 26000,
+            "y": 17.42
+          },
+          {
+            "x": 27000,
+            "y": 18.09
+          },
+          {
+            "x": 28000,
+            "y": 18.76
+          },
+          {
+            "x": 29000,
+            "y": 19.43
+          },
+          {
+            "x": 30000,
+            "y": 20.1
+          }
+        ],
+        "key_values": {
+          "at_1000_caps": 0.67,
+          "at_10000_caps": 6.7,
+          "at_20000_caps": 13.4,
+          "at_29000_caps": 19.43,
+          "at_30000_caps": 20.1
+        },
+        "interpretation": "X = caps. Y = flat DR/ER per piece. Linear: ~0.67 DR per 1000 caps. Max +20.1 DR at 30,000 caps."
+      },
+      "Vanguard's (Proportional Health)": {
+        "effect": "DR scales proportionally with current health",
+        "star": 1,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor1_ResistancesProportionalHealth",
+          "mod_Legendary_PowerArmor1_ResistancesProportionalHealth"
+        ],
+        "curve_file": "armor_resistancesproportionalhealth",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.5,
+            "y": 7
+          },
+          {
+            "x": 0.6,
+            "y": 14
+          },
+          {
+            "x": 0.7,
+            "y": 21
+          },
+          {
+            "x": 0.8,
+            "y": 28
+          },
+          {
+            "x": 0.9,
+            "y": 35
+          }
+        ],
+        "key_values": {
+          "at_50pct_hp": 7,
+          "at_60pct_hp": 14,
+          "at_70pct_hp": 21,
+          "at_80pct_hp": 28,
+          "at_90pct_hp": 35
+        },
+        "interpretation": "X = HP percentage. Y = flat DR. Ramps from 0 at <50% to +35 DR at 90% HP. Linear within range."
+      },
+      "Damage Resist via Caps": {
+        "effect": "Direct damage resistance scaling with caps (separate from Aristocrat's)",
+        "star": 1,
+        "type": "armor",
+        "curve_file": "armor_damageresistviacaps",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1000,
+            "y": 6
+          },
+          {
+            "x": 2000,
+            "y": 10
+          },
+          {
+            "x": 15000,
+            "y": 54
+          },
+          {
+            "x": 16000,
+            "y": 56
+          },
+          {
+            "x": 17000,
+            "y": 60
+          },
+          {
+            "x": 29000,
+            "y": 100
+          }
+        ],
+        "key_values": {
+          "at_0_caps": 0,
+          "at_1000_caps": 6,
+          "at_2000_caps": 10,
+          "at_15000_caps": 54,
+          "at_17000_caps": 60,
+          "at_29000_caps": 100
+        },
+        "interpretation": "X = caps held. Y = flat DR. Max +100 DR at 29,000 caps. Non-linear: fast early, then accelerates again."
+      },
+      "Resistances via Carry Weight": {
+        "effect": "DR bonus when overencumbered",
+        "star": 1,
+        "type": "armor",
+        "curve_file": "armor_resistancecarryweight",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 199,
+            "y": 0
+          },
+          {
+            "x": 200,
+            "y": 1
+          },
+          {
+            "x": 350,
+            "y": 20
+          }
+        ],
+        "key_values": {
+          "below_200": 0,
+          "at_200": 1,
+          "at_350": 20
+        },
+        "interpretation": "X = current carry weight. No benefit below 200. +1 DR at 200, +20 DR at 350. Only activates when carrying heavy loads."
+      },
+      "Overeater (backing)": {
+        "effect": "See Overeater's above",
+        "star": 1,
+        "type": "armor",
+        "notes": "See armor_overeater curves above"
+      }
+    },
+    "2star": {
+      "Stat Bonuses (+1 SPECIAL)": {
+        "effect": "+1 to a SPECIAL stat",
+        "star": 2,
+        "type": "armor",
+        "variants": [
+          "StatStrength",
+          "StatPerception",
+          "StatEndurance",
+          "StatCharisma",
+          "StatIntelligence",
+          "StatAgility",
+          "StatLuck"
+        ],
+        "key_values": {
+          "bonus": "+1 to specified SPECIAL"
+        },
+        "wiki_comparison": "Wiki accurate - flat +1."
+      },
+      "Powered (AP Regen)": {
+        "effect": "Increases Action Point refresh speed",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_APRegen",
+          "mod_Legendary_PowerArmor2_APRegen"
+        ],
+        "key_values": {
+          "effect": "AP_regen_increase"
+        },
+        "wiki_comparison": "No curve file; AP regen handled separately."
+      },
+      "Poisoner's": {
+        "effect": "+25 Poison Resistance",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_PoisonResistance",
+          "mod_Legendary_PowerArmor2_PoisonResistance"
+        ],
+        "key_values": {
+          "poison_resist": 25
+        }
+      },
+      "Rad Powered": {
+        "effect": "+25 Radiation Resistance",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_RadResistance",
+          "mod_Legendary_PowerArmor2_RadResistance"
+        ],
+        "key_values": {
+          "rad_resist": 25
+        }
+      },
+      "Cryo Resistance": {
+        "effect": "Cryo Resistance",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_CryoResistance",
+          "mod_Legendary_PowerArmor2_CryoResistance"
+        ],
+        "key_values": {
+          "cryo_resist": "flat_bonus"
+        }
+      },
+      "Fireproof": {
+        "effect": "Fire Resistance",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_Fireproof",
+          "mod_Legendary_PowerArmor2_Fireproof"
+        ],
+        "key_values": {
+          "fire_resist": "flat_bonus"
+        }
+      },
+      "Disease Resist": {
+        "effect": "Disease Resistance",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_DiseaseResistance",
+          "mod_Legendary_PowerArmor2_DiseaseResistance"
+        ],
+        "key_values": {
+          "disease_resist": "flat_bonus"
+        }
+      },
+      "Glutton's": {
+        "effect": "Food/drink spoilage reduction",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_Glutton",
+          "mod_Legendary_PowerArmor2_Glutton"
+        ]
+      },
+      "Explosion Resist": {
+        "effect": "Reduces explosion damage",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_ReduceExplosionDamage",
+          "mod_Legendary_PowerArmor2_ReduceExplosionDamage"
+        ],
+        "key_values": {
+          "explosion_resist": "flat_reduction"
+        }
+      },
+      "Elementalist": {
+        "effect": "Elemental damage effects",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_Elementalist",
+          "mod_Legendary_PowerArmor2_Elementalist"
+        ]
+      },
+      "Fierce": {
+        "effect": "Melee damage bonus",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_Fierce"
+        ]
+      },
+      "Rushing": {
+        "effect": "Sprint-related bonus",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_Rushing"
+        ]
+      },
+      "Painkiller": {
+        "effect": "Chem duration/effect bonus",
+        "star": 2,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor2_PainKiller",
+          "mod_Legendary_PowerArmor2_PainKiller"
+        ]
+      }
+    },
+    "3star": {
+      "Weapon Weight Reduction": {
+        "effect": "Weapon weights reduced by 20%",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_WeightWeapons",
+          "mod_Legendary_PowerArmor3_WeightWeapons"
+        ],
+        "curve_file": "armor_weightweapons",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 20
+          },
+          {
+            "x": 100,
+            "y": 20
+          }
+        ],
+        "key_values": {
+          "reduction_pct": 20
+        },
+        "interpretation": "Flat 20% weapon weight reduction per piece. Does NOT stack multiplicatively - additive.",
+        "wiki_comparison": "Wiki says '20% weapon weight reduction'. Game data CONFIRMS 20%."
+      },
+      "Ammo Weight Reduction": {
+        "effect": "Ammo weights reduced by 20%",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_WeightAmmo",
+          "mod_Legendary_PowerArmor3_WeightAmmo"
+        ],
+        "curve_file": "armor_weightammo",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 20
+          },
+          {
+            "x": 100,
+            "y": 20
+          }
+        ],
+        "key_values": {
+          "reduction_pct": 20
+        },
+        "wiki_comparison": "Wiki says '20%'. Game data CONFIRMS 20%."
+      },
+      "Food/Drink/Chem Weight Reduction": {
+        "effect": "Food, drink, and chem weights reduced by 20%",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_WeightFoodDrinkChems",
+          "mod_Legendary_PowerArmor3_WeightFoodDrinkChems"
+        ],
+        "curve_file": "armor_weightfooddrink",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 20
+          },
+          {
+            "x": 100,
+            "y": 20
+          }
+        ],
+        "key_values": {
+          "reduction_pct": 20
+        },
+        "wiki_comparison": "Wiki says '20%'. Game data CONFIRMS 20%."
+      },
+      "Junk Weight Reduction": {
+        "effect": "Junk item weights reduced by 20%",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_WeightJunk",
+          "mod_Legendary_PowerArmor3_WeightJunk"
+        ],
+        "curve_file": "armor_weightjunk",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 20
+          },
+          {
+            "x": 100,
+            "y": 20
+          }
+        ],
+        "key_values": {
+          "reduction_pct": 20
+        }
+      },
+      "Cavalier's": {
+        "effect": "Reduces damage while sprinting",
+        "star": 3,
+        "type": "armor",
+        "curve_file": "armor_cavalier",
+        "curve_data": [
+          {
+            "x": 0.0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.9
+          },
+          {
+            "x": 2,
+            "y": 0.81
+          },
+          {
+            "x": 3,
+            "y": 0.729
+          },
+          {
+            "x": 4,
+            "y": 0.6561
+          },
+          {
+            "x": 5,
+            "y": 0.59049
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.9,
+            "reduction_pct": 10
+          },
+          "2_pieces": {
+            "multiplier": 0.81,
+            "reduction_pct": 19
+          },
+          "3_pieces": {
+            "multiplier": 0.729,
+            "reduction_pct": 27.1
+          },
+          "4_pieces": {
+            "multiplier": 0.6561,
+            "reduction_pct": 34.39
+          },
+          "5_pieces": {
+            "multiplier": 0.59049,
+            "reduction_pct": 40.95
+          }
+        },
+        "interpretation": "X = piece count (0-5). Multiplicative stacking. Each piece = 0.9x damage taken while sprinting. 5 pieces = ~41% reduction.",
+        "wiki_comparison": "Wiki says '75% chance to reduce damage by 15% while sprinting'. Game data shows DETERMINISTIC 10% per piece multiplicative, NOT probabilistic. MAJOR DISCREPANCY."
+      },
+      "Sentinel's": {
+        "effect": "Reduces damage while standing still",
+        "star": 3,
+        "type": "armor",
+        "curve_file": "armor_sentinel",
+        "curve_data": [
+          {
+            "x": 0.0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.95
+          },
+          {
+            "x": 2,
+            "y": 0.9
+          },
+          {
+            "x": 3,
+            "y": 0.86
+          },
+          {
+            "x": 4,
+            "y": 0.81
+          },
+          {
+            "x": 5,
+            "y": 0.77
+          }
+        ],
+        "key_values": {
+          "1_piece": {
+            "multiplier": 0.95,
+            "reduction_pct": 5
+          },
+          "2_pieces": {
+            "multiplier": 0.9,
+            "reduction_pct": 10
+          },
+          "3_pieces": {
+            "multiplier": 0.86,
+            "reduction_pct": 14
+          },
+          "4_pieces": {
+            "multiplier": 0.81,
+            "reduction_pct": 19
+          },
+          "5_pieces": {
+            "multiplier": 0.77,
+            "reduction_pct": 23
+          }
+        },
+        "interpretation": "X = piece count (0-5). NOT perfectly multiplicative - slightly rounded. Each piece ~5% reduction. 5 pieces = 23% reduction.",
+        "wiki_comparison": "Wiki says '75% chance to reduce damage by 15% while standing still'. Game data shows DETERMINISTIC ~5% per piece, NOT probabilistic. 5pc = 23%. MAJOR DISCREPANCY - much weaker than wiki claims.",
+        "notes": "Sentinel is SIGNIFICANTLY weaker than Cavalier in game data. Cavalier = 10% per piece, Sentinel = 5% per piece."
+      },
+      "Less Damage Sprinting": {
+        "effect": "Reduces damage while sprinting (different from Cavalier)",
+        "star": 3,
+        "type": "armor",
+        "curve_file": "armor_lessdamagesprinting",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0.95
+          },
+          {
+            "x": 10,
+            "y": 0.9025
+          },
+          {
+            "x": 15,
+            "y": 0.8574
+          },
+          {
+            "x": 20,
+            "y": 0.8145
+          },
+          {
+            "x": 25,
+            "y": 0.7737
+          }
+        ],
+        "key_values": {
+          "5_pct": {
+            "multiplier": 0.95,
+            "reduction_pct": 5
+          },
+          "10_pct": {
+            "multiplier": 0.9025,
+            "reduction_pct": 9.75
+          },
+          "25_pct": {
+            "multiplier": 0.7737,
+            "reduction_pct": 22.63
+          }
+        },
+        "interpretation": "X appears to be a cumulative value (0-25). Multiplicative 5% increments."
+      },
+      "Less Damage Standing Still": {
+        "effect": "Reduces damage while standing still (backing for Sentinel)",
+        "star": 3,
+        "type": "armor",
+        "curve_file": "armor_lessdamagestandstill",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0.95
+          },
+          {
+            "x": 10,
+            "y": 0.9025
+          },
+          {
+            "x": 15,
+            "y": 0.8574
+          },
+          {
+            "x": 20,
+            "y": 0.8145
+          },
+          {
+            "x": 25,
+            "y": 0.7737
+          }
+        ],
+        "key_values": {
+          "same_as_sprinting": true
+        },
+        "interpretation": "Identical curve to lessdamagesprinting. 5% multiplicative per 5-unit increment."
+      },
+      "Less Damage Blocking": {
+        "effect": "Reduces damage while blocking",
+        "star": 3,
+        "type": "armor",
+        "curve_file": "armor_lessdamageblocking",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 15,
+            "y": 0.85
+          },
+          {
+            "x": 30,
+            "y": 0.7225
+          },
+          {
+            "x": 45,
+            "y": 0.6141
+          },
+          {
+            "x": 60,
+            "y": 0.522
+          },
+          {
+            "x": 75,
+            "y": 0.4437
+          }
+        ],
+        "key_values": {
+          "15_units": {
+            "multiplier": 0.85,
+            "reduction_pct": 15
+          },
+          "75_units": {
+            "multiplier": 0.4437,
+            "reduction_pct": 55.63
+          }
+        },
+        "interpretation": "X = block value (0-75 in increments of 15). Each 15 units = 0.85x multiplier. Max 55.6% at 75. Multiplicative stacking."
+      },
+      "Durability": {
+        "effect": "Armor lasts 50% longer",
+        "star": 3,
+        "type": "armor",
+        "curve_file": "armor_durability",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 1.5
+          },
+          {
+            "x": 100,
+            "y": 1.5
+          }
+        ],
+        "key_values": {
+          "durability_multiplier": 1.5
+        },
+        "interpretation": "Flat 1.5x durability multiplier. +50% condition."
+      },
+      "Less Fall Damage": {
+        "effect": "50% reduced fall damage",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_LessFallDamage"
+        ],
+        "curve_file": "armor_lessfalldamage",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": -50
+          },
+          {
+            "x": 100,
+            "y": -50
+          }
+        ],
+        "key_values": {
+          "reduction": -50
+        },
+        "interpretation": "Flat -50 to fall damage calculation per piece. Negative value = damage reduction."
+      },
+      "Burning (Damage Attacker)": {
+        "effect": "Fire damage to melee attackers",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Burning",
+          "mod_Legendary_PowerArmor3_Burning"
+        ],
+        "curve_file": "armor_burning_dmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 19
+          },
+          {
+            "x": 2,
+            "y": 38
+          },
+          {
+            "x": 3,
+            "y": 56
+          },
+          {
+            "x": 4,
+            "y": 77
+          },
+          {
+            "x": 5,
+            "y": 96
+          },
+          {
+            "x": 6,
+            "y": 115
+          }
+        ],
+        "key_values": {
+          "1_piece": 19,
+          "2_pieces": 38,
+          "3_pieces": 56,
+          "4_pieces": 77,
+          "5_pieces": 96,
+          "6_pieces": 115
+        },
+        "interpretation": "X = piece count. Slightly accelerating: ~19 fire damage per piece to melee attackers. 5 pieces = 96 fire damage."
+      },
+      "Electrified (Damage Attacker)": {
+        "effect": "Energy damage to melee attackers",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Electrified",
+          "mod_Legendary_PowerArmor3_Electrified"
+        ],
+        "curve_file": "armor_electrified_dmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 18
+          },
+          {
+            "x": 2,
+            "y": 35
+          },
+          {
+            "x": 3,
+            "y": 53
+          },
+          {
+            "x": 4,
+            "y": 70
+          },
+          {
+            "x": 5,
+            "y": 88
+          },
+          {
+            "x": 6,
+            "y": 105
+          }
+        ],
+        "key_values": {
+          "1_piece": 18,
+          "2_pieces": 35,
+          "3_pieces": 53,
+          "5_pieces": 88
+        },
+        "interpretation": "X = piece count. ~18 energy damage per piece to melee attackers."
+      },
+      "Frozen (Damage Attacker)": {
+        "effect": "Cryo damage to melee attackers",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Frozen",
+          "mod_Legendary_PowerArmor3_Frozen"
+        ],
+        "curve_file": "armor_frozen_dmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 12
+          },
+          {
+            "x": 2,
+            "y": 24
+          },
+          {
+            "x": 3,
+            "y": 36
+          },
+          {
+            "x": 4,
+            "y": 48
+          },
+          {
+            "x": 5,
+            "y": 60
+          },
+          {
+            "x": 6,
+            "y": 72
+          }
+        ],
+        "key_values": {
+          "1_piece": 12,
+          "5_pieces": 60
+        },
+        "interpretation": "X = piece count. 12 cryo damage per piece. Weakest of the damage attacker effects."
+      },
+      "Toxic (Damage Attacker)": {
+        "effect": "Poison damage to melee attackers",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Toxic",
+          "mod_Legendary_PowerArmor3_Toxic"
+        ],
+        "curve_file": "armor_toxic_dmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 12
+          },
+          {
+            "x": 2,
+            "y": 23
+          },
+          {
+            "x": 3,
+            "y": 35
+          },
+          {
+            "x": 4,
+            "y": 47
+          },
+          {
+            "x": 5,
+            "y": 58
+          },
+          {
+            "x": 6,
+            "y": 70
+          }
+        ],
+        "key_values": {
+          "1_piece": 12,
+          "5_pieces": 58
+        },
+        "interpretation": "X = piece count. ~12 poison damage per piece."
+      },
+      "Rads Regen": {
+        "effect": "Radiation regeneration",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_RadsRegen",
+          "mod_Legendary_PowerArmor3_RadsRegen"
+        ],
+        "curve_file": "armor_radsregen",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.25
+          },
+          {
+            "x": 100,
+            "y": 0.25
+          }
+        ],
+        "key_values": {
+          "regen_rate": 0.25
+        },
+        "interpretation": "Flat 0.25 rads/s regeneration."
+      },
+      "Defenders": {
+        "effect": "Team-oriented defense bonus",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Defenders",
+          "mod_Legendary_PowerArmor3_Defenders"
+        ]
+      },
+      "Healthy": {
+        "effect": "Health-related bonus",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Healthy",
+          "mod_Legendary_PowerArmor3_Healthy"
+        ]
+      },
+      "Active": {
+        "effect": "Activity-related bonus",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Active",
+          "mod_Legendary_PowerArmor3_Active"
+        ]
+      },
+      "Reflex": {
+        "effect": "Reflex/reaction bonus",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_Reflex"
+        ]
+      },
+      "Increase Healing": {
+        "effect": "Increased healing received",
+        "star": 3,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor3_IncreaseHealing",
+          "mod_Legendary_PowerArmor3_IncreaseHealing"
+        ]
+      }
+    },
+    "4star": {
+      "Aegis": {
+        "effect": "Incoming damage reduction scales per piece count",
+        "star": 4,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_PowerArmor4_Aegis"
+        ],
+        "curve_file": "armor_aegis_modincomingdmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 20
+          },
+          {
+            "x": 2,
+            "y": 40
+          },
+          {
+            "x": 3,
+            "y": 60
+          },
+          {
+            "x": 4,
+            "y": 80
+          },
+          {
+            "x": 5,
+            "y": 100
+          }
+        ],
+        "key_values": {
+          "1_piece": 20,
+          "2_pieces": 40,
+          "3_pieces": 60,
+          "4_pieces": 80,
+          "5_pieces": 100
+        },
+        "interpretation": "X = piece count (1-5). Y = incoming damage modifier. Linear 20 per piece. At 5 pieces = 100 (meaning 100% of incoming damage is... modified? This is likely a BASE value fed into another formula, not raw % reduction).",
+        "notes": "4-STAR EXCLUSIVE. Power Armor only variant found."
+      },
+      "Tanky": {
+        "effect": "Massive incoming damage modification",
+        "star": 4,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_Armor4_Tanky",
+          "mod_Legendary_PowerArmor4_Tanky"
+        ],
+        "curve_file": "armor_tanky_modincomingdmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 200
+          },
+          {
+            "x": 2,
+            "y": 400
+          },
+          {
+            "x": 3,
+            "y": 600
+          },
+          {
+            "x": 4,
+            "y": 800
+          },
+          {
+            "x": 5,
+            "y": 1000
+          }
+        ],
+        "key_values": {
+          "1_piece": 200,
+          "2_pieces": 400,
+          "3_pieces": 600,
+          "4_pieces": 800,
+          "5_pieces": 1000
+        },
+        "interpretation": "X = piece count. Y = incoming damage modifier value. 200 per piece, up to 1000. 10x the Aegis values. These are large raw values likely used in damage formula, NOT direct % reduction.",
+        "notes": "4-STAR EXCLUSIVE. Both armor and PA."
+      },
+      "Stalwart's": {
+        "effect": "Condition-based DR buff",
+        "star": 4,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_PowerArmor4_Stalwarts"
+        ],
+        "curve_file": "armor_stalwarts_conditionbuff",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 5
+          },
+          {
+            "x": 2,
+            "y": 10
+          },
+          {
+            "x": 3,
+            "y": 15
+          },
+          {
+            "x": 4,
+            "y": 20
+          },
+          {
+            "x": 5,
+            "y": 25
+          }
+        ],
+        "key_values": {
+          "1_piece": 5,
+          "2_pieces": 10,
+          "3_pieces": 15,
+          "4_pieces": 20,
+          "5_pieces": 25
+        },
+        "interpretation": "X = piece count. Y = condition buff value. +5 per piece, max +25.",
+        "notes": "4-STAR EXCLUSIVE."
+      },
+      "Rejuvenator's": {
+        "effect": "Regeneration scaling per team member count",
+        "star": 4,
+        "type": "armor",
+        "omod_names": [
+          "mod_Legendary_PowerArmor4_Rejuvenators"
+        ],
+        "curve_files": {
+          "tier1": "armor_rejuvenatorregent1",
+          "tier2": "armor_rejuvenatorregent2",
+          "tier3": "armor_rejuvenatorregent3",
+          "tier4": "armor_rejuvenatorregent4",
+          "tier5": "armor_rejuvenatorregent5"
+        },
+        "curve_data": {
+          "tier1": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 1
+            },
+            {
+              "x": 2,
+              "y": 2
+            },
+            {
+              "x": 3,
+              "y": 3
+            },
+            {
+              "x": 4,
+              "y": 4
+            },
+            {
+              "x": 5,
+              "y": 5
+            }
+          ],
+          "tier2": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 2
+            },
+            {
+              "x": 2,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 6
+            },
+            {
+              "x": 4,
+              "y": 8
+            },
+            {
+              "x": 5,
+              "y": 10
+            }
+          ],
+          "tier3": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 3
+            },
+            {
+              "x": 2,
+              "y": 6
+            },
+            {
+              "x": 3,
+              "y": 9
+            },
+            {
+              "x": 4,
+              "y": 12
+            },
+            {
+              "x": 5,
+              "y": 15
+            }
+          ],
+          "tier4": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 4
+            },
+            {
+              "x": 2,
+              "y": 8
+            },
+            {
+              "x": 3,
+              "y": 12
+            },
+            {
+              "x": 4,
+              "y": 16
+            },
+            {
+              "x": 5,
+              "y": 20
+            }
+          ],
+          "tier5": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 6
+            },
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 3,
+              "y": 18
+            },
+            {
+              "x": 4,
+              "y": 24
+            },
+            {
+              "x": 5,
+              "y": 30
+            }
+          ]
+        },
+        "interpretation": "5 tiers, X = piece/team member count (0-5). Tier 1: 1 regen per piece. Tier 5: 6 regen per piece (max 30 at 5 pieces).",
+        "key_values": {
+          "tier1_per_piece": 1,
+          "tier2_per_piece": 2,
+          "tier3_per_piece": 3,
+          "tier4_per_piece": 4,
+          "tier5_per_piece": 6,
+          "tier5_max": 30
+        },
+        "notes": "4-STAR EXCLUSIVE."
+      },
+      "Sane": {
+        "effect": "Sanity/clarity damage bonus scaling",
+        "star": 4,
+        "type": "armor",
+        "curve_file": "armor_sane",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 4
+          },
+          {
+            "x": 5,
+            "y": 4
+          },
+          {
+            "x": 6,
+            "y": 5
+          },
+          {
+            "x": 7,
+            "y": 5
+          },
+          {
+            "x": 8,
+            "y": 6
+          }
+        ],
+        "key_values": {
+          "0_stacks": 0,
+          "4_stacks": 4,
+          "5_stacks": 4,
+          "6_stacks": 5,
+          "8_stacks": 6
+        },
+        "interpretation": "X = stack count (0-8). Ramps linearly to 4 at 4 stacks, then slows. Max 6 at 8 stacks.",
+        "notes": "4-STAR EXCLUSIVE. New Tempest effect."
+      },
+      "Other 4-Star Armor": {
+        "listed_effects": [
+          "Metabolic (mod_Legendary_Armor4_Metabolic / PowerArmor4_Metabolic)",
+          "Crusaders (mod_Legendary_Armor4_Crusaders / PowerArmor4_Crusaders)",
+          "Rebounders (mod_Legendary_Armor4_Rebounders)",
+          "Miasma (mod_Legendary_Armor4_Miasma / PowerArmor4_Miasma)",
+          "LimitBreak (mod_Legendary_Armor4_LimitBreak / PowerArmor4_LimitBreak)",
+          "Bruiser (mod_Legendary_Armor4_Bruiser / PowerArmor4_Bruiser)",
+          "Runner (mod_Legendary_Armor4_Runner / PowerArmor4_Runner)",
+          "Ranger (mod_Legendary_Armor4_Ranger / PowerArmor4_Ranger)",
+          "BattleLoaders (mod_Legendary_Armor4_BattleLoaders / PowerArmor4_BattleLoaders)",
+          "Sawbones (mod_Legendary_Armor4_Sawbones / PowerArmor4_Sawbones)",
+          "Scanners (mod_Legendary_PowerArmor4_Scanners)",
+          "Reflective (mod_Legendary_PowerArmor4_Reflective)",
+          "RadioactivePowered (mod_Legendary_PowerArmor4_RadioactivePowered)",
+          "Propelling (mod_Legendary_PowerArmor4_Propelling)",
+          "ChooChoo (mod_Legendary_PowerArmor4_ChooChoo)",
+          "Voltaic (P62_mod_Legendary_PowerArmor4_Voltaic)",
+          "OverLoaders (P62_mod_Legendary_PowerArmor4_OverLoaders)",
+          "StaggerProof (P62_mod_Legendary_PowerArmor4_StaggerProof)"
+        ],
+        "notes": "These 4-star effects exist as OMOD records but do not have dedicated curve files in the legendarymods/ directory. Their numerical effects are defined inline in the OMOD properties."
+      }
+    },
+    "disabled_zzz": {
+      "Weight (3-star armor)": {
+        "omod_name": "zzz_mod_Legendary_Armor3_Weight",
+        "notes": "Disabled weight-related 3rd star effect"
+      },
+      "Low Health Increases Stats (PA)": {
+        "omod_name": "ZZZ_mod_Legendary_PowerArmor1_LowHealthIncreasesStats",
+        "notes": "Unyielding was DISABLED for Power Armor. This is why PA can't roll Unyielding."
+      },
+      "Weightless PA": {
+        "omod_name": "zzz_mod_Legendary_PowerArmor1_Weightless",
+        "notes": "Weightless disabled on Power Armor"
+      },
+      "Resistances via Carry Weight": {
+        "omod_names": [
+          "zzz_mod_Legendary_Armor1_ResistancesProportionalCarryWeight",
+          "zzz_mod_Legendary_PowerArmor1_ResistancesProportionalCarryWeight"
+        ],
+        "notes": "Carry weight DR effect disabled"
+      },
+      "Damage via Carry Weight (weapon)": {
+        "omod_name": "zzz_mod_Legendary_Weapon1_DamageViaCarryWeight",
+        "notes": "Weapon damage scaling with carry weight disabled"
+      },
+      "Ammo Capacity 2x": {
+        "omod_name": "zzz_mod_Legendary_Weapon1_Guns_AmmoCapacity2x",
+        "notes": "Double ammo capacity removed"
+      },
+      "Radiation Damage (weapon)": {
+        "omod_name": "zzz_mod_Legendary_Weapon2_RadiationDamage",
+        "notes": "Radiation damage on weapons disabled"
+      },
+      "Various 4-star disabled": {
+        "effects": [
+          "zzz_mod_Legendary_Armor4_Daredevils / PowerArmor4_Daredevils",
+          "zzz_mod_Legendary_Armor4_ReduceEnemyResists / PowerArmor4_ReduceEnemyResists",
+          "zzz_mod_Legendary_Armor4_Elusive / PowerArmor4_Elusive",
+          "zzz_mod_Legendary_Armor4_Elemental / PowerArmor4_Elemental",
+          "zzz_mod_Legendary_Armor4_CarryWeight / PowerArmor4_CarryWeight",
+          "zzz_mod_Legendary_Armor4_MaxAP / PowerArmor4_MaxAP",
+          "zzz_mod_Legendary_Armor4_Collectors / PowerArmor4_Collectors",
+          "zzz_mod_Legendary_Armor4_IncreaseAPRegen / PowerArmor4_IncreaseAPRegen",
+          "zzz_mod_Legendary_Armor4_IncreaseAllyResists / PowerArmor4_IncreaseAllyResists",
+          "zzz_WIP4_mod_Legendary_Weapon4_Slayers"
+        ],
+        "notes": "All zzz_ prefixed effects are disabled/removed from the legendary pool."
+      },
+      "DEL (Deleted) 4-star": {
+        "effects": [
+          "DEL_WIP4_mod_Legendary_Weapon4_Guns_SuperResilient",
+          "DEL_WIP4_mod_Legendary_Weapon4_Duelists",
+          "DEL_WIP4_mod_Legendary_Weapon4_Deadly",
+          "DEL_WIP4_mod_Legendary_Weapon4_Melee_Stunning",
+          "DEL_WIP4_mod_Legendary_Armor4_Moneybags / PowerArmor4_Moneybags",
+          "DEL_WIP4_mod_Legendary_Armor4_AeroFlight / PowerArmor4_AeroFlight",
+          "DEL_WIP4_mod_Legendary_Armor4_StaggerProof",
+          "DEL_WIP4_mod_Legendary_Armor4_Polished / PowerArmor4_Polished",
+          "DEL_WIP4_mod_Legendary_PowerArmor4_AutoRepair",
+          "DEL_WIP4_mod_Legendary_Weapon4_Guns_Toppers"
+        ],
+        "notes": "DEL_ prefixed effects were WIP (Work In Progress) for 4-star system and deleted before release."
+      }
+    }
+  },
+  "weapon_effects": {
+    "1star": {
+      "Anti-Armor": {
+        "effect": "Ignores a percentage of target's armor",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_AntiArmor"
+        ],
+        "key_values": {
+          "armor_penetration_pct": 50
+        },
+        "wiki_comparison": "Wiki says '50% armor penetration'. No curve file, flat value in OMOD."
+      },
+      "Aristocrat's": {
+        "effect": "Damage increases with caps held",
+        "star": 1,
+        "type": "weapon",
+        "curve_file": "weapon_damageviacaps",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1000,
+            "y": 3
+          },
+          {
+            "x": 2000,
+            "y": 5
+          },
+          {
+            "x": 15000,
+            "y": 27
+          },
+          {
+            "x": 16000,
+            "y": 28
+          },
+          {
+            "x": 17000,
+            "y": 30
+          },
+          {
+            "x": 29000,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "at_0_caps": 0,
+          "at_1000_caps": 3,
+          "at_2000_caps": 5,
+          "at_15000_caps": 27,
+          "at_17000_caps": 30,
+          "at_29000_caps": 50
+        },
+        "interpretation": "X = caps held. Y = damage bonus %. Max +50% damage at 29,000 caps. Non-linear scaling.",
+        "wiki_comparison": "Wiki says 'up to +50% damage at 29,000 caps'. Game data CONFIRMS 50% max. Wiki accurate."
+      },
+      "Berserker's": {
+        "effect": "Damage increases as DR decreases",
+        "star": 1,
+        "type": "weapon",
+        "curve_file": "weapon_damageunarmored",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 50
+          },
+          {
+            "x": 20,
+            "y": 30
+          },
+          {
+            "x": 40,
+            "y": 17
+          },
+          {
+            "x": 60,
+            "y": 5
+          }
+        ],
+        "key_values": {
+          "at_0_dr": 50,
+          "at_20_dr": 30,
+          "at_40_dr": 17,
+          "at_60_dr": 5
+        },
+        "interpretation": "X = player's DR. Y = damage bonus %. Max +50% at 0 DR. Drops to +5% at 60 DR. Requires being nearly naked for full benefit.",
+        "wiki_comparison": "Wiki says 'up to +50% at 0 DR'. Game data CONFIRMS 50%. Wiki accurate."
+      },
+      "Bloodied": {
+        "effect": "Damage increases as health decreases",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DamageInverseHealth"
+        ],
+        "curve_file": "weapon_damageinversehealth",
+        "curve_data": [
+          {
+            "x": 0.05,
+            "y": 130
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ],
+        "key_values": {
+          "at_5pct_hp": 130,
+          "at_100pct_hp": 0
+        },
+        "interpretation": "X = HP percentage (0.05-1.0). Y = damage bonus %. LINEAR from +130% at 5% HP to +0% at full HP. At 20% HP (bloodied threshold): ~104% bonus. At 50% HP: ~65% bonus.",
+        "wiki_comparison": "Wiki says 'up to +80% at low health' but some sources say +95%. Game data shows MAX +130% at 5% HP. SIGNIFICANT DISCREPANCY - actual value much higher than wiki claims.",
+        "build_rating": "S-TIER - highest potential damage bonus of any 1-star effect",
+        "notes": "Linear interpolation: bonus = 130 * (1 - health_pct) / 0.95"
+      },
+      "Executioner's": {
+        "effect": "50% more damage when target is below 40% health",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Execute"
+        ],
+        "curve_file": "weapon_execute",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50,
+          "threshold": "target below 40% HP"
+        },
+        "interpretation": "Flat 50% damage bonus. Always 50 regardless of level.",
+        "wiki_comparison": "Wiki says '+50% damage to targets below 40% health'. Game data CONFIRMS 50%."
+      },
+      "Furious": {
+        "effect": "Damage increases with consecutive hits",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgConsecutiveHits"
+        ],
+        "key_values": {
+          "effect": "stacking_damage_per_hit"
+        },
+        "wiki_comparison": "Wiki says '+5% damage per consecutive hit'. No curve file - likely flat stacking in OMOD."
+      },
+      "Gourmand's": {
+        "effect": "Damage bonus based on food/water satisfaction",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Gourmand"
+        ],
+        "curve_file": "weapon_gourmand",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 5
+          },
+          {
+            "x": 2,
+            "y": 10
+          },
+          {
+            "x": 3,
+            "y": 15
+          },
+          {
+            "x": 4,
+            "y": 20
+          },
+          {
+            "x": 5,
+            "y": 25
+          },
+          {
+            "x": 6,
+            "y": 30
+          },
+          {
+            "x": 7,
+            "y": 35
+          },
+          {
+            "x": 8,
+            "y": 40
+          }
+        ],
+        "key_values": {
+          "at_0_satisfaction": 0,
+          "at_1": 5,
+          "at_4": 20,
+          "at_8_max": 40
+        },
+        "interpretation": "X = food/water satisfaction (0-8). Y = damage bonus %. Linear 5% per point. Max +40% at full (8).",
+        "wiki_comparison": "Wiki says 'up to +24% damage when well fed'. Game data shows up to +40%. DISCREPANCY - game value higher than wiki."
+      },
+      "Instigating": {
+        "effect": "Double damage to full-health targets",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DamageFirstBlood"
+        ],
+        "key_values": {
+          "bonus_pct": 100,
+          "condition": "target at full health"
+        },
+        "wiki_comparison": "Wiki says 'double damage to full health targets'. Confirmed."
+      },
+      "Junkie's": {
+        "effect": "Damage increases per addiction",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DamageAddiction"
+        ],
+        "curve_file": "weapon_damageaddiction",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 10
+          },
+          {
+            "x": 2,
+            "y": 20
+          },
+          {
+            "x": 3,
+            "y": 30
+          },
+          {
+            "x": 4,
+            "y": 40
+          },
+          {
+            "x": 5,
+            "y": 50
+          },
+          {
+            "x": 6,
+            "y": 60
+          },
+          {
+            "x": 7,
+            "y": 70
+          },
+          {
+            "x": 8,
+            "y": 80
+          },
+          {
+            "x": 9,
+            "y": 90
+          },
+          {
+            "x": 10,
+            "y": 100
+          }
+        ],
+        "key_values": {
+          "per_addiction": 10,
+          "at_5_addictions": 50,
+          "at_10_addictions": 100
+        },
+        "interpretation": "X = addiction count (0-10). Y = damage bonus %. Linear +10% per addiction. Max +100% at 10 addictions.",
+        "wiki_comparison": "Wiki says '+10% per addiction, max +50% at 5'. Game data shows it CONTINUES to +100% at 10 addictions. MAJOR DISCREPANCY if game has >5 addictions possible."
+      },
+      "Mutant's": {
+        "effect": "Damage increases per mutation",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgWithMutation"
+        ],
+        "curve_file": "weapon_dmgwithmutation",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 5
+          },
+          {
+            "x": 2,
+            "y": 10
+          },
+          {
+            "x": 3,
+            "y": 15
+          },
+          {
+            "x": 4,
+            "y": 20
+          },
+          {
+            "x": 5,
+            "y": 25
+          },
+          {
+            "x": 6,
+            "y": 30
+          },
+          {
+            "x": 7,
+            "y": 35
+          },
+          {
+            "x": 8,
+            "y": 40
+          },
+          {
+            "x": 9,
+            "y": 45
+          },
+          {
+            "x": 10,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "per_mutation": 5,
+          "at_5_mutations": 25,
+          "at_10_mutations": 50
+        },
+        "interpretation": "X = mutation count (0-10). Y = damage bonus %. Linear +5% per mutation. Max +50% at 10 mutations.",
+        "wiki_comparison": "Wiki says '+5% per mutation up to +25% at 5'. Game data shows it CONTINUES scaling to +50% at 10 mutations. DISCREPANCY - wiki may be outdated."
+      },
+      "Nocturnal": {
+        "effect": "+50% damage at night, +0% during day",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DamageNight"
+        ],
+        "curve_file": "weapon_damagenight",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 50
+          },
+          {
+            "x": 5,
+            "y": 50
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 20,
+            "y": 0
+          },
+          {
+            "x": 21,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "hours_0_5": 50,
+          "hours_6_20": 0,
+          "hours_21_plus": 50
+        },
+        "interpretation": "X = game hour (0-24). Y = damage bonus %. +50% from 9pm-5am, +0% from 6am-8pm. Binary switch, no gradual transition.",
+        "wiki_comparison": "Wiki says '+50% at night, -50% during day'. Game data shows +50% at night, +0% during day. NO PENALTY during day. DISCREPANCY."
+      },
+      "Quad": {
+        "effect": "Quadruple magazine capacity",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Guns_AmmoCapacity4x"
+        ],
+        "key_values": {
+          "multiplier": 4
+        },
+        "build_rating": "S-TIER for heavy/slow reload weapons"
+      },
+      "Two Shot": {
+        "effect": "Fires additional projectile at reduced damage",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Guns_TwoShot"
+        ],
+        "curve_file": "weapon_damage",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.2
+          },
+          {
+            "x": 100,
+            "y": 0.2
+          }
+        ],
+        "key_values": {
+          "damage_multiplier": 0.2
+        },
+        "interpretation": "Second projectile does 20% of base damage. Total damage = 120% but accuracy reduced.",
+        "wiki_comparison": "Wiki says 'additional projectile'. Game data shows second shot = 0.2x (20%) of base damage. Effectively +20% damage with accuracy penalty.",
+        "notes": "The 0.2 multiplier applies to the SECOND projectile only."
+      },
+      "Vampire's": {
+        "effect": "Heal on hit",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Vampire"
+        ],
+        "key_values": {
+          "heal_per_hit": "small amount"
+        },
+        "build_rating": "S-TIER for survivability"
+      },
+      "Damage via Health": {
+        "effect": "Damage scales with max HP",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DamageViaHealth"
+        ],
+        "curve_file": "weapon_damageviahealth",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1000,
+            "y": 100
+          }
+        ],
+        "key_values": {
+          "at_0_hp": 0,
+          "at_1000_hp": 100
+        },
+        "interpretation": "X = max HP. Y = damage bonus %. Linear: +0.1% per HP. At 300 HP: +30%. At 500 HP: +50%. Max +100% at 1000 HP.",
+        "notes": "Extremely powerful if HP stacking is possible."
+      },
+      "Hunter's": {
+        "effect": "+50% damage to animals",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsAnimals"
+        ],
+        "curve_file": "weapon_dmgvsanimals",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        }
+      },
+      "Exterminator's": {
+        "effect": "+50% damage to bugs",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsBugs"
+        ],
+        "curve_file": "weapon_dmgvsbugs",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        }
+      },
+      "Ghoul Slayer's": {
+        "effect": "+50% damage to ghouls",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsGhouls"
+        ],
+        "curve_file": "weapon_dmgvsghouls",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        }
+      },
+      "Troubleshooter's": {
+        "effect": "+50% damage to robots",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsRobots"
+        ],
+        "curve_file": "weapon_dmgvsrobots",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        }
+      },
+      "Zealot's": {
+        "effect": "+50% damage to Scorched",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsScorched"
+        ],
+        "curve_file": "weapon_dmgvsscorched",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        }
+      },
+      "Mutant Slayer's": {
+        "effect": "+50% damage to Super Mutants",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsSupermutants"
+        ],
+        "curve_file": "weapon_dmgvssupermutants",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        }
+      },
+      "Assassin's": {
+        "effect": "+50% damage to players",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsPlayers"
+        ],
+        "curve_file": "weapon_dmgvsplayers",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        },
+        "wiki_comparison": "Wiki sometimes lists lower PvP values, but curve shows flat 50%. PvP damage scaling may reduce this separately."
+      },
+      "Stalker's (Accuracy Not In Combat)": {
+        "effect": "Increased accuracy when not in combat",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Guns_AccuracyNotInCombat"
+        ],
+        "key_values": {
+          "effect": "accuracy_bonus_outside_combat"
+        }
+      },
+      "Suppressor's": {
+        "effect": "Reduce target's damage output by 20%",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DebuffDamage"
+        ],
+        "key_values": {
+          "debuff_pct": 20
+        }
+      },
+      "Medic's": {
+        "effect": "VATS crits heal group",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Medic"
+        ],
+        "key_values": {
+          "effect": "VATS_crit_heals_group"
+        }
+      },
+      "Damage Per Kill": {
+        "effect": "Damage increases per kill (stacking)",
+        "star": 1,
+        "type": "weapon",
+        "curve_file": "weapon_damageperkill",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 10
+          },
+          {
+            "x": 10,
+            "y": 100
+          }
+        ],
+        "key_values": {
+          "per_kill": 10,
+          "max_stacks": 10,
+          "max_bonus_pct": 100
+        },
+        "interpretation": "X = kills (0-10). Y = damage bonus %. +10% per kill, max +100% at 10 kills. Linear."
+      },
+      "Cryptid Hunter's": {
+        "effect": "+50% damage to cryptids",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_DmgVsCryptids (implied)"
+        ],
+        "curve_file": "weapon_dmgvscryptids",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        },
+        "notes": "All creature-type damage bonuses are identical: flat 50%."
+      },
+      "Feral": {
+        "effect": "Melee feral bonus",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Melee_Feral"
+        ]
+      },
+      "Sniper": {
+        "effect": "Sniping bonus (guns)",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Guns_Sniper"
+        ]
+      },
+      "Adrenal": {
+        "effect": "Damage scaling based on health",
+        "star": 1,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon1_Adrenal"
+        ]
+      }
+    },
+    "2star": {
+      "Explosive": {
+        "effect": "Bullets explode for area damage",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Guns_ExplosiveBullets"
+        ],
+        "key_values": {
+          "explosive_pct": 20
+        },
+        "wiki_comparison": "Wiki says '20% of base damage as explosive'. Confirmed.",
+        "notes": "Legacy shotgun version exists as separate OMOD."
+      },
+      "VATS Enhanced (Accuracy)": {
+        "effect": "Increased VATS accuracy",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Guns_VATSAccuracy"
+        ]
+      },
+      "Faster Fire Rate": {
+        "effect": "+25% fire rate",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Guns_RoF"
+        ],
+        "curve_file": "weapon_guns_rof",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.25
+          },
+          {
+            "x": 100,
+            "y": 0.25
+          }
+        ],
+        "key_values": {
+          "rof_multiplier": 0.25,
+          "rof_bonus_pct": 25
+        },
+        "interpretation": "Flat +25% fire rate. Not level-scaled.",
+        "wiki_comparison": "Wiki says '+25% fire rate'. Game data CONFIRMS 25%.",
+        "build_rating": "S-TIER for DPS"
+      },
+      "Aiming Damage": {
+        "effect": "Increased damage while aiming",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Guns_DmgSights"
+        ]
+      },
+      "Bashing": {
+        "effect": "Increased bash damage",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Guns_Bashing"
+        ]
+      },
+      "Limb Damage": {
+        "effect": "+50% limb damage",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_DmgLimbs"
+        ],
+        "curve_file": "weapon_dmglimbs",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 50
+          },
+          {
+            "x": 100,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "bonus_pct": 50
+        },
+        "interpretation": "Flat +50% limb damage."
+      },
+      "Critical Damage": {
+        "effect": "Increased VATS crit damage",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_DmgCrits"
+        ],
+        "key_values": {
+          "crit_damage_bonus": 50
+        },
+        "wiki_comparison": "Wiki says '+50% critical damage'. Standard value."
+      },
+      "Faster Swing Speed (Melee)": {
+        "effect": "+40% swing speed",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Melee_SwingSpeed"
+        ],
+        "curve_file": "weapon_melee_swingspeed",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.4
+          },
+          {
+            "x": 100,
+            "y": 0.4
+          }
+        ],
+        "key_values": {
+          "swing_speed_multiplier": 0.4,
+          "bonus_pct": 40
+        },
+        "interpretation": "Flat +40% swing speed. The gold standard melee 2nd star.",
+        "wiki_comparison": "Wiki says '+40% swing speed'. Game data CONFIRMS 40%.",
+        "build_rating": "S-TIER for melee"
+      },
+      "Power Attack Damage (Melee)": {
+        "effect": "Increased power attack damage",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Melee_DamagePowerAttack"
+        ]
+      },
+      "Block Reflects (Melee)": {
+        "effect": "Reflects damage when blocking",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Melee_BlockReflects"
+        ]
+      },
+      "Steady (Melee)": {
+        "effect": "Steady melee bonus",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Melee_Steady"
+        ]
+      },
+      "AP on Kill": {
+        "effect": "Restore AP on kill",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_APViaKill"
+        ]
+      },
+      "Last Shot": {
+        "effect": "Last round in magazine does bonus damage",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Guns_LastShot"
+        ]
+      },
+      "PickPocket (Melee)": {
+        "effect": "Pickpocket bonus on melee",
+        "star": 2,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon2_Melee_PickPocket"
+        ]
+      }
+    },
+    "3star": {
+      "Reduced Weight": {
+        "effect": "90% reduced weight",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Weight"
+        ],
+        "curve_file": "weapon_melee_weight",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": -0.9
+          },
+          {
+            "x": 100,
+            "y": -0.9
+          }
+        ],
+        "key_values": {
+          "weight_reduction": -0.9,
+          "reduction_pct": 90
+        },
+        "interpretation": "Flat -0.9 multiplier = 90% weight reduction.",
+        "wiki_comparison": "Wiki says '90% reduced weight'. Game data CONFIRMS 90%."
+      },
+      "Reload Speed": {
+        "effect": "Faster reload speed",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Guns_ReloadSpeed"
+        ]
+      },
+      "VATS AP Cost Reduction": {
+        "effect": "Reduced VATS AP cost",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_VATSCostAP"
+        ],
+        "key_values": {
+          "ap_cost_reduction": 25
+        }
+      },
+      "Critical Speed": {
+        "effect": "Critical meter fills faster",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_CritSpeed"
+        ]
+      },
+      "Movement Speed While Aiming": {
+        "effect": "Faster movement while aiming",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Guns_MoveSpeedSights"
+        ]
+      },
+      "Resist While Aiming": {
+        "effect": "DR/ER bonus while aiming",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Guns_ResistSights"
+        ]
+      },
+      "Resist While Reloading": {
+        "effect": "DR/ER bonus while reloading",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Guns_ResistReload"
+        ]
+      },
+      "Cloak on Hit": {
+        "effect": "Stealth field on hit",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Guns_CloakOnHit"
+        ]
+      },
+      "+1 SPECIAL Stats": {
+        "effect": "+1 to various SPECIAL stats",
+        "star": 3,
+        "type": "weapon",
+        "variants": [
+          "StatStrength",
+          "StatPerception",
+          "StatAgility",
+          "StatEndurance",
+          "StatCharisma",
+          "StatIntelligence",
+          "StatLuck"
+        ],
+        "key_values": {
+          "bonus": "+1 to specified SPECIAL"
+        }
+      },
+      "Durability": {
+        "effect": "Weapon lasts 50% longer",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Durability"
+        ],
+        "curve_file": "weapon_durability",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 1.5
+          },
+          {
+            "x": 100,
+            "y": 1.5
+          }
+        ],
+        "key_values": {
+          "durability_multiplier": 1.5
+        }
+      },
+      "Less Damage While Blocking (Melee)": {
+        "effect": "Reduced damage while blocking",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Melee_LessDamageBlock"
+        ]
+      },
+      "Defenders (Melee)": {
+        "effect": "Team defense bonus on melee",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Melee_Defenders"
+        ]
+      },
+      "Barbarian (Melee)": {
+        "effect": "Strength-based melee bonus",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Melee_Barbarian"
+        ]
+      },
+      "Glowing": {
+        "effect": "Glow-in-dark / glowing effect",
+        "star": 3,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon3_Glowing"
+        ]
+      }
+    },
+    "4star": {
+      "Charged (Melee)": {
+        "effect": "Charged melee attack bonus",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon4_Melee_Charged"
+        ],
+        "curve_file": "weapon_chargedmeleeattack",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.5
+          },
+          {
+            "x": 2,
+            "y": 1.5
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ],
+        "key_values": {
+          "tier_1": {
+            "multiplier": 0.5
+          },
+          "tier_2": {
+            "multiplier": 1.5
+          },
+          "tier_3": {
+            "multiplier": 3.0
+          }
+        },
+        "interpretation": "X = charge level (1-3). Y = damage multiplier. Tier 1: 0.5x, Tier 2: 1.5x, Tier 3: 3.0x. Massive scaling with charge.",
+        "notes": "4-STAR EXCLUSIVE."
+      },
+      "Electricians": {
+        "effect": "Adds energy damage scaling with base damage",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon4_Guns_Electricians"
+        ],
+        "curve_file": "weapon_electriciansenergydmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 11
+          },
+          {
+            "x": 5,
+            "y": 12
+          },
+          {
+            "x": 10,
+            "y": 13
+          },
+          {
+            "x": 15,
+            "y": 14
+          },
+          {
+            "x": 20,
+            "y": 15
+          },
+          {
+            "x": 25,
+            "y": 16.5
+          },
+          {
+            "x": 30,
+            "y": 18
+          },
+          {
+            "x": 35,
+            "y": 19.5
+          },
+          {
+            "x": 40,
+            "y": 21
+          },
+          {
+            "x": 45,
+            "y": 23
+          },
+          {
+            "x": 50,
+            "y": 25
+          }
+        ],
+        "key_values": {
+          "at_base_1": 11,
+          "at_base_10": 13,
+          "at_base_25": 16.5,
+          "at_base_50": 25
+        },
+        "interpretation": "X = base weapon damage. Y = added energy damage. Scales from 11 to 25 energy damage based on weapon base damage. Low base weapons get proportionally more.",
+        "notes": "4-STAR EXCLUSIVE."
+      },
+      "Fracturers": {
+        "effect": "Adds explosion damage",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon4_Fracturers"
+        ],
+        "curve_file": "weapon_fracturersexplosiondmg",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 22
+          },
+          {
+            "x": 5,
+            "y": 24
+          },
+          {
+            "x": 10,
+            "y": 26
+          },
+          {
+            "x": 15,
+            "y": 28
+          },
+          {
+            "x": 20,
+            "y": 30
+          },
+          {
+            "x": 25,
+            "y": 33
+          },
+          {
+            "x": 30,
+            "y": 36
+          },
+          {
+            "x": 35,
+            "y": 39
+          },
+          {
+            "x": 40,
+            "y": 42
+          },
+          {
+            "x": 45,
+            "y": 46
+          },
+          {
+            "x": 50,
+            "y": 50
+          }
+        ],
+        "key_values": {
+          "at_base_1": 22,
+          "at_base_10": 26,
+          "at_base_25": 33,
+          "at_base_50": 50
+        },
+        "interpretation": "X = base damage. Y = explosion damage added. 22-50 explosion damage. Better than Electricians for raw damage."
+      },
+      "Voltaic (Energy + EMP)": {
+        "effect": "Energy damage + EMP damage scaling",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "P62_mod_Legendary_PowerArmor4_Voltaic"
+        ],
+        "curve_files": {
+          "energy": "weapon_voltaicenergydmg",
+          "emp": "weapon_voltaicempdmg"
+        },
+        "curve_data": {
+          "energy": [
+            {
+              "x": 1,
+              "y": 11
+            },
+            {
+              "x": 5,
+              "y": 12
+            },
+            {
+              "x": 10,
+              "y": 13
+            },
+            {
+              "x": 15,
+              "y": 14
+            },
+            {
+              "x": 20,
+              "y": 15
+            },
+            {
+              "x": 25,
+              "y": 16.5
+            },
+            {
+              "x": 30,
+              "y": 18
+            },
+            {
+              "x": 35,
+              "y": 19.5
+            },
+            {
+              "x": 40,
+              "y": 21
+            },
+            {
+              "x": 45,
+              "y": 23
+            },
+            {
+              "x": 50,
+              "y": 25
+            }
+          ],
+          "emp": [
+            {
+              "x": 1,
+              "y": 40
+            },
+            {
+              "x": 2,
+              "y": 60
+            },
+            {
+              "x": 3,
+              "y": 80
+            },
+            {
+              "x": 4,
+              "y": 100
+            },
+            {
+              "x": 5,
+              "y": 120
+            }
+          ]
+        },
+        "key_values": {
+          "energy_at_base_1": 11,
+          "energy_at_base_50": 25,
+          "emp_at_1_stack": 40,
+          "emp_at_5_stacks": 120
+        },
+        "interpretation": "Energy curve identical to Electricians. EMP curve: X = stack count (1-5). Y = EMP damage. 40 per stack, max 120.",
+        "notes": "4-STAR EXCLUSIVE. PA only."
+      },
+      "Cold Shoulder (Cryo)": {
+        "effect": "Adds cryo damage",
+        "star": 4,
+        "type": "weapon",
+        "curve_file": "weapon_cscryodamage",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 44
+          },
+          {
+            "x": 5,
+            "y": 47
+          },
+          {
+            "x": 10,
+            "y": 50
+          },
+          {
+            "x": 15,
+            "y": 54
+          },
+          {
+            "x": 20,
+            "y": 59
+          },
+          {
+            "x": 25,
+            "y": 63
+          },
+          {
+            "x": 30,
+            "y": 68
+          },
+          {
+            "x": 35,
+            "y": 73
+          },
+          {
+            "x": 40,
+            "y": 79
+          },
+          {
+            "x": 45,
+            "y": 85
+          },
+          {
+            "x": 50,
+            "y": 91
+          }
+        ],
+        "key_values": {
+          "at_base_1": 44,
+          "at_base_10": 50,
+          "at_base_25": 63,
+          "at_base_50": 91
+        },
+        "interpretation": "X = base damage. Y = cryo damage added. Highest base of all elemental 4-star effects: 44-91 cryo damage.",
+        "notes": "4-STAR EXCLUSIVE. Highest raw elemental damage."
+      },
+      "Sane (Weapon)": {
+        "effect": "Sanity/clarity damage bonus",
+        "star": 4,
+        "type": "weapon",
+        "curve_file": "weapon_sane",
+        "curve_data": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 5
+          },
+          {
+            "x": 2,
+            "y": 10
+          },
+          {
+            "x": 3,
+            "y": 15
+          },
+          {
+            "x": 4,
+            "y": 20
+          },
+          {
+            "x": 5,
+            "y": 25
+          },
+          {
+            "x": 6,
+            "y": 30
+          },
+          {
+            "x": 7,
+            "y": 35
+          },
+          {
+            "x": 8,
+            "y": 40
+          }
+        ],
+        "key_values": {
+          "at_0": 0,
+          "at_4": 20,
+          "at_8": 40
+        },
+        "interpretation": "X = sanity stacks (0-8). Y = damage bonus %. Linear 5% per stack, max +40%.",
+        "notes": "4-STAR EXCLUSIVE. Tempest effect."
+      },
+      "Reload/Melee Speed Per Kill": {
+        "effect": "Reload or swing speed increases per kill",
+        "star": 4,
+        "type": "weapon",
+        "curve_file": "weapon_reloadmeleespeedperkill",
+        "curve_data": [
+          {
+            "x": 1,
+            "y": 0.03
+          },
+          {
+            "x": 10,
+            "y": 0.3
+          }
+        ],
+        "key_values": {
+          "per_kill": 0.03,
+          "at_10_kills": 0.3,
+          "bonus_pct_per_kill": 3,
+          "max_bonus_pct": 30
+        },
+        "interpretation": "X = kill count (1-10). Y = speed multiplier bonus. +3% per kill, max +30% at 10 kills."
+      },
+      "Bully": {
+        "effect": "Bully effect on weapon",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon4_Bully"
+        ]
+      },
+      "Pyromaniac": {
+        "effect": "Fire damage on weapon",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon4_Pyromaniac"
+        ]
+      },
+      "Vipers": {
+        "effect": "Poison damage on weapon",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon4_Vipers"
+        ]
+      },
+      "Polished": {
+        "effect": "Polished weapon effect",
+        "star": 4,
+        "type": "weapon",
+        "omod_names": [
+          "mod_Legendary_Weapon4_Polished"
+        ]
+      },
+      "Other 4-Star Weapon": {
+        "listed_effects": [
+          "Encirclers (mod_Legendary_Weapon4_Encirclers)",
+          "Fencers (mod_Legendary_Weapon4_Melee_Fencers)",
+          "Pounders (mod_Legendary_Weapon4_Melee_Pounders)",
+          "Conductors (mod_Legendary_Weapon4_Conductors)",
+          "PinPointers (mod_Legendary_Weapon4_Guns_PinPointers)",
+          "Stabilizers (mod_Legendary_Weapon4_Guns_Stabilizers)",
+          "Icemens (mod_Legendary_Weapon4_Melee_Icemens)",
+          "ComboBreaker (mod_Legendary_Weapon4_Melee_ComboBreaker)",
+          "HeadHunters (mod_Legendary_Weapon_Ranged4_HeadHunters)",
+          "Ruiners (P62_mod_Legendary_Weapon4_Guns_Ruiners)",
+          "SightSeers (P62_mod_Legendary_Weapon4_Guns_SightSeers)",
+          "Satiated (P62_mod_Legendary_Weapon4_Satiated)",
+          "Brutalists (P62_mod_Legendary_Weapon4_Melee_Brutalists)",
+          "ThrillSeeker (RA_mod_Legendary_Weapon4_ThrillSeeker)"
+        ]
+      }
+    }
+  },
+  "legendary_economy": {
+    "scrip_values": {
+      "armor": {
+        "1_star": 1,
+        "2_star": 2,
+        "3_star": 4,
+        "4_star": 6
+      },
+      "power_armor": {
+        "1_star": 1,
+        "2_star": 2,
+        "3_star": 4,
+        "4_star": 6
+      },
+      "weapons_melee": {
+        "1_star": 1,
+        "2_star": 2,
+        "3_star": 4,
+        "4_star": 6
+      },
+      "weapons_ranged": {
+        "1_star": 1,
+        "2_star": 2,
+        "3_star": 4,
+        "4_star": 6
+      },
+      "notes": "All categories have identical scrip values. 4-star gives 6 scrip."
+    },
+    "sell_values": {
+      "armor": {
+        "1_star": 3,
+        "2_star": 9,
+        "3_star": 24,
+        "4_star": 30
+      },
+      "power_armor": {
+        "1_star": 10,
+        "2_star": 20,
+        "3_star": 45,
+        "4_star": 55
+      },
+      "weapons_melee": {
+        "1_star": 5,
+        "2_star": 15,
+        "3_star": 40,
+        "4_star": 50
+      },
+      "weapons_ranged": {
+        "1_star": 5,
+        "2_star": 15,
+        "3_star": 40,
+        "4_star": 50
+      },
+      "notes": "PA has highest sell values. Melee and ranged weapons equal."
+    }
+  },
+  "raw_curves": {
+    "armor_aegis_modincomingdmg": [
+      {
+        "x": 1,
+        "y": 20
+      },
+      {
+        "x": 2,
+        "y": 40
+      },
+      {
+        "x": 3,
+        "y": 60
+      },
+      {
+        "x": 4,
+        "y": 80
+      },
+      {
+        "x": 5,
+        "y": 100
+      }
+    ],
+    "armor_aristocrat_01": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 2000,
+        "y": 0.13
+      },
+      {
+        "x": 4000,
+        "y": 0.16
+      },
+      {
+        "x": 6000,
+        "y": 0.2
+      },
+      {
+        "x": 8000,
+        "y": 0.25
+      },
+      {
+        "x": 10000,
+        "y": 0.32
+      },
+      {
+        "x": 12000,
+        "y": 0.4
+      },
+      {
+        "x": 14000,
+        "y": 0.5
+      },
+      {
+        "x": 16000,
+        "y": 0.63
+      },
+      {
+        "x": 18000,
+        "y": 0.79
+      },
+      {
+        "x": 20000,
+        "y": 1
+      },
+      {
+        "x": 22000,
+        "y": 1.26
+      },
+      {
+        "x": 24000,
+        "y": 1.58
+      },
+      {
+        "x": 26000,
+        "y": 2
+      },
+      {
+        "x": 28000,
+        "y": 2.51
+      },
+      {
+        "x": 30000,
+        "y": 3.16
+      },
+      {
+        "x": 32000,
+        "y": 3.98
+      },
+      {
+        "x": 34000,
+        "y": 5.01
+      },
+      {
+        "x": 36000,
+        "y": 6.31
+      },
+      {
+        "x": 38000,
+        "y": 7.94
+      },
+      {
+        "x": 40000,
+        "y": 10
+      }
+    ],
+    "armor_bolstering_01": [
+      {
+        "x": 0,
+        "y": 0.9
+      },
+      {
+        "x": 0.15,
+        "y": 0.9
+      },
+      {
+        "x": 0.3,
+        "y": 0.91
+      },
+      {
+        "x": 0.5,
+        "y": 0.975
+      },
+      {
+        "x": 0.75,
+        "y": 1
+      },
+      {
+        "x": 0.9,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "armor_bolstering_02": [
+      {
+        "x": 0,
+        "y": 0.81
+      },
+      {
+        "x": 0.15,
+        "y": 0.81
+      },
+      {
+        "x": 0.3,
+        "y": 0.828
+      },
+      {
+        "x": 0.5,
+        "y": 0.951
+      },
+      {
+        "x": 0.75,
+        "y": 1
+      },
+      {
+        "x": 0.9,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "armor_bolstering_03": [
+      {
+        "x": 0,
+        "y": 0.729
+      },
+      {
+        "x": 0.15,
+        "y": 0.729
+      },
+      {
+        "x": 0.3,
+        "y": 0.754
+      },
+      {
+        "x": 0.5,
+        "y": 0.927
+      },
+      {
+        "x": 0.75,
+        "y": 1
+      },
+      {
+        "x": 0.9,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "armor_bolstering_04": [
+      {
+        "x": 0,
+        "y": 0.656
+      },
+      {
+        "x": 0.15,
+        "y": 0.656
+      },
+      {
+        "x": 0.3,
+        "y": 0.686
+      },
+      {
+        "x": 0.5,
+        "y": 0.904
+      },
+      {
+        "x": 0.75,
+        "y": 1
+      },
+      {
+        "x": 0.9,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "armor_bolstering_05": [
+      {
+        "x": 0,
+        "y": 0.59
+      },
+      {
+        "x": 0.15,
+        "y": 0.59
+      },
+      {
+        "x": 0.3,
+        "y": 0.624
+      },
+      {
+        "x": 0.5,
+        "y": 0.881
+      },
+      {
+        "x": 0.75,
+        "y": 1
+      },
+      {
+        "x": 0.9,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 1
+      }
+    ],
+    "armor_bolstering_desc": [
+      {
+        "x": 0,
+        "y": 10
+      },
+      {
+        "x": 0.15,
+        "y": 10
+      },
+      {
+        "x": 0.3,
+        "y": 9
+      },
+      {
+        "x": 0.5,
+        "y": 2.5
+      },
+      {
+        "x": 0.75,
+        "y": 0
+      },
+      {
+        "x": 0.9,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0
+      }
+    ],
+    "armor_burning_dmg": [
+      {
+        "x": 1,
+        "y": 19
+      },
+      {
+        "x": 2,
+        "y": 38
+      },
+      {
+        "x": 3,
+        "y": 56
+      },
+      {
+        "x": 4,
+        "y": 77
+      },
+      {
+        "x": 5,
+        "y": 96
+      },
+      {
+        "x": 6,
+        "y": 115
+      }
+    ],
+    "armor_cavalier": [
+      {
+        "x": 0.0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 0.81
+      },
+      {
+        "x": 3,
+        "y": 0.729
+      },
+      {
+        "x": 4,
+        "y": 0.6561
+      },
+      {
+        "x": 5,
+        "y": 0.59049
+      }
+    ],
+    "armor_damageresistviacaps": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1000,
+        "y": 6
+      },
+      {
+        "x": 2000,
+        "y": 10
+      },
+      {
+        "x": 15000,
+        "y": 54
+      },
+      {
+        "x": 16000,
+        "y": 56
+      },
+      {
+        "x": 17000,
+        "y": 60
+      },
+      {
+        "x": 29000,
+        "y": 100
+      }
+    ],
+    "armor_durability": [
+      {
+        "x": 1,
+        "y": 1.5
+      },
+      {
+        "x": 100,
+        "y": 1.5
+      }
+    ],
+    "armor_electrified_dmg": [
+      {
+        "x": 1,
+        "y": 18
+      },
+      {
+        "x": 2,
+        "y": 35
+      },
+      {
+        "x": 3,
+        "y": 53
+      },
+      {
+        "x": 4,
+        "y": 70
+      },
+      {
+        "x": 5,
+        "y": 88
+      },
+      {
+        "x": 6,
+        "y": 105
+      }
+    ],
+    "armor_frozen_dmg": [
+      {
+        "x": 1,
+        "y": 12
+      },
+      {
+        "x": 2,
+        "y": 24
+      },
+      {
+        "x": 3,
+        "y": 36
+      },
+      {
+        "x": 4,
+        "y": 48
+      },
+      {
+        "x": 5,
+        "y": 60
+      },
+      {
+        "x": 6,
+        "y": 72
+      }
+    ],
+    "armor_healthregen": [
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 100,
+        "y": 0.5
+      }
+    ],
+    "armor_heavyweight_01": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.994
+      },
+      {
+        "x": 0.28,
+        "y": 0.991
+      },
+      {
+        "x": 0.46,
+        "y": 0.986
+      },
+      {
+        "x": 0.64,
+        "y": 0.98
+      },
+      {
+        "x": 0.82,
+        "y": 0.971
+      },
+      {
+        "x": 1,
+        "y": 0.958
+      },
+      {
+        "x": 1.18,
+        "y": 0.94
+      },
+      {
+        "x": 1.36,
+        "y": 0.912
+      },
+      {
+        "x": 1.5,
+        "y": 0.9
+      }
+    ],
+    "armor_heavyweight_02": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.987
+      },
+      {
+        "x": 0.28,
+        "y": 0.981
+      },
+      {
+        "x": 0.46,
+        "y": 0.973
+      },
+      {
+        "x": 0.64,
+        "y": 0.961
+      },
+      {
+        "x": 0.82,
+        "y": 0.943
+      },
+      {
+        "x": 1,
+        "y": 0.918
+      },
+      {
+        "x": 1.18,
+        "y": 0.883
+      },
+      {
+        "x": 1.36,
+        "y": 0.832
+      },
+      {
+        "x": 1.5,
+        "y": 0.81
+      }
+    ],
+    "armor_heavyweight_03": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.981
+      },
+      {
+        "x": 0.28,
+        "y": 0.972
+      },
+      {
+        "x": 0.46,
+        "y": 0.96
+      },
+      {
+        "x": 0.64,
+        "y": 0.942
+      },
+      {
+        "x": 0.82,
+        "y": 0.916
+      },
+      {
+        "x": 1,
+        "y": 0.88
+      },
+      {
+        "x": 1.18,
+        "y": 0.829
+      },
+      {
+        "x": 1.36,
+        "y": 0.76
+      },
+      {
+        "x": 1.5,
+        "y": 0.729
+      }
+    ],
+    "armor_heavyweight_04": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.974
+      },
+      {
+        "x": 0.28,
+        "y": 0.963
+      },
+      {
+        "x": 0.46,
+        "y": 0.946
+      },
+      {
+        "x": 0.64,
+        "y": 0.923
+      },
+      {
+        "x": 0.82,
+        "y": 0.89
+      },
+      {
+        "x": 1,
+        "y": 0.843
+      },
+      {
+        "x": 1.18,
+        "y": 0.779
+      },
+      {
+        "x": 1.36,
+        "y": 0.693
+      },
+      {
+        "x": 1.5,
+        "y": 0.656
+      }
+    ],
+    "armor_heavyweight_05": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 0.1,
+        "y": 0.968
+      },
+      {
+        "x": 0.28,
+        "y": 0.954
+      },
+      {
+        "x": 0.46,
+        "y": 0.934
+      },
+      {
+        "x": 0.64,
+        "y": 0.905
+      },
+      {
+        "x": 0.82,
+        "y": 0.864
+      },
+      {
+        "x": 1,
+        "y": 0.808
+      },
+      {
+        "x": 1.18,
+        "y": 0.732
+      },
+      {
+        "x": 1.36,
+        "y": 0.632
+      },
+      {
+        "x": 1.5,
+        "y": 0.59
+      }
+    ],
+    "armor_heavyweight_desc": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 0.1,
+        "y": 0.65
+      },
+      {
+        "x": 0.28,
+        "y": 0.94
+      },
+      {
+        "x": 0.46,
+        "y": 1.37
+      },
+      {
+        "x": 0.64,
+        "y": 1.98
+      },
+      {
+        "x": 0.82,
+        "y": 2.87
+      },
+      {
+        "x": 1,
+        "y": 4.17
+      },
+      {
+        "x": 1.18,
+        "y": 6.04
+      },
+      {
+        "x": 1.36,
+        "y": 8.76
+      },
+      {
+        "x": 1.5,
+        "y": 10
+      }
+    ],
+    "armor_lessdamageblocking": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 15,
+        "y": 0.85
+      },
+      {
+        "x": 30,
+        "y": 0.7225
+      },
+      {
+        "x": 45,
+        "y": 0.6141
+      },
+      {
+        "x": 60,
+        "y": 0.522
+      },
+      {
+        "x": 75,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessdamagesprinting": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 0.95
+      },
+      {
+        "x": 10,
+        "y": 0.9025
+      },
+      {
+        "x": 15,
+        "y": 0.8574
+      },
+      {
+        "x": 20,
+        "y": 0.8145
+      },
+      {
+        "x": 25,
+        "y": 0.7737
+      }
+    ],
+    "armor_lessdamagestandstill": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 5,
+        "y": 0.95
+      },
+      {
+        "x": 10,
+        "y": 0.9025
+      },
+      {
+        "x": 15,
+        "y": 0.8574
+      },
+      {
+        "x": 20,
+        "y": 0.8145
+      },
+      {
+        "x": 25,
+        "y": 0.7737
+      }
+    ],
+    "armor_lessdmganimals": [
+      {
+        "x": 1,
+        "y": 0.85
+      },
+      {
+        "x": 2,
+        "y": 0.7225
+      },
+      {
+        "x": 3,
+        "y": 0.6141
+      },
+      {
+        "x": 4,
+        "y": 0.522
+      },
+      {
+        "x": 5,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessdmgbugs": [
+      {
+        "x": 1,
+        "y": 0.85
+      },
+      {
+        "x": 2,
+        "y": 0.7225
+      },
+      {
+        "x": 3,
+        "y": 0.6141
+      },
+      {
+        "x": 4,
+        "y": 0.522
+      },
+      {
+        "x": 5,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessdmgghouls": [
+      {
+        "x": 1,
+        "y": 0.85
+      },
+      {
+        "x": 2,
+        "y": 0.7225
+      },
+      {
+        "x": 3,
+        "y": 0.6141
+      },
+      {
+        "x": 4,
+        "y": 0.522
+      },
+      {
+        "x": 5,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessdmgplayers": [
+      {
+        "x": 1,
+        "y": 0.85
+      },
+      {
+        "x": 2,
+        "y": 0.7225
+      },
+      {
+        "x": 3,
+        "y": 0.6141
+      },
+      {
+        "x": 4,
+        "y": 0.522
+      },
+      {
+        "x": 5,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessdmgrobots": [
+      {
+        "x": 1,
+        "y": 0.85
+      },
+      {
+        "x": 2,
+        "y": 0.7225
+      },
+      {
+        "x": 3,
+        "y": 0.6141
+      },
+      {
+        "x": 4,
+        "y": 0.522
+      },
+      {
+        "x": 5,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessdmgscorched": [
+      {
+        "x": 1,
+        "y": 0.85
+      },
+      {
+        "x": 2,
+        "y": 0.7225
+      },
+      {
+        "x": 3,
+        "y": 0.6141
+      },
+      {
+        "x": 4,
+        "y": 0.522
+      },
+      {
+        "x": 5,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessdmgsupermutants": [
+      {
+        "x": 1,
+        "y": 0.85
+      },
+      {
+        "x": 2,
+        "y": 0.7225
+      },
+      {
+        "x": 3,
+        "y": 0.6141
+      },
+      {
+        "x": 4,
+        "y": 0.522
+      },
+      {
+        "x": 5,
+        "y": 0.4437
+      }
+    ],
+    "armor_lessfalldamage": [
+      {
+        "x": 1,
+        "y": -50
+      },
+      {
+        "x": 100,
+        "y": -50
+      }
+    ],
+    "armor_lowhealthincreasesstats": [
+      {
+        "x": 0,
+        "y": 3
+      },
+      {
+        "x": 0.1999,
+        "y": 3
+      },
+      {
+        "x": 0.2,
+        "y": 2
+      },
+      {
+        "x": 0.3999,
+        "y": 2
+      },
+      {
+        "x": 0.4,
+        "y": 1
+      },
+      {
+        "x": 0.5999,
+        "y": 1
+      },
+      {
+        "x": 0.6,
+        "y": 0
+      }
+    ],
+    "armor_lucid_01": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.996
+      },
+      {
+        "x": 2,
+        "y": 0.994
+      },
+      {
+        "x": 3,
+        "y": 0.991
+      },
+      {
+        "x": 4,
+        "y": 0.987
+      },
+      {
+        "x": 5,
+        "y": 0.981
+      },
+      {
+        "x": 6,
+        "y": 0.972
+      },
+      {
+        "x": 7,
+        "y": 0.959
+      },
+      {
+        "x": 8,
+        "y": 0.94
+      }
+    ],
+    "armor_lucid_02": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.992
+      },
+      {
+        "x": 2,
+        "y": 0.988
+      },
+      {
+        "x": 3,
+        "y": 0.983
+      },
+      {
+        "x": 4,
+        "y": 0.975
+      },
+      {
+        "x": 5,
+        "y": 0.963
+      },
+      {
+        "x": 6,
+        "y": 0.945
+      },
+      {
+        "x": 7,
+        "y": 0.92
+      },
+      {
+        "x": 8,
+        "y": 0.884
+      }
+    ],
+    "armor_lucid_03": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.988
+      },
+      {
+        "x": 2,
+        "y": 0.983
+      },
+      {
+        "x": 3,
+        "y": 0.975
+      },
+      {
+        "x": 4,
+        "y": 0.963
+      },
+      {
+        "x": 5,
+        "y": 0.945
+      },
+      {
+        "x": 6,
+        "y": 0.919
+      },
+      {
+        "x": 7,
+        "y": 0.882
+      },
+      {
+        "x": 8,
+        "y": 0.831
+      }
+    ],
+    "armor_lucid_04": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.984
+      },
+      {
+        "x": 2,
+        "y": 0.977
+      },
+      {
+        "x": 3,
+        "y": 0.966
+      },
+      {
+        "x": 4,
+        "y": 0.95
+      },
+      {
+        "x": 5,
+        "y": 0.927
+      },
+      {
+        "x": 6,
+        "y": 0.894
+      },
+      {
+        "x": 7,
+        "y": 0.846
+      },
+      {
+        "x": 8,
+        "y": 0.781
+      }
+    ],
+    "armor_lucid_05": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.981
+      },
+      {
+        "x": 2,
+        "y": 0.971
+      },
+      {
+        "x": 3,
+        "y": 0.958
+      },
+      {
+        "x": 4,
+        "y": 0.938
+      },
+      {
+        "x": 5,
+        "y": 0.91
+      },
+      {
+        "x": 6,
+        "y": 0.869
+      },
+      {
+        "x": 7,
+        "y": 0.811
+      },
+      {
+        "x": 8,
+        "y": 0.734
+      }
+    ],
+    "armor_lucid_desc": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0.39
+      },
+      {
+        "x": 2,
+        "y": 0.58
+      },
+      {
+        "x": 3,
+        "y": 0.85
+      },
+      {
+        "x": 4,
+        "y": 1.26
+      },
+      {
+        "x": 5,
+        "y": 1.87
+      },
+      {
+        "x": 6,
+        "y": 2.77
+      },
+      {
+        "x": 7,
+        "y": 4.1
+      },
+      {
+        "x": 8,
+        "y": 6
+      }
+    ],
+    "armor_mutant": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.998
+      },
+      {
+        "x": 2,
+        "y": 0.995
+      },
+      {
+        "x": 3,
+        "y": 0.993
+      },
+      {
+        "x": 4,
+        "y": 0.99
+      },
+      {
+        "x": 5,
+        "y": 0.988
+      },
+      {
+        "x": 6,
+        "y": 0.984
+      },
+      {
+        "x": 7,
+        "y": 0.98
+      },
+      {
+        "x": 8,
+        "y": 0.975
+      },
+      {
+        "x": 9,
+        "y": 0.968
+      },
+      {
+        "x": 10,
+        "y": 0.96
+      },
+      {
+        "x": 11,
+        "y": 0.955
+      },
+      {
+        "x": 12,
+        "y": 0.953
+      },
+      {
+        "x": 13,
+        "y": 0.952
+      },
+      {
+        "x": 14,
+        "y": 0.951
+      },
+      {
+        "x": 15,
+        "y": 0.951
+      },
+      {
+        "x": 16,
+        "y": 0.95
+      }
+    ],
+    "armor_mutant2": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.995
+      },
+      {
+        "x": 2,
+        "y": 0.99
+      },
+      {
+        "x": 3,
+        "y": 0.985
+      },
+      {
+        "x": 4,
+        "y": 0.98
+      },
+      {
+        "x": 5,
+        "y": 0.975
+      },
+      {
+        "x": 6,
+        "y": 0.968
+      },
+      {
+        "x": 7,
+        "y": 0.96
+      },
+      {
+        "x": 8,
+        "y": 0.951
+      },
+      {
+        "x": 9,
+        "y": 0.936
+      },
+      {
+        "x": 10,
+        "y": 0.922
+      },
+      {
+        "x": 11,
+        "y": 0.912
+      },
+      {
+        "x": 12,
+        "y": 0.908
+      },
+      {
+        "x": 13,
+        "y": 0.906
+      },
+      {
+        "x": 14,
+        "y": 0.904
+      },
+      {
+        "x": 15,
+        "y": 0.903
+      },
+      {
+        "x": 16,
+        "y": 0.903
+      }
+    ],
+    "armor_mutant3": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.993
+      },
+      {
+        "x": 2,
+        "y": 0.985
+      },
+      {
+        "x": 3,
+        "y": 0.978
+      },
+      {
+        "x": 4,
+        "y": 0.97
+      },
+      {
+        "x": 5,
+        "y": 0.963
+      },
+      {
+        "x": 6,
+        "y": 0.953
+      },
+      {
+        "x": 7,
+        "y": 0.941
+      },
+      {
+        "x": 8,
+        "y": 0.927
+      },
+      {
+        "x": 9,
+        "y": 0.906
+      },
+      {
+        "x": 10,
+        "y": 0.885
+      },
+      {
+        "x": 11,
+        "y": 0.871
+      },
+      {
+        "x": 12,
+        "y": 0.866
+      },
+      {
+        "x": 13,
+        "y": 0.862
+      },
+      {
+        "x": 14,
+        "y": 0.86
+      },
+      {
+        "x": 15,
+        "y": 0.859
+      },
+      {
+        "x": 16,
+        "y": 0.857
+      }
+    ],
+    "armor_mutant4": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.99
+      },
+      {
+        "x": 2,
+        "y": 0.98
+      },
+      {
+        "x": 3,
+        "y": 0.97
+      },
+      {
+        "x": 4,
+        "y": 0.961
+      },
+      {
+        "x": 5,
+        "y": 0.951
+      },
+      {
+        "x": 6,
+        "y": 0.938
+      },
+      {
+        "x": 7,
+        "y": 0.922
+      },
+      {
+        "x": 8,
+        "y": 0.904
+      },
+      {
+        "x": 9,
+        "y": 0.876
+      },
+      {
+        "x": 10,
+        "y": 0.849
+      },
+      {
+        "x": 11,
+        "y": 0.832
+      },
+      {
+        "x": 12,
+        "y": 0.825
+      },
+      {
+        "x": 13,
+        "y": 0.821
+      },
+      {
+        "x": 14,
+        "y": 0.818
+      },
+      {
+        "x": 15,
+        "y": 0.816
+      },
+      {
+        "x": 16,
+        "y": 0.815
+      }
+    ],
+    "armor_mutant5": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.988
+      },
+      {
+        "x": 2,
+        "y": 0.975
+      },
+      {
+        "x": 3,
+        "y": 0.963
+      },
+      {
+        "x": 4,
+        "y": 0.951
+      },
+      {
+        "x": 5,
+        "y": 0.939
+      },
+      {
+        "x": 6,
+        "y": 0.923
+      },
+      {
+        "x": 7,
+        "y": 0.904
+      },
+      {
+        "x": 8,
+        "y": 0.881
+      },
+      {
+        "x": 9,
+        "y": 0.848
+      },
+      {
+        "x": 10,
+        "y": 0.815
+      },
+      {
+        "x": 11,
+        "y": 0.794
+      },
+      {
+        "x": 12,
+        "y": 0.786
+      },
+      {
+        "x": 13,
+        "y": 0.781
+      },
+      {
+        "x": 14,
+        "y": 0.778
+      },
+      {
+        "x": 15,
+        "y": 0.776
+      },
+      {
+        "x": 16,
+        "y": 0.774
+      }
+    ],
+    "armor_mutant_desc": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 0.25
+      },
+      {
+        "x": 2,
+        "y": 0.5
+      },
+      {
+        "x": 3,
+        "y": 0.75
+      },
+      {
+        "x": 4,
+        "y": 1
+      },
+      {
+        "x": 5,
+        "y": 1.25
+      },
+      {
+        "x": 6,
+        "y": 1.6
+      },
+      {
+        "x": 7,
+        "y": 2
+      },
+      {
+        "x": 8,
+        "y": 2.5
+      },
+      {
+        "x": 9,
+        "y": 3.25
+      },
+      {
+        "x": 10,
+        "y": 4
+      },
+      {
+        "x": 11,
+        "y": 4.5
+      },
+      {
+        "x": 12,
+        "y": 4.7
+      },
+      {
+        "x": 13,
+        "y": 4.83
+      },
+      {
+        "x": 14,
+        "y": 4.9
+      },
+      {
+        "x": 15,
+        "y": 4.95
+      },
+      {
+        "x": 16,
+        "y": 5
+      }
+    ],
+    "armor_overeater": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 0.4,
+        "y": 0
+      },
+      {
+        "x": 0.8,
+        "y": 0
+      },
+      {
+        "x": 1.2,
+        "y": 0
+      },
+      {
+        "x": 1.6,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 1
+      },
+      {
+        "x": 2.4,
+        "y": 1
+      },
+      {
+        "x": 2.8,
+        "y": 1
+      },
+      {
+        "x": 3.2,
+        "y": 1
+      },
+      {
+        "x": 3.6,
+        "y": 2
+      },
+      {
+        "x": 4,
+        "y": 3
+      },
+      {
+        "x": 4.4,
+        "y": 4
+      },
+      {
+        "x": 4.8,
+        "y": 5
+      },
+      {
+        "x": 5.2,
+        "y": 6
+      },
+      {
+        "x": 5.6,
+        "y": 8
+      },
+      {
+        "x": 6,
+        "y": 11
+      },
+      {
+        "x": 6.4,
+        "y": 14
+      },
+      {
+        "x": 6.8,
+        "y": 19
+      },
+      {
+        "x": 7.2,
+        "y": 25
+      },
+      {
+        "x": 7.6,
+        "y": 32
+      },
+      {
+        "x": 8,
+        "y": 40
+      }
+    ],
+    "armor_overeater_effect": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 2,
+        "y": 0
+      },
+      {
+        "x": 4,
+        "y": 0
+      },
+      {
+        "x": 6,
+        "y": 0
+      },
+      {
+        "x": 8,
+        "y": 1
+      },
+      {
+        "x": 10,
+        "y": 1
+      },
+      {
+        "x": 12,
+        "y": 1
+      },
+      {
+        "x": 14,
+        "y": 1
+      },
+      {
+        "x": 16,
+        "y": 2
+      },
+      {
+        "x": 18,
+        "y": 2
+      },
+      {
+        "x": 20,
+        "y": 3
+      },
+      {
+        "x": 22,
+        "y": 4
+      },
+      {
+        "x": 24,
+        "y": 5
+      },
+      {
+        "x": 26,
+        "y": 6
+      },
+      {
+        "x": 28,
+        "y": 8
+      },
+      {
+        "x": 30,
+        "y": 11
+      },
+      {
+        "x": 32,
+        "y": 14
+      },
+      {
+        "x": 34,
+        "y": 19
+      },
+      {
+        "x": 36,
+        "y": 25
+      },
+      {
+        "x": 38,
+        "y": 32
+      },
+      {
+        "x": 40,
+        "y": 40
+      }
+    ],
+    "armor_radsregen": [
+      {
+        "x": 1,
+        "y": 0.25
+      },
+      {
+        "x": 100,
+        "y": 0.25
+      }
+    ],
+    "armor_rejuvenatorregent1": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 2
+      },
+      {
+        "x": 3,
+        "y": 3
+      },
+      {
+        "x": 4,
+        "y": 4
+      },
+      {
+        "x": 5,
+        "y": 5
+      }
+    ],
+    "armor_rejuvenatorregent2": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 2
+      },
+      {
+        "x": 2,
+        "y": 4
+      },
+      {
+        "x": 3,
+        "y": 6
+      },
+      {
+        "x": 4,
+        "y": 8
+      },
+      {
+        "x": 5,
+        "y": 10
+      }
+    ],
+    "armor_rejuvenatorregent3": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 3
+      },
+      {
+        "x": 2,
+        "y": 6
+      },
+      {
+        "x": 3,
+        "y": 9
+      },
+      {
+        "x": 4,
+        "y": 12
+      },
+      {
+        "x": 5,
+        "y": 15
+      }
+    ],
+    "armor_rejuvenatorregent4": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 4
+      },
+      {
+        "x": 2,
+        "y": 8
+      },
+      {
+        "x": 3,
+        "y": 12
+      },
+      {
+        "x": 4,
+        "y": 16
+      },
+      {
+        "x": 5,
+        "y": 20
+      }
+    ],
+    "armor_rejuvenatorregent5": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 6
+      },
+      {
+        "x": 2,
+        "y": 12
+      },
+      {
+        "x": 3,
+        "y": 18
+      },
+      {
+        "x": 4,
+        "y": 24
+      },
+      {
+        "x": 5,
+        "y": 30
+      }
+    ],
+    "armor_resistancecarryweight": [
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 199,
+        "y": 0
+      },
+      {
+        "x": 200,
+        "y": 1
+      },
+      {
+        "x": 350,
+        "y": 20
+      }
+    ],
+    "armor_resistancesinversehealth": [
+      {
+        "x": 0,
+        "y": 35
+      },
+      {
+        "x": 0.1,
+        "y": 35
+      },
+      {
+        "x": 0.2,
+        "y": 32
+      },
+      {
+        "x": 0.3,
+        "y": 28
+      },
+      {
+        "x": 0.4,
+        "y": 24
+      },
+      {
+        "x": 0.5,
+        "y": 20
+      },
+      {
+        "x": 0.6,
+        "y": 16
+      },
+      {
+        "x": 0.61,
+        "y": 0
+      }
+    ],
+    "armor_resistancesperkill": [
+      {
+        "x": 1,
+        "y": 10
+      },
+      {
+        "x": 10,
+        "y": 100
+      }
+    ],
+    "armor_resistancesproportionalcaps": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1000,
+        "y": 0.67
+      },
+      {
+        "x": 2000,
+        "y": 1.34
+      },
+      {
+        "x": 3000,
+        "y": 2.01
+      },
+      {
+        "x": 4000,
+        "y": 2.68
+      },
+      {
+        "x": 5000,
+        "y": 3.35
+      },
+      {
+        "x": 6000,
+        "y": 4.02
+      },
+      {
+        "x": 7000,
+        "y": 4.69
+      },
+      {
+        "x": 8000,
+        "y": 5.36
+      },
+      {
+        "x": 9000,
+        "y": 6.03
+      },
+      {
+        "x": 10000,
+        "y": 6.7
+      },
+      {
+        "x": 11000,
+        "y": 7.37
+      },
+      {
+        "x": 12000,
+        "y": 8.04
+      },
+      {
+        "x": 13000,
+        "y": 8.71
+      },
+      {
+        "x": 14000,
+        "y": 9.38
+      },
+      {
+        "x": 15000,
+        "y": 10.05
+      },
+      {
+        "x": 16000,
+        "y": 10.72
+      },
+      {
+        "x": 17000,
+        "y": 11.39
+      },
+      {
+        "x": 18000,
+        "y": 12.06
+      },
+      {
+        "x": 19000,
+        "y": 12.73
+      },
+      {
+        "x": 20000,
+        "y": 13.4
+      },
+      {
+        "x": 21000,
+        "y": 14.07
+      },
+      {
+        "x": 22000,
+        "y": 14.74
+      },
+      {
+        "x": 23000,
+        "y": 15.41
+      },
+      {
+        "x": 24000,
+        "y": 16.08
+      },
+      {
+        "x": 25000,
+        "y": 16.75
+      },
+      {
+        "x": 26000,
+        "y": 17.42
+      },
+      {
+        "x": 27000,
+        "y": 18.09
+      },
+      {
+        "x": 28000,
+        "y": 18.76
+      },
+      {
+        "x": 29000,
+        "y": 19.43
+      },
+      {
+        "x": 30000,
+        "y": 20.1
+      }
+    ],
+    "armor_resistancesproportionalhealth": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 0.5,
+        "y": 7
+      },
+      {
+        "x": 0.6,
+        "y": 14
+      },
+      {
+        "x": 0.7,
+        "y": 21
+      },
+      {
+        "x": 0.8,
+        "y": 28
+      },
+      {
+        "x": 0.9,
+        "y": 35
+      }
+    ],
+    "armor_sane": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 1
+      },
+      {
+        "x": 2,
+        "y": 2
+      },
+      {
+        "x": 3,
+        "y": 3
+      },
+      {
+        "x": 4,
+        "y": 4
+      },
+      {
+        "x": 5,
+        "y": 4
+      },
+      {
+        "x": 6,
+        "y": 5
+      },
+      {
+        "x": 7,
+        "y": 5
+      },
+      {
+        "x": 8,
+        "y": 6
+      }
+    ],
+    "armor_sentinel": [
+      {
+        "x": 0.0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.95
+      },
+      {
+        "x": 2,
+        "y": 0.9
+      },
+      {
+        "x": 3,
+        "y": 0.86
+      },
+      {
+        "x": 4,
+        "y": 0.81
+      },
+      {
+        "x": 5,
+        "y": 0.77
+      }
+    ],
+    "armor_stalwarts_conditionbuff": [
+      {
+        "x": 1,
+        "y": 5
+      },
+      {
+        "x": 2,
+        "y": 10
+      },
+      {
+        "x": 3,
+        "y": 15
+      },
+      {
+        "x": 4,
+        "y": 20
+      },
+      {
+        "x": 5,
+        "y": 25
+      }
+    ],
+    "armor_tanky_modincomingdmg": [
+      {
+        "x": 1,
+        "y": 200
+      },
+      {
+        "x": 2,
+        "y": 400
+      },
+      {
+        "x": 3,
+        "y": 600
+      },
+      {
+        "x": 4,
+        "y": 800
+      },
+      {
+        "x": 5,
+        "y": 1000
+      }
+    ],
+    "armor_toxic_dmg": [
+      {
+        "x": 1,
+        "y": 12
+      },
+      {
+        "x": 2,
+        "y": 23
+      },
+      {
+        "x": 3,
+        "y": 35
+      },
+      {
+        "x": 4,
+        "y": 47
+      },
+      {
+        "x": 5,
+        "y": 58
+      },
+      {
+        "x": 6,
+        "y": 70
+      }
+    ],
+    "armor_vanguard_01": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 100,
+        "y": 0.999
+      },
+      {
+        "x": 136,
+        "y": 0.999
+      },
+      {
+        "x": 185,
+        "y": 0.998
+      },
+      {
+        "x": 252,
+        "y": 0.998
+      },
+      {
+        "x": 342,
+        "y": 0.996
+      },
+      {
+        "x": 465,
+        "y": 0.993
+      },
+      {
+        "x": 633,
+        "y": 0.983
+      },
+      {
+        "x": 861,
+        "y": 0.943
+      },
+      {
+        "x": 1000,
+        "y": 0.94
+      }
+    ],
+    "armor_vanguard_02": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 100,
+        "y": 0.998
+      },
+      {
+        "x": 136,
+        "y": 0.998
+      },
+      {
+        "x": 185,
+        "y": 0.997
+      },
+      {
+        "x": 252,
+        "y": 0.995
+      },
+      {
+        "x": 342,
+        "y": 0.993
+      },
+      {
+        "x": 465,
+        "y": 0.986
+      },
+      {
+        "x": 633,
+        "y": 0.966
+      },
+      {
+        "x": 861,
+        "y": 0.89
+      },
+      {
+        "x": 1000,
+        "y": 0.884
+      }
+    ],
+    "armor_vanguard_03": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 100,
+        "y": 0.997
+      },
+      {
+        "x": 136,
+        "y": 0.996
+      },
+      {
+        "x": 185,
+        "y": 0.995
+      },
+      {
+        "x": 252,
+        "y": 0.993
+      },
+      {
+        "x": 342,
+        "y": 0.989
+      },
+      {
+        "x": 465,
+        "y": 0.979
+      },
+      {
+        "x": 633,
+        "y": 0.95
+      },
+      {
+        "x": 861,
+        "y": 0.839
+      },
+      {
+        "x": 1000,
+        "y": 0.831
+      }
+    ],
+    "armor_vanguard_04": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 100,
+        "y": 0.996
+      },
+      {
+        "x": 136,
+        "y": 0.995
+      },
+      {
+        "x": 185,
+        "y": 0.994
+      },
+      {
+        "x": 252,
+        "y": 0.991
+      },
+      {
+        "x": 342,
+        "y": 0.985
+      },
+      {
+        "x": 465,
+        "y": 0.972
+      },
+      {
+        "x": 633,
+        "y": 0.934
+      },
+      {
+        "x": 861,
+        "y": 0.792
+      },
+      {
+        "x": 1000,
+        "y": 0.781
+      }
+    ],
+    "armor_vanguard_05": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 100,
+        "y": 0.995
+      },
+      {
+        "x": 136,
+        "y": 0.994
+      },
+      {
+        "x": 185,
+        "y": 0.992
+      },
+      {
+        "x": 252,
+        "y": 0.989
+      },
+      {
+        "x": 342,
+        "y": 0.982
+      },
+      {
+        "x": 465,
+        "y": 0.965
+      },
+      {
+        "x": 633,
+        "y": 0.918
+      },
+      {
+        "x": 861,
+        "y": 0.747
+      },
+      {
+        "x": 1000,
+        "y": 0.734
+      }
+    ],
+    "armor_vanguard_desc": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 100,
+        "y": 0.1
+      },
+      {
+        "x": 136,
+        "y": 0.1
+      },
+      {
+        "x": 185,
+        "y": 0.2
+      },
+      {
+        "x": 252,
+        "y": 0.2
+      },
+      {
+        "x": 342,
+        "y": 0.4
+      },
+      {
+        "x": 465,
+        "y": 0.7
+      },
+      {
+        "x": 633,
+        "y": 1.7
+      },
+      {
+        "x": 861,
+        "y": 5.7
+      },
+      {
+        "x": 1000,
+        "y": 6
+      }
+    ],
+    "armor_weightammo": [
+      {
+        "x": 1,
+        "y": 20
+      },
+      {
+        "x": 100,
+        "y": 20
+      }
+    ],
+    "armor_weightfooddrink": [
+      {
+        "x": 1,
+        "y": 20
+      },
+      {
+        "x": 100,
+        "y": 20
+      }
+    ],
+    "armor_weightjunk": [
+      {
+        "x": 1,
+        "y": 20
+      },
+      {
+        "x": 100,
+        "y": 20
+      }
+    ],
+    "armor_weightless": [
+      {
+        "x": 0,
+        "y": 1
+      },
+      {
+        "x": 1,
+        "y": 0.9
+      },
+      {
+        "x": 2,
+        "y": 0.81
+      },
+      {
+        "x": 3,
+        "y": 0.73
+      },
+      {
+        "x": 4,
+        "y": 0.66
+      },
+      {
+        "x": 5,
+        "y": 0.59
+      }
+    ],
+    "armor_weightless_desc": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 10
+      }
+    ],
+    "armor_weightweapons": [
+      {
+        "x": 1,
+        "y": 20
+      },
+      {
+        "x": 100,
+        "y": 20
+      }
+    ],
+    "weapon_chargedmeleeattack": [
+      {
+        "x": 1,
+        "y": 0.5
+      },
+      {
+        "x": 2,
+        "y": 1.5
+      },
+      {
+        "x": 3,
+        "y": 3
+      }
+    ],
+    "weapon_cscryodamage": [
+      {
+        "x": 1,
+        "y": 44
+      },
+      {
+        "x": 5,
+        "y": 47
+      },
+      {
+        "x": 10,
+        "y": 50
+      },
+      {
+        "x": 15,
+        "y": 54
+      },
+      {
+        "x": 20,
+        "y": 59
+      },
+      {
+        "x": 25,
+        "y": 63
+      },
+      {
+        "x": 30,
+        "y": 68
+      },
+      {
+        "x": 35,
+        "y": 73
+      },
+      {
+        "x": 40,
+        "y": 79
+      },
+      {
+        "x": 45,
+        "y": 85
+      },
+      {
+        "x": 50,
+        "y": 91
+      }
+    ],
+    "weapon_damage": [
+      {
+        "x": 1,
+        "y": 0.2
+      },
+      {
+        "x": 100,
+        "y": 0.2
+      }
+    ],
+    "weapon_damageaddiction": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 10
+      },
+      {
+        "x": 2,
+        "y": 20
+      },
+      {
+        "x": 3,
+        "y": 30
+      },
+      {
+        "x": 4,
+        "y": 40
+      },
+      {
+        "x": 5,
+        "y": 50
+      },
+      {
+        "x": 6,
+        "y": 60
+      },
+      {
+        "x": 7,
+        "y": 70
+      },
+      {
+        "x": 8,
+        "y": 80
+      },
+      {
+        "x": 9,
+        "y": 90
+      },
+      {
+        "x": 10,
+        "y": 100
+      }
+    ],
+    "weapon_damageinversehealth": [
+      {
+        "x": 0.05,
+        "y": 130
+      },
+      {
+        "x": 1,
+        "y": 0
+      }
+    ],
+    "weapon_damagenight": [
+      {
+        "x": 0,
+        "y": 50
+      },
+      {
+        "x": 5,
+        "y": 50
+      },
+      {
+        "x": 6,
+        "y": 0
+      },
+      {
+        "x": 20,
+        "y": 0
+      },
+      {
+        "x": 21,
+        "y": 50
+      }
+    ],
+    "weapon_damageperkill": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 10
+      },
+      {
+        "x": 10,
+        "y": 100
+      }
+    ],
+    "weapon_damageunarmored": [
+      {
+        "x": 0,
+        "y": 50
+      },
+      {
+        "x": 20,
+        "y": 30
+      },
+      {
+        "x": 40,
+        "y": 17
+      },
+      {
+        "x": 60,
+        "y": 5
+      }
+    ],
+    "weapon_damageviacaps": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1000,
+        "y": 3
+      },
+      {
+        "x": 2000,
+        "y": 5
+      },
+      {
+        "x": 15000,
+        "y": 27
+      },
+      {
+        "x": 16000,
+        "y": 28
+      },
+      {
+        "x": 17000,
+        "y": 30
+      },
+      {
+        "x": 29000,
+        "y": 50
+      }
+    ],
+    "weapon_damageviahealth": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1000,
+        "y": 100
+      }
+    ],
+    "weapon_dmgcarryweight": [
+      {
+        "x": 1,
+        "y": 0
+      },
+      {
+        "x": 199,
+        "y": 0
+      },
+      {
+        "x": 200,
+        "y": 1
+      },
+      {
+        "x": 350,
+        "y": 50
+      }
+    ],
+    "weapon_dmglimbs": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvsanimals": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvsbugs": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvscryptids": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvsghouls": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvsplayers": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvsrobots": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvsscorched": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgvssupermutants": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_dmgwithmutation": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 5
+      },
+      {
+        "x": 2,
+        "y": 10
+      },
+      {
+        "x": 3,
+        "y": 15
+      },
+      {
+        "x": 4,
+        "y": 20
+      },
+      {
+        "x": 5,
+        "y": 25
+      },
+      {
+        "x": 6,
+        "y": 30
+      },
+      {
+        "x": 7,
+        "y": 35
+      },
+      {
+        "x": 8,
+        "y": 40
+      },
+      {
+        "x": 9,
+        "y": 45
+      },
+      {
+        "x": 10,
+        "y": 50
+      }
+    ],
+    "weapon_durability": [
+      {
+        "x": 1,
+        "y": 1.5
+      },
+      {
+        "x": 100,
+        "y": 1.5
+      }
+    ],
+    "weapon_electriciansenergydmg": [
+      {
+        "x": 1,
+        "y": 11
+      },
+      {
+        "x": 5,
+        "y": 12
+      },
+      {
+        "x": 10,
+        "y": 13
+      },
+      {
+        "x": 15,
+        "y": 14
+      },
+      {
+        "x": 20,
+        "y": 15
+      },
+      {
+        "x": 25,
+        "y": 16.5
+      },
+      {
+        "x": 30,
+        "y": 18
+      },
+      {
+        "x": 35,
+        "y": 19.5
+      },
+      {
+        "x": 40,
+        "y": 21
+      },
+      {
+        "x": 45,
+        "y": 23
+      },
+      {
+        "x": 50,
+        "y": 25
+      }
+    ],
+    "weapon_execute": [
+      {
+        "x": 1,
+        "y": 50
+      },
+      {
+        "x": 100,
+        "y": 50
+      }
+    ],
+    "weapon_fracturersexplosiondmg": [
+      {
+        "x": 1,
+        "y": 22
+      },
+      {
+        "x": 5,
+        "y": 24
+      },
+      {
+        "x": 10,
+        "y": 26
+      },
+      {
+        "x": 15,
+        "y": 28
+      },
+      {
+        "x": 20,
+        "y": 30
+      },
+      {
+        "x": 25,
+        "y": 33
+      },
+      {
+        "x": 30,
+        "y": 36
+      },
+      {
+        "x": 35,
+        "y": 39
+      },
+      {
+        "x": 40,
+        "y": 42
+      },
+      {
+        "x": 45,
+        "y": 46
+      },
+      {
+        "x": 50,
+        "y": 50
+      }
+    ],
+    "weapon_gourmand": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 5
+      },
+      {
+        "x": 2,
+        "y": 10
+      },
+      {
+        "x": 3,
+        "y": 15
+      },
+      {
+        "x": 4,
+        "y": 20
+      },
+      {
+        "x": 5,
+        "y": 25
+      },
+      {
+        "x": 6,
+        "y": 30
+      },
+      {
+        "x": 7,
+        "y": 35
+      },
+      {
+        "x": 8,
+        "y": 40
+      }
+    ],
+    "weapon_guns_rof": [
+      {
+        "x": 1,
+        "y": 0.25
+      },
+      {
+        "x": 100,
+        "y": 0.25
+      }
+    ],
+    "weapon_melee_swingspeed": [
+      {
+        "x": 1,
+        "y": 0.4
+      },
+      {
+        "x": 100,
+        "y": 0.4
+      }
+    ],
+    "weapon_melee_weight": [
+      {
+        "x": 1,
+        "y": -0.9
+      },
+      {
+        "x": 100,
+        "y": -0.9
+      }
+    ],
+    "weapon_reloadmeleespeedperkill": [
+      {
+        "x": 1,
+        "y": 0.03
+      },
+      {
+        "x": 10,
+        "y": 0.3
+      }
+    ],
+    "weapon_sane": [
+      {
+        "x": 0,
+        "y": 0
+      },
+      {
+        "x": 1,
+        "y": 5
+      },
+      {
+        "x": 2,
+        "y": 10
+      },
+      {
+        "x": 3,
+        "y": 15
+      },
+      {
+        "x": 4,
+        "y": 20
+      },
+      {
+        "x": 5,
+        "y": 25
+      },
+      {
+        "x": 6,
+        "y": 30
+      },
+      {
+        "x": 7,
+        "y": 35
+      },
+      {
+        "x": 8,
+        "y": 40
+      }
+    ],
+    "weapon_voltaicempdmg": [
+      {
+        "x": 1,
+        "y": 40
+      },
+      {
+        "x": 2,
+        "y": 60
+      },
+      {
+        "x": 3,
+        "y": 80
+      },
+      {
+        "x": 4,
+        "y": 100
+      },
+      {
+        "x": 5,
+        "y": 120
+      }
+    ],
+    "weapon_voltaicenergydmg": [
+      {
+        "x": 1,
+        "y": 11
+      },
+      {
+        "x": 5,
+        "y": 12
+      },
+      {
+        "x": 10,
+        "y": 13
+      },
+      {
+        "x": 15,
+        "y": 14
+      },
+      {
+        "x": 20,
+        "y": 15
+      },
+      {
+        "x": 25,
+        "y": 16.5
+      },
+      {
+        "x": 30,
+        "y": 18
+      },
+      {
+        "x": 35,
+        "y": 19.5
+      },
+      {
+        "x": 40,
+        "y": 21
+      },
+      {
+        "x": 45,
+        "y": 23
+      },
+      {
+        "x": 50,
+        "y": 25
+      }
+    ]
+  }
+}

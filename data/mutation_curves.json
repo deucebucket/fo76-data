@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "mutation_name": "Adrenal Reaction",
+    "curve_file": "mutation_adrenal_normal.json",
+    "input_value": 1.0,
+    "effect_value": 5.0
+  },
+  {
+    "id": 2,
+    "mutation_name": "Adrenal Reaction",
+    "curve_file": "mutation_adrenal_normal.json",
+    "input_value": 20.0,
+    "effect_value": 100.0
+  },
+  {
+    "id": 3,
+    "mutation_name": "Adrenal Reaction",
+    "curve_file": "mutation_adrenal_super.json",
+    "input_value": 1.0,
+    "effect_value": 6.25
+  },
+  {
+    "id": 4,
+    "mutation_name": "Adrenal Reaction",
+    "curve_file": "mutation_adrenal_super.json",
+    "input_value": 20.0,
+    "effect_value": 125.0
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "form_id": "0x00872E97",
+    "setting_name": "fMoveSpeedMultMax",
+    "value_float": 150.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "movement",
+    "description": "Maximum movement speed multiplier (150%)"
+  },
+  {
+    "id": 2,
+    "form_id": "0x00851143",
+    "setting_name": "fBouncedProjectilePowerMult",
+    "value_float": 0.7,
+    "value_int": null,
+    "value_string": null,
+    "category": "combat",
+    "description": "Bounced projectile damage multiplier"
+  },
+  {
+    "id": 3,
+    "form_id": "0x0081A7D3",
+    "setting_name": "fEvadeUsesAPScale",
+    "value_float": 30.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "combat",
+    "description": "AP cost for dodge/evade"
+  },
+  {
+    "id": 4,
+    "form_id": "0x007CF698",
+    "setting_name": "iVATSConcentratedFireBonus",
+    "value_float": 20.0,
+    "value_int": 20,
+    "value_string": null,
+    "category": "vats",
+    "description": "Concentrated Fire accuracy bonus per hit (20%)"
+  },
+  {
+    "id": 5,
+    "form_id": "0x0079C977",
+    "setting_name": "fLegendaryModShardChance",
+    "value_float": 0.015,
+    "value_int": null,
+    "value_string": null,
+    "category": "legendary",
+    "description": "Legendary module shard drop chance (1.5%)"
+  },
+  {
+    "id": 6,
+    "form_id": "0x0060A2E1",
+    "setting_name": "fStaggerCooldownDurationPlayer",
+    "value_float": 15.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "combat",
+    "description": "Player stagger cooldown duration"
+  },
+  {
+    "id": 7,
+    "form_id": "0x003D034E",
+    "setting_name": "fCarryWeightToCapacitySpeedPenaltyRatio",
+    "value_float": 4.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "movement",
+    "description": "Speed penalty per unit overweight"
+  },
+  {
+    "id": 8,
+    "form_id": "0x0013FA64",
+    "setting_name": "fHealthEnduranceMult",
+    "value_float": 0.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "special",
+    "description": "HP gained per Endurance point"
+  },
+  {
+    "id": 9,
+    "form_id": "0x00249662",
+    "setting_name": "fVATSCriticalChargeBase",
+    "value_float": 5.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "Base critical charge per VATS hit"
+  },
+  {
+    "id": 10,
+    "form_id": "0x0023AEC0",
+    "setting_name": "fVATSCriticalChargeMult",
+    "value_float": 1.5,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "Critical charge multiplier"
+  },
+  {
+    "id": 11,
+    "form_id": "0x0019FFB7",
+    "setting_name": "fPerceptionCompassBase",
+    "value_float": 1576.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "special",
+    "description": "Compass detection base range for Perception"
+  },
+  {
+    "id": 12,
+    "form_id": "0x00100CAF",
+    "setting_name": "fVATSMaxEngageDistance",
+    "value_float": 5000.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "Maximum VATS engagement distance"
+  },
+  {
+    "id": 13,
+    "form_id": "0x000E6F16",
+    "setting_name": "fHealthEnduranceOffset",
+    "value_float": 0.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "special",
+    "description": "Base HP offset for Endurance calc"
+  },
+  {
+    "id": 14,
+    "form_id": "0x000AA777",
+    "setting_name": "fXPModBase",
+    "value_float": 1.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "xp",
+    "description": "Base XP modifier (1.0 = 100%)"
+  },
+  {
+    "id": 15,
+    "form_id": "0x000AA776",
+    "setting_name": "fXPModMult",
+    "value_float": 0.03,
+    "value_int": null,
+    "value_string": null,
+    "category": "xp",
+    "description": "XP multiplier per Intelligence point (0.03 = 3%)"
+  },
+  {
+    "id": 16,
+    "form_id": "0x000A6C05",
+    "setting_name": "fActionPointsBlockStaggerMult",
+    "value_float": 0.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "combat",
+    "description": "Block stagger AP multiplier"
+  },
+  {
+    "id": 17,
+    "form_id": "0x000A6C04",
+    "setting_name": "fActionPointsBlockDmgMult",
+    "value_float": 0.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "combat",
+    "description": "Block damage AP multiplier"
+  },
+  {
+    "id": 18,
+    "form_id": "0x000A6C03",
+    "setting_name": "fActionPointsBlockBase",
+    "value_float": 0.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "combat",
+    "description": "Base AP cost for blocking"
+  },
+  {
+    "id": 19,
+    "form_id": "0x000A2777",
+    "setting_name": "fVATSChancePerceptionMultiplier",
+    "value_float": 0.004,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "Perception influence on VATS hit chance"
+  },
+  {
+    "id": 20,
+    "form_id": "0x0009E518",
+    "setting_name": "fVATSChanceDistanceMultiplier",
+    "value_float": 3.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "Distance influence on VATS hit chance"
+  },
+  {
+    "id": 21,
+    "form_id": "0x0009E517",
+    "setting_name": "fVATSChanceWeaponBaseMultiplier",
+    "value_float": 0.03,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "Weapon base VATS accuracy multiplier"
+  },
+  {
+    "id": 22,
+    "form_id": "0x0008A207",
+    "setting_name": "fActionPointsAttackRanged",
+    "value_float": 30.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "Base AP cost for ranged attack"
+  },
+  {
+    "id": 23,
+    "form_id": "0x0004C932",
+    "setting_name": "fPerceptionCompassMult",
+    "value_float": 256.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "special",
+    "description": "Compass detection per-point multiplier"
+  },
+  {
+    "id": 24,
+    "form_id": "0x00105CB7",
+    "setting_name": "fSneakAttackSkillUsageMelee",
+    "value_float": 30.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "combat",
+    "description": "Melee sneak attack skill usage"
+  },
+  {
+    "id": 25,
+    "form_id": "0x0001A152",
+    "setting_name": "fActionPointsVATSMeleeMult",
+    "value_float": 1.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "VATS melee AP cost multiplier"
+  },
+  {
+    "id": 26,
+    "form_id": "0x0001A150",
+    "setting_name": "fActionPointsSwitchWeapon",
+    "value_float": 10.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "AP cost to switch weapons"
+  },
+  {
+    "id": 27,
+    "form_id": "0x0001A14E",
+    "setting_name": "fActionPointsRunAndGunMult",
+    "value_float": 0.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "AP cost multiplier for run-and-gun"
+  },
+  {
+    "id": 28,
+    "form_id": "0x0001A14C",
+    "setting_name": "fActionPointsReload",
+    "value_float": 10.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "AP cost to reload in VATS"
+  },
+  {
+    "id": 29,
+    "form_id": "0x0001A146",
+    "setting_name": "fActionPointsAttackTwoHandMelee",
+    "value_float": 30.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "AP cost for two-handed melee in VATS"
+  },
+  {
+    "id": 30,
+    "form_id": "0x000142F8",
+    "setting_name": "fVATSPlayerDamageMult",
+    "value_float": 0.1,
+    "value_int": null,
+    "value_string": null,
+    "category": "vats",
+    "description": "VATS player damage multiplier"
+  },
+  {
+    "id": 31,
+    "form_id": "0x0001A145",
+    "setting_name": "fActionPointsAttackOneHandMelee",
+    "value_float": 15.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "AP cost for one-handed melee in VATS"
+  },
+  {
+    "id": 32,
+    "form_id": "0x0001A147",
+    "setting_name": "fActionPointsAttackUnarmed",
+    "value_float": 22.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "AP cost for unarmed attack in VATS"
+  },
+  {
+    "id": 33,
+    "form_id": "0x0001A14B",
+    "setting_name": "fActionPointsPowerAttackMult",
+    "value_float": 1.5,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "Multiplier for power attack AP cost"
+  },
+  {
+    "id": 34,
+    "form_id": "0x0001A14D",
+    "setting_name": "fActionPointsRestoreRate",
+    "value_float": 4.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "Base AP regeneration rate per second"
+  },
+  {
+    "id": 35,
+    "form_id": "0x0001A151",
+    "setting_name": "fActionPointsToggleWeaponDrawn",
+    "value_float": 10.0,
+    "value_int": null,
+    "value_string": null,
+    "category": "ap",
+    "description": "AP cost to draw/holster weapon"
+  }
+]

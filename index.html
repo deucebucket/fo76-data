@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FO76-DATA — Fallout 76 Game Data Research Database</title>
+<meta name="description" content="Searchable database of 38,000+ Fallout 76 game data entries extracted from ESM records, curve tables, BA2 archives, Papyrus scripts, and RTTI analysis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green: #14fe17;
+  --green-dim: #0b9e0d;
+  --green-dark: #063f07;
+  --green-faint: #0a2a0b;
+  --bg: #0a0a0a;
+  --bg-card: #0f1a0f;
+  --bg-card-hover: #132013;
+  --border: #1a3a1a;
+  --text: #14fe17;
+  --text-dim: #0da10f;
+  --text-faint: #085a09;
+  --red: #fe4a4a;
+  --amber: #fea514;
+  --yellow: #fee214;
+  --blue: #14b4fe;
+  --purple: #b464fe;
+  --cyan: #14fec8;
+  --white: #c8fec8;
+}
+
+html { font-size: 14px; }
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.08) 2px,
+    rgba(0, 0, 0, 0.08) 4px
+  );
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  92% { opacity: 1; }
+  93% { opacity: 0.97; }
+  94% { opacity: 1; }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  animation: flicker 8s infinite;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.header h1 {
+  font-size: 3rem;
+  letter-spacing: 0.3em;
+  text-shadow: 0 0 20px rgba(20, 254, 23, 0.4), 0 0 40px rgba(20, 254, 23, 0.15);
+  margin-bottom: 0.25rem;
+}
+
+.header .subtitle {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+.header .count {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.search-wrap {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.search-wrap::before {
+  content: '>';
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--green);
+  font-size: 1.2rem;
+}
+
+#search {
+  width: 100%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--green);
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.9rem 1rem 0.9rem 2.5rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#search::placeholder { color: var(--text-faint); }
+#search:focus {
+  border-color: var(--green-dim);
+  box-shadow: 0 0 15px rgba(20, 254, 23, 0.1);
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.filter-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  border-color: var(--green-dim);
+  color: var(--green);
+}
+
+.filter-btn.active {
+  background: var(--green-dark);
+  border-color: var(--green);
+  color: var(--green);
+  text-shadow: 0 0 8px rgba(20, 254, 23, 0.5);
+}
+
+.filter-btn .fcount {
+  opacity: 0.5;
+  font-size: 0.7rem;
+  margin-left: 0.3rem;
+}
+
+.results-info {
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--green-dark);
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  overflow: hidden;
+}
+
+.card:hover {
+  border-color: var(--green-dim);
+  background: var(--bg-card-hover);
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  padding: 0.8rem 1rem;
+  flex-wrap: wrap;
+}
+
+.card-title {
+  font-size: 1rem;
+  color: var(--green);
+  flex: 1;
+  min-width: 200px;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card-summary {
+  padding: 0 1rem 0.8rem;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+
+.card-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease-out;
+  border-top: 0px solid transparent;
+}
+
+.card.expanded .card-details {
+  max-height: 5000px;
+  border-top: 1px solid var(--border);
+  transition: max-height 0.5s ease-in;
+}
+
+.card-details-inner {
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid;
+  white-space: nowrap;
+}
+
+.badge-weapon { color: var(--red); border-color: var(--red); }
+.badge-perk { color: var(--blue); border-color: var(--blue); }
+.badge-legendary { color: var(--amber); border-color: var(--amber); }
+.badge-mutation { color: var(--purple); border-color: var(--purple); }
+.badge-power-armor { color: var(--cyan); border-color: var(--cyan); }
+.badge-game-setting { color: var(--yellow); border-color: var(--yellow); }
+.badge-finding { color: var(--green); border-color: var(--green); }
+.badge-native-function { color: #fe8c14; border-color: #fe8c14; }
+.badge-curve-table { color: #14c8fe; border-color: #14c8fe; }
+.badge-rtti-class { color: #c864fe; border-color: #c864fe; }
+.badge-script { color: #fe64a0; border-color: #fe64a0; }
+
+.lazy-load-notice {
+  text-align: center;
+  padding: 1rem;
+  color: var(--text-faint);
+  cursor: pointer;
+  border: 1px dashed var(--border);
+  margin: 0.5rem 0;
+  transition: all 0.2s;
+}
+.lazy-load-notice:hover {
+  border-color: var(--green-dim);
+  color: var(--text-dim);
+}
+
+.special-strength { color: #fe4a4a; border-color: #fe4a4a; }
+.special-perception { color: #14b4fe; border-color: #14b4fe; }
+.special-endurance { color: #fea514; border-color: #fea514; }
+.special-charisma { color: #14fe82; border-color: #14fe82; }
+.special-intelligence { color: #fee214; border-color: #fee214; }
+.special-agility { color: #b464fe; border-color: #b464fe; }
+.special-luck { color: #14fec8; border-color: #14fec8; }
+
+.status-confirmed { color: var(--green); border-color: var(--green); }
+.status-speculative { color: var(--yellow); border-color: var(--yellow); }
+.status-partial { color: var(--amber); border-color: var(--amber); }
+.status-unknown { color: var(--text-faint); border-color: var(--text-faint); }
+
+.stars { color: var(--amber); letter-spacing: 1px; font-size: 0.85rem; }
+
+.dmg-type {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid;
+}
+
+.dmg-ballistic { color: #c8c8c8; border-color: #555; }
+.dmg-energy { color: #14b4fe; border-color: #0a5a80; }
+.dmg-fire { color: #fe6a14; border-color: #803508; }
+.dmg-poison { color: #64fe14; border-color: #328008; }
+.dmg-radiation { color: #fefe14; border-color: #808008; }
+.dmg-cryo { color: #14e0fe; border-color: #0a7080; }
+.dmg-explosive { color: #fe4a4a; border-color: #802525; }
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.data-table th {
+  text-align: left;
+  color: var(--text-faint);
+  padding: 0.3rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+.data-table td {
+  padding: 0.3rem 0.6rem;
+  border-bottom: 1px solid var(--green-dark);
+  color: var(--text-dim);
+}
+
+.data-table tr:hover td {
+  background: rgba(20, 254, 23, 0.03);
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.4rem 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.detail-item {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.detail-label {
+  color: var(--text-faint);
+  min-width: 120px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.detail-value {
+  color: var(--text-dim);
+}
+
+.positive { color: var(--green); }
+.negative { color: var(--red); }
+.dim { color: var(--text-faint); }
+
+.md-content h1 { font-size: 1.3rem; color: var(--green); margin: 1rem 0 0.5rem; }
+.md-content h2 { font-size: 1.1rem; color: var(--green); margin: 1rem 0 0.4rem; border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+.md-content h3 { font-size: 1rem; color: var(--text); margin: 0.8rem 0 0.3rem; }
+.md-content p { margin: 0.4rem 0; color: var(--text-dim); }
+.md-content strong { color: var(--green); font-weight: normal; }
+.md-content em { font-style: italic; color: var(--text-dim); }
+.md-content code {
+  background: rgba(20, 254, 23, 0.08);
+  padding: 0.1rem 0.3rem;
+  color: var(--green);
+  font-size: 0.85em;
+}
+.md-content pre {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--border);
+  padding: 0.8rem;
+  overflow-x: auto;
+  margin: 0.5rem 0;
+}
+.md-content pre code {
+  background: none;
+  padding: 0;
+}
+.md-content ul, .md-content ol {
+  margin: 0.3rem 0 0.3rem 1.5rem;
+  color: var(--text-dim);
+}
+.md-content li { margin: 0.15rem 0; }
+.md-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0.8rem 0;
+}
+.md-content a {
+  color: var(--blue);
+  text-decoration: none;
+}
+.md-content a:hover { text-decoration: underline; }
+.md-content blockquote {
+  border-left: 3px solid var(--green-dark);
+  padding-left: 0.8rem;
+  margin: 0.5rem 0;
+  color: var(--text-faint);
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-dim);
+}
+
+.loading-dots::after {
+  content: '';
+  animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0% { content: ''; }
+  25% { content: '.'; }
+  50% { content: '..'; }
+  75% { content: '...'; }
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  border-top: 1px solid var(--green-dark);
+  margin-top: 2rem;
+}
+
+.footer a { color: var(--text-dim); text-decoration: none; }
+.footer a:hover { color: var(--green); }
+
+.expand-indicator {
+  color: var(--text-faint);
+  font-size: 0.75rem;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+.card.expanded .expand-indicator { transform: rotate(90deg); }
+
+.dmg-value {
+  color: var(--green);
+  font-size: 1.1rem;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--green-dark); }
+::-webkit-scrollbar-thumb:hover { background: var(--green-dim); }
+
+@media (max-width: 700px) {
+  html { font-size: 13px; }
+  .header h1 { font-size: 2rem; letter-spacing: 0.15em; }
+  .filters { gap: 0.3rem; }
+  .filter-btn { padding: 0.35rem 0.5rem; font-size: 0.75rem; }
+  .card-header { padding: 0.6rem 0.7rem; }
+  .card-details-inner { padding: 0.7rem; }
+  .detail-grid { grid-template-columns: 1fr; }
+  .container { padding: 1rem 0.5rem; }
+}
+
+.sentinel {
+  height: 1px;
+  margin-top: 1rem;
+}
+
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-faint);
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1>FO76-DATA</h1>
+    <div class="subtitle">fallout 76 game data &mdash; extracted from actual game files</div>
+    <div class="count" id="total-count">loading...</div>
+  </header>
+
+  <div class="search-wrap">
+    <input type="text" id="search" placeholder="search weapons, perks, legendary effects, findings..." autocomplete="off" spellcheck="false">
+  </div>
+
+  <div class="filters" id="filters"></div>
+
+  <div class="results-info" id="results-info"></div>
+
+  <div class="results" id="results">
+    <div class="loading">initializing database<span class="loading-dots"></span></div>
+  </div>
+
+  <div class="sentinel" id="sentinel"></div>
+
+  <footer class="footer">
+    FO76-DATA by <a href="https://github.com/deucebucket" target="_blank" rel="noopener">deucebucket</a>
+    &middot; data extracted from ESM records, curve tables, BA2 archives &amp; Papyrus scripts
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script>
+(function() {
+'use strict';
+
+var allData = [];
+var fuse = null;
+var fuseOptions = null;
+var activeFilter = 'all';
+var currentResults = [];
+var renderedCount = 0;
+var BATCH_SIZE = 50;
+
+var rttiData = null;
+var scriptsData = null;
+var rttiLoading = false;
+var scriptsLoading = false;
+
+var TYPE_TO_DISPLAY = {
+  finding: 'Findings',
+  weapon: 'Weapons',
+  perk: 'Perks',
+  legendary: 'Legendary',
+  mutation: 'Mutations',
+  power_armor: 'Power Armor',
+  game_setting: 'Game Settings',
+  native_function: 'Native Functions',
+  curve_table: 'Curve Tables',
+  rtti_class: 'C++ Classes',
+  script: 'Scripts'
+};
+
+var DISPLAY_TO_TYPE = {};
+Object.keys(TYPE_TO_DISPLAY).forEach(function(k) { DISPLAY_TO_TYPE[TYPE_TO_DISPLAY[k]] = k; });
+
+var FILTER_ORDER = ['All', 'Findings', 'Weapons', 'Perks', 'Legendary', 'Mutations', 'Power Armor', 'Game Settings', 'Native Functions', 'Curve Tables', 'C++ Classes', 'Scripts'];
+
+var LAZY_COUNTS = { 'C++ Classes': 28866, 'Scripts': 7095 };
+
+var SPECIAL_CLASSES = {
+  Strength: 'special-strength',
+  Perception: 'special-perception',
+  Endurance: 'special-endurance',
+  Charisma: 'special-charisma',
+  Intelligence: 'special-intelligence',
+  Agility: 'special-agility',
+  Luck: 'special-luck'
+};
+
+var DMG_CLASSES = {
+  ballistic: 'dmg-ballistic',
+  energy: 'dmg-energy',
+  fire: 'dmg-fire',
+  poison: 'dmg-poison',
+  radiation: 'dmg-radiation',
+  cryo: 'dmg-cryo',
+  explosive: 'dmg-explosive'
+};
+
+function esc(s) {
+  if (s == null) return '';
+  var d = document.createElement('div');
+  d.appendChild(document.createTextNode(String(s)));
+  return d.innerHTML;
+}
+
+function formatNum(n) {
+  if (n == null) return '-';
+  return Number.isInteger(n) ? String(n) : n.toFixed(1);
+}
+
+function formatPercent(n) {
+  if (n == null) return null;
+  return (n * 100).toFixed(1) + '%';
+}
+
+function detailItem(label, value) {
+  if (value == null || value === '' || value === 'None') return '';
+  var el = document.createElement('div');
+  el.className = 'detail-item';
+  var lbl = document.createElement('span');
+  lbl.className = 'detail-label';
+  lbl.textContent = label;
+  var val = document.createElement('span');
+  val.className = 'detail-value';
+  val.textContent = String(value);
+  el.appendChild(lbl);
+  el.appendChild(val);
+  return el.outerHTML;
+}
+
+/* Markdown renderer */
+function renderMarkdown(text) {
+  if (!text) return '';
+  var html = '';
+  var lines = text.split('\n');
+  var inCodeBlock = false;
+  var codeBuffer = [];
+  var inList = false;
+  var listType = '';
+
+  for (var i = 0; i < lines.length; i++) {
+    var line = lines[i];
+
+    if (line.startsWith('```')) {
+      if (inCodeBlock) {
+        html += '<pre><code>' + esc(codeBuffer.join('\n')) + '</code></pre>';
+        codeBuffer = [];
+        inCodeBlock = false;
+      } else {
+        if (inList) { html += listType === 'ul' ? '</ul>' : '</ol>'; inList = false; }
+        inCodeBlock = true;
+      }
+      continue;
+    }
+
+    if (inCodeBlock) {
+      codeBuffer.push(line);
+      continue;
+    }
+
+    if (/^---+$/.test(line.trim())) {
+      if (inList) { html += listType === 'ul' ? '</ul>' : '</ol>'; inList = false; }
+      html += '<hr>';
+      continue;
+    }
+
+    var headingMatch = line.match(/^(#{1,3})\s+(.+)$/);
+    if (headingMatch) {
+      if (inList) { html += listType === 'ul' ? '</ul>' : '</ol>'; inList = false; }
+      var level = headingMatch[1].length;
+      html += '<h' + level + '>' + inlineFormat(headingMatch[2]) + '</h' + level + '>';
+      continue;
+    }
+
+    if (/^[\-\*]\s+/.test(line)) {
+      if (!inList || listType !== 'ul') {
+        if (inList) html += listType === 'ul' ? '</ul>' : '</ol>';
+        html += '<ul>';
+        inList = true;
+        listType = 'ul';
+      }
+      html += '<li>' + inlineFormat(line.replace(/^[\-\*]\s+/, '')) + '</li>';
+      continue;
+    }
+
+    var olMatch = line.match(/^(\d+)\.\s+(.+)$/);
+    if (olMatch) {
+      if (!inList || listType !== 'ol') {
+        if (inList) html += listType === 'ul' ? '</ul>' : '</ol>';
+        html += '<ol>';
+        inList = true;
+        listType = 'ol';
+      }
+      html += '<li>' + inlineFormat(olMatch[2]) + '</li>';
+      continue;
+    }
+
+    if (inList && line.trim() === '') {
+      html += listType === 'ul' ? '</ul>' : '</ol>';
+      inList = false;
+      continue;
+    }
+
+    if (line.trim() === '') {
+      html += '<br>';
+      continue;
+    }
+
+    html += '<p>' + inlineFormat(line) + '</p>';
+  }
+
+  if (inCodeBlock) {
+    html += '<pre><code>' + esc(codeBuffer.join('\n')) + '</code></pre>';
+  }
+  if (inList) {
+    html += listType === 'ul' ? '</ul>' : '</ol>';
+  }
+
+  return html;
+}
+
+function inlineFormat(text) {
+  text = esc(text);
+  text = text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  text = text.replace(/\*(.+?)\*/g, '<em>$1</em>');
+  text = text.replace(/`([^`]+)`/g, '<code>$1</code>');
+  text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  return text;
+}
+
+/* Card renderers */
+
+function renderWeaponCard(item) {
+  var d = item.data || {};
+  var dmgClass = DMG_CLASSES[item.damage_type] || 'dmg-ballistic';
+  var dmgLabel = item.damage_type || 'ballistic';
+  var catText = [item.category, item.subcategory].filter(Boolean).join(' \u2022 ');
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-weapon">weapon</span>' +
+      (catText ? '<span class="dim">' + esc(catText) + '</span>' : '') +
+      '<span class="dmg-type ' + dmgClass + '">' + esc(dmgLabel) + '</span>' +
+      (item.damage_50 != null ? '<span class="dmg-value">' + formatNum(item.damage_50) + ' dmg</span>' : '') +
+      (item.ammo_type ? '<span class="dim">' + esc(item.ammo_type) + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var levels = [1,5,10,15,20,25,30,35,40,45,50];
+  var curveRows = '';
+  var hasCurve = false;
+  levels.forEach(function(lv) {
+    var val = d['damage_level_' + lv];
+    if (val != null) {
+      hasCurve = true;
+      curveRows += '<td>' + formatNum(val) + '</td>';
+    } else {
+      curveRows += '<td>-</td>';
+    }
+  });
+
+  var curveTable = '';
+  if (hasCurve) {
+    curveTable = '<table class="data-table">' +
+      '<tr>' + levels.map(function(l) { return '<th>Lv ' + l + '</th>'; }).join('') + '</tr>' +
+      '<tr>' + curveRows + '</tr>' +
+    '</table>';
+  }
+
+  var details = '<div class="card-details-inner">' +
+    (curveTable ? '<div style="margin-bottom:0.8rem"><span class="detail-label">damage scaling</span>' + curveTable + '</div>' : '') +
+    '<div class="detail-grid">' +
+      detailItem('AP Cost', d.ap_cost) +
+      detailItem('Fire Rate', d.fire_rate) +
+      detailItem('Accuracy', d.accuracy) +
+      detailItem('Range', d.range_val) +
+      detailItem('Weight', d.weight) +
+      detailItem('Magazine', d.magazine_size) +
+      detailItem('Ammo/Shot', d.ammo_per_shot) +
+      detailItem('Durability', d.durability) +
+      detailItem('Automatic', d.is_automatic ? 'Yes' : 'No') +
+      detailItem('Legendary', d.is_legendary ? 'Yes' : 'No') +
+    '</div>' +
+    '<div class="detail-grid" style="margin-top:0.5rem">' +
+      detailItem('Editor ID', item.editor_id || d.editor_id) +
+      detailItem('Form ID', item.form_id || d.form_id) +
+      detailItem('Curve File', item.curve_file || d.damage_curve_file) +
+      detailItem('Data Source', d.data_source) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: '' };
+}
+
+function renderPerkCard(item) {
+  var d = item.data || {};
+  var specialClass = SPECIAL_CLASSES[item.special] || '';
+  var costDots = item.cost ? '\u2666'.repeat(item.cost) : '';
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-perk">perk</span>' +
+      (item.special ? '<span class="badge ' + specialClass + '">' + esc(item.special) + '</span>' : '') +
+      (costDots ? '<span class="dim" title="Card cost: ' + item.cost + '">' + costDots + '</span>' : '') +
+      '<span class="dim">Rank ' + (item.rank || '?') + '/' + (item.max_rank || '?') + '</span>' +
+      (item.is_legendary ? '<span class="badge badge-legendary">legendary</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('Min Level', item.min_level) +
+      detailItem('Cost', item.cost) +
+      detailItem('Rank', (item.rank || '?') + ' / ' + (item.max_rank || '?')) +
+      detailItem('SPECIAL', item.special) +
+      detailItem('Legendary', item.is_legendary ? 'Yes' : 'No') +
+      detailItem('Ghoul Only', d.is_ghoul ? 'Yes' : 'No') +
+      detailItem('Editor ID', d.editor_id) +
+      detailItem('Form ID', d.form_id) +
+      detailItem('Bonus Curve', d.bonus_curve_file) +
+      detailItem('Data Source', d.data_source) +
+    '</div>' +
+    (d.conditions ? '<div style="margin-top:0.5rem"><span class="detail-label">conditions</span><div>' + esc(d.conditions) + '</div></div>' : '') +
+  '</div>';
+
+  return { header: header, details: details, summary: summary };
+}
+
+function renderLegendaryCard(item) {
+  var d = item.data || {};
+  var starCount = item.star_slot || 1;
+  var stars = '\u2605'.repeat(starCount);
+  var appliesToLabel = item.applies_to || 'unknown';
+
+  var scalingExplained = {
+    flat: 'Fixed value, does not scale',
+    health_percent: 'Scales with health percentage',
+    level: 'Scales with player level',
+    damage_percent: 'Scales as percentage of damage',
+    resistance: 'Scales with resistance values',
+    stacking: 'Stacks with repeated hits'
+  };
+  var scalingText = scalingExplained[item.scaling_type] || item.scaling_type || 'Unknown';
+
+  var header = '<div class="card-title">' + esc(item.effect_name || item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-legendary">legendary</span>' +
+      '<span class="stars">' + stars + '</span>' +
+      '<span class="badge ' + (appliesToLabel === 'weapon' ? 'badge-weapon' : appliesToLabel === 'armor' ? 'badge-perk' : 'badge-legendary') + '">' + esc(appliesToLabel) + '</span>' +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('Scaling', scalingText) +
+      detailItem('Base Magnitude', d.base_magnitude != null ? formatPercent(d.base_magnitude) : null) +
+      detailItem('Max Magnitude', item.max_magnitude != null ? formatPercent(item.max_magnitude) : null) +
+      detailItem('Star Slot', starCount + '-star') +
+      detailItem('Applies To', appliesToLabel) +
+      detailItem('Curve File', item.curve_file) +
+      detailItem('Editor ID', item.editor_id || d.editor_id) +
+      detailItem('Data Source', d.data_source) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: summary };
+}
+
+function renderMutationCard(item) {
+  var d = item.data || {};
+
+  var header = '<div class="card-title">' + esc(d.mutation_name || item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-mutation">mutation</span>' +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var benefit = d.benefit_description || '';
+  var penalty = d.penalty_description || '';
+
+  var summary = '<div class="card-summary">' +
+    (benefit ? '<span class="positive">+ ' + esc(benefit) + '</span>' : '') +
+    (penalty ? '<br><span class="negative">- ' + esc(penalty) + '</span>' : '') +
+  '</div>';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('Benefit Value', d.benefit_value) +
+      detailItem('Penalty Value', d.penalty_value) +
+      detailItem('Class Freak', d.class_freak_penalty) +
+      detailItem('Strange in Numbers', d.strange_in_numbers_bonus) +
+      detailItem('Stacks With', d.stacks_with) +
+      detailItem('Curve File', d.curve_file) +
+      detailItem('Data Source', d.data_source) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: summary };
+}
+
+function renderPowerArmorCard(item) {
+  var d = item.data || {};
+
+  var header = '<div class="card-title">' + esc(d.display_name || item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-power-armor">power armor</span>' +
+      (d.min_level ? '<span class="dim">Level ' + d.min_level + (d.max_level && d.max_level !== d.min_level ? '-' + d.max_level : '') + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('PA Type', d.pa_type) +
+      detailItem('Min Level', d.min_level) +
+      detailItem('Max Level', d.max_level) +
+      detailItem('Carry Weight Bonus', d.carry_weight_bonus) +
+      detailItem('Unique Effects', d.unique_effects) +
+      detailItem('Data Source', d.data_source) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: '' };
+}
+
+function renderGameSettingCard(item) {
+  var d = item.data || {};
+  var val = d.value_float != null ? d.value_float : (d.value_int != null ? d.value_int : d.value_string);
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-game-setting">setting</span>' +
+      '<span class="dim">' + esc(item.category || '') + '</span>' +
+      (val != null ? '<span class="dmg-value" style="font-size:0.9rem">' + esc(String(val)) + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('Float Value', d.value_float) +
+      detailItem('Int Value', d.value_int) +
+      detailItem('String Value', d.value_string) +
+      detailItem('Category', d.category) +
+      detailItem('Form ID', d.form_id) +
+      detailItem('Setting Name', d.setting_name) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: summary };
+}
+
+function renderFindingCard(item) {
+  var statusClassMap = {
+    'CONFIRMED': 'status-confirmed',
+    'SPECULATIVE': 'status-speculative',
+    'PARTIALLY CONFIRMED': 'status-partial',
+    'OLD NEWS': 'status-partial',
+    'PARTIALLY KNOWN': 'status-partial'
+  };
+
+  var statusBadge = '';
+  if (item.status) {
+    var cls = 'status-unknown';
+    var upper = item.status.toUpperCase();
+    Object.keys(statusClassMap).forEach(function(k) {
+      if (upper.indexOf(k) !== -1) cls = statusClassMap[k];
+    });
+    statusBadge = '<span class="badge ' + cls + '">' + esc(item.status) + '</span>';
+  }
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-finding">finding</span>' +
+      statusBadge +
+      (item.source ? '<span class="dim">' + esc(item.source) + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var preview = '';
+  if (item.content) {
+    var plainText = item.content
+      .replace(/^#{1,3}\s+.+$/gm, '')
+      .replace(/\*\*/g, '')
+      .replace(/\*/g, '')
+      .replace(/`[^`]+`/g, '')
+      .replace(/---+/g, '')
+      .trim()
+      .slice(0, 200);
+    if (plainText) {
+      preview = '<div class="card-summary">' + esc(plainText.trim()) + (item.content.length > 200 ? '...' : '') + '</div>';
+    }
+  }
+
+  var details = '<div class="card-details-inner md-content">' +
+    (item.file ? '<div class="dim" style="margin-bottom:0.5rem">Source: ' + esc(item.file) + '</div>' : '') +
+    renderMarkdown(item.content || 'No content available.') +
+  '</div>';
+
+  return { header: header, details: details, summary: preview };
+}
+
+function renderNativeFunctionCard(item) {
+  var d = item.data || {};
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-native-function">native</span>' +
+      '<span class="dim">' + esc(item.class_name || '') + '</span>' +
+      (item.return_type ? '<span class="dim">→ ' + esc(item.return_type) + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var summary = item.description ? '<div class="card-summary">' + esc(item.description) + '</div>' : '';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('Class', item.class_name) +
+      detailItem('Function', item.function_name) +
+      detailItem('Return Type', item.return_type) +
+      detailItem('Parameters', item.params) +
+      detailItem('Description', item.description) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: summary };
+}
+
+function renderCurveTableCard(item) {
+  var d = item.data || {};
+  var points = d.points || [];
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-curve-table">curve</span>' +
+      '<span class="dim">' + esc(item.category || '') + '</span>' +
+      (item.num_points ? '<span class="dim">' + item.num_points + ' points</span>' : '') +
+      (item.min_value != null && item.max_value != null ? '<span class="dim">' + formatNum(item.min_value) + ' → ' + formatNum(item.max_value) + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var curveTable = '';
+  if (Array.isArray(points) && points.length > 0 && points.length <= 50) {
+    var rows = '';
+    points.forEach(function(p) {
+      var x = p.x != null ? p.x : (p.X != null ? p.X : (Array.isArray(p) ? p[0] : ''));
+      var y = p.y != null ? p.y : (p.Y != null ? p.Y : (Array.isArray(p) ? p[1] : ''));
+      rows += '<tr><td>' + formatNum(x) + '</td><td>' + formatNum(y) + '</td></tr>';
+    });
+    curveTable = '<table class="data-table"><tr><th>Input (X)</th><th>Output (Y)</th></tr>' + rows + '</table>';
+  }
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('File', item.curve_file) +
+      detailItem('Category', item.category) +
+      detailItem('Points', item.num_points) +
+      detailItem('Min Value', item.min_value) +
+      detailItem('Max Value', item.max_value) +
+    '</div>' +
+    curveTable +
+  '</div>';
+
+  return { header: header, details: details, summary: '' };
+}
+
+function renderRttiClassCard(item) {
+  var d = item.data || {};
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-rtti-class">C++ class</span>' +
+      (item.category ? '<span class="dim">' + esc(item.category) + '</span>' : '') +
+      (item.parent ? '<span class="dim">: ' + esc(item.parent) + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('Class Name', item.title) +
+      detailItem('Category', item.category) +
+      detailItem('Parent Class', item.parent) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: '' };
+}
+
+function renderScriptCard(item) {
+  var d = item.data || {};
+
+  var header = '<div class="card-title">' + esc(item.title) + '</div>' +
+    '<div class="card-meta">' +
+      '<span class="badge badge-script">script</span>' +
+      (item.script_type ? '<span class="dim">' + esc(item.script_type) + '</span>' : '') +
+      '<span class="expand-indicator">&#9654;</span>' +
+    '</div>';
+
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+      detailItem('Script Name', item.title) +
+      detailItem('Type', item.script_type) +
+    '</div>' +
+  '</div>';
+
+  return { header: header, details: details, summary: '' };
+}
+
+/* Card rendering */
+
+function renderCard(item) {
+  var parts;
+  switch (item.type) {
+    case 'weapon': parts = renderWeaponCard(item); break;
+    case 'perk': parts = renderPerkCard(item); break;
+    case 'legendary': parts = renderLegendaryCard(item); break;
+    case 'mutation': parts = renderMutationCard(item); break;
+    case 'power_armor': parts = renderPowerArmorCard(item); break;
+    case 'game_setting': parts = renderGameSettingCard(item); break;
+    case 'finding': parts = renderFindingCard(item); break;
+    case 'native_function': parts = renderNativeFunctionCard(item); break;
+    case 'curve_table': parts = renderCurveTableCard(item); break;
+    case 'rtti_class': parts = renderRttiClassCard(item); break;
+    case 'script': parts = renderScriptCard(item); break;
+    default: parts = { header: '<div class="card-title">' + esc(item.title) + '</div>', details: '', summary: '' };
+  }
+
+  var card = document.createElement('div');
+  card.className = 'card';
+  card.setAttribute('data-id', item.id);
+
+  var headerDiv = document.createElement('div');
+  headerDiv.className = 'card-header';
+  headerDiv.innerHTML = parts.header;
+  card.appendChild(headerDiv);
+
+  if (parts.summary) {
+    var summaryDiv = document.createElement('div');
+    summaryDiv.innerHTML = parts.summary;
+    var summaryChild = summaryDiv.firstChild;
+    if (summaryChild) card.appendChild(summaryChild);
+  }
+
+  var detailsDiv = document.createElement('div');
+  detailsDiv.className = 'card-details';
+  detailsDiv.innerHTML = parts.details;
+  card.appendChild(detailsDiv);
+
+  return card;
+}
+
+function renderBatch() {
+  var container = document.getElementById('results');
+  var end = Math.min(renderedCount + BATCH_SIZE, currentResults.length);
+
+  if (renderedCount === 0) {
+    while (container.firstChild) container.removeChild(container.firstChild);
+  }
+
+  var fragment = document.createDocumentFragment();
+  for (var i = renderedCount; i < end; i++) {
+    var item = currentResults[i].item || currentResults[i];
+    fragment.appendChild(renderCard(item));
+  }
+
+  container.appendChild(fragment);
+  renderedCount = end;
+}
+
+function updateResults() {
+  var query = document.getElementById('search').value.trim();
+  var results;
+
+  if (query.length > 0) {
+    results = fuse.search(query, { limit: 500 });
+  } else {
+    results = allData.map(function(item) { return { item: item }; });
+  }
+
+  if (activeFilter !== 'all') {
+    var filterType = DISPLAY_TO_TYPE[activeFilter];
+    results = results.filter(function(r) { return (r.item || r).type === filterType; });
+  }
+
+  currentResults = results;
+  renderedCount = 0;
+
+  var total = allData.length;
+  var showing = results.length;
+  document.getElementById('results-info').textContent = 'showing ' + showing + ' of ' + total + ' entries';
+
+  if (results.length === 0) {
+    var container = document.getElementById('results');
+    while (container.firstChild) container.removeChild(container.firstChild);
+    var noRes = document.createElement('div');
+    noRes.className = 'no-results';
+    noRes.textContent = 'no matching entries found';
+    container.appendChild(noRes);
+    return;
+  }
+
+  renderBatch();
+}
+
+/* Filters */
+
+async function loadLazyData(type) {
+  if (type === 'rtti_class' && !rttiData && !rttiLoading) {
+    rttiLoading = true;
+    try {
+      var resp = await fetch('data/rtti_index.json');
+      rttiData = await resp.json();
+      allData = allData.concat(rttiData);
+      rebuildFuse();
+    } catch(e) { console.error('Failed to load RTTI data', e); }
+    rttiLoading = false;
+  }
+  if (type === 'script' && !scriptsData && !scriptsLoading) {
+    scriptsLoading = true;
+    try {
+      var resp = await fetch('data/scripts_index.json');
+      scriptsData = await resp.json();
+      allData = allData.concat(scriptsData);
+      rebuildFuse();
+    } catch(e) { console.error('Failed to load scripts data', e); }
+    scriptsLoading = false;
+  }
+}
+
+function rebuildFuse() {
+  fuse = new Fuse(allData, fuseOptions);
+  buildFilters();
+}
+
+function buildFilters() {
+  var counts = { All: allData.length };
+  allData.forEach(function(item) {
+    var display = TYPE_TO_DISPLAY[item.type] || item.type;
+    counts[display] = (counts[display] || 0) + 1;
+  });
+  // Add lazy counts for unloaded data
+  Object.keys(LAZY_COUNTS).forEach(function(name) {
+    if (!counts[name]) {
+      counts[name] = LAZY_COUNTS[name];
+      counts['All'] += LAZY_COUNTS[name];
+    }
+  });
+
+  var container = document.getElementById('filters');
+  while (container.firstChild) container.removeChild(container.firstChild);
+
+  FILTER_ORDER.forEach(function(name) {
+    if (counts[name] == null && name !== 'All') return;
+    var btn = document.createElement('button');
+    btn.className = 'filter-btn' + ((name === 'All' && activeFilter === 'all') || activeFilter === name ? ' active' : '');
+    var countSpan = document.createElement('span');
+    countSpan.className = 'fcount';
+    countSpan.textContent = counts[name] || 0;
+    btn.appendChild(document.createTextNode(name + ' '));
+    btn.appendChild(countSpan);
+    btn.setAttribute('data-filter', name);
+    btn.addEventListener('click', async function() {
+      activeFilter = name === 'All' ? 'all' : name;
+      var buttons = document.querySelectorAll('.filter-btn');
+      for (var i = 0; i < buttons.length; i++) buttons[i].classList.remove('active');
+      btn.classList.add('active');
+
+      // Lazy load if needed
+      var filterType = DISPLAY_TO_TYPE[name];
+      if (filterType === 'rtti_class' && !rttiData) {
+        btn.textContent = 'Loading C++ Classes...';
+        await loadLazyData('rtti_class');
+        LAZY_COUNTS = {};
+        buildFilters();
+      } else if (filterType === 'script' && !scriptsData) {
+        btn.textContent = 'Loading Scripts...';
+        await loadLazyData('script');
+        LAZY_COUNTS = {};
+        buildFilters();
+      }
+
+      updateResults();
+
+      if (name === 'All') {
+        history.replaceState(null, '', window.location.pathname);
+      } else {
+        history.replaceState(null, '', '#' + name.toLowerCase().replace(/\s+/g, '-'));
+      }
+    });
+    container.appendChild(btn);
+  });
+}
+
+/* Infinite scroll */
+
+function setupInfiniteScroll() {
+  var sentinel = document.getElementById('sentinel');
+  var observer = new IntersectionObserver(function(entries) {
+    if (entries[0].isIntersecting && renderedCount < currentResults.length) {
+      renderBatch();
+    }
+  }, { rootMargin: '400px' });
+  observer.observe(sentinel);
+}
+
+/* Card expand/collapse */
+
+document.getElementById('results').addEventListener('click', function(e) {
+  var card = e.target.closest('.card');
+  if (!card) return;
+  if (e.target.tagName === 'A') return;
+  card.classList.toggle('expanded');
+});
+
+/* Hash routing */
+
+function applyHash() {
+  var hash = window.location.hash.slice(1).toLowerCase().replace(/-/g, ' ');
+  if (!hash) return;
+
+  var match = null;
+  FILTER_ORDER.forEach(function(f) {
+    if (f.toLowerCase() === hash) match = f;
+  });
+
+  if (match) {
+    activeFilter = match === 'All' ? 'all' : match;
+    var buttons = document.querySelectorAll('.filter-btn');
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.toggle('active', buttons[i].getAttribute('data-filter') === match);
+    }
+    updateResults();
+  }
+}
+
+/* Search debounce */
+
+var searchTimer = null;
+document.getElementById('search').addEventListener('input', function() {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(updateResults, 80);
+});
+
+/* Init */
+
+async function init() {
+  try {
+    var resp = await fetch('data/search_index.json');
+    if (!resp.ok) throw new Error('Failed to load data: ' + resp.status);
+    allData = await resp.json();
+
+    var totalWithLazy = allData.length + 28866 + 7095;
+    document.getElementById('total-count').textContent = totalWithLazy.toLocaleString() + ' entries across ' + Object.keys(TYPE_TO_DISPLAY).length + ' categories';
+
+    fuseOptions = {
+      keys: [
+        { name: 'title', weight: 3 },
+        { name: 'perk_name', weight: 2.5 },
+        { name: 'effect_name', weight: 2.5 },
+        { name: 'function_name', weight: 2.5 },
+        { name: 'class_name', weight: 2 },
+        { name: 'description', weight: 2 },
+        { name: 'content', weight: 1 },
+        { name: 'category', weight: 1.5 },
+        { name: 'subcategory', weight: 1.5 },
+        { name: 'special', weight: 1.5 },
+        { name: 'editor_id', weight: 1 },
+        { name: 'form_id', weight: 1 },
+        { name: 'ammo_type', weight: 1 },
+        { name: 'damage_type', weight: 1 },
+        { name: 'scaling_type', weight: 1 },
+        { name: 'applies_to', weight: 1 },
+        { name: 'curve_file', weight: 1 },
+        { name: 'parent', weight: 1 },
+        { name: 'script_type', weight: 1 },
+        { name: 'return_type', weight: 1 },
+        { name: 'params', weight: 0.8 },
+        { name: 'data.mutation_name', weight: 2 },
+        { name: 'data.display_name', weight: 2 },
+        { name: 'data.setting_name', weight: 2 },
+        { name: 'data.benefit_description', weight: 1.5 },
+        { name: 'data.penalty_description', weight: 1.5 },
+        { name: 'data.description', weight: 1.5 },
+        { name: 'status', weight: 1 },
+        { name: 'source', weight: 1 }
+      ],
+      threshold: 0.35,
+      ignoreLocation: true,
+      minMatchCharLength: 2
+    };
+    fuse = new Fuse(allData, fuseOptions);
+
+    buildFilters();
+    setupInfiniteScroll();
+    updateResults();
+    applyHash();
+
+  } catch (err) {
+    var container = document.getElementById('results');
+    while (container.firstChild) container.removeChild(container.firstChild);
+    var errDiv = document.createElement('div');
+    errDiv.className = 'no-results';
+    errDiv.textContent = 'error loading database: ' + err.message;
+    container.appendChild(errDiv);
+    console.error(err);
+  }
+}
+
+window.addEventListener('hashchange', applyHash);
+init();
+
+})();
+</script>
+</body>
+</html>

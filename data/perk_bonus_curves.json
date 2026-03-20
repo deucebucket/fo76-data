@@ -1,0 +1,2306 @@
+[
+  {
+    "id": 1,
+    "perk_name": "Adamantium Skeleton",
+    "curve_file": "adamantiumskeletonbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 2,
+    "perk_name": "Adamantium Skeleton",
+    "curve_file": "adamantiumskeletonbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 35.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 3,
+    "perk_name": "Adamantium Skeleton",
+    "curve_file": "adamantiumskeletonbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 60.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 4,
+    "perk_name": "Adamantium Skeleton",
+    "curve_file": "adamantiumskeletonbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 90.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 5,
+    "perk_name": "Adamantium Skeleton",
+    "curve_file": "adamantiumskeletonbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 6,
+    "perk_name": "Adrenaline",
+    "curve_file": "adrenalinebonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "kills",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 7,
+    "perk_name": "Adrenaline",
+    "curve_file": "adrenalinebonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "kills",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 8,
+    "perk_name": "Adrenaline",
+    "curve_file": "adrenalinebonus.json",
+    "input_value": 10.0,
+    "bonus_value": 100.0,
+    "input_type": "kills",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 9,
+    "perk_name": "Awareness",
+    "curve_file": "awarenessbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 5.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 10,
+    "perk_name": "Awareness",
+    "curve_file": "awarenessbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 18.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 11,
+    "perk_name": "Awareness",
+    "curve_file": "awarenessbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 30.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 12,
+    "perk_name": "Awareness",
+    "curve_file": "awarenessbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 45.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 13,
+    "perk_name": "Awareness",
+    "curve_file": "awarenessbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 50.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 14,
+    "perk_name": "Barbarian",
+    "curve_file": "barbarianbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 18.0,
+    "input_type": "strength",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 15,
+    "perk_name": "Barbarian",
+    "curve_file": "barbarianbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 61.0,
+    "input_type": "strength",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 16,
+    "perk_name": "Barbarian",
+    "curve_file": "barbarianbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 96.0,
+    "input_type": "strength",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 17,
+    "perk_name": "Barbarian",
+    "curve_file": "barbarianbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 131.0,
+    "input_type": "strength",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 18,
+    "perk_name": "Barbarian",
+    "curve_file": "barbarianbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 175.0,
+    "input_type": "strength",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 19,
+    "perk_name": "Bloody Mess",
+    "curve_file": "bloodymesschance.json",
+    "input_value": 1.0,
+    "bonus_value": 0.1,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 20,
+    "perk_name": "Bloody Mess",
+    "curve_file": "bloodymesschance.json",
+    "input_value": 15.0,
+    "bonus_value": 0.35,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 21,
+    "perk_name": "Bloody Mess",
+    "curve_file": "bloodymesschance.json",
+    "input_value": 30.0,
+    "bonus_value": 0.5,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 22,
+    "perk_name": "Bloody Mess",
+    "curve_file": "bloodymesschance.json",
+    "input_value": 60.0,
+    "bonus_value": 0.75,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 23,
+    "perk_name": "Bloody Mess",
+    "curve_file": "bloodymesschance.json",
+    "input_value": 100.0,
+    "bonus_value": 1.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 24,
+    "perk_name": "Bodyguards",
+    "curve_file": "bodyguardsbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 4.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 25,
+    "perk_name": "Bodyguards",
+    "curve_file": "bodyguardsbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 15.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 26,
+    "perk_name": "Bodyguards",
+    "curve_file": "bodyguardsbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 24.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 27,
+    "perk_name": "Bodyguards",
+    "curve_file": "bodyguardsbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 32.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 28,
+    "perk_name": "Bodyguards",
+    "curve_file": "bodyguardsbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 43.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 29,
+    "perk_name": "Can Do!",
+    "curve_file": "candobonus.json",
+    "input_value": 1.0,
+    "bonus_value": 2.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 30,
+    "perk_name": "Can Do!",
+    "curve_file": "candobonus.json",
+    "input_value": 15.0,
+    "bonus_value": 2.75,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 31,
+    "perk_name": "Can Do!",
+    "curve_file": "candobonus.json",
+    "input_value": 30.0,
+    "bonus_value": 3.2,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 32,
+    "perk_name": "Can Do!",
+    "curve_file": "candobonus.json",
+    "input_value": 60.0,
+    "bonus_value": 3.65,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 33,
+    "perk_name": "Can Do!",
+    "curve_file": "candobonus.json",
+    "input_value": 100.0,
+    "bonus_value": 4.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 34,
+    "perk_name": "Cap Collector",
+    "curve_file": "capcollectorbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 1.05,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 35,
+    "perk_name": "Cap Collector",
+    "curve_file": "capcollectorbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 1.75,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 36,
+    "perk_name": "Cap Collector",
+    "curve_file": "capcollectorbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 2.2,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 37,
+    "perk_name": "Cap Collector",
+    "curve_file": "capcollectorbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 2.65,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 38,
+    "perk_name": "Cap Collector",
+    "curve_file": "capcollectorbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 3.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 39,
+    "perk_name": "Evasive",
+    "curve_file": "evasivebonus.json",
+    "input_value": 1.0,
+    "bonus_value": 2.0,
+    "input_type": "agility",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 40,
+    "perk_name": "Evasive",
+    "curve_file": "evasivebonus.json",
+    "input_value": 15.0,
+    "bonus_value": 6.0,
+    "input_type": "agility",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 41,
+    "perk_name": "Evasive",
+    "curve_file": "evasivebonus.json",
+    "input_value": 30.0,
+    "bonus_value": 9.0,
+    "input_type": "agility",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 42,
+    "perk_name": "Evasive",
+    "curve_file": "evasivebonus.json",
+    "input_value": 60.0,
+    "bonus_value": 12.0,
+    "input_type": "agility",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 43,
+    "perk_name": "Evasive",
+    "curve_file": "evasivebonus.json",
+    "input_value": 100.0,
+    "bonus_value": 14.0,
+    "input_type": "agility",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 44,
+    "perk_name": "Evasive (HP%)",
+    "curve_file": "evasivehppercentbonus.json",
+    "input_value": 0.01,
+    "bonus_value": 0.2,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 45,
+    "perk_name": "Evasive (HP%)",
+    "curve_file": "evasivehppercentbonus.json",
+    "input_value": 0.25,
+    "bonus_value": 0.4,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 46,
+    "perk_name": "Evasive (HP%)",
+    "curve_file": "evasivehppercentbonus.json",
+    "input_value": 0.5,
+    "bonus_value": 0.7,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 47,
+    "perk_name": "Evasive (HP%)",
+    "curve_file": "evasivehppercentbonus.json",
+    "input_value": 0.8,
+    "bonus_value": 1.1,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 48,
+    "perk_name": "Evasive (HP%)",
+    "curve_file": "evasivehppercentbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 1.5,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 49,
+    "perk_name": "First Aid",
+    "curve_file": "firstaidbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 50,
+    "perk_name": "First Aid",
+    "curve_file": "firstaidbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 35.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 51,
+    "perk_name": "First Aid",
+    "curve_file": "firstaidbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 65.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 52,
+    "perk_name": "First Aid",
+    "curve_file": "firstaidbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 90.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 53,
+    "perk_name": "First Aid",
+    "curve_file": "firstaidbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 54,
+    "perk_name": "Four Leaf Clover",
+    "curve_file": "fourleafcloverbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.15,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 55,
+    "perk_name": "Four Leaf Clover",
+    "curve_file": "fourleafcloverbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 0.5,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 56,
+    "perk_name": "Four Leaf Clover",
+    "curve_file": "fourleafcloverbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 0.7,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 57,
+    "perk_name": "Four Leaf Clover",
+    "curve_file": "fourleafcloverbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 0.9,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 58,
+    "perk_name": "Four Leaf Clover",
+    "curve_file": "fourleafcloverbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 1.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 59,
+    "perk_name": "Grim Reaper's Sprint",
+    "curve_file": "grimreaperssprintbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.06,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 60,
+    "perk_name": "Grim Reaper's Sprint",
+    "curve_file": "grimreaperssprintbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 0.14,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 61,
+    "perk_name": "Grim Reaper's Sprint",
+    "curve_file": "grimreaperssprintbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 0.2,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 62,
+    "perk_name": "Grim Reaper's Sprint",
+    "curve_file": "grimreaperssprintbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 0.3,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 63,
+    "perk_name": "Grim Reaper's Sprint",
+    "curve_file": "grimreaperssprintbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 0.36,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 64,
+    "perk_name": "Expert Guerrilla",
+    "curve_file": "guerrillaexpertbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 65,
+    "perk_name": "Expert Guerrilla",
+    "curve_file": "guerrillaexpertbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.01,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 66,
+    "perk_name": "Expert Guerrilla",
+    "curve_file": "guerrillaexpertbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 1.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 67,
+    "perk_name": "Master Guerrilla",
+    "curve_file": "guerrillamasterbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 68,
+    "perk_name": "Master Guerrilla",
+    "curve_file": "guerrillamasterbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 5.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 69,
+    "perk_name": "Master Guerrilla",
+    "curve_file": "guerrillamasterbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 500.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 70,
+    "perk_name": "Expert Gunslinger",
+    "curve_file": "gunslingerexpertbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 71,
+    "perk_name": "Expert Gunslinger",
+    "curve_file": "gunslingerexpertbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 1.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 72,
+    "perk_name": "Expert Gunslinger",
+    "curve_file": "gunslingerexpertbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 73,
+    "perk_name": "Master Gunslinger",
+    "curve_file": "gunslingermasterbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 74,
+    "perk_name": "Master Gunslinger",
+    "curve_file": "gunslingermasterbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 3.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 75,
+    "perk_name": "Master Gunslinger",
+    "curve_file": "gunslingermasterbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 300.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 76,
+    "perk_name": "Basher (Heavy)",
+    "curve_file": "heavybashbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 77,
+    "perk_name": "Basher (Heavy)",
+    "curve_file": "heavybashbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 500.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 78,
+    "perk_name": "Heavy Gunner",
+    "curve_file": "heavydamagebonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 79,
+    "perk_name": "Heavy Gunner",
+    "curve_file": "heavydamagebonus.json",
+    "input_value": 30.0,
+    "bonus_value": 90.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 80,
+    "perk_name": "Expert Heavy Gunner",
+    "curve_file": "heavydamagebonus2.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 81,
+    "perk_name": "Expert Heavy Gunner",
+    "curve_file": "heavydamagebonus2.json",
+    "input_value": 30.0,
+    "bonus_value": 180.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 82,
+    "perk_name": "Master Heavy Gunner",
+    "curve_file": "heavydamagebonus3.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 83,
+    "perk_name": "Master Heavy Gunner",
+    "curve_file": "heavydamagebonus3.json",
+    "input_value": 30.0,
+    "bonus_value": 270.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 84,
+    "perk_name": "Lock and Load (Heavy)",
+    "curve_file": "heavyreloadbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 85,
+    "perk_name": "Lock and Load (Heavy)",
+    "curve_file": "heavyreloadbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 0.3,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 86,
+    "perk_name": "Inspirational (Radius)",
+    "curve_file": "inspirationalradiusbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 25.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 87,
+    "perk_name": "Inspirational (Radius)",
+    "curve_file": "inspirationalradiusbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 88,
+    "perk_name": "Inspirational (Radius)",
+    "curve_file": "inspirationalradiusbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 150.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 89,
+    "perk_name": "Inspirational (Radius)",
+    "curve_file": "inspirationalradiusbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 175.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 90,
+    "perk_name": "Inspirational (Radius)",
+    "curve_file": "inspirationalradiusbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 200.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 91,
+    "perk_name": "Inspirational (Self)",
+    "curve_file": "inspirationalselfbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 3.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 92,
+    "perk_name": "Inspirational (Self)",
+    "curve_file": "inspirationalselfbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 20.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 93,
+    "perk_name": "Inspirational (Self)",
+    "curve_file": "inspirationalselfbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 25.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 94,
+    "perk_name": "Inspirational (Self)",
+    "curve_file": "inspirationalselfbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 28.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 95,
+    "perk_name": "Inspirational (Self)",
+    "curve_file": "inspirationalselfbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 30.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 96,
+    "perk_name": "Inspirational (Team)",
+    "curve_file": "inspirationalteambonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 97,
+    "perk_name": "Inspirational (Team)",
+    "curve_file": "inspirationalteambonus.json",
+    "input_value": 15.0,
+    "bonus_value": 30.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 98,
+    "perk_name": "Inspirational (Team)",
+    "curve_file": "inspirationalteambonus.json",
+    "input_value": 30.0,
+    "bonus_value": 45.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 99,
+    "perk_name": "Inspirational (Team)",
+    "curve_file": "inspirationalteambonus.json",
+    "input_value": 60.0,
+    "bonus_value": 54.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 100,
+    "perk_name": "Inspirational (Team)",
+    "curve_file": "inspirationalteambonus.json",
+    "input_value": 100.0,
+    "bonus_value": 60.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 101,
+    "perk_name": "Iron Fist",
+    "curve_file": "ironfistbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 102,
+    "perk_name": "Iron Fist",
+    "curve_file": "ironfistbonus.json",
+    "input_value": 1000.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 103,
+    "perk_name": "Iron Stomach",
+    "curve_file": "ironstomachbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 18.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 104,
+    "perk_name": "Iron Stomach",
+    "curve_file": "ironstomachbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 61.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 105,
+    "perk_name": "Iron Stomach",
+    "curve_file": "ironstomachbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 96.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 106,
+    "perk_name": "Iron Stomach",
+    "curve_file": "ironstomachbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 131.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 107,
+    "perk_name": "Iron Stomach",
+    "curve_file": "ironstomachbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 175.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 108,
+    "perk_name": "Junk Shield (DR)",
+    "curve_file": "junkshielddrbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 5.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 109,
+    "perk_name": "Junk Shield (DR)",
+    "curve_file": "junkshielddrbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 75.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 110,
+    "perk_name": "Junk Shield (Scale)",
+    "curve_file": "junkshieldscalebonus.json",
+    "input_value": 1.0,
+    "bonus_value": 1.0,
+    "input_type": "junk_weight",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 111,
+    "perk_name": "Junk Shield (Scale)",
+    "curve_file": "junkshieldscalebonus.json",
+    "input_value": 15.0,
+    "bonus_value": 1.5,
+    "input_type": "junk_weight",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 112,
+    "perk_name": "Junk Shield (Scale)",
+    "curve_file": "junkshieldscalebonus.json",
+    "input_value": 30.0,
+    "bonus_value": 1.8,
+    "input_type": "junk_weight",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 113,
+    "perk_name": "Junk Shield (Scale)",
+    "curve_file": "junkshieldscalebonus.json",
+    "input_value": 60.0,
+    "bonus_value": 1.9,
+    "input_type": "junk_weight",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 114,
+    "perk_name": "Junk Shield (Scale)",
+    "curve_file": "junkshieldscalebonus.json",
+    "input_value": 100.0,
+    "bonus_value": 2.0,
+    "input_type": "junk_weight",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 115,
+    "perk_name": "Lead Belly",
+    "curve_file": "leadbellybonus.json",
+    "input_value": 1.0,
+    "bonus_value": 18.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 116,
+    "perk_name": "Lead Belly",
+    "curve_file": "leadbellybonus.json",
+    "input_value": 15.0,
+    "bonus_value": 61.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 117,
+    "perk_name": "Lead Belly",
+    "curve_file": "leadbellybonus.json",
+    "input_value": 30.0,
+    "bonus_value": 96.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 118,
+    "perk_name": "Lead Belly",
+    "curve_file": "leadbellybonus.json",
+    "input_value": 60.0,
+    "bonus_value": 131.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 119,
+    "perk_name": "Lead Belly",
+    "curve_file": "leadbellybonus.json",
+    "input_value": 100.0,
+    "bonus_value": 175.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 120,
+    "perk_name": "Lifegiver",
+    "curve_file": "lifegiverbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 121,
+    "perk_name": "Lifegiver",
+    "curve_file": "lifegiverbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 120.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 122,
+    "perk_name": "Lifegiver",
+    "curve_file": "lifegiverbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 180.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 123,
+    "perk_name": "Lifegiver",
+    "curve_file": "lifegiverbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 230.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 124,
+    "perk_name": "Lifegiver",
+    "curve_file": "lifegiverbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 250.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 125,
+    "perk_name": "Lone Wanderer (AP Regen)",
+    "curve_file": "lonewandererapregenbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 126,
+    "perk_name": "Lone Wanderer (AP Regen)",
+    "curve_file": "lonewandererapregenbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 30.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 127,
+    "perk_name": "Lone Wanderer (AP Regen)",
+    "curve_file": "lonewandererapregenbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 45.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 128,
+    "perk_name": "Lone Wanderer (AP Regen)",
+    "curve_file": "lonewandererapregenbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 70.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 129,
+    "perk_name": "Lone Wanderer (AP Regen)",
+    "curve_file": "lonewandererapregenbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 85.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 130,
+    "perk_name": "Lone Wanderer (DR)",
+    "curve_file": "lonewandererdrbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 131,
+    "perk_name": "Lone Wanderer (DR)",
+    "curve_file": "lonewandererdrbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 75.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 132,
+    "perk_name": "Lone Wanderer (DR)",
+    "curve_file": "lonewandererdrbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 125.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 133,
+    "perk_name": "Lone Wanderer (DR)",
+    "curve_file": "lonewandererdrbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 175.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 134,
+    "perk_name": "Lone Wanderer (DR)",
+    "curve_file": "lonewandererdrbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 210.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 135,
+    "perk_name": "Natural Resistance",
+    "curve_file": "naturalresistancebonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 136,
+    "perk_name": "Natural Resistance",
+    "curve_file": "naturalresistancebonus.json",
+    "input_value": 15.0,
+    "bonus_value": 35.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 137,
+    "perk_name": "Natural Resistance",
+    "curve_file": "naturalresistancebonus.json",
+    "input_value": 30.0,
+    "bonus_value": 55.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 138,
+    "perk_name": "Natural Resistance",
+    "curve_file": "naturalresistancebonus.json",
+    "input_value": 60.0,
+    "bonus_value": 75.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 139,
+    "perk_name": "Natural Resistance",
+    "curve_file": "naturalresistancebonus.json",
+    "input_value": 100.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 140,
+    "perk_name": "Nerd Rage (AP)",
+    "curve_file": "nerdrageapbonus.json",
+    "input_value": 0.05,
+    "bonus_value": 30.0,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 141,
+    "perk_name": "Nerd Rage (AP)",
+    "curve_file": "nerdrageapbonus.json",
+    "input_value": 0.2,
+    "bonus_value": 15.0,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 142,
+    "perk_name": "Nerd Rage (AP)",
+    "curve_file": "nerdrageapbonus.json",
+    "input_value": 0.8,
+    "bonus_value": 1.0,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 143,
+    "perk_name": "Nerd Rage (AP)",
+    "curve_file": "nerdrageapbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.0,
+    "input_type": "health_pct",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 144,
+    "perk_name": "Nerd Rage (Damage)",
+    "curve_file": "nerdragedamagebonus.json",
+    "input_value": 0.05,
+    "bonus_value": 80.0,
+    "input_type": "health_pct",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 145,
+    "perk_name": "Nerd Rage (Damage)",
+    "curve_file": "nerdragedamagebonus.json",
+    "input_value": 0.2,
+    "bonus_value": 40.0,
+    "input_type": "health_pct",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 146,
+    "perk_name": "Nerd Rage (Damage)",
+    "curve_file": "nerdragedamagebonus.json",
+    "input_value": 0.8,
+    "bonus_value": 1.0,
+    "input_type": "health_pct",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 147,
+    "perk_name": "Nerd Rage (Damage)",
+    "curve_file": "nerdragedamagebonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.0,
+    "input_type": "health_pct",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 148,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 149,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 20.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 150,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 2.0,
+    "bonus_value": 40.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 151,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 3.0,
+    "bonus_value": 60.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 152,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 4.0,
+    "bonus_value": 80.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 153,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 5.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 154,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 6.0,
+    "bonus_value": 120.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 155,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 7.0,
+    "bonus_value": 140.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 156,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 8.0,
+    "bonus_value": 160.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 157,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 9.0,
+    "bonus_value": 180.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 158,
+    "perk_name": "Pain Train (Bleed)",
+    "curve_file": "paintrainbleedbonus.json",
+    "input_value": 10.0,
+    "bonus_value": 200.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 159,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 0.0,
+    "bonus_value": 0.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 160,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 2.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 161,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 2.0,
+    "bonus_value": 3.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 162,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 3.0,
+    "bonus_value": 4.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 163,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 4.0,
+    "bonus_value": 5.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 164,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 5.0,
+    "bonus_value": 6.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 165,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 6.0,
+    "bonus_value": 7.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 166,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 7.0,
+    "bonus_value": 8.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 167,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 8.0,
+    "bonus_value": 9.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 168,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 9.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 169,
+    "perk_name": "Pain Train (Stagger)",
+    "curve_file": "paintrainstaggerbonus.json",
+    "input_value": 10.0,
+    "bonus_value": 11.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 170,
+    "perk_name": "Pharmacist",
+    "curve_file": "pharmacistbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 30.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 171,
+    "perk_name": "Pharmacist",
+    "curve_file": "pharmacistbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 172,
+    "perk_name": "Pharmacist",
+    "curve_file": "pharmacistbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 160.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 173,
+    "perk_name": "Pharmacist",
+    "curve_file": "pharmacistbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 180.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 174,
+    "perk_name": "Pharmacist",
+    "curve_file": "pharmacistbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 200.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 175,
+    "perk_name": "Pharma Farma",
+    "curve_file": "pharmafarmabonus.json",
+    "input_value": 1.0,
+    "bonus_value": 2.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 176,
+    "perk_name": "Pharma Farma",
+    "curve_file": "pharmafarmabonus.json",
+    "input_value": 15.0,
+    "bonus_value": 2.75,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 177,
+    "perk_name": "Pharma Farma",
+    "curve_file": "pharmafarmabonus.json",
+    "input_value": 30.0,
+    "bonus_value": 3.2,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 178,
+    "perk_name": "Pharma Farma",
+    "curve_file": "pharmafarmabonus.json",
+    "input_value": 60.0,
+    "bonus_value": 3.65,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 179,
+    "perk_name": "Pharma Farma",
+    "curve_file": "pharmafarmabonus.json",
+    "input_value": 100.0,
+    "bonus_value": 4.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 180,
+    "perk_name": "Rad Resistant",
+    "curve_file": "radresistantbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 18.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 181,
+    "perk_name": "Rad Resistant",
+    "curve_file": "radresistantbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 61.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 182,
+    "perk_name": "Rad Resistant",
+    "curve_file": "radresistantbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 96.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 183,
+    "perk_name": "Rad Resistant",
+    "curve_file": "radresistantbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 131.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 184,
+    "perk_name": "Rad Resistant",
+    "curve_file": "radresistantbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 175.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 185,
+    "perk_name": "Rad Sponge (Self)",
+    "curve_file": "radspongeselfbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 4.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 186,
+    "perk_name": "Rad Sponge (Self)",
+    "curve_file": "radspongeselfbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 8.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 187,
+    "perk_name": "Rad Sponge (Self)",
+    "curve_file": "radspongeselfbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 11.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 188,
+    "perk_name": "Rad Sponge (Self)",
+    "curve_file": "radspongeselfbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 18.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 189,
+    "perk_name": "Rad Sponge (Self)",
+    "curve_file": "radspongeselfbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 20.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 190,
+    "perk_name": "Rad Sponge (Team)",
+    "curve_file": "radspongeteambonus.json",
+    "input_value": 1.0,
+    "bonus_value": 40.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 191,
+    "perk_name": "Rad Sponge (Team)",
+    "curve_file": "radspongeteambonus.json",
+    "input_value": 15.0,
+    "bonus_value": 80.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 192,
+    "perk_name": "Rad Sponge (Team)",
+    "curve_file": "radspongeteambonus.json",
+    "input_value": 30.0,
+    "bonus_value": 110.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 193,
+    "perk_name": "Rad Sponge (Team)",
+    "curve_file": "radspongeteambonus.json",
+    "input_value": 60.0,
+    "bonus_value": 180.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 194,
+    "perk_name": "Rad Sponge (Team)",
+    "curve_file": "radspongeteambonus.json",
+    "input_value": 100.0,
+    "bonus_value": 200.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 195,
+    "perk_name": "Refractor",
+    "curve_file": "refractorbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 18.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 196,
+    "perk_name": "Refractor",
+    "curve_file": "refractorbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 61.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 197,
+    "perk_name": "Refractor",
+    "curve_file": "refractorbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 96.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 198,
+    "perk_name": "Refractor",
+    "curve_file": "refractorbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 131.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 199,
+    "perk_name": "Refractor",
+    "curve_file": "refractorbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 175.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 200,
+    "perk_name": "Ricochet",
+    "curve_file": "ricochetbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 4.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 201,
+    "perk_name": "Ricochet",
+    "curve_file": "ricochetbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 14.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 202,
+    "perk_name": "Ricochet",
+    "curve_file": "ricochetbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 20.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 203,
+    "perk_name": "Ricochet",
+    "curve_file": "ricochetbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 30.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 204,
+    "perk_name": "Ricochet",
+    "curve_file": "ricochetbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 35.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 205,
+    "perk_name": "Science",
+    "curve_file": "sciencebonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.05,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 206,
+    "perk_name": "Science",
+    "curve_file": "sciencebonus.json",
+    "input_value": 15.0,
+    "bonus_value": 0.22,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 207,
+    "perk_name": "Science",
+    "curve_file": "sciencebonus.json",
+    "input_value": 30.0,
+    "bonus_value": 0.35,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 208,
+    "perk_name": "Science",
+    "curve_file": "sciencebonus.json",
+    "input_value": 60.0,
+    "bonus_value": 0.45,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 209,
+    "perk_name": "Science",
+    "curve_file": "sciencebonus.json",
+    "input_value": 100.0,
+    "bonus_value": 0.5,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 210,
+    "perk_name": "Science Expert",
+    "curve_file": "scienceexpertbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.05,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 211,
+    "perk_name": "Science Expert",
+    "curve_file": "scienceexpertbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 0.22,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 212,
+    "perk_name": "Science Expert",
+    "curve_file": "scienceexpertbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 0.35,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 213,
+    "perk_name": "Science Expert",
+    "curve_file": "scienceexpertbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 0.45,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 214,
+    "perk_name": "Science Expert",
+    "curve_file": "scienceexpertbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 0.5,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 215,
+    "perk_name": "Science Master",
+    "curve_file": "sciencemasterbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.05,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 216,
+    "perk_name": "Science Master",
+    "curve_file": "sciencemasterbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 0.22,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 217,
+    "perk_name": "Science Master",
+    "curve_file": "sciencemasterbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 0.35,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 218,
+    "perk_name": "Science Master",
+    "curve_file": "sciencemasterbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 0.45,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 219,
+    "perk_name": "Science Master",
+    "curve_file": "sciencemasterbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 0.5,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 220,
+    "perk_name": "Scrounger",
+    "curve_file": "scroungerbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 1.05,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 221,
+    "perk_name": "Scrounger",
+    "curve_file": "scroungerbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 1.75,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 222,
+    "perk_name": "Scrounger",
+    "curve_file": "scroungerbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 2.2,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 223,
+    "perk_name": "Scrounger",
+    "curve_file": "scroungerbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 2.65,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 224,
+    "perk_name": "Scrounger",
+    "curve_file": "scroungerbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 3.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 225,
+    "perk_name": "Serendipity",
+    "curve_file": "serendipitybonus.json",
+    "input_value": 1.0,
+    "bonus_value": 6.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 226,
+    "perk_name": "Serendipity",
+    "curve_file": "serendipitybonus.json",
+    "input_value": 15.0,
+    "bonus_value": 16.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 227,
+    "perk_name": "Serendipity",
+    "curve_file": "serendipitybonus.json",
+    "input_value": 30.0,
+    "bonus_value": 25.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 228,
+    "perk_name": "Serendipity",
+    "curve_file": "serendipitybonus.json",
+    "input_value": 60.0,
+    "bonus_value": 35.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 229,
+    "perk_name": "Serendipity",
+    "curve_file": "serendipitybonus.json",
+    "input_value": 100.0,
+    "bonus_value": 40.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 230,
+    "perk_name": "Master Shotgunner",
+    "curve_file": "shotgunnermasterbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 231,
+    "perk_name": "Master Shotgunner",
+    "curve_file": "shotgunnermasterbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 300.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 232,
+    "perk_name": "Spiritual Healer (Self)",
+    "curve_file": "spiritualhealerselfbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 0.25,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 233,
+    "perk_name": "Spiritual Healer (Self)",
+    "curve_file": "spiritualhealerselfbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 0.5,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 234,
+    "perk_name": "Spiritual Healer (Self)",
+    "curve_file": "spiritualhealerselfbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 0.75,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 235,
+    "perk_name": "Spiritual Healer (Self)",
+    "curve_file": "spiritualhealerselfbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 0.8,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 236,
+    "perk_name": "Spiritual Healer (Self)",
+    "curve_file": "spiritualhealerselfbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 1.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 237,
+    "perk_name": "Spiritual Healer (Team)",
+    "curve_file": "spiritualhealerteambonus.json",
+    "input_value": 1.0,
+    "bonus_value": 1.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 238,
+    "perk_name": "Spiritual Healer (Team)",
+    "curve_file": "spiritualhealerteambonus.json",
+    "input_value": 15.0,
+    "bonus_value": 2.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 239,
+    "perk_name": "Spiritual Healer (Team)",
+    "curve_file": "spiritualhealerteambonus.json",
+    "input_value": 30.0,
+    "bonus_value": 2.5,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 240,
+    "perk_name": "Spiritual Healer (Team)",
+    "curve_file": "spiritualhealerteambonus.json",
+    "input_value": 60.0,
+    "bonus_value": 2.8,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 241,
+    "perk_name": "Spiritual Healer (Team)",
+    "curve_file": "spiritualhealerteambonus.json",
+    "input_value": 100.0,
+    "bonus_value": 3.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 242,
+    "perk_name": "Strong Back",
+    "curve_file": "strongbackbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 10.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 243,
+    "perk_name": "Strong Back",
+    "curve_file": "strongbackbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 40.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 244,
+    "perk_name": "Strong Back",
+    "curve_file": "strongbackbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 65.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 245,
+    "perk_name": "Strong Back",
+    "curve_file": "strongbackbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 85.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 246,
+    "perk_name": "Strong Back",
+    "curve_file": "strongbackbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 100.0,
+    "input_type": "rank",
+    "bonus_type": "flat"
+  },
+  {
+    "id": 247,
+    "perk_name": "Thirst Quencher",
+    "curve_file": "thirstquencherbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 7.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 248,
+    "perk_name": "Thirst Quencher",
+    "curve_file": "thirstquencherbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 78.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 249,
+    "perk_name": "Thirst Quencher",
+    "curve_file": "thirstquencherbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 125.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 250,
+    "perk_name": "Thirst Quencher",
+    "curve_file": "thirstquencherbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 175.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 251,
+    "perk_name": "Thirst Quencher",
+    "curve_file": "thirstquencherbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 200.0,
+    "input_type": "rank",
+    "bonus_type": "percent"
+  },
+  {
+    "id": 252,
+    "perk_name": "Vaccinated",
+    "curve_file": "vaccinatedbonus.json",
+    "input_value": 1.0,
+    "bonus_value": 2.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 253,
+    "perk_name": "Vaccinated",
+    "curve_file": "vaccinatedbonus.json",
+    "input_value": 15.0,
+    "bonus_value": 40.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 254,
+    "perk_name": "Vaccinated",
+    "curve_file": "vaccinatedbonus.json",
+    "input_value": 30.0,
+    "bonus_value": 70.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 255,
+    "perk_name": "Vaccinated",
+    "curve_file": "vaccinatedbonus.json",
+    "input_value": 60.0,
+    "bonus_value": 90.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  },
+  {
+    "id": 256,
+    "perk_name": "Vaccinated",
+    "curve_file": "vaccinatedbonus.json",
+    "input_value": 100.0,
+    "bonus_value": 99.0,
+    "input_type": "rank",
+    "bonus_type": "chance"
+  }
+]
