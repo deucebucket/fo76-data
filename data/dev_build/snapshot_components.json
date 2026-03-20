@@ -1,0 +1,137 @@
+{
+  "ActiveEffectSnapshotComponent": {
+    "category": "Other",
+    "functions": [
+      "ActiveEffectSnapshotComponent::Serialize",
+      "ActiveEffectSnapshotComponent::TryToQueueActiveEffect"
+    ],
+    "function_count": 2
+  },
+  "ActorCoreSnapshotComponent": {
+    "category": "Actor/Character",
+    "functions": [
+      "ActorCoreSnapshotComponent::InstancedCellClientRestore",
+      "ActorCoreSnapshotComponent::PostSerializeReadREFR",
+      "ActorCoreSnapshotComponent::PostSerializeReadREFRJob",
+      "Game::TESObjectREFR::All::ActorCoreSnapshotComponent::PostSerializeRead",
+      "Game::TESObjectREFR::Selected::ActorCoreSnapshotComponent::PostSerializeRead"
+    ],
+    "function_count": 5
+  },
+  "ActorPerksSnapshotComponent": {
+    "category": "Actor/Character",
+    "functions": [
+      "ActorPerksSnapshotComponent::PostSerializeReadREFR",
+      "ActorPerksSnapshotComponent::Serialize"
+    ],
+    "function_count": 2
+  },
+  "ActorProjectileSnapshotComponent": {
+    "category": "Actor/Character",
+    "functions": [
+      "ActorProjectileSnapshotComponent::CreateProjectileMsg::Execute"
+    ],
+    "function_count": 1
+  },
+  "ActorValuesSnapshotComponent": {
+    "category": "Actor/Character",
+    "functions": [
+      "ActorValuesSnapshotComponent::PostSerializeReadREFRJob",
+      "ActorValuesSnapshotComponent::Serialize",
+      "Game::TESObjectREFR::All::ActorValuesSnapshotComponent::ApplyDataTo",
+      "Game::TESObjectREFR::Selected::ActorValuesSnapshotComponent::ApplyDataTo"
+    ],
+    "function_count": 4
+  },
+  "EventQuestSnapshotComponent": {
+    "category": "Quest/Object",
+    "functions": [
+      "EventQuestSnapshotComponent::PostSerializeRead"
+    ],
+    "function_count": 1
+  },
+  "ExtraDataCoreSnapshotComponent": {
+    "category": "Other",
+    "functions": [],
+    "function_count": 0
+  },
+  "PlayerCoreSnapshotComponent": {
+    "category": "Other",
+    "functions": [
+      "Game::TESObjectREFR::All::PlayerCoreSnapshotComponent::Serialize",
+      "Game::TESObjectREFR::Selected::PlayerCoreSnapshotComponent::Serialize",
+      "PlayerCoreSnapshotComponent::PostSerializeRead"
+    ],
+    "function_count": 3
+  },
+  "PlayerPrivateCoreSnapshotComponent": {
+    "category": "Other",
+    "functions": [],
+    "function_count": 0
+  },
+  "PlayerPrivatePositionListSnapshotComponent": {
+    "category": "Other",
+    "functions": [],
+    "function_count": 0
+  },
+  "PlayerSnapshotComponent": {
+    "category": "Other",
+    "functions": [],
+    "function_count": 0
+  },
+  "ProjectilePhysicsSnapshotComponent": {
+    "category": "Other",
+    "functions": [
+      "ProjectilePhysicsSnapshotComponent::UpdateInterpolator"
+    ],
+    "function_count": 1
+  },
+  "ScriptObjectSnapshotComponent": {
+    "category": "Quest/Object",
+    "functions": [
+      "ScriptObjectSnapshotComponent::ApplyDataTo"
+    ],
+    "function_count": 1
+  },
+  "ScriptSnapshotComponent": {
+    "category": "Other",
+    "functions": [],
+    "function_count": 0
+  },
+  "SkySnapshotComponent": {
+    "category": "Other",
+    "functions": [],
+    "function_count": 0
+  },
+  "SkyWeathersSnapshotComponent": {
+    "category": "Other",
+    "functions": [
+      "SkyWeathersSnapshotComponent::PostSerializeRead::ApplyingWeatherSnapshot"
+    ],
+    "function_count": 1
+  },
+  "TESObjectREFRCoreSnapshotComponent": {
+    "category": "Quest/Object",
+    "functions": [
+      "Game::TESObjectREFR::All::TESObjectREFRCoreSnapshotComponent::PostSerializeRead::Selected",
+      "Game::TESObjectREFR::All::TESObjectREFRCoreSnapshotComponent::Serialize",
+      "Game::TESObjectREFR::Selected::TESObjectREFRCoreSnapshotComponent::PostSerializeRead::Selected",
+      "Game::TESObjectREFR::Selected::TESObjectREFRCoreSnapshotComponent::Serialize"
+    ],
+    "function_count": 4
+  },
+  "TESObjectREFRPhysicsSnapshotComponent": {
+    "category": "Quest/Object",
+    "functions": [
+      "TESObjectREFRPhysicsSnapshotComponent::UpdateInterpolator"
+    ],
+    "function_count": 1
+  },
+  "TeamSnapshotComponent": {
+    "category": "Other",
+    "functions": [
+      "TeamSnapshotComponent::PostSerializeRead"
+    ],
+    "function_count": 1
+  }
+}
