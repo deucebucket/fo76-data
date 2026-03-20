@@ -1,0 +1,79 @@
+[
+  {
+    "item": "TWZ09 Aerosolizer Quest",
+    "search_query": "TWZ09 Aerosolizer quest fallout 76 cut content datamine",
+    "verdict": "NOVEL",
+    "evidence": "No search results mention TWZ09 as a quest identifier. The Aerosolizer mechanic exists in the live game (Dogwood Die Off event uses Aerosolizers), but TWZ09 as a complete cut quest with custom perks, chlorine+fertilizer crafting recipes, error messages, and mirelurk horde escort AI packages (TWZ05_MirelurkHordeAccompany01-03) is not documented anywhere. The wiki pages for Fallout 76 cut/unused/removed content do not list it.",
+    "our_advantage": "We have the full quest structure: custom perk, magic effects, crafting recipe (chlorine + fertilizer), error messages, and mirelurk horde escort AI packages. This appears to be a complete cut quest that was partially cannibalized for the Dogwood Die Off event but never documented as standalone cut content."
+  },
+  {
+    "item": "PiratePunch, CrowdControl, ToneDeath, TheDebilitator, DoctorsOrders (5 unique weapons as a set)",
+    "search_query": "\"Pirate Punch\" \"Tone Death\" \"Debilitator\" \"Doctors Orders\" fallout 76 unique legendary weapon",
+    "verdict": "KNOWN",
+    "evidence": "All 5 weapons are RELEASED content, not cut content. They are unique legendary weapon rewards from the Eviction Notice public event, introduced in the Test Your Metal update. Pirate Punch (Black Powder Blunderbuss), Crowd Control (Combat Shotgun with Suppressor/Explosive/Reduced Weight), Tone Death (Death Tambo), The Debilitator (Super Sledge), Doctor's Orders (Hunting Rifle). All fully documented on Fallout Wiki.",
+    "our_advantage": "None. Our dev build contains the early form IDs (0x006477EC-EF) showing they were designed as a consecutive set, which is a minor implementation detail but the weapons themselves are well-known live content."
+  },
+  {
+    "item": "Bloatfly Launcher (weapon that throws bloatflies)",
+    "search_query": "Bloatfly Launcher fallout 76 cut content weapon / fallout 76 unused content wiki bloatfly weapon launcher / E09A bloatfly throw weapon",
+    "verdict": "NOVEL",
+    "evidence": "No search results document a 'Bloatfly Launcher' or 'E09A_Launcher_ThrowBloatflyWeapon' as cut content. The bloatfly larva syringe barrel mod exists in-game (causes targets to spawn bloatflies on death), but a standalone weapon that fires bloatflies as projectiles is not documented on any wiki or datamine site. The Fallout 76 Unused Content wiki page does not list it.",
+    "our_advantage": "We have the editor ID (E09A_Launcher_ThrowBloatflyWeapon), confirming this is a distinct projectile weapon — not the syringe barrel mod. This is a genuinely undocumented cut weapon."
+  },
+  {
+    "item": "Four Horsemen PA Set (WarRider, BlackRider, PaleRider, PlagueRider — 364 records)",
+    "search_query": "Four Horsemen power armor fallout 76 atomic shop released WarRider PlagueRider",
+    "verdict": "KNOWN",
+    "evidence": "The Four Horsemen Power Armor set (War Rider, Black Rider, Pale Rider, Plague Rider) was RELEASED in the Atomic Shop for 1400 Atoms each. Fully documented on Fallout Wiki with dedicated pages. Featured in Atomic Shop weekly updates. NOT cut content — these are live Atom Shop items.",
+    "our_advantage": "The dev build's 364 records and ZZZ_ disabled recipes show the internal development structure, but the final product is well-known released content. The ZZZ_ prefix on crafting recipes indicates disabled dev-side entries, which is a minor technical insight."
+  },
+  {
+    "item": "BoS Pistol + BoS Rocket Launcher",
+    "search_query": "fallout 76 BoSPistol OR BoS_Pistol OR brotherhood pistol cut unused weapon / BoS Rocket Launcher brotherhood rocket launcher datamine",
+    "verdict": "PARTIALLY KNOWN",
+    "evidence": "The BoS Pistol has texture references ('bospistol_barrels_d', 'bospistol_barrels_l') found in a Nexus Mods page for a Crusader Pistol retexture, suggesting the community knows BoSPistol assets exist in the files. The Crusader Pistol (released in Steel Dawn) may be the evolved version. The BoS Rocket Launcher returned zero search results — completely undocumented. No wiki, no datamine site, no forum post mentions a Brotherhood rocket launcher.",
+    "our_advantage": "We have the editor IDs and know BoSPistol has full damage curves (not just textures). The BOSRocketLauncher (NPC-only) is completely novel — no one has documented a Brotherhood-specific rocket launcher. The connection between BoSPistol and the released Crusader Pistol is an original analytical finding."
+  },
+  {
+    "item": "Valentine's Day items (heart bouquet weapon, perfume grenade, nougat candies)",
+    "search_query": "Valentine's Day heart bouquet weapon perfume grenade fallout 76 cut content",
+    "verdict": "KNOWN",
+    "evidence": "Well-documented cut content from the Wild Appalachia update. The 'St. Valentine's Day Massacre' quest is fully documented on both Fallout Wiki (fallout.wiki) and Fandom wiki. Items documented: Pretty floral bouquet (melee weapon), Expensive perfume (grenade), Nougat candy assortment, Appalachampagne. Quest involved crafting 4 gifts and collecting 5 creature hearts (Wendigo, Grafton, Mirelurk Queen, Mothman, Scorchbeast/Snallygaster).",
+    "our_advantage": "None. This is one of the most well-known pieces of Fallout 76 cut content, extensively documented with full quest walkthroughs on multiple wiki sources."
+  },
+  {
+    "item": "QuadLauncher (4-barrel missile launcher)",
+    "search_query": "Quad Launcher fallout 76 unused weapon wiki",
+    "verdict": "KNOWN",
+    "evidence": "Documented on the Fallout Wiki (fallout.wiki/wiki/Quad_launcher) as an unused weapon. Editor ID: QuadLauncher, Form ID: 005DD5B2 — matches our data exactly. Wiki notes it has a fixed capacity of 4 missiles despite appearing as an unmodded launcher, and may have been an early draft of the Hellstorm missile launcher or a developer test weapon.",
+    "our_advantage": "None. The wiki has the same editor ID and form ID we found. Our data confirms what's already documented."
+  },
+  {
+    "item": "Crossbow as standalone weapon (not mod)",
+    "search_query": "crossbow fallout 76 standalone weapon cut content datamine / crossbow fallout 76 wastelanders bow",
+    "verdict": "KNOWN",
+    "evidence": "The crossbow is a RELEASED weapon in Fallout 76, present since launch. It's fully documented on multiple wikis. With Wastelanders, the Adventure-mode crossbow was converted to a bow, but the crossbow still exists as a craftable weapon. This is not cut content — it's live in-game content.",
+    "our_advantage": "None. The crossbow being in the dev build is unremarkable since it shipped with the game."
+  },
+  {
+    "item": "Floater dialogue quests (creature-specific dialogue for Flamer/Freezer/Gnasher variants)",
+    "search_query": "floater dialogue quest fallout 76 flamer freezer gnasher creature cut content",
+    "verdict": "NOVEL",
+    "evidence": "No search results document cut dialogue quests for Floater variants. The wiki pages for Floaters describe them as enemies with three variants (Flamer/Freezer/Gnasher) and note some Super Mutant dialogue about Floaters, but there is no mention of creature-specific dialogue quests where the Floaters themselves have dialogue. The concept of Floater creatures having their own dialogue quest system is completely undocumented.",
+    "our_advantage": "We have 3 distinct cut dialogue quests, one per Floater variant. This suggests Bethesda planned for Floaters to have NPC-like dialogue interactions — a fundamentally different design than the mindless enemies they became. This is a significant design insight."
+  },
+  {
+    "item": "BossChicken creature",
+    "search_query": "BossChicken fallout 76 cut creature datamine",
+    "verdict": "NOVEL",
+    "evidence": "No search results document a 'BossChicken' creature. The wiki has a page for regular chickens in Fallout 76 (docile creatures in Appalachia), but no boss variant is mentioned anywhere. Fallout 76 creature lists, datamine articles on Nuka Knights, and cut content pages do not reference it. Zero results for this specific creature.",
+    "our_advantage": "We have the editor ID for a boss-tier chicken creature. Whether this was a joke entry, a test creature, or a planned mini-boss encounter is unclear, but its existence is completely undocumented."
+  },
+  {
+    "item": "Rank 4/5 perks (AdamantiumSkeleton04, BulletShield04, FirstAid04, Ricochet04)",
+    "search_query": "rank 4 rank 5 perks fallout 76 AdamantiumSkeleton BulletShield cut content datamine",
+    "verdict": "PARTIALLY KNOWN",
+    "evidence": "A 2018 Newsweek article references a large datamine of Fallout 76 perk cards from beta, and early dataminers documented extensive perk lists. However, specific rank 4/5 variants of existing perks (AdamantiumSkeleton04, BulletShield04, FirstAid04, Ricochet04) are not individually documented on any current wiki or datamine page. The wiki pages for these perks only list 3 ranks each. The beta datamine may have included these but they're not preserved in current documentation.",
+    "our_advantage": "We have specific editor IDs proving rank 4 (and possibly rank 5) variants existed in the dev build. This suggests Bethesda originally planned deeper perk progression before settling on the 3-rank system. While early dataminers may have noted extra perk ranks in passing, no current source preserves the specific editor IDs or details."
+  }
+]
