@@ -1108,6 +1108,21 @@ function renderFindingCard(item) {
   return { header: header, details: details, summary: preview };
 }
 
+function renderLinks(item) {
+  var links = item.links;
+  if (!links || links.length === 0) return '';
+  var html = '<div style="margin-top:0.8rem;padding-top:0.5rem;border-top:1px solid var(--border)"><span class="detail-label" style="letter-spacing:0.1em">linked data</span><div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.4rem">';
+  links.forEach(function(link) {
+    if (link.type === 'filter') {
+      html += '<span class="badge" style="color:var(--text-dim);border-color:var(--border);cursor:default">' + esc(link.label) + '</span>';
+    } else {
+      html += '<a href="#" class="data-link" data-link-id="' + link.id + '" style="display:inline-block;font-size:0.75rem;padding:0.2rem 0.5rem;border:1px solid var(--green-dark);color:var(--green-dim);text-decoration:none;transition:all 0.15s" onmouseover="this.style.borderColor=\'var(--green)\';this.style.color=\'var(--green)\'" onmouseout="this.style.borderColor=\'var(--green-dark)\';this.style.color=\'var(--green-dim)\'">' + esc(link.label) + ': ' + esc(link.title) + '</a>';
+    }
+  });
+  html += '</div></div>';
+  return html;
+}
+
 function renderAllProps(item) {
   var html = '';
   var skip = ['id', 'type', 'data'];
@@ -1371,7 +1386,7 @@ function renderCard(item) {
 
   var detailsDiv = document.createElement('div');
   detailsDiv.className = 'card-details';
-  detailsDiv.innerHTML = parts.details;
+  detailsDiv.innerHTML = parts.details + renderLinks(item);
   card.appendChild(detailsDiv);
 
   return card;
@@ -1561,6 +1576,15 @@ document.getElementById('results').addEventListener('click', function(e) {
     openLightbox(e.target.src);
     return;
   }
+  // Data link click -> navigate to linked entry
+  var dataLink = e.target.closest('.data-link');
+  if (dataLink) {
+    e.preventDefault();
+    e.stopPropagation();
+    var linkId = parseInt(dataLink.getAttribute('data-link-id'));
+    navigateToEntry(linkId);
+    return;
+  }
   var card = e.target.closest('.card');
   if (!card) return;
   if (e.target.tagName === 'A') return;
@@ -1568,6 +1592,58 @@ document.getElementById('results').addEventListener('click', function(e) {
   if (e.target.tagName === 'IMG') return;
   card.classList.toggle('expanded');
 });
+
+function navigateToEntry(id) {
+  // Clear search and filter
+  document.getElementById('search').value = '';
+  activeFilter = 'all';
+  var buttons = document.querySelectorAll('.filter-btn');
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].classList.toggle('active', buttons[i].getAttribute('data-filter') === 'All');
+  }
+
+  // Find the entry in allData
+  var targetEntry = null;
+  for (var j = 0; j < allData.length; j++) {
+    if (allData[j].id === id) { targetEntry = allData[j]; break; }
+  }
+  if (!targetEntry) return;
+
+  // Set filter to the entry's type
+  var typeDisplay = TYPE_TO_DISPLAY[targetEntry.type];
+  if (typeDisplay) {
+    activeFilter = typeDisplay;
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.toggle('active', buttons[i].getAttribute('data-filter') === typeDisplay);
+    }
+  }
+
+  updateResults();
+
+  // Find and scroll to the card, then expand it
+  setTimeout(function() {
+    // May need to render more batches to reach the card
+    var maxAttempts = 20;
+    function findAndScroll() {
+      var card = document.querySelector('.card[data-id="' + id + '"]');
+      if (card) {
+        card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        card.classList.add('expanded');
+        // Flash highlight
+        card.style.borderColor = 'var(--green)';
+        card.style.boxShadow = '0 0 15px rgba(20, 254, 23, 0.2)';
+        setTimeout(function() {
+          card.style.borderColor = '';
+          card.style.boxShadow = '';
+        }, 2000);
+      } else if (maxAttempts-- > 0 && renderedCount < currentResults.length) {
+        renderBatch();
+        requestAnimationFrame(findAndScroll);
+      }
+    }
+    findAndScroll();
+  }, 100);
+}
 
 /* Hash routing */
 
