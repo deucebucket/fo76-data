@@ -1,0 +1,43 @@
+{
+   "Wanamingo:0" : {
+      "BaseBoneName" : "DISABLED",
+      "DeltaBones" : [
+         {
+            "BoneDeltaList" : [ 131840 ],
+            "BoneName" : "Toad_BN_R_Forearm"
+         },
+         {
+            "BoneDeltaList" : [ 393472 ],
+            "BoneName" : "Toad_BN_L_Thigh"
+         },
+         {
+            "BoneDeltaList" : [ 327936 ],
+            "BoneName" : "Toad_BN_R_Thigh"
+         },
+         {
+            "BoneDeltaList" : [ 262400 ],
+            "BoneName" : "Toad_BN_L_Biceps"
+         },
+         {
+            "BoneDeltaList" : [ 328448 ],
+            "BoneName" : "Toad_BN_R_Calf"
+         },
+         {
+            "BoneDeltaList" : [ 262912 ],
+            "BoneName" : "Toad_BN_L_Forearm"
+         },
+         {
+            "BoneDeltaList" : [ 131328 ],
+            "BoneName" : "Toad_BN_R_Biceps"
+         },
+         {
+            "BoneDeltaList" : [ 393984 ],
+            "BoneName" : "Toad_BN_L_Calf"
+         }
+      ],
+      "uiNumDeltas" : 8
+   },
+   "Wanamingo_GoreCaps:0" : {
+      "BaseBoneName" : "DISABLED"
+   }
+}
