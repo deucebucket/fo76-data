@@ -1253,10 +1253,24 @@
     "class": "AIProcess"
   },
   {
+    "name": "AIProcess::ResolveEquipmentQueue",
+    "retail_va": "0x1415dd930",
+    "retail_rva": "0x15dd930",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "AIProcess"
+  },
+  {
     "name": "AIProcess::SetFurniture",
     "retail_va": "0x14065aa40",
     "retail_rva": "0x65aa40",
     "match_type": "unique",
+    "class": "AIProcess"
+  },
+  {
+    "name": "AIProcess::Update",
+    "retail_va": "0x141c3d0f0",
+    "retail_rva": "0x1c3d0f0",
+    "match_type": "interior-off10-16b-0wc",
     "class": "AIProcess"
   },
   {
@@ -1267,10 +1281,52 @@
     "class": "AIProcess"
   },
   {
+    "name": "AIProcess::UpdateDetection",
+    "retail_va": "0x1419d9f30",
+    "retail_rva": "0x19d9f30",
+    "match_type": "interior-off10-32b-0wc",
+    "class": "AIProcess"
+  },
+  {
+    "name": "AIProcess::UpdateDetection (vs target)",
+    "retail_va": "0x141b2f6f0",
+    "retail_rva": "0x1b2f6f0",
+    "match_type": "aggressive-32b-4wc",
+    "class": "AIProcess"
+  },
+  {
+    "name": "AIProcess::UpdateGunState",
+    "retail_va": "0x14314df20",
+    "retail_rva": "0x314df20",
+    "match_type": "interior-off5-16b-0wc",
+    "class": "AIProcess"
+  },
+  {
+    "name": "AIProcess::UpdateHigh",
+    "retail_va": "0x142c11b10",
+    "retail_rva": "0x2c11b10",
+    "match_type": "interior-off5-16b-0wc",
+    "class": "AIProcess"
+  },
+  {
     "name": "AIProcess::UpdateKnockState",
     "retail_va": "0x142c339f0",
     "retail_rva": "0x2c339f0",
     "match_type": "unique",
+    "class": "AIProcess"
+  },
+  {
+    "name": "AIProcess::UpdateLow",
+    "retail_va": "0x143734910",
+    "retail_rva": "0x3734910",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "AIProcess"
+  },
+  {
+    "name": "AIProcess::UpdatePendingHeadLoads",
+    "retail_va": "0x141875740",
+    "retail_rva": "0x1875740",
+    "match_type": "interior-off10-12b-4wc",
     "class": "AIProcess"
   },
   {
@@ -1281,10 +1337,31 @@
     "class": "AIProcess"
   },
   {
+    "name": "AIProcess::VisitProcedureTree",
+    "retail_va": "0x1435cabd0",
+    "retail_rva": "0x35cabd0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "AIProcess"
+  },
+  {
+    "name": "AStarSearch::Search",
+    "retail_va": "0x140512a90",
+    "retail_rva": "0x512a90",
+    "match_type": "interior-off5-32b-0wc",
+    "class": "AStarSearch"
+  },
+  {
     "name": "ActiveEffect::OnRemove",
     "retail_va": "0x1435fb440",
     "retail_rva": "0x35fb440",
     "match_type": "exact",
+    "class": "ActiveEffect"
+  },
+  {
+    "name": "ActiveEffect::ResetMagnitude",
+    "retail_va": "0x14202c940",
+    "retail_rva": "0x202c940",
+    "match_type": "aggressive-24b-4wc",
     "class": "ActiveEffect"
   },
   {
@@ -1505,6 +1582,13 @@
     "class": "ActiveEffectManager"
   },
   {
+    "name": "ActiveEffectManager::GenerateUniqueActiveEffectID.Wrapped",
+    "retail_va": "0x141716200",
+    "retail_rva": "0x1716200",
+    "match_type": "aggressive-32b-4wc",
+    "class": "ActiveEffectManager"
+  },
+  {
     "name": "ActiveEffectManager::RegisterActiveEffect",
     "retail_va": "0x143ac3ec0",
     "retail_rva": "0x3ac3ec0",
@@ -1524,6 +1608,27 @@
     "retail_rva": "0x16653a0",
     "match_type": "wildcard-24b-8wc",
     "class": "ActiveEffectSnapshotComponent"
+  },
+  {
+    "name": "Actor::AddPerk",
+    "retail_va": "0x1417ee390",
+    "retail_rva": "0x17ee390",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::AddTemporaryPerk",
+    "retail_va": "0x1417ee390",
+    "retail_rva": "0x17ee390",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::AddWornOutfitImpl",
+    "retail_va": "0x142021770",
+    "retail_rva": "0x2021770",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "Actor"
   },
   {
     "name": "Actor::AdjustForCap",
@@ -1547,6 +1652,13 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::ChangeGunState",
+    "retail_va": "0x143685d70",
+    "retail_rva": "0x3685d70",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "Actor"
+  },
+  {
     "name": "Actor::ChangeProcessLevel",
     "retail_va": "0x140949990",
     "retail_rva": "0x949990",
@@ -1558,6 +1670,34 @@
     "retail_va": "0x141c17640",
     "retail_rva": "0x1c17640",
     "match_type": "unique",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::CombatHit",
+    "retail_va": "0x1402a59d0",
+    "retail_rva": "0x2a59d0",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::CreateBlood",
+    "retail_va": "0x141bfc740",
+    "retail_rva": "0x1bfc740",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::CreateDisLimbs",
+    "retail_va": "0x143496d90",
+    "retail_rva": "0x3496d90",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::DefaultRagdollHandler::InitRagdoll",
+    "retail_va": "0x141ccc5a0",
+    "retail_rva": "0x1ccc5a0",
+    "match_type": "interior-off15-12b-0wc",
     "class": "Actor"
   },
   {
@@ -1575,6 +1715,69 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::DismemberLimbs",
+    "retail_va": "0x140e409b0",
+    "retail_rva": "0xe409b0",
+    "match_type": "interior-off15-24b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::DoHitMe_Predicted",
+    "retail_va": "0x140885c40",
+    "retail_rva": "0x885c40",
+    "match_type": "aggressive-24b-4wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::DoNetAction",
+    "retail_va": "0x143333d30",
+    "retail_rva": "0x3333d30",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::DoNetAction (FAILURE)",
+    "retail_va": "0x141fb466a",
+    "retail_rva": "0x1fb466a",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::DoRemovePerk",
+    "retail_va": "0x140d910e0",
+    "retail_rva": "0xd910e0",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::DrawWeaponMagicHands",
+    "retail_va": "0x1416a1690",
+    "retail_rva": "0x16a1690",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::EvaluatePackage",
+    "retail_va": "0x141aa6590",
+    "retail_rva": "0x1aa6590",
+    "match_type": "aggressive-24b-4wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::GetControllingActor",
+    "retail_va": "0x141759a60",
+    "retail_rva": "0x1759a60",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::HandleNetworkedLocationWarp",
+    "retail_va": "0x1434da4f0",
+    "retail_rva": "0x34da4f0",
+    "match_type": "interior-off15-24b-0wc",
+    "class": "Actor"
+  },
+  {
     "name": "Actor::HideLimb",
     "retail_va": "0x1433123f0",
     "retail_rva": "0x33123f0",
@@ -1589,6 +1792,13 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::IsDead",
+    "retail_va": "0x141a13bf0",
+    "retail_rva": "0x1a13bf0",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "Actor"
+  },
+  {
     "name": "Actor::Jump",
     "retail_va": "0x140b86df0",
     "retail_rva": "0xb86df0",
@@ -1596,10 +1806,59 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::LowMvmt",
+    "retail_va": "0x141d09950",
+    "retail_rva": "0x1d09950",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::Move",
+    "retail_va": "0x1427ad780",
+    "retail_rva": "0x27ad780",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::MoveToHigh_Internal",
+    "retail_va": "0x140e409b0",
+    "retail_rva": "0xe409b0",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::MoveToLow",
+    "retail_va": "0x142022d20",
+    "retail_rva": "0x2022d20",
+    "match_type": "interior-off1-32b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::MovetoLow",
+    "retail_va": "0x142022d20",
+    "retail_rva": "0x2022d20",
+    "match_type": "interior-off1-32b-0wc",
+    "class": "Actor"
+  },
+  {
     "name": "Actor::MovetoMiddleHigh",
     "retail_va": "0x140a15420",
     "retail_rva": "0xa15420",
     "match_type": "unique",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::OnActionStarted",
+    "retail_va": "0x143126f70",
+    "retail_rva": "0x3126f70",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::OnCrippleLimb",
+    "retail_va": "0x140954450",
+    "retail_rva": "0x954450",
+    "match_type": "interior-off10-20b-0wc",
     "class": "Actor"
   },
   {
@@ -1638,6 +1897,13 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::SetLookAtTarget",
+    "retail_va": "0x141f01af0",
+    "retail_rva": "0x1f01af0",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "Actor"
+  },
+  {
     "name": "Actor::SetLooking",
     "retail_va": "0x1438f1fe0",
     "retail_rva": "0x38f1fe0",
@@ -1659,6 +1925,13 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::UpdateMagic",
+    "retail_va": "0x141ffbdd0",
+    "retail_rva": "0x1ffbdd0",
+    "match_type": "aggressive-16b-4wc",
+    "class": "Actor"
+  },
+  {
     "name": "Actor::UpdateMinimal",
     "retail_va": "0x143882010",
     "retail_rva": "0x3882010",
@@ -1666,10 +1939,45 @@
     "class": "Actor"
   },
   {
+    "name": "Actor::UpdateParentSpace",
+    "retail_va": "0x1434da4f0",
+    "retail_rva": "0x34da4f0",
+    "match_type": "interior-off15-24b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::UpdateSoundCallBack",
+    "retail_va": "0x140885c40",
+    "retail_rva": "0x885c40",
+    "match_type": "aggressive-24b-4wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::UpdateVoiceTimer",
+    "retail_va": "0x141656690",
+    "retail_rva": "0x1656690",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::WarpTo",
+    "retail_va": "0x142025810",
+    "retail_rva": "0x2025810",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "Actor"
+  },
+  {
     "name": "Actor::WornArmorChanged",
     "retail_va": "0x1406d6ec0",
     "retail_rva": "0x6d6ec0",
     "match_type": "unique",
+    "class": "Actor"
+  },
+  {
+    "name": "Actor::vfunc_0",
+    "retail_va": "0x141abaac0",
+    "retail_rva": "0x1abaac0",
+    "match_type": "vtable",
     "class": "Actor"
   },
   {
@@ -4865,17 +5173,45 @@
     "class": "Actor"
   },
   {
-    "name": "Actor::~Actor",
-    "retail_va": "0x141abaac0",
-    "retail_rva": "0x1abaac0",
-    "match_type": "vtable",
-    "class": "Actor"
+    "name": "ActorBehaviorComponent::UpdateInterpolatorTask",
+    "retail_va": "0x142c49050",
+    "retail_rva": "0x2c49050",
+    "match_type": "interior-off5-20b-4wc",
+    "class": "ActorBehaviorComponent"
+  },
+  {
+    "name": "ActorCoreSnapshotComponent::PostSerializeReadREFR",
+    "retail_va": "0x14310f210",
+    "retail_rva": "0x310f210",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "ActorCoreSnapshotComponent"
+  },
+  {
+    "name": "ActorCoreSnapshotComponent::PostSerializeReadREFRJob",
+    "retail_va": "0x1418f3f70",
+    "retail_rva": "0x18f3f70",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "ActorCoreSnapshotComponent"
   },
   {
     "name": "ActorEquipManager::EquipFirstEqual",
     "retail_va": "0x1438f39e0",
     "retail_rva": "0x38f39e0",
     "match_type": "unique",
+    "class": "ActorEquipManager"
+  },
+  {
+    "name": "ActorEquipManager::EquipItem",
+    "retail_va": "0x140d6e960",
+    "retail_rva": "0xd6e960",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "ActorEquipManager"
+  },
+  {
+    "name": "ActorEquipManager::UnequipItem",
+    "retail_va": "0x140d6e960",
+    "retail_rva": "0xd6e960",
+    "match_type": "interior-off5-20b-0wc",
     "class": "ActorEquipManager"
   },
   {
@@ -4893,6 +5229,13 @@
     "class": "ActorEquipManager"
   },
   {
+    "name": "ActorMagicCaster::Update",
+    "retail_va": "0x141efb400",
+    "retail_rva": "0x1efb400",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "ActorMagicCaster"
+  },
+  {
     "name": "ActorMediator::DoAction",
     "retail_va": "0x14031d0f0",
     "retail_rva": "0x31d0f0",
@@ -4907,6 +5250,13 @@
     "class": "ActorMotionComponent"
   },
   {
+    "name": "ActorPerksSnapshotComponent::PostSerializeReadREFR",
+    "retail_va": "0x14172fb80",
+    "retail_rva": "0x172fb80",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "ActorPerksSnapshotComponent"
+  },
+  {
     "name": "ActorPerksSnapshotComponent::Serialize",
     "retail_va": "0x14113c8a0",
     "retail_rva": "0x113c8a0",
@@ -4914,10 +5264,24 @@
     "class": "ActorPerksSnapshotComponent"
   },
   {
+    "name": "ActorProjectileSnapshotComponent::CreateProjectileMsg::Execute",
+    "retail_va": "0x1438f1fe0",
+    "retail_rva": "0x38f1fe0",
+    "match_type": "aggressive-16b-4wc",
+    "class": "ActorProjectileSnapshotComponent"
+  },
+  {
     "name": "ActorUtils::ForEachPlayerWithinRange",
     "retail_va": "0x1409990c0",
     "retail_rva": "0x9990c0",
     "match_type": "unique",
+    "class": "ActorUtils"
+  },
+  {
+    "name": "ActorUtils::ForEachRelevantHighProcess",
+    "retail_va": "0x141fbe1d0",
+    "retail_rva": "0x1fbe1d0",
+    "match_type": "interior-off15-16b-0wc",
     "class": "ActorUtils"
   },
   {
@@ -5481,11 +5845,32 @@
     "class": "AnimationFileManagerSingleton"
   },
   {
+    "name": "AnimationFileManagerSingleton::UpdateForManager",
+    "retail_va": "0x1409641e0",
+    "retail_rva": "0x9641e0",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "AnimationFileManagerSingleton"
+  },
+  {
     "name": "AnimationProgressComponent::UpdateInterpolatorTask",
     "retail_va": "0x143ac3ec0",
     "retail_rva": "0x3ac3ec0",
     "match_type": "exact",
     "class": "AnimationProgressComponent"
+  },
+  {
+    "name": "ArchiveManager::GetRandomFileNameForDirectory",
+    "retail_va": "0x1419a5b10",
+    "retail_rva": "0x19a5b10",
+    "match_type": "interior-off10-32b-0wc",
+    "class": "ArchiveManager"
+  },
+  {
+    "name": "BGSBttDB::Create",
+    "retail_va": "0x1420b96c0",
+    "retail_rva": "0x20b96c0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "BGSBttDB"
   },
   {
     "name": "BGSCameraShot::vfunc_0",
@@ -5614,10 +5999,31 @@
     "class": "BGSCombinedCellGeometryDB"
   },
   {
+    "name": "BGSCombinedCellGeometryDB::ModelDB::Create",
+    "retail_va": "0x140560f80",
+    "retail_rva": "0x560f80",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "BGSCombinedCellGeometryDB"
+  },
+  {
+    "name": "BGSCombinedCellGeometryDB::RequestPreload",
+    "retail_va": "0x143975b60",
+    "retail_rva": "0x3975b60",
+    "match_type": "interior-off1-24b-4wc",
+    "class": "BGSCombinedCellGeometryDB"
+  },
+  {
+    "name": "BGSConstructFormsInAllFilesMap::ConstructForms",
+    "retail_va": "0x14208f130",
+    "retail_rva": "0x208f130",
+    "match_type": "interior-off15-20b-0wc",
+    "class": "BGSConstructFormsInAllFilesMap"
+  },
+  {
     "name": "BGSConstructFormsInFileMap::ConstructForms",
-    "retail_va": "0x14355e410",
-    "retail_rva": "0x355e410",
-    "match_type": "wildcard_skip7",
+    "retail_va": "0x140950560",
+    "retail_rva": "0x950560",
+    "match_type": "interior-off15-24b-0wc",
     "class": "BGSConstructFormsInFileMap"
   },
   {
@@ -5761,11 +6167,25 @@
     "class": "BGSDefaultObjectManager"
   },
   {
+    "name": "BGSDismembermentManager::DoCut",
+    "retail_va": "0x140954450",
+    "retail_rva": "0x954450",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "BGSDismembermentManager"
+  },
+  {
     "name": "BGSDynamicPersistenceManager::QueueTask",
     "retail_va": "0x14203c930",
     "retail_rva": "0x203c930",
     "match_type": "unique",
     "class": "BGSDynamicPersistenceManager"
+  },
+  {
+    "name": "BGSEntryPoint::HandleEntryPoint",
+    "retail_va": "0x14177945e",
+    "retail_rva": "0x177945e",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "BGSEntryPoint"
   },
   {
     "name": "BGSExplosion::vfunc_0",
@@ -5919,6 +6339,20 @@
     "retail_va": "0x1420256f0",
     "retail_rva": "0x20256f0",
     "match_type": "unique",
+    "class": "BGSGrassManager"
+  },
+  {
+    "name": "BGSGrassManager::AddCellGrass::CreateGrassPoissonDiskSample",
+    "retail_va": "0x140950560",
+    "retail_rva": "0x950560",
+    "match_type": "interior-off5-32b-0wc",
+    "class": "BGSGrassManager"
+  },
+  {
+    "name": "BGSGrassManager::LoadGrassType",
+    "retail_va": "0x14202a3f0",
+    "retail_rva": "0x202a3f0",
+    "match_type": "interior-off5-20b-0wc",
     "class": "BGSGrassManager"
   },
   {
@@ -6083,6 +6517,13 @@
     "class": "BGSIdleMarker"
   },
   {
+    "name": "BGSInventoryItem::AddToItem",
+    "retail_va": "0x1408ff410",
+    "retail_rva": "0x8ff410",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "BGSInventoryItem"
+  },
+  {
     "name": "BGSInventoryUtils::RemoveNonRefItem",
     "retail_va": "0x14181a040",
     "retail_rva": "0x181a040",
@@ -6153,11 +6594,32 @@
     "class": "BGSKeyword"
   },
   {
+    "name": "BGSLODTerrain::DB::RequestROIData",
+    "retail_va": "0x1411c73f0",
+    "retail_rva": "0x11c73f0",
+    "match_type": "interior-off5-32b-0wc",
+    "class": "BGSLODTerrain"
+  },
+  {
     "name": "BGSLODTerrain::Manager::GetGroundCoverParameters",
     "retail_va": "0x14271f1c5",
     "retail_rva": "0x271f1c5",
     "match_type": "exact",
     "class": "BGSLODTerrain"
+  },
+  {
+    "name": "BGSLODTerrainManager::SetupNodeHierarchy",
+    "retail_va": "0x141af5100",
+    "retail_rva": "0x1af5100",
+    "match_type": "aggressive-24b-4wc",
+    "class": "BGSLODTerrainManager"
+  },
+  {
+    "name": "BGSLODTerrainManager::UpdateClipmaps",
+    "retail_va": "0x1435cd720",
+    "retail_rva": "0x35cd720",
+    "match_type": "interior-off1-12b-4wc",
+    "class": "BGSLODTerrainManager"
   },
   {
     "name": "BGSLODTerrainManager::UpdateDB",
@@ -6658,9 +7120,9 @@
   },
   {
     "name": "BGSPreloadable::QueueModels",
-    "retail_va": "0x140c44020",
-    "retail_rva": "0xc44020",
-    "match_type": "wildcard_skip10",
+    "retail_va": "0x141d88010",
+    "retail_rva": "0x1d88010",
+    "match_type": "interior-off5-16b-0wc",
     "class": "BGSPreloadable"
   },
   {
@@ -6783,6 +7245,27 @@
     "class": "BGSProjectile"
   },
   {
+    "name": "BGSQuestText::ProcessEvent(TESFormDeleteEvent) - Removing [",
+    "retail_va": "0x141428c2b",
+    "retail_rva": "0x1428c2b",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "BGSQuestText"
+  },
+  {
+    "name": "BGSReconstructFormsInAllFilesMap::ReconstructForms",
+    "retail_va": "0x141fe0c40",
+    "retail_rva": "0x1fe0c40",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "BGSReconstructFormsInAllFilesMap"
+  },
+  {
+    "name": "BGSSaveLoadGame::LoadCell",
+    "retail_va": "0x141cf33c0",
+    "retail_rva": "0x1cf33c0",
+    "match_type": "aggressive-24b-4wc",
+    "class": "BGSSaveLoadGame"
+  },
+  {
     "name": "BGSSaveLoadGame::RevertGlobalData",
     "retail_va": "0x141715524",
     "retail_rva": "0x1715524",
@@ -6795,6 +7278,20 @@
     "retail_rva": "0x1656be7",
     "match_type": "wildcard-10b-4wc",
     "class": "BGSSaveLoadGame"
+  },
+  {
+    "name": "BGSSaveLoadManager::DoLoadGame",
+    "retail_va": "0x14202a3f0",
+    "retail_rva": "0x202a3f0",
+    "match_type": "interior-off1-12b-0wc",
+    "class": "BGSSaveLoadManager"
+  },
+  {
+    "name": "BGSSaveLoadReferencesMap::LoadReferencesForCell",
+    "retail_va": "0x142991d70",
+    "retail_rva": "0x2991d70",
+    "match_type": "interior-off1-32b-0wc",
+    "class": "BGSSaveLoadReferencesMap"
   },
   {
     "name": "BGSScene::vfunc_0",
@@ -6972,6 +7469,13 @@
     "class": "BGSStoryManager"
   },
   {
+    "name": "BGSStoryManager::GetQuestsForEvent",
+    "retail_va": "0x140edca10",
+    "retail_rva": "0xedca10",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "BGSStoryManager"
+  },
+  {
     "name": "BGSStoryManagerBranchNode::vfunc_0",
     "retail_va": "0x140564380",
     "retail_rva": "0x564380",
@@ -7084,6 +7588,13 @@
     "class": "BGSStoryManagerEventNode"
   },
   {
+    "name": "BGSStoryManagerQuestFinder::VisitBranchNode",
+    "retail_va": "0x1408dc480",
+    "retail_rva": "0x8dc480",
+    "match_type": "interior-off1-16b-0wc",
+    "class": "BGSStoryManagerQuestFinder"
+  },
+  {
     "name": "BGSStoryManagerQuestNode::vfunc_0",
     "retail_va": "0x140d24170",
     "retail_rva": "0xd24170",
@@ -7145,6 +7656,13 @@
     "retail_rva": "0xd23c50",
     "match_type": "vtable",
     "class": "BGSStoryManagerQuestNode"
+  },
+  {
+    "name": "BGSStoryTeller::BeginShutDownQuest",
+    "retail_va": "0x140769b40",
+    "retail_rva": "0x769b40",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "BGSStoryTeller"
   },
   {
     "name": "BGSStoryTeller::BeginStartUpQuest",
@@ -7483,6 +8001,13 @@
     "class": "BGSTerrainManager"
   },
   {
+    "name": "BGSTerrainManager::RunUpdate_CellGridShift",
+    "retail_va": "0x141fdf980",
+    "retail_rva": "0x1fdf980",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "BGSTerrainManager"
+  },
+  {
     "name": "BGSTerrainManager::SetClipVolume",
     "retail_va": "0x141ccc5a0",
     "retail_rva": "0x1ccc5a0",
@@ -7574,6 +8099,13 @@
     "class": "BNetWebsocket"
   },
   {
+    "name": "BNetWebsocket::Shutdown: called",
+    "retail_va": "0x1434d00c0",
+    "retail_rva": "0x34d00c0",
+    "match_type": "aggressive-32b-4wc",
+    "class": "BNetWebsocket"
+  },
+  {
     "name": "BSCastUtility::ShapeCastInWorld",
     "retail_va": "0x14043f4a0",
     "retail_rva": "0x43f4a0",
@@ -7609,6 +8141,34 @@
     "class": "BSClusterRenderer"
   },
   {
+    "name": "BSClusterRenderer::RenderClusters",
+    "retail_va": "0x140d68110",
+    "retail_rva": "0xd68110",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "BSClusterRenderer"
+  },
+  {
+    "name": "BSCoreMessage::DoWarning",
+    "retail_va": "0x14082c750",
+    "retail_rva": "0x82c750",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "BSCoreMessage"
+  },
+  {
+    "name": "BSCoreMessage::VSend",
+    "retail_va": "0x14082c750",
+    "retail_rva": "0x82c750",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "BSCoreMessage"
+  },
+  {
+    "name": "BSCoreMessage::Warning",
+    "retail_va": "0x14112cec0",
+    "retail_rva": "0x112cec0",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "BSCoreMessage"
+  },
+  {
     "name": "BSDynamicObjectQueryManager::PostProcess",
     "retail_va": "0x140365350",
     "retail_rva": "0x365350",
@@ -7623,10 +8183,59 @@
     "class": "BSEnlighten"
   },
   {
+    "name": "BSEnlighten::CubeMap::Scene::UpdateTexture",
+    "retail_va": "0x14068b280",
+    "retail_rva": "0x68b280",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::CubeMap::UpdateVoxelSpaceBounds",
+    "retail_va": "0x14044e320",
+    "retail_rva": "0x44e320",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "BSEnlighten"
+  },
+  {
     "name": "BSEnlighten::EnlightenSceneData::ReinitializeMaterials",
     "retail_va": "0x142097e90",
     "retail_rva": "0x2097e90",
     "match_type": "unique",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::ToggleCubeMaps",
+    "retail_va": "0x142393570",
+    "retail_rva": "0x2393570",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::ToggleLightmaps",
+    "retail_va": "0x142393570",
+    "retail_rva": "0x2393570",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::ToggleProbes",
+    "retail_va": "0x142393570",
+    "retail_rva": "0x2393570",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::UpdateCubeMapPrioritiesAndVoxelSpace",
+    "retail_va": "0x140458d70",
+    "retail_rva": "0x458d70",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::EnlightenSceneData::UpdateCubeMapVolumePlanes",
+    "retail_va": "0x1420cc5c0",
+    "retail_rva": "0x20cc5c0",
+    "match_type": "interior-off5-24b-0wc",
     "class": "BSEnlighten"
   },
   {
@@ -7658,6 +8267,13 @@
     "class": "BSEnlighten"
   },
   {
+    "name": "BSEnlighten::Global::ConvertPixels",
+    "retail_va": "0x140b36920",
+    "retail_rva": "0xb36920",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "BSEnlighten"
+  },
+  {
     "name": "BSEnlighten::Global::ScopedLockPppiManager::EndUpdatePPPIIndirection",
     "retail_va": "0x140e99200",
     "retail_rva": "0xe99200",
@@ -7665,10 +8281,31 @@
     "class": "BSEnlighten"
   },
   {
+    "name": "BSEnlighten::Global::`anonymous-namespace'::UpdateEnlightenSystems",
+    "retail_va": "0x141af5100",
+    "retail_rva": "0x1af5100",
+    "match_type": "aggressive-24b-4wc",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::Global::`anonymous-namespace'::UpdateEnlightenSystemsProbeSetsAndCubemaps",
+    "retail_va": "0x1406e8f90",
+    "retail_rva": "0x6e8f90",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "BSEnlighten"
+  },
+  {
     "name": "BSEnlighten::Lightmaps::UpdateLights",
     "retail_va": "0x141f49670",
     "retail_rva": "0x1f49670",
     "match_type": "unique",
+    "class": "BSEnlighten"
+  },
+  {
+    "name": "BSEnlighten::Lightmaps::`anonymous-namespace'::SetEnvironmentLightValues",
+    "retail_va": "0x142c15690",
+    "retail_rva": "0x2c15690",
+    "match_type": "interior-off10-24b-0wc",
     "class": "BSEnlighten"
   },
   {
@@ -7684,6 +8321,13 @@
     "retail_rva": "0xf20665",
     "match_type": "unique",
     "class": "BSEnlighten"
+  },
+  {
+    "name": "BSFaceGenDB::TRI::Create",
+    "retail_va": "0x14128aef0",
+    "retail_rva": "0x128aef0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "BSFaceGenDB"
   },
   {
     "name": "BSFadeNode::vfunc_0",
@@ -8533,11 +9177,46 @@
     "class": "BSGeometry"
   },
   {
+    "name": "BSGraphics::Renderer::UpdateTextureData",
+    "retail_va": "0x1407498f0",
+    "retail_rva": "0x7498f0",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "BSGraphics"
+  },
+  {
+    "name": "BSGraphics::ValidateReadOnlyDepthStencilState",
+    "retail_va": "0x14323f5f0",
+    "retail_rva": "0x323f5f0",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "BSGraphics"
+  },
+  {
     "name": "BSHkbHkxDB::Demand",
     "retail_va": "0x14043ea20",
     "retail_rva": "0x43ea20",
     "match_type": "unique",
     "class": "BSHkbHkxDB"
+  },
+  {
+    "name": "BSImGui::Impl::EndFrame",
+    "retail_va": "0x141350160",
+    "retail_rva": "0x1350160",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "BSImGui"
+  },
+  {
+    "name": "BSImGui::Impl::PerformInputProcessing",
+    "retail_va": "0x14177a850",
+    "retail_rva": "0x177a850",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "BSImGui"
+  },
+  {
+    "name": "BSImGuiRenderer::Render",
+    "retail_va": "0x14134ae00",
+    "retail_rva": "0x134ae00",
+    "match_type": "interior-off5-32b-0wc",
+    "class": "BSImGuiRenderer"
   },
   {
     "name": "BSImGuiWebSocketRenderer::ProcessEvent",
@@ -8624,13 +9303,6 @@
     "class": "BSJobs"
   },
   {
-    "name": "BSPSysFollowStaticsUpdateModifier::Update",
-    "retail_va": "0x141fd8e60",
-    "retail_rva": "0x1fd8e60",
-    "match_type": "wildcard_skip7",
-    "class": "BSPSysFollowStaticsUpdateModifier"
-  },
-  {
     "name": "BSPreCulledObjects::AddToShadowCullingGroups",
     "retail_va": "0x141cac750",
     "retail_rva": "0x1cac750",
@@ -8656,6 +9328,13 @@
     "retail_va": "0x1419b4900",
     "retail_rva": "0x19b4900",
     "match_type": "unique",
+    "class": "BSPrecomputedVisibility"
+  },
+  {
+    "name": "BSPrecomputedVisibility::ShadowCullerBuilder::Setup",
+    "retail_va": "0x1430f4f90",
+    "retail_rva": "0x30f4f90",
+    "match_type": "interior-off10-24b-0wc",
     "class": "BSPrecomputedVisibility"
   },
   {
@@ -8701,6 +9380,48 @@
     "class": "BSResource"
   },
   {
+    "name": "BSResource::LocationTree::DoCreateAsyncStream",
+    "retail_va": "0x143489420",
+    "retail_rva": "0x3489420",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "BSResource"
+  },
+  {
+    "name": "BSResource::LocationTree::DoCreateStream",
+    "retail_va": "0x143489420",
+    "retail_rva": "0x3489420",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "BSResource"
+  },
+  {
+    "name": "BSResourceEntryDB::FlushReleases",
+    "retail_va": "0x140741830",
+    "retail_rva": "0x741830",
+    "match_type": "interior-off1-16b-0wc",
+    "class": "BSResourceEntryDB"
+  },
+  {
+    "name": "BSScaleformManager::FinalizeMovieLoad",
+    "retail_va": "0x14290b7f0",
+    "retail_rva": "0x290b7f0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "BSScaleformManager"
+  },
+  {
+    "name": "BSScaleformManager::LoadMovieDef",
+    "retail_va": "0x140686ef0",
+    "retail_rva": "0x686ef0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "BSScaleformManager"
+  },
+  {
+    "name": "BSScaleformManager::StartMovieLoad",
+    "retail_va": "0x1423d1c60",
+    "retail_rva": "0x23d1c60",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "BSScaleformManager"
+  },
+  {
     "name": "BSShaderAccumulator::FinishAccumulating_LODOnly",
     "retail_va": "0x142027d70",
     "retail_rva": "0x2027d70",
@@ -8713,6 +9434,13 @@
     "retail_rva": "0x949990",
     "match_type": "unique",
     "class": "BSShaderAccumulator"
+  },
+  {
+    "name": "BSStaticTriShapeDB::Create",
+    "retail_va": "0x141874690",
+    "retail_rva": "0x1874690",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "BSStaticTriShapeDB"
   },
   {
     "name": "BSStaticTriShapeDB::Request",
@@ -8734,6 +9462,13 @@
     "retail_rva": "0x211e1f",
     "match_type": "wildcard-12b-4wc",
     "class": "BSTempEffectDebris"
+  },
+  {
+    "name": "BSTempEffectParticle::Spawn",
+    "retail_va": "0x1433123f0",
+    "retail_rva": "0x33123f0",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "BSTempEffectParticle"
   },
   {
     "name": "BSTextureStreamer::HandleLoadRequest",
@@ -8946,10 +9681,52 @@
     "class": "BasePlayerCharacter"
   },
   {
+    "name": "BasePlayerCharacter::Update",
+    "retail_va": "0x141cf33c0",
+    "retail_rva": "0x1cf33c0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "BasePlayerCharacter"
+  },
+  {
+    "name": "BasePlayerCharacter::Update::UpdateCollisionState",
+    "retail_va": "0x1429232d9",
+    "retail_rva": "0x29232d9",
+    "match_type": "interior-off10-16b-8wc",
+    "class": "BasePlayerCharacter"
+  },
+  {
     "name": "CELL::AttachToWorld",
     "retail_va": "0x140ede1b0",
     "retail_rva": "0xede1b0",
     "match_type": "unique",
+    "class": "CELL"
+  },
+  {
+    "name": "CELL::ChangeProcessLevel",
+    "retail_va": "0x141c09390",
+    "retail_rva": "0x1c09390",
+    "match_type": "interior-off15-20b-0wc",
+    "class": "CELL"
+  },
+  {
+    "name": "CELL::ClearReference3D",
+    "retail_va": "0x1435cd720",
+    "retail_rva": "0x35cd720",
+    "match_type": "interior-off20-16b-8wc",
+    "class": "CELL"
+  },
+  {
+    "name": "CELL::LoadTempDataFromFile",
+    "retail_va": "0x1434e04c0",
+    "retail_rva": "0x34e04c0",
+    "match_type": "interior-off1-12b-0wc",
+    "class": "CELL"
+  },
+  {
+    "name": "CELL::RunAnimations",
+    "retail_va": "0x14140cb00",
+    "retail_rva": "0x140cb00",
+    "match_type": "interior-off10-24b-0wc",
     "class": "CELL"
   },
   {
@@ -8960,10 +9737,45 @@
     "class": "CELL"
   },
   {
+    "name": "CELL::UpdateHavokCamera",
+    "retail_va": "0x142c77910",
+    "retail_rva": "0x2c77910",
+    "match_type": "interior-off15-20b-8wc",
+    "class": "CELL"
+  },
+  {
+    "name": "CampVendingMenu::AdvanceMovie",
+    "retail_va": "0x14099d470",
+    "retail_rva": "0x99d470",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "CampVendingMenu"
+  },
+  {
+    "name": "CampVendingMenu::ProcessMessage",
+    "retail_va": "0x1409a9490",
+    "retail_rva": "0x9a9490",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "CampVendingMenu"
+  },
+  {
+    "name": "CellLoaderTask::Cancel",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "CellLoaderTask"
+  },
+  {
     "name": "CellLoaderTask::Finish",
     "retail_va": "0x141efd430",
     "retail_rva": "0x1efd430",
     "match_type": "unique",
+    "class": "CellLoaderTask"
+  },
+  {
+    "name": "CellLoaderTask::Run",
+    "retail_va": "0x140ae4df0",
+    "retail_rva": "0xae4df0",
+    "match_type": "interior-off5-20b-0wc",
     "class": "CellLoaderTask"
   },
   {
@@ -8972,6 +9784,13 @@
     "retail_rva": "0x16653a0",
     "match_type": "wildcard-24b-8wc",
     "class": "CellNonRefrEntity"
+  },
+  {
+    "name": "CharacterCustomizationNetworkData::ApplyTo",
+    "retail_va": "0x143734910",
+    "retail_rva": "0x3734910",
+    "match_type": "interior-off1-24b-0wc",
+    "class": "CharacterCustomizationNetworkData"
   },
   {
     "name": "CharacterCustomizationNetworkData::Set",
@@ -8988,6 +9807,685 @@
     "class": "CharacterManager"
   },
   {
+    "name": "ClassTraits::AVM1Movie",
+    "retail_va": "0x14255596b",
+    "retail_rva": "0x255596b",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::AccessibilityImplementation",
+    "retail_va": "0x1430b0e89",
+    "retail_rva": "0x30b0e89",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ActionScriptVersion",
+    "retail_va": "0x140bd3a5b",
+    "retail_rva": "0xbd3a5b",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::AppLifecycleEvent",
+    "retail_va": "0x142342d90",
+    "retail_rva": "0x2342d90",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ApplicationDomain",
+    "retail_va": "0x140d10ede",
+    "retail_rva": "0xd10ede",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::BlendMode",
+    "retail_va": "0x14254fb28",
+    "retail_rva": "0x254fb28",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ByteArray",
+    "retail_va": "0x142c82930",
+    "retail_rva": "0x2c82930",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ColorTransform",
+    "retail_va": "0x14197c170",
+    "retail_rva": "0x197c170",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::DropShadowFilter",
+    "retail_va": "0x142bef260",
+    "retail_rva": "0x2bef260",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Error",
+    "retail_va": "0x142c81de0",
+    "retail_rva": "0x2c81de0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Event",
+    "retail_va": "0x1427ba9a0",
+    "retail_rva": "0x27ba9a0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::FileFilter",
+    "retail_va": "0x140e9dc40",
+    "retail_rva": "0xe9dc40",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::FileReferenceList",
+    "retail_va": "0x1418dbef0",
+    "retail_rva": "0x18dbef0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::FocusEvent",
+    "retail_va": "0x1431e2500",
+    "retail_rva": "0x31e2500",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::GeolocationEvent",
+    "retail_va": "0x14197af10",
+    "retail_rva": "0x197af10",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::GlowFilter",
+    "retail_va": "0x142ebb690",
+    "retail_rva": "0x2ebb690",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::GraphicsEndFill",
+    "retail_va": "0x142e1ff70",
+    "retail_rva": "0x2e1ff70",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::IDataInput",
+    "retail_va": "0x142c82060",
+    "retail_rva": "0x2c82060",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::IDynamicPropertyOutput",
+    "retail_va": "0x142b90e70",
+    "retail_rva": "0x2b90e70",
+    "match_type": "interior-off20-24b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::IDynamicPropertyWriter",
+    "retail_va": "0x14197ba20",
+    "retail_rva": "0x197ba20",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::IGraphicsFill",
+    "retail_va": "0x140d10ede",
+    "retail_rva": "0xd10ede",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::IME",
+    "retail_va": "0x142c06370",
+    "retail_rva": "0x2c06370",
+    "match_type": "interior-off20-24b-8wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::InvalidSWFError",
+    "retail_va": "0x1430b0e89",
+    "retail_rva": "0x30b0e89",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Loader",
+    "retail_va": "0x1434ee440",
+    "retail_rva": "0x34ee440",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::LoaderContext",
+    "retail_va": "0x1430b0e89",
+    "retail_rva": "0x30b0e89",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::LoaderInfo",
+    "retail_va": "0x14039a050",
+    "retail_rva": "0x39a050",
+    "match_type": "interior-off20-24b-8wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Matrix3D",
+    "retail_va": "0x141efebc0",
+    "retail_rva": "0x1efebc0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::MorphShape",
+    "retail_va": "0x143872ca0",
+    "retail_rva": "0x3872ca0",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::MovieClip",
+    "retail_va": "0x142c82060",
+    "retail_rva": "0x2c82060",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::NetStatusEvent",
+    "retail_va": "0x141293a50",
+    "retail_rva": "0x1293a50",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::PixelSnapping",
+    "retail_va": "0x142c82a50",
+    "retail_rva": "0x2c82a50",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::QName",
+    "retail_va": "0x142c821c0",
+    "retail_rva": "0x2c821c0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::RangeError",
+    "retail_va": "0x141906070",
+    "retail_rva": "0x1906070",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ReferenceError",
+    "retail_va": "0x143778200",
+    "retail_rva": "0x3778200",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Responder",
+    "retail_va": "0x142b838a0",
+    "retail_rva": "0x2b838a0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::SecurityErrorEvent",
+    "retail_va": "0x1404045b0",
+    "retail_rva": "0x4045b0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ShaderFilter",
+    "retail_va": "0x14247ba3a",
+    "retail_rva": "0x247ba3a",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ShaderJob",
+    "retail_va": "0x142a19bcd",
+    "retail_rva": "0x2a19bcd",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ShaderParameterType",
+    "retail_va": "0x14049d3d0",
+    "retail_rva": "0x49d3d0",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::ShaderPrecision",
+    "retail_va": "0x14164dde5",
+    "retail_rva": "0x164dde5",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::SharedObjectFlushStatus",
+    "retail_va": "0x142b90680",
+    "retail_rva": "0x2b90680",
+    "match_type": "interior-off20-24b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::SimpleButton",
+    "retail_va": "0x14157d3f0",
+    "retail_rva": "0x157d3f0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Socket",
+    "retail_va": "0x142b90730",
+    "retail_rva": "0x2b90730",
+    "match_type": "interior-off20-24b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::SpreadMethod",
+    "retail_va": "0x14226bd8f",
+    "retail_rva": "0x226bd8f",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Sprite",
+    "retail_va": "0x142d061d0",
+    "retail_rva": "0x2d061d0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::StackOverflowError",
+    "retail_va": "0x1426abc10",
+    "retail_rva": "0x26abc10",
+    "match_type": "interior-off5-32b-12wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::StageDisplayState",
+    "retail_va": "0x141935a80",
+    "retail_rva": "0x1935a80",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::StageQuality",
+    "retail_va": "0x142266ac0",
+    "retail_rva": "0x2266ac0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::System",
+    "retail_va": "0x142c060b0",
+    "retail_rva": "0x2c060b0",
+    "match_type": "interior-off5-32b-8wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::Timer",
+    "retail_va": "0x141540e6a",
+    "retail_rva": "0x1540e6a",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::TimerEvent",
+    "retail_va": "0x14177db20",
+    "retail_rva": "0x177db20",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::URLLoader",
+    "retail_va": "0x142b90bb0",
+    "retail_rva": "0x2b90bb0",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::URLLoaderDataFormat",
+    "retail_va": "0x142b90fe0",
+    "retail_rva": "0x2b90fe0",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::URLRequest",
+    "retail_va": "0x142b90690",
+    "retail_rva": "0x2b90690",
+    "match_type": "interior-off20-24b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::URLStream",
+    "retail_va": "0x140bd3a90",
+    "retail_rva": "0xbd3a90",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "ClassTraits::XMLDocument",
+    "retail_va": "0x142ebb6a0",
+    "retail_rva": "0x2ebb6a0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "ClassTraits"
+  },
+  {
+    "name": "Classes::ActionScriptVersion",
+    "retail_va": "0x1403dd950",
+    "retail_rva": "0x3dd950",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::AppLifecycleEvent",
+    "retail_va": "0x1418531f0",
+    "retail_rva": "0x18531f0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::BitmapFilterQuality",
+    "retail_va": "0x14197bc70",
+    "retail_rva": "0x197bc70",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::CapsStyle",
+    "retail_va": "0x14209a913",
+    "retail_rva": "0x209a913",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::Date",
+    "retail_va": "0x142d061e0",
+    "retail_rva": "0x2d061e0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::Endian",
+    "retail_va": "0x1420bcdd0",
+    "retail_rva": "0x20bcdd0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::Error",
+    "retail_va": "0x142bcd1f0",
+    "retail_rva": "0x2bcd1f0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::ExternalInterface",
+    "retail_va": "0x1433df5a0",
+    "retail_rva": "0x33df5a0",
+    "match_type": "interior-off10-32b-8wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::Font",
+    "retail_va": "0x142342dc0",
+    "retail_rva": "0x2342dc0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::FontStyle",
+    "retail_va": "0x14197b810",
+    "retail_rva": "0x197b810",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::GamePadAnalogEvent",
+    "retail_va": "0x14197a980",
+    "retail_rva": "0x197a980",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::GeolocationEvent",
+    "retail_va": "0x14197b560",
+    "retail_rva": "0x197b560",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::GradientType",
+    "retail_va": "0x141a00610",
+    "retail_rva": "0x1a00610",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::GraphicsPathWinding",
+    "retail_va": "0x142e1ff10",
+    "retail_rva": "0x2e1ff10",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::HTTPStatusEvent",
+    "retail_va": "0x14197af10",
+    "retail_rva": "0x197af10",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::IME",
+    "retail_va": "0x142c82a40",
+    "retail_rva": "0x2c82a40",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::IMEConversionMode",
+    "retail_va": "0x1418c3860",
+    "retail_rva": "0x18c3860",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::InteractiveObjectEx",
+    "retail_va": "0x14208c570",
+    "retail_rva": "0x208c570",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::InterpolationMethod",
+    "retail_va": "0x142d06270",
+    "retail_rva": "0x2d06270",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::LoaderInfo",
+    "retail_va": "0x140d9708f",
+    "retail_rva": "0xd9708f",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::MouseCursorEvent",
+    "retail_va": "0x14197c340",
+    "retail_rva": "0x197c340",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::NetStatusEvent",
+    "retail_va": "0x142c82910",
+    "retail_rva": "0x2c82910",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::PressAndTapGestureEvent",
+    "retail_va": "0x142c824b0",
+    "retail_rva": "0x2c824b0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::SWFVersion",
+    "retail_va": "0x142c82690",
+    "retail_rva": "0x2c82690",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::SecurityDomain",
+    "retail_va": "0x141f4ce90",
+    "retail_rva": "0x1f4ce90",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::SharedObjectFlushStatus",
+    "retail_va": "0x142b90730",
+    "retail_rva": "0x2b90730",
+    "match_type": "interior-off20-24b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::StageDisplayState",
+    "retail_va": "0x141e60730",
+    "retail_rva": "0x1e60730",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::StageScaleMode",
+    "retail_va": "0x1413c5ad0",
+    "retail_rva": "0x13c5ad0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::String",
+    "retail_va": "0x142e1fd30",
+    "retail_rva": "0x2e1fd30",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::System",
+    "retail_va": "0x142ff896f",
+    "retail_rva": "0x2ff896f",
+    "match_type": "interior-off15-20b-0wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::TextDisplayMode",
+    "retail_va": "0x142bf4e30",
+    "retail_rva": "0x2bf4e30",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::TextEvent",
+    "retail_va": "0x141fa3350",
+    "retail_rva": "0x1fa3350",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::TextFieldEx",
+    "retail_va": "0x1423bfb7a",
+    "retail_rva": "0x23bfb7a",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::TextFormatAlign",
+    "retail_va": "0x14197c260",
+    "retail_rva": "0x197c260",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::URLLoaderDataFormat",
+    "retail_va": "0x14197b3e0",
+    "retail_rva": "0x197b3e0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::UncaughtErrorEvent",
+    "retail_va": "0x142c82750",
+    "retail_rva": "0x2c82750",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::Utils3D",
+    "retail_va": "0x14197b750",
+    "retail_rva": "0x197b750",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "Classes::XMLNodeType",
+    "retail_va": "0x142569980",
+    "retail_rva": "0x2569980",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Classes"
+  },
+  {
+    "name": "ClientBIPerformance::GetPerformanceMetrics",
+    "retail_va": "0x140f1a0a0",
+    "retail_rva": "0xf1a0a0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "ClientBIPerformance"
+  },
+  {
+    "name": "ClientInventoryMutator::AddItem",
+    "retail_va": "0x142360188",
+    "retail_rva": "0x2360188",
+    "match_type": "aggressive-20b-12wc",
+    "class": "ClientInventoryMutator"
+  },
+  {
+    "name": "ClientInventoryMutator::SendEvent",
+    "retail_va": "0x1409b12b0",
+    "retail_rva": "0x9b12b0",
+    "match_type": "interior-off5-32b-0wc",
+    "class": "ClientInventoryMutator"
+  },
+  {
     "name": "ClientInventoryMutator::SetEquipped",
     "retail_va": "0x14148f440",
     "retail_rva": "0x148f440",
@@ -9000,6 +10498,27 @@
     "retail_rva": "0x16653a0",
     "match_type": "wildcard-24b-8wc",
     "class": "CombatBehaviorContextMelee"
+  },
+  {
+    "name": "CombatCtrlr::Update",
+    "retail_va": "0x143110090",
+    "retail_rva": "0x3110090",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "CombatCtrlr"
+  },
+  {
+    "name": "ConeProjectile::ProcessImpacts",
+    "retail_va": "0x14238f9f0",
+    "retail_rva": "0x238f9f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "ConeProjectile"
+  },
+  {
+    "name": "ContainerItemExtra::GetHealthPercent",
+    "retail_va": "0x141fb3160",
+    "retail_rva": "0x1fb3160",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "ContainerItemExtra"
   },
   {
     "name": "ContainerMenu::vfunc_0",
@@ -9205,6 +10724,20 @@
     "class": "ConvergenceAim"
   },
   {
+    "name": "CorpseHighlightManager::RegisterTarget",
+    "retail_va": "0x143992a80",
+    "retail_rva": "0x3992a80",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "CorpseHighlightManager"
+  },
+  {
+    "name": "CorpseHighlightManager::Update",
+    "retail_va": "0x14094abc0",
+    "retail_rva": "0x94abc0",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "CorpseHighlightManager"
+  },
+  {
     "name": "CullingJob::Accum",
     "retail_va": "0x141fe1300",
     "retail_rva": "0x1fe1300",
@@ -9231,6 +10764,13 @@
     "retail_rva": "0x1fe1300",
     "match_type": "exact",
     "class": "CullingJob"
+  },
+  {
+    "name": "DBTraits::ResolveTextureArrayDependencies",
+    "retail_va": "0x1417e7790",
+    "retail_rva": "0x17e7790",
+    "match_type": "interior-off10-16b-8wc",
+    "class": "DBTraits"
   },
   {
     "name": "DefaultRagdollHandler::Actor::vfunc_0",
@@ -9282,11 +10822,60 @@
     "class": "DeferredComponentUpdate"
   },
   {
+    "name": "DeferredComponentUpdate::Impl::~Impl",
+    "retail_va": "0x1417ceab0",
+    "retail_rva": "0x17ceab0",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "DeferredComponentUpdate"
+  },
+  {
     "name": "DistantAudioManager::Update",
     "retail_va": "0x140952c20",
     "retail_rva": "0x952c20",
     "match_type": "unique",
     "class": "DistantAudioManager"
+  },
+  {
+    "name": "DrawWorld::DeferredDecals",
+    "retail_va": "0x1418504b0",
+    "retail_rva": "0x18504b0",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::DeferredLightsImpl",
+    "retail_va": "0x141ed31f0",
+    "retail_rva": "0x1ed31f0",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::DeferredPrePass",
+    "retail_va": "0x14117bda0",
+    "retail_rva": "0x117bda0",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::Imagespace",
+    "retail_va": "0x1416a3e40",
+    "retail_rva": "0x16a3e40",
+    "match_type": "interior-off10-16b-4wc",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::LaunchPrevisQuery",
+    "retail_va": "0x1420b9c30",
+    "retail_rva": "0x20b9c30",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::LightProbes",
+    "retail_va": "0x1418c0ac0",
+    "retail_rva": "0x18c0ac0",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "DrawWorld"
   },
   {
     "name": "DrawWorld::MainRenderSetup",
@@ -9303,6 +10892,13 @@
     "class": "DrawWorld"
   },
   {
+    "name": "DrawWorld::Render_PreUI",
+    "retail_va": "0x141efd430",
+    "retail_rva": "0x1efd430",
+    "match_type": "interior-off20-16b-0wc",
+    "class": "DrawWorld"
+  },
+  {
     "name": "DrawWorld::Render_UI",
     "retail_va": "0x143169fe0",
     "retail_rva": "0x3169fe0",
@@ -9314,6 +10910,27 @@
     "retail_va": "0x1434d9bb0",
     "retail_rva": "0x34d9bb0",
     "match_type": "unique",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::UpdateTerrain",
+    "retail_va": "0x141efd430",
+    "retail_rva": "0x1efd430",
+    "match_type": "interior-off20-16b-0wc",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::UpdateWater",
+    "retail_va": "0x141efd430",
+    "retail_rva": "0x1efd430",
+    "match_type": "interior-off20-16b-0wc",
+    "class": "DrawWorld"
+  },
+  {
+    "name": "DrawWorld::ZPrepass",
+    "retail_va": "0x141cf5350",
+    "retail_rva": "0x1cf5350",
+    "match_type": "interior-off5-24b-0wc",
     "class": "DrawWorld"
   },
   {
@@ -9653,11 +11270,11 @@
     "class": "EnchantmentItem"
   },
   {
-    "name": "EntityManager::AddEntityHelper",
-    "retail_va": "0x1438939b0",
-    "retail_rva": "0x38939b0",
-    "match_type": "wildcard_skip3",
-    "class": "EntityManager"
+    "name": "EndOfMatchMenu::UpdateData",
+    "retail_va": "0x141428c2b",
+    "retail_rva": "0x1428c2b",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "EndOfMatchMenu"
   },
   {
     "name": "EntityManager::AddPlayerHelper player id [",
@@ -9671,6 +11288,20 @@
     "retail_va": "0x14063e850",
     "retail_rva": "0x63e850",
     "match_type": "exact",
+    "class": "EntityManager"
+  },
+  {
+    "name": "EntityManager::ForEachPlayer",
+    "retail_va": "0x14151ed10",
+    "retail_rva": "0x151ed10",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "EntityManager"
+  },
+  {
+    "name": "EntityManager::GetEntity",
+    "retail_va": "0x14169ded0",
+    "retail_rva": "0x169ded0",
+    "match_type": "interior-off1-32b-4wc",
     "class": "EntityManager"
   },
   {
@@ -9737,6 +11368,34 @@
     "class": "Events"
   },
   {
+    "name": "Events::FormDeleteEvent",
+    "retail_va": "0x1409b75e0",
+    "retail_rva": "0x9b75e0",
+    "match_type": "interior-off10-16b-8wc",
+    "class": "Events"
+  },
+  {
+    "name": "Events::Hit",
+    "retail_va": "0x143ac3240",
+    "retail_rva": "0x3ac3240",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "Events"
+  },
+  {
+    "name": "Events::LimbCrippleEvent",
+    "retail_va": "0x142027260",
+    "retail_rva": "0x2027260",
+    "match_type": "interior-off10-32b-0wc",
+    "class": "Events"
+  },
+  {
+    "name": "Events::LocationLoadStateChanged",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Events"
+  },
+  {
     "name": "Events::LockChanged",
     "retail_va": "0x14157c360",
     "retail_rva": "0x157c360",
@@ -9800,6 +11459,27 @@
     "class": "Events"
   },
   {
+    "name": "Events::QuestInit",
+    "retail_va": "0x1409b75e0",
+    "retail_rva": "0x9b75e0",
+    "match_type": "interior-off20-16b-8wc",
+    "class": "Events"
+  },
+  {
+    "name": "Events::QuestInit::ERROR",
+    "retail_va": "0x1409b75e0",
+    "retail_rva": "0x9b75e0",
+    "match_type": "interior-off20-16b-8wc",
+    "class": "Events"
+  },
+  {
+    "name": "Events::QuestStartStop::ERROR",
+    "retail_va": "0x141874690",
+    "retail_rva": "0x1874690",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Events"
+  },
+  {
     "name": "Events::Reset",
     "retail_va": "0x140a779c0",
     "retail_rva": "0xa779c0",
@@ -9811,6 +11491,13 @@
     "retail_va": "0x140a779c0",
     "retail_rva": "0xa779c0",
     "match_type": "unique",
+    "class": "Events"
+  },
+  {
+    "name": "Events::SleepStartEvent",
+    "retail_va": "0x140c0a070",
+    "retail_rva": "0xc0a070",
+    "match_type": "aggressive-24b-8wc",
     "class": "Events"
   },
   {
@@ -9846,6 +11533,13 @@
     "retail_va": "0x142022820",
     "retail_rva": "0x2022820",
     "match_type": "unique",
+    "class": "ExamineMenu"
+  },
+  {
+    "name": "ExamineMenu::MovieLoaded",
+    "retail_va": "0x142022820",
+    "retail_rva": "0x2022820",
+    "match_type": "interior-off1-20b-0wc",
     "class": "ExamineMenu"
   },
   {
@@ -10389,9 +12083,9 @@
   },
   {
     "name": "ExteriorCellLoader::LoadCellData",
-    "retail_va": "0x140c387b2",
-    "retail_rva": "0xc387b2",
-    "match_type": "wildcard_skip1",
+    "retail_va": "0x142a2ee50",
+    "retail_rva": "0x2a2ee50",
+    "match_type": "aggressive-16b-4wc",
     "class": "ExteriorCellLoader"
   },
   {
@@ -10414,6 +12108,13 @@
     "retail_rva": "0x213555f",
     "match_type": "unique",
     "class": "ExtraPowerArmorBeacon"
+  },
+  {
+    "name": "FalloutWorldsDataModel::ShouldRefreshWorldSocial",
+    "retail_va": "0x143920550",
+    "retail_rva": "0x3920550",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "FalloutWorldsDataModel"
   },
   {
     "name": "FavoritesMenu::vfunc_0",
@@ -10514,6 +12215,41 @@
     "class": "ForEachSpellVisitor"
   },
   {
+    "name": "FoundationGroups::ResolveFoundationGroups",
+    "retail_va": "0x14146dab0",
+    "retail_rva": "0x146dab0",
+    "match_type": "interior-off5-32b-0wc",
+    "class": "FoundationGroups"
+  },
+  {
+    "name": "GAME_NETWORK_MESSAGES::PerformHitsOnActors",
+    "retail_va": "0x1411c5e10",
+    "retail_rva": "0x11c5e10",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "GAME_NETWORK_MESSAGES"
+  },
+  {
+    "name": "GC::DelayedCleanup",
+    "retail_va": "0x14274c1e0",
+    "retail_rva": "0x274c1e0",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "GC"
+  },
+  {
+    "name": "Game::TESObjectREFR::All::SnapshotContents::SSyncedVariable::ScriptKey",
+    "retail_va": "0x143ac4670",
+    "retail_rva": "0x3ac4670",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "Game"
+  },
+  {
+    "name": "Game::TESObjectREFR::All::SnapshotContents::TESObjectREFRServerAuthSnapshotData",
+    "retail_va": "0x142caad20",
+    "retail_rva": "0x2caad20",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "Game"
+  },
+  {
     "name": "Game::TESObjectREFR::Selected::SnapshotContents::SSyncedVariable::ScriptValue",
     "retail_va": "0x140e22756",
     "retail_rva": "0xe22756",
@@ -10521,10 +12257,724 @@
     "class": "Game"
   },
   {
+    "name": "Game::TESObjectREFR::Selected::SnapshotContents::TESObjectREFRServerAuthSnapshotData",
+    "retail_va": "0x142caad20",
+    "retail_rva": "0x2caad20",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "Game"
+  },
+  {
     "name": "GameNetworkMessageManager::HandleMessage",
     "retail_va": "0x142000620",
     "retail_rva": "0x2000620",
     "match_type": "unique",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::ActiveDuelServerMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::AuditClientSharedTitleStorageSettingsMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::AutomatedTesting::QuestAliasResponse",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::AutomatedTesting::RequestExecutionIndex",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::ChallengePassXPIncrementedMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::CreateChainExplosionMessageServer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::CreateInstancedCellInLocationMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::DialogueNetworkRM::SetScriptHeadTrackTargetDialogueMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::EnableClientToSpendVATSCrit",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::HUDExperienceUpdateEventMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::HotloadPluginCompleteMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::LegendaryPerkCardRequest",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::MessageBoxNetwork::ResetHelpMessageOnClient",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::NetworkPathManagerHelpers::RequestShortPathBuild",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::PlayerDecorating::RequestDisplayDecorateItemInSlot",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::PlayerEmoteUIEventToClient",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::RequestOpenPerkCardPackMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::RequestStartDailyContentMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::RequestTransferItemBatchMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::SeasonRankUpPurchasedMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::SecureTrading::PlayerTradeAcceptFail",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::SecureTrading::PlayerTradeRejectOffer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::SecureTrading::PlayerTradeRequestItem",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::SecureTradingCampVending::ShowItemSoldHudMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::SendOnScreenMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::LockItemMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RequestAdjustableSettingUpdate",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::AbortTransportToInstancedCellMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::AddMusicTypeOnClient",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::ApplyCategorySnapshotOnClient",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::AutomatedTesting::QuestAliasResponse",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::AutomatedTesting::QueueBatchedConsoleCommand",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::AutomatedTesting::RequestExecutionIndex",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::BabylonBriefcasePickupMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::BabylonCombatFeedbackMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::BabylonStalemateMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::BabylonTeamLossMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::ClientSNREventUpdated",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::ClientSpecificCollisionChangeMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::CustomMarkerChangeMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::DailyContentResetMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::DebugGameplayAutoTestComplete",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::DialogueNetworkRM::SayTopicInfoMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::DialogueNetworkRM::SetActorInPrivateSceneDialogueMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::EnableClientToSpendVATSCrit",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::EntitlementMappingsRefreshReceiptMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::FastTravel::PendingFastTravelCanceledMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::ForceGetPerkCardChangesFromServerMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::MessageBoxNetwork::ClearHelpMessagesOnClient",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::MessageBoxNetwork::ResetHelpMessageOnClient",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PerkCardChangesMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PlayDistantLoopingSoundMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PlayDistantSoundMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PlayerCurrencyUpdateNotificationMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PlayerEmoteUIEventToServer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PlayerEnteredKeycodeMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PowerArmorRequestBatteryTransfer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::PredictKillDeniedMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::QuickPlayMapVotingVoteCastedMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestActivateRefMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestButtonPressOnServer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestCampSlotActivationMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestCampSlotUpdateMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestCriticalVATSMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestHitEvent",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestInventorySyncMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestNextSpectatorTargetMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestPlaySoundForNearbyPlayersMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestReloadWeapon",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestSpecialBuildReset",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestStartExpeditionMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestStartExpeditionResponseMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::RequestTransferItemMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeAcceptFail",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeCancelRequestItem",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeRejectOffer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeRequestItem",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTrading::RequestPlayerTradeSyncOffers",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTradingCampVending::PlayerVendingAcceptFail",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTradingCampVending::PlayerVendingCreateOffer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SecureTradingCampVending::RequestPlayerVendingAcceptOffer",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SeenLootMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::SyncGameSecondsPlayed",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::TerminalNet::NotifyTerminalCloseMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::TerminalNet::ServerEvalResultsMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::Transporting::CenterOnCellMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::Transporting::DenyTeleportToLocationMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::Transporting::ForceMoveToTransformMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::Transporting::NotifyClientAreaLoadedMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::UNKNOWNMESSAGETYPE",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::UpdateEntitlementRequests",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkbenchNet::RequestScrapItemBatchMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::CampCollisionMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ContestWorkshopMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::NewWireMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::PlacePackinMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReconnectWireMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RepairAllMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestCampPackUpMsg",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestWorkshopBudgetReportMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "GameNetworkMessageManager"
+  },
+  {
+    "name": "GameNetworkMessageManager::SendMessage::WorkshopNetwork::StoreItemMessage",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
     "class": "GameNetworkMessageManager"
   },
   {
@@ -10556,6 +13006,13 @@
     "class": "GameUIModel"
   },
   {
+    "name": "GiganticExplosion::FindTargets",
+    "retail_va": "0x143137940",
+    "retail_rva": "0x3137940",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "GiganticExplosion"
+  },
+  {
     "name": "GlobalChanges::SetValue::Console",
     "retail_va": "0x141c29590",
     "retail_rva": "0x1c29590",
@@ -10584,6 +13041,48 @@
     "class": "GlyphTextureMapper"
   },
   {
+    "name": "GridArray::Shift",
+    "retail_va": "0x140560f80",
+    "retail_rva": "0x560f80",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "GridArray"
+  },
+  {
+    "name": "GroupMatchmakingManager::GetTeamMembersWithPermission Unable to find account [",
+    "retail_va": "0x1427da890",
+    "retail_rva": "0x27da890",
+    "match_type": "interior-off20-16b-0wc",
+    "class": "GroupMatchmakingManager"
+  },
+  {
+    "name": "GroupMatchmakingManager::OnWorldJoinInviteResponseReceived received response from an account that was not pending.",
+    "retail_va": "0x140401d7a",
+    "retail_rva": "0x401d7a",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "GroupMatchmakingManager"
+  },
+  {
+    "name": "GroupMatchmakingManager::SetPermissionsKey Failed to set PermissionsKey",
+    "retail_va": "0x142ca2170",
+    "retail_rva": "0x2ca2170",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "GroupMatchmakingManager"
+  },
+  {
+    "name": "GroupMatchmakingManager::Update determined time ran out on the invite.",
+    "retail_va": "0x1427b26b0",
+    "retail_rva": "0x27b26b0",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "GroupMatchmakingManager"
+  },
+  {
+    "name": "HUD::EventNotification",
+    "retail_va": "0x141feb740",
+    "retail_rva": "0x1feb740",
+    "match_type": "interior-off5-32b-0wc",
+    "class": "HUD"
+  },
+  {
     "name": "HUDCrosshair::UpdateSpreadReticleRadius",
     "retail_va": "0x1423be700",
     "retail_rva": "0x23be700",
@@ -10591,10 +13090,24 @@
     "class": "HUDCrosshair"
   },
   {
+    "name": "HUDDataModel::QueueNotification",
+    "retail_va": "0x14331d900",
+    "retail_rva": "0x331d900",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "HUDDataModel"
+  },
+  {
     "name": "HUDDataModel::UpdateCompassModel::CompassMarkerFunctor.ClearParamList",
     "retail_va": "0x140659c05",
     "retail_rva": "0x659c05",
     "match_type": "unique",
+    "class": "HUDDataModel"
+  },
+  {
+    "name": "HUDDataModel::UpdateHUDModels",
+    "retail_va": "0x14202dc4d",
+    "retail_rva": "0x202dc4d",
+    "match_type": "interior-off5-12b-4wc",
     "class": "HUDDataModel"
   },
   {
@@ -10696,6 +13209,13 @@
     "class": "HUDMenu"
   },
   {
+    "name": "HUDMessages::ProcessEvent",
+    "retail_va": "0x141260269",
+    "retail_rva": "0x1260269",
+    "match_type": "aggressive-32b-4wc",
+    "class": "HUDMessages"
+  },
+  {
     "name": "HUDNotificationsModel::ProcessEvent_InventoryList",
     "retail_va": "0x140610bd0",
     "retail_rva": "0x610bd0",
@@ -10729,6 +13249,34 @@
     "retail_rva": "0x38ca738",
     "match_type": "wildcard-12b-4wc",
     "class": "HubDataModel"
+  },
+  {
+    "name": "HubMenu::AdvanceMovie",
+    "retail_va": "0x141fe0c40",
+    "retail_rva": "0x1fe0c40",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "HubMenu"
+  },
+  {
+    "name": "IAnimationGraphManagerHolder::CreateAnimationGraph",
+    "retail_va": "0x14113ca10",
+    "retail_rva": "0x113ca10",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "IAnimationGraphManagerHolder"
+  },
+  {
+    "name": "IAnimationGraphManagerHolder::CreateAnimationGraphManager",
+    "retail_va": "0x141716200",
+    "retail_rva": "0x1716200",
+    "match_type": "aggressive-32b-4wc",
+    "class": "IAnimationGraphManagerHolder"
+  },
+  {
+    "name": "IAnimationGraphManagerHolder::SetGraphVariableHelper",
+    "retail_va": "0x142b6f7e0",
+    "retail_rva": "0x2b6f7e0",
+    "match_type": "interior-off20-16b-0wc",
+    "class": "IAnimationGraphManagerHolder"
   },
   {
     "name": "IMenu::vfunc_0",
@@ -10799,6 +13347,13 @@
     "retail_rva": "0x20ed020",
     "match_type": "unique",
     "class": "IOManager"
+  },
+  {
+    "name": "InitialClientInfoMsg::PlayerArrivalCallback.NoInventory",
+    "retail_va": "0x142da3930",
+    "retail_rva": "0x2da3930",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "InitialClientInfoMsg"
   },
   {
     "name": "InitialObjectInstanceVisitor::ExamineMenu::vfunc_0",
@@ -11018,11 +13573,270 @@
     "class": "InstanceData"
   },
   {
+    "name": "InstanceTraits::AccessibilityProperties",
+    "retail_va": "0x14093c826",
+    "retail_rva": "0x93c826",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::BitmapFilter",
+    "retail_va": "0x142bcd120",
+    "retail_rva": "0x2bcd120",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::BlurFilter",
+    "retail_va": "0x14208c410",
+    "retail_rva": "0x208c410",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Catch",
+    "retail_va": "0x142e1feb0",
+    "retail_rva": "0x2e1feb0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::ContextMenuBuiltInItems",
+    "retail_va": "0x142266ae0",
+    "retail_rva": "0x2266ae0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::ContextMenuClipboardItems",
+    "retail_va": "0x141935c40",
+    "retail_rva": "0x1935c40",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Dictionary",
+    "retail_va": "0x141906070",
+    "retail_rva": "0x1906070",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::DisplacementMapFilter",
+    "retail_va": "0x14197b1e0",
+    "retail_rva": "0x197b1e0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::DisplayObject",
+    "retail_va": "0x1439b886a",
+    "retail_rva": "0x39b886a",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::DisplayObjectContainer",
+    "retail_va": "0x1412c52d0",
+    "retail_rva": "0x12c52d0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Event",
+    "retail_va": "0x1403ea580",
+    "retail_rva": "0x3ea580",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::FileReference",
+    "retail_va": "0x142b90e60",
+    "retail_rva": "0x2b90e60",
+    "match_type": "interior-off20-24b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::GeolocationEvent",
+    "retail_va": "0x14197c150",
+    "retail_rva": "0x197c150",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::GraphicsEndFill",
+    "retail_va": "0x1420cb630",
+    "retail_rva": "0x20cb630",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::GraphicsPath",
+    "retail_va": "0x142c06370",
+    "retail_rva": "0x2c06370",
+    "match_type": "interior-off20-24b-8wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::LoaderInfo",
+    "retail_va": "0x140d9708f",
+    "retail_rva": "0xd9708f",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::MorphShape",
+    "retail_va": "0x1412029d0",
+    "retail_rva": "0x12029d0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Namespace",
+    "retail_va": "0x142e45f10",
+    "retail_rva": "0x2e45f10",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::NetConnection",
+    "retail_va": "0x140f08200",
+    "retail_rva": "0xf08200",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Number",
+    "retail_va": "0x142e45ff0",
+    "retail_rva": "0x2e45ff0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Shape",
+    "retail_va": "0x140679d10",
+    "retail_rva": "0x679d10",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::SimpleButton",
+    "retail_va": "0x1431e2130",
+    "retail_rva": "0x31e2130",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Socket",
+    "retail_va": "0x142b90e80",
+    "retail_rva": "0x2b90e80",
+    "match_type": "interior-off20-24b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Sprite",
+    "retail_va": "0x143872ca0",
+    "retail_rva": "0x3872ca0",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::TextFormat",
+    "retail_va": "0x14197ae20",
+    "retail_rva": "0x197ae20",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Timer",
+    "retail_va": "0x14117e12a",
+    "retail_rva": "0x117e12a",
+    "match_type": "interior-off10-24b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::URLLoader",
+    "retail_va": "0x142bcd4b0",
+    "retail_rva": "0x2bcd4b0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::URLRequestHeader",
+    "retail_va": "0x142b907b0",
+    "retail_rva": "0x2b907b0",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::UncaughtErrorEvent",
+    "retail_va": "0x1412029c0",
+    "retail_rva": "0x12029c0",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Vector_double",
+    "retail_va": "0x140d7ca30",
+    "retail_rva": "0xd7ca30",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::Vector_uint",
+    "retail_va": "0x14276bfb0",
+    "retail_rva": "0x276bfb0",
+    "match_type": "interior-off1-32b-8wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstanceTraits::XML",
+    "retail_va": "0x142deb840",
+    "retail_rva": "0x2deb840",
+    "match_type": "interior-off1-20b-4wc",
+    "class": "InstanceTraits"
+  },
+  {
+    "name": "InstancedCellManager::AccessRemapperFn",
+    "retail_va": "0x14068a1c0",
+    "retail_rva": "0x68a1c0",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "InstancedCellManager"
+  },
+  {
+    "name": "InstancedCellManager::CloneCell",
+    "retail_va": "0x142000620",
+    "retail_rva": "0x2000620",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "InstancedCellManager"
+  },
+  {
+    "name": "InstancedCellManager::CreateInstancedCell",
+    "retail_va": "0x14310eef0",
+    "retail_rva": "0x310eef0",
+    "match_type": "interior-off20-16b-4wc",
+    "class": "InstancedCellManager"
+  },
+  {
     "name": "InstancedCellManager::ForEachLoc",
     "retail_va": "0x140bcdf00",
     "retail_rva": "0xbcdf00",
     "match_type": "unique",
     "class": "InstancedCellManager"
+  },
+  {
+    "name": "InstancedCellManager::GenerateRefIDMapper::bDebugCellInstancing",
+    "retail_va": "0x1412b1980",
+    "retail_rva": "0x12b1980",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "InstancedCellManager"
+  },
+  {
+    "name": "InstancedLocation::ForEachCell",
+    "retail_va": "0x141e8cc10",
+    "retail_rva": "0x1e8cc10",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "InstancedLocation"
   },
   {
     "name": "InstantRagdollHandler::Actor::vfunc_0",
@@ -11067,10 +13881,24 @@
     "class": "InstantRagdollHandler"
   },
   {
+    "name": "Interface3D::Renderer::RenderPostAA",
+    "retail_va": "0x141904690",
+    "retail_rva": "0x1904690",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Interface3D"
+  },
+  {
     "name": "InventoryDataModel::FlushRemoveQueue",
     "retail_va": "0x141b96f40",
     "retail_rva": "0x1b96f40",
     "match_type": "unique",
+    "class": "InventoryDataModel"
+  },
+  {
+    "name": "InventoryDataModel::PopulateItem",
+    "retail_va": "0x141ffe4d0",
+    "retail_rva": "0x1ffe4d0",
+    "match_type": "interior-off20-20b-0wc",
     "class": "InventoryDataModel"
   },
   {
@@ -11081,11 +13909,53 @@
     "class": "InventoryDataModel"
   },
   {
+    "name": "Leveling::CalculateCurrentFormListForRef",
+    "retail_va": "0x143160650",
+    "retail_rva": "0x3160650",
+    "match_type": "interior-off1-12b-0wc",
+    "class": "Leveling"
+  },
+  {
+    "name": "Leveling::GetCalcLevel",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off1-12b-4wc",
+    "class": "Leveling"
+  },
+  {
+    "name": "Lightning::Process",
+    "retail_va": "0x140607740",
+    "retail_rva": "0x607740",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "Lightning"
+  },
+  {
+    "name": "LoadProcess::AddImageResource",
+    "retail_va": "0x1423d1250",
+    "retail_rva": "0x23d1250",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "LoadProcess"
+  },
+  {
     "name": "LoadedAreaBound::AddToBirdsEyeHavokVisualDebugger",
     "retail_va": "0x143882010",
     "retail_rva": "0x3882010",
     "match_type": "unique",
     "class": "LoadedAreaBound"
+  },
+  {
+    "name": "LoadedAreaBound::Clear",
+    "retail_va": "0x140523310",
+    "retail_rva": "0x523310",
+    "match_type": "interior-off15-24b-4wc",
+    "class": "LoadedAreaBound"
+  },
+  {
+    "name": "LoadedAreaManager::AddToAppropriateBuffer",
+    "retail_va": "0x140548c00",
+    "retail_rva": "0x548c00",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "LoadedAreaManager"
   },
   {
     "name": "LoadedAreaManager::AttachCell",
@@ -11102,6 +13972,13 @@
     "class": "LoadedAreaManager"
   },
   {
+    "name": "LoadedAreaManager::DebugDumpCells",
+    "retail_va": "0x14274ee60",
+    "retail_rva": "0x274ee60",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "LoadedAreaManager"
+  },
+  {
     "name": "LoadedAreaManager::ForEachEntryInBuffer",
     "retail_va": "0x141cac120",
     "retail_rva": "0x1cac120",
@@ -11109,10 +13986,45 @@
     "class": "LoadedAreaManager"
   },
   {
+    "name": "LoadedAreaManager::ForEachLoadedCell",
+    "retail_va": "0x1407d0790",
+    "retail_rva": "0x7d0790",
+    "match_type": "interior-off15-24b-0wc",
+    "class": "LoadedAreaManager"
+  },
+  {
     "name": "LoadedAreaManager::ForEachLoadedExteriorCell",
     "retail_va": "0x14113c8a0",
     "retail_rva": "0x113c8a0",
     "match_type": "unique",
+    "class": "LoadedAreaManager"
+  },
+  {
+    "name": "LoadedAreaManager::ForEachLoadedInteriorCell",
+    "retail_va": "0x1407d09c0",
+    "retail_rva": "0x7d09c0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "LoadedAreaManager"
+  },
+  {
+    "name": "LoadedAreaManager::ForEachNearbyLoadedCell",
+    "retail_va": "0x140d6e960",
+    "retail_rva": "0xd6e960",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "LoadedAreaManager"
+  },
+  {
+    "name": "LoadedAreaManager::FreeExteriorBuffers",
+    "retail_va": "0x142010170",
+    "retail_rva": "0x2010170",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "LoadedAreaManager"
+  },
+  {
+    "name": "LoadedAreaManager::FreeInteriorBuffers",
+    "retail_va": "0x140686ef0",
+    "retail_rva": "0x686ef0",
+    "match_type": "interior-off1-20b-0wc",
     "class": "LoadedAreaManager"
   },
   {
@@ -11130,6 +14042,13 @@
     "class": "LoadedAreaManager"
   },
   {
+    "name": "LoadedAreaManager::NotifyCellLoaded",
+    "retail_va": "0x141a28b20",
+    "retail_rva": "0x1a28b20",
+    "match_type": "interior-off5-16b-4wc",
+    "class": "LoadedAreaManager"
+  },
+  {
     "name": "LoadedAreaManager::NotifyCellUnloaded",
     "retail_va": "0x1438ca738",
     "retail_rva": "0x38ca738",
@@ -11142,6 +14061,27 @@
     "retail_rva": "0x73e72a",
     "match_type": "wildcard-16b-4wc",
     "class": "LoadedAreaManager"
+  },
+  {
+    "name": "LoadedAreaManager::UnloadCell",
+    "retail_va": "0x141efc140",
+    "retail_rva": "0x1efc140",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "LoadedAreaManager"
+  },
+  {
+    "name": "LoadingMenu::Render",
+    "retail_va": "0x141474eb0",
+    "retail_rva": "0x1474eb0",
+    "match_type": "interior-off5-16b-0wc",
+    "class": "LoadingMenu"
+  },
+  {
+    "name": "LocalPlayerCharacter::CenterOnCell",
+    "retail_va": "0x140c0a070",
+    "retail_rva": "0xc0a070",
+    "match_type": "aggressive-24b-8wc",
+    "class": "LocalPlayerCharacter"
   },
   {
     "name": "LocalPlayerCharacter::ClearQuickPlayContext",
@@ -11158,10 +14098,24 @@
     "class": "LocalPlayerCharacter"
   },
   {
+    "name": "LocalPlayerCharacter::HandleActivationResult",
+    "retail_va": "0x141539b32",
+    "retail_rva": "0x1539b32",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "LocalPlayerCharacter"
+  },
+  {
     "name": "LocalPlayerCharacter::OnNetworkBaselinesComplete::RunScript",
     "retail_va": "0x141ffbdd0",
     "retail_rva": "0x1ffbdd0",
     "match_type": "unique",
+    "class": "LocalPlayerCharacter"
+  },
+  {
+    "name": "LocalPlayerCharacter::OnNetworkTargetAreaLoaded - called",
+    "retail_va": "0x1434d00c0",
+    "retail_rva": "0x34d00c0",
+    "match_type": "interior-off15-20b-0wc",
     "class": "LocalPlayerCharacter"
   },
   {
@@ -11179,6 +14133,13 @@
     "class": "LocalPlayerCharacter"
   },
   {
+    "name": "LocalPlayerCharacter::ShouldWaitInLoadScreen",
+    "retail_va": "0x140672580",
+    "retail_rva": "0x672580",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "LocalPlayerCharacter"
+  },
+  {
     "name": "LocalPlayerCharacter::Update Block 1",
     "retail_va": "0x142d191c0",
     "retail_rva": "0x2d191c0",
@@ -11190,6 +14151,20 @@
     "retail_va": "0x143944610",
     "retail_rva": "0x3944610",
     "match_type": "unique",
+    "class": "LocalPlayerCharacter"
+  },
+  {
+    "name": "LocalPlayerCharacter::UpdateQPShuttingDown",
+    "retail_va": "0x140951e70",
+    "retail_rva": "0x951e70",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "LocalPlayerCharacter"
+  },
+  {
+    "name": "LocalPlayerCharacter::WornArmorChangedImpl",
+    "retail_va": "0x143622f60",
+    "retail_rva": "0x3622f60",
+    "match_type": "interior-off15-16b-0wc",
     "class": "LocalPlayerCharacter"
   },
   {
@@ -11263,10 +14238,80 @@
     "class": "LockpickingMenu"
   },
   {
+    "name": "LoggingSystem::DEV::game.guid",
+    "retail_va": "0x141244cf2",
+    "retail_rva": "0x1244cf2",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
+    "name": "LoggingSystem::DEV::game.hotloading",
+    "retail_va": "0x141244cf2",
+    "retail_rva": "0x1244cf2",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
+    "name": "LoggingSystem::DEV::game.misc.fow-setting-enum",
+    "retail_va": "0x141244cf2",
+    "retail_rva": "0x1244cf2",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
+    "name": "LoggingSystem::DEV::game.misc.statsd",
+    "retail_va": "0x142314ae0",
+    "retail_rva": "0x2314ae0",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
+    "name": "LoggingSystem::PROD::game.guid",
+    "retail_va": "0x141244cf2",
+    "retail_rva": "0x1244cf2",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
+    "name": "LoggingSystem::PROD::game.hotloading",
+    "retail_va": "0x141244cf2",
+    "retail_rva": "0x1244cf2",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
+    "name": "LoggingSystem::PROD::game.misc.statsd",
+    "retail_va": "0x142314ae0",
+    "retail_rva": "0x2314ae0",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
+    "name": "LoggingSystem::PROD::game.network.componentFactory",
+    "retail_va": "0x142314ae0",
+    "retail_rva": "0x2314ae0",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "LoggingSystem"
+  },
+  {
     "name": "MagicTarget::CheckAddEffect",
     "retail_va": "0x1416653a0",
     "retail_rva": "0x16653a0",
     "match_type": "wildcard-24b-8wc",
+    "class": "MagicTarget"
+  },
+  {
+    "name": "MagicTarget::HandleAddActiveEffect",
+    "retail_va": "0x140f1b120",
+    "retail_rva": "0xf1b120",
+    "match_type": "interior-off1-24b-0wc",
+    "class": "MagicTarget"
+  },
+  {
+    "name": "MagicTarget::UpdateTarget",
+    "retail_va": "0x141f37d50",
+    "retail_rva": "0x1f37d50",
+    "match_type": "interior-off5-24b-0wc",
     "class": "MagicTarget"
   },
   {
@@ -11368,6 +14413,20 @@
     "class": "MagicTarget"
   },
   {
+    "name": "Main::QuitGame",
+    "retail_va": "0x141ef7140",
+    "retail_rva": "0x1ef7140",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Main"
+  },
+  {
+    "name": "MapMenu::ProcessMessage",
+    "retail_va": "0x143039cf0",
+    "retail_rva": "0x3039cf0",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "MapMenu"
+  },
+  {
     "name": "MapMenu::vfunc_0",
     "retail_va": "0x1416daf30",
     "retail_rva": "0x16daf30",
@@ -11452,10 +14511,38 @@
     "class": "MapMenu"
   },
   {
+    "name": "MapMenuDataModel::ProcessEvent::CampMarkerChangeMsg",
+    "retail_va": "0x140cc45f0",
+    "retail_rva": "0xcc45f0",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "MapMenuDataModel"
+  },
+  {
+    "name": "MemoryManager::ProcessMemoryProblemImpl",
+    "retail_va": "0x142833f00",
+    "retail_rva": "0x2833f00",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "MemoryManager"
+  },
+  {
+    "name": "MissileProjectile::ProcessImpacts",
+    "retail_va": "0x14090c990",
+    "retail_rva": "0x90c990",
+    "match_type": "interior-off1-24b-0wc",
+    "class": "MissileProjectile"
+  },
+  {
     "name": "ModelLoader::ClearUnusedModels",
     "retail_va": "0x142c59150",
     "retail_rva": "0x2c59150",
     "match_type": "unique",
+    "class": "ModelLoader"
+  },
+  {
+    "name": "ModelLoader::QueueReference",
+    "retail_va": "0x14181a040",
+    "retail_rva": "0x181a040",
+    "match_type": "interior-off5-24b-0wc",
     "class": "ModelLoader"
   },
   {
@@ -11464,6 +14551,20 @@
     "retail_rva": "0xb0efc0",
     "match_type": "unique",
     "class": "ModelLoader"
+  },
+  {
+    "name": "MovementAvoidBoxManager::CheckAvoidBox() - Create avoid Box",
+    "retail_va": "0x142bbbcfc",
+    "retail_rva": "0x2bbbcfc",
+    "match_type": "interior-off20-16b-8wc",
+    "class": "MovementAvoidBoxManager"
+  },
+  {
+    "name": "MovementAvoidanceManager::Update",
+    "retail_va": "0x141af5100",
+    "retail_rva": "0x1af5100",
+    "match_type": "aggressive-24b-4wc",
+    "class": "MovementAvoidanceManager"
   },
   {
     "name": "MovieImpl::Advance",
@@ -11667,6 +14768,41 @@
     "retail_rva": "0x3577d50",
     "match_type": "exact",
     "class": "NetworkQuestManager"
+  },
+  {
+    "name": "NetworkQuestManager::UnregisterNetworkQuest",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "NetworkQuestManager"
+  },
+  {
+    "name": "NetworkedActivation::Client::SetAIControlled",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "NetworkedActivation"
+  },
+  {
+    "name": "NetworkedActivation::Shared::SetAIControlled",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "NetworkedActivation"
+  },
+  {
+    "name": "NetworkedTimeManager::Callback",
+    "retail_va": "0x14183f290",
+    "retail_rva": "0x183f290",
+    "match_type": "interior-off1-16b-0wc",
+    "class": "NetworkedTimeManager"
+  },
+  {
+    "name": "NiAVObject::UpdateSelected",
+    "retail_va": "0x141c2289b",
+    "retail_rva": "0x1c2289b",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "NiAVObject"
   },
   {
     "name": "NiAVObject::vfunc_0",
@@ -11879,6 +15015,13 @@
     "class": "NiNode"
   },
   {
+    "name": "NiObject::Clone",
+    "retail_va": "0x140edcf90",
+    "retail_rva": "0xedcf90",
+    "match_type": "interior-off5-16b-0wc",
+    "class": "NiObject"
+  },
+  {
     "name": "Object::AS3propertyIsEnumerable",
     "retail_va": "0x14390d6e0",
     "retail_rva": "0x390d6e0",
@@ -11921,6 +15064,13 @@
     "class": "ObjectInterface"
   },
   {
+    "name": "ObjectInterface::GetParent",
+    "retail_va": "0x14388d040",
+    "retail_rva": "0x388d040",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "ObjectInterface"
+  },
+  {
     "name": "ObjectInterface::Invoke",
     "retail_va": "0x1413b1e80",
     "retail_rva": "0x13b1e80",
@@ -11932,6 +15082,41 @@
     "retail_va": "0x14272f500",
     "retail_rva": "0x272f500",
     "match_type": "unique",
+    "class": "ObjectInterface"
+  },
+  {
+    "name": "ObjectInterface::IsByteArray",
+    "retail_va": "0x1413ed830",
+    "retail_rva": "0x13ed830",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "ObjectInterface"
+  },
+  {
+    "name": "ObjectInterface::IsDisplayObjectActive",
+    "retail_va": "0x140f19930",
+    "retail_rva": "0xf19930",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "ObjectInterface"
+  },
+  {
+    "name": "ObjectInterface::IsInstanceOf",
+    "retail_va": "0x143198000",
+    "retail_rva": "0x3198000",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "ObjectInterface"
+  },
+  {
+    "name": "ObjectInterface::PushBack",
+    "retail_va": "0x142051200",
+    "retail_rva": "0x2051200",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "ObjectInterface"
+  },
+  {
+    "name": "ObjectInterface::RemoveElements",
+    "retail_va": "0x1413ed830",
+    "retail_rva": "0x13ed830",
+    "match_type": "interior-off10-20b-0wc",
     "class": "ObjectInterface"
   },
   {
@@ -11949,10 +15134,31 @@
     "class": "ObjectInterface"
   },
   {
+    "name": "ObjectInterface::SetElement",
+    "retail_va": "0x1435f0230",
+    "retail_rva": "0x35f0230",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "ObjectInterface"
+  },
+  {
+    "name": "ObjectInterface::SetMatrix3D",
+    "retail_va": "0x14234c761",
+    "retail_rva": "0x234c761",
+    "match_type": "interior-off5-12b-0wc",
+    "class": "ObjectInterface"
+  },
+  {
     "name": "ObjectInterface::SetMember",
     "retail_va": "0x1413b1e80",
     "retail_rva": "0x13b1e80",
     "match_type": "unique",
+    "class": "ObjectInterface"
+  },
+  {
+    "name": "ObjectInterface::ToString",
+    "retail_va": "0x141244080",
+    "retail_rva": "0x1244080",
+    "match_type": "interior-off10-12b-0wc",
     "class": "ObjectInterface"
   },
   {
@@ -11963,10 +15169,87 @@
     "class": "ObjectInterface"
   },
   {
+    "name": "ObjectREFRNetworkEntity::DetachTESObjectREFR",
+    "retail_va": "0x1420096e0",
+    "retail_rva": "0x20096e0",
+    "match_type": "interior-off1-12b-0wc",
+    "class": "ObjectREFRNetworkEntity"
+  },
+  {
+    "name": "ObjectREFRNetworkEntity::MarkNetCreated canceling delete",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off20-16b-8wc",
+    "class": "ObjectREFRNetworkEntity"
+  },
+  {
+    "name": "ObjectREFRNetworkEntity::NetDelete",
+    "retail_va": "0x143411c70",
+    "retail_rva": "0x3411c70",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "ObjectREFRNetworkEntity"
+  },
+  {
+    "name": "ObjectREFRNetworkEntity::ProcessPendingNetDelete from game",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off20-20b-12wc",
+    "class": "ObjectREFRNetworkEntity"
+  },
+  {
+    "name": "ObjectREFRNetworkEntity::ProcessPendingNetDelete from network",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off20-20b-12wc",
+    "class": "ObjectREFRNetworkEntity"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::CampVendingMachineInventoryTransferEvent",
+    "retail_va": "0x141bc2040",
+    "retail_rva": "0x1bc2040",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "OtherInventoryTypeDataModel"
+  },
+  {
     "name": "OtherInventoryTypeDataModel::ContainerInteractionMsg",
     "retail_va": "0x1420b7b60",
     "retail_rva": "0x20b7b60",
     "match_type": "unique",
+    "class": "OtherInventoryTypeDataModel"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::MenuOpenCloseEvent",
+    "retail_va": "0x140686ef0",
+    "retail_rva": "0x686ef0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "OtherInventoryTypeDataModel"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::PlayerTradeAcceptFail",
+    "retail_va": "0x1417ceab0",
+    "retail_rva": "0x17ceab0",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "OtherInventoryTypeDataModel"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::PlayerTradeEnd",
+    "retail_va": "0x140686ef0",
+    "retail_rva": "0x686ef0",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "OtherInventoryTypeDataModel"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::PlayerVendingBegin",
+    "retail_va": "0x140686ef0",
+    "retail_rva": "0x686ef0",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "OtherInventoryTypeDataModel"
+  },
+  {
+    "name": "OtherInventoryTypeDataModel::ProcessEvent",
+    "retail_va": "0x1435cabd0",
+    "retail_rva": "0x35cabd0",
+    "match_type": "interior-off5-24b-0wc",
     "class": "OtherInventoryTypeDataModel"
   },
   {
@@ -11982,6 +15265,20 @@
     "retail_rva": "0x1ae9790",
     "match_type": "unique",
     "class": "OtherInventoryTypeDataModel"
+  },
+  {
+    "name": "PC::Resurrect",
+    "retail_va": "0x1409b62e0",
+    "retail_rva": "0x9b62e0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "PC"
+  },
+  {
+    "name": "PC::Update",
+    "retail_va": "0x141cf33c0",
+    "retail_rva": "0x1cf33c0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "PC"
   },
   {
     "name": "PC::UpdateActor3DPosition",
@@ -12003,6 +15300,13 @@
     "retail_rva": "0xc44020",
     "match_type": "unique",
     "class": "PathManagerArbiter"
+  },
+  {
+    "name": "PathingLockData::CanTraverse::DisallowTransportDoor",
+    "retail_va": "0x143734910",
+    "retail_rva": "0x3734910",
+    "match_type": "interior-off1-24b-0wc",
+    "class": "PathingLockData"
   },
   {
     "name": "PendingActorHeadData::AIProcess::vfunc_0",
@@ -12096,6 +15400,13 @@
     "class": "PendingActorHeadData"
   },
   {
+    "name": "PerkCard::Equip",
+    "retail_va": "0x1407c46b0",
+    "retail_rva": "0x7c46b0",
+    "match_type": "interior-off10-32b-4wc",
+    "class": "PerkCard"
+  },
+  {
     "name": "PerkCard::Unequip",
     "retail_va": "0x14216c9d0",
     "retail_rva": "0x216c9d0",
@@ -12103,10 +15414,31 @@
     "class": "PerkCard"
   },
   {
+    "name": "PerkEntryVisitor::FanFareEntryPointVisitor",
+    "retail_va": "0x141e8cc10",
+    "retail_rva": "0x1e8cc10",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "PerkEntryVisitor"
+  },
+  {
     "name": "PerkEntryVisitor::HandleEntryPointVisitor",
     "retail_va": "0x14290fa60",
     "retail_rva": "0x290fa60",
-    "match_type": "wildcard_skip7",
+    "match_type": "aggressive-24b-4wc",
+    "class": "PerkEntryVisitor"
+  },
+  {
+    "name": "PerkEntryVisitor::ListAllPerkEntryVisitor",
+    "retail_va": "0x14278f620",
+    "retail_rva": "0x278f620",
+    "match_type": "interior-off1-24b-0wc",
+    "class": "PerkEntryVisitor"
+  },
+  {
+    "name": "PerkEntryVisitor::RenderPerkEntryArraysVisitor",
+    "retail_va": "0x140741830",
+    "retail_rva": "0x741830",
+    "match_type": "interior-off1-16b-0wc",
     "class": "PerkEntryVisitor"
   },
   {
@@ -12250,11 +15582,46 @@
     "class": "PipboyMenu"
   },
   {
+    "name": "PipboyPlayerInfoData::FillArmorData",
+    "retail_va": "0x142b72c40",
+    "retail_rva": "0x2b72c40",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "PipboyPlayerInfoData"
+  },
+  {
     "name": "PipboyPlayerInfoData::FillCarryWeightData",
     "retail_va": "0x1435468f0",
     "retail_rva": "0x35468f0",
     "match_type": "unique",
     "class": "PipboyPlayerInfoData"
+  },
+  {
+    "name": "PipboyPlayerInfoData::FillGoldData",
+    "retail_va": "0x142991d70",
+    "retail_rva": "0x2991d70",
+    "match_type": "interior-off1-32b-0wc",
+    "class": "PipboyPlayerInfoData"
+  },
+  {
+    "name": "PipboyPlayerInfoData::FillHPGainData",
+    "retail_va": "0x1402152a3",
+    "retail_rva": "0x2152a3",
+    "match_type": "interior-off5-16b-8wc",
+    "class": "PipboyPlayerInfoData"
+  },
+  {
+    "name": "PipboyPlayerInfoData::FillWeaponData",
+    "retail_va": "0x1418a95c0",
+    "retail_rva": "0x18a95c0",
+    "match_type": "aggressive-32b-5wc",
+    "class": "PipboyPlayerInfoData"
+  },
+  {
+    "name": "PipboyQuestData::DoClearData()",
+    "retail_va": "0x1434d00c0",
+    "retail_rva": "0x34d00c0",
+    "match_type": "interior-off15-20b-0wc",
+    "class": "PipboyQuestData"
   },
   {
     "name": "PipboyQuestData::Populate()",
@@ -12264,6 +15631,27 @@
     "class": "PipboyQuestData"
   },
   {
+    "name": "PlatformSessionManager::GetSelectedCharacter - Called",
+    "retail_va": "0x140ae6c70",
+    "retail_rva": "0xae6c70",
+    "match_type": "aggressive-24b-4wc",
+    "class": "PlatformSessionManager"
+  },
+  {
+    "name": "PlatformSessionManager::Update - at capacity request timed out",
+    "retail_va": "0x1407df6c1",
+    "retail_rva": "0x7df6c1",
+    "match_type": "interior-off15-20b-0wc",
+    "class": "PlatformSessionManager"
+  },
+  {
+    "name": "PlayerArea::Detach",
+    "retail_va": "0x141c09390",
+    "retail_rva": "0x1c09390",
+    "match_type": "interior-off15-20b-0wc",
+    "class": "PlayerArea"
+  },
+  {
     "name": "PlayerCamera::GetCameraPosition",
     "retail_va": "0x1409ae220",
     "retail_rva": "0x9ae220",
@@ -12271,10 +15659,45 @@
     "class": "PlayerCamera"
   },
   {
-    "name": "PowerArmor::Extradata::DestroyPowerArmorWorkBenchData",
-    "retail_va": "0x1420f4b70",
-    "retail_rva": "0x20f4b70",
-    "match_type": "wildcard_skip7",
+    "name": "PlayerCamera::UpdateCamera",
+    "retail_va": "0x143882600",
+    "retail_rva": "0x3882600",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "PlayerCamera"
+  },
+  {
+    "name": "PlayerConnection::ProcessEvent",
+    "retail_va": "0x14082c750",
+    "retail_rva": "0x82c750",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "PlayerConnection"
+  },
+  {
+    "name": "PlayerCoreSnapshotComponent::PostSerializeRead",
+    "retail_va": "0x1439920e1",
+    "retail_rva": "0x39920e1",
+    "match_type": "interior-off1-12b-4wc",
+    "class": "PlayerCoreSnapshotComponent"
+  },
+  {
+    "name": "PlayerInfoUIDataModel::UpdateDataModel",
+    "retail_va": "0x141af5100",
+    "retail_rva": "0x1af5100",
+    "match_type": "aggressive-24b-4wc",
+    "class": "PlayerInfoUIDataModel"
+  },
+  {
+    "name": "PowerArmor::EndWorkbenchInteraction",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "PowerArmor"
+  },
+  {
+    "name": "PowerArmor::HandleFailedInteractionPowerArmorWorkbench",
+    "retail_va": "0x141a28b20",
+    "retail_rva": "0x1a28b20",
+    "match_type": "interior-off5-12b-4wc",
     "class": "PowerArmor"
   },
   {
@@ -12285,6 +15708,20 @@
     "class": "PowerArmor"
   },
   {
+    "name": "PowerArmor::PreloadSwitchToPowerArmor",
+    "retail_va": "0x141819700",
+    "retail_rva": "0x1819700",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "PowerArmor"
+  },
+  {
+    "name": "PrecomputedVis::LaunchClusterQueryFn",
+    "retail_va": "0x140ede1b0",
+    "retail_rva": "0xede1b0",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "PrecomputedVis"
+  },
+  {
     "name": "ProcessLists::AddReference::SkippingBecauseInstanced",
     "retail_va": "0x142027d70",
     "retail_rva": "0x2027d70",
@@ -12292,10 +15729,31 @@
     "class": "ProcessLists"
   },
   {
+    "name": "ProcessLists::AddReferenceUnique::SkippingBecauseInstanced",
+    "retail_va": "0x141874690",
+    "retail_rva": "0x1874690",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "ProcessLists"
+  },
+  {
+    "name": "ProcessLists::QueueActorTransformWithFootIKResults",
+    "retail_va": "0x142a848d0",
+    "retail_rva": "0x2a848d0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "ProcessLists"
+  },
+  {
     "name": "ProcessLists::UpdateClient",
     "retail_va": "0x142c339f0",
     "retail_rva": "0x2c339f0",
     "match_type": "unique",
+    "class": "ProcessLists"
+  },
+  {
+    "name": "ProcessLists::UpdateMagicEffects",
+    "retail_va": "0x140848290",
+    "retail_rva": "0x848290",
+    "match_type": "interior-off15-16b-0wc",
     "class": "ProcessLists"
   },
   {
@@ -12334,11 +15792,543 @@
     "class": "QuestTrackerDataModel"
   },
   {
+    "name": "QuestTrackerDataModel::UpdateProvider",
+    "retail_va": "0x142c582b0",
+    "retail_rva": "0x2c582b0",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "QuestTrackerDataModel"
+  },
+  {
+    "name": "Quests::CreatureDialogueAssaultron::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::CreatureDialogueBloatfly::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::CreatureDialogueBloodbug::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::CreatureDialogueBrahmin::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::CreatureDialogueRadRoach::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::CreatureDialogueRadStag::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::CreatureDialogueRadscorpion::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::CreatureDialogueReaperBot::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DQ01_DailyQuest::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DQ01_KillCreatures::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DQ01_RadioDailyQuest::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DQR01::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DQR03::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DialogueSharedInfos::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DialogueSuperMutantConversations01::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DialogueSuperMutantConversations02::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::DialogueSuperMutantConversations03::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::ENz04_PatrolHandler::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::ENz09_Room::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::EWSEncounterBuyTable::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::FF00_AreaSpawner::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::FS02::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::FS02_Fruition::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::FS03::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::FSS01::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::GQ_Swarm::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::GQ_WorkshopAttack::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::GQ_WorkshopAttackScorchbeasts::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::GQ_WorkshopAttackVultures::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTNG01_Regional::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTNZ03_Box_Hunter::Warning",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTNZ04_Meltdown::Warning",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTNZ05_Messenger::Warning",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTR03_BlackwaterMine_AreaSpawner::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTR03_BurningMine_AreaSpawner::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTR03_Demerits::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTR03_DialogueMineGamesSystem::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTR09_Misc::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTR10_Battle::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTRG01_Overtime::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::MTR_Hornwright_Industrial_Master::Scenes",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::NoQuest::Scenes",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::Nuke_Codes::Scenes",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::RDR_Radio_Boosted::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::RDR_Radio_Weak::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::RE_AssaultKMK01::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::RE_AssaultKMK02::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SF05_ReturnToNormalcy::Scripts",
+    "retail_va": "0x142979840",
+    "retail_rva": "0x2979840",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SF06_RespectTheDead::Scripts",
+    "retail_va": "0x142979840",
+    "retail_rva": "0x2979840",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SF07_MoeDigsSafety::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SF07_MoeDigsSafety::Scripts",
+    "retail_va": "0x142979840",
+    "retail_rva": "0x2979840",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SF08_SuicideRun::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SF08_SuicideRunPre::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SQ_AirDrop::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SQ_Bounty_Assault::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SQ_Bounty_MostWanted::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::SQ_Bounty_Murder::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TESTQuestLVC_StackDialogue::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TESTQuestMaster_LVC::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TESTWeather::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TW001::Warning",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TestKurtHolotapeQuest::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TestKurtQuest02::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TestKurtQuest03::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TestKurtQuest::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::TestObjectiveTimer::Scripts",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::V94Access::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::V94_1::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::V94_2::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::V94_3::Scenes",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::W05_MQR101A::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::W05_MQR_205P::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::W05_MQS201::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
+    "name": "Quests::W05_MQS202::Scripts",
+    "retail_va": "0x142237c50",
+    "retail_rva": "0x2237c50",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Quests"
+  },
+  {
     "name": "QueuedCellAttachManager::RunCellAttachJob",
-    "retail_va": "0x141ac00c0",
-    "retail_rva": "0x1ac00c0",
-    "match_type": "wildcard_skip7",
+    "retail_va": "0x140896660",
+    "retail_rva": "0x896660",
+    "match_type": "interior-off5-16b-0wc",
     "class": "QueuedCellAttachManager"
+  },
+  {
+    "name": "QueuedReference::DoTaskFinishedWork::Cancel",
+    "retail_va": "0x140a779c0",
+    "retail_rva": "0xa779c0",
+    "match_type": "interior-off15-24b-0wc",
+    "class": "QueuedReference"
   },
   {
     "name": "QuickPlayContext::ActivityBorderGeometry::Render",
@@ -12362,6 +16352,13 @@
     "class": "RagdollHandler"
   },
   {
+    "name": "ReferenceHandleCleanupPolicy::CleanupItem (Success)",
+    "retail_va": "0x140e40ed4",
+    "retail_rva": "0xe40ed4",
+    "match_type": "interior-off10-16b-8wc",
+    "class": "ReferenceHandleCleanupPolicy"
+  },
+  {
     "name": "RemotePlayerCharacter::ApplySavedInventory",
     "retail_va": "0x141159960",
     "retail_rva": "0x1159960",
@@ -12369,11 +16366,333 @@
     "class": "RemotePlayerCharacter"
   },
   {
+    "name": "RemotePlayerCharacter::CachedPlayerState::Save",
+    "retail_va": "0x141cf33c0",
+    "retail_rva": "0x1cf33c0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "RemotePlayerCharacter"
+  },
+  {
+    "name": "SKI_BlendMode::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "SKI_BlendMode"
+  },
+  {
+    "name": "SKI_Filter::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "SKI_Filter"
+  },
+  {
+    "name": "SKI_MaskStart::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "SKI_MaskStart"
+  },
+  {
+    "name": "SKI_Primitive::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "SKI_Primitive"
+  },
+  {
+    "name": "SKI_ProjectionMatrix3D::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "SKI_ProjectionMatrix3D"
+  },
+  {
+    "name": "SKI_TextPrimitive::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "SKI_TextPrimitive"
+  },
+  {
+    "name": "SKI_ViewMatrix3D::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "SKI_ViewMatrix3D"
+  },
+  {
     "name": "SSyncedVariable::Serialize",
     "retail_va": "0x140657f2a",
     "retail_rva": "0x657f2a",
     "match_type": "wildcard-16b-8wc",
     "class": "SSyncedVariable"
+  },
+  {
+    "name": "Scaleform::Render::D3D1x::Texture::Initialize",
+    "retail_va": "0x1426dfb80",
+    "retail_rva": "0x26dfb80",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Scaleform"
+  },
+  {
+    "name": "Scaleform::Render::SKI_UserData::DrawBundleEntry",
+    "retail_va": "0x142743c30",
+    "retail_rva": "0x2743c30",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Scaleform"
+  },
+  {
+    "name": "ScriptObjectSnapshotComponent::ApplyDataTo",
+    "retail_va": "0x1409463b0",
+    "retail_rva": "0x9463b0",
+    "match_type": "interior-off15-32b-0wc",
+    "class": "ScriptObjectSnapshotComponent"
+  },
+  {
+    "name": "Scripts::DebugTrace::ENz03",
+    "retail_va": "0x1418d54cc",
+    "retail_rva": "0x18d54cc",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::ENz04",
+    "retail_va": "0x1418d54cc",
+    "retail_rva": "0x18d54cc",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::ENz05",
+    "retail_va": "0x1418d54cc",
+    "retail_rva": "0x18d54cc",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::ENz06",
+    "retail_va": "0x1418d54cc",
+    "retail_rva": "0x18d54cc",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC066",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC067",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC068",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC143",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC144",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC145",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC157",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC158",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off15-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC194",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC195",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::LC196",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI009",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off15-16b-8wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI010",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off15-16b-8wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI011",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off15-16b-8wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI012",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off15-16b-8wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI013",
+    "retail_va": "0x140957dc0",
+    "retail_rva": "0x957dc0",
+    "match_type": "interior-off15-16b-8wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI030",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI031",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI032",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI059",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI060",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI061",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI158",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI159",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI160",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI187",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI188",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::POI189",
+    "retail_va": "0x141804500",
+    "retail_rva": "0x1804500",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::V63",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::V76",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
+  },
+  {
+    "name": "Scripts::DebugTrace::V94",
+    "retail_va": "0x1407050f0",
+    "retail_rva": "0x7050f0",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Scripts"
   },
   {
     "name": "ServerPromptDataModel::ShowPrompt",
@@ -12390,6 +16709,13 @@
     "class": "ShadowSceneNode"
   },
   {
+    "name": "ShadowSceneNode::ProcessQueuedLights",
+    "retail_va": "0x141f2f0d0",
+    "retail_rva": "0x1f2f0d0",
+    "match_type": "interior-off1-32b-0wc",
+    "class": "ShadowSceneNode"
+  },
+  {
     "name": "Sky::Update",
     "retail_va": "0x140873760",
     "retail_rva": "0x873760",
@@ -12397,10 +16723,31 @@
     "class": "Sky"
   },
   {
+    "name": "Sky::UpdateSkyStaticReference",
+    "retail_va": "0x14128aef0",
+    "retail_rva": "0x128aef0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "Sky"
+  },
+  {
+    "name": "SkyNetworkEntity::NetDelete",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off10-12b-4wc",
+    "class": "SkyNetworkEntity"
+  },
+  {
     "name": "SnapTemplateUtils::ForEachSnapPoint",
     "retail_va": "0x141fbe5b0",
     "retail_rva": "0x1fbe5b0",
     "match_type": "unique",
+    "class": "SnapTemplateUtils"
+  },
+  {
+    "name": "SnapTemplateUtils::GetSnappedZRotation",
+    "retail_va": "0x140954450",
+    "retail_rva": "0x954450",
+    "match_type": "interior-off10-20b-0wc",
     "class": "SnapTemplateUtils"
   },
   {
@@ -12432,11 +16779,60 @@
     "class": "SnapshotInterpolator"
   },
   {
+    "name": "Social::Lobby::GetLobby",
+    "retail_va": "0x142a2aa90",
+    "retail_rva": "0x2a2aa90",
+    "match_type": "aggressive-32b-4wc",
+    "class": "Social"
+  },
+  {
+    "name": "Social::Lobby::GetLobby - Members:",
+    "retail_va": "0x142a2aa90",
+    "retail_rva": "0x2a2aa90",
+    "match_type": "aggressive-32b-4wc",
+    "class": "Social"
+  },
+  {
+    "name": "Social::Lobby::JoinLobby - Join Lobby request sent",
+    "retail_va": "0x14162a6f4",
+    "retail_rva": "0x162a6f4",
+    "match_type": "interior-off20-24b-12wc",
+    "class": "Social"
+  },
+  {
     "name": "Social::Lobby::KickError - Error sending kick. Not lobby leader.",
     "retail_va": "0x14169b446",
     "retail_rva": "0x169b446",
     "match_type": "wildcard-10b-4wc",
     "class": "Social"
+  },
+  {
+    "name": "Social::Lobby::LeaveLobby - Left the Lobby",
+    "retail_va": "0x141fb3444",
+    "retail_rva": "0x1fb3444",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Social"
+  },
+  {
+    "name": "Social::Lobby::LostLeadership - This client is no longer the lobby leader",
+    "retail_va": "0x1434d00c0",
+    "retail_rva": "0x34d00c0",
+    "match_type": "aggressive-32b-4wc",
+    "class": "Social"
+  },
+  {
+    "name": "Social::Lobby::MessageError - Attempted to send member message to the local client.",
+    "retail_va": "0x142360188",
+    "retail_rva": "0x2360188",
+    "match_type": "aggressive-20b-12wc",
+    "class": "Social"
+  },
+  {
+    "name": "SpectatorCameraState::Begin",
+    "retail_va": "0x141febc20",
+    "retail_rva": "0x1febc20",
+    "match_type": "interior-off5-16b-0wc",
+    "class": "SpectatorCameraState"
   },
   {
     "name": "SpellItem::vfunc_0",
@@ -12691,11 +17087,46 @@
     "class": "StatChallengeManager"
   },
   {
+    "name": "StatChallengeManager::LogChallengeTrace",
+    "retail_va": "0x14112cc00",
+    "retail_rva": "0x112cc00",
+    "match_type": "interior-off1-12b-4wc",
+    "class": "StatChallengeManager"
+  },
+  {
+    "name": "StormWallManager::RunAnimations",
+    "retail_va": "0x14087181a",
+    "retail_rva": "0x87181a",
+    "match_type": "interior-off20-16b-4wc",
+    "class": "StormWallManager"
+  },
+  {
     "name": "StormWallManager::UpdateEffects",
     "retail_va": "0x141ac00c0",
     "retail_rva": "0x1ac00c0",
     "match_type": "unique",
     "class": "StormWallManager"
+  },
+  {
+    "name": "StormWallManager::UpdateGeometryFromRadius",
+    "retail_va": "0x140523310",
+    "retail_rva": "0x523310",
+    "match_type": "interior-off15-24b-8wc",
+    "class": "StormWallManager"
+  },
+  {
+    "name": "String::AS3localeCompare",
+    "retail_va": "0x141d095d0",
+    "retail_rva": "0x1d095d0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "String"
+  },
+  {
+    "name": "TES::GridArrayLoad",
+    "retail_va": "0x143136ee0",
+    "retail_rva": "0x3136ee0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "TES"
   },
   {
     "name": "TES::LoadAndAttachInteriorCell",
@@ -12719,10 +17150,31 @@
     "class": "TES"
   },
   {
+    "name": "TES::LoadInterior",
+    "retail_va": "0x14129ebe6",
+    "retail_rva": "0x129ebe6",
+    "match_type": "interior-off20-12b-0wc",
+    "class": "TES"
+  },
+  {
     "name": "TES::LoadedAndAttachInteriorCell",
     "retail_va": "0x140d8c6b0",
     "retail_rva": "0xd8c6b0",
     "match_type": "unique",
+    "class": "TES"
+  },
+  {
+    "name": "TES::RunAnims",
+    "retail_va": "0x1417ceab0",
+    "retail_rva": "0x17ceab0",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "TES"
+  },
+  {
+    "name": "TES::SetWorldSpace",
+    "retail_va": "0x14214e260",
+    "retail_rva": "0x214e260",
+    "match_type": "interior-off10-12b-0wc",
     "class": "TES"
   },
   {
@@ -13384,11 +17836,32 @@
     "class": "TESDataHandler"
   },
   {
+    "name": "TESDataHandler::CreateReferenceAtLocation",
+    "retail_va": "0x140c91f40",
+    "retail_rva": "0xc91f40",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "TESDataHandler"
+  },
+  {
     "name": "TESDataHandler::UnloadCell",
     "retail_va": "0x140741830",
     "retail_rva": "0x741830",
     "match_type": "wildcard-16b-4wc",
     "class": "TESDataHandler"
+  },
+  {
+    "name": "TESEffectShader::StartEffectShader",
+    "retail_va": "0x140495700",
+    "retail_rva": "0x495700",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "TESEffectShader"
+  },
+  {
+    "name": "TESEffectShader::StopEffectShader",
+    "retail_va": "0x140686ef0",
+    "retail_rva": "0x686ef0",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "TESEffectShader"
   },
   {
     "name": "TESEffectShader::vfunc_0",
@@ -13639,11 +18112,11 @@
     "name": "TESForm::InitItem",
     "retail_va": "0x14290fa60",
     "retail_rva": "0x290fa60",
-    "match_type": "wildcard_skip10",
+    "match_type": "aggressive-24b-4wc",
     "class": "TESForm"
   },
   {
-    "name": "TESForm::~TESForm",
+    "name": "TESForm::vfunc_0",
     "retail_va": "0x1405f7cb0",
     "retail_rva": "0x5f7cb0",
     "match_type": "vtable",
@@ -15435,10 +19908,45 @@
     "class": "TESObjectCELL"
   },
   {
-    "name": "TESObjectCELL::GetWaterHeight",
-    "retail_va": "0x14148fee0",
-    "retail_rva": "0x148fee0",
-    "match_type": "wildcard_skip3",
+    "name": "TESObjectCELL::GetCellFromKey",
+    "retail_va": "0x140f5f700",
+    "retail_rva": "0xf5f700",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "TESObjectCELL"
+  },
+  {
+    "name": "TESObjectCELL::HandlePackInCalcAndReset",
+    "retail_va": "0x140523310",
+    "retail_rva": "0x523310",
+    "match_type": "interior-off15-20b-8wc",
+    "class": "TESObjectCELL"
+  },
+  {
+    "name": "TESObjectCELL::LoadAllTempData",
+    "retail_va": "0x140523310",
+    "retail_rva": "0x523310",
+    "match_type": "interior-off15-20b-8wc",
+    "class": "TESObjectCELL"
+  },
+  {
+    "name": "TESObjectCELL::LoadAndAttachVisibilityData",
+    "retail_va": "0x140523310",
+    "retail_rva": "0x523310",
+    "match_type": "interior-off15-20b-8wc",
+    "class": "TESObjectCELL"
+  },
+  {
+    "name": "TESObjectCELL::LockEnlightenData",
+    "retail_va": "0x140686ef0",
+    "retail_rva": "0x686ef0",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "TESObjectCELL"
+  },
+  {
+    "name": "TESObjectCELL::PrepareStaticNodeAABB",
+    "retail_va": "0x140523310",
+    "retail_rva": "0x523310",
+    "match_type": "interior-off15-20b-8wc",
     "class": "TESObjectCELL"
   },
   {
@@ -15453,6 +19961,13 @@
     "retail_va": "0x1408d9530",
     "retail_rva": "0x8d9530",
     "match_type": "unique",
+    "class": "TESObjectCELL"
+  },
+  {
+    "name": "TESObjectCELL::UpdateReferences3DandProcess",
+    "retail_va": "0x140687d00",
+    "retail_rva": "0x687d00",
+    "match_type": "interior-off10-20b-0wc",
     "class": "TESObjectCELL"
   },
   {
@@ -15743,10 +20258,17 @@
     "class": "TESObjectCONT"
   },
   {
+    "name": "TESObjectCell::RemoveReference",
+    "retail_va": "0x1407498f0",
+    "retail_rva": "0x7498f0",
+    "match_type": "interior-off10-24b-0wc",
+    "class": "TESObjectCell"
+  },
+  {
     "name": "TESObjectDOOR::HandlePlayerTeleport",
-    "retail_va": "0x140eb3b30",
-    "retail_rva": "0xeb3b30",
-    "match_type": "wildcard_skip7",
+    "retail_va": "0x142da3930",
+    "retail_rva": "0x2da3930",
+    "match_type": "interior-off10-20b-0wc",
     "class": "TESObjectDOOR"
   },
   {
@@ -16184,6 +20706,13 @@
     "class": "TESObjectREFR"
   },
   {
+    "name": "TESObjectREFR::ApplyPrecomp",
+    "retail_va": "0x141810320",
+    "retail_rva": "0x1810320",
+    "match_type": "interior-off15-16b-0wc",
+    "class": "TESObjectREFR"
+  },
+  {
     "name": "TESObjectREFR::CreateInventoryList",
     "retail_va": "0x141ab40b0",
     "retail_rva": "0x1ab40b0",
@@ -16233,17 +20762,52 @@
     "class": "TESObjectREFR"
   },
   {
-    "name": "TESObjectREFR::InitScripts",
-    "retail_va": "0x143883750",
-    "retail_rva": "0x3883750",
-    "match_type": "wildcard_skip3",
+    "name": "TESObjectREFR::InitInventoryIfRequired",
+    "retail_va": "0x14082c750",
+    "retail_rva": "0x82c750",
+    "match_type": "interior-off10-16b-0wc",
     "class": "TESObjectREFR"
   },
   {
-    "name": "TESObjectREFR::MarkForPredictiveDisable",
-    "retail_va": "0x1438939b0",
-    "retail_rva": "0x38939b0",
-    "match_type": "wildcard_skip3",
+    "name": "TESObjectREFR::MarkForPredictiveEnable",
+    "retail_va": "0x141a28a70",
+    "retail_rva": "0x1a28a70",
+    "match_type": "interior-off1-12b-4wc",
+    "class": "TESObjectREFR"
+  },
+  {
+    "name": "TESObjectREFR::MoveRefToNewSpace",
+    "retail_va": "0x1411ed220",
+    "retail_rva": "0x11ed220",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "TESObjectREFR"
+  },
+  {
+    "name": "TESObjectREFR::RemoveDefaultLeveledItems",
+    "retail_va": "0x143114a50",
+    "retail_rva": "0x3114a50",
+    "match_type": "interior-off5-16b-0wc",
+    "class": "TESObjectREFR"
+  },
+  {
+    "name": "TESObjectREFR::RemoveItem",
+    "retail_va": "0x142c5ca70",
+    "retail_rva": "0x2c5ca70",
+    "match_type": "interior-off1-20b-0wc",
+    "class": "TESObjectREFR"
+  },
+  {
+    "name": "TESObjectREFR::TESObjectREFR",
+    "retail_va": "0x14184a910",
+    "retail_rva": "0x184a910",
+    "match_type": "interior-off10-12b-0wc",
+    "class": "TESObjectREFR"
+  },
+  {
+    "name": "TESObjectREFR::vfunc_0",
+    "retail_va": "0x1409b54c0",
+    "retail_rva": "0x9b54c0",
+    "match_type": "vtable",
     "class": "TESObjectREFR"
   },
   {
@@ -17605,11 +22169,11 @@
     "class": "TESObjectREFR"
   },
   {
-    "name": "TESObjectREFR::~TESObjectREFR",
-    "retail_va": "0x1409b54c0",
-    "retail_rva": "0x9b54c0",
-    "match_type": "vtable",
-    "class": "TESObjectREFR"
+    "name": "TESObjectREFRPhysicsSnapshotComponent::UpdateInterpolator",
+    "retail_va": "0x14187ea20",
+    "retail_rva": "0x187ea20",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "TESObjectREFRPhysicsSnapshotComponent"
   },
   {
     "name": "TESObjectSTAT::vfunc_0",
@@ -18396,6 +22960,20 @@
     "class": "TESQuestInstance"
   },
   {
+    "name": "TESQuestInstance::FillAliases",
+    "retail_va": "0x141876140",
+    "retail_rva": "0x1876140",
+    "match_type": "interior-off20-20b-4wc",
+    "class": "TESQuestInstance"
+  },
+  {
+    "name": "TESQuestInstance::FindRefsForAlias",
+    "retail_va": "0x143137940",
+    "retail_rva": "0x3137940",
+    "match_type": "interior-off15-20b-0wc",
+    "class": "TESQuestInstance"
+  },
+  {
     "name": "TESQuestInstance::GetAllMatchingInfosHelper",
     "retail_va": "0x141cb6bf0",
     "retail_rva": "0x1cb6bf0",
@@ -18809,6 +23387,13 @@
     "class": "TESTopic"
   },
   {
+    "name": "TESTopicInfo::GetResponseList",
+    "retail_va": "0x140ed4240",
+    "retail_rva": "0xed4240",
+    "match_type": "interior-off10-16b-0wc",
+    "class": "TESTopicInfo"
+  },
+  {
     "name": "TESTopicInfo::vfunc_0",
     "retail_va": "0x140b77bc0",
     "retail_rva": "0xb77bc0",
@@ -19005,6 +23590,13 @@
     "class": "TESWeather"
   },
   {
+    "name": "TESWorldSpace::FindCellInFile",
+    "retail_va": "0x14040b6d5",
+    "retail_rva": "0x40b6d5",
+    "match_type": "interior-off1-16b-4wc",
+    "class": "TESWorldSpace"
+  },
+  {
     "name": "TESWorldSpace::LoadCell",
     "retail_va": "0x1428972f0",
     "retail_rva": "0x28972f0",
@@ -19131,10 +23723,31 @@
     "class": "TeamSnapshotComponent"
   },
   {
+    "name": "TestSetManager::Update",
+    "retail_va": "0x1418cabc0",
+    "retail_rva": "0x18cabc0",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "TestSetManager"
+  },
+  {
+    "name": "TreeCacheRoot::UpdateTreeData",
+    "retail_va": "0x141359800",
+    "retail_rva": "0x1359800",
+    "match_type": "interior-off15-12b-0wc",
+    "class": "TreeCacheRoot"
+  },
+  {
     "name": "UI::Assert",
     "retail_va": "0x143577d50",
     "retail_rva": "0x3577d50",
     "match_type": "exact",
+    "class": "UI"
+  },
+  {
+    "name": "UI::FinishLoadingMovie",
+    "retail_va": "0x142c582b0",
+    "retail_rva": "0x2c582b0",
+    "match_type": "interior-off5-24b-4wc",
     "class": "UI"
   },
   {
@@ -19194,6 +23807,20 @@
     "class": "UIDataShuttleManager"
   },
   {
+    "name": "UIUtils::GetPlayerHPGain",
+    "retail_va": "0x14317f5d0",
+    "retail_rva": "0x317f5d0",
+    "match_type": "interior-off5-20b-0wc",
+    "class": "UIUtils"
+  },
+  {
+    "name": "UiFlashPublisher::OnShowLoadingScreen",
+    "retail_va": "0x141ffcf10",
+    "retail_rva": "0x1ffcf10",
+    "match_type": "interior-off15-24b-0wc",
+    "class": "UiFlashPublisher"
+  },
+  {
     "name": "UiFlashPublisher::Publish",
     "retail_va": "0x141edc730",
     "retail_rva": "0x1edc730",
@@ -19208,6 +23835,27 @@
     "class": "Umbra"
   },
   {
+    "name": "Umbra::ProcessTopFadeNode",
+    "retail_va": "0x142030c20",
+    "retail_rva": "0x2030c20",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Umbra"
+  },
+  {
+    "name": "Umbra::Query::Lights",
+    "retail_va": "0x1435cabd0",
+    "retail_rva": "0x35cabd0",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "Umbra"
+  },
+  {
+    "name": "VirtualMachine::AddPendingVariableUpdate",
+    "retail_va": "0x14177cc40",
+    "retail_rva": "0x177cc40",
+    "match_type": "interior-off5-24b-0wc",
+    "class": "VirtualMachine"
+  },
+  {
     "name": "VirtualMachine::DispatchMethodCallImpl",
     "retail_va": "0x142db9d30",
     "retail_rva": "0x2db9d30",
@@ -19219,6 +23867,13 @@
     "retail_va": "0x14065aa40",
     "retail_rva": "0x65aa40",
     "match_type": "unique",
+    "class": "VirtualMachine"
+  },
+  {
+    "name": "VirtualMachine::FindBoundObjectImpl",
+    "retail_va": "0x143975b60",
+    "retail_rva": "0x3975b60",
+    "match_type": "interior-off5-24b-4wc",
     "class": "VirtualMachine"
   },
   {
@@ -19271,6 +23926,27 @@
     "class": "Workshop"
   },
   {
+    "name": "Workshop::UpdateCellAttachment::CellAttached",
+    "retail_va": "0x141a28b20",
+    "retail_rva": "0x1a28b20",
+    "match_type": "interior-off5-12b-4wc",
+    "class": "Workshop"
+  },
+  {
+    "name": "Workshop::WouldSnapFromDistance",
+    "retail_va": "0x142917d50",
+    "retail_rva": "0x2917d50",
+    "match_type": "interior-off15-16b-4wc",
+    "class": "Workshop"
+  },
+  {
+    "name": "WorkshopClient::MultiEditHelper ::ResolveMustSnapItems",
+    "retail_va": "0x142c77910",
+    "retail_rva": "0x2c77910",
+    "match_type": "interior-off20-12b-4wc",
+    "class": "WorkshopClient"
+  },
+  {
     "name": "WorkshopClient::MultiEditHelper::PreStackItem",
     "retail_va": "0x141bbcff0",
     "retail_rva": "0x1bbcff0",
@@ -19282,6 +23958,20 @@
     "retail_va": "0x140c91a60",
     "retail_rva": "0xc91a60",
     "match_type": "unique",
+    "class": "WorkshopClient"
+  },
+  {
+    "name": "WorkshopClient::MultiEditHelper::SetupPlacementValues",
+    "retail_va": "0x141ab5480",
+    "retail_rva": "0x1ab5480",
+    "match_type": "interior-off20-20b-0wc",
+    "class": "WorkshopClient"
+  },
+  {
+    "name": "WorkshopClient::PrepareReferences",
+    "retail_va": "0x140811290",
+    "retail_rva": "0x811290",
+    "match_type": "interior-off5-24b-0wc",
     "class": "WorkshopClient"
   },
   {
@@ -19297,6 +23987,13 @@
     "retail_rva": "0xed1720",
     "match_type": "unique",
     "class": "WorkshopCommonUpdate"
+  },
+  {
+    "name": "WorkshopMenu::AdvanceMovie",
+    "retail_va": "0x1407eca81",
+    "retail_rva": "0x7eca81",
+    "match_type": "interior-off10-20b-0wc",
+    "class": "WorkshopMenu"
   },
   {
     "name": "WorkshopMenu::ProcessMessage",
@@ -19320,10 +24017,24 @@
     "class": "WorldDataModel"
   },
   {
+    "name": "WorldDataModel::NewCharacter: Creating new character and find a world to join",
+    "retail_va": "0x14119fd10",
+    "retail_rva": "0x119fd10",
+    "match_type": "interior-off20-16b-0wc",
+    "class": "WorldDataModel"
+  },
+  {
     "name": "XML::Construct",
     "retail_va": "0x142c3e490",
     "retail_rva": "0x2c3e490",
     "match_type": "exact",
+    "class": "XML"
+  },
+  {
+    "name": "XML::HasOwnPropertyProto",
+    "retail_va": "0x142cb1970",
+    "retail_rva": "0x2cb1970",
+    "match_type": "interior-off1-12b-0wc",
     "class": "XML"
   }
 ]
