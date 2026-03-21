@@ -1,0 +1,3866 @@
+{
+  "metadata": {
+    "description": "Fallout 76 Update Archive Changelog - patch-by-patch analysis of SeventySix - XXUpdateMain.ba2 archives (00-12)",
+    "source": "BA2 archive listing via fo76utils/baunpack",
+    "archive_type": "UpdateMain (meshes only - behaviors, animations, models, effects)",
+    "note": "Update archives OVERRIDE files from base archives. Any file present = changed/added in that patch. Archives also have UpdateTextures, UpdateVoices, and UpdateStream variants analyzed by size only.",
+    "total_updates_analyzed": 13,
+    "game": "Fallout 76",
+    "data_path": "/home/deucebucket/.local/share/Steam/steamapps/common/Fallout76/Data/",
+    "analysis_date": "2026-03-21"
+  },
+  "updates": {
+    "00": {
+      "estimated_update": "Base update layer / early Expeditions era",
+      "total_files_in_archive": 6805,
+      "total_uncompressed_size_mb": 748.8,
+      "archive_sizes_on_disk": {
+        "main_mb": 376,
+        "textures_mb": 757,
+        "voices_mb": 8,
+        "stream_mb": 0,
+        "total_mb": 1141
+      },
+      "new_files_vs_previous": 6805,
+      "notes": "Foundation update layer. Contains core mesh overrides: behaviors, animtextdata, ATX shop items, base creatures, architecture. All 6805 files are 'new' since this is the first update archive. Heavy ATX (783 files) and animtextdata (2748 files) content.",
+      "key_content": [
+        "Core behavior overrides",
+        "Atomic Shop items (783)",
+        "Creature mesh updates",
+        "Architecture/building kit updates"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 2748,
+          "size_mb": 60.5
+        },
+        "atx": {
+          "file_count": 783,
+          "size_mb": 191.1
+        },
+        "setdressing": {
+          "file_count": 774,
+          "size_mb": 141.3
+        },
+        "actors": {
+          "file_count": 602,
+          "size_mb": 82.5
+        },
+        "effects": {
+          "file_count": 444,
+          "size_mb": 66.2
+        },
+        "architecture": {
+          "file_count": 332,
+          "size_mb": 38.1
+        },
+        "interiors": {
+          "file_count": 175,
+          "size_mb": 19.2
+        },
+        "weapons": {
+          "file_count": 141,
+          "size_mb": 31.2
+        },
+        "dlc04": {
+          "file_count": 114,
+          "size_mb": 26.7
+        },
+        "dlc05": {
+          "file_count": 96,
+          "size_mb": 5.9
+        },
+        "dlc03": {
+          "file_count": 94,
+          "size_mb": 9.2
+        },
+        "furniture": {
+          "file_count": 67,
+          "size_mb": 11.5
+        },
+        "props": {
+          "file_count": 56,
+          "size_mb": 10.6
+        },
+        "animobjects": {
+          "file_count": 47,
+          "size_mb": 6.0
+        },
+        "dlc01": {
+          "file_count": 43,
+          "size_mb": 6.6
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc02": {
+          "file_count": 35,
+          "size_mb": 2.2
+        },
+        "vehicles": {
+          "file_count": 28,
+          "size_mb": 8.0
+        },
+        "workshop": {
+          "file_count": 27,
+          "size_mb": 3.6
+        },
+        "armor": {
+          "file_count": 24,
+          "size_mb": 1.7
+        },
+        "clothes": {
+          "file_count": 24,
+          "size_mb": 2.5
+        },
+        "landscape": {
+          "file_count": 24,
+          "size_mb": 5.3
+        },
+        "dlc06": {
+          "file_count": 21,
+          "size_mb": 1.4
+        },
+        "ammo": {
+          "file_count": 15,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 11,
+          "size_mb": 1.3
+        },
+        "lights": {
+          "file_count": 4,
+          "size_mb": 0.3
+        },
+        "proxy": {
+          "file_count": 4,
+          "size_mb": 0.6
+        },
+        "critters": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "sky": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.2
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "loadscreenart": {
+          "file_count": 1,
+          "size_mb": 0.4
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translatingplatform01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationfiledata": 1349,
+        "animtextdata/animationoffsets": 1301,
+        "atx/setdressing": 482,
+        "actors/character": 144,
+        "architecture/buildings": 117,
+        "atx/workshop": 100,
+        "animtextdata/animationspeedinfo": 98,
+        "atx/architecture": 89,
+        "architecture/bldkit": 84,
+        "dlc05/setdressing": 60,
+        "atx/furniture": 52,
+        "setdressing/workshop": 52,
+        "dlc04/effects": 48,
+        "actors/dlc04": 34,
+        "actors/dlc01": 33,
+        "interiors/industrial": 33,
+        "dlc02/setdressing": 32,
+        "interiors/vault": 32,
+        "setdressing/chargen": 32,
+        "dlc03/architecture": 30
+      },
+      "new_files_sample": [
+        "meshes/actors/_testcharacter/behaviors/_testcharacter.hkx",
+        "meshes/actors/_testcharacter/behaviors/binocularbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/botharminjuredmeleewrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/botharminjuredmtwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/botharminjuredpowerfistwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/botharminjuredweaponwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/chargeupwrappingweaponbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/gunbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/hitreactionbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/leftarminjuredmtwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/leftarminjuredweaponwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/meleebehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/nohandikweaponwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/rightarminjuredmtwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/rightarminjuredweaponwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/weaponbehavior.hkx",
+        "meshes/actors/_testcharacter/characters/_meleecharacter.hkx",
+        "meshes/actors/_testcharacter/characters/_syncedanimcharacter.hkx",
+        "meshes/actors/_testcharacter/characters/_weaponcharacter.hkx",
+        "meshes/actors/alien/characterassets/skeleton.nif",
+        "meshes/actors/antiairturret/characterassets/antiairturretdamagedfxaddon.nif",
+        "meshes/actors/atx/redrocketrobot/behaviors/createabotbehavior.hkx",
+        "meshes/actors/atx/redrocketrobot/characterassets/skeleton.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/atx_enclaveturretdamage_fx.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclave_turret_lights.nif",
+        "meshes/actors/bloatfly/characterassets/bloatfly.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflydeathexplosion.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflyfat.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflyfatglow.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflyskinny.nif",
+        "meshes/actors/bloatfly/characterassets/skeleton.nif",
+        "meshes/actors/brahmin/characterassets/brahminexplodedpelvis.nif",
+        "meshes/actors/brahmin/characterassets/lbrahminhorns02.nif",
+        "meshes/actors/brahmin/characterassets/skeleton.nif",
+        "meshes/actors/cat/characterassets/skeleton.nif",
+        "meshes/actors/cat_pet/characterassets/skeleton.nif",
+        "meshes/actors/character/animations/common/photomode/doctorzorbofireball_fx.nif",
+        "meshes/actors/character/characterassets/basefemalehead_facebones.nif",
+        "meshes/actors/character/characterassets/basemalehead_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard01_facebones.nif"
+      ]
+    },
+    "01": {
+      "estimated_update": "Incremental patch (minor)",
+      "total_files_in_archive": 6904,
+      "total_uncompressed_size_mb": 759.2,
+      "archive_sizes_on_disk": {
+        "main_mb": 381,
+        "textures_mb": 246,
+        "voices_mb": 8,
+        "stream_mb": 1,
+        "total_mb": 636
+      },
+      "new_files_vs_previous": 699,
+      "notes": "699 new files. Modest additions: new ATX shop items (137 new), architecture updates, robot parts. CreateABot behaviors added. Relatively small patch.",
+      "key_content": [
+        "Robot construction parts",
+        "Architecture building kit additions",
+        "ATX shop items (137 new)",
+        "Camera effects"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 2729,
+          "size_mb": 59.8
+        },
+        "atx": {
+          "file_count": 868,
+          "size_mb": 203.1
+        },
+        "setdressing": {
+          "file_count": 774,
+          "size_mb": 139.1
+        },
+        "actors": {
+          "file_count": 599,
+          "size_mb": 81.3
+        },
+        "effects": {
+          "file_count": 446,
+          "size_mb": 68.0
+        },
+        "architecture": {
+          "file_count": 350,
+          "size_mb": 38.9
+        },
+        "interiors": {
+          "file_count": 166,
+          "size_mb": 17.8
+        },
+        "weapons": {
+          "file_count": 140,
+          "size_mb": 31.0
+        },
+        "dlc04": {
+          "file_count": 115,
+          "size_mb": 26.2
+        },
+        "dlc05": {
+          "file_count": 100,
+          "size_mb": 5.8
+        },
+        "dlc03": {
+          "file_count": 88,
+          "size_mb": 8.8
+        },
+        "furniture": {
+          "file_count": 69,
+          "size_mb": 11.4
+        },
+        "props": {
+          "file_count": 58,
+          "size_mb": 10.9
+        },
+        "animobjects": {
+          "file_count": 47,
+          "size_mb": 6.0
+        },
+        "dlc01": {
+          "file_count": 39,
+          "size_mb": 6.5
+        },
+        "traps": {
+          "file_count": 38,
+          "size_mb": 4.7
+        },
+        "dlc02": {
+          "file_count": 36,
+          "size_mb": 2.4
+        },
+        "clothes": {
+          "file_count": 33,
+          "size_mb": 4.0
+        },
+        "vehicles": {
+          "file_count": 29,
+          "size_mb": 8.0
+        },
+        "landscape": {
+          "file_count": 27,
+          "size_mb": 4.1
+        },
+        "workshop": {
+          "file_count": 27,
+          "size_mb": 3.6
+        },
+        "armor": {
+          "file_count": 24,
+          "size_mb": 1.7
+        },
+        "bluemoon": {
+          "file_count": 23,
+          "size_mb": 3.3
+        },
+        "dlc06": {
+          "file_count": 22,
+          "size_mb": 1.4
+        },
+        "ammo": {
+          "file_count": 13,
+          "size_mb": 0.4
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "proxy": {
+          "file_count": 5,
+          "size_mb": 0.6
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "hardscape": {
+          "file_count": 3,
+          "size_mb": 0.5
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "sky": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "loadscreenart": {
+          "file_count": 1,
+          "size_mb": 0.4
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "markers": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "responses": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationfiledata": 1397,
+        "animtextdata/animationoffsets": 1243,
+        "atx/setdressing": 543,
+        "actors/character": 144,
+        "architecture/buildings": 122,
+        "atx/workshop": 102,
+        "atx/architecture": 93,
+        "architecture/bldkit": 91,
+        "animtextdata/animationspeedinfo": 88,
+        "dlc05/setdressing": 59,
+        "atx/furniture": 58,
+        "setdressing/workshop": 52,
+        "dlc04/effects": 46,
+        "actors/dlc04": 35,
+        "actors/dlc01": 34,
+        "dlc02/setdressing": 34,
+        "interiors/industrial": 33,
+        "atx/clothes": 32,
+        "dlc03/architecture": 32,
+        "setdressing/chargen": 32
+      },
+      "new_files_sample": [
+        "meshes/actors/createabot/behaviors/createabotbehavior.hkx",
+        "meshes/actors/createabot/characterassets/overheatmpslight.nif",
+        "meshes/actors/createabot/characterassets/sentrybotfacelight.nif",
+        "meshes/actors/deathclaw/characterassets/mpsdeathclawdustjet.nif",
+        "meshes/actors/dlc01/robot/parts/handy/handyconstructionarmsarmor_09.nif",
+        "meshes/actors/dlc01/robot/parts/protectron/dlc01_legsprotectron.nif",
+        "meshes/actors/dlc01/robot/parts/protectron/protectronconstructionlegsleftarmor_09.nif",
+        "meshes/actors/dlc01/robot/parts/protectron/protectronconstructionlegsleftarmor_10.nif",
+        "meshes/actors/dlc03/angler/characterassets/skeleton.nif",
+        "meshes/actors/dlc04/cavecricket/behaviors/cavecricketrootbehavior.hkx",
+        "meshes/actors/dlc04/nukatron/nukacolamachinecommercialfx.nif",
+        "meshes/actors/eyebot/characterassets/eyebotboosterfx.nif",
+        "meshes/actors/eyebot/characterassets/eyebotnobackdest.nif",
+        "meshes/actors/fevhound/behaviors/fevhoundbehaviour.hkx",
+        "meshes/actors/flatwoodsmonster/characterassets/skeleton.nif",
+        "meshes/actors/graftonmonster/behaviors/graftonrootbehavior.hkx",
+        "meshes/actors/mirelurkhunter/mirelurkhunterspitimpactexplosion.nif",
+        "meshes/actors/robot/characterassets/skeletonref.nif",
+        "meshes/actors/turret/characterassets/skeletonturretworkshop.nif",
+        "meshes/actors/turret/characterassets/turretbubbleeye.nif",
+        "meshes/animobjects/animobject_lighter01.nif",
+        "meshes/animtextdata/animationfiledata/10500607947627860892.txt",
+        "meshes/animtextdata/animationfiledata/10593194755846104840.txt",
+        "meshes/animtextdata/animationfiledata/1060872500830835612.txt",
+        "meshes/animtextdata/animationfiledata/10871889062705271708.txt",
+        "meshes/animtextdata/animationfiledata/10879749239404008348.txt",
+        "meshes/animtextdata/animationfiledata/10930702837323174812.txt",
+        "meshes/animtextdata/animationfiledata/1101480944168113052.txt",
+        "meshes/animtextdata/animationfiledata/11027370331974177692.txt",
+        "meshes/animtextdata/animationfiledata/11282641656591542735.txt",
+        "meshes/animtextdata/animationfiledata/11510072180134155164.txt",
+        "meshes/animtextdata/animationfiledata/11763648960550441884.txt",
+        "meshes/animtextdata/animationfiledata/11918020509054309276.txt",
+        "meshes/animtextdata/animationfiledata/12086742074279772192.txt",
+        "meshes/animtextdata/animationfiledata/1220510500879039402.txt",
+        "meshes/animtextdata/animationfiledata/12349266870891746204.txt",
+        "meshes/animtextdata/animationfiledata/12351909134772245404.txt",
+        "meshes/animtextdata/animationfiledata/12422011928689688608.txt",
+        "meshes/animtextdata/animationfiledata/12667457667590034332.txt",
+        "meshes/animtextdata/animationfiledata/12870186055311070108.txt"
+      ]
+    },
+    "02": {
+      "estimated_update": "Major content update - Gleaming Depths / Once in a Blue Moon era",
+      "total_files_in_archive": 8355,
+      "total_uncompressed_size_mb": 889.8,
+      "archive_sizes_on_disk": {
+        "main_mb": 458,
+        "textures_mb": 1695,
+        "voices_mb": 13,
+        "stream_mb": 59,
+        "total_mb": 2225
+      },
+      "new_files_vs_previous": 1621,
+      "notes": "1621 new files - MAJOR patch. First appearance of Gleaming Depths content. Scorchtongue creature introduced. Cat pet system (47 new animations). Large ATX content drop (286 new). Landscape rock updates. 2225MB total archive size (2nd largest).",
+      "key_content": [
+        "Gleaming Depths content (first appearance)",
+        "Scorchtongue creature (new)",
+        "Cat pet system (47 animations)",
+        "ATX clothes/actors (144 new)",
+        "Landscape rock meshes (36 new)",
+        "Power armor behavior updates"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3409,
+          "size_mb": 69.2
+        },
+        "atx": {
+          "file_count": 1058,
+          "size_mb": 227.9
+        },
+        "setdressing": {
+          "file_count": 825,
+          "size_mb": 148.7
+        },
+        "actors": {
+          "file_count": 802,
+          "size_mb": 142.8
+        },
+        "effects": {
+          "file_count": 686,
+          "size_mb": 69.4
+        },
+        "architecture": {
+          "file_count": 309,
+          "size_mb": 37.0
+        },
+        "interiors": {
+          "file_count": 200,
+          "size_mb": 28.0
+        },
+        "weapons": {
+          "file_count": 165,
+          "size_mb": 34.2
+        },
+        "dlc04": {
+          "file_count": 117,
+          "size_mb": 27.8
+        },
+        "dlc05": {
+          "file_count": 103,
+          "size_mb": 6.1
+        },
+        "dlc03": {
+          "file_count": 97,
+          "size_mb": 9.6
+        },
+        "furniture": {
+          "file_count": 69,
+          "size_mb": 11.7
+        },
+        "props": {
+          "file_count": 61,
+          "size_mb": 10.9
+        },
+        "landscape": {
+          "file_count": 59,
+          "size_mb": 13.3
+        },
+        "animobjects": {
+          "file_count": 48,
+          "size_mb": 6.2
+        },
+        "dlc02": {
+          "file_count": 39,
+          "size_mb": 2.5
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc01": {
+          "file_count": 36,
+          "size_mb": 6.2
+        },
+        "clothes": {
+          "file_count": 35,
+          "size_mb": 3.8
+        },
+        "armor": {
+          "file_count": 34,
+          "size_mb": 2.5
+        },
+        "vehicles": {
+          "file_count": 28,
+          "size_mb": 8.0
+        },
+        "workshop": {
+          "file_count": 27,
+          "size_mb": 3.6
+        },
+        "dlc06": {
+          "file_count": 20,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 13,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 10,
+          "size_mb": 1.3
+        },
+        "markers": {
+          "file_count": 10,
+          "size_mb": 0.9
+        },
+        "sky": {
+          "file_count": 10,
+          "size_mb": 0.5
+        },
+        "genericbehaviors": {
+          "file_count": 9,
+          "size_mb": 0.1
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "proxy": {
+          "file_count": 4,
+          "size_mb": 0.6
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.3
+        },
+        "loadscreenart": {
+          "file_count": 2,
+          "size_mb": 0.5
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "uniquebehaviors": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "water": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1738,
+        "animtextdata/animationfiledata": 1519,
+        "atx/setdressing": 531,
+        "actors/character": 170,
+        "atx/architecture": 123,
+        "architecture/buildings": 106,
+        "atx/workshop": 103,
+        "atx/actors": 94,
+        "atx/clothes": 93,
+        "animtextdata/animationspeedinfo": 90,
+        "architecture/bldkit": 78,
+        "atx/furniture": 74,
+        "dlc05/setdressing": 62,
+        "setdressing/workshop": 53,
+        "actors/cat_pet": 48,
+        "dlc04/effects": 47,
+        "actors/scorchtongue": 45,
+        "actors/dlc01": 39,
+        "actors/powerarmor": 38,
+        "dlc02/setdressing": 36
+      },
+      "new_files_sample": [
+        "meshes/actors/_testcharacter/behaviors/mtbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/powerarmorheavyweaponwrappingbehavior.hkx",
+        "meshes/actors/atx/redrocketrobot/behaviors/sentrybotcorebehavior.hkx",
+        "meshes/actors/brahmin/characterassets/rbrahminhorns02.nif",
+        "meshes/actors/brahmin/characterassets/rbrahminhorns03.nif",
+        "meshes/actors/cat/characterassets/cat.nif",
+        "meshes/actors/cat_pet/animations/cat_idle_sitting.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_sitting_fidget01.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_sitting_fidget02.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_sitting_fidget03.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_sitting_to_standing.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing_emote_happy.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing_fidget01.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing_fidget02.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing_fidget03.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing_to_sitting.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing_trick_rollover.hkx",
+        "meshes/actors/cat_pet/animations/cat_idle_standing_trick_speak.hkx",
+        "meshes/actors/cat_pet/animations/cat_move_run.hkx",
+        "meshes/actors/cat_pet/animations/cat_move_trot.hkx",
+        "meshes/actors/cat_pet/animations/cat_move_walk.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_left_135.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_left_180.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_left_45.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_left_90.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_right_135.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_right_180.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_right_45.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_right_90.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_left_135.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_left_180.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_left_45.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_left_90.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_right_135.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_right_180.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_right_45.hkx",
+        "meshes/actors/cat_pet/animations/cat_turn_walk_right_90.hkx",
+        "meshes/actors/cat_pet/animations/catbed/enterfromstand.hkx",
+        "meshes/actors/cat_pet/animations/catbed/exittostand.hkx"
+      ]
+    },
+    "03": {
+      "estimated_update": "Incremental patch with Atlantic City prep",
+      "total_files_in_archive": 7462,
+      "total_uncompressed_size_mb": 828.5,
+      "archive_sizes_on_disk": {
+        "main_mb": 424,
+        "textures_mb": 201,
+        "voices_mb": 10,
+        "stream_mb": 3,
+        "total_mb": 638
+      },
+      "new_files_vs_previous": 268,
+      "notes": "268 new files. Bigfoot assets first appear (though minimal). Marching band/baton twirl emotes added. Flower box decorations. Alien whack-a-mole prop. ATX architecture focus.",
+      "key_content": [
+        "Bigfoot skeleton/assets (first hint)",
+        "Marching band emotes",
+        "Flower box decorations",
+        "ATX architecture (37 new)",
+        "Vertibird updates",
+        "Zetan drone skeleton"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3194,
+          "size_mb": 67.5
+        },
+        "atx": {
+          "file_count": 949,
+          "size_mb": 211.2
+        },
+        "setdressing": {
+          "file_count": 788,
+          "size_mb": 141.6
+        },
+        "actors": {
+          "file_count": 627,
+          "size_mb": 121.3
+        },
+        "effects": {
+          "file_count": 451,
+          "size_mb": 68.5
+        },
+        "architecture": {
+          "file_count": 316,
+          "size_mb": 37.9
+        },
+        "interiors": {
+          "file_count": 176,
+          "size_mb": 25.8
+        },
+        "weapons": {
+          "file_count": 143,
+          "size_mb": 32.2
+        },
+        "dlc04": {
+          "file_count": 115,
+          "size_mb": 27.8
+        },
+        "dlc05": {
+          "file_count": 92,
+          "size_mb": 6.0
+        },
+        "dlc03": {
+          "file_count": 91,
+          "size_mb": 10.1
+        },
+        "furniture": {
+          "file_count": 67,
+          "size_mb": 11.7
+        },
+        "props": {
+          "file_count": 59,
+          "size_mb": 10.8
+        },
+        "animobjects": {
+          "file_count": 51,
+          "size_mb": 6.1
+        },
+        "dlc01": {
+          "file_count": 39,
+          "size_mb": 6.5
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc02": {
+          "file_count": 38,
+          "size_mb": 2.4
+        },
+        "clothes": {
+          "file_count": 31,
+          "size_mb": 3.4
+        },
+        "vehicles": {
+          "file_count": 29,
+          "size_mb": 8.0
+        },
+        "workshop": {
+          "file_count": 27,
+          "size_mb": 3.6
+        },
+        "armor": {
+          "file_count": 24,
+          "size_mb": 1.7
+        },
+        "landscape": {
+          "file_count": 23,
+          "size_mb": 5.4
+        },
+        "dlc06": {
+          "file_count": 20,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 14,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 10,
+          "size_mb": 1.3
+        },
+        "proxy": {
+          "file_count": 6,
+          "size_mb": 0.6
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "genericbehaviors": {
+          "file_count": 3,
+          "size_mb": 0.0
+        },
+        "markers": {
+          "file_count": 3,
+          "size_mb": 0.2
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.3
+        },
+        "interface": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "sky": {
+          "file_count": 2,
+          "size_mb": 0.0
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "loadscreenart": {
+          "file_count": 1,
+          "size_mb": 0.4
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "responses": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "water": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1692,
+        "animtextdata/animationfiledata": 1460,
+        "atx/setdressing": 531,
+        "actors/character": 149,
+        "atx/architecture": 146,
+        "architecture/buildings": 105,
+        "atx/workshop": 98,
+        "architecture/bldkit": 79,
+        "dlc05/setdressing": 61,
+        "atx/furniture": 57,
+        "setdressing/workshop": 50,
+        "dlc04/effects": 46,
+        "atx/actors": 45,
+        "atx/clothes": 42,
+        "animtextdata/animationspeedinfo": 36,
+        "dlc02/setdressing": 36,
+        "actors/dlc01": 35,
+        "actors/dlc04": 34,
+        "dlc03/architecture": 34,
+        "interiors/industrial": 34
+      },
+      "new_files_sample": [
+        "meshes/actors/atx/turret/characterassets/enclave/skeleton.nif",
+        "meshes/actors/brahmin/characterassets/rbrahminhorns01.nif",
+        "meshes/actors/character/animations/common/emotes/batontwirling.hkx",
+        "meshes/actors/character/animations/common/emotes/marchingband.hkx",
+        "meshes/actors/feralghoul/behaviors/rootbehavior.hkx",
+        "meshes/actors/vertibird/characterassets/vertibirdcripattatchsmoke.nif",
+        "meshes/actors/zetandrone/characterassets/skeleton.nif",
+        "meshes/animobjects/animobject_atx_alienwhackamole_mallet.nif",
+        "meshes/animobjects/animobject_drummajorbaton.nif",
+        "meshes/animobjects/animobject_twirlingbaton.nif",
+        "meshes/animtextdata/animationfiledata/10773973386133541788.txt",
+        "meshes/animtextdata/animationfiledata/12591774799031735196.txt",
+        "meshes/animtextdata/animationfiledata/1504676483753350044.txt",
+        "meshes/animtextdata/animationfiledata/15685915822285427612.txt",
+        "meshes/animtextdata/animationfiledata/16063903235147481120.txt",
+        "meshes/animtextdata/animationfiledata/171120470131774364.txt",
+        "meshes/animtextdata/animationfiledata/17881008584170848288.txt",
+        "meshes/animtextdata/animationfiledata/18253915066787206044.txt",
+        "meshes/animtextdata/animationfiledata/2933968821641319324.txt",
+        "meshes/animtextdata/animationfiledata/356151535303955356.txt",
+        "meshes/animtextdata/animationfiledata/4724140881723036572.txt",
+        "meshes/animtextdata/animationfiledata/476749602590474272.txt",
+        "meshes/animtextdata/animationfiledata/5721824399598207008.txt",
+        "meshes/animtextdata/animationfiledata/6246730286414316189.txt",
+        "meshes/animtextdata/animationfiledata/6286515061905200028.txt",
+        "meshes/animtextdata/animationfiledata/678031270822843292.txt",
+        "meshes/animtextdata/animationfiledata/7311912064006525852.txt",
+        "meshes/animtextdata/animationfiledata/737956509962507164.txt",
+        "meshes/animtextdata/animationfiledata/8579294421281969052.txt",
+        "meshes/animtextdata/animationfiledata/8999237647376760864.txt",
+        "meshes/animtextdata/animationfiledata/9845232973761254300.txt",
+        "meshes/animtextdata/animationfiledata/crystalball.txt",
+        "meshes/animtextdata/animationfiledata/sixstategraph.txt",
+        "meshes/animtextdata/animationoffsets/1504676483753350044.txt",
+        "meshes/animtextdata/animationoffsets/356151535303955356.txt",
+        "meshes/animtextdata/animationspeedinfo/13294716384662883085.txt",
+        "meshes/animtextdata/animationspeedinfo/15489204058294435585.txt",
+        "meshes/animtextdata/animationspeedinfo/16887599567357709069.txt",
+        "meshes/animtextdata/animationspeedinfo/17419671212215090945.txt",
+        "meshes/animtextdata/animationspeedinfo/3130508929573161741.txt"
+      ]
+    },
+    "04": {
+      "estimated_update": "Major content update - Seasonal/Events content",
+      "total_files_in_archive": 7949,
+      "total_uncompressed_size_mb": 988.3,
+      "archive_sizes_on_disk": {
+        "main_mb": 528,
+        "textures_mb": 688,
+        "voices_mb": 73,
+        "stream_mb": 33,
+        "total_mb": 1322
+      },
+      "new_files_vs_previous": 965,
+      "notes": "965 new files. Massive ATX drop (441 new) - largest ATX addition. Flower crown clothes (30 new). Combat armor updates (36). Enclave turret system. Heavy clothing content. 73MB voice archive suggests new questline.",
+      "key_content": [
+        "ATX mega-drop (441 new items)",
+        "Enclave turret system (6 variants)",
+        "Combat armor overhaul (36 meshes)",
+        "Flower crown clothing set (30)",
+        "New 1st-person weapon behaviors",
+        "73MB voice content"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 2752,
+          "size_mb": 61.7
+        },
+        "atx": {
+          "file_count": 1270,
+          "size_mb": 301.5
+        },
+        "setdressing": {
+          "file_count": 827,
+          "size_mb": 146.0
+        },
+        "actors": {
+          "file_count": 710,
+          "size_mb": 139.0
+        },
+        "effects": {
+          "file_count": 694,
+          "size_mb": 71.8
+        },
+        "architecture": {
+          "file_count": 330,
+          "size_mb": 39.2
+        },
+        "interiors": {
+          "file_count": 185,
+          "size_mb": 27.8
+        },
+        "clothes": {
+          "file_count": 156,
+          "size_mb": 36.5
+        },
+        "weapons": {
+          "file_count": 142,
+          "size_mb": 34.3
+        },
+        "dlc04": {
+          "file_count": 117,
+          "size_mb": 28.1
+        },
+        "dlc03": {
+          "file_count": 95,
+          "size_mb": 10.1
+        },
+        "armor": {
+          "file_count": 94,
+          "size_mb": 10.1
+        },
+        "dlc05": {
+          "file_count": 89,
+          "size_mb": 5.3
+        },
+        "furniture": {
+          "file_count": 68,
+          "size_mb": 11.8
+        },
+        "props": {
+          "file_count": 57,
+          "size_mb": 10.8
+        },
+        "animobjects": {
+          "file_count": 54,
+          "size_mb": 6.4
+        },
+        "dlc01": {
+          "file_count": 39,
+          "size_mb": 6.5
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc02": {
+          "file_count": 38,
+          "size_mb": 2.4
+        },
+        "landscape": {
+          "file_count": 33,
+          "size_mb": 6.3
+        },
+        "vehicles": {
+          "file_count": 28,
+          "size_mb": 7.4
+        },
+        "workshop": {
+          "file_count": 27,
+          "size_mb": 3.6
+        },
+        "dlc06": {
+          "file_count": 20,
+          "size_mb": 1.3
+        },
+        "bluemoon": {
+          "file_count": 18,
+          "size_mb": 3.6
+        },
+        "ammo": {
+          "file_count": 15,
+          "size_mb": 0.5
+        },
+        "markers": {
+          "file_count": 6,
+          "size_mb": 0.3
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "babylon": {
+          "file_count": 3,
+          "size_mb": 0.4
+        },
+        "hardscape": {
+          "file_count": 3,
+          "size_mb": 0.5
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "proxy": {
+          "file_count": 3,
+          "size_mb": 0.6
+        },
+        "sky": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "water": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translatingplatform01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "uniquebehaviors": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationfiledata": 1372,
+        "animtextdata/animationoffsets": 1313,
+        "atx/setdressing": 582,
+        "atx/clothes": 239,
+        "actors/character": 179,
+        "atx/architecture": 150,
+        "architecture/buildings": 120,
+        "atx/workshop": 105,
+        "atx/actors": 87,
+        "architecture/bldkit": 79,
+        "atx/furniture": 68,
+        "dlc05/setdressing": 55,
+        "setdressing/workshop": 53,
+        "dlc04/effects": 45,
+        "actors/powerarmor": 38,
+        "animtextdata/animationspeedinfo": 38,
+        "armor/combatarmor": 36,
+        "effects/shaderparticles": 36,
+        "actors/dlc04": 35,
+        "dlc02/setdressing": 35
+      },
+      "new_files_sample": [
+        "meshes/actors/alien/characterassets/alien_body.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclave_turret_base.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclave_turret_gun.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclave_turret_laser.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclave_turret_missilelauncher.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclave_turret_shotgun.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclaveturret_base_wirepowered.nif",
+        "meshes/actors/character/_1stperson/behaviors/1hm_meleewrappingbehavior.hkx",
+        "meshes/actors/character/_1stperson/behaviors/2hm_meleewrappingbehavior.hkx",
+        "meshes/actors/character/_1stperson/behaviors/gunbehavior.hkx",
+        "meshes/actors/character/_1stperson/behaviors/injuredmtwrappingbehavior.hkx",
+        "meshes/actors/character/_1stperson/behaviors/meleebehavior.hkx",
+        "meshes/actors/character/_1stperson/behaviors/mtbehavior.hkx",
+        "meshes/actors/character/_1stperson/behaviors/rootbehavior.hkx",
+        "meshes/actors/character/animation/furniture/ghouljuiceinhaler/activate.hkx",
+        "meshes/actors/character/animations/common/emotes/digit.hkx",
+        "meshes/actors/character/animations/common/emotes/fanthehammer.hkx",
+        "meshes/actors/character/animations/common/emotes/ghouldance.hkx",
+        "meshes/actors/character/characterassets/faceparts/maleghouleyesao.nif",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonemodifiers.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonemodifiersfemale.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonemodifiersmale.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesfemaledefault.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesfemalefat.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesfemalemuscular.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesfemalethin.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesmaledefault.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesmalefat.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesmalemuscular.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracebonescalesmalethin.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracefacialboneregionsfemale.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracefacialboneregionsmale.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracefacialboneregionuiremappingfemale.txt",
+        "meshes/actors/character/characterassets/ghl_playerghoulracefacialboneregionuiremappingmale.txt",
+        "meshes/actors/character/characterassets/malebody.nif",
+        "meshes/actors/character/characterassets/mannequin/female/body.nif",
+        "meshes/actors/character/characterassets/mannequin/male/body.nif",
+        "meshes/actors/dlc03/toughermirelurk/bloodragemirelurk.nif",
+        "meshes/actors/dlc03/vrdefender/characterassets/skeleton.nif",
+        "meshes/actors/dogmeat/rottweiler/rottweiler.nif"
+      ]
+    },
+    "05": {
+      "estimated_update": "Incremental patch (minor)",
+      "total_files_in_archive": 7500,
+      "total_uncompressed_size_mb": 832.9,
+      "archive_sizes_on_disk": {
+        "main_mb": 425,
+        "textures_mb": 188,
+        "voices_mb": 19,
+        "stream_mb": 0,
+        "total_mb": 632
+      },
+      "new_files_vs_previous": 225,
+      "notes": "225 new files - smallest patch. ATX architecture focus (68 new). Building kit additions. Cat pet emote (high-five). Show of Force + Spacewalk emotes. Crystal ball effect.",
+      "key_content": [
+        "ATX architecture (68 new)",
+        "Building kit updates (14 new)",
+        "Cat pet high-five emote",
+        "Show of Force emote",
+        "Spacewalk emote"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3165,
+          "size_mb": 67.4
+        },
+        "atx": {
+          "file_count": 952,
+          "size_mb": 209.3
+        },
+        "setdressing": {
+          "file_count": 790,
+          "size_mb": 143.2
+        },
+        "actors": {
+          "file_count": 627,
+          "size_mb": 123.6
+        },
+        "effects": {
+          "file_count": 489,
+          "size_mb": 68.5
+        },
+        "architecture": {
+          "file_count": 342,
+          "size_mb": 41.7
+        },
+        "interiors": {
+          "file_count": 179,
+          "size_mb": 27.9
+        },
+        "weapons": {
+          "file_count": 144,
+          "size_mb": 32.4
+        },
+        "dlc04": {
+          "file_count": 117,
+          "size_mb": 27.2
+        },
+        "dlc05": {
+          "file_count": 92,
+          "size_mb": 5.9
+        },
+        "dlc03": {
+          "file_count": 86,
+          "size_mb": 8.8
+        },
+        "furniture": {
+          "file_count": 67,
+          "size_mb": 11.5
+        },
+        "props": {
+          "file_count": 59,
+          "size_mb": 10.9
+        },
+        "animobjects": {
+          "file_count": 48,
+          "size_mb": 6.1
+        },
+        "dlc01": {
+          "file_count": 41,
+          "size_mb": 6.5
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc02": {
+          "file_count": 36,
+          "size_mb": 2.4
+        },
+        "vehicles": {
+          "file_count": 29,
+          "size_mb": 8.0
+        },
+        "workshop": {
+          "file_count": 28,
+          "size_mb": 3.6
+        },
+        "armor": {
+          "file_count": 24,
+          "size_mb": 1.7
+        },
+        "clothes": {
+          "file_count": 24,
+          "size_mb": 2.5
+        },
+        "dlc06": {
+          "file_count": 23,
+          "size_mb": 1.4
+        },
+        "landscape": {
+          "file_count": 21,
+          "size_mb": 4.5
+        },
+        "ammo": {
+          "file_count": 15,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 11,
+          "size_mb": 1.3
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "proxy": {
+          "file_count": 5,
+          "size_mb": 0.6
+        },
+        "uniquebehaviors": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "critters": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "hardscape": {
+          "file_count": 3,
+          "size_mb": 0.5
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "sky": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "genericbehaviors": {
+          "file_count": 2,
+          "size_mb": 0.0
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "water": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "loadscreenart": {
+          "file_count": 1,
+          "size_mb": 0.4
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "markers": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translatingplatform01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1693,
+        "animtextdata/animationfiledata": 1360,
+        "atx/setdressing": 535,
+        "atx/architecture": 154,
+        "actors/character": 152,
+        "architecture/buildings": 127,
+        "animtextdata/animationspeedinfo": 111,
+        "atx/workshop": 102,
+        "architecture/bldkit": 87,
+        "atx/furniture": 61,
+        "dlc05/setdressing": 57,
+        "setdressing/workshop": 54,
+        "dlc04/effects": 49,
+        "atx/clothes": 41,
+        "effects/shaderparticles": 41,
+        "actors/dlc01": 35,
+        "actors/dlc04": 35,
+        "dlc02/setdressing": 35,
+        "interiors/industrial": 35,
+        "interiors/vault": 34
+      },
+      "new_files_sample": [
+        "meshes/actors/cat_pet/animations/cat_emote_highfive.hkx",
+        "meshes/actors/character/animations/common/emotes/female/showofforce.hkx",
+        "meshes/actors/character/animations/common/emotes/showofforce.hkx",
+        "meshes/actors/character/animations/common/emotes/spacewalk.hkx",
+        "meshes/actors/powerarmor/animations/paired/showofforce.hkx",
+        "meshes/actors/powerarmor/animations/paired/spacewalk.hkx",
+        "meshes/animtextdata/animationfiledata/14541475923015155744.txt",
+        "meshes/animtextdata/animationfiledata/289537535845515296.txt",
+        "meshes/animtextdata/animationfiledata/771794229908619933.txt",
+        "meshes/animtextdata/animationfiledata/crystalballfx.txt",
+        "meshes/animtextdata/animationoffsets/16412477525441155996.txt",
+        "meshes/animtextdata/animationoffsets/5682743755027813276.txt",
+        "meshes/animtextdata/animationspeedinfo/10811368405273001729.txt",
+        "meshes/animtextdata/animationspeedinfo/10828247757561891597.txt",
+        "meshes/animtextdata/animationspeedinfo/10867409976069832449.txt",
+        "meshes/animtextdata/animationspeedinfo/10871470875075172301.txt",
+        "meshes/animtextdata/animationspeedinfo/11112558211551824653.txt",
+        "meshes/animtextdata/animationspeedinfo/1118831777837654766.txt",
+        "meshes/animtextdata/animationspeedinfo/11374833638805716737.txt",
+        "meshes/animtextdata/animationspeedinfo/11455138409537178381.txt",
+        "meshes/animtextdata/animationspeedinfo/11491582500994308045.txt",
+        "meshes/animtextdata/animationspeedinfo/11546551271727939329.txt",
+        "meshes/animtextdata/animationspeedinfo/12396304435208109825.txt",
+        "meshes/animtextdata/animationspeedinfo/13326375323041106701.txt",
+        "meshes/animtextdata/animationspeedinfo/14548209165595413261.txt",
+        "meshes/animtextdata/animationspeedinfo/16406475563661639425.txt",
+        "meshes/animtextdata/animationspeedinfo/16924530754185431821.txt",
+        "meshes/animtextdata/animationspeedinfo/17113426619909114637.txt",
+        "meshes/animtextdata/animationspeedinfo/17297286952339226369.txt",
+        "meshes/animtextdata/animationspeedinfo/17322890868997137134.txt",
+        "meshes/animtextdata/animationspeedinfo/17507902748818246413.txt",
+        "meshes/animtextdata/animationspeedinfo/1760104890609024769.txt",
+        "meshes/animtextdata/animationspeedinfo/3478640995558853389.txt",
+        "meshes/animtextdata/animationspeedinfo/3574982003975883533.txt",
+        "meshes/animtextdata/animationspeedinfo/374094396123351821.txt",
+        "meshes/animtextdata/animationspeedinfo/3793283728363850509.txt",
+        "meshes/animtextdata/animationspeedinfo/3938064455981959949.txt",
+        "meshes/animtextdata/animationspeedinfo/398291670638365453.txt",
+        "meshes/animtextdata/animationspeedinfo/4477038636732507064.txt",
+        "meshes/animtextdata/animationspeedinfo/5462945206085992193.txt"
+      ]
+    },
+    "06": {
+      "estimated_update": "Major content update - Skyline Valley / Fishing update",
+      "total_files_in_archive": 8044,
+      "total_uncompressed_size_mb": 883.7,
+      "archive_sizes_on_disk": {
+        "main_mb": 453,
+        "textures_mb": 636,
+        "voices_mb": 26,
+        "stream_mb": 13,
+        "total_mb": 1128
+      },
+      "new_files_vs_previous": 665,
+      "notes": "665 new files. SKYLINE VALLEY content first appears (6 references). Fishing system introduced - massive: fish actors (82), fishing rod weapons (34), fishing behaviors added to ALL creature types, hermit crab shop (13). Fishing furniture behaviors. 1128MB total.",
+      "key_content": [
+        "Skyline Valley content (first appearance)",
+        "Fishing system (82 fish + 34 fishing rod meshes)",
+        "Fishing behaviors for all creatures",
+        "Hermit crab shop furniture (13)",
+        "Fishing-related set dressing (15)",
+        "ATX fishing items"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3332,
+          "size_mb": 69.7
+        },
+        "atx": {
+          "file_count": 1085,
+          "size_mb": 226.5
+        },
+        "setdressing": {
+          "file_count": 827,
+          "size_mb": 150.1
+        },
+        "actors": {
+          "file_count": 792,
+          "size_mb": 131.7
+        },
+        "effects": {
+          "file_count": 463,
+          "size_mb": 68.8
+        },
+        "architecture": {
+          "file_count": 312,
+          "size_mb": 42.1
+        },
+        "weapons": {
+          "file_count": 184,
+          "size_mb": 35.8
+        },
+        "interiors": {
+          "file_count": 175,
+          "size_mb": 25.0
+        },
+        "dlc04": {
+          "file_count": 114,
+          "size_mb": 27.7
+        },
+        "dlc03": {
+          "file_count": 95,
+          "size_mb": 9.4
+        },
+        "dlc05": {
+          "file_count": 92,
+          "size_mb": 5.9
+        },
+        "furniture": {
+          "file_count": 83,
+          "size_mb": 23.2
+        },
+        "props": {
+          "file_count": 78,
+          "size_mb": 12.0
+        },
+        "animobjects": {
+          "file_count": 62,
+          "size_mb": 6.2
+        },
+        "dlc01": {
+          "file_count": 40,
+          "size_mb": 6.5
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc02": {
+          "file_count": 35,
+          "size_mb": 2.4
+        },
+        "vehicles": {
+          "file_count": 29,
+          "size_mb": 8.0
+        },
+        "workshop": {
+          "file_count": 28,
+          "size_mb": 3.6
+        },
+        "clothes": {
+          "file_count": 26,
+          "size_mb": 2.9
+        },
+        "armor": {
+          "file_count": 24,
+          "size_mb": 1.7
+        },
+        "landscape": {
+          "file_count": 22,
+          "size_mb": 5.2
+        },
+        "dlc06": {
+          "file_count": 19,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 15,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 11,
+          "size_mb": 1.3
+        },
+        "sky": {
+          "file_count": 10,
+          "size_mb": 0.2
+        },
+        "markers": {
+          "file_count": 9,
+          "size_mb": 0.5
+        },
+        "proxy": {
+          "file_count": 6,
+          "size_mb": 0.6
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "critters": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "genericbehaviors": {
+          "file_count": 3,
+          "size_mb": 0.0
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.2
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.3
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "responses": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "uniquebehaviors": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1737,
+        "animtextdata/animationfiledata": 1465,
+        "atx/setdressing": 654,
+        "actors/character": 180,
+        "animtextdata/animationspeedinfo": 115,
+        "architecture/buildings": 104,
+        "atx/workshop": 102,
+        "atx/architecture": 96,
+        "architecture/bldkit": 84,
+        "actors/fish": 82,
+        "atx/actors": 78,
+        "atx/furniture": 67,
+        "dlc05/setdressing": 60,
+        "setdressing/workshop": 52,
+        "dlc04/effects": 47,
+        "actors/dlc04": 35,
+        "dlc03/architecture": 35,
+        "atx/clothes": 34,
+        "interiors/industrial": 34,
+        "interiors/vault": 34
+      },
+      "new_files_sample": [
+        "meshes/actors/_testcharacter/behaviors/furniturefishingbehavior.hkx",
+        "meshes/actors/atx/redrocketrobot/behaviors/furniturefishingbehavior.hkx",
+        "meshes/actors/atx/robotdog/behaviors/furniturefishingbehavior.hkx",
+        "meshes/actors/bloatfly/behaviors/furniturefishingbehavior.hkx",
+        "meshes/actors/brahmin/behaviors/furniturefishingbehavior.hkx",
+        "meshes/actors/brahmin/characterassets/lbrahminhorns01.nif",
+        "meshes/actors/cat/behaviors/furniturefishingbehavior.hkx",
+        "meshes/actors/character/_1stperson/behaviors/furniturefishingbehavior.hkx",
+        "meshes/actors/character/animations/common/emotes/gonefishing.hkx",
+        "meshes/actors/character/animations/furniture/captainraymond_idle/posea_idleflavor1.hkx",
+        "meshes/actors/character/animations/furniture/fishermanshop/point.hkx",
+        "meshes/actors/character/animations/furniture/fishermanshop/posea_idle1.hkx",
+        "meshes/actors/character/animations/furniture/fishermanshop/posea_idleflavor1.hkx",
+        "meshes/actors/character/animations/furniture/fishermanshop/posea_idleflavor2.hkx",
+        "meshes/actors/character/animations/furniture/fishermanshop/posea_idleflavor3.hkx",
+        "meshes/actors/character/animations/furniture/fishing/cameradefault.hkx",
+        "meshes/actors/character/animations/furniture/fishing/camerafront.hkx",
+        "meshes/actors/character/animations/furniture/fishing/cameraleft.hkx",
+        "meshes/actors/character/animations/furniture/fishing/castenter.hkx",
+        "meshes/actors/character/animations/furniture/fishing/castexit.hkx",
+        "meshes/actors/character/animations/furniture/fishing/castidle.hkx",
+        "meshes/actors/character/animations/furniture/fishing/catchfail.hkx",
+        "meshes/actors/character/animations/furniture/fishing/catchidle.hkx",
+        "meshes/actors/character/animations/furniture/fishing/catchsuccess.hkx",
+        "meshes/actors/character/animations/furniture/fishing/enterfromstand.hkx",
+        "meshes/actors/character/animations/furniture/fishing/exittostand.hkx",
+        "meshes/actors/character/animations/furniture/fishing/furnituredeath.hkx",
+        "meshes/actors/character/animations/furniture/fishing/hookedenter.hkx",
+        "meshes/actors/character/animations/furniture/fishing/hookedloop.hkx",
+        "meshes/actors/character/animations/furniture/fishing/hookedloopleft.hkx",
+        "meshes/actors/character/animations/furniture/fishing/hookedloopright.hkx",
+        "meshes/actors/character/animations/furniture/fishing/largecatchidle.hkx",
+        "meshes/actors/character/animations/furniture/fishing/largecatchreturntoidle.hkx",
+        "meshes/actors/character/animations/furniture/fishing/largecatchsuccess.hkx",
+        "meshes/actors/character/animations/furniture/fishing/posea_idle1.hkx",
+        "meshes/actors/character/animations/furniture/fishing/returntoidle.hkx",
+        "meshes/actors/character/animations/furniture/workbenchfishing/enterfromstand.hkx",
+        "meshes/actors/character/animations/furniture/workbenchfishing/exittostand.hkx",
+        "meshes/actors/character/animations/furniture/workbenchfishing/posea_idle1.hkx",
+        "meshes/actors/character/behaviors/furniturefishingbehavior.hkx"
+      ]
+    },
+    "07": {
+      "estimated_update": "Incremental patch - Screaming Eagle weapon",
+      "total_files_in_archive": 7685,
+      "total_uncompressed_size_mb": 858.5,
+      "archive_sizes_on_disk": {
+        "main_mb": 439,
+        "textures_mb": 775,
+        "voices_mb": 11,
+        "stream_mb": 2,
+        "total_mb": 1227
+      },
+      "new_files_vs_previous": 270,
+      "notes": "270 new files. Screaming Eagle weapon introduced (new 1st-person animations with drum mag variants). Ghoul character face variants (glowing eyes). No Mic + Shaken emotes. ATX architecture/set dressing heavy.",
+      "key_content": [
+        "Screaming Eagle weapon (new)",
+        "Ghoul face customization (glowing eyes)",
+        "No Mic emote",
+        "Shaken emote",
+        "ATX architecture (73 new)",
+        "ATX set dressing (78 new)"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3247,
+          "size_mb": 68.5
+        },
+        "atx": {
+          "file_count": 1065,
+          "size_mb": 232.3
+        },
+        "setdressing": {
+          "file_count": 776,
+          "size_mb": 144.0
+        },
+        "actors": {
+          "file_count": 686,
+          "size_mb": 124.5
+        },
+        "effects": {
+          "file_count": 447,
+          "size_mb": 68.4
+        },
+        "architecture": {
+          "file_count": 317,
+          "size_mb": 38.5
+        },
+        "interiors": {
+          "file_count": 174,
+          "size_mb": 25.7
+        },
+        "weapons": {
+          "file_count": 158,
+          "size_mb": 33.1
+        },
+        "dlc04": {
+          "file_count": 107,
+          "size_mb": 27.0
+        },
+        "dlc05": {
+          "file_count": 94,
+          "size_mb": 5.9
+        },
+        "dlc03": {
+          "file_count": 93,
+          "size_mb": 10.2
+        },
+        "furniture": {
+          "file_count": 70,
+          "size_mb": 16.0
+        },
+        "props": {
+          "file_count": 58,
+          "size_mb": 10.9
+        },
+        "animobjects": {
+          "file_count": 48,
+          "size_mb": 6.0
+        },
+        "dlc01": {
+          "file_count": 41,
+          "size_mb": 6.2
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc02": {
+          "file_count": 37,
+          "size_mb": 2.5
+        },
+        "clothes": {
+          "file_count": 28,
+          "size_mb": 2.3
+        },
+        "vehicles": {
+          "file_count": 28,
+          "size_mb": 7.4
+        },
+        "workshop": {
+          "file_count": 28,
+          "size_mb": 3.6
+        },
+        "armor": {
+          "file_count": 26,
+          "size_mb": 1.8
+        },
+        "landscape": {
+          "file_count": 22,
+          "size_mb": 5.2
+        },
+        "dlc06": {
+          "file_count": 21,
+          "size_mb": 1.4
+        },
+        "ammo": {
+          "file_count": 15,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 11,
+          "size_mb": 1.3
+        },
+        "proxy": {
+          "file_count": 6,
+          "size_mb": 0.6
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "sky": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "markers": {
+          "file_count": 2,
+          "size_mb": 0.0
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "responses": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "uniquebehaviors": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1718,
+        "animtextdata/animationfiledata": 1498,
+        "atx/setdressing": 613,
+        "atx/architecture": 170,
+        "actors/character": 159,
+        "architecture/buildings": 113,
+        "atx/workshop": 101,
+        "architecture/bldkit": 80,
+        "atx/furniture": 70,
+        "dlc05/setdressing": 62,
+        "setdressing/workshop": 53,
+        "dlc04/effects": 44,
+        "actors/fish": 42,
+        "atx/actors": 37,
+        "atx/clothes": 35,
+        "dlc02/setdressing": 35,
+        "actors/dlc04": 34,
+        "interiors/industrial": 34,
+        "actors/dlc01": 33,
+        "dlc03/architecture": 33
+      },
+      "new_files_sample": [
+        "meshes/actors/_templategraph/behaviors/actor_namerootbehavior.hkx",
+        "meshes/actors/character/_1stperson/animations/rifle/mtidle.hkx",
+        "meshes/actors/character/_1stperson/animations/screamingeagle/drummag/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/screamingeagle/drummag/wpnidlesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/screamingeagle/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/screamingeagle/wpnidlesighted.hkx",
+        "meshes/actors/character/animations/common/emotes/female/nomic.hkx",
+        "meshes/actors/character/animations/common/emotes/nomic.hkx",
+        "meshes/actors/character/animations/common/emotes/shaken.hkx",
+        "meshes/actors/character/characterassets/faceparts/femaleghouleyesglowing.nif",
+        "meshes/actors/character/characterassets/faceparts/femaleghouleyesglowing_facebones.nif",
+        "meshes/actors/powerarmor/animations/paired/nomic.hkx",
+        "meshes/actors/powerarmor/animations/paired/shaken.hkx",
+        "meshes/animobjects/animobject_baseballclownpunkballtoss.nif",
+        "meshes/animobjects/animobject_shaker.nif",
+        "meshes/animtextdata/animationfiledata/14003238036184273820.txt",
+        "meshes/animtextdata/animationfiledata/1584555312021541788.txt",
+        "meshes/animtextdata/animationfiledata/16331851768493654685.txt",
+        "meshes/animtextdata/animationfiledata/17474437635672937372.txt",
+        "meshes/animtextdata/animationfiledata/3423637536252138396.txt",
+        "meshes/animtextdata/animationfiledata/4376796671653221276.txt",
+        "meshes/animtextdata/animationfiledata/6246730285921112988.txt",
+        "meshes/animtextdata/animationfiledata/6705617334993720220.txt",
+        "meshes/animtextdata/animationfiledata/9270631362476413852.txt",
+        "meshes/animtextdata/animationfiledata/robotproject.txt",
+        "meshes/animtextdata/animationoffsets/6705617334993720220.txt",
+        "meshes/animtextdata/animationspeedinfo/1004986832809340718.txt",
+        "meshes/animtextdata/animationspeedinfo/12443933886190999501.txt",
+        "meshes/animtextdata/animationspeedinfo/15136188657442864897.txt",
+        "meshes/animtextdata/animationspeedinfo/1668002222310787853.txt",
+        "meshes/animtextdata/animationstancedata/6705617334993720220.txt",
+        "meshes/animtextdata/animationstancedata/7067739807030879711.txt",
+        "meshes/animtextdata/animationstancedata/8210260755130945156.txt",
+        "meshes/animtextdata/animationstancedata/8210260756272686559.txt",
+        "meshes/animtextdata/animationstancedata/9555539340906501020.txt",
+        "meshes/animtextdata/dynamicidledata/6705617334993720220.txt",
+        "meshes/architecture/bldkit/brick/bld/bld_brick_wallbaywinatop_01.nif",
+        "meshes/architecture/bldkit/brick/bld/bld_brick_walldoorb_01_2x1.nif",
+        "meshes/architecture/bldkit/brick/bld/bld_brick_walldoorgarage_01_2x1.nif",
+        "meshes/architecture/bldkit/brick/bld/bld_brick_wallwindtop_01.nif"
+      ]
+    },
+    "08": {
+      "estimated_update": "Medium content update - .44 Pistol rework + Pets",
+      "total_files_in_archive": 8361,
+      "total_uncompressed_size_mb": 915.5,
+      "archive_sizes_on_disk": {
+        "main_mb": 464,
+        "textures_mb": 379,
+        "voices_mb": 42,
+        "stream_mb": 12,
+        "total_mb": 897
+      },
+      "new_files_vs_previous": 753,
+      "notes": "753 new files. Major .44 pistol animation overhaul (bolt charge, auto fire variants). Robot dog pet (new mesh). Hairless cat + robocat variants. Backpack flair system (10 new). Large animtextdata update (336). 42MB voice content.",
+      "key_content": [
+        ".44 Pistol animation overhaul",
+        "Robot dog pet mesh",
+        "Hairless cat + robocat pet variants",
+        "Backpack flair items (10 new)",
+        "ATX architecture (134 new)",
+        "ATX clothes (31 new)"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3661,
+          "size_mb": 86.8
+        },
+        "atx": {
+          "file_count": 1210,
+          "size_mb": 255.8
+        },
+        "setdressing": {
+          "file_count": 799,
+          "size_mb": 144.3
+        },
+        "actors": {
+          "file_count": 774,
+          "size_mb": 137.8
+        },
+        "effects": {
+          "file_count": 453,
+          "size_mb": 68.9
+        },
+        "architecture": {
+          "file_count": 303,
+          "size_mb": 38.3
+        },
+        "interiors": {
+          "file_count": 185,
+          "size_mb": 26.7
+        },
+        "weapons": {
+          "file_count": 163,
+          "size_mb": 33.8
+        },
+        "dlc04": {
+          "file_count": 113,
+          "size_mb": 26.3
+        },
+        "dlc05": {
+          "file_count": 97,
+          "size_mb": 6.0
+        },
+        "dlc03": {
+          "file_count": 86,
+          "size_mb": 8.9
+        },
+        "furniture": {
+          "file_count": 68,
+          "size_mb": 15.9
+        },
+        "props": {
+          "file_count": 59,
+          "size_mb": 11.0
+        },
+        "animobjects": {
+          "file_count": 45,
+          "size_mb": 5.9
+        },
+        "dlc01": {
+          "file_count": 40,
+          "size_mb": 6.5
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "clothes": {
+          "file_count": 36,
+          "size_mb": 4.2
+        },
+        "dlc02": {
+          "file_count": 36,
+          "size_mb": 2.4
+        },
+        "workshop": {
+          "file_count": 31,
+          "size_mb": 3.8
+        },
+        "armor": {
+          "file_count": 28,
+          "size_mb": 2.2
+        },
+        "vehicles": {
+          "file_count": 28,
+          "size_mb": 7.4
+        },
+        "landscape": {
+          "file_count": 22,
+          "size_mb": 4.2
+        },
+        "dlc06": {
+          "file_count": 18,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 13,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 10,
+          "size_mb": 1.3
+        },
+        "proxy": {
+          "file_count": 5,
+          "size_mb": 0.6
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "lights": {
+          "file_count": 4,
+          "size_mb": 0.3
+        },
+        "sky": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.2
+        },
+        "interface": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "markers": {
+          "file_count": 2,
+          "size_mb": 0.0
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "responses": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "uniquebehaviors": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1736,
+        "animtextdata/animationfiledata": 1497,
+        "atx/setdressing": 595,
+        "animtextdata/animationstancedata": 268,
+        "atx/architecture": 244,
+        "actors/character": 217,
+        "animtextdata/animationspeedinfo": 154,
+        "atx/workshop": 112,
+        "architecture/buildings": 93,
+        "architecture/bldkit": 84,
+        "atx/clothes": 74,
+        "atx/furniture": 72,
+        "dlc05/setdressing": 62,
+        "atx/actors": 53,
+        "setdressing/workshop": 51,
+        "dlc04/effects": 47,
+        "actors/fish": 42,
+        "actors/powerarmor": 38,
+        "actors/dlc04": 34,
+        "dlc02/setdressing": 34
+      },
+      "new_files_sample": [
+        "meshes/actors/atx/robotdog/robotdog.nif",
+        "meshes/actors/cat_pet/hairless/catpet_hairless.nif",
+        "meshes/actors/cat_pet/robocat/atx_robocat.nif",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnboltchargeready.hkx",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnboltchargesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnfireautoreadyback.hkx",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnfireautoreadyforward.hkx",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnfiresingleready.hkx",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnfiresinglereadya.hkx",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnfiresinglereadyb.hkx",
+        "meshes/actors/character/_1stperson/animations/44pistol/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/handmaderevolver/wpnfireautoreadyback.hkx",
+        "meshes/actors/character/_1stperson/animations/handmaderevolver/wpnfireautoreadyforward.hkx",
+        "meshes/actors/character/_1stperson/animations/handmaderevolver/wpnfireautosighted.hkx",
+        "meshes/actors/character/_1stperson/animations/handmaderevolver/wpnfiresingleready.hkx",
+        "meshes/actors/character/_1stperson/animations/handmaderevolver/wpnfiresinglereadya.hkx",
+        "meshes/actors/character/_1stperson/animations/handmaderevolver/wpnfiresinglereadyb.hkx",
+        "meshes/actors/character/_1stperson/animations/handmaderevolver/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnboltchargeready.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnboltchargesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnfireautoreadyback.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnfireautoreadyforward.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnfireautosighted.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnfiresingleready.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnfiresinglereadya.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnfiresinglereadyb.hkx",
+        "meshes/actors/character/_1stperson/animations/huntingrifle/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnboltchargeready.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnboltchargesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnfireautoreadyback.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnfireautoreadyforward.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnfireautosighted.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnfiresingleready.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnfiresinglereadya.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnfiresinglereadyb.hkx",
+        "meshes/actors/character/_1stperson/animations/piperiflepistol/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/singleactionrevolver/wpnboltchargeready.hkx",
+        "meshes/actors/character/_1stperson/animations/singleactionrevolver/wpnboltchargesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/singleactionrevolver/wpnfireautoreadyback.hkx",
+        "meshes/actors/character/_1stperson/animations/singleactionrevolver/wpnfireautoreadyforward.hkx"
+      ]
+    },
+    "09": {
+      "estimated_update": "Incremental patch - Vicious Dog + furniture",
+      "total_files_in_archive": 7808,
+      "total_uncompressed_size_mb": 880.5,
+      "archive_sizes_on_disk": {
+        "main_mb": 452,
+        "textures_mb": 551,
+        "voices_mb": 9,
+        "stream_mb": 0,
+        "total_mb": 1012
+      },
+      "new_files_vs_previous": 222,
+      "notes": "222 new files. Vicious dog pet system (8 meshes: base, glow, pack leader variants). Reclining sofa furniture animations. Alien behavior overhaul. Toxic Bob robot parts. ATX architecture/furniture focus.",
+      "key_content": [
+        "Vicious dog pet (8 variants)",
+        "Reclining sofa animations",
+        "Alien behavior overhaul",
+        "Toxic Bob robot parts",
+        "ATX architecture (48 new)",
+        "ATX clothes (35 new)"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3362,
+          "size_mb": 69.9
+        },
+        "atx": {
+          "file_count": 1056,
+          "size_mb": 245.0
+        },
+        "setdressing": {
+          "file_count": 773,
+          "size_mb": 139.7
+        },
+        "actors": {
+          "file_count": 693,
+          "size_mb": 133.2
+        },
+        "effects": {
+          "file_count": 454,
+          "size_mb": 67.1
+        },
+        "architecture": {
+          "file_count": 320,
+          "size_mb": 39.3
+        },
+        "interiors": {
+          "file_count": 185,
+          "size_mb": 27.9
+        },
+        "weapons": {
+          "file_count": 152,
+          "size_mb": 31.9
+        },
+        "dlc04": {
+          "file_count": 116,
+          "size_mb": 28.0
+        },
+        "dlc03": {
+          "file_count": 95,
+          "size_mb": 10.3
+        },
+        "dlc05": {
+          "file_count": 92,
+          "size_mb": 5.4
+        },
+        "furniture": {
+          "file_count": 70,
+          "size_mb": 15.9
+        },
+        "props": {
+          "file_count": 56,
+          "size_mb": 10.8
+        },
+        "animobjects": {
+          "file_count": 43,
+          "size_mb": 5.8
+        },
+        "traps": {
+          "file_count": 38,
+          "size_mb": 4.8
+        },
+        "dlc01": {
+          "file_count": 37,
+          "size_mb": 6.5
+        },
+        "dlc02": {
+          "file_count": 37,
+          "size_mb": 2.4
+        },
+        "clothes": {
+          "file_count": 32,
+          "size_mb": 3.3
+        },
+        "workshop": {
+          "file_count": 31,
+          "size_mb": 3.8
+        },
+        "armor": {
+          "file_count": 29,
+          "size_mb": 2.2
+        },
+        "vehicles": {
+          "file_count": 29,
+          "size_mb": 8.0
+        },
+        "landscape": {
+          "file_count": 22,
+          "size_mb": 5.4
+        },
+        "dlc06": {
+          "file_count": 17,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 13,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 11,
+          "size_mb": 1.3
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "proxy": {
+          "file_count": 4,
+          "size_mb": 0.6
+        },
+        "hardscape": {
+          "file_count": 3,
+          "size_mb": 0.4
+        },
+        "sky": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "interface": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "markers": {
+          "file_count": 2,
+          "size_mb": 0.0
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1709,
+        "animtextdata/animationfiledata": 1490,
+        "atx/setdressing": 556,
+        "animtextdata/animationspeedinfo": 160,
+        "actors/character": 152,
+        "atx/architecture": 139,
+        "architecture/buildings": 109,
+        "atx/workshop": 109,
+        "atx/clothes": 91,
+        "architecture/bldkit": 83,
+        "atx/furniture": 78,
+        "dlc05/setdressing": 56,
+        "setdressing/workshop": 52,
+        "dlc04/effects": 47,
+        "actors/fish": 41,
+        "actors/dlc01": 36,
+        "actors/powerarmor": 34,
+        "atx/actors": 34,
+        "dlc02/setdressing": 34,
+        "interiors/building": 34
+      },
+      "new_files_sample": [
+        "meshes/actors/alien/behaviors/alienrootbehavior.hkx",
+        "meshes/actors/character/animations/furniture/recliningsofaseat/enterfromstand.hkx",
+        "meshes/actors/character/animations/furniture/recliningsofaseat/exittostand.hkx",
+        "meshes/actors/character/animations/furniture/recliningsofaseat/posea_idle1.hkx",
+        "meshes/actors/dogmeat/viciousdogpet/viciousdogpet.nif",
+        "meshes/actors/robot/parts/toxic_bob_righthand.nif",
+        "meshes/actors/robot/parts/toxic_bob_torso.nif",
+        "meshes/actors/viciousdog/viciousdog.nif",
+        "meshes/actors/viciousdog/viciousdogglow.nif",
+        "meshes/actors/viciousdog/viciousdogpackleader.nif",
+        "meshes/actors/viciousdog/viciousdogpackleader02.nif",
+        "meshes/actors/viciousdog/viciousdogpackleader03.nif",
+        "meshes/actors/viciousdog/viciousdogpackleader04.nif",
+        "meshes/actors/viciousdog/viciousdogpackleader05.nif",
+        "meshes/actors/viciousdog/viciousdogpackleader06.nif",
+        "meshes/animtextdata/animationfiledata/10764982228581651356.txt",
+        "meshes/animtextdata/animationfiledata/15701053632088675228.txt",
+        "meshes/animtextdata/animationfiledata/845635029450134428.txt",
+        "meshes/animtextdata/animationfiledata/atx_handmadepooltable.txt",
+        "meshes/animtextdata/animationspeedinfo/10616200356943656540.txt",
+        "meshes/animtextdata/animationspeedinfo/10616200357002470996.txt",
+        "meshes/animtextdata/animationspeedinfo/10616200358195080053.txt",
+        "meshes/animtextdata/animationspeedinfo/10616200358680833035.txt",
+        "meshes/animtextdata/animationspeedinfo/11469122077963299701.txt",
+        "meshes/animtextdata/animationspeedinfo/13137842013282957335.txt",
+        "meshes/animtextdata/animationspeedinfo/13137842013669979740.txt",
+        "meshes/animtextdata/animationspeedinfo/13137842013728794196.txt",
+        "meshes/animtextdata/animationspeedinfo/13137842015407156235.txt",
+        "meshes/animtextdata/animationspeedinfo/15793812596351019893.txt",
+        "meshes/animtextdata/animationspeedinfo/15914388988527881077.txt",
+        "meshes/animtextdata/animationspeedinfo/16699496829709429621.txt",
+        "meshes/animtextdata/animationspeedinfo/2058514350404990999.txt",
+        "meshes/animtextdata/animationspeedinfo/2058514350792013404.txt",
+        "meshes/animtextdata/animationspeedinfo/2058514350850827860.txt",
+        "meshes/animtextdata/animationspeedinfo/2058514352529189899.txt",
+        "meshes/animtextdata/animationspeedinfo/2687734450907707415.txt",
+        "meshes/animtextdata/animationspeedinfo/2687734451294729820.txt",
+        "meshes/animtextdata/animationspeedinfo/2687734451353544276.txt",
+        "meshes/animtextdata/animationspeedinfo/2687734453031906315.txt",
+        "meshes/animtextdata/animationspeedinfo/4553669343124893486.txt"
+      ]
+    },
+    "10": {
+      "estimated_update": "MAJOR content update - Atlantic City / Rust Kingdom Raiders",
+      "total_files_in_archive": 11322,
+      "total_uncompressed_size_mb": 1124.6,
+      "archive_sizes_on_disk": {
+        "main_mb": 586,
+        "textures_mb": 2143,
+        "voices_mb": 134,
+        "stream_mb": 255,
+        "total_mb": 3118
+      },
+      "new_files_vs_previous": 3387,
+      "notes": "3387 new files - BY FAR the largest update. Atlantic City content surge. Rust Kingdom Raiders (102 clothing meshes). Massive burn assets (362 for damaged/destroyed environments). Player character animations (518 new). Power armor overhaul (235). Super mutant updates (90). LOD landscape (270). Nitro pistol weapon. BOS pistol. Knockout mechanic. 3118MB total archive (largest). 134MB voices, 255MB streaming = major new questline.",
+      "key_content": [
+        "Atlantic City expansion (massive)",
+        "Rust Kingdom Raiders (102 clothing meshes)",
+        "Burn/destruction assets (362)",
+        "Player character animation overhaul (518)",
+        "Power armor overhaul (235 meshes)",
+        "Super mutant updates (90)",
+        "LOD landscape additions (270)",
+        "Nitro pistol weapon",
+        "BOS pistol animations",
+        "Knockout mechanic",
+        "Raider set dressing (174)",
+        "134MB voice content"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3648,
+          "size_mb": 73.9
+        },
+        "actors": {
+          "file_count": 1800,
+          "size_mb": 182.2
+        },
+        "setdressing": {
+          "file_count": 1549,
+          "size_mb": 216.9
+        },
+        "atx": {
+          "file_count": 1218,
+          "size_mb": 280.3
+        },
+        "effects": {
+          "file_count": 825,
+          "size_mb": 73.9
+        },
+        "architecture": {
+          "file_count": 367,
+          "size_mb": 43.3
+        },
+        "lod": {
+          "file_count": 295,
+          "size_mb": 2.9
+        },
+        "landscape": {
+          "file_count": 221,
+          "size_mb": 50.5
+        },
+        "interiors": {
+          "file_count": 186,
+          "size_mb": 26.8
+        },
+        "weapons": {
+          "file_count": 177,
+          "size_mb": 33.9
+        },
+        "clothes": {
+          "file_count": 163,
+          "size_mb": 15.7
+        },
+        "dlc03": {
+          "file_count": 115,
+          "size_mb": 9.4
+        },
+        "dlc04": {
+          "file_count": 115,
+          "size_mb": 27.5
+        },
+        "dlc05": {
+          "file_count": 95,
+          "size_mb": 6.8
+        },
+        "furniture": {
+          "file_count": 72,
+          "size_mb": 17.2
+        },
+        "animobjects": {
+          "file_count": 70,
+          "size_mb": 6.5
+        },
+        "props": {
+          "file_count": 65,
+          "size_mb": 11.1
+        },
+        "dlc01": {
+          "file_count": 41,
+          "size_mb": 6.5
+        },
+        "dlc02": {
+          "file_count": 40,
+          "size_mb": 2.4
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "vehicles": {
+          "file_count": 33,
+          "size_mb": 9.9
+        },
+        "armor": {
+          "file_count": 32,
+          "size_mb": 2.8
+        },
+        "workshop": {
+          "file_count": 31,
+          "size_mb": 3.8
+        },
+        "dlc06": {
+          "file_count": 19,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 15,
+          "size_mb": 0.5
+        },
+        "markers": {
+          "file_count": 13,
+          "size_mb": 0.7
+        },
+        "bluemoon": {
+          "file_count": 12,
+          "size_mb": 1.5
+        },
+        "hardscape": {
+          "file_count": 9,
+          "size_mb": 0.5
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "proxy": {
+          "file_count": 5,
+          "size_mb": 0.6
+        },
+        "sky": {
+          "file_count": 5,
+          "size_mb": 0.2
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "backpacks": {
+          "file_count": 3,
+          "size_mb": 0.6
+        },
+        "genericbehaviors": {
+          "file_count": 3,
+          "size_mb": 0.0
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "uniquebehaviors": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "decals": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "empty.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "exteriorcellsize.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "measurementplane_quarterexteriorcell.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "responses": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1756,
+        "animtextdata/animationfiledata": 1553,
+        "actors/character": 674,
+        "atx/setdressing": 615,
+        "setdressing/burn_assets": 362,
+        "lod/landscape": 270,
+        "actors/powerarmor": 268,
+        "setdressing/raider": 177,
+        "atx/architecture": 173,
+        "animtextdata/dynamicidledata": 134,
+        "animtextdata/animationspeedinfo": 123,
+        "architecture/buildings": 115,
+        "atx/workshop": 112,
+        "atx/clothes": 109,
+        "clothes/rustkingdomraiders": 102,
+        "setdressing/signage": 94,
+        "actors/supermutant": 92,
+        "architecture/bldkit": 85,
+        "landscape/roads": 79,
+        "atx/furniture": 77
+      },
+      "new_files_sample": [
+        "meshes/actors/_testcharacter/behaviors/nohandikrelaxedgunwrappingbehavior.hkx",
+        "meshes/actors/_testcharacter/behaviors/singleanimfurniture.hkx",
+        "meshes/actors/atx/redrocketrobot/behaviors/assaultroncorebehavior.hkx",
+        "meshes/actors/atx/robotdog/behaviors/robotdogrootbehavior.hkx",
+        "meshes/actors/brahmin/characterassets/lbrahminhorns03.nif",
+        "meshes/actors/character/_1stperson/animations/bospistol/wpnidlesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/furniture/knockout/activate.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnafterjiggleadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnafterjigglefireautoadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnafterjigglefireautosightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnafterjigglefiresingleadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnafterjigglefiresinglesightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnafterjigglesightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnboltchargeready.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnboltchargesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnequip.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnequipfast.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnfireautoreadyback.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnfireautoreadyforward.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnfireautosighted.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnfiresingleready.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnfiresinglereadya.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnfiresinglereadyb.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpngrenadethrow.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidlegundown.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidleready.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidlereadya.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidlereadyb.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidlereadyc.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidlereadyd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidlesighted.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnidlesightedwobble.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnjumpfalladd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnjumpimpactland.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnjumplandadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnjumpstartadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnmelee.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnmeleebayonet.hkx",
+        "meshes/actors/character/_1stperson/animations/nitropistol/wpnminethrow.hkx"
+      ]
+    },
+    "11": {
+      "estimated_update": "Follow-up patch - Nitro Rifle + ATX content",
+      "total_files_in_archive": 8286,
+      "total_uncompressed_size_mb": 922.0,
+      "archive_sizes_on_disk": {
+        "main_mb": 472,
+        "textures_mb": 240,
+        "voices_mb": 50,
+        "stream_mb": 10,
+        "total_mb": 772
+      },
+      "new_files_vs_previous": 477,
+      "notes": "477 new files. Nitro rifle weapon (full animation set: jiggle, fire, sighted variants). Cat behavior overhaul. ATX architecture (83 new), ATX actors (59 new). Building kit updates. Fasnacht event content touched.",
+      "key_content": [
+        "Nitro rifle weapon (new animations)",
+        "Cat behavior overhaul",
+        "ATX architecture (83 new)",
+        "ATX actors (59 new)",
+        "ATX clothes (34 new)",
+        "Building kit updates"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3411,
+          "size_mb": 71.1
+        },
+        "atx": {
+          "file_count": 1149,
+          "size_mb": 257.1
+        },
+        "actors": {
+          "file_count": 899,
+          "size_mb": 131.0
+        },
+        "setdressing": {
+          "file_count": 846,
+          "size_mb": 158.2
+        },
+        "effects": {
+          "file_count": 482,
+          "size_mb": 71.0
+        },
+        "architecture": {
+          "file_count": 321,
+          "size_mb": 40.6
+        },
+        "interiors": {
+          "file_count": 182,
+          "size_mb": 26.6
+        },
+        "weapons": {
+          "file_count": 166,
+          "size_mb": 36.1
+        },
+        "dlc04": {
+          "file_count": 114,
+          "size_mb": 26.1
+        },
+        "dlc05": {
+          "file_count": 95,
+          "size_mb": 6.4
+        },
+        "dlc03": {
+          "file_count": 87,
+          "size_mb": 9.8
+        },
+        "furniture": {
+          "file_count": 72,
+          "size_mb": 16.2
+        },
+        "props": {
+          "file_count": 57,
+          "size_mb": 10.7
+        },
+        "animobjects": {
+          "file_count": 48,
+          "size_mb": 6.2
+        },
+        "dlc01": {
+          "file_count": 41,
+          "size_mb": 6.5
+        },
+        "dlc02": {
+          "file_count": 41,
+          "size_mb": 2.5
+        },
+        "traps": {
+          "file_count": 38,
+          "size_mb": 4.7
+        },
+        "landscape": {
+          "file_count": 34,
+          "size_mb": 11.8
+        },
+        "workshop": {
+          "file_count": 31,
+          "size_mb": 3.8
+        },
+        "vehicles": {
+          "file_count": 29,
+          "size_mb": 8.0
+        },
+        "clothes": {
+          "file_count": 25,
+          "size_mb": 2.0
+        },
+        "armor": {
+          "file_count": 24,
+          "size_mb": 1.7
+        },
+        "dlc06": {
+          "file_count": 16,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 14,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 11,
+          "size_mb": 1.3
+        },
+        "proxy": {
+          "file_count": 6,
+          "size_mb": 0.6
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "markers": {
+          "file_count": 4,
+          "size_mb": 0.2
+        },
+        "sky": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "water": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.3
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "pipboy2000": {
+          "file_count": 2,
+          "size_mb": 1.7
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "responses": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translatingplatform01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "uniquebehaviors": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1709,
+        "animtextdata/animationfiledata": 1525,
+        "atx/setdressing": 571,
+        "actors/character": 348,
+        "atx/architecture": 191,
+        "animtextdata/animationspeedinfo": 157,
+        "architecture/buildings": 111,
+        "atx/workshop": 110,
+        "atx/actors": 90,
+        "architecture/bldkit": 80,
+        "atx/furniture": 76,
+        "atx/clothes": 65,
+        "dlc05/setdressing": 61,
+        "setdressing/workshop": 57,
+        "actors/fish": 47,
+        "dlc04/effects": 45,
+        "dlc02/setdressing": 37,
+        "actors/powerarmor": 36,
+        "actors/dlc01": 35,
+        "interiors/industrial": 34
+      },
+      "new_files_sample": [
+        "meshes/actors/cat/behaviors/catrootbehavior.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnafterjiggleadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnafterjigglefireautoadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnafterjigglefireautosightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnafterjigglefiresingleadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnafterjigglesightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnjumpfalladd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnjumplandadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnjumpstartadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnpitchdownreadyadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnpitchdownsightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnpitchupreadyadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnpitchupsightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnturnleftreadyadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnturnleftsightedadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnturnrightreadyadd.hkx",
+        "meshes/actors/character/_1stperson/animations/nitrorifle/wpnturnrightsightedadd.hkx",
+        "meshes/actors/character/animations/common/emotes/cupidsarrow.hkx",
+        "meshes/actors/character/animations/weapon/10mmsmg/wpnfiresinglereadyslave.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/player/riflemeleeforwardpowerattack.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/player/sneakturninplaceleft90.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/player/sneakturninplaceright90.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/player/wpnfireautosighted.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/player/wpnfiresinglesighted.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/player/wpnidlesighted.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingidle.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingidlerighttolefttrans.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingidleshuffleforward.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingidlesighted.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingidlesightedshuffleforward.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingidlesightedtrans.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingidlesightedtransrev.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingrightentertrans.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingrightexittrans.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingrightfireautoblind.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingrightfireautoblindtrans.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingrightfireautoblindtransrev.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingrightfiresingleblind.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingsightedfireauto.hkx",
+        "meshes/actors/character/animations/weapon/griprifleshort/riflecoverstandingsightedfiresingle.hkx"
+      ]
+    },
+    "12": {
+      "estimated_update": "The Backwoods / Bigfoot update",
+      "total_files_in_archive": 8040,
+      "total_uncompressed_size_mb": 934.6,
+      "archive_sizes_on_disk": {
+        "main_mb": 476,
+        "textures_mb": 526,
+        "voices_mb": 14,
+        "stream_mb": 121,
+        "total_mb": 1137
+      },
+      "new_files_vs_previous": 250,
+      "notes": "250 new files. BIGFOOT fully introduced - super mutant behemoth variant with dedicated skeleton, despawn/intro VFX, tick projectile, tree bat. Big Bow emote. ATX set dressing focus (86). ATX architecture (52). ATX utility items (6). 121MB stream archive suggests environmental streaming content.",
+      "key_content": [
+        "Bigfoot creature (full implementation)",
+        "Bigfoot VFX (despawn, intro explosions)",
+        "Bigfoot tick projectile",
+        "Tree bat mesh",
+        "Big Bow emote",
+        "ATX set dressing (86 new)",
+        "ATX architecture (52 new)",
+        "121MB streaming content"
+      ],
+      "categories": {
+        "animtextdata": {
+          "file_count": 3279,
+          "size_mb": 71.5
+        },
+        "atx": {
+          "file_count": 1180,
+          "size_mb": 265.5
+        },
+        "setdressing": {
+          "file_count": 836,
+          "size_mb": 157.1
+        },
+        "actors": {
+          "file_count": 730,
+          "size_mb": 132.6
+        },
+        "effects": {
+          "file_count": 505,
+          "size_mb": 70.9
+        },
+        "architecture": {
+          "file_count": 319,
+          "size_mb": 38.0
+        },
+        "interiors": {
+          "file_count": 186,
+          "size_mb": 26.7
+        },
+        "weapons": {
+          "file_count": 169,
+          "size_mb": 35.8
+        },
+        "dlc04": {
+          "file_count": 115,
+          "size_mb": 27.2
+        },
+        "dlc05": {
+          "file_count": 94,
+          "size_mb": 6.0
+        },
+        "dlc03": {
+          "file_count": 92,
+          "size_mb": 9.7
+        },
+        "furniture": {
+          "file_count": 71,
+          "size_mb": 16.1
+        },
+        "props": {
+          "file_count": 57,
+          "size_mb": 10.8
+        },
+        "animobjects": {
+          "file_count": 48,
+          "size_mb": 6.0
+        },
+        "dlc02": {
+          "file_count": 39,
+          "size_mb": 2.5
+        },
+        "traps": {
+          "file_count": 39,
+          "size_mb": 4.9
+        },
+        "dlc01": {
+          "file_count": 38,
+          "size_mb": 6.5
+        },
+        "landscape": {
+          "file_count": 36,
+          "size_mb": 11.0
+        },
+        "workshop": {
+          "file_count": 31,
+          "size_mb": 3.8
+        },
+        "vehicles": {
+          "file_count": 29,
+          "size_mb": 8.0
+        },
+        "armor": {
+          "file_count": 24,
+          "size_mb": 1.7
+        },
+        "clothes": {
+          "file_count": 22,
+          "size_mb": 1.8
+        },
+        "dlc06": {
+          "file_count": 19,
+          "size_mb": 1.3
+        },
+        "ammo": {
+          "file_count": 15,
+          "size_mb": 0.5
+        },
+        "bluemoon": {
+          "file_count": 11,
+          "size_mb": 1.3
+        },
+        "sky": {
+          "file_count": 9,
+          "size_mb": 6.0
+        },
+        "lights": {
+          "file_count": 5,
+          "size_mb": 0.3
+        },
+        "proxy": {
+          "file_count": 5,
+          "size_mb": 0.6
+        },
+        "critters": {
+          "file_count": 4,
+          "size_mb": 0.1
+        },
+        "genericbehaviors": {
+          "file_count": 3,
+          "size_mb": 0.0
+        },
+        "interface": {
+          "file_count": 3,
+          "size_mb": 0.1
+        },
+        "pipboy2000": {
+          "file_count": 3,
+          "size_mb": 2.2
+        },
+        "test": {
+          "file_count": 3,
+          "size_mb": 2.6
+        },
+        "hardscape": {
+          "file_count": 2,
+          "size_mb": 0.5
+        },
+        "markers": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "pipboy": {
+          "file_count": 2,
+          "size_mb": 0.6
+        },
+        "unreal": {
+          "file_count": 2,
+          "size_mb": 2.0
+        },
+        "water": {
+          "file_count": 2,
+          "size_mb": 0.1
+        },
+        "babylon": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "gore": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_current01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_error.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_guardmarker.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "marker_prison.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "player_anim": {
+          "file_count": 1,
+          "size_mb": 1.9
+        },
+        "primitivegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "scalegizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translategizmo.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        },
+        "translatingplatform01.nif": {
+          "file_count": 1,
+          "size_mb": 0.0
+        }
+      },
+      "top_subcategories": {
+        "animtextdata/animationoffsets": 1725,
+        "animtextdata/animationfiledata": 1529,
+        "atx/setdressing": 646,
+        "actors/character": 167,
+        "atx/architecture": 167,
+        "architecture/buildings": 118,
+        "atx/workshop": 114,
+        "architecture/bldkit": 71,
+        "atx/furniture": 71,
+        "atx/actors": 70,
+        "dlc05/setdressing": 60,
+        "atx/clothes": 57,
+        "setdressing/workshop": 53,
+        "actors/fish": 47,
+        "dlc04/effects": 45,
+        "dlc02/setdressing": 37,
+        "actors/powerarmor": 36,
+        "actors/dlc01": 35,
+        "actors/dlc04": 35,
+        "interiors/vault": 34
+      },
+      "new_files_sample": [
+        "meshes/actors/character/animations/common/emotes/bigbow.hkx",
+        "meshes/actors/powerarmor/animations/paired/bigbow.hkx",
+        "meshes/actors/supermutantbehemoth/bigfoot/characterassets/bigfootdespawnexplosion.nif",
+        "meshes/actors/supermutantbehemoth/bigfoot/characterassets/bigfootdespawnvfx.nif",
+        "meshes/actors/supermutantbehemoth/bigfoot/characterassets/bigfootintroexplosion.nif",
+        "meshes/actors/supermutantbehemoth/bigfoot/characterassets/projectiletick.nif",
+        "meshes/actors/supermutantbehemoth/bigfoot/characterassets/skeleton.nif",
+        "meshes/actors/supermutantbehemoth/bigfoot/characterassets/supermutantbehemoth_bigfoot.nif",
+        "meshes/actors/supermutantbehemoth/treebat.nif",
+        "meshes/animtextdata/animationfiledata/11235573209564746652.txt",
+        "meshes/animtextdata/animationfiledata/14475755335769428892.txt",
+        "meshes/animtextdata/animationfiledata/4439641071214957468.txt",
+        "meshes/animtextdata/animationfiledata/workshopdisplayobject.txt",
+        "meshes/animtextdata/animationoffsets/4094019518.txt",
+        "meshes/animtextdata/animationoffsets/486001738932790317.txt",
+        "meshes/animtextdata/animationspeedinfo/1405329811591511809.txt",
+        "meshes/animtextdata/animationspeedinfo/332841404983651189.txt",
+        "meshes/animtextdata/animationstancedata/11235573209564746652.txt",
+        "meshes/architecture/bldkit/brick/bld/bld_brick_wallscktsmangle45a_winb_01.nif",
+        "meshes/architecture/buildings/bldgbrick5story1x1wedge15outa.nif",
+        "meshes/architecture/buildings/decokit/decomaincstairsstr01base01.nif",
+        "meshes/architecture/buildings/hightech/roof/hitextroofblong01.nif",
+        "meshes/architecture/buildings/housekit/housekgrndaddondeckkpost01.nif",
+        "meshes/architecture/buildings/housekit/housekgrndaddondeckkroofendl01.nif",
+        "meshes/architecture/buildings/housekit/housekroofend02.nif",
+        "meshes/architecture/unique/bostoncommons/masscapitol/capitol2x1botwinb01.nif",
+        "meshes/architecture/unique/harpersferry/bld_siding_roofshotgunadormerbmetal_harpersferry01.nif",
+        "meshes/atx/actors/character/animation/furniture/atx_atomicrollermachine/enterfromstand.hkx",
+        "meshes/atx/actors/character/animation/furniture/atx_atomicrollermachine/exittostand.hkx",
+        "meshes/atx/actors/character/animation/furniture/atx_atomicrollermachine/posea_idle1.hkx",
+        "meshes/atx/actors/character/animation/furniture/atx_pswing/atx_pswing.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_helmet.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_helmet_go.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_leftarm.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_leftarm_1st.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_leftarm_go.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_leftleg.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_leftleg_go.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_rightarm.nif",
+        "meshes/atx/actors/powerarmor/armed/armed_rightarm_1st.nif"
+      ]
+    }
+  },
+  "cross_update_analysis": {
+    "files_in_all_13_updates": {
+      "count": 5084,
+      "description": "Files modified in EVERY update - these are the most frequently patched assets",
+      "category_breakdown": {
+        "animtextdata": 2272,
+        "setdressing": 551,
+        "atx": 526,
+        "actors": 520,
+        "effects": 320,
+        "weapons": 110,
+        "interiors": 98,
+        "dlc04": 87,
+        "architecture": 85,
+        "dlc05": 69,
+        "dlc03": 57,
+        "furniture": 53,
+        "props": 46,
+        "animobjects": 39,
+        "traps": 36,
+        "workshop": 27,
+        "dlc01": 25,
+        "dlc02": 25,
+        "vehicles": 25,
+        "armor": 24,
+        "clothes": 22,
+        "landscape": 17,
+        "bluemoon": 9,
+        "dlc06": 8,
+        "ammo": 7,
+        "lights": 4,
+        "critters": 3,
+        "test": 3,
+        "sky": 2,
+        "pipboy2000": 2,
+        "interface": 2,
+        "proxy": 2,
+        "unreal": 2,
+        "pipboy": 2,
+        "player_anim": 1,
+        "gore": 1,
+        "translategizmo.nif": 1,
+        "water": 1
+      },
+      "sample_files": [
+        "meshes/actors/alien/characterassets/skeleton.nif",
+        "meshes/actors/antiairturret/characterassets/antiairturretdamagedfxaddon.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/atx_enclaveturretdamage_fx.nif",
+        "meshes/actors/atx/turret/characterassets/enclave/enclave_turret_lights.nif",
+        "meshes/actors/bloatfly/characterassets/bloatfly.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflydeathexplosion.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflyfat.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflyfatglow.nif",
+        "meshes/actors/bloatfly/characterassets/bloatflyskinny.nif",
+        "meshes/actors/bloatfly/characterassets/skeleton.nif",
+        "meshes/actors/brahmin/characterassets/skeleton.nif",
+        "meshes/actors/cat/characterassets/skeleton.nif",
+        "meshes/actors/cat_pet/characterassets/skeleton.nif",
+        "meshes/actors/character/animations/common/photomode/doctorzorbofireball_fx.nif",
+        "meshes/actors/character/characterassets/basefemalehead_facebones.nif",
+        "meshes/actors/character/characterassets/basemalehead_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard01_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard01_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard02_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard03_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard03_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard04_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard05_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard06_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard06_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard07_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard07_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard08_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard10_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard11_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard12_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard12_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard13_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard14_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard15_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard15_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard16_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard16_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard17_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard17_hairline1_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard17_hairline2_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard18_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard19_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard19_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard20_hairline_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard21_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard21_hairline1_facebones.nif",
+        "meshes/actors/character/characterassets/beards/bigbeard21_hairline2_facebones.nif",
+        "meshes/actors/character/characterassets/beards/humanbeard02_facebones.nif",
+        "meshes/actors/character/characterassets/beards/humanbeard03_facebones.nif"
+      ]
+    },
+    "unique_new_files_per_update": {
+      "00": 6805,
+      "01": 699,
+      "02": 1621,
+      "03": 268,
+      "04": 965,
+      "05": 225,
+      "06": 665,
+      "07": 270,
+      "08": 753,
+      "09": 222,
+      "10": 3387,
+      "11": 477,
+      "12": 250
+    },
+    "update_size_ranking": [
+      [
+        "00",
+        6805
+      ],
+      [
+        "10",
+        3387
+      ],
+      [
+        "02",
+        1621
+      ],
+      [
+        "04",
+        965
+      ],
+      [
+        "08",
+        753
+      ],
+      [
+        "01",
+        699
+      ],
+      [
+        "06",
+        665
+      ],
+      [
+        "11",
+        477
+      ],
+      [
+        "07",
+        270
+      ],
+      [
+        "03",
+        268
+      ],
+      [
+        "12",
+        250
+      ],
+      [
+        "05",
+        225
+      ],
+      [
+        "09",
+        222
+      ]
+    ],
+    "major_content_updates": [
+      "02 (Gleaming Depths)",
+      "04 (Seasonal/Events)",
+      "06 (Skyline Valley/Fishing)",
+      "10 (Atlantic City/Rust Kingdom)",
+      "12 (Bigfoot/Backwoods)"
+    ],
+    "minor_patches": [
+      "01",
+      "03",
+      "05",
+      "07",
+      "09"
+    ]
+  }
+}
