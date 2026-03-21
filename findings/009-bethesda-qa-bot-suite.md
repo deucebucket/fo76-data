@@ -47,14 +47,6 @@ Player.GetHeadingToStormZoneCenter() — Heading calculation
 ObjectReference.FindRandomReferenceWithKeyword(Form, Float, Bool) — Keyword-based spatial search
 ```
 
-## Significance for AI Companion Project
-This is Bethesda's own framework for automated gameplay. It proves:
-1. The engine supports AI-driven player characters natively
-2. Pathfinding between any two points in the world works
-3. Combat targeting and engagement is automatable
-4. Door/interior transitions can be scripted
-5. The entire game loop (explore → fight → loot → move) can be automated
-
 ## What Would Be Needed
 - Access to these native functions (requires script extender or modded client)
 - LLM replacing hardcoded decision logic
