@@ -1,0 +1,5 @@
+player.recycleactor
+player.equipitem 21b3b
+player.equipitem 113854
+player.additem 1f278 1000
+taa off
