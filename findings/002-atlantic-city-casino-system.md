@@ -1,6 +1,6 @@
 # FO76 Finding 002: Atlantic City Full Casino System
 
-## Status: CONFIRMED — Casino furniture, gambling tables, slot machines, weather control
+## Status: CONFIRMED — Casino furniture, gambling tables, slot machines, weather control (SHIPPED via America's Playground)
 ## Source: seventysix_strings_en.txt, translate_en_utf8.txt
 
 ## Casino Furniture Found In Files
@@ -15,10 +15,11 @@
 - Casino wallpapers: Royal, Cobalt, Lilac, Mahogany variants
 - `Casino Quarter Roof` [41008E52] — an entire casino district zone
 
-## Disabled Casino Gaming
+## Casino Gaming — Shipped with Region Lock
 - `$CASINO_ERROR_CASINO_DISABLED` — "Casino games are currently unavailable"
-- This suggests a PLAYABLE casino system was built and then disabled
-- The error message implies it can be toggled server-side
+- The casino games SHIPPED and are playable in the America's Playground (Atlantic City) content
+- The "disabled" flag is a region-lock mechanism — casino games are only available within the Atlantic City expedition area, not in the broader Appalachian map
+- The error message displays when players attempt to use casino furniture outside the valid region
 
 ## Weather Control
 - `Weather Control Station (Atlantic City Fog)` [41008640]
@@ -35,8 +36,4 @@
 - `Gambler` [41008635] — likely a player title earned through casino content
 
 ## Implications
-A complete casino gambling system exists in the game files but is disabled. This could be:
-- Legal issues (gambling in a game with microtransactions)
-- Incomplete feature waiting for activation
-- Seasonal event content
-- Removed after internal review
+The casino gambling system shipped as part of the America's Playground (Atlantic City) expedition content. The "disabled" error is a region-lock that restricts casino games to the Atlantic City area. The CAMP-placeable casino furniture (slot machines, tables) triggers this error outside the expedition zone, which is likely a regulatory compliance measure — keeping gambling mechanics contained within a specific game context rather than allowing them in the persistent open world where microtransactions are active.

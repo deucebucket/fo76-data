@@ -16,9 +16,9 @@
   {
     "item": "Bloatfly Launcher (weapon that throws bloatflies)",
     "search_query": "Bloatfly Launcher fallout 76 cut content weapon / fallout 76 unused content wiki bloatfly weapon launcher / E09A bloatfly throw weapon",
-    "verdict": "NOVEL",
-    "evidence": "No search results document a 'Bloatfly Launcher' or 'E09A_Launcher_ThrowBloatflyWeapon' as cut content. The bloatfly larva syringe barrel mod exists in-game (causes targets to spawn bloatflies on death), but a standalone weapon that fires bloatflies as projectiles is not documented on any wiki or datamine site. The Fallout 76 Unused Content wiki page does not list it.",
-    "our_advantage": "We have the editor ID (E09A_Launcher_ThrowBloatflyWeapon), confirming this is a distinct projectile weapon — not the syringe barrel mod. This is a genuinely undocumented cut weapon."
+    "verdict": "CORRECTED — NOT A PLAYER WEAPON",
+    "evidence": "Originally assessed as NOVEL. Upon further analysis, E09A_Launcher_ThrowBloatflyWeapon is a creature attack animation weapon — the internal mechanic used for Bloatfly creatures to throw their projectiles at players. This is standard creature AI weaponry, not a cut player-usable weapon. The E09A prefix ties it to NukaWorld on Tour event creature behavior.",
+    "our_advantage": "None. This is a creature combat mechanic, not cut player content."
   },
   {
     "item": "Four Horsemen PA Set (WarRider, BlackRider, PaleRider, PlagueRider — 364 records)",
@@ -58,9 +58,9 @@
   {
     "item": "Floater dialogue quests (creature-specific dialogue for Flamer/Freezer/Gnasher variants)",
     "search_query": "floater dialogue quest fallout 76 flamer freezer gnasher creature cut content",
-    "verdict": "NOVEL",
-    "evidence": "No search results document cut dialogue quests for Floater variants. The wiki pages for Floaters describe them as enemies with three variants (Flamer/Freezer/Gnasher) and note some Super Mutant dialogue about Floaters, but there is no mention of creature-specific dialogue quests where the Floaters themselves have dialogue. The concept of Floater creatures having their own dialogue quest system is completely undocumented.",
-    "our_advantage": "We have 3 distinct cut dialogue quests, one per Floater variant. This suggests Bethesda planned for Floaters to have NPC-like dialogue interactions — a fundamentally different design than the mindless enemies they became. This is a significant design insight."
+    "verdict": "CORRECTED — COMBAT AUDIO ASSIGNMENTS",
+    "evidence": "Originally assessed as NOVEL with speculation that Floaters were planned to have NPC-like dialogue. Upon further analysis, CreatureDialogueFloaterFlamer/Freezer/Gnasher are combat audio assignment quests — standard creature vocalization systems that assign combat grunts, attack sounds, and idle noises to each Floater variant. This is how the Creation Engine manages creature audio, not evidence of planned NPC dialogue for Floaters.",
+    "our_advantage": "None. These are standard creature audio quest records, not evidence of a fundamentally different Floater design."
   },
   {
     "item": "BossChicken creature",

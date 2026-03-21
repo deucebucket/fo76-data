@@ -215,7 +215,7 @@ The original Vault Raid system was far more elaborate than what shipped. Three v
 **zzz_W05_SettlersDaily_Secret** (`0x00541685`)
 - Stages: Find kickball, return to Elsie/Davie, optional step
 - Aliases: actorElsie, actorDavie
-- Context: Secret daily quest involving settler children (Elsie and Davie) and their lost kickball. A wholesome quest with kids that was cut.
+- Context: Secret daily quest involving settler children (Elsie and Davie) and their lost kickball. NOTE: Elsie and Davie Taylor are LIVE Foundation NPCs — they shipped as part of Wastelanders content. This specific daily quest variant was cut, but the characters themselves are in-game.
 
 **CUT_W05_Community_Treehouse_Village_Quest** (`0x00555A72`)
 - Stages: Fix generator, help settlers, repair 3 objects (power/alarm/other), choose what to activate, defend from attack
@@ -523,13 +523,13 @@ The original Vault Raid system was far more elaborate than what shipped. Three v
 |------|---------|-------------|
 | CUT_NeedleSMG | `0x006CCC2E` | Needle-based submachine gun -- entirely new weapon type |
 | zzz_NitroRifle | `0x0085780F` | Nitro-powered rifle |
-| zzz_TeslaCannon_MissileLauncher | `0x00799A10` | Tesla Cannon / Missile Launcher hybrid |
-| zzz_TeslaCannon_NukaLauncherTest | `0x007999F4` | Nuka-powered Tesla Cannon |
+| zzz_TeslaCannon_MissileLauncher | `0x00799A10` | Tesla Cannon / Missile Launcher hybrid -- early iteration (Tesla Cannon SHIPPED via Gleaming Depths) |
+| zzz_TeslaCannon_NukaLauncherTest | `0x007999F4` | Nuka-powered Tesla Cannon test variant (Tesla Cannon SHIPPED via Gleaming Depths) |
 | zzz_GatlingPlasmaLost | `0x00773F9D` | Lost faction Gatling Plasma variant |
 | zzz_MissileLauncherLostNPC | `0x00773F9C` | Lost faction Missile Launcher |
 | zzz_HeadHunter_Scythe | `0x007551DE` | Scythe melee weapon -- "Head Hunter" themed |
 | zzz_Broadsider_FusionCannon | `0x0074D578` | Fusion-powered Broadsider variant |
-| zzz_HeavyIncinerator | `0x0072A8C2` | Heavy Incinerator -- returning weapon from FO:NV |
+| zzz_HeavyIncinerator | `0x0072A8C2` | Heavy Incinerator -- early iteration (SHIPPED via America's Playground update) |
 | zzz_Moon_CultistPickaxe | `0x006A0092` | Cultist pickaxe for Mothman event |
 | zzz_Moon_Flamer_BlueFlamer | `0x00693D37` | Blue flame variant Flamer |
 | zzz_Moon_NukaAcidGrenade | `0x00692A0D` | Nuka Acid Grenade |
@@ -680,7 +680,7 @@ These are IDLE animations (not combat), indicating cats were planned as CAMP pet
 | LocMountainsWendigoCave DUPLICATE | `0x005FAD0D` | Duplicate Wendigo Cave |
 | zzz_E09B_Wheel_BossName1-6 | various | 6 boss name locations for a "Wheel" event (Nuka-World) |
 | zzz_MOON_Herd_LOC | `0x00690694` | Herd location for Mothman event |
-| zzzLocBurnCornhengeLocation (4 copies) | various | "Cornhenge" -- corn Stonehenge, 4 iterations |
+| zzzLocBurnCornhengeLocation (4 copies) | various | "Cornhenge" -- corn Stonehenge, 4 early iterations (SHIPPED in Burning Springs as final version) |
 | zzzLocBurnDriveinWorkshopLocation | `0x007BE4A2` | Burning Springs drive-in workshop |
 | LocBurnPOI37UFOWatcherLocation | `0x0084E8A5` | UFO Watcher point of interest |
 | LocBurnPOI101WildwoodRanchLocation | `0x0084DB64` | Wildwood Ranch |
@@ -689,8 +689,8 @@ These are IDLE animations (not combat), indicating cats were planned as CAMP pet
 | LocBurnPOI73DerelictPowerSubstationLocation | `0x0084DB62` | Derelict power substation |
 | LocBurnPOI16HillsideChurchLocation | `0x0084DB5D` | Hillside Church |
 | LocBurnPOI59LanganMillLocation | `0x0084DB61` | Langan Mill |
-| LocBurnPOI54AlbanyLocation | `0x0084DB60` | Albany |
-| LocBurnPOI19SockHopLocation | `0x0084DB5C` | Sock Hop dance hall |
+| LocBurnPOI54AlbanyLocation | `0x0084DB60` | Albany (SHIPPED in Burning Springs) |
+| LocBurnPOI19SockHopLocation | `0x0084DB5C` | Sock Hop dance hall (SHIPPED in Burning Springs) |
 | LocBurnPOI32DesolateEncampmentCampLocation | `0x0084DB5F` | Desolate Encampment |
 | LocBurnPOI71PlaygroundLocation | `0x0084DB65` | Playground |
 | SheltersLocation_NuclearTestBunker | `0x0069623F` | Nuclear Test Bunker shelter |
@@ -704,7 +704,7 @@ These are IDLE animations (not combat), indicating cats were planned as CAMP pet
 
 ### 5B. Key Observations About Locations
 
-The Burning Springs (Backwoods) region has 15+ POI locations defined with descriptive names that reveal the planned scope: Albany, Wildwood Ranch, Langan Mill, a Sock Hop dance hall, an Apiary, a UFO Watcher's perch, a Hillside Church, a Playground, and more. "Cornhenge" went through 4 design iterations.
+The Burning Springs (Backwoods) region has 15+ POI locations defined with descriptive names. Many of these shipped in the final Burning Springs update, including Albany, Cornhenge (which went through 4 design iterations before the final version), and Sock Hop. The zzz-prefixed location records represent earlier iterations that were superseded, not necessarily cut content.
 
 Two shelter locations (Prospector's Saloon, Wrangler Casino) and a Nuclear Test Bunker shelter were designed but never released.
 
@@ -723,7 +723,7 @@ Two shelter locations (Prospector's Saloon, Wrangler Casino) and a Nuclear Test 
 | TrafficLight_Mounted_Pitt_CAMP | ACTI | `0x0065A404` | Pitt traffic light CAMP item |
 | ZZZ_ATX_FloorDecor_FiveFingerFiletTable | ACTI | `0x007B288C` | Five Finger Fillet game table |
 | zzz_ATX_FloorDecor_SummoningCircle | ACTI | `0x007B2842` | Summoning circle floor decoration |
-| zzz_Invaders_AlienWhackAMole | ACTI | `0x0075FBFD` | Alien Whack-a-Mole game |
+| zzz_Invaders_AlienWhackAMole | ACTI | `0x0075FBFD` | Alien Whack-a-Mole game (SHIPPED as Season 7 scoreboard reward) |
 | zzz_Fishing_workshop_FishTank01 | ACTI | `0x0083A31D` | Fish tank |
 | zzz_StarLight01 | ACTI | `0x0072DB1E` | Star light decoration |
 | ATX_Pennant_ThePitt_Framed/NoFrame | STAT | various | Pitt pennants (framed and unframed) |
@@ -774,7 +774,7 @@ Three combat music tracks for Vault Raids still exist:
 13. **Secret Research Laboratory** -- Unnamed cut interior
 14. **GHL Disguise System** -- 12+ disguise outfits for a ghoul infiltration quest
 15. **22 Cut Legendary Effects** -- Including Barbarian, Headhunters, Daredevils, Elemental, and more
-16. **7 Foundation Daily Quests** -- Painting, clinic, stew, fieldhand, restock, secret (with settler children)
+16. **7 Foundation Daily Quests** -- Painting, clinic, stew, fieldhand, restock, secret (note: Elsie and Davie Taylor are live NPCs; only these specific daily quest variants were cut)
 17. **Vald's Diary** -- 7 entries spanning 28 years of post-war survival (2077-2105)
 
 ### Tier 3: Curiosities
@@ -787,7 +787,7 @@ Three combat music tracks for Vault Raids still exist:
 23. **Bigfoot Herdsman's Bell** -- Bigfoot-themed CAMP item
 24. **Five Finger Fillet Table** -- RDR2-style minigame furniture
 25. **Summoning Circle** -- Occult floor decoration
-26. **Alien Whack-a-Mole** -- Arcade game
+26. **Alien Whack-a-Mole** -- Shipped as Season 7 scoreboard reward (zzz_ prefix is from an earlier iteration)
 
 ---
 

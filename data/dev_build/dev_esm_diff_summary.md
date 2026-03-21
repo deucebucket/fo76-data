@@ -54,7 +54,7 @@ All share consecutive form IDs (0x006477EC-EF), suggesting they were designed as
 - `QuadLauncher` (0x005DD5B2) - 4-barrel missile launcher
 - `crossbow` (0x00055463) - standalone crossbow
 - `Fire_Axe` (0x0012B793) - fire axe melee weapon
-- `E09A_Launcher_ThrowBloatflyWeapon` (0x0063D326) - bloatfly throwing launcher
+- `E09A_Launcher_ThrowBloatflyWeapon` (0x0063D326) - creature attack weapon (Bloatfly projectile mechanic, not a player weapon)
 - `FestiveScorched_BearArm` (0x005A205C) - seasonal Bear Arm variant
 
 ### Cut Perks: Rank 4/5 Cards (already known - 153 total)
@@ -89,13 +89,13 @@ Cut records were early prototypes:
 - `LvlZetanAlienRanged_DailyOps` - Zetan aliens in Daily Ops
 - `SFS08_Heart_LvlGrafton` / `SFS08_Heart_LvlMirelurkQueen` - seasonal boss variants
 
-### Cut Power Armor: Four Horsemen Set (364 records)
-Extensive cut PA paint set with four complete variants:
+### Four Horsemen PA Set (364 records) — SHIPPED via Atom Shop
+Dev build iteration of the Four Horsemen Power Armor set with four complete variants:
 - **WarRider** - full armor set (helmet, arms, legs, torso) + headlamp mods
 - **BlackRider** - headlamp mod variants
 - **PaleRider** - headlamp mod variants
 - **PlagueRider** - headlamp + detect life mods
-All had ZZZ_ prefixed crafting recipes (disabled)
+The ZZZ_ prefixed crafting recipes in the dev build are disabled dev-side entries. The final product SHIPPED in the Atomic Shop for 1400 Atoms each. These records represent the development iteration, not cut content.
 
 ### Cut Vault Raids Music
 - `MUS76CombatBossVaultRaidsM01/02/03` - 3 boss combat tracks
@@ -105,11 +105,11 @@ All had ZZZ_ prefixed crafting recipes (disabled)
 - `QUST ArcadeManagerQuest` (0x0063F8D6)
 - `MESG ArcadeGameBusyMSG`, `MESG ArcadeGameFullMSG`
 
-### Cut Floater Dialogue Quests
+### Floater Combat Audio Quests
 - `CreatureDialogueFloaterFlamer` (0x0056451C)
 - `CreatureDialogueFloaterFreezer` (0x0056451D)
 - `CreatureDialogueFloaterGnasher` (0x0056451B)
-These Floater-specific dialogue quests were cut (Floaters still exist but use generic dialogue).
+These are creature combat audio assignment quests — standard Creation Engine records for managing creature vocalizations (combat grunts, attack sounds, idle noises) per Floater variant. Not evidence of NPC-like dialogue for Floaters.
 
 ### Other Notable Cut Content
 - `Armor_EnclaveScoutUniform_Torso_Set_V94_Solar02` - Vault 94 Enclave scout variant

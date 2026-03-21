@@ -14,11 +14,11 @@ Beyond the previously documented Beckett (1,654 files), Ronny (77 files), Sofia 
 the primary discoveries:
 
 1. **ZAX (Vault 51 AI)** -- 90 orphaned voice files from the Nuclear Winter backstory, including cut Vault 51 social experiment commentary that was never heard in-game
-2. **Bleep (Robot Companion)** -- 66 orphaned emotive sound files for a robot companion with a full emotional vocabulary that was 50% cut
+2. **Bleep (FO4 Automatron Legacy)** -- 66 orphaned emotive sound files inherited from Fallout 4's Automatron DLC, not a cut FO76 companion
 3. **Raider Punk** -- 29 orphaned CAMP ally dialogue lines including cut quest variants and personality content
 4. **Vault 76 Tutorial Instructors** -- 27 orphaned files from the Athletics and Swimming Instructors, representing cut Tadpole challenge content
-5. **Roger Maxson** -- 9 orphaned Brotherhood of Steel holotape recordings, cut from the Taggerdy/Brotherhood origin story
-6. **Rose (Raider Robot)** -- 7 orphaned files from cut confession/betrayal dialogue
+5. **Roger Maxson** -- 9 orphaned files representing cut extensions of his live Brotherhood of Steel holotapes
+6. **Rose (Raider Robot)** -- 7 orphaned files representing alternate takes of her live confession dialogue
 7. **Abbie (Free States)** -- 7 orphaned files from cut Scorched Detection System quest stages
 
 ---
@@ -73,13 +73,13 @@ The orphaned files likely contained even more of this social horror -- ZAX's com
 
 ---
 
-### 1B. Bleep -- The Cut Robot Companion (66 Orphaned / 33 Connected)
+### 1B. Bleep -- Inherited Fallout 4 Automatron Voice Assets (66 Orphaned / 33 Connected)
 
 **Voice folders**: `dlc01robotcompanionbleepa`, `dlc01robotcompanionbleepb`, `dlc01robotcompanionbleepc`
-**Category**: Named robot companion
+**Category**: Inherited FO4 DLC assets
 **Orphan rate**: 50% (66 of 99 files per variant, 3 variants = 198 orphaned total)
 
-Bleep is a robot companion from the Automatron DLC lineage (DLC01 prefix). The surviving 33 connected files per variant cover basic emotional bleeps:
+The `dlc01` prefix identifies these as Fallout 4 Automatron DLC voice assets that were inherited by FO76's engine. Bleep is NOT a cut FO76 companion -- these are FO4 robot companion voice files that carried over in the BA2 archives because FO76 was built on the FO4 codebase. The connected files cover basic emotional bleeps:
 
 | Emotion | Count | Designer Note |
 |---------|-------|---------------|
@@ -95,9 +95,7 @@ Bleep is a robot companion from the Automatron DLC lineage (DLC01 prefix). The s
 | Greeting | 3 | "Greeting bleep" |
 | Farewell | 3 | "Farewell/Goodbye bleep" |
 
-The 66 orphaned files per variant represent an additional emotional vocabulary that was recorded but never connected. With 33 connected covering 11 emotions (3 variants each), the 66 orphaned likely doubled this to 22+ emotions with multiple delivery variants. This is a BB-8-style robot companion that communicates entirely through emotive sounds -- and half its emotional range was cut.
-
-The three variant folders (A, B, C) suggest Bleep was planned to have different "voice" options or personality modes, similar to how Automatron robots could be customized in Fallout 4.
+The three variant folders (A, B, C) correspond to Automatron robot customization voice options from Fallout 4. These files exist in FO76's archives due to engine inheritance, not because a Bleep companion was planned for FO76.
 
 ---
 
@@ -157,13 +155,13 @@ The Swimming Instructor is one of the game's best-written minor characters -- a 
 
 35.5% of this character's content was orphaned. The designer consistently notes "[Shouting instruction, doesn't really care]" -- suggesting even more deadpan lifeguard humor was recorded but never used.
 
-### 2C. Roger Maxson -- Brotherhood Origin Story (9 Orphaned / 40 Connected)
+### 2C. Roger Maxson -- Cut Extensions of Live Holotapes (9 Orphaned / 40 Connected)
 
 **Voice folder**: `npcm_rogermaxson`
-**Category**: Base game named NPC (Brotherhood of Steel founder)
+**Category**: Base game named NPC (Brotherhood of Steel founder, LIVE CONTENT)
 **Orphan rate**: 18.4%
 
-Captain Roger Maxson founded the Brotherhood of Steel. His connected holotape dialogue (quest HolotapeQuest_FAB) reveals passionate arguments about the Brotherhood's purpose:
+Captain Roger Maxson founded the Brotherhood of Steel. He has live holotapes in the game that are part of the base game Brotherhood of Steel storyline. His connected holotape dialogue (quest HolotapeQuest_FAB) reveals passionate arguments about the Brotherhood's purpose:
 
 - "Everyone around me keeps saying shut the world out, only look out for ourselves. Even my goddam son."
 - "The Brotherhood alone can't rebuild what's lost. We need them."
@@ -171,13 +169,13 @@ Captain Roger Maxson founded the Brotherhood of Steel. His connected holotape di
 - "The death, the destruction, the End of the World. That came from the nukes."
 - "The Brotherhood is going to be more than an armed fighting force, we're going to be guardians of civilization."
 
-The 9 orphaned files (formids 00121B85-00121C7B) include cut dialogue from Maxson's transmissions to Appalachia. Designer notes reference his relationship with Paladin Taggerdy:
+The 9 orphaned files (formids 00121B85-00121C7B) are cut extensions of Maxson's live holotape transmissions to Appalachia. Designer notes reference his relationship with Paladin Taggerdy:
 - "Stern - full of confidence"
 - "Working up to the next bit, knows Maxson will be a hard sell"
 - "Cautious, some anger - she trusted Maxson so much, so this is the echo of that betrayal"
 - "Deeper emphasis here, Maxson is a soldier's soldier"
 
-The cut content likely included extended arguments about the Brotherhood's direction -- whether to isolate or engage with survivors -- that were condensed in the final version.
+The orphaned content represents extended arguments about the Brotherhood's direction -- whether to isolate or engage with survivors -- that were trimmed from the shipped holotapes.
 
 ---
 
@@ -215,13 +213,13 @@ Paige leads Foundation, the settler faction. His dialogue spans the entire Waste
 
 Designer notes for one orphaned line: "Duped from Data\Sound\Voice\SeventySix.esm\W05_NPCM_Paige\00402A98_3.xwm" -- indicating some orphans are duplicated audio files that were consolidated during development.
 
-### 3C. Fisher -- The Amish Betrayer (10 Orphaned / 91 Connected)
+### 3C. Fisher -- Alternate Takes and Cut Extensions (10 Orphaned / 91 Connected)
 
 **Voice folder**: `w05_npcm_fisher`
-**Category**: Wastelanders / Pitt Expeditions NPC
+**Category**: Wastelanders / Pitt Expeditions NPC (LIVE CONTENT)
 **Orphan rate**: 9.9%
 
-Fisher is one of the game's most morally complex characters. An Amish man who left his community during Rumspringa, he befriends the ghoul Lou but ultimately betrays him:
+Fisher is one of the game's most morally complex characters and is LIVE in-game as part of Wastelanders content. An Amish man who left his community during Rumspringa, he befriends the ghoul Lou but ultimately betrays him:
 
 - "After the war, my faith... wavered. But to some in my community, it vindicated them. They believed their survival meant they walked the true path."
 - "I couldn't be among that mind set, so I used Rumspringa as my chance to leave."
@@ -229,7 +227,7 @@ Fisher is one of the game's most morally complex characters. An Amish man who le
 - His betrayal confession holotape: "Hey Lou. I know I had once called you friend. It may not mean much, but I am genuinely sorry for what I had to do to you."
 - "Meg is a terrible leader. When Meg decided to go on this foolish gold hunt, it was time to act."
 
-The 10 orphaned files (contiguous range 00585998-005859A2) suggest a cut section of Fisher's dialogue -- possibly an alternate confrontation scene or extended confession.
+The 10 orphaned files (contiguous range 00585998-005859A2) are alternate takes or cut extensions of Fisher's live dialogue -- possibly an alternate confrontation scene or extended confession that was trimmed from the shipped version.
 
 ### 3D. Roper -- The Radical Leader (8 Orphaned / 176 Connected)
 
@@ -293,20 +291,20 @@ Gunther narrates the Nuka-World on Tour experience in an exaggerated Wild West d
 
 ## Part 5: Robot and Announcer Orphans
 
-### 5A. Rose -- The Raider Robot's Conscience (7 Orphaned / 291 Connected)
+### 5A. Rose -- Alternate Confession Takes (7 Orphaned / 291 Connected)
 
 **Voice folder**: `robotraiderrose`
-**Category**: Named robot (main quest NPC)
+**Category**: Named robot (main quest NPC, LIVE CONTENT)
 **Orphan rate**: 2.3%
 
-Rose is the Miss Nanny robot who leads the Top of the World raiders. With 291 connected lines, she's one of the most verbose NPCs in the game. Her connected dialogue includes a notable confession:
+Rose is the Miss Nanny robot who leads the Top of the World raiders. With 291 connected lines, she's one of the most verbose NPCs in the game and has extensive live dialogue across multiple quest lines. Her shipped confession scene includes:
 
 - "Hey, sorry to break it to you, but I was going to cheat you. I don't need a program to decrypt the key fragments. I'm a freakin' robot."
 - "I just wanted you out of the way so I could get first dibs at the loot."
 - "Thing is, I couldn't go through with it."
 - "Either you've made me a better person, or there's some old remnant of Miss Nanny firing up and making me care about people."
 
-The 7 orphaned files (formids 003A5FA9-003A5FAE, 003E132E) likely contain alternate versions of this confession scene or additional betrayal dialogue that was condensed. One orphaned formid matches the ilstring: "Well, here's the thing about that... I... haven't been completely honest with you." -- confirming this is cut confession content.
+The 7 orphaned files (formids 003A5FA9-003A5FAE, 003E132E) are alternate takes of the confession scene. One orphaned formid matches the ilstring: "Well, here's the thing about that... I... haven't been completely honest with you." -- an alternate opening line for the same confession that shipped with different wording. Rose's content is not "cut" -- these specific orphaned lines are unused alternate recordings from the same scene.
 
 ### 5B. RSVP-03 Protectron -- The Existential Camp Counselor (12 Orphaned / 60 Connected)
 
@@ -356,7 +354,7 @@ Finding 096 documented 19 NPCs with 100% orphan rates. the primary among those n
 **Voice folder**: `npcm_sf07_moe`
 **Quest**: `SF07_MoeDigsSafety_CUT_FlaggedToNotExportInScript` (0x0004BBFB)
 
-Moe the Mole was a mascot character from a cut Fire Breather quest chain involving two quests:
+Moe the Mole was a mascot character from two cut Fire Breather quests:
 - **SF07**: Player wears a Moe the Mole costume to exterminate creatures at a tour location. Quest stages: Go to Tour Location, Kill Large Creature, Complete.
 - **CUT_SF08_SuicideRun**: Player in a destroyed Moe costume disarms 5 mines while mole rats swarm. Barnes died attempting this run.
 
@@ -364,7 +362,7 @@ String table text confirms: "Hi kids! I'm Moe the Mole, and boy do I dig safety!
 
 The 8 orphaned voice files contain Moe's lines for the SF07 quest -- the character's entire voiced performance. A holotape elsewhere references the Moe suit as potential blast shielding: "Have to disarm the mines. The Moe suit...maybe it could shield me from a blast?"
 
-Atomic Shop items survived: "Moe the Mole is here to teach all about mining and ore extraction safety. Help make Appalachia a safer place with the Pristine Moe the Mole Head/Outfit!"
+NOTE: While these specific Fire Breather quests were cut, Moe the Mole has a live presence in the game. The character appears in the Skyline Valley/Dangerous Pastimes content, and Moe the Mole cosmetics are available in the Atomic Shop ("Moe the Mole is here to teach all about mining and ore extraction safety. Help make Appalachia a safer place with the Pristine Moe the Mole Head/Outfit!"). The orphaned voice files here are from the original SF07 quest, not the live Moe content.
 
 ### 6B. Drill Sergeant Eyebot (10 Orphaned / 0 Connected)
 
@@ -414,9 +412,9 @@ Combining connected dialogue, string table text, and quest structure, the comple
 
 The 90 orphaned files likely contained additional resident perspectives, ZAX internal monologues, and alternate outcomes that would have made this narrative even more detailed.
 
-### 7B. The Pitt Conspiracy -- Fisher's Betrayal Arc
+### 7B. Fisher's Betrayal Arc -- Live Story with Cut Extensions
 
-Fisher's connected dialogue tells a complete story:
+Fisher's storyline is LIVE Wastelanders content. His connected dialogue tells a complete story that shipped:
 
 1. Fisher, an Amish man, leaves his community during Rumspringa after losing his faith post-war.
 2. He befriends Lou, a ghoul craftsman in the Pitt settlement.
@@ -425,7 +423,7 @@ Fisher's connected dialogue tells a complete story:
 5. In combat against the player: "I didn't want to do this, but you and Meg are forcing my hand!"
 6. His confession holotape: "When Meg decided to go on this foolish gold hunt, it was time to act. She was going to lead us all to ruin."
 
-The 10 orphaned files likely contain an extended version of the betrayal confrontation or an alternate path where Fisher confesses voluntarily.
+The 10 orphaned files are alternate takes or cut extensions -- possibly a longer version of the betrayal confrontation or an alternate path where Fisher confesses voluntarily. The core storyline shipped intact.
 
 ### 7C. The Vault 79 Heist -- Foundation's Plan
 
@@ -527,7 +525,7 @@ Rudy is the sarcastic caravan guard:
 | NPC | Voice Folder | Orphaned | Connected | Orphan % | Category |
 |-----|-------------|----------|-----------|----------|----------|
 | ZAX | babylon01_npcm_zax | 90 | 475 | 15.9% | Nuclear Winter AI |
-| Bleep A/B/C | dlc01robotcompanionbleep* | 66 each | 33 each | 50.0% | Robot companion |
+| Bleep A/B/C | dlc01robotcompanionbleep* | 66 each | 33 each | 50.0% | FO4 Automatron legacy |
 | Raider Punk | w05_npcm_comp_lite_raiderpunk | 29 | 684 | 4.1% | CAMP ally |
 | Athletics Instructor | u03_npcm_athleticsinstructor | 16 | 24 | 40.0% | Tutorial |
 | Vera (Blue Moon) | moon_herd_npcf_vera | 14 | 112 | 8.2% | DLC NPC |
@@ -565,7 +563,7 @@ Rudy is the sarcastic caravan guard:
 
 2. **Alternate quest paths were simplified**: Jen, Paige, and Roper all had dialogue for player choices that were cut, suggesting the Wastelanders main quest originally had more branching.
 
-3. **Robot personalities were halved**: Bleep lost 50% of its emotional vocabulary. The Blood Eagle holotapes lost 50% of their comedy. The Drill Sergeant's entire personality was removed.
+3. **Robot personalities were halved**: The Blood Eagle holotapes lost 50% of their comedy. The Drill Sergeant's entire personality was removed. (Note: Bleep is inherited FO4 Automatron content, not a cut FO76 companion.)
 
 4. **Tutorial content was over-recorded**: 35-40% of the Pioneer Scout instructor content was cut, suggesting these challenges were significantly redesigned after voice recording.
 
