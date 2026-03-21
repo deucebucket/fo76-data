@@ -1,0 +1,1197 @@
+{
+  "count": 415,
+  "weapons": [
+    {
+      "form_id": "0x008ADA17",
+      "editor_id": "44_Lawbringer",
+      "names": [
+        "Lawbringer"
+      ],
+      "model": "weapons/10mmpistol/10mmrecieverdummy.nif",
+      "keywords": [
+        "0x000CE97E",
+        "0x0001F948",
+        "0x0018871F",
+        "0x0037D0B2",
+        "0x003ECB8C",
+        "0x00499F7A",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000D152C",
+        "0x0003ADB3",
+        "0x003CFD83",
+        "0x00092A86",
+        "0x0004A0A0",
+        "0x0033A7C8",
+        "0x00340878"
+      ]
+    },
+    {
+      "form_id": "0x0084F1F7",
+      "editor_id": "SpearHealing",
+      "names": [
+        "Super Stimpike",
+        "Super Stimpike"
+      ],
+      "model": "weapons/spear/burn_healingspear/burn_healingspear.nif",
+      "keywords": [
+        "0x000EB4A2",
+        "0x0004A0A5",
+        "0x0010C89B",
+        "0x0003B22A",
+        "0x000F4AEA",
+        "0x0033AB1A",
+        "0x0033AB12",
+        "0x0033AB23",
+        "0x0033AB14",
+        "0x003D0E7E",
+        "0x005117B1",
+        "0x0084D51E"
+      ]
+    },
+    {
+      "form_id": "0x0084460B",
+      "editor_id": "Nitro",
+      "names": [
+        "Dom Pedro",
+        "Default"
+      ],
+      "model": "weapons/10mmpistol/10mmrecieverdummy.nif",
+      "keywords": [
+        "0x000D192E",
+        "0x00035E9D",
+        "0x00787E6E",
+        "0x00788126",
+        "0x005FF5F5",
+        "0x006214D7",
+        "0x000CF786",
+        "0x000F4AEA",
+        "0x0003ADB3",
+        "0x00193506",
+        "0x00092A86",
+        "0x0033A7C8",
+        "0x008445C9",
+        "0x008445CD",
+        "0x008445C8",
+        "0x008445CA",
+        "0x0037D0B2"
+      ]
+    },
+    {
+      "form_id": "0x00831C6F",
+      "editor_id": "Burn_crStingWingAbraxodyneSting",
+      "names": [
+        "Burning Sting"
+      ],
+      "model": "actors/stingwing/characterassets/stingwing_abraxodynesting_vfx_weapon.nif",
+      "keywords": [
+        "0x0002405E",
+        "0x0005240E"
+      ]
+    },
+    {
+      "form_id": "0x0082F44F",
+      "editor_id": "Burn_crRadScorpionAbraxodyneSting",
+      "names": [
+        "Abraxodyne Sting"
+      ],
+      "model": "actors/radscorpion/characterassets/radscorpion_tailstinger_abraxodynesting_weapon.nif",
+      "keywords": [
+        "0x0002405E",
+        "0x0005240E"
+      ]
+    },
+    {
+      "form_id": "0x008270F7",
+      "editor_id": "Burn_crRadScorpionBurningSting",
+      "names": [
+        "Burning Sting"
+      ],
+      "model": "actors/radscorpion/characterassets/radscorpion_tailstinger_fire_attack4_weapon.nif",
+      "keywords": [
+        "0x0002405E",
+        "0x0005240E"
+      ]
+    },
+    {
+      "form_id": "0x007D3AF4",
+      "editor_id": "WarShrike",
+      "names": [
+        "War Shrike",
+        "Default"
+      ],
+      "model": "weapons/warshrike/warshrike.nif",
+      "keywords": [
+        "0x00609D94",
+        "0x00787E6E",
+        "0x005FF5F5",
+        "0x000F4AEA",
+        "0x0011C638",
+        "0x0003ADB3",
+        "0x003CFD8C",
+        "0x0033A7C8",
+        "0x007D3AEF",
+        "0x003ECB8C",
+        "0x00499F7A",
+        "0x003D4327",
+        "0x007C2878",
+        "0x0010C89B",
+        "0x0004A0A5",
+        "0x0033AB1A",
+        "0x0080F9C9",
+        "0x0080F9C8"
+      ]
+    },
+    {
+      "form_id": "0x008450EF",
+      "editor_id": "PainTrainWeapon",
+      "names": [],
+      "model": null,
+      "keywords": [
+        "0x0005240E"
+      ]
+    },
+    {
+      "form_id": "0x007995CD",
+      "editor_id": "Fishing_FishingRod",
+      "names": [
+        "Rod",
+        "Default",
+        "Standard",
+        "Standard Epic",
+        "Simple",
+        "Simple Epic"
+      ],
+      "model": "weapons/fishingrod/jankyrod.nif",
+      "keywords": [
+        "0x00023465",
+        "0x0010C89B",
+        "0x000F4AEA",
+        "0x007995A5",
+        "0x007995A6",
+        "0x007995A4",
+        "0x003E9DE1",
+        "0x001CC46A",
+        "0x00499F7A",
+        "0x003D4327",
+        "0x0040D277",
+        "0x00529A16"
+      ]
+    },
+    {
+      "form_id": "0x008035C4",
+      "editor_id": "P62_crTheDrifterGrenade_Crackler",
+      "names": [
+        "Crackler Grenade",
+        "Crackler"
+      ],
+      "model": "weapons/grenade/cracklergrenade.nif",
+      "keywords": [
+        "0x000F4AEA",
+        "0x0010C415",
+        "0x0004C922",
+        "0x0004A0A6",
+        "0x0043B758",
+        "0x0043CEFF",
+        "0x003CFD86",
+        "0x001CC46A"
+      ]
+    },
+    {
+      "form_id": "0x008035C2",
+      "editor_id": "P62_crTheDrifterM79",
+      "names": [
+        "Chaos Engine",
+        "Chaos Engine"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x000464EF",
+        "0x0009A90D",
+        "0x00247F26",
+        "0x005E4537",
+        "0x00609D94",
+        "0x00787E6E",
+        "0x005FF5F5",
+        "0x00527ABC",
+        "0x006214D7",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x0010C89B",
+        "0x00017B98",
+        "0x003D0E88",
+        "0x00092A86",
+        "0x0004C922",
+        "0x00340876",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x008035C1",
+      "editor_id": "P62_crTheDrifter10mmSMG",
+      "names": [
+        "Splinter",
+        "Splinter"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x00018566",
+        "0x0004778C",
+        "0x0010C485",
+        "0x0003ADB3",
+        "0x00092A86",
+        "0x000D192E",
+        "0x0010D87C",
+        "0x000F4AEA",
+        "0x000CF786",
+        "0x0033A7C8",
+        "0x0004A0A2",
+        "0x000A191C",
+        "0x0004A0A1",
+        "0x0037D0B2",
+        "0x005FF5F5",
+        "0x006214D7",
+        "0x00787E6E",
+        "0x00788126",
+        "0x003D117C"
+      ]
+    },
+    {
+      "form_id": "0x008035C3",
+      "editor_id": "P62_crTheDrifterAssaultronBlade",
+      "names": [
+        "Tempest",
+        "Tempest"
+      ],
+      "model": "dlc01/weapons/assaultronblade/assaultronblade.nif",
+      "keywords": [
+        "0x00023465",
+        "0x0004A0A4",
+        "0x0010C89B",
+        "0x000F4AEA",
+        "0x0010FB89",
+        "0x0033AB12",
+        "0x0033AB19",
+        "0x0033AB17",
+        "0x005117B1",
+        "0x0060D1A6",
+        "0x006214D4",
+        "0x00618468",
+        "0x00787E6E",
+        "0x003D0E7E"
+      ]
+    },
+    {
+      "form_id": "0x007FFFEE",
+      "editor_id": "P62_Grenade_Crackler",
+      "names": [
+        "Crackler Grenade",
+        "Cracker"
+      ],
+      "model": "weapons/grenade/cracklergrenade.nif",
+      "keywords": [
+        "0x000F4AEA",
+        "0x0010C415",
+        "0x0004C922",
+        "0x001CC46A",
+        "0x0004A0A6",
+        "0x003CFD86",
+        "0x0043B758",
+        "0x0043CEFF"
+      ]
+    },
+    {
+      "form_id": "0x007BC5C2",
+      "editor_id": "RD01_crPumpActionShotgun",
+      "names": [
+        "Pump Action Shotgun",
+        "Default",
+        "Simple Rifle",
+        "Simple Rifle Epic"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x00092A86",
+        "0x0012DBB6",
+        "0x00018465",
+        "0x00089AC5",
+        "0x0003ADB4",
+        "0x0010C485",
+        "0x000F4AEA",
+        "0x0033A7C8",
+        "0x00247F26",
+        "0x001C9E78",
+        "0x00226454",
+        "0x000187D4",
+        "0x003CFD8A",
+        "0x0037D0B2",
+        "0x005FF5F5",
+        "0x00609D94",
+        "0x006214D7",
+        "0x00787E6E",
+        "0x00788126"
+      ]
+    },
+    {
+      "form_id": "0x007BC5C1",
+      "editor_id": "RD01_crMoleMinerGauntlet",
+      "names": [
+        "Mole Miner Gauntlet",
+        "Default",
+        "Standard",
+        "Simple",
+        "Simple Epic"
+      ],
+      "model": "weapons/miningclaw/miningclaw.nif",
+      "keywords": [
+        "0x0002405E",
+        "0x0005240E",
+        "0x00127563",
+        "0x000F4AEA",
+        "0x0033AB1F",
+        "0x0033AB1B",
+        "0x00226453",
+        "0x00230326",
+        "0x00186E99",
+        "0x0033AB12",
+        "0x003CFD75",
+        "0x005117B1",
+        "0x0010C89B",
+        "0x0060D1A6",
+        "0x006214D4",
+        "0x00787E6E"
+      ]
+    },
+    {
+      "form_id": "0x007BC5C0",
+      "editor_id": "RD01_crDoubleBarrelShotgun",
+      "names": [
+        "Double-Barrel Shotgun",
+        "Default",
+        "Standard",
+        "Short Epic",
+        "Simple",
+        "Simple Epic",
+        "Simple",
+        "Simple Epic"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x00188A1C",
+        "0x00092A86",
+        "0x0010C485",
+        "0x000F4AEA",
+        "0x0016D540",
+        "0x00166703",
+        "0x0033A7C8",
+        "0x001C9E78",
+        "0x00226454",
+        "0x00247F26",
+        "0x003CFD8A",
+        "0x005FF5F5",
+        "0x0037D0B2",
+        "0x00787E6E",
+        "0x00788126"
+      ]
+    },
+    {
+      "form_id": "0x007BC5C5",
+      "editor_id": "RD01_crMissileLauncher",
+      "names": [
+        "Missile Launcher",
+        "Default",
+        "Standard",
+        "Standard Epic",
+        "Random",
+        "Random Epic"
+      ],
+      "model": "weapons/missilelauncher/missilelauncher.nif",
+      "keywords": [
+        "0x000A1B8A",
+        "0x000A4CF3",
+        "0x0003ADB4",
+        "0x000AA937",
+        "0x000F4AEA",
+        "0x000D8F98",
+        "0x0010C485",
+        "0x00188A0C",
+        "0x0004A0A3",
+        "0x001C9E78",
+        "0x001D604C",
+        "0x002049E5",
+        "0x0022575B",
+        "0x003CFD7A",
+        "0x001A7B79",
+        "0x003C94C1",
+        "0x0004C922",
+        "0x0033A7C8",
+        "0x0037D0B2",
+        "0x005FF5F5",
+        "0x00609D94",
+        "0x006214D7",
+        "0x006CD244",
+        "0x00787E6E"
+      ]
+    },
+    {
+      "form_id": "0x007BC5C4",
+      "editor_id": "RD01_crAssaultRifle",
+      "names": [
+        "Assault Rifle",
+        "Default",
+        "Simple Rifle",
+        "Random Rifle",
+        "Rifle Short Semi-Auto",
+        "Rifle Semi-Auto",
+        "Automatic Rifle",
+        "Simple Rifle Epic",
+        "Random Rifle Epic",
+        "Rifle Short SA Epic",
+        "Rifle SA Epic",
+        "Automatic Rifle Epic",
+        "Sniper Rifle",
+        "Sniper Rifle Epic"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x0001F947",
+        "0x00054A69",
+        "0x001C9E78",
+        "0x0003ADB4",
+        "0x00092A86",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x00130DC1",
+        "0x00226455",
+        "0x0033A7C8",
+        "0x003CFD69",
+        "0x0037D0B2",
+        "0x005FF5F5",
+        "0x006214D7",
+        "0x0004A0A1",
+        "0x00787E6E",
+        "0x00788126"
+      ]
+    },
+    {
+      "form_id": "0x007BC5C3",
+      "editor_id": "RD01_crCombatShotgun",
+      "names": [
+        "Combat Shotgun",
+        "Default",
+        "Simple Rifle",
+        "Random",
+        "Short Rifle",
+        "Rifle",
+        "Assault Rifle",
+        "Simple Rifle Epic",
+        "Random Epic",
+        "Short Rifle Epic",
+        "Rifle Epic",
+        "Assault Rifle"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x00092A86",
+        "0x0033A7C8",
+        "0x000464EF",
+        "0x000B9560",
+        "0x0003ADB4",
+        "0x0010C485",
+        "0x000F4AEA",
+        "0x00100E48",
+        "0x000B7E8D",
+        "0x001C9E78",
+        "0x00226454",
+        "0x00247F26",
+        "0x003CFD8A",
+        "0x0037D0B2",
+        "0x000CF6B7",
+        "0x005FF5F5",
+        "0x006214D7",
+        "0x00787E6E",
+        "0x00788126"
+      ]
+    },
+    {
+      "form_id": "0x0079AC42",
+      "editor_id": "TeslaCannon",
+      "names": [
+        "Tesla Cannon",
+        "Default"
+      ],
+      "model": "weapons/teslacannon/weapon_teslacannon.nif",
+      "keywords": [
+        "0x005ECF42",
+        "0x000AA937",
+        "0x001D604C",
+        "0x0037D0B2",
+        "0x00787E6E",
+        "0x005FF5F5",
+        "0x007999F0",
+        "0x00499F7A",
+        "0x002049E5",
+        "0x000F4AEA",
+        "0x003C94C1",
+        "0x0010C485",
+        "0x007999F2",
+        "0x0003ADB4",
+        "0x003CFD7A",
+        "0x000D8F98",
+        "0x001A7B79",
+        "0x0004A0A3",
+        "0x0033A7C8",
+        "0x007999F6",
+        "0x0033A7C9",
+        "0x005AE936"
+      ]
+    },
+    {
+      "form_id": "0x00792EAE",
+      "editor_id": "RD01_UltraciteTerrorSword",
+      "names": [
+        "Ultracite Terror Sword",
+        "Ultracite Terror Sword"
+      ],
+      "model": "weapons/scorchtonguesword/scorchtonguesword.nif",
+      "keywords": [
+        "0x0010C89B",
+        "0x000F4AEA",
+        "0x0033AB12",
+        "0x0060D1A6",
+        "0x006214D4",
+        "0x00792EAB",
+        "0x0033AB19",
+        "0x0033AB17",
+        "0x00787E6E",
+        "0x0037F7DB",
+        "0x000A7C45",
+        "0x003D0E7E",
+        "0x0004A0A5"
+      ]
+    },
+    {
+      "form_id": "0x00779E19",
+      "editor_id": "RD01_Enc01_PlatformGun",
+      "names": [
+        "Platform Gun",
+        "Default Epic",
+        "Simple",
+        "Simple Epic"
+      ],
+      "model": "weapons/crossbow/nullmuzzle.nif",
+      "keywords": [
+        "0x0016968B",
+        "0x0001F948",
+        "0x000F4AEA",
+        "0x000FF996",
+        "0x0010A2BE",
+        "0x0003ADB3",
+        "0x0010C485",
+        "0x001888E0",
+        "0x001A7B79",
+        "0x0033A7C9",
+        "0x003CFD67",
+        "0x0004A0A0",
+        "0x0037D0B2",
+        "0x0010C89B",
+        "0x005FF5F5",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0079C793",
+      "editor_id": "SSE_WeedKiller",
+      "names": [
+        "Weed Killer"
+      ],
+      "model": "weapons/grenade/molotovcocktail.nif",
+      "keywords": [
+        "0x000F4AEA",
+        "0x0010C415",
+        "0x0021A29F",
+        "0x001CC46A",
+        "0x0004A0A6",
+        "0x003CFD7B",
+        "0x0051850D",
+        "0x0004C922",
+        "0x0043B758",
+        "0x0043CEFF",
+        "0x0056EFA8",
+        "0x003D4327"
+      ]
+    },
+    {
+      "form_id": "0x0077B58E",
+      "editor_id": "Test_ElectricRangedWeapon",
+      "names": [
+        "10mm",
+        "Default",
+        "Simple",
+        "Pistol Semi-Auto",
+        "Pistol Auto",
+        "Random",
+        "Simple Epic",
+        "Pistol Semi-Auto Epic",
+        "Pistol Auto Epic",
+        "Random Epic",
+        "Vault 76 10mm"
+      ],
+      "model": "weapons/10mmpistol/10mmrecieverdummy.nif",
+      "keywords": [
+        "0x0001F948",
+        "0x0004C7EA",
+        "0x00051748",
+        "0x0003ADB3",
+        "0x0004A0A0",
+        "0x00092A86",
+        "0x00017E69",
+        "0x000D192E",
+        "0x000F4AEA",
+        "0x000CF786",
+        "0x0010C485",
+        "0x0003D40B",
+        "0x001C9E78",
+        "0x0033A7C8",
+        "0x0037D0B2",
+        "0x003CFD8C"
+      ]
+    },
+    {
+      "form_id": "0x0072DF0B",
+      "editor_id": "Stormcutter",
+      "names": [
+        "V63 Zweihaender",
+        "Default"
+      ],
+      "model": "weapons/stormcutter/stormcutter.nif",
+      "keywords": [
+        "0x000EB4A2",
+        "0x0004A0A5",
+        "0x0010C89B",
+        "0x000F4AEA",
+        "0x0033AB12",
+        "0x005117B1",
+        "0x0072DEF8",
+        "0x0033AB19",
+        "0x0033AB17",
+        "0x0010F43A",
+        "0x003D0E7E",
+        "0x0033A7C9"
+      ]
+    },
+    {
+      "form_id": "0x006F5790",
+      "editor_id": "meltdown",
+      "names": [
+        "V63 Laser Carbine",
+        "Default"
+      ],
+      "model": "weapons/meltdown/meltdowndummyweapon.nif",
+      "keywords": [
+        "0x0010C485",
+        "0x000F4AEA",
+        "0x000CF786",
+        "0x0033A7C8",
+        "0x0004A0A2",
+        "0x000A191C",
+        "0x0004A0A1",
+        "0x005FF5F5",
+        "0x006214D7",
+        "0x0050D614",
+        "0x00092A84",
+        "0x0078E167",
+        "0x007970E7",
+        "0x00787E6E",
+        "0x000464EF",
+        "0x0033A7C9",
+        "0x0079C384",
+        "0x003D4327",
+        "0x00499F7A",
+        "0x003ECB8C",
+        "0x0037D0B2",
+        "0x008493EF"
+      ]
+    },
+    {
+      "form_id": "0x0076D062",
+      "editor_id": "XPD_AC_MuniTurret",
+      "names": [
+        "Turret Machine Gun"
+      ],
+      "model": "weapons/dummyweapon.nif",
+      "keywords": [
+        "0x000CABA1",
+        "0x0010C485",
+        "0x0001F947",
+        "0x0004A0A2",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0076AAA4",
+      "editor_id": "AC_MQ02_StarClown_Weapon_NONPLAYABLE",
+      "names": [
+        "Star Clown Smacker",
+        "Default"
+      ],
+      "model": "weapons/rockethammer/rockethammer1st.nif",
+      "keywords": [
+        "0x000EB4A2",
+        "0x0004A0A5",
+        "0x0010C89B",
+        "0x000690B0",
+        "0x000F4AEA",
+        "0x0033AB24",
+        "0x0033AB13",
+        "0x0033AB12",
+        "0x003D0E82",
+        "0x005117B1"
+      ]
+    },
+    {
+      "form_id": "0x0075EC29",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPeonyPink",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0075EC28",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPeonyGreen",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0075EC26",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPeonyBlue",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0075EC2A",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPeonyRed",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0075EC27",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPeonyCrackle",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0075EC24",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPalmGold",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0075EC25",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPalmSilver",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x0075EC2B",
+      "editor_id": "XPD_AC_Race_FireworkWeaponPeonyYellow",
+      "names": [
+        "Mortar"
+      ],
+      "model": "weapons/broadsider/broadsider.nif",
+      "keywords": [
+        "0x000FB198",
+        "0x001CD02B",
+        "0x0007820B",
+        "0x0018897E",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x000F583C",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x00092A86",
+        "0x0004A0A3",
+        "0x0033A7C8"
+      ]
+    },
+    {
+      "form_id": "0x00752296",
+      "editor_id": "SCORE_S16_Mini_Robot01_DaringBinoculars",
+      "names": [
+        "Daring Binoculars"
+      ],
+      "model": "weapons/binoculars/binoculars.nif",
+      "keywords": [
+        "0x000F4AEA",
+        "0x0003ADB3",
+        "0x0030379A",
+        "0x000CF786",
+        "0x00193506",
+        "0x00002041",
+        "0x0050E3CC",
+        "0x0043BB23",
+        "0x003F7F82",
+        "0x0040D277"
+      ]
+    },
+    {
+      "form_id": "0x0073553C",
+      "editor_id": "AC_MQ02_Stage_ThrowingKnife_Weapon",
+      "names": [
+        "Throwing Knife"
+      ],
+      "model": "weapons/throwingknife/throwing_knife.nif",
+      "keywords": [
+        "0x000F4AEA",
+        "0x0010C415",
+        "0x0005A8DC",
+        "0x003CFD68",
+        "0x0004A0A6",
+        "0x0033AB1C",
+        "0x003879A4",
+        "0x00499F7A",
+        "0x003D4327"
+      ]
+    },
+    {
+      "form_id": "0x0072BC2F",
+      "editor_id": "AC_MQ02_Stage_JugglingGrenade",
+      "names": [
+        "Juggling Grenade"
+      ],
+      "model": "weapons/grenade/grenadefrag.nif",
+      "keywords": [
+        "0x000F4AEA",
+        "0x0010C415",
+        "0x0004C922",
+        "0x001CC46A",
+        "0x0004A0A6",
+        "0x003CFD86",
+        "0x0043B758",
+        "0x0043CEFF"
+      ]
+    },
+    {
+      "form_id": "0x006F53FA",
+      "editor_id": "AC_MQ02_Stage_ThrowingPie_Grenade",
+      "names": [
+        "Throwing Pie"
+      ],
+      "model": "props/pumpkin_pie/pumpkin_pie.nif",
+      "keywords": [
+        "0x001CC46A",
+        "0x0010C415",
+        "0x003CFD86",
+        "0x00499F7A",
+        "0x003D4327"
+      ]
+    },
+    {
+      "form_id": "0x006EB629",
+      "editor_id": "DEL_crOvergrownElderSporeGun_Automatic",
+      "names": [
+        "Overgrown Spore Gun",
+        "Default"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x0001F947",
+        "0x00054A69",
+        "0x001C9E78",
+        "0x0003ADB4",
+        "0x00092A86",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x00130DC1",
+        "0x00226455",
+        "0x0033A7C8",
+        "0x003CFD69",
+        "0x0037D0B2",
+        "0x0004A0A1"
+      ]
+    },
+    {
+      "form_id": "0x006EA337",
+      "editor_id": "XPD_AC02_JullianRifle",
+      "names": [
+        "Julian's Rifle",
+        "Default"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x0001F947",
+        "0x00054A69",
+        "0x001C9E78",
+        "0x0003ADB4",
+        "0x00092A86",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x00130DC1",
+        "0x00226455",
+        "0x0033A7C8",
+        "0x003CFD69",
+        "0x0037D0B2",
+        "0x0004A0A1"
+      ]
+    },
+    {
+      "form_id": "0x006EA336",
+      "editor_id": "XPD_AC02_JuchiWeapon",
+      "names": [
+        "Sledgehammer",
+        "Default"
+      ],
+      "model": "weapons/sledgehammer/mod_sledgehammer_handle.nif",
+      "keywords": [
+        "0x000EB4A2",
+        "0x0033AB23",
+        "0x0010C89B",
+        "0x00184A2F",
+        "0x000F4AEA",
+        "0x0033AB13",
+        "0x0033AB12",
+        "0x0033AB24",
+        "0x003D0E7F",
+        "0x0004A0A5"
+      ]
+    },
+    {
+      "form_id": "0x006EA338",
+      "editor_id": "DEL_XPD_AC02_JulianSMG",
+      "names": [
+        "10mm Submachine Gun",
+        "Default",
+        "Simple Rifle",
+        "Simple Rifle Epic",
+        "Random"
+      ],
+      "model": "weapons/handmade/recievers/dummyreciever.nif",
+      "keywords": [
+        "0x00018566",
+        "0x0004778C",
+        "0x0010C485",
+        "0x0003ADB3",
+        "0x003D117C",
+        "0x00092A86",
+        "0x000D192E",
+        "0x0010D87C",
+        "0x000F4AEA",
+        "0x000CF786",
+        "0x0033A7C8",
+        "0x0004A0A2",
+        "0x000A191C",
+        "0x0004A0A1",
+        "0x0037D0B2"
+      ]
+    },
+    {
+      "form_id": "0x006E83E6",
+      "editor_id": "XPD_AC02_CarryAndThrow_Object_Tato",
+      "names": [
+        "Tato"
+      ],
+      "model": "landscape/plants/ingredients/tato.nif",
+      "keywords": [
+        "0x001CC46A",
+        "0x0010C415",
+        "0x003CFD86",
+        "0x003D4327",
+        "0x00499F7A"
+      ]
+    },
+    {
+      "form_id": "0x006E4AC4",
+      "editor_id": "XPD_AC01_CarryAndThrow_Object_ED",
+      "names": [
+        "Assets"
+      ],
+      "model": "setdressing/sack/sack_bigger.nif",
+      "keywords": [
+        "0x001CC46A",
+        "0x0010C415",
+        "0x003CFD86",
+        "0x00499F7A",
+        "0x003D4327"
+      ]
+    },
+    {
+      "form_id": "0x006E359D",
+      "editor_id": "DEL_crOvergrownBoneClub",
+      "names": [
+        "Bone Club",
+        "Default"
+      ],
+      "model": "weapons/scorchbeasthammer/scorchbeastclub.nif",
+      "keywords": [
+        "0x00023465",
+        "0x0004A0A4",
+        "0x0010C89B",
+        "0x0033AB12",
+        "0x001C9E79",
+        "0x000F4AEA",
+        "0x0033AB1D",
+        "0x00508D78",
+        "0x003D0E81",
+        "0x0044D497",
+        "0x005117B1"
+      ]
+    },
+    {
+      "form_id": "0x006E1C28",
+      "editor_id": "XPD_AC03_CarryAndThrow_Object",
+      "names": [
+        "Water Bucket"
+      ],
+      "model": "props/bucketsandbaskets/bucket_metal_clean.nif",
+      "keywords": [
+        "0x001CC46A",
+        "0x0010C415",
+        "0x003CFD86",
+        "0x00499F7A",
+        "0x003D4327",
+        "0x000F4AEA",
+        "0x0004A0A6"
+      ]
+    },
+    {
+      "form_id": "0x006DDFEE",
+      "editor_id": "XPD_AC02_Juchi_Flamer",
+      "names": [
+        "Juchi's Flamer",
+        "Default"
+      ],
+      "model": "weapons/flamer/flamer.nif",
+      "keywords": [
+        "0x0004A0A3",
+        "0x000E5882",
+        "0x0003ADB4",
+        "0x0004742D",
+        "0x002049E5",
+        "0x000EB266",
+        "0x000F4AEA",
+        "0x0010C485",
+        "0x00148432",
+        "0x0033A7C9",
+        "0x00225760",
+        "0x0033A7C8",
+        "0x0051850D",
+        "0x003C94BF",
+        "0x003CFD70",
+        "0x0004A0A2",
+        "0x0037D0B2"
+      ]
+    }
+  ]
+}

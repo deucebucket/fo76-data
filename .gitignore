@@ -6,3 +6,4 @@ orphaned_voices/fuz/
 orphaned_voices/wav/
 orphaned_voices/*.sh
 orphaned_voices/*.py
+data/retail_dump/full_retail_dump.txt
