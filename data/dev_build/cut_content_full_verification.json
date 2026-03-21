@@ -1,0 +1,260 @@
+{
+  "verification_date": "2026-03-21",
+  "methodology": "Web searches across fallout.wiki, fallout.fandom.com, nukaknights.com, tcrf.net, reddit, and general web. Each entry checked for existing documentation of the specific claims made.",
+  "search_index_entries": [
+    {
+      "search_index_id": 16,
+      "title": "Finding 016: Nuclear Winter Full Autopsy -- The Complete Babylon Codebase",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "Nuclear Winter and the Babylon codename are well documented. The wiki notes NW assets use 'Babylon_' prefix. However, the detailed technical analysis (28 custom native engine functions, storm constriction phases, quest architecture specifics) goes far beyond any community documentation. The Vaulted Content wiki page is just an item inventory, not a technical autopsy.",
+      "community_source": "https://fallout.wiki/wiki/Nuclear_Winter/Vaulted_Content",
+      "novel_elements": ["28 native engine functions count", "storm constriction phase struct details", "client/server initializer architecture", "tutorial framework with 19 events"]
+    },
+    {
+      "search_index_id": 21,
+      "title": "FO76 Finding 021: Nitro Rifle/Pistol -- Upcoming Weapon with Season Skins Already Made",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for the Nitro weapon system. Not on any wiki, not in Nuka Knights datamines, not on Reddit. The weapon keywords, season reward skins, and Free States paint are undocumented.",
+      "community_source": null,
+      "novel_elements": ["WeaponTypeNitro keywords", "Season 23 and Love Hurts mini-season skins pre-built", "Free States faction paint", "dual rifle/pistol grip system"]
+    },
+    {
+      "search_index_id": 22,
+      "title": "FO76 Finding 022: Cover Combat System -- Built, Animated, Then Pulled",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for a cover combat system in FO76. The game settings (fPlayerCoverGunDownDelayTime, fPlayerCoverGunUpDelayTime) and the 30+ animations present in Update 11 but removed in Update 12 are not documented anywhere. The Deathclaw peek and ghoul leaning animations are also undocumented in this context.",
+      "community_source": null,
+      "novel_elements": ["cover combat game settings", "30+ cover animations in Update 11", "blind fire and grenade throw from cover", "NPC cover/peek animations"]
+    },
+    {
+      "search_index_id": 25,
+      "title": "FO76 Cut Content Analysis: 4,831 Disabled (zzz_) Records",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "The zzz_ convention for disabled content is known to dataminers. Individual items within the 4,831 records overlap with known cut content (Babylon/NW, some weapons). However, the systematic analysis of all 4,831 records with prefix pattern breakdowns (MOON_, BOUNTY_, GHL_, MutatedEvents_, BURN_, Tempest_, etc.) is novel. No community source has published this comprehensive breakdown.",
+      "community_source": "https://fallout.wiki/wiki/Fallout_76_Unused_Content",
+      "novel_elements": ["complete prefix pattern analysis", "BOUNTY_ system (95 records)", "GHL_ ghoul player system (89 records)", "MutatedEvents_ system (79 records)", "Tempest_ armor set (37 records)", "record type distribution counts"]
+    },
+    {
+      "search_index_id": 27,
+      "title": "FO76 Finding 027: Cut VR Tutorial Space + Burning Springs Gladiator Arena",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "The VR tutorial (VRCitizen, VRBully factions, NPE_MQ01_Enjoy quest) is NOT documented by the community. However, the 'Burning Springs Gladiator Arena' claim needs correction: the Gearin' Up event with deathclaw gladiator combat DID ship in the Burning Springs update (Dec 2025). The arena concept was not cut -- it was released. The VR tutorial portion remains genuinely novel.",
+      "community_source": null,
+      "novel_elements": ["VR tutorial space with VRCitizen and VRBully factions", "NPE_MQ01_Enjoy quest system", "VR Space Door reference"],
+      "warnings": ["The Burning Springs gladiator arena portion may be WRONG -- Gearin' Up event shipped with deathclaw arena combat"]
+    },
+    {
+      "search_index_id": 29,
+      "title": "FO76 Finding 029: Unreleased, Disabled, and Hidden Quests from QUST Records",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "Some individual quests mentioned are known (Suicide Run, Moe Digs Safety are on the wiki as cut quests; Lockdown is documented on fallout.wiki). The Treehouse Village quest (CUT_W05_Community_Treehouse_Village_Quest) is partially known -- the wiki notes cut content at Treehouse Village including 'Restoring Mosstown'. However, the systematic analysis of 2,200 QUST records with prefix breakdowns and the full list of 48 CUT_ and 32 zzz_ quests is novel.",
+      "community_source": "https://fallout.wiki/wiki/Lockdown",
+      "novel_elements": ["complete QUST record analysis", "CUT_W05_Community_RaiderBlockade_Quest", "CUT_W05_MQS_201P_MotherlodeWave", "CUT_BS01_Dialogue_TreehouseVillage with 16 combat bark types", "systematic prefix and Form ID analysis"]
+    },
+    {
+      "search_index_id": 35,
+      "title": "FO76 Hidden Dialogue & Cut Content in String Tables",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "The Needle SMG is known in datamining circles as a cut weapon (mentioned in finding text itself). The 'Enjoy' quest / NPE rework with Professor Dayton and VR simulation is NOT documented anywhere. String table analysis at this scale (247,140 total strings) is not documented by any community source.",
+      "community_source": null,
+      "novel_elements": ["NPE_MQ01_Enjoy quest dialogue reconstruction", "Professor Dayton character", "rogue AI storyline in Vault 76", "five-tier Needle SMG spell system detail"]
+    },
+    {
+      "search_index_id": 66,
+      "title": "FO76 Finding 067: Orphaned Voice Recordings -- 9,456 Ghost Voice Files",
+      "verification_status": "NOVEL",
+      "verification_note": "No community source has documented a systematic orphaned voice file analysis for FO76. The 9,456 orphan count (16.4% of 57,676 voice IDs), archive-by-archive distribution, and the methodology of cross-referencing BA2 voice files against INFO records is entirely undocumented.",
+      "community_source": null,
+      "novel_elements": ["9,456 orphaned voice file count", "16.4% orphan rate", "archive-by-archive distribution", "543 false collision analysis", "methodology itself"]
+    },
+    {
+      "search_index_id": 67,
+      "title": "FO76 Finding 068: Cut Dialogue Reconstruction -- Extracted Audio & Text Analysis",
+      "verification_status": "NOVEL",
+      "verification_note": "The actual extraction, conversion, and analysis of 1,958 orphaned voice recordings from 7 cut NPCs is undocumented. Paladin Radio (cut BoS radio station), Ryan Ainsley and Marcus Wellsby (pre-war Whitespring staffers), and Moe the Mole's complete 16-line dialogue script surviving in strings are all novel findings.",
+      "community_source": null,
+      "novel_elements": ["1,958 extracted orphaned voice recordings", "Paladin Radio with 45 voice recordings", "Ryan Ainsley and Marcus Wellsby characters", "Moe the Mole 16-line dialogue script survival", "Beckett original finale details"]
+    },
+    {
+      "search_index_id": 68,
+      "title": "FO76 Finding 069: Beckett's Complete Original Storyline -- Shipped & Cut Content Reconstruction",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "Beckett's shipped questline is well documented on wikis. The Poseidon Energy Plant connection has a minor known reference (voice line says 'Poseidon' while subtitle says 'Rollins'). However, the full reconstruction of 7 deleted quests (MurderBot, BrotherClawHolotape, BearHolotapeDatabase, Defector, Formula, etc.), The Bone as a second villain, The Nest recruitment facility, and the branching strategic choice are NOT documented anywhere.",
+      "community_source": "https://fallout.wiki/wiki/Beckett_(Fallout_76)",
+      "novel_elements": ["7 deleted quest reconstructions", "The Bone villain", "The Nest recruitment facility", "original branching finale at Poseidon", "17-quest arc vs shipped 15-quest"]
+    },
+    {
+      "search_index_id": 71,
+      "title": "Finding 072: ZAX Nuclear Winter Commentary - Full Reconstruction",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "ZAX as the Vault 51 AI and Nuclear Winter narrator is well known. The wiki documents ZAX 1.3c. Players who played NW heard some match commentary. However, the complete catalogue of 620 voice files (1hr 7min), 565 unique Form IDs, the 20 dialogue topic breakdown, the 10% random selection mechanic, and the full DLBR branch reconstruction go far beyond community knowledge.",
+      "community_source": "https://fallout.wiki/wiki/Vault_51",
+      "novel_elements": ["complete 620 voice file catalogue", "20 dialogue topic breakdown", "10% random selection mechanic", "alternate takes documentation", "DLBR branch reconstruction"]
+    },
+    {
+      "search_index_id": null,
+      "title": "Dev Build: BossChicken -- Complete Cut Creature (duplicate entry)",
+      "verification_status": "NOVEL",
+      "verification_note": "See entry 31204 below. This is a duplicate search index entry for the same content.",
+      "community_source": null
+    },
+    {
+      "search_index_id": 31202,
+      "title": "FO76 Finding 088: TWZ09 Aerosolizer Quest -- Complete Cut Toxic Water Event",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for TWZ09. The Dogwood Die Off (related TWZ events) is documented on the wiki, but TWZ09 specifically -- with its aerosolizer kick perk, mirelurk escort AI, crafting system, and challenge tracking -- is not mentioned anywhere.",
+      "community_source": null,
+      "novel_elements": ["TWZ09 quest record", "Aerosolizer kick perk", "mirelurk escort AI", "complete event structure"]
+    },
+    {
+      "search_index_id": 31203,
+      "title": "FO76 Finding 089: Bloatfly Launcher -- Standalone Cut Weapon",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for E09A_Launcher_ThrowBloatflyWeapon. The bloatfly larva syringe barrel mod is well known, but this standalone launcher weapon from the NukaWorld on Tour content is undocumented.",
+      "community_source": null,
+      "novel_elements": ["E09A_Launcher_ThrowBloatflyWeapon weapon record", "standalone launcher vs syringe mod distinction", "E09 prefix tying to NukaWorld on Tour"]
+    },
+    {
+      "search_index_id": 31204,
+      "title": "FO76 Finding 090: BossChicken -- Complete Cut Boss Creature",
+      "verification_status": "NOVEL",
+      "verification_note": "Chickens exist in FO76 (added in updates), but BossChicken as a boss creature with its own race, leveled NPC, 20,000 HP health curve, and ZZZ_ prefix in retail is not documented anywhere. The wiki's chicken page does not mention a boss variant.",
+      "community_source": null,
+      "novel_elements": ["BossChickenRace", "LvlBossChicken", "20,000 HP at level 100 health curve", "complete creature record set", "ZZZ_ prefix in retail confirming deliberate shelving"]
+    },
+    {
+      "search_index_id": 31205,
+      "title": "FO76 Finding 091: Floater Dialogue System -- Cut Creature-Specific Dialogue Quests",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for floater dialogue quests. The wiki documents floaters as hostile creatures added in Wastelanders with sounds. The concept of giving each floater variant (Flamer, Freezer, Gnasher) its own NPC-like dialogue quest system is completely undocumented.",
+      "community_source": null,
+      "novel_elements": ["CreatureDialogueFloaterFlamer quest", "CreatureDialogueFloaterFreezer quest", "CreatureDialogueFloaterGnasher quest", "creature dialogue system concept"]
+    },
+    {
+      "search_index_id": 31210,
+      "title": "FO76 Finding 094: Sofia Daguerre Cut Storyline",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "Sofia Daguerre's shipped questline and ATHENA are well documented on wikis. The wiki notes some additional ATHENA voice lines were recorded but only the first plays. However, the 87 orphaned voice files, deleted rescue quest variants, ATHENAFragment-to-HealthMonitor item redesign, 6 resolution paths reduced to 2, and cut vendor conversations are NOT documented.",
+      "community_source": "https://fallout.wiki/wiki/Commander_Daguerre",
+      "novel_elements": ["87 orphaned voice files", "deleted rescue quest variants", "ATHENAFragment to HealthMonitor redesign", "FailedExperiment to BrainJar redesign", "6 outro paths reduced to 2", "cut vendor system", "Sugar Grove lab infiltration key"]
+    },
+    {
+      "search_index_id": 31211,
+      "title": "FO76 Finding 095: MODUS Cut Enclave Content",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "MODUS and the Whitespring Bunker are well documented. Nuka Knights has covered Enclave datamines (Season 19). However, the specific findings -- zCUTMireBunker01 (second Enclave bunker in the Mire), cut Enclave Scout Armor with Vault 94 camo, deleted EN02 quest, zCUTWhitespringBunkerOld layout, 15-part surveillance footage system, and 73 orphaned voice files with 13.7% orphan rate -- are NOT documented on any community source.",
+      "community_source": "https://fallout.wiki/wiki/Vault_51",
+      "novel_elements": ["zCUTMireBunker01 second Enclave bunker", "Vault 94 camo Scout Armor patterns", "EN02 deleted quest", "zCUTWhitespringBunkerOld layout", "15-part surveillance footage", "73 orphaned voice files", "13.7% orphan rate"]
+    }
+  ],
+  "catalog_098_items": [
+    {
+      "item": "Vault 94 GECK council voting quest",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "The wiki documents that Vault 94 required 'a council vote' to access the GECK wing, and the Vault 94 raids (Dead in the Water, Meltdown, Washout) are documented as removed content. However, a specific GECK council voting QUEST (as a separate gameplay mechanic) is not documented. The council vote is mentioned as lore, not as a playable quest system.",
+      "community_source": "https://fallout.wiki/wiki/Vault_94"
+    },
+    {
+      "item": "Treehouse Village settlement",
+      "verification_status": "KNOWN",
+      "verification_note": "The Treehouse Village location and its cut quest CUT_W05_Community_Treehouse_Village_Quest ('Restoring Mosstown') are documented on the Fallout Wiki. The location was revamped through One Wasteland For All and Steel Dawn (renamed to The Retreat).",
+      "community_source": "https://fallout.wiki/wiki/Treehouse_Village"
+    },
+    {
+      "item": "Rotating Scorchbeast Queen at 9 locations",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for a rotating SBQ spawn mechanic across 9 locations. The wiki only documents SBQ spawning at Fissure Site Prime via Scorched Earth. This mechanic is undocumented.",
+      "community_source": null
+    },
+    {
+      "item": "Suicide Run quest in Moe costume",
+      "verification_status": "KNOWN",
+      "verification_note": "Suicide Run is documented on the Fallout Wiki as an unused/cut quest. Players would disarm mines and fight mole rats while dressed as Moe the Mole. Has its own wiki page.",
+      "community_source": "https://fallout.fandom.com/wiki/Fallout_76_cut_content"
+    },
+    {
+      "item": "Foundation daily quests with settler children",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for cut Foundation daily quests involving settler children. The wiki documents existing Foundation dailies (Vital Equipment, Photo Opportunity, Retirement Plan) but nothing about cut versions with children NPCs.",
+      "community_source": null
+    },
+    {
+      "item": "The Glow public event with dam manipulation",
+      "verification_status": "KNOWN",
+      "verification_note": "The Glowing Swamp is documented on the Fallout Wiki as an unused event. Quest objectives included traveling to Crevasse Dam to increase water flow and to Dyer Chemical to create a radiation neutralizer. Internal ID SFM01_Glow_CUT_FlaggedToNotExplort confirms it was deliberately cut.",
+      "community_source": "https://fallout.wiki/wiki/The_Glowing_Swamp"
+    },
+    {
+      "item": "Lockdown meta-quest connecting 3 vaults",
+      "verification_status": "KNOWN",
+      "verification_note": "Lockdown is fully documented on the Fallout Wiki as an unused quest. It connected Vaults 63, 94, and 96 through overseer security access holotapes. Players would collect holotapes from each vault to unlock a Vault-Tec data archive at VTU. Only a terminal entry fragment survived into the live game.",
+      "community_source": "https://fallout.wiki/wiki/Lockdown"
+    },
+    {
+      "item": "Vault 65 and Vault 120 test cells",
+      "verification_status": "KNOWN",
+      "verification_note": "Both vaults are documented. Vault 120 had cells found in FO76 files featuring a crashed Yangtze submarine, Captain Zao, giant squid overseer, and underwater power armor sequences. Vault 65 contained large-scale vault rooms and may have been a prototype for Vault 76. Both documented on multiple wiki sources.",
+      "community_source": "https://fallout.wiki/wiki/Mod:Vault_120"
+    },
+    {
+      "item": "Needle SMG",
+      "verification_status": "PARTIALLY_KNOWN",
+      "verification_note": "Known in datamining circles as a cut weapon since 2018 (acknowledged in the finding text itself). However, the five-tier spell system (CUT_NeedleSMG_Spell_0 through _4), the exploding variant, and detailed form IDs are not widely documented on wikis. Not on the main Fallout Wiki cut content pages.",
+      "community_source": null
+    },
+    {
+      "item": "Heavy Incinerator",
+      "verification_status": "WRONG",
+      "verification_note": "The Heavy Incinerator was released in Fallout 76 as part of the America's Playground update. The Cremator weapon (functionally a heavy incinerator) shipped with the Atlantic City update. It is NOT cut content -- it's a live weapon obtainable through Season 16 or Gold Bullion.",
+      "community_source": "https://fallout.wiki/wiki/Cremator"
+    },
+    {
+      "item": "Tesla Cannon",
+      "verification_status": "WRONG",
+      "verification_note": "The Tesla Cannon was released in Fallout 76 as part of the Gleaming Depths update (Season 19, Dec 2024). It is a shoulder-mounted heavy weapon obtainable through the season track or from Mortimer for 750 Gold Bullion. It is NOT cut content.",
+      "community_source": "https://fallout.wiki/wiki/Tesla_Cannon_(Fallout_76)"
+    },
+    {
+      "item": "Alien Whack-a-Mole arcade game",
+      "verification_status": "NOVEL",
+      "verification_note": "No community documentation found for an alien whack-a-mole arcade game in FO76. The wiki's Arcade Games and Rides page does not mention it. If this exists in game files, it is undocumented.",
+      "community_source": null
+    },
+    {
+      "item": "Cornhenge",
+      "verification_status": "WRONG",
+      "verification_note": "Cornhenge is part of the World of Corn location that shipped in the Burning Springs update (Dec 2025). It is a field of corn sculpture exhibits based on the real-world Field of Corn in Dublin, Ohio. It is NOT cut content -- it is a live location.",
+      "community_source": "https://fallout.fandom.com/wiki/World_of_Corn"
+    },
+    {
+      "item": "Sock Hop",
+      "verification_status": "WRONG",
+      "verification_note": "Sandy's Sock Hop is a location that shipped in the Burning Springs update (Dec 2025). It is a live, accessible location in the Burning Springs region. NOT cut content.",
+      "community_source": "https://fallout.wiki/wiki/Sandy's_Sock_Hop"
+    },
+    {
+      "item": "Albany",
+      "verification_status": "WRONG",
+      "verification_note": "Albany is a location that shipped in the Burning Springs update (Dec 2025). It is a marked location in the Burning Springs region of Ohio. NOT cut content.",
+      "community_source": "https://fallout.wiki/wiki/Albany_(Burning_Springs)"
+    }
+  ],
+  "summary": {
+    "total_search_index_entries": 18,
+    "total_catalog_items": 15,
+    "statuses": {
+      "NOVEL": 12,
+      "PARTIALLY_KNOWN": 10,
+      "KNOWN": 4,
+      "WRONG": 5,
+      "FO4_INHERITED": 0
+    },
+    "key_findings": [
+      "5 catalog items are WRONG (Heavy Incinerator, Tesla Cannon, Cornhenge, Sock Hop, Albany all shipped in live game)",
+      "The Burning Springs gladiator arena in Finding 027 may also be WRONG (Gearin' Up event shipped)",
+      "12 items are genuinely NOVEL with no community documentation",
+      "10 items are PARTIALLY_KNOWN where community knows the topic but not our specific details",
+      "Most novel findings come from dev build analysis and systematic voice file cross-referencing"
+    ]
+  }
+}
