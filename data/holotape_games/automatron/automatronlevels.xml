@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automatron xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Levels>
+		<!--LEVEL1-->
+		<Level>
+			<Humans>2</Humans>
+			<Enemies>
+				<Enemy id="Grunt">15</Enemy>
+				<Enemy id="Mine">4</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">0</Enemy>
+				<Enemy id="Indestructible">0</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL2-->
+		<Level>
+			<Humans>3</Humans>
+			<Enemies>
+				<Enemy id="Grunt">18</Enemy>
+				<Enemy id="Mine">4</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">0</Enemy>
+				<Enemy id="Indestructible">2</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL3-->
+		<Level>
+			<Humans>4</Humans>
+			<Enemies>
+				<Enemy id="Grunt">20</Enemy>
+				<Enemy id="Mine">6</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">0</Enemy>
+				<Enemy id="Indestructible">3</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL4-->
+		<Level>
+			<Humans>5</Humans>
+			<Enemies>
+				<Enemy id="Grunt">22</Enemy>
+				<Enemy id="Mine">6</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">4</Enemy>
+				<Enemy id="Indestructible">4</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL5-->
+		<Level>
+			<Humans>6</Humans>
+			<Enemies>
+				<Enemy id="Grunt">22</Enemy>
+				<Enemy id="Mine">8</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">6</Enemy>
+				<Enemy id="Indestructible">4</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL6-->
+		<Level>
+			<Humans>6</Humans>
+			<Enemies>
+				<Enemy id="Grunt">18</Enemy>
+				<Enemy id="Mine">8</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">6</Enemy>
+				<Enemy id="Indestructible">6</Enemy>
+				<Enemy id="Brain">2</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL7-->
+		<Level>
+			<Humans>8</Humans>
+			<Enemies>
+				<Enemy id="Grunt">20</Enemy>
+				<Enemy id="Mine">10</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">2</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">4</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL8-->
+		<Level>
+			<Humans>8</Humans>
+			<Enemies>
+				<Enemy id="Grunt">20</Enemy>
+				<Enemy id="Mine">10</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">0</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">6</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL9-->
+		<Level>
+			<Humans>10</Humans>
+			<Enemies>
+				<Enemy id="Grunt">22</Enemy>
+				<Enemy id="Mine">12</Enemy>
+				<Enemy id="Spawner">2</Enemy>
+				<Enemy id="Spawned">4</Enemy>
+				<Enemy id="Indestructible">6</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL10-->
+		<Level>
+			<Humans>10</Humans>
+			<Enemies>
+				<Enemy id="Grunt">22</Enemy>
+				<Enemy id="Mine">12</Enemy>
+				<Enemy id="Spawner">4</Enemy>
+				<Enemy id="Spawned">4</Enemy>
+				<Enemy id="Indestructible">6</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL11-->
+		<Level>
+			<Humans>10</Humans>
+			<Enemies>
+				<Enemy id="Grunt">20</Enemy>
+				<Enemy id="Mine">14</Enemy>
+				<Enemy id="Spawner">6</Enemy>
+				<Enemy id="Spawned">2</Enemy>
+				<Enemy id="Indestructible">6</Enemy>
+				<Enemy id="Brain">2</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL12-->
+		<Level>
+			<Humans>12</Humans>
+			<Enemies>
+				<Enemy id="Grunt">18</Enemy>
+				<Enemy id="Mine">12</Enemy>
+				<Enemy id="Spawner">6</Enemy>
+				<Enemy id="Spawned">3</Enemy>
+				<Enemy id="Indestructible">6</Enemy>
+				<Enemy id="Brain">4</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL13-->
+		<Level>
+			<Humans>12</Humans>
+			<Enemies>
+				<Enemy id="Grunt">16</Enemy>
+				<Enemy id="Mine">12</Enemy>
+				<Enemy id="Spawner">6</Enemy>
+				<Enemy id="Spawned">4</Enemy>
+				<Enemy id="Indestructible">6</Enemy>
+				<Enemy id="Brain">6</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL14-->
+		<Level>
+			<Humans>12</Humans>
+			<Enemies>
+				<Enemy id="Grunt">14</Enemy>
+				<Enemy id="Mine">10</Enemy>
+				<Enemy id="Spawner">8</Enemy>
+				<Enemy id="Spawned">4</Enemy>
+				<Enemy id="Indestructible">5</Enemy>
+				<Enemy id="Brain">8</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL15-->
+		<Level>
+			<Humans>13</Humans>
+			<Enemies>
+				<Enemy id="Grunt">12</Enemy>
+				<Enemy id="Mine">10</Enemy>
+				<Enemy id="Spawner">8</Enemy>
+				<Enemy id="Spawned">5</Enemy>
+				<Enemy id="Indestructible">5</Enemy>
+				<Enemy id="Brain">10</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL16-->
+		<Level>
+			<Humans>13</Humans>
+			<Enemies>
+				<Enemy id="Grunt">10</Enemy>
+				<Enemy id="Mine">8</Enemy>
+				<Enemy id="Spawner">5</Enemy>
+				<Enemy id="Spawned">8</Enemy>
+				<Enemy id="Indestructible">5</Enemy>
+				<Enemy id="Brain">12</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL17-->
+		<Level>
+			<Humans>13</Humans>
+			<Enemies>
+				<Enemy id="Grunt">10</Enemy>
+				<Enemy id="Mine">8</Enemy>
+				<Enemy id="Spawner">10</Enemy>
+				<Enemy id="Spawned">5</Enemy>
+				<Enemy id="Indestructible">5</Enemy>
+				<Enemy id="Brain">10</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL18-->
+		<Level>
+			<Humans>14</Humans>
+			<Enemies>
+				<Enemy id="Grunt">12</Enemy>
+				<Enemy id="Mine">6</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">25</Enemy>
+				<Enemy id="Indestructible">5</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL19-->
+		<Level>
+			<Humans>14</Humans>
+			<Enemies>
+				<Enemy id="Grunt">14</Enemy>
+				<Enemy id="Mine">6</Enemy>
+				<Enemy id="Spawner">0</Enemy>
+				<Enemy id="Spawned">0</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">20</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL20-->
+		<Level>
+			<Humans>14</Humans>
+			<Enemies>
+				<Enemy id="Grunt">14</Enemy>
+				<Enemy id="Mine">4</Enemy>
+				<Enemy id="Spawner">20</Enemy>
+				<Enemy id="Spawned">0</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">0</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL21-->
+		<Level>
+			<Humans>15</Humans>
+			<Enemies>
+				<Enemy id="Grunt">12</Enemy>
+				<Enemy id="Mine">4</Enemy>
+				<Enemy id="Spawner">14</Enemy>
+				<Enemy id="Spawned">5</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">6</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL22-->
+		<Level>
+			<Humans>15</Humans>
+			<Enemies>
+				<Enemy id="Grunt">10</Enemy>
+				<Enemy id="Mine">2</Enemy>
+				<Enemy id="Spawner">15</Enemy>
+				<Enemy id="Spawned">5</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">7</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL23-->
+		<Level>
+			<Humans>15</Humans>
+			<Enemies>
+				<Enemy id="Grunt">8</Enemy>
+				<Enemy id="Mine">2</Enemy>
+				<Enemy id="Spawner">16</Enemy>
+				<Enemy id="Spawned">5</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">8</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL24-->
+		<Level>
+			<Humans>15</Humans>
+			<Enemies>
+				<Enemy id="Grunt">6</Enemy>
+				<Enemy id="Mine">0</Enemy>
+				<Enemy id="Spawner">17</Enemy>
+				<Enemy id="Spawned">5</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">9</Enemy>
+			</Enemies>
+		</Level>
+		<!--LEVEL25-->
+		<Level>
+			<Humans>15</Humans>
+			<Enemies>
+				<Enemy id="Grunt">4</Enemy>
+				<Enemy id="Mine">0</Enemy>
+				<Enemy id="Spawner">18</Enemy>
+				<Enemy id="Spawned">5</Enemy>
+				<Enemy id="Indestructible">8</Enemy>
+				<Enemy id="Brain">10</Enemy>
+			</Enemies>
+		</Level>
+	</Levels>
+</Automatron>

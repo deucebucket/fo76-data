@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<AtomicCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Variable name="leftStickSpeedPC">0.64</Variable>
+  <Variable name="leftStickSpeedXbox">0.64</Variable>
+  <Variable name="leftStickSpeedPS4">0.64</Variable>
+  <Variable name="startingNukes">5</Variable>
+  <Variable name="maxStartingNukes">23</Variable>
+  <Variable name="nukeMod">1</Variable>
+  <Variable name="maxMissileNumber">16</Variable>
+  <Variable name="maxNukeSpeed">4000</Variable>
+  <Variable name="minNukeSpeed">85</Variable>
+  <Variable name="nukeSpeedMod">0.05487</Variable>
+  <Variable name="maxNukeInterval">1</Variable>
+  <Variable name="minNukeInterval">0.3</Variable>
+  <Variable name="nukeIntervalMod">0.05</Variable>
+  <Variable name="splitNukePercent">0.22</Variable>
+  <Variable name="minHeightToFire">150</Variable>
+  <Variable name="missileSpeed">800</Variable>
+  <Variable name="missileMaxRadius">60</Variable>
+  <Variable name="missileExplosionSpeed">1.5</Variable>
+  <Variable name="scoreOneNuke">10</Variable>
+  <Variable name="scoreTwoNuke">20</Variable>
+  <Variable name="scoreThreeNuke">30</Variable>
+  <Variable name="scoreFourNuke">40</Variable>
+  <Variable name="scoreFiveNuke">50</Variable>
+  <Variable name="scoreBomber">200</Variable>
+  <Variable name="scoreLandmark">100</Variable>
+  <Variable name="scoreMissile">25</Variable>
+  <Variable name="levelsPerMultiplier">2</Variable>
+  <Variable name="clusterYMin">350</Variable>
+  <Variable name="clusterYMax">600</Variable>
+  <Variable name="bomberYMin">350</Variable>
+  <Variable name="bomberYMax">600</Variable>
+  <Variable name="bomberSpeed">100</Variable>
+</AtomicCommand>
