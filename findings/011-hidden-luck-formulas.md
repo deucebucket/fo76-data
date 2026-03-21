@@ -8,7 +8,7 @@
 Roll = Random(0, 100) + (Player.Luck × 0.8) + (Player.Intelligence × 1.6)
 Success threshold: ≥ 85.0
 ```
-### What This Means:
+### Interpretation
 - Base success rate without SPECIAL: ~15% (need to roll 85+)
 - With Luck 15: +12 to roll → ~27%
 - With Intelligence 15: +24 to roll → ~39%
@@ -22,8 +22,8 @@ Success threshold: ≥ 85.0
 - Three result types: Loss (0), Win (1), Jackpot (2)
 - 3 tumblers × 5 possible symbols = 125 combinations
 - **HIDDEN LUCK BUFF**: Winning or hitting jackpot grants `ATX_BuffLuck` spell
-  - This means WINNING makes you MORE LUCKY for future spins
-  - Creates a "hot streak" mechanic most players don't know about
+ - This means WINNING makes you MORE LUCKY for future spins
+ - Creates a "hot streak" mechanic most players don't know about
 - `ATX_DispellFortifyLuck` keyword suggests the buff can be dispelled
 
 ## Arcade Game Luck Bonus
@@ -40,7 +40,7 @@ The ScorchbeastRaceScript reveals attack cooldown timers:
 - Takeoff, landing, and area explosions are separate events
 - Cooldowns are per-weapon, meaning the beast cycles through attacks
 
-## Significance for Build Planning
+## Implications for Build Planning
 These hidden formulas mean:
 1. LUCK affects more than just critical hits — it influences gambling, bomb defusal, and arcade rewards
 2. INTELLIGENCE has a hidden combat bonus in bomb encounters (2x the weight of Luck)

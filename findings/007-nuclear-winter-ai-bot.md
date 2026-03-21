@@ -16,14 +16,14 @@ A fully automated player bot that:
 ## Weapon Loadouts (12 weapons with Form IDs)
 All 12 weapon types with specific ammo types and counts are hardcoded. Some weapons get 100 rounds, others get 10 (likely heavy/explosive weapons).
 
-## What This Tells Us
+## Summary
 - Bethesda had automated testing infrastructure for Nuclear Winter
 - The bot simulates realistic player behavior (fire, loot, move to zone)
 - `IsInsideStormZone(500.0)` and `GetHeadingToStormZoneCenter()` are native engine functions
 - The storm zone system is built into the engine at a native level, not just scripted
 - These native functions still exist in the current build
 
-## Significance
+## Implications
 - The battle royale infrastructure is MORE deeply integrated than previously thought
 - Storm zone mechanics are native engine features, not removable without engine changes
-- This lends weight to the theory that Nuclear Winter could return
+- This is consistent with the possibility that Nuclear Winter could return

@@ -93,7 +93,7 @@ The `e01f_fasnacht_bossdropsmasks.psc` script confirms the toggle pattern:
 | zzzLCP_BURN_E02_Sinkhole | 0x0085E065 | CUT: Sinkhole event |
 | zzzLCP_Disable_DirtyLaundry | 0x00863027 | DEPRECATED: Old DirtyLaundry disable |
 
-**Key Finding**: The zzz-prefixed globals reveal that TWO Backwoods events were cut -- "Gear" (E01) and "Sinkhole" (E02). These were planned but removed before release.
+**Note:**: The zzz-prefixed globals reveal that TWO Backwoods events were cut -- "Gear" (E01) and "Sinkhole" (E02). These were planned but removed before release.
 
 ### Skyline Valley (SSE/Big Bloom) Controls
 
@@ -126,7 +126,7 @@ An elaborate LCP-controlled keycard drop system with per-activity-type probabili
 | P62_LCP_TheDrifter_KeycardChance_Expeditions | 0x0082D353 | Keycard drop from Expeditions |
 | P62_LCP_TheDrifter_KeycardChance_RAIDS | 0x0081FD76 | Keycard drop from Raids |
 
-**Key Finding**: Bethesda can individually tune keycard drop rates for EVERY activity type independently. They could make keycards rain from Daily Ops while being rare from public events, or vice versa.
+**Note:**: Bethesda can individually tune keycard drop rates for EVERY activity type independently. They could make keycards rain from Daily Ops while being rare from public events, or vice versa.
 
 ### Silver Bridge Phase System
 
@@ -368,7 +368,7 @@ The game has multiple event playlists that can be switched:
 | PTSPublicEventPlaylist_20min_Enable | 0x0065320B | PTS: 20-min test rotation |
 | PTSPublicEventPlaylist_Hourly_Enable | 0x0065320C | PTS: Hourly test rotation |
 
-**Key Finding**: The dev team has separate playlist controls for different internal teams (DevMain vs DevCyan). These are never toggled on live servers but remain in the data.
+**Note:**: The dev team has separate playlist controls for different internal teams (DevMain vs DevCyan). These are never toggled on live servers but remain in the data.
 
 ---
 
@@ -393,7 +393,7 @@ The game has multiple event playlists that can be switched:
 | E01F_Fasnacht_DisableBossSMBehemoth | 0x00787582 | Disable Super Mutant Behemoth boss |
 | E01F_Fasnacht_DisableBossOgua | 0x0078757E | Disable Ogua boss |
 
-**Key Finding**: Bethesda can disable individual Fasnacht bosses server-side. If a boss is causing crashes or exploits, they can remove just that one.
+**Note:**: Bethesda can disable individual Fasnacht bosses server-side. If a boss is causing crashes or exploits, they can remove just that one.
 
 ### Fasnacht Reward Economy
 | Global | FormID | Purpose |
@@ -467,13 +467,13 @@ From `mn2_questscript.psc`, MN2 has a "LiveToggles" group showing per-feature LC
 
 ```
 Group LiveToggles
-  GlobalVariable Property LCP_Explosions  -- Toggle explodable cars/barrels
-  Bool Property bLCPExplosionsOn          -- Runtime state
-  Float Property ExplosionsCompensateMultiplier  -- Progress compensation when disabled
-  GlobalVariable Property LCP_Fanfare    -- Toggle success fanfare effects
-  Bool Property bLCPFanfareOn            -- Runtime state
-  GlobalVariable Property LCP_Bonus      -- Toggle costume bonus
-  Bool Property bLCPBonusOn              -- Runtime state
+ GlobalVariable Property LCP_Explosions -- Toggle explodable cars/barrels
+ Bool Property bLCPExplosionsOn -- Runtime state
+ Float Property ExplosionsCompensateMultiplier -- Progress compensation when disabled
+ GlobalVariable Property LCP_Fanfare -- Toggle success fanfare effects
+ Bool Property bLCPFanfareOn -- Runtime state
+ GlobalVariable Property LCP_Bonus -- Toggle costume bonus
+ Bool Property bLCPBonusOn -- Runtime state
 EndGroup
 ```
 
@@ -482,10 +482,10 @@ This reveals that if explosions cause performance issues, Bethesda can disable j
 The progress bar system (`collalias.psc`) has its own LiveToggle integration:
 ```
 Group Optional_LiveToggle
-  GlobalVariable Property LCP_Bonus      -- Bonus progress toggle
-  GlobalVariable Property LCP_Fanfare    -- Fanfare effects toggle
-  Float Property LiveToggleBonus          -- Bonus amount when toggled on
-  GlobalVariable[] Property LiveToggles   -- Array of arbitrary LCP checks
+ GlobalVariable Property LCP_Bonus -- Bonus progress toggle
+ GlobalVariable Property LCP_Fanfare -- Fanfare effects toggle
+ Float Property LiveToggleBonus -- Bonus amount when toggled on
+ GlobalVariable[] Property LiveToggles -- Array of arbitrary LCP checks
 EndGroup
 ```
 
@@ -497,54 +497,54 @@ EndGroup
 
 ```
 Bethesda Server Infrastructure
-        |
-        v
+ |
+ v
 [Content Scheduler Service]
-        |
-        | Pushes new GlobalVariable values
-        v
+ |
+ | Pushes new GlobalVariable values
+ v
 [FO76 Game Server]
-        |
-        | Server-authoritative globals
-        v
+ |
+ | Server-authoritative globals
+ v
 [Client ESM Runtime]
-        |
-        | Scripts call GetValue() on globals
-        v
+ |
+ | Scripts call GetValue() on globals
+ v
 [Game Behavior Changes]
-    - Events appear/disappear
-    - Drop rates shift
-    - Mutations rotate
-    - Quests unlock/lock
-    - Boss spawns toggle
-    - Reward multipliers change
+ - Events appear/disappear
+ - Drop rates shift
+ - Mutations rotate
+ - Quests unlock/lock
+ - Boss spawns toggle
+ - Reward multipliers change
 ```
 
 ### What Gets Controlled
 
 1. **Content Availability** (LCP layer):
-   - Which events are running (seasonal, public, special)
-   - Which quest lines are accessible
-   - Which features are enabled (crafting, fishing rotations, boss encounters)
-   - Which expedition objectives are in the random pool
-   - Which content phases are active (Silver Bridge progression)
+ - Which events are running (seasonal, public, special)
+ - Which quest lines are accessible
+ - Which features are enabled (crafting, fishing rotations, boss encounters)
+ - Which expedition objectives are in the random pool
+ - Which content phases are active (Silver Bridge progression)
 
 2. **Reward Economy** (LTT layer):
-   - Drop rates for legendaries, bobbleheads, flux, treasury notes
-   - Bonus item quantities
-   - Rare mask/plan drop probabilities
-   - 4-star legendary drop rates
-   - Event-specific reward tuning
+ - Drop rates for legendaries, bobbleheads, flux, treasury notes
+ - Bonus item quantities
+ - Rare mask/plan drop probabilities
+ - 4-star legendary drop rates
+ - Event-specific reward tuning
 
 3. **Community Events** (Spotlight layer):
-   - Double/Triple XP weekends
-   - Double Scrip/Gold/Caps limits
-   - Historical event activations
+ - Double/Triple XP weekends
+ - Double Scrip/Gold/Caps limits
+ - Historical event activations
 
 4. **Daily Rotation** (Index system):
-   - Daily Ops mutation, encounter, location, mode
-   - Event playlists (which public events rotate in)
-   - Per-event mutation eligibility
+ - Daily Ops mutation, encounter, location, mode
+ - Event playlists (which public events rotate in)
+ - Per-event mutation eligibility
 
 ### The "ChanceNone" Pattern
 

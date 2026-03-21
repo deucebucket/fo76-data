@@ -3,7 +3,7 @@
 ## Status: CONFIRMED — 3,257+ string entries, full UI, match-finding, perk system
 ## Source: nw_en.strings, nw_en.dlstrings, translate_en_utf8.txt
 
-## What's Still In The Files
+## Contents
 - **Internal codename: "Babylon"** — all code references use this name
 - **3,257 string entries** in NW-specific string table (item names, locations, perks)
 - **332 dialogue/description strings** in NW dlstrings
@@ -13,11 +13,11 @@
 - **Main menu entry**: `$MainMenuBabylon` "NUCLEAR WINTER"
 - **All UI**: Exit prompts, connecting screens, abandonment warnings
 
-## What This Means
-Nuclear Winter was removed as a playable mode but NONE of the code was cleaned out. The entire battle royale system — matchmaking, ring mechanics, perk cards, UI — is dormant in the client. This is unusual; most live service games strip removed features to reduce client size.
+## Summary
+Nuclear Winter was removed as a playable mode but NONE of the code was cleaned out. The entire battle royale system — matchmaking, ring mechanics, perk cards, UI — is dormant in the client. Most live service games strip removed features to reduce client size; the FO76 client retains all of it.
 
-## Speculation
-- Could indicate plans to eventually bring it back (possibly redesigned)
+## Notes
+- may indicate plans to eventually bring it back (possibly redesigned)
 - Or simply that Bethesda doesn't clean deprecated code
 - The NW.esm (28MB) still ships with the game as a separate plugin file
 - Modders could theoretically re-enable portions of this on private servers

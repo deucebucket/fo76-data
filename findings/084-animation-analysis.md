@@ -45,7 +45,7 @@
 
 ### Unique/Rare Actors
 
-| Actor | Files | Significance |
+| Actor | Files | Notes |
 |-------|-------|-------------|
 | stormboss | 56 | **Tempest boss** - coil gun + lightning attacks |
 | wendigocolossus | 51 | Earle Williams boss - fear/summon head attacks |
@@ -68,7 +68,7 @@
 
 ---
 
-## 2. Cover System Animations (The Big Find)
+## 2. Cover System Animations (Primary Result)
 
 **Total cover animations: 284 files across 5 actor types.**
 
@@ -157,7 +157,7 @@ This was likely cut because it fundamentally changed FO76's combat pacing and wo
 
 ## 3. Mothman Animation Set (Cryptid Analysis)
 
-**103 animations total** - one of the most complex creature rigs in the game.
+**103 animations total** - one of the largest creature rigs in the game.
 
 ### Stalking/Passive Behavior
 - `idle` - standing watch pose

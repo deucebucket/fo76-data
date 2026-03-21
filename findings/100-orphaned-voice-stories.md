@@ -9,9 +9,9 @@
 
 ## Executive Summary
 
-Beyond the previously documented Beckett (1,654 files), Ronny (77 files), Sofia Daguerre (87 orphaned), and MODUS (73 orphaned), the orphaned voice archive contains substantial cut content for **30+ additional NPCs**. This finding catalogs the most significant undocumented orphaned voice caches, recovers their connected dialogue for context, and reconstructs the cut storylines they belonged to.
+Beyond the previously documented Beckett (1,654 files), Ronny (77 files), Sofia Daguerre (87 orphaned), and MODUS (73 orphaned), the orphaned voice archive contains substantial cut content for **30+ additional NPCs**. This finding catalogs the primary undocumented orphaned voice caches, recovers their connected dialogue for context, and reconstructs the cut storylines they belonged to.
 
-The most significant discoveries:
+the primary discoveries:
 
 1. **ZAX (Vault 51 AI)** -- 90 orphaned voice files from the Nuclear Winter backstory, including cut Vault 51 social experiment commentary that was never heard in-game
 2. **Bleep (Robot Companion)** -- 66 orphaned emotive sound files for a robot companion with a full emotional vocabulary that was 50% cut
@@ -209,8 +209,8 @@ Paige leads Foundation, the settler faction. His dialogue spans the entire Waste
 
 - First meeting: "Well, uh, this is a little awkward. You're from one of the local Vaults, right?"
 - On the gold: "You got some grand scheme to re-ignite 'the basis of capital' and all that other money talk?"
-- Post-heist (if player shares): "It's really exciting. There's so much we can do to genuinely improve folks' lives."
-- Post-heist (if player keeps all): "After everything we've been through together... you know what? I don't want to talk about it right now."
+- Post-heist (if player shares): "It's really notable. There's so much it is possible to do to genuinely improve folks' lives."
+- Post-heist (if player keeps all): "After everything the files contain been through together... you know what? I don't want to talk about it right now."
 - His holotape journal: "I'm worried about Jen. That last mission was rough for her."
 
 Designer notes for one orphaned line: "Duped from Data\Sound\Voice\SeventySix.esm\W05_NPCM_Paige\00402A98_3.xwm" -- indicating some orphans are duplicated audio files that were consolidated during development.
@@ -261,7 +261,7 @@ Kevin is a stammering, anxiety-ridden former park ranger hiding in a bunker. His
 
 - "Whoa! oh! ah- oh... W-Who are you? D-D-Don't Don't hurt me please."
 - "Me? No, no, no. N-not at all. I- er... I-I-I I'm just... I'm just not used to having anyone around."
-- "A-actually... wait a sec! We've got a little more pressing issues right now!"
+- "A-actually... wait a sec! the files contain got a little more pressing issues right now!"
 - "I-I'm ah... I'm Kevin. I used to be a ah park ranger here before the bombs dropped."
 - "Not sure I'm f-f-f-fit to be a ranger of whatever this... park has transformed into."
 
@@ -299,7 +299,7 @@ Gunther narrates the Nuka-World on Tour experience in an exaggerated Wild West d
 **Category**: Named robot (main quest NPC)
 **Orphan rate**: 2.3%
 
-Rose is the Miss Nanny robot who leads the Top of the World raiders. With 291 connected lines, she's one of the most verbose NPCs in the game. Her connected dialogue includes a remarkable confession:
+Rose is the Miss Nanny robot who leads the Top of the World raiders. With 291 connected lines, she's one of the most verbose NPCs in the game. Her connected dialogue includes a notable confession:
 
 - "Hey, sorry to break it to you, but I was going to cheat you. I don't need a program to decrypt the key fragments. I'm a freakin' robot."
 - "I just wanted you out of the way so I could get first dibs at the loot."
@@ -349,7 +349,7 @@ This Miss Nanny is searching for a lost child named Freddy Wood:
 
 ## Part 6: The 100% Orphaned NPCs -- Updated Analysis
 
-Finding 096 documented 19 NPCs with 100% orphan rates. The most significant among those not yet fully analyzed:
+Finding 096 documented 19 NPCs with 100% orphan rates. the primary among those not yet fully analyzed:
 
 ### 6A. Moe the Mole (8 Orphaned / 0 Connected)
 
@@ -377,8 +377,8 @@ The Drill Sergeant was a military eyebot quest giver for a wave-based defense ev
 - "commanding, 'you can do this!'" -- Combat encouragement
 - "giving orders, this line as if projecting to someone a short distance away"
 - "strong, but powering down during saying line" -- Death/shutdown with two variants:
-  - Dignified: a slow, noble power-down
-  - Glitchy: "read as two words. 'Diiissss. Missed!' Requires heavy post processing"
+ - Dignified: a slow, noble power-down
+ - Glitchy: "read as two words. 'Diiissss. Missed!' Requires heavy post processing"
 - Emergency broadcast: "Name: read each letter, dash, and number. ASAP as a single word 'Ay-Sap.'"
 
 ### 6C. Paladin Radio (5 Orphaned / 0 Connected)

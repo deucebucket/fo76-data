@@ -9,7 +9,7 @@
 - Startup.ba2 curve JSON files (108 legendarymods JSONs)
 - All 12 UpdateMain.ba2 archives checked for overridden curves (NONE found)
 
-## Critical Finding: NO Curve Files Were Overridden By Patches
+## Note:: NO Curve Files Were Overridden By Patches
 
 None of the 12 UpdateMain.ba2 archives contain ANY overridden curve table JSONs.
 The curve files in `SeventySix - Startup.ba2` are the ONLY versions that have ever existed.
@@ -39,13 +39,13 @@ The curve files in `SeventySix - Startup.ba2` are the ONLY versions that have ev
 **Active JSON**: `legendarymods/weapon_damagenight.json`
 ```json
 {
-  "curve": [
-    {"x": 0,  "y": 50},   // hour 0-5: +50% damage
-    {"x": 5,  "y": 50},   // hour 5: still +50%
-    {"x": 6,  "y": 0},    // hour 6: drops to 0%
-    {"x": 20, "y": 0},    // hour 20: still 0%
-    {"x": 21, "y": 50}    // hour 21: back to +50%
-  ]
+ "curve": [
+ {"x": 0, "y": 50}, // hour 0-5: +50% damage
+ {"x": 5, "y": 50}, // hour 5: still +50%
+ {"x": 6, "y": 0}, // hour 6: drops to 0%
+ {"x": 20, "y": 0}, // hour 20: still 0%
+ {"x": 21, "y": 50} // hour 21: back to +50%
+ ]
 }
 ```
 
@@ -80,28 +80,28 @@ the old gradual-scaling version was replaced with the simpler binary version at 
 **Active JSON**: `legendarymods/armor_cavalier.json`
 ```json
 {
-  "curve": [
-    {"x": 0, "y": 1},        // 0 pieces: 1.0 (no reduction)
-    {"x": 1, "y": 0.9},      // 1 piece: 0.9 (10% reduction)
-    {"x": 2, "y": 0.81},     // 2 pieces: 19% reduction
-    {"x": 3, "y": 0.729},    // 3 pieces: 27.1% reduction
-    {"x": 4, "y": 0.6561},   // 4 pieces: 34.4% reduction
-    {"x": 5, "y": 0.59049}   // 5 pieces: 40.95% reduction
-  ]
+ "curve": [
+ {"x": 0, "y": 1}, // 0 pieces: 1.0 (no reduction)
+ {"x": 1, "y": 0.9}, // 1 piece: 0.9 (10% reduction)
+ {"x": 2, "y": 0.81}, // 2 pieces: 19% reduction
+ {"x": 3, "y": 0.729}, // 3 pieces: 27.1% reduction
+ {"x": 4, "y": 0.6561}, // 4 pieces: 34.4% reduction
+ {"x": 5, "y": 0.59049} // 5 pieces: 40.95% reduction
+ ]
 }
 ```
 
 **ORPHANED JSON**: `legendarymods/armor_lessdamagesprinting.json`
 ```json
 {
-  "curve": [
-    {"x": 0,  "y": 0},
-    {"x": 5,  "y": 0.95},     // different scale: x=damage value, not piece count
-    {"x": 10, "y": 0.9025},
-    {"x": 15, "y": 0.8574},
-    {"x": 20, "y": 0.8145},
-    {"x": 25, "y": 0.7737}
-  ]
+ "curve": [
+ {"x": 0, "y": 0},
+ {"x": 5, "y": 0.95}, // different scale: x=damage value, not piece count
+ {"x": 10, "y": 0.9025},
+ {"x": 15, "y": 0.8574},
+ {"x": 20, "y": 0.8145},
+ {"x": 25, "y": 0.7737}
+ ]
 }
 ```
 **This orphaned file is NOT referenced by any CURV record or anywhere in the ESM.**
@@ -123,28 +123,28 @@ No CURV record named `CT_*_LessDamageSprinting` exists.
 **Active JSON**: `legendarymods/armor_sentinel.json`
 ```json
 {
-  "curve": [
-    {"x": 0, "y": 1},       // 0 pieces: no reduction
-    {"x": 1, "y": 0.95},    // 1 piece: 5% reduction
-    {"x": 2, "y": 0.90},    // 2 pieces: 10% reduction
-    {"x": 3, "y": 0.86},    // 3 pieces: 14% reduction
-    {"x": 4, "y": 0.81},    // 4 pieces: 19% reduction
-    {"x": 5, "y": 0.77}     // 5 pieces: 23% reduction
-  ]
+ "curve": [
+ {"x": 0, "y": 1}, // 0 pieces: no reduction
+ {"x": 1, "y": 0.95}, // 1 piece: 5% reduction
+ {"x": 2, "y": 0.90}, // 2 pieces: 10% reduction
+ {"x": 3, "y": 0.86}, // 3 pieces: 14% reduction
+ {"x": 4, "y": 0.81}, // 4 pieces: 19% reduction
+ {"x": 5, "y": 0.77} // 5 pieces: 23% reduction
+ ]
 }
 ```
 
 **ORPHANED JSON**: `legendarymods/armor_lessdamagestandstill.json`
 ```json
 {
-  "curve": [
-    {"x": 0,  "y": 0},
-    {"x": 5,  "y": 0.95},     // identical to sprinting orphan
-    {"x": 10, "y": 0.9025},
-    {"x": 15, "y": 0.8574},
-    {"x": 20, "y": 0.8145},
-    {"x": 25, "y": 0.7737}
-  ]
+ "curve": [
+ {"x": 0, "y": 0},
+ {"x": 5, "y": 0.95}, // identical to sprinting orphan
+ {"x": 10, "y": 0.9025},
+ {"x": 15, "y": 0.8574},
+ {"x": 20, "y": 0.8145},
+ {"x": 25, "y": 0.7737}
+ ]
 }
 ```
 **Also orphaned. NOT referenced by any CURV record or ESM entry.**
@@ -153,7 +153,7 @@ were once planned to have the same values.
 
 **CONFIRMED VALUES**: 5% at 1 piece, 23% at 5 pieces.
 **Previous claim was CORRECT.**
-**Key finding**: Cavalier (41%) is nearly TWICE as effective as Sentinel (23%).
+**Note:**: Cavalier (41%) is nearly TWICE as effective as Sentinel (23%).
 
 ---
 
@@ -166,19 +166,19 @@ were once planned to have the same values.
 **Active JSON**: `legendarymods/weapon_damageaddiction.json`
 ```json
 {
-  "curve": [
-    {"x": 0,  "y": 0},
-    {"x": 1,  "y": 10},
-    {"x": 2,  "y": 20},
-    {"x": 3,  "y": 30},
-    {"x": 4,  "y": 40},
-    {"x": 5,  "y": 50},
-    {"x": 6,  "y": 60},
-    {"x": 7,  "y": 70},
-    {"x": 8,  "y": 80},
-    {"x": 9,  "y": 90},
-    {"x": 10, "y": 100}
-  ]
+ "curve": [
+ {"x": 0, "y": 0},
+ {"x": 1, "y": 10},
+ {"x": 2, "y": 20},
+ {"x": 3, "y": 30},
+ {"x": 4, "y": 40},
+ {"x": 5, "y": 50},
+ {"x": 6, "y": 60},
+ {"x": 7, "y": 70},
+ {"x": 8, "y": 80},
+ {"x": 9, "y": 90},
+ {"x": 10, "y": 100}
+ ]
 }
 ```
 
@@ -204,10 +204,10 @@ CAN exceed the curve range, but values beyond x=10 would extrapolate linearly.
 **Active JSON**: `legendarymods/weapon_damageinversehealth.json`
 ```json
 {
-  "curve": [
-    {"x": 0.05, "y": 130},   // At 5% HP: +130% damage
-    {"x": 1,    "y": 0}      // At 100% HP: +0% damage
-  ]
+ "curve": [
+ {"x": 0.05, "y": 130}, // At 5% HP: +130% damage
+ {"x": 1, "y": 0} // At 100% HP: +0% damage
+ ]
 }
 ```
 
@@ -224,16 +224,16 @@ Uses CURV `CT_Legendary_Armor_ResistancesInverseHealth` (0x006C1374)
 JSON: `legendarymods/armor_resistancesinversehealth.json`
 ```json
 {
-  "curve": [
-    {"x": 0,    "y": 35},    // At 0% HP: +35 DR/ER per piece
-    {"x": 0.1,  "y": 35},    // At 10%: +35
-    {"x": 0.2,  "y": 32},    // At 20%: +32
-    {"x": 0.3,  "y": 28},    // At 30%: +28
-    {"x": 0.4,  "y": 24},    // At 40%: +24
-    {"x": 0.5,  "y": 20},    // At 50%: +20
-    {"x": 0.6,  "y": 16},    // At 60%: +16
-    {"x": 0.61, "y": 0}      // At 61%+: +0
-  ]
+ "curve": [
+ {"x": 0, "y": 35}, // At 0% HP: +35 DR/ER per piece
+ {"x": 0.1, "y": 35}, // At 10%: +35
+ {"x": 0.2, "y": 32}, // At 20%: +32
+ {"x": 0.3, "y": 28}, // At 30%: +28
+ {"x": 0.4, "y": 24}, // At 40%: +24
+ {"x": 0.5, "y": 20}, // At 50%: +20
+ {"x": 0.6, "y": 16}, // At 60%: +16
+ {"x": 0.61, "y": 0} // At 61%+: +0
+ ]
 }
 ```
 Note: This is actually the "Bolstering" effect (ResistancesInverseHealth), NOT Bloodied armor.
@@ -258,24 +258,24 @@ At 20% HP (typical bloodied build): approximately +109% bonus.
 `perks/nerdragedamagebonus.json`:
 ```json
 {
-  "curve": [
-    {"x": 0.05, "y": 80},    // At 5% HP: +80% damage
-    {"x": 0.2,  "y": 40},    // At 20% HP: +40% damage
-    {"x": 0.8,  "y": 1},     // At 80% HP: +1% damage
-    {"x": 1,    "y": 0}      // At 100% HP: +0% damage
-  ]
+ "curve": [
+ {"x": 0.05, "y": 80}, // At 5% HP: +80% damage
+ {"x": 0.2, "y": 40}, // At 20% HP: +40% damage
+ {"x": 0.8, "y": 1}, // At 80% HP: +1% damage
+ {"x": 1, "y": 0} // At 100% HP: +0% damage
+ ]
 }
 ```
 
 `perks/nerdrageapbonus.json`:
 ```json
 {
-  "curve": [
-    {"x": 0.05, "y": 30},    // At 5% HP: +30 AP regen
-    {"x": 0.2,  "y": 15},    // At 20% HP: +15 AP regen
-    {"x": 0.8,  "y": 1},     // At 80% HP: +1 AP regen
-    {"x": 1,    "y": 0}      // At 100% HP: +0 AP regen
-  ]
+ "curve": [
+ {"x": 0.05, "y": 30}, // At 5% HP: +30 AP regen
+ {"x": 0.2, "y": 15}, // At 20% HP: +15 AP regen
+ {"x": 0.8, "y": 1}, // At 80% HP: +1 AP regen
+ {"x": 1, "y": 0} // At 100% HP: +0 AP regen
+ ]
 }
 ```
 
@@ -301,17 +301,17 @@ was collapsed into one rank with the full curve scaling.
 **Active JSON**: `legendarymods/weapon_gourmand.json`
 ```json
 {
-  "curve": [
-    {"x": 0, "y": 0},
-    {"x": 1, "y": 5},
-    {"x": 2, "y": 10},
-    {"x": 3, "y": 15},
-    {"x": 4, "y": 20},
-    {"x": 5, "y": 25},
-    {"x": 6, "y": 30},
-    {"x": 7, "y": 35},
-    {"x": 8, "y": 40}
-  ]
+ "curve": [
+ {"x": 0, "y": 0},
+ {"x": 1, "y": 5},
+ {"x": 2, "y": 10},
+ {"x": 3, "y": 15},
+ {"x": 4, "y": 20},
+ {"x": 5, "y": 25},
+ {"x": 6, "y": 30},
+ {"x": 7, "y": 35},
+ {"x": 8, "y": 40}
+ ]
 }
 ```
 
@@ -358,22 +358,22 @@ All previously reported curve values are confirmed correct through the active re
 ### Corrections needed for CLAIMS ABOUT MECHANICS:
 
 1. **Nocturnal "rework to cloaking"** - FALSE. Nocturnal remains purely time-based.
-   The "Milepost Zero cloaking rework" claim was incorrect. The OMOD, PERK conditions,
-   and curve data all confirm time-of-day gating (21:00-06:00).
+ The "Milepost Zero cloaking rework" claim was incorrect. The OMOD, PERK conditions,
+ and curve data all confirm time-of-day gating (21:00-06:00).
 
 2. **"Cavalier/Sentinel were rebalanced to use different curve files"** - PARTIALLY CORRECT.
-   The ACTIVE curves are `armor_cavalier.json` and `armor_sentinel.json`. The orphaned
-   `armor_lessdamagesprinting.json` and `armor_lessdamagestandstill.json` exist but were
-   NEVER referenced by any CURV record. They appear to be early development artifacts,
-   not "old curves that got replaced." The Cavalier/Sentinel curves may have always been
-   the ones loaded by the game.
+ The ACTIVE curves are `armor_cavalier.json` and `armor_sentinel.json`. The orphaned
+ `armor_lessdamagesprinting.json` and `armor_lessdamagestandstill.json` exist but were
+ NEVER referenced by any CURV record. They appear to be early development artifacts,
+ not "old curves that got replaced." The Cavalier/Sentinel curves may have always been
+ the ones loaded by the game.
 
 3. **"The ESM records were changed to POINT TO DIFFERENT CURVES"** - UNVERIFIABLE.
-   The CURV records `CT_Legendary_Armor_Cavalier` and `CT_Legendary_Armor_Sentinel`
-   have FormIDs in the 0x008Axxxx range (very high = added in a late update). This suggests
-   they were added post-launch, possibly replacing an older curve system. However, it is
-   not possible to determine what the OMODs pointed to BEFORE these CURVs existed without
-   historical ESM snapshots.
+ The CURV records `CT_Legendary_Armor_Cavalier` and `CT_Legendary_Armor_Sentinel`
+ have FormIDs in the 0x008Axxxx range (very high = added in a late update). This suggests
+ they were added post-launch, possibly replacing an older curve system. However, it is
+ not possible to determine what the OMODs pointed to BEFORE these CURVs existed without
+ historical ESM snapshots.
 
 ## Key Takeaway
 

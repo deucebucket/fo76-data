@@ -34,7 +34,7 @@
 ## Gambler Title
 - `Gambler` [41008635] — likely a player title earned through casino content
 
-## Significance
+## Implications
 A complete casino gambling system exists in the game files but is disabled. This could be:
 - Legal issues (gambling in a game with microtransactions)
 - Incomplete feature waiting for activation

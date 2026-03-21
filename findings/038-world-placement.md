@@ -94,7 +94,7 @@ These are vestigial records from when FO76 forked from the FO4 codebase. They co
 ### High-Value Cut Cells
 
 #### Cut Vault Content
-| FormID | EditorID | Significance |
+| FormID | EditorID | Notes |
 |--------|----------|-------------|
 | 0x00002E22 | **zCUTVault65** | Vault 65 -- entire vault cell existed and was cut |
 | 0x00004CCA | zCUTUnusedVault120AirlockCOPY0000 | Vault 120 airlock -- 5 copies of Vault 120 cells |
@@ -126,7 +126,7 @@ These are vestigial records from when FO76 forked from the FO4 codebase. They co
 | 0x006862F6 | ZZZ76StormGPVault | Cut Storm-era vault |
 
 #### Cut Locations
-| FormID | EditorID | Significance |
+| FormID | EditorID | Notes |
 |--------|----------|-------------|
 | 0x000242A2 | **zCUTMoleManCity01** | Cut Mole Miner underground city |
 | 0x00006F40 | **zCUTHuntersvilleSewers** | Cut sewer system under Huntersville |
@@ -418,7 +418,7 @@ Major areas with exterior cells:
 These "Proto Expo" cells were internal presentation/demo cells where developers showcased upcoming features.
 
 ### Notable Debug Cells
-| FormID | EditorID | Significance |
+| FormID | EditorID | Notes |
 |--------|----------|-------------|
 | 0x006AC521 | DebugHillValley | "Hill Valley" -- Back to the Future reference? |
 | 0x006CD0F1 | DebugGreenScreen | Green screen studio for cinematics |

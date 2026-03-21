@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-A total of 1,958 orphaned voice recordings from 7 cut NPCs were extracted and converted to playable WAV audio (1.4 GB total). All conversions succeeded. The most significant discovery is that **Moe the Mole's complete 16-line dialogue script survives in the strings files** despite the quest being cut, and **Beckett's original finale was radically different** from what shipped -- set at Poseidon Power Plant with a branching moral choice involving a second villain called "The Bone."
+A total of 1,958 orphaned voice recordings from 7 cut NPCs were extracted and converted to playable WAV audio (1.4 GB total). All conversions succeeded. the primary discovery is that **Moe the Mole's complete 16-line dialogue script survives in the strings files** despite the quest being cut, and **Beckett's original finale was radically different** from what shipped -- set at Poseidon Power Plant with a branching moral choice involving a second villain called "The Bone."
 
 The Paladin Radio was a cut Brotherhood of Steel radio station with 5 broadcast segments (45 voice recordings, 4.3 minutes of audio). Ryan Ainsley and Marcus Wellsby were pre-war Whitespring Resort staffers with 14 total voice recordings (1.7 minutes) who were meant to be interactive ghost NPCs.
 
@@ -64,7 +64,7 @@ Despite the quest being cut and the voice files orphaned, the dialogue text surv
 9. `[00039481]` "There's many tales told 'round the ranger campfire about Scorpie, a massive scorpion that some folks swear is over a foot long! Hope we see him!"
 
 **Mid-Tour Banter**:
-10. `[00039482]` "Wow, adventuring sure makes me thirsty. Maybe we can have our scorpion friends use their pincers to open an ice cold bottle of Nuka Cola?"
+10. `[00039482]` "Wow, adventuring sure makes me thirsty. Maybe it is possible to have our scorpion friends use their pincers to open an ice cold bottle of Nuka Cola?"
 11. `[00039483]` "Remember, nature is wonderful but can also be dangerous. Always carry a firearm or two if you're wandering the wilderness without your parents!"
 
 **Unhinged Safety Tips**:
@@ -160,7 +160,7 @@ This was likely cut because having two parallel Brotherhood radio systems was re
 
 ### The Original vs. Shipped Finale
 
-The most significant discovery is that Beckett's storyline originally had a **completely different finale** that was scrapped and replaced.
+the primary discovery is that Beckett's storyline originally had a **completely different finale** that was scrapped and replaced.
 
 #### DELETED Version (Poseidon Power Plant, Branching Choice)
 
@@ -172,8 +172,8 @@ The most significant discovery is that Beckett's storyline originally had a **co
 3. FIND Brother's Room
 4. TALK with Brother
 5. **MAIN CHOICE**: Player must kill The Bone and The Claw at the same time. They are at separate locations converting new batches of Blood Eagles from the Nest. Player must pick:
-   - **CHOICE A**: Send Edwin's gang to kill The Bone
-   - **CHOICE B**: Send Edwin's gang to clear out extra Blood Eagles (makes everything easier)
+ - **CHOICE A**: Send Edwin's gang to kill The Bone
+ - **CHOICE B**: Send Edwin's gang to clear out extra Blood Eagles (makes everything easier)
 6. END -- Success / Fail / Shut Down
 
 **Location**: Poseidon Energy Plant (aliases reference Poseidon exterior, Poseidon01 interior, interior key room, jail cell, holding cell, jail keys, jail door, belongings)
@@ -285,7 +285,7 @@ Beckett's original storyline was substantially more complex:
 - **Name string**: `[0004312E] Ryan Ainsley`
 - **Newsletter**: "Remodelling of THE SPRINGHILL continues under the direction of Lead Architect Ryan Ainsley. The course will open for an exhibition tournament this fall."
 - **Family**: Connected to Wilbur Ainsley III, President & CEO of the Whitespring parent company (emails with "From: Ainsley, W." header)
-- **Dialogue from another NPC**: `[0004311D]` "Mr. Ainsley. I wanted to remark upon the fascinating design of your new Springhill golf course." -- This line survives in ilstrings from what appears to be a Wellsby or Whitespring staffer complimenting Ainsley
+- **Dialogue from another NPC**: `[0004311D]` "Mr. Ainsley. I wanted to remark upon the detailed design of your new Springhill golf course." -- This line survives in ilstrings from what appears to be a Wellsby or Whitespring staffer complimenting Ainsley
 
 ### Form IDs and Audio
 
@@ -378,7 +378,7 @@ This corroborates Finding 016 (Nuclear Winter Full Autopsy) -- the mode was subs
 | Beckett | 156 | 0 | Quest names via string refs | 0 |
 | ZAX | 90 | 0 | 0 | 0 |
 
-**Key finding**: The orphaned voice Form IDs themselves never appear in the ilstrings file (where spoken dialogue text lives). However, the **Moe the Mole quest's INFO records still reference the ilstrings via NAM1 string ID pointers** -- meaning the dialogue text survives because it was stored in the quest's INFO records (which still exist in the CUT quest), not because the Form IDs were looked up directly.
+**Note:**: The orphaned voice Form IDs themselves never appear in the ilstrings file (where spoken dialogue text lives). However, the **Moe the Mole quest's INFO records still reference the ilstrings via NAM1 string ID pointers** -- meaning the dialogue text survives because it was stored in the quest's INFO records (which still exist in the CUT quest), not because the Form IDs were looked up directly.
 
 This is an important distinction: Bethesda removes the Form ID references when cutting content, but sometimes leaves the INFO records and their string pointers intact inside cut quests. The text survives as an artifact of incomplete cleanup.
 
@@ -405,15 +405,15 @@ This is an important distinction: Bethesda removes the Form ID references when c
 All extracted audio files are at:
 ```
 ~/ai-drive/gamecryptids/data/fallout76/orphaned_audio/
-  sound/voice/seventysix.esm/   -- Raw FUZ files (109 MB)
-  wav/                          -- Converted WAV files (1.4 GB)
-    bs00_paladinradio_voicetype/  -- 45 files
-    babylon01_npcm_zax/           -- 620 files
-    npcm_lc060_marcuswellsby/     -- 3 files
-    npcm_lc060_ryanainsley/       -- 11 files
-    npcm_sf07_moe/                -- 8 files
-    w05_npcf_comp_beckett_visitor_ronny/  -- 77 files
-    w05_npcm_comp_beckett_main/   -- 1,194 files
+ sound/voice/seventysix.esm/ -- Raw FUZ files (109 MB)
+ wav/ -- Converted WAV files (1.4 GB)
+ bs00_paladinradio_voicetype/ -- 45 files
+ babylon01_npcm_zax/ -- 620 files
+ npcm_lc060_marcuswellsby/ -- 3 files
+ npcm_lc060_ryanainsley/ -- 11 files
+ npcm_sf07_moe/ -- 8 files
+ w05_npcf_comp_beckett_visitor_ronny/ -- 77 files
+ w05_npcm_comp_beckett_main/ -- 1,194 files
 ```
 
 ---

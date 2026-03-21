@@ -237,7 +237,7 @@ When a nuke zone overlaps a fishing spot, the catch tables shift to `_NukeWeathe
 - `Fishing_Odds_NukeWeather_ImprovedBait_*` (6 categories)
 - `Fishing_Odds_NukeWeather_SuperbBait_*` (6 categories)
 
-**Key finding:** Nuke zones have their own complete probability tables (18 globals for nuke weather alone). Nuking a fishing spot does NOT just increase glowing fish — it shifts the entire loot table, potentially increasing Local Legend odds as well (`Fishing_Odds_NukeWeather_SuperbBait_LocalLegendFish`).
+**Note::** Nuke zones have their own complete probability tables (18 globals for nuke weather alone). Nuking a fishing spot does NOT just increase glowing fish — it shifts the entire loot table, potentially increasing Local Legend odds as well (`Fishing_Odds_NukeWeather_SuperbBait_LocalLegendFish`).
 
 ---
 

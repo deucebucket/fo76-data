@@ -11,7 +11,7 @@
 
 Analysis of Fallout 76's decompiled Papyrus scripts reveals a client-server architecture where most critical game logic (economy, inventory, combat) is handled server-side via Native functions. The Papyrus scripting layer primarily handles UI presentation, state machine transitions, and event coordination. While the architecture is fundamentally sound for an online game, several categories of potential vulnerabilities exist, primarily around race conditions in state machines, debug code remnants, and client-trust patterns in older subsystems.
 
-**Critical finding:** Most economy-sensitive operations (AddItem, RemoveCurrency, etc.) appear to be Native functions that execute server-side, significantly limiting the attack surface from script manipulation alone. The primary risk vectors are timing-based exploits and logical bypasses rather than direct value manipulation.
+**Note:** Most economy-sensitive operations (AddItem, RemoveCurrency, etc.) appear to be Native functions that execute server-side, significantly limiting the attack surface from script manipulation alone. The primary risk vectors are timing-based exploits and logical bypasses rather than direct value manipulation.
 
 ---
 
@@ -61,19 +61,19 @@ Spell Property ATX_BuffLuck Auto Const mandatory
 **Evidence:**
 ```papyrus
 Auto State Ready
-  Event OnActivate(ObjectReference akActionRef)
-    Self.GotoState("Busy")
-    If akActionRef.IsLocalPlayer()
+ Event OnActivate(ObjectReference akActionRef)
+ Self.GotoState("Busy")
+ If akActionRef.IsLocalPlayer()
 
-    EndIf
-    Self.GotoState("Ready")    ; <-- Returns to Ready immediately
-  EndEvent
+ EndIf
+ Self.GotoState("Ready") ; <-- Returns to Ready immediately
+ EndEvent
 EndState
 
 State Busy
-  Event OnActivate(ObjectReference akActionRef)
-    ; Empty function
-  EndEvent
+ Event OnActivate(ObjectReference akActionRef)
+ ; Empty function
+ EndEvent
 EndState
 ```
 - The script transitions to "Busy" but returns to "Ready" within the same event handler
@@ -88,16 +88,16 @@ EndState
 **Evidence:**
 ```papyrus
 Event OnActivate(ObjectReference akActionRef)
-  If akActionRef.IsAPlayer()
-    If LunchBoxActivated == False
-      LunchBoxActivated = True
-      Self.damageObject(10.0)
-    Else
-      Self.disable(False)
-      akActionRef.AddItem(LunchBoxToAdd as Form, 1, False, False, None, 0)
-      Self.Delete()
-    EndIf
-  EndIf
+ If akActionRef.IsAPlayer()
+ If LunchBoxActivated == False
+ LunchBoxActivated = True
+ Self.damageObject(10.0)
+ Else
+ Self.disable(False)
+ akActionRef.AddItem(LunchBoxToAdd as Form, 1, False, False, None, 0)
+ Self.Delete()
+ EndIf
+ EndIf
 EndEvent
 ```
 - Two rapid activations: first sets `LunchBoxActivated = True`, second gives item
@@ -168,11 +168,11 @@ Int Property iRewardAmount = 100 Auto Const
 **Evidence:**
 ```papyrus
 Group DebugData
-  Int Property ForceTarget = -1 Auto Const
-  Int Property ForceImplement = -1 Auto Const
-  Form Property DebugAmmo5mm Auto Const
-  Form Property DebugAmmo10mm Auto Const
-  ...
+ Int Property ForceTarget = -1 Auto Const
+ Int Property ForceImplement = -1 Auto Const
+ Form Property DebugAmmo5mm Auto Const
+ Form Property DebugAmmo10mm Auto Const
+ ...
 ```
 - Debug properties that force specific targets and grant debug ammo
 - `ForceTarget` and `ForceImplement` allow overriding random selection
@@ -235,10 +235,10 @@ Float MostRecentLaunch
 **Evidence:**
 ```papyrus
 Auto State WaitForLoad
-  Event OnLoad()
-    Self.GoToState("done")
-    Self.RemoveAllItems(Self.GetLinkedRef(None), False)
-  EndEvent
+ Event OnLoad()
+ Self.GoToState("done")
+ Self.RemoveAllItems(Self.GetLinkedRef(None), False)
+ EndEvent
 EndState
 ```
 - Transfers ALL items from one container to a linked container on load
@@ -281,8 +281,8 @@ Int Property BaseChanceFailureBump = 5 Auto Const
 **Evidence:**
 ```papyrus
 Group Autofill_Properties
-  GlobalVariable Property DisableAccessRestrictions Auto Const mandatory
-  { Debug global. When set, disables all access restrictions. }
+ GlobalVariable Property DisableAccessRestrictions Auto Const mandatory
+ { Debug global. When set, disables all access restrictions. }
 EndGroup
 ```
 - A single GlobalVariable can disable ALL access restrictions across every RestrictedAccessScript instance
@@ -298,7 +298,7 @@ EndGroup
 ```papyrus
 Bool Property BypassInstanceCheck = False Auto Const
 { If TRUE, bypass checking if the team leader is the instance owner.
-  This allows the script to be used outside of instances. Should NOT be used inside instances. }
+ This allows the script to be used outside of instances. Should NOT be used inside instances. }
 ```
 - Both scripts have a `BypassInstanceCheck` property
 - If set to True on an instanced laser grid/hand scanner, any team leader would gain access regardless of instance ownership
@@ -329,11 +329,11 @@ Bool Property triggerByEnemiesOnly = False Auto hidden
 **Evidence:**
 ```papyrus
 Event ObjectReference.OnTriggerEnter(ObjectReference akSender, ObjectReference akActionRef)
-  If akSender == Self.GetLinkedRef(LinkCustom01)
-    Self.ClientHasJoinedAttackers(akActionRef)
-  ElseIf akSender == Self.GetLinkedRef(LinkCustom02)
-    Self.ClientHasJoinedDefenders(akActionRef)
-  EndIf
+ If akSender == Self.GetLinkedRef(LinkCustom01)
+ Self.ClientHasJoinedAttackers(akActionRef)
+ ElseIf akSender == Self.GetLinkedRef(LinkCustom02)
+ Self.ClientHasJoinedDefenders(akActionRef)
+ EndIf
 EndEvent
 ```
 - Team assignment is done by walking through trigger volumes
@@ -375,12 +375,12 @@ Bool editingArray = False
 **Evidence:**
 ```papyrus
 Function PlayDispenseSound(Int aiTokensToGive)
-  Int I = 0
-  While I < aiTokensToGive
-    TokenExchangeDispenseSFX.Play(Self as ObjectReference, "")
-    Utility.Wait(0.1)
-    I += 1
-  EndWhile
+ Int I = 0
+ While I < aiTokensToGive
+ TokenExchangeDispenseSFX.Play(Self as ObjectReference, "")
+ Utility.Wait(0.1)
+ I += 1
+ EndWhile
 EndFunction
 ```
 - If `aiTokensToGive` is very large, this creates a long-running sound loop

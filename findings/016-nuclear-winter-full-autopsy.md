@@ -28,11 +28,11 @@ From `DLC01_QP_Babylon_Enable`, the storm operates on a phase-based constriction
 
 ```
 Struct ConstrictionPhase
-  Float Radius                    -- target radius for this phase
-  curvetable DamageTable          -- damage curve (scales with depth in storm)
-  Int SafeTimeSeconds             -- countdown before constriction begins
-  Int ConstrictTimeSeconds        -- how long the shrink takes
-  Float BufferPctFromPrevRadius   -- buffer zone between old and new safe area (0-1)
+ Float Radius -- target radius for this phase
+ curvetable DamageTable -- damage curve (scales with depth in storm)
+ Int SafeTimeSeconds -- countdown before constriction begins
+ Int ConstrictTimeSeconds -- how long the shrink takes
+ Float BufferPctFromPrevRadius -- buffer zone between old and new safe area (0-1)
 EndStruct
 ```
 
@@ -48,9 +48,9 @@ From `DLC01_BabylonClientDataInitializer`, the storm wall was a massive visual e
 - **Default storm wall height:** 30,500 game units (approximately 300+ meters)
 - **Per-map height overrides** via `StormWallMapInstanceData` structs
 - **Fire-based particle effects** with vertex animations simulating a wall of flame:
-  - Wave animation (rocking back and forth): WaveFreq=5.0, WaveAmp=0.15
-  - Shimmer animation (lateral shimmying): ShimmerFreq=10.0, ShimmerAmp=10.0
-  - Gust animation (depth wobble): GustFreq=1.0, GustAmp=30.0
+ - Wave animation (rocking back and forth): WaveFreq=5.0, WaveAmp=0.15
+ - Shimmer animation (lateral shimmying): ShimmerFreq=10.0, ShimmerAmp=10.0
+ - Gust animation (depth wobble): GustFreq=1.0, GustAmp=30.0
 - **Multiple particle layers** could be stacked, each with their own storm level thresholds (MinStormLevel/MaxStormLevel 0-100)
 - **Weather transitions** triggered at storm level thresholds -- the weather changed as the storm intensified
 - **Separate nuke zone ramp texture** (`NukeWallRampTexture`) -- the storm wall looked different in nuked areas
@@ -324,22 +324,22 @@ From `DLC01_QP_Babylon_Enable`, NW featured AI creature spawns during matches:
 
 ```
 Struct AIWave
-  Int SpawnTimeSeconds      -- when to spawn
-  Int NumEncountersToSpawn  -- how many encounters per wave
+ Int SpawnTimeSeconds -- when to spawn
+ Int NumEncountersToSpawn -- how many encounters per wave
 EndStruct
 
 Struct AIEncounter
-  ObjectReference Marker    -- spawn location (or random in safe area)
-  Float MarkerRadius        -- spawn radius around marker
-  Form Type                 -- creature type
-  LeveledItem LootList      -- loot dropped by AI
-  Int Count                 -- number of creatures
-  Int MinLevel/MaxLevel     -- level range (default: 50)
-  Int MinWave/MaxWave       -- which waves this encounter can appear in
-  Keyword AITier            -- low/medium/elite designation
-  Bool MarkerCanSpawnInStorm -- if true, can spawn in storm zone
-  Bool MustSpawnInSafeZone  -- forces spawn in safe area
-  Bool UseLargeCreaturePathing -- enables large creature pathing
+ ObjectReference Marker -- spawn location (or random in safe area)
+ Float MarkerRadius -- spawn radius around marker
+ Form Type -- creature type
+ LeveledItem LootList -- loot dropped by AI
+ Int Count -- number of creatures
+ Int MinLevel/MaxLevel -- level range (default: 50)
+ Int MinWave/MaxWave -- which waves this encounter can appear in
+ Keyword AITier -- low/medium/elite designation
+ Bool MarkerCanSpawnInStorm -- if true, can spawn in storm zone
+ Bool MustSpawnInSafeZone -- forces spawn in safe area
+ Bool UseLargeCreaturePathing -- enables large creature pathing
 EndStruct
 ```
 
@@ -356,9 +356,9 @@ When players died in NW, they received `BabylonGhostPotion`:
 - Could be removed by the player (attacking, picking up items)
 - Had a timer that eventually expired
 - Separate tutorials for each removal method:
-  - `babylon_ghostpotion` -- first time entering ghost mode
-  - `babylon_ghostpotion_removed_by_player` -- player broke ghost mode
-  - `babylon_ghostpotion_removed_by_timer` -- ghost mode expired
+ - `babylon_ghostpotion` -- first time entering ghost mode
+ - `babylon_ghostpotion_removed_by_player` -- player broke ghost mode
+ - `babylon_ghostpotion_removed_by_timer` -- ghost mode expired
 
 ### 9.2 Stimpak/Revive System
 

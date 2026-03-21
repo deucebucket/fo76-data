@@ -16,7 +16,7 @@ The key technical pattern is: **destructible object + enable marker = hidden con
 
 ## CATEGORY 1: NON-QUEST DESTRUCTIBLE BARRIERS (The Hidden Ones)
 
-These are the most interesting findings -- destructible objects placed in the world that are NOT part of obvious quest objectives.
+These are the notable findings -- destructible objects placed in the world that are NOT part of obvious quest objectives.
 
 ### 1.1 Breakable Rock Walls (Generic System)
 
@@ -294,8 +294,8 @@ Extensive destructible floor and wall system:
 ### 5.5 Power Plants (Poseidon, Thunder Mountain, Monongah)
 
 - Multiple breakable pipe and machine variants for each power plant section:
-  - `_PowerPlantCooling`, `_PowerPlantGenerator`, `_PowerPlantReactor` suffixes
-  - `MSilo_Reactor_` prefixed variants for missile silos
+ - `_PowerPlantCooling`, `_PowerPlantGenerator`, `_PowerPlantReactor` suffixes
+ - `MSilo_Reactor_` prefixed variants for missile silos
 
 ---
 
@@ -413,7 +413,7 @@ The following destructible objects have NO quest prefix in their names, making t
 | 0x002EC9C8 | `HandScanner_Destructible` | ACTI | Destructible hand scanner |
 | 0x0036B0BE | `High_Tech_BBQ_Destructible` | MSTT | Destructible BBQ grill |
 
-**The breakable rock walls are the most significant finding.** They are generic templates that can be placed in any cave with no quest association, no objective marker, and no indication they can be broken. Players must simply try shooting walls to discover them.
+**The breakable rock walls are the primary finding.** They are generic templates that can be placed in any cave with no quest association, no objective marker, and no indication they can be broken. Players must simply try shooting walls to discover them.
 
 ---
 

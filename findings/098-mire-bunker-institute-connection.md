@@ -18,10 +18,10 @@ Deep analysis of the ESM reveals that `zCUTMireBunker01` was internally named **
 ### The Cell Record
 
 ```
-CELL: 0x0040A89D  zCUTMireBunker01
-:FULL  [0xD9000F14]
-:DATA  0x0001
-:XCLW  0.000000
+CELL: 0x0040A89D zCUTMireBunker01
+:FULL [0xD9000F14]
+:DATA 0x0001
+:XCLW 0.000000
 ```
 
 The `:FULL` name reference resolves to string `[D9000F14]`: **"New Hagerstown Greenhouse"**
@@ -54,7 +54,7 @@ A "New Hagerstown Greenhouse" in the Mire near Vault 94 was almost certainly pla
 
 The ESM contains a leveled list tying the Enclave directly to Mire-region weapons:
 ```
-LVLI: 0x004F52AD  LLS_Mods_Weapons_Ranged_RegionMire_Enclave_PlasmaGun
+LVLI: 0x004F52AD LLS_Mods_Weapons_Ranged_RegionMire_Enclave_PlasmaGun
 ```
 
 This is a leveled item list for Enclave Plasma Gun mods specifically tagged to the Mire region. Leveled lists are used to populate loot tables -- this one would have placed Enclave plasma weapon mods in containers or on enemies in the Mire. Its existence proves the Enclave had planned content in the Mire region beyond just the cell.
@@ -84,7 +84,7 @@ Ryan Ainsley is one of eight cut Whitespring ghost NPCs (voice type `CUT_NPCM_LC
 > "Of course he's over budget. Of course he's behind schedule. I own two dozen golf courses, James, and I've never seen a redesign that wasn't. This is Ryan's first project. It may take him an extra month or two, but he's a smart young man. He'll get it done. Those nine years of college weren't for nothing. Until then, back off. I have to put up with this bickering from both ends. It's a hell of a lot easier for me to fire you than my son."
 
 **From a cut Whitespring guest NPC dialogue** (seventysix_ilstrings_en.txt, line 8046):
-> "Mr. Ainsley. I wanted to remark upon the fascinating design of your new Springhill golf course."
+> "Mr. Ainsley. I wanted to remark upon the detailed design of your new Springhill golf course."
 
 ### The Ainsley Family Structure
 
@@ -110,9 +110,9 @@ These three CIT references establish an institutional pipeline:
 
 ```
 CIT (Commonwealth) ──► VTU (Appalachia) ──► ATLAS/Whitespring/Vault-Tec
-         │                    │                       │
-    Ryan Ainsley         Volkmer (Dean)         Roboticist (Assaultrons)
-    (nuclear eng)        (Math + Nuclear)       (Department of Robotics)
+ │ │ │
+ Ryan Ainsley Volkmer (Dean) Roboticist (Assaultrons)
+ (nuclear eng) (Math + Nuclear) (Department of Robotics)
 ```
 
 Volkmer graduated from CIT with doctorates in Applied Mathematics and Nuclear Engineering, then became Dean of Physics at VTU (Vault-Tec University) in Morgantown, and finally Chief Technician at the ATLAS facility. The unnamed roboticist lectured at CIT's Department of Robotics before joining RobCo to develop Assaultrons -- the very robots MODUS commands in the Whitespring Bunker.
@@ -143,15 +143,15 @@ The `DNPrimeCIT` records (6 location reference types) are particularly interesti
 ### The Cell Record
 
 ```
-CELL: 0x00003261  zCUTWhitespringBunkerOld
-:FULL  [0x0003773B]
-:DATA  0x0081
-:XCLW  0.000000
+CELL: 0x00003261 zCUTWhitespringBunkerOld
+:FULL [0x0003773B]
+:DATA 0x0081
+:XCLW 0.000000
 ```
 
 The display name resolves to: **"Whitespring Bunker OLD"** (strings line 16188)
 
-### What Makes This Cell Remarkable
+### what distinguishes this Cell notable
 
 - **FormID 0x00003261**: This is an extremely low FormID, making it one of the earliest cells created in FO76's development. For comparison, the shipped bunker (`WhitespringBunker01`) has FormID 0x001294F4 -- created much later.
 - **DATA 0x0081**: The flag value `0x81` indicates `0x01` (interior cell) + `0x80` (can't wait flag). The shipped bunker has `DATA 0x41` (`0x01` interior + `0x40` no LOD water). The different flags suggest different environmental properties.
@@ -162,17 +162,17 @@ The display name resolves to: **"Whitespring Bunker OLD"** (strings line 16188)
 The LAYR (layer) records tell the story of the bunker's development:
 
 ```
-WhitespringBunkerOLD                    (0x002A5AF6) -- Original layout
-WhitespringBunker                       (0x002A318C) -- Base redesigned bunker
-WhitespringBunker_Entry                 (0x002A387A) -- Entry area
-WhitespringBunker_Foyer                 (0x002A592A) -- Foyer
-WhitespringBunker_Admissions            (0x002A48BE) -- Admissions processing
-WhitespringBunker_MilitaryWing_1F       (0x002A4053) -- Military wing floor 1
-WhitespringBunker_MilitaryWing_2F       (0x002A39BA) -- Military wing floor 2
-WhitespringBunker_ProductionWing1F      (0x002A53D7) -- Production wing floor 1
-WhitespringBunker_ProductionWing2F      (0x002A46EE) -- Production wing floor 2
-WhitespringBunker_CommCenter            (0x002A3556) -- Communications center
-WhitespringBunker_OvalOffice            (0x002A37BD) -- Oval Office replica
+WhitespringBunkerOLD (0x002A5AF6) -- Original layout
+WhitespringBunker (0x002A318C) -- Base redesigned bunker
+WhitespringBunker_Entry (0x002A387A) -- Entry area
+WhitespringBunker_Foyer (0x002A592A) -- Foyer
+WhitespringBunker_Admissions (0x002A48BE) -- Admissions processing
+WhitespringBunker_MilitaryWing_1F (0x002A4053) -- Military wing floor 1
+WhitespringBunker_MilitaryWing_2F (0x002A39BA) -- Military wing floor 2
+WhitespringBunker_ProductionWing1F (0x002A53D7) -- Production wing floor 1
+WhitespringBunker_ProductionWing2F (0x002A46EE) -- Production wing floor 2
+WhitespringBunker_CommCenter (0x002A3556) -- Communications center
+WhitespringBunker_OvalOffice (0x002A37BD) -- Oval Office replica
 WhitespringBunker_QuestObjectsFromDefaultLayer (0x002A5AF7) -- Quest objects migrated from default
 ```
 
@@ -180,7 +180,7 @@ The layer `WhitespringBunker_QuestObjectsFromDefaultLayer` (0x002A5AF7 -- one Fo
 
 The "OLD" bunker was also associated with Vault 94:
 ```
-CELL: 0x00405EE5  PackInLGTv94sublightStorageCellDUPLICATE000
+CELL: 0x00405EE5 PackInLGTv94sublightStorageCellDUPLICATE000
 ```
 This "DUPLICATE" cell for Vault 94 sublighting appears near the old bunker records, suggesting shared development period.
 
@@ -230,8 +230,7 @@ The ESM contains three tiers of Enclave Scout Armor with Vault 94 connections:
 | 0x005527CF | `Armor_EnclaveScoutUniform_LegRight_Set_V94_Bleed` |
 | 0x005527D0 | `Armor_EnclaveScoutUniform_Torso_Set_V94_Bleed` |
 
-### What This Tells Us
-
+### Technical Details
 The FormIDs reveal the development sequence:
 
 1. **First pass** (0x0053AF range): A combined development batch created BOTH the Camo set and the Solar set. The Camo set's ArmLeft is 0x0053AF14, Solar ArmLeft is 0x0053AF13 -- they are interleaved, created in the same session. The original Solar torso (0x0053AF1B) was cut alongside the Camo set.
@@ -245,8 +244,8 @@ The FormIDs reveal the development sequence:
 The keyword system makes the connection explicit:
 
 ```
-KYWD: 0x005581FA  ma_Armor_EnclaveScoutUniform_Set_V94_Solar
-KYWD: 0x00557649  ma_Armor_EnclaveScoutUniform_Set_V94_Bleed
+KYWD: 0x005581FA ma_Armor_EnclaveScoutUniform_Set_V94_Solar
+KYWD: 0x00557649 ma_Armor_EnclaveScoutUniform_Set_V94_Bleed
 ```
 
 These are **mod association keywords** -- they define which armor mods can be applied to which armor sets. The fact that these keywords exist for both Solar and Bleed variants, using the `EnclaveScoutUniform` naming convention, confirms that the V94 armor was always designed as a variant of Enclave Scout Armor, not a separate armor class.
@@ -343,7 +342,7 @@ EnclaveScientist01 (male) approaches Eckhart's scientist (EnclaveScientist02, fe
 Eckhart receives Santiago's forces at the bunker. He uses extreme flattery: "Making it all the way from the Capital with, I'm told, minimal casualties. Very impressive." Santiago is guarded. Eckhart probes about conditions in DC with fake sympathy: "The most insincere of sympathies." Santiago reluctantly confirms it's bad: "Sir. It's like nothing we ever trained for. Not really." Eckhart sees Santiago as a tool: "almost gloating, knows he's got her hooked" for his revenge plan against the Chinese.
 
 **Recording 07a -- Seen Hell** (Whitespring Automated Recording 5.3.1):
-Agent Grey interrogates Santiago about her journey from DC. He suspects her of being a spy: "Linger on 'incredible.' You don't believe her. You don't think she's credible." Santiago fires back: "We've seen Hell, Mr. Grey. We're here to make sure the Reds get it worse." Grey probes about her "visits overseas" (she was possibly an assassin). Santiago's soldiers respond with fury: "You are pissed off. This person is questioning your loyalty. You're tearing him a new one."
+Agent Grey interrogates Santiago about her journey from DC. He suspects her of being a spy: "Linger on 'extensive.' You don't believe her. You don't think she's credible." Santiago fires back: "the files contain seen Hell, Mr. Grey. We're here to make sure the Reds get it worse." Grey probes about her "visits overseas" (she was possibly an assassin). Santiago's soldiers respond with fury: "You are pissed off. This person is questioning your loyalty. You're tearing him a new one."
 
 **Recording 08 -- Scorchbeast** (no unique dialogue excerpted in this scan -- scene present):
 The first Scorchbeast encounter is documented. Director note from the Blackwell scene references: "The specimen was inadvertently exposed to our biochemical tests last year, considered a failure at the time." The creature originated from "the Chiroptera order before undergoing changes... bats, sir." Eckhart orders it kept and studied: "I'm not asking for concerns. I want results."
@@ -442,7 +441,7 @@ Ryan Ainsley's father owned the resort above the Enclave bunker. Ryan was a CIT 
 
 ## Data References
 
-| Record | FormID | Type | Significance |
+| Record | FormID | Type | Notes |
 |--------|--------|------|-------------|
 | zCUTMireBunker01 | 0x0040A89D | CELL | Cut Mire bunker = "New Hagerstown Greenhouse" |
 | zCUTWhitespringBunkerOld | 0x00003261 | CELL | Original bunker (earliest FormID range) |

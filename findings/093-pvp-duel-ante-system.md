@@ -130,7 +130,7 @@ players could place bounties on other players, and anyone could collect. the sys
 
 ## the server cut mechanic
 
-one of the most interesting details is `AnteServerCut` and `BonusServerCut`. the server takes a percentage of every duel bet and every bonus reward. this functions as a caps sink — it removes currency from the economy with every duel. bethesda built a casino-style house edge into the PvP system.
+one of the notable details is `AnteServerCut` and `BonusServerCut`. the server takes a percentage of every duel bet and every bonus reward. this functions as a caps sink — it removes currency from the economy with every duel. bethesda built a casino-style house edge into the PvP system.
 
 this makes economic sense for an MMO: PvP betting without a house cut would be a neutral transfer (caps move between players but total economy stays the same). with a server cut, every duel removes caps from circulation, counteracting inflation.
 

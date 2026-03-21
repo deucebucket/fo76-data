@@ -22,18 +22,18 @@ The `CasinoGameToOpen` property defines 6 distinct games:
 - **UI integration**: Bet resolution with cap rewards, fanfare display
 - **Physical furniture**: Each game has physical furniture with animations
 
-## What's Disabled
+## Disabled Components
 - `$CASINO_ERROR_CASINO_DISABLED` — Server-side toggle exists
 - The furniture exists in Atlantic City Expedition content
 - All UI elements are present
 
-## Why It Might Be Disabled
+## Possible Reasons for Disabling
 - Gambling mechanics in a game with real-money microtransactions (Atoms) could face regulatory issues
 - Some regions have strict laws about gambling in games
 - May be waiting for a specific content update to activate
 - Could be a seasonal event feature
 
-## Dig Deeper
+## Further Investigation
 - Search for cap bet amounts and payout tables in curve tables
 - Check if "Derby" refers to horse racing or creature racing (brahmin? radstag?)
 - Look for casino-specific perk cards or bonuses

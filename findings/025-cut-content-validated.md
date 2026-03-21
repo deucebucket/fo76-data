@@ -135,7 +135,7 @@ The GHL (Ghoulification) system shipped with certain perks. These 11 perk cards 
 | **Tunnel Runner** | Speed boost in tunnels/interiors |
 | **Wild Card** | Elemental random damage (fire/poison/freeze/radiation/explosion) |
 
-The **Wild Card** perk is the most complex -- it has a master spell that randomly selects from fire, poison, freeze, radiation, or explosion damage types. This has 4 ranks (`WildCardLastShotPerk01-04`) suggesting it scaled with investment.
+The **Wild Card** perk is the largest -- it has a master spell that randomly selects from fire, poison, freeze, radiation, or explosion damage types. This has 4 ranks (`WildCardLastShotPerk01-04`) suggesting it scaled with investment.
 
 **What's documented vs. not:** The Fandom wiki documents the ghoul player system broadly, but these specific cut perk cards and the Wild Card's multi-element random system are not documented anywhere.
 
@@ -152,9 +152,9 @@ The **Wild Card** perk is the most complex -- it has a master spell that randoml
 - **Beginner Perk Card Pack Currency** (`BabylonBeginnerPerkCardPackCurrency`) -- new players got starter packs
 - **Babylon ZAX Ticket Currency** (`BabylonZAXTicketCurrency`) -- tickets earned through play
 - **End-game ranking with Solo/Duo/Squad caps and XP** -- separate reward curves for each team size:
-  - `BabylonEndGameSoloTeamRank_Caps/Experience`
-  - `BabylonEndGameDuoTeamRank_Caps/Experience`
-  - `BabylonEndGameSquadTeamRank_Caps/Experience`
+ - `BabylonEndGameSoloTeamRank_Caps/Experience`
+ - `BabylonEndGameDuoTeamRank_Caps/Experience`
+ - `BabylonEndGameSquadTeamRank_Caps/Experience`
 - **Storm zone damage stages 1-4** with escalating curves
 - **Babylon-specific consumables**: Ghost Mode potion, Warmth effect, radiation immunity, custom Stimpak/SuperStimpak/Diluted
 - **Babylon-unique weapons**: Radium Rifle, Laser Damage variants

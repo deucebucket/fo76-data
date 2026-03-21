@@ -33,7 +33,7 @@ A massive, fully-scripted alternate new player experience set entirely inside Va
 | `[59002963]` | "I've awakened inside Vault 76 after recovering from an injury, and a mysterious voice has beckoned me to enter the survival training simulation pods nearby. My caretaker, Professor Dayton, is missing." |
 | `[5900216A]` | "Amnesia, huh? I'm Professor Rupert Dayton. We're both residents of Vault 76." |
 | `[590021A3]` | "Now the AI thinks it's 'rescuing' us by luring us in here and holding us hostage!" |
-| `[59002186]` | "We used to be your survival training instructors, but we've found a better use for our simulation: keeping you safe and sound!" |
+| `[59002186]` | "We used to be your survival training instructors, but the files contain found a better use for our simulation: keeping you safe and sound!" |
 | `[590026C1]` | "Yes. You may go, resident, but Professor Dayton stays." |
 
 **Branching quest structure discovered in ESM dump:**
@@ -201,7 +201,7 @@ An entire hidden Enclave research narrative in the newest content (D9 Form ID ra
 | Form ID | Text |
 |---------|------|
 | `[D90095AD]` | "No, this project, codenamed 'Vulcan,' has a different aim. For while others simply use Ultracite, we intend to understand it." |
-| `[D90095C5]` | "I can hear the plaudits now. If we can harness this new power, this 'Ultragenesis,' then we really will be the masters of Ultracite." |
+| `[D90095C5]` | "I can hear the plaudits now. If it is possible to harness this new power, this 'Ultragenesis,' then we really will be the masters of Ultracite." |
 | `[D90095C6]` | "The Enclave will be truly unstoppable!" |
 | `[D90095D7]` | "Dr. Gaines was working in the lab, shooting soundwaves at crystals and pissing off his mutated test subject." |
 | `[D90095D8]` | "Well what happens when you piss off a mutie? It breaks out of its cage and turns you into a human pretzel." |
@@ -236,7 +236,7 @@ Several instances of characters found "buck naked" -- mostly played for comedy o
 
 | Form ID | Text |
 |---------|------|
-| `[00043BC9]` | "Colton, we found you on the roof of your shack, buck naked, yelling at the top of your lungs." |
+| `[00043BC9]` | "Colton, the data contains you on the roof of your shack, buck naked, yelling at the top of your lungs." |
 | `[0005B677]` | "Came across him acting like a rabid dog shivering in the woods naked, couldn't remember a thing..." (Flatwoods Monster encounter) |
 | `[7100498E]` | "Then you'll find yourself splayed out naked on the Boardwalk two days later, choking on your own vomit." |
 | `[D90016C5]` | "Or was it the time he got you to hand over your clothes and left you naked in the Mire?" |

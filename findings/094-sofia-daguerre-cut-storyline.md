@@ -11,7 +11,7 @@
 
 Sofia Daguerre's companion storyline shipped with 1,362 connected voice lines across a 16-quest arc (intro + 15 radiant fetch/kill quests + camp management + outro). Of her 1,449 total voice files, 87 are orphaned (6.0%), indicating targeted cuts rather than wholesale removal. The cuts reveal **three deleted quest variants**, **two cut vendor conversations**, **a deleted rescue quest system**, **a removed scrap/salvage scene**, **an abandoned intro sequence**, and **a deleted key item** pointing to a lab infiltration quest that was redesigned before shipping.
 
-The most significant cut is a **branching rescue quest system** where the player could rescue either A.T.H.E.N.A. or Emerson from robot captors -- a dynamic quest that would have varied based on the player's relationship progression. This mechanic was deleted entirely rather than simplified.
+the primary cut is a **branching rescue quest system** where the player could rescue either A.T.H.E.N.A. or Emerson from robot captors -- a dynamic quest that would have varied based on the player's relationship progression. This mechanic was deleted entirely rather than simplified.
 
 ---
 
@@ -154,13 +154,13 @@ Quest stage notes reveal additional interaction paths that were partially preser
 - "ATHENA unlocked the 'Transfer' path in the terminal"
 - "USE LUCK: Transfer to Assaultron" -- The transfer requires a LUCK check
 - "USE: Console" with sub-stages for:
-  - "TERMINAL: Access Granted"
-  - "FOUND: Emerson's Password"
-  - "PERC: ATHENA granted permission" (Perception check)
-  - "INT: Hacked password" (Intelligence check)
-  - "INT: Recall AV from Intro: Blue Sunset" (callback to intro quest)
-  - "EMERSON uses Arachne" (Emerson makes the choice instead of the player)
-  - "EMERSON reroutes to Assaultron" (Emerson makes the transfer choice)
+ - "TERMINAL: Access Granted"
+ - "FOUND: Emerson's Password"
+ - "PERC: ATHENA granted permission" (Perception check)
+ - "INT: Hacked password" (Intelligence check)
+ - "INT: Recall AV from Intro: Blue Sunset" (callback to intro quest)
+ - "EMERSON uses Arachne" (Emerson makes the choice instead of the player)
+ - "EMERSON reroutes to Assaultron" (Emerson makes the transfer choice)
 
 This reveals the outro originally had **at least 6 different resolution paths** based on SPECIAL stats and player choices, compared to the 2 that shipped. Emerson could independently make either choice, the player could hack the terminal with INT, use PER to get A.T.H.E.N.A.'s permission, or recall a passphrase from the intro quest.
 

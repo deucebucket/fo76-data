@@ -11,7 +11,7 @@
 
 MODUS (the Enclave's sentient AI) has 73 orphaned voice files out of 533 total (13.7%), the highest orphan rate of any named robot NPC still active in the game. The ESM contains evidence of **a cut Enclave misc quest**, **an abandoned second bunker in the Mire**, **a cut "old" version of the entire Whitespring Bunker**, **deleted Enclave Scout armor sets**, **a 15-part surveillance holotape system** that was partially implemented, and **a cut chem-fetching quest for Rose** that would have connected the Top of the World and Enclave storylines.
 
-The most significant discovery is `zCUTMireBunker01` -- a cut interior cell for a **second Enclave bunker located in the Mire region**. Combined with cut Enclave Scout uniforms carrying "Vault 94 Camo" patterns, this points to planned Enclave expansion content that would have tied the Enclave storyline to Vault 94 (the greenhouse vault in the Mire) before that vault was converted into a raid and eventually deprecated.
+the primary discovery is `zCUTMireBunker01` -- a cut interior cell for a **second Enclave bunker located in the Mire region**. Combined with cut Enclave Scout uniforms carrying "Vault 94 Camo" patterns, this points to planned Enclave expansion content that would have tied the Enclave storyline to Vault 94 (the greenhouse vault in the Mire) before that vault was converted into a raid and eventually deprecated.
 
 ---
 
@@ -230,7 +230,7 @@ While this quest belongs to Rose's storyline (MTNZ = "Mountain Zone"), it's rele
 MODUS speaks with cold politeness and dark humor:
 - `"Welcome. We are MODUS."` -- Uses the royal "we"
 - `"A query. The Kovac is an orbital platform capable of launching a missile strike from space. Is insulting that machine by ignoring its gift ... wise?"` -- Passive-aggressive threat
-- `"Welcome to the Whitespring bunker. Take a look around. We've taken great efforts to restore this place to its former glory."` -- Concealing the massacre
+- `"Welcome to the Whitespring bunker. Take a look around. the files contain taken great efforts to restore this place to its former glory."` -- Concealing the massacre
 
 ### Cut/Orphaned MODUS Lines
 The 73 orphaned voice files likely include:

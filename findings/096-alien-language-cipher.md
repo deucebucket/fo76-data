@@ -90,7 +90,7 @@ DLC04 includes alien animatronic content (`meshes/actors/dlc04/animatronic/chara
 
 The Fallout Wiki at fallout.wiki documents these terminal entries on the [NRARC terminal entries page](https://fallout.wiki/wiki/National_Radio_Astronomy_Research_Center_terminal_entries), including the alien text and translations. However, the wiki presents them as in-game content without highlighting the developer TODO note as evidence of incomplete implementation. The TODO note itself -- the instruction to remove translations and add alien font tags -- is the real finding: it proves the alien language was designed with a real cipher system that was meant to be obscured behind custom font rendering, and the developers forgot to strip the human-readable translations from the shipping build.
 
-## Significance
+## Implications
 
 This is a rare case of developer process notes shipping in production data. The TODO reveals:
 

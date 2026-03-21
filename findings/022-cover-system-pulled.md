@@ -25,14 +25,14 @@
 ### What Was Pulled
 All 30+ cover combat animations were present in Update 11 but absent in Update 12. The game settings remain in the ESM but the player-facing animations were removed.
 
-## Why This Matters
+## Implications
 1. Bethesda built a COMPLETE cover-based combat system for FO76
 2. NPCs (Deathclaws, Ghouls) already have cover/peek animations
 3. The engine supports it at the game settings level
 4. It was tested and pulled — possibly for gameplay feel, performance, or PvP balance
 5. The infrastructure still exists and could be re-enabled
 
-## Speculation
+## Notes
 - Cover combat would fundamentally change FO76's gameplay loop
 - Could be planned for a future "tactical" game mode or private server option
 - May have been pulled because it favors ranged builds too heavily

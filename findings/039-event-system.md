@@ -281,11 +281,11 @@ These are **close to but not exactly equal**. The standard party crasher has a s
 The generic party crasher system uses a struct array:
 ```
 Struct PartyCrashers
-  ActorBase CreatureToSpawn      -- the creature to spawn
-  GlobalVariable SpawnChance     -- float 0.0-1.0 representing spawn percentage
-  ReferenceAlias SpawnMarker     -- where to spawn
-  Int EpicRank = 3               -- intended legendary rank (default: 3-star!)
-  Sound SpawnSoundEffect         -- audio cue on spawn
+ ActorBase CreatureToSpawn -- the creature to spawn
+ GlobalVariable SpawnChance -- float 0.0-1.0 representing spawn percentage
+ ReferenceAlias SpawnMarker -- where to spawn
+ Int EpicRank = 3 -- intended legendary rank (default: 3-star!)
+ Sound SpawnSoundEffect -- audio cue on spawn
 EndStruct
 ```
 
@@ -395,9 +395,9 @@ From `EN07_FissureQuestScript`:
 From `ScorchbeastRaceScript`:
 - Uses **two separate attack data sets**: one for regular Scorchbeasts, one for the Queen
 - Sonic attack weapon with cooldown timers:
-  - Ground: `GroundSonicAttackCooldownTimeMin/Max`
-  - Interior: `InteriorSonicAttackCooldownTimeMin/Max`
-  - Flying: `FlyingSonicAttackCooldownTimeMin/Max`
+ - Ground: `GroundSonicAttackCooldownTimeMin/Max`
+ - Interior: `InteriorSonicAttackCooldownTimeMin/Max`
+ - Flying: `FlyingSonicAttackCooldownTimeMin/Max`
 - Strafe attack weapon (separate equip slot)
 - Landing attack explosion, Takeoff attack explosion, Area attack explosion
 - The script tracks flight state (`flying` vs `ground` states)

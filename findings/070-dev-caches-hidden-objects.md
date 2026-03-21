@@ -7,7 +7,7 @@
 
 ## 1. QA Test Chests (Placed in Multiple Cells)
 
-The most significant find: a full suite of **9 QA testing chests** exists as defined container types, each stocked with every item in a category. These are placed in **at least 7 different interior cells**, with duplicate sets at the same coordinates suggesting multiple instances (likely for instanced interiors or different game modes).
+the primary result: a full suite of **9 QA testing chests** exists as defined container types, each stocked with every item in a category. These are placed in **at least 7 different interior cells**, with duplicate sets at the same coordinates suggesting multiple instances (likely for instanced interiors or different game modes).
 
 ### QA Chest Definitions
 
@@ -52,9 +52,9 @@ The most significant find: a full suite of **9 QA testing chests** exists as def
 ### DebugSteveCDropCrate (Steve C's Test Crates)
 - **Base:** `0x004FC3E2` (DebugSteveCDropCrate)
 - **Placed in DebugSteveC cell:**
-  - `0x004FC3E3` (DebugSteveCDropCrate01) at 2267, 332, 1567
-  - `0x004FC3E4` (DebugSteveCDropCrate02) at 1883, 332, 1567
-  - `0x004FC3E5` (DebugSteveCDropCrate03) at 1499, 332, 1567
+ - `0x004FC3E3` (DebugSteveCDropCrate01) at 2267, 332, 1567
+ - `0x004FC3E4` (DebugSteveCDropCrate02) at 1883, 332, 1567
+ - `0x004FC3E5` (DebugSteveCDropCrate03) at 1499, 332, 1567
 - Script `debugstevecdropcratescript.psc` has empty OnLoad/OnUnload handlers — container behavior only
 
 ### DebugKurt Containers
@@ -108,10 +108,10 @@ These are placed in interior cells and **one (DebugChallengeFood_Ingredients) ha
 
 **Critical find:** `TestLoot_AmmoBox` (`0x003E0CAF`) is placed in **active Expedition (MILE) content**:
 - 4 instances at MILE_HQ_ThemeParent_Military / MILE_Theme_Military layer
-  - `0x007711B5` at 513, 4991
-  - `0x007711B6` at 486, 5145
-  - `0x007711B7` at 488, 5164
-  - `0x007711B8` at 490, 5182
+ - `0x007711B5` at 513, 4991
+ - `0x007711B6` at 486, 5145
+ - `0x007711B7` at 488, 5164
+ - `0x007711B8` at 490, 5182
 - 1 instance at `0x003E0CB1` at 5200, -4504
 
 These ammo boxes with the "Test" prefix are in the military-themed Expedition headquarters. Players running Expeditions may be interacting with what are technically test objects.
@@ -125,11 +125,11 @@ A dedicated test cell for weapon damage evaluation:
 - **Cell:** `0x0065A633` (76WeaponTestingGym)
 - **Activator:** `0x006BDBBC` (DebugWeaponTestingGymButton) — controls the gym
 - **Damage resistance perks (4 tiers):**
-  - WeaponTestingGym_DamageResistPerk1-4 (`0x006BECB3`-`0x006BECB6`)
+ - WeaponTestingGym_DamageResistPerk1-4 (`0x006BECB3`-`0x006BECB6`)
 - **Messages:**
-  - WeaponTestingGymMoving (`0x006BECAC`)
-  - WeaponTestingGymDamage (`0x006BECAB`)
-  - WeaponTestingGymCreature (`0x006BDBBD`)
+ - WeaponTestingGymMoving (`0x006BECAC`)
+ - WeaponTestingGymDamage (`0x006BECAB`)
+ - WeaponTestingGymCreature (`0x006BDBBD`)
 - **COC Marker:** DevGym_Markers layer (`0x006B7222`) at 768, 1536
 
 ### Test Damage Weapons

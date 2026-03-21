@@ -754,7 +754,7 @@ Three combat music tracks for Vault Raids still exist:
 
 1. **Vault Raid System (20+ quests)** -- Three vaults (63, 94, 96) each had complete multi-mission quest lines with unique mechanics (GECK recovery, genetics preservation, nuclear reactor management, riot suppression). The "Lockdown" meta-quest (`CUT_FF15_Lockdown`) connected all three vaults through an Overseer key conspiracy. Hayley's corpse held the truth.
 
-2. **"The Glow" Public Event** (`SFM01_Glow_CUT`) -- A radstorm emergency event involving dam infrastructure, chemical collection, and a Mirelurk Queen boss fight. Would have been one of the most complex public events in the game.
+2. **"The Glow" Public Event** (`SFM01_Glow_CUT`) -- A radstorm emergency event involving dam infrastructure, chemical collection, and a Mirelurk Queen boss fight. Would have been one of the largest public events in the game.
 
 3. **Treehouse Village** (`CUT_W05_Community_Treehouse_Village_Quest`) -- An entire settlement location with infrastructure quests, NPC settlers, and player choice (power vs alarm systems). Never placed in the world.
 

@@ -204,8 +204,8 @@ TALK: with Brother
 
 --- MAIN ---
 CHOICE has been made
-   CHOICE: Edwin's Gang kills the Bone
-   CHOICE: Edwin's Gang kills the Blood Eagles generally
+ CHOICE: Edwin's Gang kills the Bone
+ CHOICE: Edwin's Gang kills the Blood Eagles generally
 
 --- END ---
 > Success <
@@ -254,7 +254,7 @@ This is a classic quantity-vs-quality trade-off: do you want the hard fight agai
 
 ### Why "The Nest"?
 
-The Nest was the Blood Eagle **recruitment/conversion facility**. The designer notes describe The Bone and The Claw as being "at separate locations converting new batches of Blood Eagles from the Nest." This tells us:
+The Nest was the Blood Eagle **recruitment/conversion facility**. The designer notes describe The Bone and The Claw as being "at separate locations converting new batches of Blood Eagles from the Nest." this indicates:
 
 1. The Nest was a processing center where captured victims were brought
 2. The Bone and The Claw ran parallel conversion operations
@@ -387,71 +387,71 @@ The player advises Beckett on what to do with Frankie:
 
 ```
 INTRO: Free Beckett from Blood Eagle prison
-   |
+ |
 PHASE 1: Build Edwin alliance (Quests 000-004)
-   |-- 000: Dirty Little Secrets (Edwin's diary)
-   |-- 001: Exit Sage Left (Rescue Sage)
-   |-- 002: Out Of Key (Edwin's cache key)
-   |-- 003: Traitor's Demise (Kill Bronx)
-   |-- 004: Supply And Demand (Steal Buffout)
-   |
+ |-- 000: Dirty Little Secrets (Edwin's diary)
+ |-- 001: Exit Sage Left (Rescue Sage)
+ |-- 002: Out Of Key (Edwin's cache key)
+ |-- 003: Traitor's Demise (Kill Bronx)
+ |-- 004: Supply And Demand (Steal Buffout)
+ |
 PHASE 2: Strike Blood Eagles (Quests 005-010)
-   |-- 005: Spilling Blood (Kill The Blood)
-   |-- 006: Pet Peeve (Rescue Edwin's "dog")
-   |-- 007: [ORIGINAL] Retrieve chem Formula
-   |-- 007: [REVISED] Shooting Star (Kill Star the DJ)
-   |-- 008: Bot Of Gold (Rescue Miss Nanny)
-   |-- 009: Sibling Piracy (Holotapes from Foundation)
-   |-- 010: Needs Of The Many (Stop poison plot)
-   |
+ |-- 005: Spilling Blood (Kill The Blood)
+ |-- 006: Pet Peeve (Rescue Edwin's "dog")
+ |-- 007: [ORIGINAL] Retrieve chem Formula
+ |-- 007: [REVISED] Shooting Star (Kill Star the DJ)
+ |-- 008: Bot Of Gold (Rescue Miss Nanny)
+ |-- 009: Sibling Piracy (Holotapes from Foundation)
+ |-- 010: Needs Of The Many (Stop poison plot)
+ |
 PHASE 3: Intel & Preparation (Quests 011-015) [MOSTLY CUT]
-   |-- 011: [ORIGINAL] Kill MurderBot (The Eye's surgical Assaultron)
-   |-- 011: [REVISED] Eye For An Eye (Kill The Eye directly)
-   |-- 012: [CUT] Brother Claw Holotape (discover Frankie/Claw link)
-   |-- 013: [CUT] Ronny Visitor (intel on The Bone's location)
-   |-- 014: [CUT] Bear Holotape Database (destroy Triune records)
-   |-- 015: [CUT] Defector Rescue (rescue Blood Eagle defector)
-   |-- [CUT] Sage Visitor 015 (final cryptic guidance)
-   |
+ |-- 011: [ORIGINAL] Kill MurderBot (The Eye's surgical Assaultron)
+ |-- 011: [REVISED] Eye For An Eye (Kill The Eye directly)
+ |-- 012: [CUT] Brother Claw Holotape (discover Frankie/Claw link)
+ |-- 013: [CUT] Ronny Visitor (intel on The Bone's location)
+ |-- 014: [CUT] Bear Holotape Database (destroy Triune records)
+ |-- 015: [CUT] Defector Rescue (rescue Blood Eagle defector)
+ |-- [CUT] Sage Visitor 015 (final cryptic guidance)
+ |
 FINALE: Assault on Poseidon Energy Plant / The Nest
-   |-- Talk to Beckett
-   |-- Enter Poseidon (trigger at 500 units)
-   |-- Find Brother's Room (Frankie imprisoned)
-   |-- Talk with Brother
-   |-- BRANCHING CHOICE:
-   |    |-- A: Send Edwin's gang to kill The Bone -> Player kills The Claw
-   |    |-- B: Send Edwin's gang to clear Blood Eagles -> Player kills BOTH
-   |-- Fight through The Nest (Blood Eagle conversion facility)
-   |-- Face Mariposa (hostile enforcer)
-   |-- Kill The Bone and/or The Claw
-   |-- Success / Fail
+ |-- Talk to Beckett
+ |-- Enter Poseidon (trigger at 500 units)
+ |-- Find Brother's Room (Frankie imprisoned)
+ |-- Talk with Brother
+ |-- BRANCHING CHOICE:
+ | |-- A: Send Edwin's gang to kill The Bone -> Player kills The Claw
+ | |-- B: Send Edwin's gang to clear Blood Eagles -> Player kills BOTH
+ |-- Fight through The Nest (Blood Eagle conversion facility)
+ |-- Face Mariposa (hostile enforcer)
+ |-- Kill The Bone and/or The Claw
+ |-- Success / Fail
 ```
 
 ### Shipped Design (15 quests, linear finale)
 
 ```
 INTRO: Free Beckett from Blood Eagle prison
-   |
+ |
 PHASE 1: Build Edwin alliance (Quests 000-004) [UNCHANGED]
-   |
+ |
 PHASE 2: Strike Blood Eagles (Quests 005-010) [MINOR CHANGES]
-   |-- Quest 007 changed from Formula fetch to DJ kill
-   |
+ |-- Quest 007 changed from Formula fetch to DJ kill
+ |
 PHASE 3: The Eye (Quest 011 only)
-   |-- Eye For An Eye (Kill The Eye at Bear Cave)
-   |-- MurderBot removed, Quests 012-015 all cut
-   |
+ |-- Eye For An Eye (Kill The Eye at Bear Cave)
+ |-- MurderBot removed, Quests 012-015 all cut
+ |
 FINALE: Watoga Underground
-   |-- Linear dungeon crawl
-   |-- Ronny provides garage key, brings gang as backup
-   |-- Open garage door to let allies in
-   |-- Clear Blood Eagles
-   |-- TWIST: Frankie IS The Claw
-   |-- Binary choice: Kill or Spare Frankie
-   |-- No branching strategic element
-   |-- The Bone doesn't exist
-   |-- Mariposa doesn't exist
-   |-- The Nest doesn't exist
+ |-- Linear dungeon crawl
+ |-- Ronny provides garage key, brings gang as backup
+ |-- Open garage door to let allies in
+ |-- Clear Blood Eagles
+ |-- TWIST: Frankie IS The Claw
+ |-- Binary choice: Kill or Spare Frankie
+ |-- No branching strategic element
+ |-- The Bone doesn't exist
+ |-- Mariposa doesn't exist
+ |-- The Nest doesn't exist
 ```
 
 ---
@@ -546,7 +546,7 @@ This philosophy mirrors the Blood Eagle conversion process itself: strip away id
 
 ---
 
-## Significance
+## Implications
 
 This reconstruction reveals that Beckett's companion storyline underwent a **major structural revision** during development. The original design was more ambitious -- more quests, a branching finale, multiple villain targets, a named hostile NPC (Mariposa), and a dedicated location (Poseidon/The Nest). The shipped version traded breadth for emotional depth, centering the entire arc on the brotherly relationship between Beckett and Frankie.
 

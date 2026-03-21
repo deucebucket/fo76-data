@@ -25,12 +25,12 @@
 ### Weapon Reference in Scripts
 - `zzz_NitroRifle` [0085780F] — The zzz_ prefix means it was disabled, but the surrounding infrastructure is active
 
-## What This Means
+## Summary
 1. The weapon system is COMPLETE — type keywords, UI category, mod variants, animations
 2. Season reward skins are ALREADY MADE for seasons that haven't happened yet
 3. The Free States paint suggests lore connection to the Free States faction
 4. Having both rifle and pistol grips means it's a convertible weapon (like the 10mm)
 5. The weapon appeared in Update 11 animations but was pulled in Update 12
 
-## Prediction
+## Forecast
 The Nitro weapon will likely appear in a future season (the skins are ready for Season 23+ and Love Hurts mini-season). It was pulled from Update 12, possibly for balancing or to align with a specific content release.

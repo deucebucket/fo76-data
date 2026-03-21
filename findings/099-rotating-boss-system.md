@@ -156,11 +156,11 @@ The SFZ03_Queen system was **not nuke-triggered**. Key evidence:
 1. **Quest filter path:** `SwampForest\` -- The quest is categorized under Swamp/Forest (Mire region), not Cranberry Bog where nukes currently trigger Scorched Earth.
 
 2. **Story Manager node conditions:** `SFZ03_Queen_QuestNode` (`0x005105EC`) triggers on:
-   - `HasKeyword` `SFZ03_Queen_OnQuestKeyword` == 0 (player not already on quest)
-   - Quest `SFZ03_Queen` (`0x000451FC`) running check == 0
-   - `GetEventData` matching `SFZ03_Queen_StartKeyword` (`0x00031AB9`)
+ - `HasKeyword` `SFZ03_Queen_OnQuestKeyword` == 0 (player not already on quest)
+ - Quest `SFZ03_Queen` (`0x000451FC`) running check == 0
+ - `GetEventData` matching `SFZ03_Queen_StartKeyword` (`0x00031AB9`)
 
-   No nuke-related conditions are present.
+ No nuke-related conditions are present.
 
 3. **Daily quest classification:** The system uses `DailyQuestAVRegionSwamp_SFZ03_Queen` (`0x005105E8`), placing it in the daily quest rotation for the Mire/Cranberry Bog region, not the nuke event system.
 

@@ -73,7 +73,7 @@ The `robotmrhandy` type has 3,018 orphaned lines (78% of its total), suggesting 
 
 ## Category 2: Named NPCs with Cut Dialogue (1,667 orphaned)
 
-These are the most interesting orphaned lines -- they belong to specific, named characters and likely represent cut quest content, removed dialogue branches, or iterative development cuts.
+These are the notable orphaned lines -- they belong to specific, named characters and likely represent cut quest content, removed dialogue branches, or iterative development cuts.
 
 ### Tier 1: Major NPCs with 50+ Orphaned Lines
 

@@ -35,7 +35,7 @@
 - `ChangeSubquestDuration = 900.0` — Power system changes take 15 minutes
 - `ChangeSubquestDelaySeconds = 1800.0` — 30-minute cooldown between changes
 
-## Why Players Don't Know This
+## Why These Values Are Not Visible to Players
 - Power plants appear to "just work" because the entropy system is slow (7 days)
 - Most servers reset before entropy becomes noticeable
 - The player count scaling creates invisible difficulty that players attribute to "bad luck"

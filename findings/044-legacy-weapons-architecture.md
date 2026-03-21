@@ -30,19 +30,19 @@ The item then carries these OMOD FormID references in its **instance data** with
 
 ### OMOD Records Still Exist in the ESM
 
-Critical finding: **removed legendary OMADs are never deleted from the ESM**. They are either:
+Note:: **removed legendary OMADs are never deleted from the ESM**. They are either:
 
 1. **Renamed with `zzz_` prefix** (standard Bethesda deprecation convention):
-   - `zzz_mod_Legendary_Weapon_ExplosiveBullets` (0x001E73BD) - the original FO4-era explosive
-   - `zzz_mod_Legendary_Weapon2_RadiationDamage` (0x004F5776)
-   - `zzz_mod_Legendary_Weapon4_Poison` (0x004F5778)
-   - `zzz_mod_Legendary_Weapon4_Bleed` (0x004ED02F)
-   - `zzz_mod_Legendary_Armor_ReflectDamage` (0x004E89B3)
-   - And **60+ more** deprecated legendary OMODs
+ - `zzz_mod_Legendary_Weapon_ExplosiveBullets` (0x001E73BD) - the original FO4-era explosive
+ - `zzz_mod_Legendary_Weapon2_RadiationDamage` (0x004F5776)
+ - `zzz_mod_Legendary_Weapon4_Poison` (0x004F5778)
+ - `zzz_mod_Legendary_Weapon4_Bleed` (0x004ED02F)
+ - `zzz_mod_Legendary_Armor_ReflectDamage` (0x004E89B3)
+ - And **60+ more** deprecated legendary OMODs
 
 2. **Explicitly tagged as LEGACY**:
-   - `mod_Legendary_Weapon2_Guns_ExplosiveBullets_Shotgun_LEGACY` (0x00425E28) - reduced explosive for shotguns
-   - `mod_Legendary_Weapon1_CritsHealGroup_LEGACY` (0x00527F8B)
+ - `mod_Legendary_Weapon2_Guns_ExplosiveBullets_Shotgun_LEGACY` (0x00425E28) - reduced explosive for shotguns
+ - `mod_Legendary_Weapon1_CritsHealGroup_LEGACY` (0x00527F8B)
 
 3. **Left completely intact** with active FormIDs, FULL name references, and functional effect data
 
@@ -56,9 +56,9 @@ The `GetAllowedMods()` function in `PlayerLegendaryItemScript` is the gatekeeper
 
 ```papyrus
 Struct LegendaryModRule
-  objectmod LegendaryObjectMod
-  FormList AllowedKeywords      ; weapon must have one of these keywords
-  FormList DisallowedKeywords   ; weapon must NOT have any of these keywords
+ objectmod LegendaryObjectMod
+ FormList AllowedKeywords ; weapon must have one of these keywords
+ FormList DisallowedKeywords ; weapon must NOT have any of these keywords
 EndStruct
 ```
 
@@ -157,7 +157,7 @@ Items are moved into vendor containers as opaque references. No legendary mod va
 Trading uses the engine's native barter system. The `VendorInteractChoiceScript` is an empty shell:
 ```papyrus
 Function TriggerVendorInteraction(player currentPlayer, ObjectReference vendor)
-  ; Empty function
+ ; Empty function
 EndFunction
 ```
 
@@ -218,11 +218,11 @@ Each fix addressed a specific timing window but the fundamental architecture rem
 **Option 1: OMOD Migration Script (Targeted)**
 ```
 For each player character in the database:
-  For each item in inventory + stash + vendor + display:
-    For each attached OMOD on the item:
-      If OMOD is in the deprecated list:
-        Call RemoveModFromInventoryItem(item, OMOD)
-        Optionally: AttachModToInventoryItem(item, replacement_OMOD)
+ For each item in inventory + stash + vendor + display:
+ For each attached OMOD on the item:
+ If OMOD is in the deprecated list:
+ Call RemoveModFromInventoryItem(item, OMOD)
+ Optionally: AttachModToInventoryItem(item, replacement_OMOD)
 ```
 
 This is technically possible using the existing `RemoveModFromInventoryItem()` and `AttachModToInventoryItem()` Native functions. They could run this as a one-time migration.
@@ -253,30 +253,30 @@ Function RemoveAllModsFromInventoryItem(Form akItem) Native
 
 ```
 ITEM DROP / CRAFT FLOW (where filtering happens):
-  EpicCreaturesScript
-    -> determines star rating
-    -> triggers AddLegendaryItemAbility spell
-      -> PlayerLegendaryItemScript.GetAllowedMods()
-        -> checks WeaponSlot1Mods/WeaponSlot2Mods/etc arrays
-        -> for each LegendaryModRule:
-          -> checks AllowedKeywords FormList against item keywords
-          -> checks DisallowedKeywords FormList against item keywords
-          -> if passes: add to AllowedMods array
-        -> randomly selects from AllowedMods
-        -> calls AttachModToInventoryItem(item, selectedMod)
+ EpicCreaturesScript
+ -> determines star rating
+ -> triggers AddLegendaryItemAbility spell
+ -> PlayerLegendaryItemScript.GetAllowedMods()
+ -> checks WeaponSlot1Mods/WeaponSlot2Mods/etc arrays
+ -> for each LegendaryModRule:
+ -> checks AllowedKeywords FormList against item keywords
+ -> checks DisallowedKeywords FormList against item keywords
+ -> if passes: add to AllowedMods array
+ -> randomly selects from AllowedMods
+ -> calls AttachModToInventoryItem(item, selectedMod)
 
 ITEM PERSISTENCE (where no filtering happens):
-  Character Save Data
-    -> Item Instance: BaseFormID + [OMOD_FormID_1, OMOD_FormID_2, ...]
-    -> On Load: resolve each OMOD_FormID against ESM
-    -> If FormID exists in ESM: apply mod effects (NO legality check)
-    -> If FormID missing: unknown behavior (likely skip or crash)
+ Character Save Data
+ -> Item Instance: BaseFormID + [OMOD_FormID_1, OMOD_FormID_2, ...]
+ -> On Load: resolve each OMOD_FormID against ESM
+ -> If FormID exists in ESM: apply mod effects (NO legality check)
+ -> If FormID missing: unknown behavior (likely skip or crash)
 
 ITEM TRANSFER (where no filtering happens):
-  Player Trade / Vending / Drop / Stash
-    -> Item instance moves as-is with all attached OMADs
-    -> No inspection of OMOD legality
-    -> No validation against current drop pool
+ Player Trade / Vending / Drop / Stash
+ -> Item instance moves as-is with all attached OMADs
+ -> No inspection of OMOD legality
+ -> No validation against current drop pool
 ```
 
 ## The 60+ Deprecated Legendary OMADs

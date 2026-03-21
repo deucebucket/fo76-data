@@ -16,12 +16,12 @@ A virtual reality simulation INSIDE the game as a tutorial/new player experience
 - **Generic Residents**: `ZZZNPE_MQ01_Enjoy_IsGenericResident_Keyword` — Populate the VR world
 - **Encounter System**: `ZZZNPE_LocEncMainVRBully`, `ZZZNPE_LocEncSubVRBully` — VR bullies had their own encounter zones
 
-### What This Means
+### Interpretation
 Bethesda designed a VR simulation (like Tranquility Lane from FO3 or The Memory Den from FO4) as a TUTORIAL for new players. You'd enter a door, experience a simulated pre-war or idealized world with citizens, learn combat by fighting "bullies," and then exit to the real wasteland. The quest name "Enjoy" suggests it was meant to be a pleasant introduction before the harsh reality.
 
 This was replaced by the current "Better Tomorrow" new player experience (`NPE_DQ01_BetterTomorrow`).
 
-### Lore Significance
+### Lore Context
 A VR tutorial inside Vault 76 would make lore sense — Vault-Tec could have installed a simulation for dwellers to "practice" before Reclamation Day. This mirrors the Anchorage Simulation from FO3.
 
 ## Burning Springs Gladiator Arena (The Rust Kingdom)

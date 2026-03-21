@@ -55,14 +55,14 @@
 
 **Aristocrat's** (`weapon_damageviacaps`)
 ```
-Caps     | Damage Bonus %
+Caps | Damage Bonus %
 ---------|---------------
-0        | 0%
-1,000    | 3%
-2,000    | 5%
-15,000   | 27%
-17,000   | 30%
-29,000   | 50% (MAX)
+0 | 0%
+1,000 | 3%
+2,000 | 5%
+15,000 | 27%
+17,000 | 30%
+29,000 | 50% (MAX)
 ```
 - Non-linear scaling, accelerates past 15k caps
 - Easy to maintain at max with caps hoarding
@@ -71,11 +71,11 @@ Caps     | Damage Bonus %
 ```
 Addictions | Damage Bonus %
 -----------|---------------
-1          | 10%
-2          | 20%
-3          | 30%
-5          | 50%
-10         | 100% (MAX)
+1 | 10%
+2 | 20%
+3 | 30%
+5 | 50%
+10 | 100% (MAX)
 ```
 - Linear +10% per addiction
 - **Curve extends to 10 addictions** despite wiki saying max 5
@@ -91,9 +91,9 @@ Addictions | Damage Bonus %
 ```
 Mutations | Damage Bonus %
 ----------|---------------
-1         | 5%
-5         | 25%
-10        | 50% (MAX)
+1 | 5%
+5 | 25%
+10 | 50% (MAX)
 ```
 - Easy to maintain with Starched Genes
 - Curve goes higher than wiki's "+25% max"
@@ -112,11 +112,11 @@ Mutations | Damage Bonus %
 ```
 Satisfaction | Damage Bonus %
 -------------|---------------
-0            | 0%
-2            | 10%
-4            | 20%
-6            | 30%
-8 (MAX)      | 40%
+0 | 0%
+2 | 10%
+4 | 20%
+6 | 30%
+8 (MAX) | 40%
 ```
 - Up to +40%, much higher than wiki's +24%
 - Easy to maintain with food/water
@@ -125,9 +125,9 @@ Satisfaction | Damage Bonus %
 ```
 Game Hour | Damage Bonus %
 ----------|---------------
-0-5       | 50%
-6-20      | 0%
-21-24     | 50%
+0-5 | 50%
+6-20 | 0%
+21-24 | 50%
 ```
 - **NO PENALTY during day** (contrary to wiki's -50%)
 - +50% at night only
@@ -139,10 +139,10 @@ Game Hour | Damage Bonus %
 ```
 Player DR | Damage Bonus %
 ----------|---------------
-0         | 50%
-20        | 30%
-40        | 17%
-60        | 5%
+0 | 50%
+20 | 30%
+40 | 17%
+60 | 5%
 ```
 - Requires no armor for full benefit
 - High risk, mediocre reward
@@ -204,9 +204,9 @@ Player DR | Damage Bonus %
 ```
 Charge Level | Damage Multiplier
 -------------|------------------
-1            | 0.5x
-2            | 1.5x
-3            | 3.0x
+1 | 0.5x
+2 | 1.5x
+3 | 3.0x
 ```
 - Full charge = 3x damage. Massive burst potential.
 
@@ -214,10 +214,10 @@ Charge Level | Damage Multiplier
 ```
 Base Damage | Cryo Added
 ------------|----------
-1           | 44
-10          | 50
-25          | 63
-50          | 91
+1 | 44
+10 | 50
+25 | 63
+50 | 91
 ```
 - Highest elemental 4-star. 44-91 cryo damage.
 
@@ -225,20 +225,20 @@ Base Damage | Cryo Added
 ```
 Base Damage | Explosion Added
 ------------|----------------
-1           | 22
-10          | 26
-25          | 33
-50          | 50
+1 | 22
+10 | 26
+25 | 33
+50 | 50
 ```
 
 **Electricians (Energy)** (`weapon_electriciansenergydmg`)
 ```
 Base Damage | Energy Added
 ------------|-------------
-1           | 11
-10          | 13
-25          | 16.5
-50          | 25
+1 | 11
+10 | 13
+25 | 16.5
+50 | 25
 ```
 
 **Voltaic (Energy + EMP)** (`weapon_voltaicenergydmg` + `weapon_voltaicempdmg`)
@@ -262,12 +262,12 @@ Base Damage | Energy Added
 
 **Unyielding** (`armor_lowhealthincreasesstats`)
 ```
-Health %   | SPECIAL Bonus (per piece)
+Health % | SPECIAL Bonus (per piece)
 -----------|-------------------------
-0-19%      | +3
-20-39%     | +2
-40-59%     | +1
-60-100%    | +0
+0-19% | +3
+20-39% | +2
+40-59% | +1
+60-100% | +0
 ```
 - 5 pieces at <20% HP = **+15 to all SPECIAL (except END)**
 - Unmatched utility for XP, carry weight (STR), VATS (AGI/LCK/PER)
@@ -277,18 +277,18 @@ Health %   | SPECIAL Bonus (per piece)
 ```
 Satisfaction (0-8 scale) | Damage Reduction
 -------------------------|------------------
-0-1.6                    | 0%
-2.0                      | 1%
-3.6                      | 2%
-4.0                      | 3%
-4.8                      | 5%
-5.6                      | 8%
-6.0                      | 11%
-6.4                      | 14%
-6.8                      | 19%
-7.2                      | 25%
-7.6                      | 32%
-8.0 (MAX)                | 40%
+0-1.6 | 0%
+2.0 | 1%
+3.6 | 2%
+4.0 | 3%
+4.8 | 5%
+5.6 | 8%
+6.0 | 11%
+6.4 | 14%
+6.8 | 19%
+7.2 | 25%
+7.6 | 32%
+8.0 (MAX) | 40%
 ```
 - Per piece at max satisfaction. Values are raw curve - game likely caps or divides.
 - S-TIER for full health tank builds
@@ -300,11 +300,11 @@ Satisfaction (0-8 scale) | Damage Reduction
 ```
 Piece Count | Multiplier at 0% HP | DR Bonus %
 ------------|--------------------|-----------
-1           | 0.900              | 10.0%
-2           | 0.810              | 19.0%
-3           | 0.729              | 27.1%
-4           | 0.656              | 34.4%
-5           | 0.590              | 41.0%
+1 | 0.900 | 10.0%
+2 | 0.810 | 19.0%
+3 | 0.729 | 27.1%
+4 | 0.656 | 34.4%
+5 | 0.590 | 41.0%
 ```
 - Kicks in below 75% HP
 - Description curve shows "+10 DR/ER" per piece displayed in tooltip
@@ -314,11 +314,11 @@ Piece Count | Multiplier at 0% HP | DR Bonus %
 ```
 Piece Count | Multiplier at 1000 HP | DR Bonus %
 ------------|----------------------|-----------
-1           | 0.940                | 6.0%
-2           | 0.884                | 11.6%
-3           | 0.831                | 16.9%
-4           | 0.781                | 21.9%
-5           | 0.734                | 26.6%
+1 | 0.940 | 6.0%
+2 | 0.884 | 11.6%
+3 | 0.831 | 16.9%
+4 | 0.781 | 21.9%
+5 | 0.734 | 26.6%
 ```
 - Max 26.6% at 5 pieces with high HP
 - Weaker than Bolstering at extremes (26.6% vs 41%)
@@ -329,11 +329,11 @@ Piece Count | Multiplier at 1000 HP | DR Bonus %
 ```
 Piece Count | Multiplier at 1.5 ratio | DR Bonus %
 ------------|------------------------|-----------
-1           | 0.900                  | 10.0%
-2           | 0.810                  | 19.0%
-3           | 0.729                  | 27.1%
-4           | 0.656                  | 34.4%
-5           | 0.590                  | 41.0%
+1 | 0.900 | 10.0%
+2 | 0.810 | 19.0%
+3 | 0.729 | 27.1%
+4 | 0.656 | 34.4%
+5 | 0.590 | 41.0%
 ```
 - Same maximums as Bolstering
 - Rewards carrying heavy loads
@@ -345,9 +345,9 @@ Piece Count | Multiplier at 1.5 ratio | DR Bonus %
 ```
 Mutations | 1pc Multi | 5pc Multi | 5pc DR Bonus %
 ----------|-----------|-----------|---------------
-5         | 0.988     | 0.939     | 6.1%
-10        | 0.960     | 0.815     | 18.5%
-16 (max)  | 0.950     | 0.774     | 22.6%
+5 | 0.988 | 0.939 | 6.1%
+10 | 0.960 | 0.815 | 18.5%
+16 (max) | 0.950 | 0.774 | 22.6%
 ```
 - Diminishing returns past 10 mutations
 - At 10 mutations + 5 pieces = 18.5% reduction
@@ -357,8 +357,8 @@ Mutations | 1pc Multi | 5pc Multi | 5pc DR Bonus %
 ```
 Rad Level | 1pc Multi | 5pc Multi | 5pc DR Bonus %
 ----------|-----------|-----------|---------------
-4         | 0.987     | 0.938     | 6.2%
-8 (MAX)   | 0.940     | 0.734     | 26.6%
+4 | 0.987 | 0.938 | 6.2%
+8 (MAX) | 0.940 | 0.734 | 26.6%
 ```
 - Identical max potential to Vanguard's (26.6% at 5pc)
 - Newer Tempest-era effect
@@ -372,13 +372,13 @@ Rad Level | 1pc Multi | 5pc Multi | 5pc DR Bonus %
 ```
 Health % | Flat DR per piece
 ---------|------------------
-0-10%    | +35
-20%      | +32
-30%      | +28
-40%      | +24
-50%      | +20
-60%      | +16
-61%+     | +0
+0-10% | +35
+20% | +32
+30% | +28
+40% | +24
+50% | +20
+60% | +16
+61%+ | +0
 ```
 - Separate flat DR backing. Max +35 per piece = +175 total at 5pc
 
@@ -386,11 +386,11 @@ Health % | Flat DR per piece
 ```
 Health % | Flat DR per piece
 ---------|------------------
-50%      | +7
-60%      | +14
-70%      | +21
-80%      | +28
-90%      | +35
+50% | +7
+60% | +14
+70% | +21
+80% | +28
+90% | +35
 ```
 - Max +35 per piece at 90%+ HP = +175 total at 5pc
 
@@ -400,14 +400,14 @@ Health % | Flat DR per piece
 
 **DR via Caps** (`armor_damageresistviacaps`)
 ```
-Caps    | Flat DR
+Caps | Flat DR
 --------|-------
-0       | 0
-1,000   | 6
-2,000   | 10
-15,000  | 54
-17,000  | 60
-29,000  | 100
+0 | 0
+1,000 | 6
+2,000 | 10
+15,000 | 54
+17,000 | 60
+29,000 | 100
 ```
 
 **Resistances Per Kill** (`armor_resistancesperkill`)
@@ -419,11 +419,11 @@ All seven creature-type damage reductions use **identical curves**:
 ```
 Pieces | Multiplier | Reduction %
 -------|-----------|------------
-1      | 0.85      | 15.0%
-2      | 0.7225    | 27.75%
-3      | 0.6141    | 38.59%
-4      | 0.522     | 47.80%
-5      | 0.4437    | 55.63%
+1 | 0.85 | 15.0%
+2 | 0.7225 | 27.75%
+3 | 0.6141 | 38.59%
+4 | 0.522 | 47.80%
+5 | 0.4437 | 55.63%
 ```
 Types: Animals, Bugs, Ghouls, Players, Robots, Scorched, Super Mutants
 
@@ -433,11 +433,11 @@ Types: Animals, Bugs, Ghouls, Players, Robots, Scorched, Super Mutants
 ```
 Pieces | Multiplier | Reduction %
 -------|-----------|------------
-1      | 0.90      | 10.0%
-2      | 0.81      | 19.0%
-3      | 0.729     | 27.1%
-4      | 0.6561    | 34.4%
-5      | 0.59049   | 40.95%
+1 | 0.90 | 10.0%
+2 | 0.81 | 19.0%
+3 | 0.729 | 27.1%
+4 | 0.6561 | 34.4%
+5 | 0.59049 | 40.95%
 ```
 - **DETERMINISTIC**, not 75% chance. Each piece = exactly 10% multiplicative.
 
@@ -445,11 +445,11 @@ Pieces | Multiplier | Reduction %
 ```
 Pieces | Multiplier | Reduction %
 -------|-----------|------------
-1      | 0.95      | 5.0%
-2      | 0.90      | 10.0%
-3      | 0.86      | 14.0%
-4      | 0.81      | 19.0%
-5      | 0.77      | 23.0%
+1 | 0.95 | 5.0%
+2 | 0.90 | 10.0%
+3 | 0.86 | 14.0%
+4 | 0.81 | 19.0%
+5 | 0.77 | 23.0%
 ```
 - **HALF the effectiveness of Cavalier's**
 - 5pc Sentinel = 23% vs 5pc Cavalier = 41%
@@ -465,10 +465,10 @@ Pieces | Multiplier | Reduction %
 ```
 Pieces | Burning | Electrified | Frozen | Toxic
 -------|---------|-------------|--------|------
-1      | 19      | 18          | 12     | 12
-2      | 38      | 35          | 24     | 23
-3      | 56      | 53          | 36     | 35
-5      | 96      | 88          | 60     | 58
+1 | 19 | 18 | 12 | 12
+2 | 38 | 35 | 24 | 23
+3 | 56 | 53 | 36 | 35
+5 | 96 | 88 | 60 | 58
 ```
 - Burning > Electrified > Frozen = Toxic
 
@@ -523,7 +523,7 @@ Pieces | Burning | Electrified | Frozen | Toxic
 ### DEL_ Prefix (Deleted WIP)
 
 These were Work-In-Progress 4th star effects that were deleted before release:
-- SuperResilient, Duelists, Deadly, Stunning, Moneybags, AeroFlight, StaggerProof, Polished (duplicate), AutoRepair, Toppers
+- SuperResilient, Duelists, Deadly, significant, Moneybags, AeroFlight, StaggerProof, Polished (duplicate), AutoRepair, Toppers
 
 ---
 
@@ -565,18 +565,18 @@ These were Work-In-Progress 4th star effects that were deleted before release:
 ### Scrip Values (identical across all categories)
 | Stars | Scrip |
 |-------|-------|
-| 1     | 1     |
-| 2     | 2     |
-| 3     | 4     |
-| 4     | 6     |
+| 1 | 1 |
+| 2 | 2 |
+| 3 | 4 |
+| 4 | 6 |
 
 ### Sell Values (caps)
 | Stars | Armor | Power Armor | Weapons |
 |-------|-------|-------------|---------|
-| 1     | 3     | 10          | 5       |
-| 2     | 9     | 20          | 15      |
-| 3     | 24    | 45          | 40      |
-| 4     | 30    | 55          | 50      |
+| 1 | 3 | 10 | 5 |
+| 2 | 9 | 20 | 15 |
+| 3 | 24 | 45 | 40 |
+| 4 | 30 | 55 | 50 |
 
 ---
 
@@ -593,7 +593,7 @@ This means the **marginal value of each additional piece decreases**. The 1st pi
 
 ### Sentinel vs Cavalier Asymmetry
 
-This is the most surprising finding. Despite being presented as equivalent in-game:
+This is the notable finding. Despite being presented as equivalent in-game:
 - **Cavalier's**: 10% multiplicative per piece (5pc = 41% total)
 - **Sentinel's**: ~5% per piece (5pc = 23% total)
 
@@ -615,8 +615,8 @@ Combined with Unyielding armor (+15 SPECIAL), Bloodied builds mathematically dom
 ## DATA FILES
 
 - Full JSON database: `~/ai-drive/gamecryptids/data/fallout76/legendary_effects.json` (175 KB)
-  - Contains all raw curve data, interpretations, key values, wiki comparisons
-  - Importable into any database or build planner
-  - Includes `raw_curves` section with every data point from all 108 curve files
+ - Contains all raw curve data, interpretations, key values, wiki comparisons
+ - Importable into any database or build planner
+ - Includes `raw_curves` section with every data point from all 108 curve files
 - Source curves: `tempest_data/misc/curvetables/json/legendarymods/` (108 files)
 - OMOD records: `esm_dump/OMOD_records.txt` (32,677 records)

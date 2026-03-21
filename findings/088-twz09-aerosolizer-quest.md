@@ -7,7 +7,7 @@
 
 the nov 2023 dev build contains an entire cut quest called TWZ09 — part of the toxic water zone (TWZ) event series. while TWZ03, TWZ05, and TWZ07 shipped in some form (the toxic water zone events including dogwood die off), TWZ09 was fully cut and has never been documented by any dataminer, wiki, or community source.
 
-what makes this remarkable is the scope: TWZ09 wasn't a half-baked prototype. it had its own crafting system, a custom combat perk, a unique magic effect, mirelurk escort AI, challenge tracking, reward tables, and quest dialogue branches. this was a nearly complete event that got axed.
+what distinguishes this notable is the scope: TWZ09 wasn't a half-baked prototype. it had its own crafting system, a custom combat perk, a unique magic effect, mirelurk escort AI, challenge tracking, reward tables, and quest dialogue branches. this was a nearly complete event that got axed.
 
 ## all confirmed records
 

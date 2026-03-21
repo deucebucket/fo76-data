@@ -1,4 +1,4 @@
-# Finding 059: Hidden Meta Builds - What the Wiki Got Wrong Changes Everything
+# Finding 059: Hidden Meta Builds - Corrected Values from Game Data
 
 **Source**: Calculated using `perkolatr/damage_calculator.py` with corrected values from extracted game curve tables (108 legendary mod curves, 4,262 total curve tables)
 **Cross-referenced with**: Findings 028, 033, 034, 037, 057
@@ -54,9 +54,9 @@ The wiki claims Nocturnal imposes a **-50% damage penalty during daytime**. The 
 
 ```
 Game Hour | Damage Bonus
-0-5      | +50%
-6-20     | +0%      <-- NOT -50%
-21-24    | +50%
+0-5 | +50%
+6-20 | +0% <-- NOT -50%
+21-24 | +50%
 ```
 
 There is **no penalty**. Daytime Nocturnal performs identically to a weapon with no legendary prefix. At night, it is a free +50% -- matching Aristocrat's at 29,000 caps with zero conditions.
@@ -93,7 +93,7 @@ Nocturnal at night **equals Aristocrat's at max caps**. During the day it equals
 - Mr. Sandman sneak bonus (night only, stacks with Covert Operative)
 - Free vendor trash the rest of the time -- the weapon works as a baseline non-legendary during day
 
-**Why the community missed this**: Everyone scripped Nocturnal weapons on sight because the wiki says "-50% during day." Nobody tested it because why would you test a weapon that's supposedly half-strength 14 hours a day?
+**Why this is not widely known**: Everyone scripped Nocturnal weapons on sight because the wiki says "-50% during day." Nobody tested it because why would you test a weapon that's supposedly half-strength 14 hours a day?
 
 ---
 
@@ -105,10 +105,10 @@ The wiki says Junkie's caps at +50% with 5 addictions. The curve `weapon_damagea
 
 ```
 Addictions | Bonus
-0          | 0%
-1          | 10%
-5          | 50%    <-- Wiki says "max"
-10         | 100%   <-- REAL max
+0 | 0%
+1 | 10%
+5 | 50% <-- Wiki says "max"
+10 | 100% <-- REAL max
 ```
 
 Linear +10% per addiction. At 10 addictions, Junkie's matches Bloodied at 23% HP.
@@ -151,8 +151,8 @@ The first 4 addictions have **zero penalty at all**. You can get +40% damage for
 The damage pipeline processes legendary bonuses and mutation bonuses in **separate multiplicative categories**:
 
 ```python
-after_legendary = after_perks * (1 + legendary_bonus)    # Step 4
-after_mutations = after_legendary * (1 + mutation_bonus)  # Step 5
+after_legendary = after_perks * (1 + legendary_bonus) # Step 4
+after_mutations = after_legendary * (1 + mutation_bonus) # Step 5
 ```
 
 This means Junkies (+100%) and Adrenal Reaction (+80% at 20% HP) **multiply**:
@@ -184,15 +184,15 @@ Compare to Bloodied at 50% HP:
 
 ## Build 3: The Gourmand Tank
 
-### Why +40% Changes Everything
+### Why +40% has significant implications
 
 Wiki says +24%. The actual curve `weapon_gourmand`:
 
 ```
 Satisfaction | Bonus
-0            | 0%
-4            | 20%
-8 (max)      | 40%
+0 | 0%
+4 | 20%
+8 (max) | 40%
 ```
 
 At +24%, Gourmand's was worse than every alternative. At +40%, it's 80% of Aristocrat's with the easiest condition in the game (eat food and drink water, which you do anyway).
@@ -287,9 +287,9 @@ Final = Base * (1 + PerkPool) * (1 + LegendaryBonus) * (1 + MutationBonus) * Sne
 ```
 Base: 59 (The Fixer level 50)
 Perks: +82% (Commando 60% + BM 15% + Tender 7%) -> 107.4
-  + Nerd Rage @15% HP: +80% -> in perk pool
-  + Adrenaline @10 kills: +100% -> in perk pool
-  Perk pool total: +262%
+ + Nerd Rage @15% HP: +80% -> in perk pool
+ + Adrenaline @10 kills: +100% -> in perk pool
+ Perk pool total: +262%
 
 After perks: 59 * (1 + 2.62) = 213.6
 
@@ -408,17 +408,16 @@ The community has debated 2% vs 3% for years. It is definitively 3%.
 
 ```
 Total = INT_mult * (1 + additive_bonuses)
-      = 2.95 * (1 + 2.55)
-      = 2.95 * 3.55
-      = 10.47x
+ = 2.95 * (1 + 2.55)
+ = 2.95 * 3.55
+ = 10.47x
 ```
 
 **10.47x XP** at theoretical maximum (requires Double XP event).
 
 **Practical max (no Double XP event)**: 2.95 * 2.55 = **7.52x**
 
-### What This Means
-
+### Interpretation
 | Creature (Level 100) | Base XP | @7.52x (practical) | @10.47x (event) |
 |----------------------|---------|---------------------|-----------------|
 | Super Mutant (Medium) | 125 | 940 | 1,309 |

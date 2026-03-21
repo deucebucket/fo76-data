@@ -14,21 +14,21 @@ The game uses two curve tables indexed by Charisma (x-axis) to determine price m
 
 | Charisma | Buy Multiplier |
 |----------|---------------|
-| 1        | 2.50x         |
-| 15       | 2.00x         |
-| 30       | 1.75x         |
-| 60       | 1.60x         |
-| 100      | 1.50x         |
+| 1 | 2.50x |
+| 15 | 2.00x |
+| 30 | 1.75x |
+| 60 | 1.60x |
+| 100 | 1.50x |
 
 **Selling to vendors** (`chr_bartersellcurve.json`) - fraction of base price received:
 
 | Charisma | Sell Multiplier |
 |----------|----------------|
-| 1        | 0.10x (10%)    |
-| 15       | 0.18x (18%)    |
-| 30       | 0.25x (25%)    |
-| 60       | 0.28x (28%)    |
-| 100      | 0.30x (30%)    |
+| 1 | 0.10x (10%) |
+| 15 | 0.18x (18%) |
+| 30 | 0.25x (25%) |
+| 60 | 0.28x (28%) |
+| 100 | 0.30x (30%) |
 
 ### GMST Caps on Barter
 
@@ -43,24 +43,24 @@ Damaged items sell for less. Condition (x, as %) maps to value fraction (y):
 
 | Condition % | Value Multiplier |
 |-------------|-----------------|
-| 0           | 0.00            |
-| 1           | 0.15            |
-| 5           | 0.28            |
-| 10          | 0.35            |
-| 20          | 0.44            |
-| 30          | 0.50            |
-| 50          | 0.61            |
-| 70          | 0.70            |
-| 85          | 0.75            |
-| 100         | 0.81            |
-| 200         | 0.81 (cap)      |
+| 0 | 0.00 |
+| 1 | 0.15 |
+| 5 | 0.28 |
+| 10 | 0.35 |
+| 20 | 0.44 |
+| 30 | 0.50 |
+| 50 | 0.61 |
+| 70 | 0.70 |
+| 85 | 0.75 |
+| 100 | 0.81 |
+| 200 | 0.81 (cap) |
 
-**Key finding:** Even at 100% condition, an item's sell value is only 81% of its nominal base value. This is a hidden 19% tax that stacks with the Charisma sell curve.
+**Note::** Even at 100% condition, an item's sell value is only 81% of its nominal base value. This is a hidden 19% tax that stacks with the Charisma sell curve.
 
 ### Effective Price Formula
 
 ```
-Buy Price  = BaseValue * BarterBuyCurve(CHA) * ConditionMult(condition%)
+Buy Price = BaseValue * BarterBuyCurve(CHA) * ConditionMult(condition%)
 Sell Price = BaseValue * BarterSellCurve(CHA) * ConditionMult(condition%)
 ```
 
@@ -86,74 +86,74 @@ Containers use "chance none" curves where x = player level and y = percentage ch
 
 | Player Level | Chance Empty |
 |-------------|-------------|
-| 1           | 75%         |
-| 5           | 50%         |
-| 10          | 35%         |
-| 15          | 25%         |
-| 20          | 20%         |
-| 25          | 15%         |
-| 30          | 10%         |
-| 50+         | 10%         |
+| 1 | 75% |
+| 5 | 50% |
+| 10 | 35% |
+| 15 | 25% |
+| 20 | 20% |
+| 25 | 15% |
+| 30 | 10% |
+| 50+ | 10% |
 
 **Second item slot** (`containers_item2_chancenone.json`):
 
 | Player Level | Chance Empty |
 |-------------|-------------|
-| 1           | 95%         |
-| 10          | 80%         |
-| 20          | 50%         |
-| 30          | 25%         |
-| 100         | 0%          |
+| 1 | 95% |
+| 10 | 80% |
+| 20 | 50% |
+| 30 | 25% |
+| 100 | 0% |
 
 **Third item slot** (`containers_item3_chancenone.json`):
 
 | Player Level | Chance Empty |
 |-------------|-------------|
-| 1           | 97%         |
-| 10          | 90%         |
-| 20          | 65%         |
-| 30          | 40%         |
-| 100         | 0%          |
+| 1 | 97% |
+| 10 | 90% |
+| 20 | 65% |
+| 30 | 40% |
+| 100 | 0% |
 
 **Max cap count per container** (`containers_maxcount.json`):
 
 | Player Level | Max Caps |
 |-------------|----------|
-| 1           | 1        |
-| 5           | 1        |
-| 10          | 2        |
-| 15          | 2        |
-| 20          | 3        |
-| 25          | 4        |
-| 30          | 6        |
-| 40          | 7        |
-| 100         | 10       |
+| 1 | 1 |
+| 5 | 1 |
+| 10 | 2 |
+| 15 | 2 |
+| 20 | 3 |
+| 25 | 4 |
+| 30 | 6 |
+| 40 | 7 |
+| 100 | 10 |
 
 **Recipe drops** (`containers_recipe_chancenone.json`):
 
 | Player Level | Chance NO Recipe |
 |-------------|-----------------|
-| 1           | 99%             |
-| 10          | 95%             |
-| 20          | 80%             |
-| 30          | 50%             |
-| 100         | 0%              |
+| 1 | 99% |
+| 10 | 95% |
+| 20 | 80% |
+| 30 | 50% |
+| 100 | 0% |
 
 ### Ammo in Containers (`econ/ammo/`)
 
 All ammo types share an identical distribution curve. This is a probability/weight distribution, NOT a count:
 
-| x  | y   | Interpretation |
+| x | y | Interpretation |
 |----|-----|---------------|
-| 0  | 0   | No ammo at level 0 |
-| 1  | 12  | Weight 12 at tier 1 |
-| 2  | 90  | Peak probability at tier 2 |
-| 3  | 75  | High probability |
-| 4  | 50  | Medium |
-| 20 | 25  | Low |
-| 30 | 5   | Very low |
-| 99 | 5   | Minimum |
-| 100| 0   | None |
+| 0 | 0 | No ammo at level 0 |
+| 1 | 12 | Weight 12 at tier 1 |
+| 2 | 90 | Peak probability at tier 2 |
+| 3 | 75 | High probability |
+| 4 | 50 | Medium |
+| 20 | 25 | Low |
+| 30 | 5 | Very low |
+| 99 | 5 | Minimum |
+| 100| 0 | None |
 
 **Ammo chance-none** (`ammo_lpi_chancenone.json`): At level 1, 60% chance of no ammo; at level 25+, only 10% chance of no ammo.
 
@@ -161,12 +161,12 @@ All ammo types share an identical distribution curve. This is a probability/weig
 
 | Player Level | Chance NO Rare Item |
 |-------------|-------------------|
-| 1           | 99%               |
-| 10          | 97%               |
-| 20          | 90%               |
-| 25          | 80%               |
-| 30          | 5%                |
-| 100         | 0%                |
+| 1 | 99% |
+| 10 | 97% |
+| 20 | 90% |
+| 25 | 80% |
+| 30 | 5% |
+| 100 | 0% |
 
 There is a dramatic cliff at level 30 where rare items go from 80% chance empty to only 5%. This is likely the game's intended "endgame loot" threshold.
 
@@ -174,9 +174,9 @@ There is a dramatic cliff at level 30 where rare items go from 80% chance empty 
 
 | Tier | Chance Empty |
 |------|-------------|
-| 0    | 100%        |
-| 1    | 80%         |
-| 2    | 25%         |
+| 0 | 100% |
+| 1 | 80% |
+| 2 | 25% |
 
 ---
 
@@ -186,9 +186,9 @@ There is a dramatic cliff at level 30 where rare items go from 80% chance empty 
 
 | Distance (units) | Cap Cost |
 |-------------------|----------|
-| 1                 | 0        |
-| 10,000            | 0        |
-| 500,000           | 60       |
+| 1 | 0 |
+| 10,000 | 0 |
+| 500,000 | 60 |
 
 The curve is linear from 10,000 to 500,000 units. Fast travel is FREE up to 10,000 units distance. Beyond that, the cost scales linearly up to 60 caps maximum.
 
@@ -196,8 +196,8 @@ The curve is linear from 10,000 to 500,000 units. Fast travel is FREE up to 10,0
 
 | Player Level | Multiplier |
 |-------------|-----------|
-| 1           | 1.0x      |
-| 100         | 1.0x      |
+| 1 | 1.0x |
+| 100 | 1.0x |
 
 **This is flat at 1.0x.** Player level does NOT affect fast travel cost.
 
@@ -205,8 +205,8 @@ The curve is linear from 10,000 to 500,000 units. Fast travel is FREE up to 10,0
 
 | Overencumbered Factor | Cost Multiplier |
 |-----------------------|----------------|
-| 1                     | 1x             |
-| 5                     | 100x           |
+| 1 | 1x |
+| 5 | 100x |
 
 Being overencumbered MASSIVELY increases fast travel cost (when travel perk allows it). The multiplier scales linearly: at 2x overencumbered, cost is ~25.75x; at 3x, ~50.5x; at 5x, 100x.
 
@@ -232,10 +232,10 @@ All item categories (armor, power armor, melee weapons, ranged weapons) share ID
 
 | Stars | Scrip from Scrapping |
 |-------|---------------------|
-| 1     | 1                   |
-| 2     | 2                   |
-| 3     | 4                   |
-| 4     | 6                   |
+| 1 | 1 |
+| 2 | 2 |
+| 3 | 4 |
+| 4 | 6 |
 
 **CRITICAL DISCREPANCY:** Community wikis report scrip values of 3/9/24/40 for weapons and 3/9/24/30 for armor. Those are the **sell values** (see below), not scrap values. The game data distinguishes between "scrapvalues" (dismantling at workbench, yields legendary modules + scrip) and "sellvalues" (selling to Purveyor/legendary exchange).
 
@@ -245,28 +245,28 @@ All item categories (armor, power armor, melee weapons, ranged weapons) share ID
 
 | Stars | Scrip Value |
 |-------|------------|
-| 1     | 3          |
-| 2     | 9          |
-| 3     | 24         |
-| 4     | 30         |
+| 1 | 3 |
+| 2 | 9 |
+| 3 | 24 |
+| 4 | 30 |
 
 **Power Armor:**
 
 | Stars | Scrip Value |
 |-------|------------|
-| 1     | 10         |
-| 2     | 20         |
-| 3     | 45         |
-| 4     | 55         |
+| 1 | 10 |
+| 2 | 20 |
+| 3 | 45 |
+| 4 | 55 |
 
 **Weapons (Melee AND Ranged, identical):**
 
 | Stars | Scrip Value |
 |-------|------------|
-| 1     | 5          |
-| 2     | 15         |
-| 3     | 40         |
-| 4     | 50         |
+| 1 | 5 |
+| 2 | 15 |
+| 3 | 40 |
+| 4 | 50 |
 
 ### Legendary Crafting Costs
 
@@ -274,19 +274,19 @@ All item categories (armor, power armor, melee weapons, ranged weapons) share ID
 
 | Stars | Modules Required |
 |-------|-----------------|
-| 1     | 15              |
-| 2     | 30              |
-| 3     | 60              |
-| 4     | 120             |
+| 1 | 15 |
+| 2 | 30 |
+| 3 | 60 |
+| 4 | 120 |
 
 **Adding a Legendary Slot** (`cobj_legendary_addslot_module.json`):
 
 | Stars | Modules to Add Slot |
 |-------|-------------------|
-| 1     | 5                 |
-| 2     | 10                |
-| 3     | 15                |
-| 4     | 20                |
+| 1 | 5 |
+| 2 | 10 |
+| 3 | 15 |
+| 4 | 20 |
 
 **Attaching a Legendary Effect -- Scrip Cost** (`cobj_legendary_attach_scrip.json`):
 
@@ -294,27 +294,27 @@ This curve shows escalating scrip costs for repeated re-rolls:
 
 | Roll # | Scrip Cost |
 |--------|-----------|
-| 1      | 10        |
-| 2      | 15        |
-| 3      | 25        |
-| 4      | 45        |
-| 5      | 70        |
-| 6      | 100       |
-| 7      | 135       |
-| 8      | 175       |
-| 9      | 220       |
-| 10     | 270       |
-| 15     | 595       |
-| 20     | 1000      |
+| 1 | 10 |
+| 2 | 15 |
+| 3 | 25 |
+| 4 | 45 |
+| 5 | 70 |
+| 6 | 100 |
+| 7 | 135 |
+| 8 | 175 |
+| 9 | 220 |
+| 10 | 270 |
+| 15 | 595 |
+| 20 | 1000 |
 
 **Legendary Scrapping -- Scrip Return** (`cobj_legendary_scrap.json`):
 
 | Stars | Scrip from Scrap |
 |-------|-----------------|
-| 1     | 100             |
-| 2     | 200             |
-| 3     | 300             |
-| 4     | 400             |
+| 1 | 100 |
+| 2 | 200 |
+| 3 | 300 |
+| 4 | 400 |
 
 Wait -- this contradicts the scrapvalues curves. The `cobj_legendary_scrap.json` likely represents the COBJ recipe scrip cost/return for the "Scrap Legendary" option at the crafting bench, distinct from the AVIF-based values above. The much higher values (100/200/300/400) suggest this is the constructible object recipe yield.
 
@@ -342,12 +342,12 @@ The daily scrip limit is NOT directly stored as a curve table or GLOB -- it is l
 
 Treasury notes earned per event/quest by difficulty:
 
-| Difficulty    | Treasury Notes |
+| Difficulty | Treasury Notes |
 |---------------|---------------|
-| Easy          | 2             |
-| Medium        | 3             |
-| Hard          | 4             |
-| Very Hard     | 8             |
+| Easy | 2 |
+| Medium | 3 |
+| Hard | 4 |
+| Very Hard | 8 |
 
 - `Gold_Treasury_Note_Loot_Enabled` = **1.0** -- Treasury note drops are active
 - `Gold_Treasury_Note_QuestReward_Easy` = **2**
@@ -387,13 +387,13 @@ From the GLOB data, treasury notes convert to gold bullion at the Wayward gold p
 
 ### Note Earning Rates
 
-| Source                    | Notes Earned |
+| Source | Notes Earned |
 |---------------------------|-------------|
-| Easy public event         | 2           |
-| Medium public event       | 3           |
-| Hard public event         | 4           |
-| Very Hard public event    | 8           |
-| Daily Ops (Standard)      | 5 scrip (not notes) |
+| Easy public event | 2 |
+| Medium public event | 3 |
+| Hard public event | 4 |
+| Very Hard public event | 8 |
+| Daily Ops (Standard) | 5 scrip (not notes) |
 
 ---
 
@@ -436,11 +436,11 @@ PA uses a tiered system where x encodes both PA type (10-15=Raider, 20-25=T-45, 
 
 | Material Rarity | Base (mod 0) | +1 | +2 | +3 | +4 | +5 |
 |-----------------|-------------|-----|-----|-----|-----|-----|
-| Super Common    | 9           | 13  | 16  | 19  | 22  | 25  |
-| Common          | 7           | 12  | 14  | 16  | 18  | 20  |
-| Uncommon        | 5           | 9   | 11  | 13  | 15  | 17  |
-| Rare            | 4           | 6   | 8   | 10  | 12  | 14  |
-| Very Rare       | 3           | 5   | 6   | 7   | 8   | 9   |
+| Super Common | 9 | 13 | 16 | 19 | 22 | 25 |
+| Common | 7 | 12 | 14 | 16 | 18 | 20 |
+| Uncommon | 5 | 9 | 11 | 13 | 15 | 17 |
+| Rare | 4 | 6 | 8 | 10 | 12 | 14 |
+| Very Rare | 3 | 5 | 6 | 7 | 8 | 9 |
 
 All PA types share identical costs for the same rarity tier -- there's no cost difference between modding Raider vs X-01 in terms of material counts.
 
@@ -448,11 +448,11 @@ All PA types share identical costs for the same rarity tier -- there's no cost d
 
 | Tier | Ore Required | Acid Required |
 |------|-------------|--------------|
-| 10   | 3           | 2            |
-| 20   | 3           | 2            |
-| 30   | 3           | 3            |
-| 40   | 5           | 4            |
-| 50   | 7           | 5            |
+| 10 | 3 | 2 |
+| 20 | 3 | 2 |
+| 30 | 3 | 3 |
+| 40 | 5 | 4 |
+| 50 | 7 | 5 |
 
 ### Flux Stabilization (Nuked Flora)
 
@@ -466,13 +466,13 @@ All five flux colors (cobalt/crimson/fluorescent/violet/yellowcake) have identic
 
 ### Brewing Costs (by recipe tier 1/2/3)
 
-| Ingredient Type   | Tier 1 | Tier 2 | Tier 3 |
+| Ingredient Type | Tier 1 | Tier 2 | Tier 3 |
 |-------------------|--------|--------|--------|
-| Primary Ingredient| 2      | 3      | 3      |
-| Water             | 2      | 3      | 3      |
-| Wood              | 2      | 5      | 5      |
-| Flavor Ingredient | 1      | 2      | 2      |
-| Rare Ingredient   | 1      | 1      | 1      |
+| Primary Ingredient| 2 | 3 | 3 |
+| Water | 2 | 3 | 3 |
+| Wood | 2 | 5 | 5 |
+| Flavor Ingredient | 1 | 2 | 2 |
+| Rare Ingredient | 1 | 1 | 1 |
 
 ### Intelligence Crafting Bonuses
 
@@ -480,13 +480,13 @@ All five flux colors (cobalt/crimson/fluorescent/violet/yellowcake) have identic
 
 | INT | Scrap Multiplier |
 |-----|-----------------|
-| 1   | 0.75x           |
-| 3   | 1.00x (baseline)|
-| 5   | 1.10x           |
-| 10  | 1.20x           |
-| 15  | 1.25x           |
-| 20  | 1.30x           |
-| 25  | 1.325x          |
+| 1 | 0.75x |
+| 3 | 1.00x (baseline)|
+| 5 | 1.10x |
+| 10 | 1.20x |
+| 15 | 1.25x |
+| 20 | 1.30x |
+| 25 | 1.325x |
 
 At INT 1, you get 25% LESS scrap. At INT 15+, you get 25-33% MORE scrap.
 
@@ -502,14 +502,14 @@ The ammo crafting system uses the same linear 1:1 curves for all materials. The 
 
 The Ammo-O-Matic produces ammo passively. Production interval in hours per round:
 
-| Ammo Type    | Hours/Round | Rounds/Hour |
+| Ammo Type | Hours/Round | Rounds/Hour |
 |-------------|-------------|-------------|
-| .308        | 0.000600    | 1,667       |
-| 10mm        | 0.003600    | 278         |
-| .44         | 0.001600    | 625         |
-| .45         | 0.001300    | 769         |
-| 5.56        | 0.004800    | 208         |
-| Shotgun     | 0.003500    | 286         |
+| .308 | 0.000600 | 1,667 |
+| 10mm | 0.003600 | 278 |
+| .44 | 0.001600 | 625 |
+| .45 | 0.001300 | 769 |
+| 5.56 | 0.004800 | 208 |
+| Shotgun | 0.003500 | 286 |
 
 **Observation:** .308 ammo produces 6x faster than 5.56 in the Ammo-O-Matic, which contradicts the common player assumption that all ammo produces at equal rates. 5.56 is actually the SLOWEST ammo to produce passively, yet is among the most demanded.
 
@@ -529,10 +529,10 @@ The Ammo-O-Matic produces ammo passively. Production interval in hours per round
 
 | Level | Condition Loss/Shot |
 |-------|-------------------|
-| 1     | 0.015             |
-| 15    | 0.012             |
-| 30    | 0.010             |
-| 50    | 0.007             |
+| 1 | 0.015 |
+| 15 | 0.012 |
+| 30 | 0.010 |
+| 50 | 0.007 |
 
 Higher-level weapons degrade slower. A level 50 ballistic weapon loses condition 53% slower than a level 1.
 
@@ -540,15 +540,15 @@ Higher-level weapons degrade slower. A level 50 ballistic weapon loses condition
 
 | Level | Min Durability | Max Durability |
 |-------|---------------|---------------|
-| 1     | 30            | 45            |
-| 25    | 50            | 65            |
-| 50    | 70            | 85            |
+| 1 | 30 | 45 |
+| 25 | 50 | 65 |
+| 50 | 70 | 85 |
 
 ### Repair Cost Formula
 
 ```
 Repair Cost = OriginalCraftingComponents * fWorkshopRepairComponentMult * (1 - CurrentCondition%)
-            = OriginalCraftingComponents * 0.25 * ConditionDeficit
+ = OriginalCraftingComponents * 0.25 * ConditionDeficit
 ```
 
 A weapon at 50% condition costs 12.5% of its original materials to repair.
@@ -562,15 +562,15 @@ A weapon at 0% condition costs the full 25% of its original materials.
 
 ### GMST Budget Values
 
-| Category   | Budget Cost Per Unit |
+| Category | Budget Cost Per Unit |
 |------------|---------------------|
-| Light      | 1.0                 |
-| Spline     | 0.25                |
-| Actor (NPC)| 9.0                 |
-| Container  | 0.0 (free!)         |
-| Navmesh    | 2.0                 |
+| Light | 1.0 |
+| Spline | 0.25 |
+| Actor (NPC)| 9.0 |
+| Container | 0.0 (free!) |
+| Navmesh | 2.0 |
 
-**Key finding:** Containers cost ZERO budget. This explains why players can place unlimited stash boxes. Actors (allies, collectrons) cost 9x a standard object, explaining why you can only place a few.
+**Note::** Containers cost ZERO budget. This explains why players can place unlimited stash boxes. Actors (allies, collectrons) cost 9x a standard object, explaining why you can only place a few.
 
 ### CAMP Placement Costs
 
@@ -578,8 +578,8 @@ A weapon at 0% condition costs the full 25% of its original materials.
 
 | Player Level | Move Cost (caps) |
 |-------------|-----------------|
-| 1-5         | 5               |
-| 50          | 40              |
+| 1-5 | 5 |
+| 50 | 40 |
 
 Linear scaling from level 5 to 50.
 
@@ -591,9 +591,9 @@ Linear scaling from level 5 to 50.
 
 | Player Level | Claim Cost (caps) |
 |-------------|------------------|
-| 0           | 25               |
-| 1000 (?) XP | 50               |
-| 3000 (?) XP | 100              |
+| 0 | 25 |
+| 1000 (?) XP | 50 |
+| 3000 (?) XP | 100 |
 
 This likely indexes on some progression metric rather than raw level.
 
@@ -610,28 +610,28 @@ This likely indexes on some progression metric rather than raw level.
 
 ALL vendor factions share a **3-day reset cycle**:
 
-| Vendor Faction          | Reset Days |
+| Vendor Faction | Reset Days |
 |------------------------|-----------|
-| Enclave                | 3         |
-| Brotherhood of Steel   | 3         |
-| Raiders                | 3         |
-| Free States            | 3         |
-| Settlers               | 3         |
-| Whitesprings           | 3         |
-| Vault 63               | 3         |
-| Shared Pool            | 3         |
-| Vending Machine        | 3         |
-| RE (Random Encounter)  | 3         |
-| Pioneer Scout (Tadpole)| 3         |
-| Pioneer Scout (Possum) | 3         |
-| Visitor Vendor          | 3         |
-| LGV01                  | 3         |
-| Raiders Gold Vendor     | 3         |
-| Settlers Gold Vendor    | 3         |
+| Enclave | 3 |
+| Brotherhood of Steel | 3 |
+| Raiders | 3 |
+| Free States | 3 |
+| Settlers | 3 |
+| Whitesprings | 3 |
+| Vault 63 | 3 |
+| Shared Pool | 3 |
+| Vending Machine | 3 |
+| RE (Random Encounter) | 3 |
+| Pioneer Scout (Tadpole)| 3 |
+| Pioneer Scout (Possum) | 3 |
+| Visitor Vendor | 3 |
+| LGV01 | 3 |
+| Raiders Gold Vendor | 3 |
+| Settlers Gold Vendor | 3 |
 | Showmen (Burning Springs)| tracked |
-| Muni (Burning Springs)  | tracked |
+| Muni (Burning Springs) | tracked |
 | Mobster (Burning Springs)| tracked |
-| None                   | 0         |
+| None | 0 |
 
 **Vendor Balance Tracking:** Each faction has a `Vendor_CapsBalance_*` Actor Value (AVIF) that tracks remaining caps. When depleted, they won't buy until reset.
 
@@ -645,28 +645,28 @@ ALL vendor factions share a **3-day reset cycle**:
 
 | Tier | Added Weight |
 |------|-------------|
-| 1    | 10          |
-| 2    | 20          |
-| 3    | 30          |
-| 4    | 40          |
-| 5    | 50          |
-| 6    | 60          |
-| 7    | 80          |
-| 8    | 90          |
+| 1 | 10 |
+| 2 | 20 |
+| 3 | 30 |
+| 4 | 40 |
+| 5 | 50 |
+| 6 | 60 |
+| 7 | 80 |
+| 8 | 90 |
 
 **Stash expansion cost** (`stash_cost_caps.json`):
 
 | Tier | Cap Cost |
 |------|---------|
-| 1    | 100     |
-| 2    | 200     |
-| 3    | 300     |
-| 4    | 400     |
-| 5    | 500     |
-| 6    | 600     |
-| 7    | 700     |
-| 8    | 800     |
-| 50   | 5,000   |
+| 1 | 100 |
+| 2 | 200 |
+| 3 | 300 |
+| 4 | 400 |
+| 5 | 500 |
+| 6 | 600 |
+| 7 | 700 |
+| 8 | 800 |
+| 50 | 5,000 |
 
 ### CAMP Resource Production Intervals
 
@@ -680,9 +680,9 @@ ALL vendor factions share a **3-day reset cycle**:
 
 | Player Level | % Caps Lost on Death |
 |-------------|---------------------|
-| 1-20        | 1%                  |
-| 21-40       | 2%                  |
-| 41-50       | 3%                  |
+| 1-20 | 1% |
+| 21-40 | 2% |
+| 41-50 | 3% |
 
 **Comparison with community knowledge:** Wiki says "you drop some caps on death." The actual data shows a very modest 1-3% loss that many players overestimate. At level 50 with 40,000 caps, you lose only 1,200 caps.
 
@@ -694,14 +694,14 @@ Large creatures (Scorchbeasts, Behemoths, etc.) drop materials based on a tiered
 
 | Tier | Count |
 |------|-------|
-| 0    | 1     |
-| 1    | 2     |
-| 2    | 3     |
-| 3    | 4     |
-| 4    | 5     |
-| 5    | 6     |
-| 6    | 7     |
-| 7    | 1 (reset) |
+| 0 | 1 |
+| 1 | 2 |
+| 2 | 3 |
+| 3 | 4 |
+| 4 | 5 |
+| 5 | 6 |
+| 6 | 7 |
+| 7 | 1 (reset) |
 
 The curve resets at tier 7, suggesting a cycling drop table. Ultracite drops follow a similar pattern but reset at tier 5.
 
@@ -711,9 +711,9 @@ The curve resets at tier 7, suggesting a cycling drop table. Ultracite drops fol
 
 | Tier | Cap Reward |
 |------|-----------|
-| 1    | 75        |
-| 2    | 150       |
-| 3    | 225       |
+| 1 | 75 |
+| 2 | 150 |
+| 3 | 225 |
 
 ---
 

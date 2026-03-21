@@ -11,24 +11,24 @@
 - **Script namespace**: `SupplyRun:*`
 - **Objective**: Repair repeater, then stand near two Uplink devices to fill progress bars
 - **Progression stages** (from Mode01 quest fragments):
-  - Intro > Repeater Repaired > Uplink 1 Started > Uplink 1 Complete > Uplink 2 Started > Uplink 2 Completed > Boss Room Arrived > Boss Incoming > Boss Dead
+ - Intro > Repeater Repaired > Uplink 1 Started > Uplink 1 Complete > Uplink 2 Started > Uplink 2 Completed > Boss Room Arrived > Boss Incoming > Boss Dead
 - **Uplink mechanic** (`SupplyRun:ActivatorProgress`):
-  - Progress ticks every `PROGRESS_INTERVAL = 1.0` seconds
-  - Speed scales with player count in proximity (`PROXIMITY_THRESHOLD = 1024 units`)
-  - Backup multipliers when fewer players are near the Uplink:
-    - 4 players: `2.5x`
-    - 3 players: `2.14x`
-    - 2 players: `1.87x`
-    - 1 player: `1.67x`
-    - 0 players: `0.5x` (progress regresses)
-  - Visual stage transitions at configurable thresholds (Stage1/2/3 percentage breakpoints)
+ - Progress ticks every `PROGRESS_INTERVAL = 1.0` seconds
+ - Speed scales with player count in proximity (`PROXIMITY_THRESHOLD = 1024 units`)
+ - Backup multipliers when fewer players are near the Uplink:
+ - 4 players: `2.5x`
+ - 3 players: `2.14x`
+ - 2 players: `1.87x`
+ - 1 player: `1.67x`
+ - 0 players: `0.5x` (progress regresses)
+ - Visual stage transitions at configurable thresholds (Stage1/2/3 percentage breakpoints)
 
 ### Mode 02: Decryption
 - **Script namespace**: `DailyOps_Mode02:*`
 - **Master script**: `DailyOps_Mode02:Master`
 - **Objective**: Kill enemies in rounds, defeat code-carrier bosses, disable Radio Interceptors
 - **Progression stages** (from Master script):
-  - ST_INIT (0) > ST_AMB_TRIGGER_ENTERED (50) > ST_KILLED_R1_ENEMIES (100) > ST_KILLED_FIRST_BOSS (200) > ST_COMPLETED_FIRST_ACTIVATOR (300) > ST_KILLED_R2_ENEMIES (400) > ST_KILLED_SECOND_BOSS (500) > ST_COMPLETED_SECOND_ACTIVATOR (600) > ST_KILLED_R3_ENEMIES (700) > ST_KILLED_THIRD_BOSS (800) > ST_COMPLETED_THIRD_ACTIVATOR (900) > ST_MISSION_COMPLETE (1500)
+ - ST_INIT (0) > ST_AMB_TRIGGER_ENTERED (50) > ST_KILLED_R1_ENEMIES (100) > ST_KILLED_FIRST_BOSS (200) > ST_COMPLETED_FIRST_ACTIVATOR (300) > ST_KILLED_R2_ENEMIES (400) > ST_KILLED_SECOND_BOSS (500) > ST_COMPLETED_SECOND_ACTIVATOR (600) > ST_KILLED_R3_ENEMIES (700) > ST_KILLED_THIRD_BOSS (800) > ST_COMPLETED_THIRD_ACTIVATOR (900) > ST_MISSION_COMPLETE (1500)
 - **Three Radio Interceptors** must be disabled (activators at indices 0, 1, 2)
 - Interceptor states cycle through: Running > DownOne > DownTwo > Disabled (animation states JumpState00-03)
 - Enemies drop code fragments when killed; codes are used at interceptors
@@ -156,7 +156,7 @@ Keyword: `DailyOps_DoubleMutationReward` (0x0062A86A) -- used to gate additional
 - `CUT_SCORE_Challenge_Weekly_QuestComplete_DailyOps_FullTeam` (0x005D22DE)
 - `CUT_SCORE_Challenge_Daily_QuestComplete_DailyOps_FullTeam` (0x005D22DB)
 
-**Key finding**: Bethesda originally planned SCORE challenges for specifically achieving Paladin/Elder rank and for completing with a full team. These were cut, replaced with the simpler "complete a Daily Op" challenges.
+**Note:**: Bethesda originally planned SCORE challenges for specifically achieving Paladin/Elder rank and for completing with a full team. These were cut, replaced with the simpler "complete a Daily Op" challenges.
 
 ---
 
@@ -376,7 +376,7 @@ From `DailyOps_Mode02:DefaultMutation`:
 | Boss Max Level | 100 | `Renorm_MaxLVL_Bosses_DailyOps` |
 | Boss Level Offset | 0 | `Renorm_Offset_Bosses_DailyOps` |
 
-**Key finding**: Regular enemies cap at level 60 but bosses scale up to **level 100**. Both floor at level 40 with zero offset. This means the boss difficulty gap is real and significant -- bosses can be 40 levels higher than regular enemies.
+**Note:**: Regular enemies cap at level 60 but bosses scale up to **level 100**. Both floor at level 40 with zero offset. This means the boss difficulty gap is real and significant -- bosses can be 40 levels higher than regular enemies.
 
 ---
 
@@ -415,7 +415,7 @@ The uplink times reveal the intended solo vs group experience:
 | 4 Players | 90 | 1:30 |
 | 0 Players (regress) | 600 | 10:00 |
 
-**Key finding**: With 0 players at the uplink, progress takes 600 seconds (10 minutes effectively = regression). The backup multipliers from ActivatorProgress (2.5x for 4 players, 0.5x for 0 players) are applied on top of these base times -- meaning progress actually REVERSES when nobody stands on the uplink.
+**Note:**: With 0 players at the uplink, progress takes 600 seconds (10 minutes effectively = regression). The backup multipliers from ActivatorProgress (2.5x for 4 players, 0.5x for 0 players) are applied on top of these base times -- meaning progress actually REVERSES when nobody stands on the uplink.
 
 ### Eject Timer
 - `DailyOps_EjectTimer` = **300 seconds** (5 minutes) -- players have 5 minutes to loot after mission complete before forced ejection

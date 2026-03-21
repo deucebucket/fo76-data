@@ -370,7 +370,7 @@ Added for the Wastelanders update -- ZAX acknowledges the arrival of NPCs in App
 - "I have detected new humans in Appalachia. Data suggests there may be Overseer Candidates among them."
 - "New residents of Appalachia mean new potential Overseers. Stay on your toes, Candidate."
 
-**KEY FINDING**: The Wastelanders dialogue proves Bethesda was actively creating new ZAX lines well into NW's lifespan. These lines were written specifically for the April 2020 Wastelanders update, showing continued investment in NW's narrative even as the mode struggled with player counts.
+**Note:**: The Wastelanders dialogue proves Bethesda was actively creating new ZAX lines well into NW's lifespan. These lines were written specifically for the April 2020 Wastelanders update, showing continued investment in NW's narrative even as the mode struggled with player counts.
 
 ---
 
@@ -393,9 +393,9 @@ The Vault 51 story was told through holotapes, terminal entries, and ZAX's dialo
 
 #### Act 1: Arrival and Purpose (October 2077)
 ZAX introduces the vault experiment:
-- "There's a storm coming. The likes of which, well... we've never seen before."
+- "There's a storm coming. The likes of which, well... the files contain never seen before."
 - "But don't you worry. There's hope. You'll be safe here in Vault 51."
-- "It's an incredible opportunity, really - the chance to be an Overseer."
+- "It's an extensive opportunity, really - the chance to be an Overseer."
 - "As always, Vault-Tec needs the best of the best. So I have devised a unique... process of elimination."
 - "I look forward to meeting you. Just leave your judgments - and possessions - at the door."
 

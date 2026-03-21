@@ -61,7 +61,7 @@ Bethesda has a "Live Tuning Toggle" (LTT_) system that lets them remotely adjust
 | TreasureHunt_SpawnChance | Treasure hunter mole miner |
 | ScorchedStatueSpawnChance | Scorched statue spawn |
 
-## Why This Matters for Players
+## Implications for Players
 1. **Drop rates change without patches** — what worked last week might not work this week
 2. **Event bonuses stack** — multiple LTT toggles can be on simultaneously
 3. **Bigfoot has a SEPARATE spawn rate** from other party crashers

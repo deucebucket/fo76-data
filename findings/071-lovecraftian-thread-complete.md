@@ -237,7 +237,7 @@ Jeff Lane is the key narrative figure connecting the Mothman Cult to the Interlo
 **Holotape 1 (Point Pleasant area):**
 `[000438A9]` "There are other things in this world now that cannot be explained. The end of the world has awoken... something."
 `[000438AA]` "We all know the Mothman is out there, stalking and watching us, but what of the unseen."
-`[000438AB]` "There are things we can only glimpse in our minds, great entities, beyond our comprehension."
+`[000438AB]` "There are things it is possible to only glimpse in our minds, great entities, beyond our comprehension."
 `[000438AC]` "The Mothman is a creature, more like us than the unknowable horrors in the peripheral vision of our subconscious minds."
 `[000438AD]` "No longer just a false memory now... I have heard a tale... of this entity made real, deep in the earth."
 `[000438AE]` "The story teller was mad by any reckoning, but his story no less true."
@@ -271,7 +271,7 @@ The fishing system (added Season 21) contains a hidden Lovecraftian narrative la
 **Captain Raymond Clark -- Telepathic Victim:**
 His holotapes reveal progressive loss of identity and autonomy:
 
-`[810106E0]` "My name is Captain... Captain... I'm a Captain. It's my job to, to fish? To catch as many fish as we can. My father was a fish, and my mother..."
+`[810106E0]` "My name is Captain... Captain... I'm a Captain. It's my job to, to fish? To catch as many fish as it is possible to. My father was a fish, and my mother..."
 
 `[810106E1]` "To the people of Appalachia, if ye can hear this, know that I am in grave dang-"
 `[810106E2]` "*Gurgle*"
@@ -413,37 +413,37 @@ While "Ryl-Tkannoth" does not appear directly in the string tables, the naming c
 The game data supports this model:
 
 ```
-                        UG-QUALTOTH
-                    (The Gate / The Key)
-                           |
-            +--------------+--------------+
-            |              |              |
-     The Obelisk     The Altar/Face   The Interloper
-      (FO3 DC)       (FO4 Boston)   (FO76 Appalachia)
-     [conduit]      [worship site]   [physical avatar]
-            |              |              |
-     Krivbeknih     Kremvh's Tooth   Eldritch Font
-      [text]         [weapon]        [ritual basin]
-            |              |              |
-   Blackhall Cult   Employee         Mothman Cult
-   + Swampfolk      Sacrifice        Dim Ones
+ UG-QUALTOTH
+ (The Gate / The Key)
+ |
+ +--------------+--------------+
+ | | |
+ The Obelisk The Altar/Face The Interloper
+ (FO3 DC) (FO4 Boston) (FO76 Appalachia)
+ [conduit] [worship site] [physical avatar]
+ | | |
+ Krivbeknih Kremvh's Tooth Eldritch Font
+ [text] [weapon] [ritual basin]
+ | | |
+ Blackhall Cult Employee Mothman Cult
+ + Swampfolk Sacrifice Dim Ones
 ```
 
 ### The Aquatic Thread (FO76 Expansion)
 
 ```
-     UG-QUALTOTH (or related aquatic aspect)
-                    |
-            The Deep Ones
-         (Fog Crawler base mesh)
-                    |
-          The Fisherman
-       (fish-human hybrid NPC)
-                    |
-    +--------+----------+
-    |        |          |
-  Raymond  Linda-Lee  Maw-Begotten
-  [victim]  [creature] [legendary fish]
+ UG-QUALTOTH (or related aquatic aspect)
+ |
+ The Deep Ones
+ (Fog Crawler base mesh)
+ |
+ The Fisherman
+ (fish-human hybrid NPC)
+ |
+ +--------+----------+
+ | | |
+ Raymond Linda-Lee Maw-Begotten
+ [victim] [creature] [legendary fish]
 ```
 
 ### Why Bethesda Never Confirms It
