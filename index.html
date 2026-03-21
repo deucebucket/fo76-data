@@ -938,6 +938,33 @@ var scriptsData = null;
 var rttiLoading = false;
 var scriptsLoading = false;
 
+var perkCrossLinks = null;
+var legendaryCrossLinks = null;
+
+// Map weapon categories/subcategories to perk cross-link categories
+var WEAPON_CAT_TO_PERK_CATS = {
+  'Rifles': ['rifle', 'general_damage'],
+  'Pistols': ['pistol', 'general_damage'],
+  'Heavy Guns': ['heavy_gun', 'general_damage'],
+  'Melee': ['melee', 'general_damage'],
+  'SMGs': ['pistol', 'general_damage'],
+  'Throwables': ['explosive', 'general_damage']
+};
+
+var WEAPON_SUBCAT_TO_PERK_CATS = {
+  'Automatic Rifles': ['rifle', 'general_damage'],
+  'Semi-Auto Rifles': ['rifle', 'general_damage'],
+  'Energy Rifles': ['rifle', 'energy', 'general_damage'],
+  'Semi-Auto Pistols': ['pistol', 'general_damage'],
+  'Energy Pistols': ['pistol', 'energy', 'general_damage'],
+  'Radiation Pistols': ['pistol', 'energy', 'general_damage'],
+  'Energy Heavy Guns': ['heavy_gun', 'energy', 'general_damage'],
+  'Melee': ['melee', 'general_damage'],
+  'Special': ['general_damage'],
+  'SMGs': ['pistol', 'general_damage'],
+  'Throwables': ['explosive', 'general_damage']
+};
+
 var TYPE_TO_DISPLAY = {
   finding: 'Findings',
   weapon: 'Weapons',
@@ -2115,6 +2142,163 @@ function renderInlineCurve(curveEntry) {
   '</div>';
 }
 
+function getWeaponPerkCategories(item) {
+  var cats = [];
+  var seen = {};
+  // Use subcategory first (more specific), fallback to category
+  var subcat = item.subcategory || (item.data && item.data.subcategory) || '';
+  var cat = item.category || (item.data && item.data.category) || '';
+
+  var sources = [];
+  if (subcat && WEAPON_SUBCAT_TO_PERK_CATS[subcat]) {
+    sources = WEAPON_SUBCAT_TO_PERK_CATS[subcat];
+  } else if (cat && WEAPON_CAT_TO_PERK_CATS[cat]) {
+    sources = WEAPON_CAT_TO_PERK_CATS[cat];
+  }
+
+  // Check for explosive damage type
+  var dmgType = item.damage_type || '';
+  if (dmgType === 'explosive' && !seen['explosive']) {
+    sources = sources.concat(['explosive']);
+  }
+  // Check for energy damage type
+  if ((dmgType === 'energy' || dmgType === 'fire' || dmgType === 'cryo' || dmgType === 'radiation') && !seen['energy']) {
+    sources = sources.concat(['energy']);
+  }
+
+  // Also always include VATS perks for ranged weapons
+  if (cat !== 'Melee' && cat !== 'Throwables') {
+    sources = sources.concat(['vats']);
+  }
+
+  sources.forEach(function(c) {
+    if (!seen[c]) {
+      seen[c] = true;
+      cats.push(c);
+    }
+  });
+  return cats;
+}
+
+function renderPerkCrossLinks(perkCategories) {
+  if (!perkCrossLinks || perkCategories.length === 0) return '';
+  var html = '';
+  var seenPerks = {};
+
+  perkCategories.forEach(function(cat) {
+    var perks = perkCrossLinks[cat];
+    if (!perks || perks.length === 0) return;
+
+    // Group by perk name, show only highest rank
+    var byName = {};
+    perks.forEach(function(p) {
+      var key = p.perk_name;
+      if (!byName[key] || p.rank > byName[key].rank) {
+        byName[key] = p;
+      }
+    });
+
+    Object.keys(byName).forEach(function(name) {
+      if (seenPerks[name]) return;
+      seenPerks[name] = true;
+      var p = byName[name];
+      var specialClass = SPECIAL_CLASSES[p.special] || '';
+      html += '<tr>' +
+        '<td style="color:var(--green-dim)">' + esc(p.perk_name) + '</td>' +
+        '<td><span class="badge ' + specialClass + '" style="font-size:0.65rem">' + esc(p.special) + '</span></td>' +
+        '<td>' + esc(p.max_rank) + '</td>' +
+        '<td style="color:var(--text-faint)">' + esc(p.description) + '</td>' +
+      '</tr>';
+    });
+  });
+
+  if (!html) return '';
+  return '<table class="profile-curve-table">' +
+    '<tr><th>Perk</th><th>SPECIAL</th><th>Ranks</th><th>Effect (Max Rank)</th></tr>' +
+    html + '</table>';
+}
+
+function renderLegendaryCrossLinks(type) {
+  if (!legendaryCrossLinks) return '';
+  var effects = legendaryCrossLinks[type];
+  if (!effects || effects.length === 0) return '';
+
+  var html = '<table class="profile-curve-table">' +
+    '<tr><th>Name</th><th>Star</th><th>Effect</th></tr>';
+  effects.forEach(function(e) {
+    var starStr = '\u2605'.repeat(e.star || 1);
+    html += '<tr>' +
+      '<td style="color:var(--amber)">' + esc(e.name) + '</td>' +
+      '<td class="stars">' + starStr + '</td>' +
+      '<td style="color:var(--text-faint)">' + esc(e.effect) + '</td>' +
+    '</tr>';
+  });
+  html += '</table>';
+  return html;
+}
+
+function findPerkCategories(perkName) {
+  if (!perkCrossLinks) return [];
+  var cats = [];
+  Object.keys(perkCrossLinks).forEach(function(cat) {
+    var perks = perkCrossLinks[cat];
+    for (var i = 0; i < perks.length; i++) {
+      if (perks[i].perk_name === perkName) {
+        cats.push(cat);
+        break;
+      }
+    }
+  });
+  return cats;
+}
+
+function findRelatedPerksInCategories(perkName, categories) {
+  if (!perkCrossLinks) return [];
+  var seen = {};
+  seen[perkName] = true;
+  var related = [];
+
+  categories.forEach(function(cat) {
+    var perks = perkCrossLinks[cat];
+    if (!perks) return;
+    perks.forEach(function(p) {
+      if (!seen[p.perk_name]) {
+        seen[p.perk_name] = true;
+        related.push(p);
+      }
+    });
+  });
+
+  // Deduplicate by name (keep highest rank)
+  var byName = {};
+  related.forEach(function(p) {
+    if (!byName[p.perk_name] || p.rank > byName[p.perk_name].rank) {
+      byName[p.perk_name] = p;
+    }
+  });
+  return Object.keys(byName).map(function(k) { return byName[k]; });
+}
+
+var PERK_CAT_DISPLAY = {
+  rifle: 'Rifles',
+  pistol: 'Pistols',
+  shotgun: 'Shotguns',
+  heavy_gun: 'Heavy Guns',
+  melee: 'Melee',
+  unarmed: 'Unarmed',
+  explosive: 'Explosives',
+  energy: 'Energy Weapons',
+  power_armor: 'Power Armor',
+  armor: 'Armor',
+  food_drink: 'Food & Drink',
+  chem: 'Chems',
+  stealth: 'Stealth',
+  vats: 'V.A.T.S.',
+  crafting: 'Crafting',
+  general_damage: 'General Damage',
+  general_defense: 'General Defense'
+};
+
 function buildProfileContent(item) {
   var d = item.data || {};
   var html = '';
@@ -2169,6 +2353,29 @@ function buildProfileContent(item) {
       html += detailItem('Data Source', d.data_source);
       html += '</div>';
       html += '</div>';
+
+      // Cross-linked perks
+      var weaponPerkCats = getWeaponPerkCategories(item);
+      if (weaponPerkCats.length > 0 && perkCrossLinks) {
+        var perkTable = renderPerkCrossLinks(weaponPerkCats);
+        if (perkTable) {
+          html += '<div class="profile-section">';
+          html += '<div class="profile-section-title" style="color:var(--blue)">related perks (' + weaponPerkCats.map(function(c) { return PERK_CAT_DISPLAY[c] || c; }).join(', ') + ')</div>';
+          html += perkTable;
+          html += '</div>';
+        }
+      }
+
+      // Cross-linked legendary effects (weapon)
+      if (legendaryCrossLinks && legendaryCrossLinks.weapon) {
+        var legTable = renderLegendaryCrossLinks('weapon');
+        if (legTable) {
+          html += '<div class="profile-section">';
+          html += '<div class="profile-section-title" style="color:var(--amber)">applicable legendary effects (' + legendaryCrossLinks.weapon.length + ')</div>';
+          html += legTable;
+          html += '</div>';
+        }
+      }
       break;
 
     case 'perk':
@@ -2196,6 +2403,40 @@ function buildProfileContent(item) {
         html += '<div class="profile-section-title">conditions</div>';
         html += '<p style="color:var(--text-dim)">' + esc(d.conditions) + '</p>';
         html += '</div>';
+      }
+
+      // Cross-linked categories this perk affects
+      var perkName = item.perk_name || item.title.replace(/\s*\(Rank \d+\)$/, '');
+      var perkCats = findPerkCategories(perkName);
+      if (perkCats.length > 0) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--cyan)">affects categories</div>';
+        html += '<div style="display:flex;flex-wrap:wrap;gap:0.4rem">';
+        perkCats.forEach(function(cat) {
+          var displayName = PERK_CAT_DISPLAY[cat] || cat;
+          html += '<span class="badge" style="color:var(--cyan);border-color:var(--cyan)">' + esc(displayName) + '</span>';
+        });
+        html += '</div>';
+        html += '</div>';
+
+        // Related perks in same categories
+        var relatedPerks = findRelatedPerksInCategories(perkName, perkCats);
+        if (relatedPerks.length > 0) {
+          html += '<div class="profile-section">';
+          html += '<div class="profile-section-title" style="color:var(--blue)">related perks (' + relatedPerks.length + ')</div>';
+          html += '<table class="profile-curve-table"><tr><th>Perk</th><th>SPECIAL</th><th>Ranks</th><th>Effect (Max Rank)</th></tr>';
+          relatedPerks.forEach(function(p) {
+            var spClass = SPECIAL_CLASSES[p.special] || '';
+            html += '<tr>' +
+              '<td style="color:var(--green-dim)">' + esc(p.perk_name) + '</td>' +
+              '<td><span class="badge ' + spClass + '" style="font-size:0.65rem">' + esc(p.special) + '</span></td>' +
+              '<td>' + esc(p.max_rank) + '</td>' +
+              '<td style="color:var(--text-faint)">' + esc(p.description) + '</td>' +
+            '</tr>';
+          });
+          html += '</table>';
+          html += '</div>';
+        }
       }
       break;
 
@@ -2840,6 +3081,13 @@ async function init() {
 
     var totalWithLazy = allData.length + 28866 + 7095;
     document.getElementById('total-count').textContent = totalWithLazy.toLocaleString() + ' entries across ' + Object.keys(TYPE_TO_DISPLAY).length + ' categories';
+
+    // Load cross-link data (small files, load in parallel)
+    var crossLinkPromises = [
+      fetch('data/perk_cross_links.json').then(function(r) { return r.ok ? r.json() : null; }).then(function(d) { perkCrossLinks = d; }).catch(function() {}),
+      fetch('data/legendary_cross_links.json').then(function(r) { return r.ok ? r.json() : null; }).then(function(d) { legendaryCrossLinks = d; }).catch(function() {})
+    ];
+    await Promise.all(crossLinkPromises);
 
     fuseOptions = {
       keys: [
