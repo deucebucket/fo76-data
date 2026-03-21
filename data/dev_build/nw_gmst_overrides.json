@@ -1,0 +1,2100 @@
+{
+  "summary": {
+    "total_nw_gmsts": 108,
+    "overrides_base_value": 44,
+    "new_gmsts_not_in_base": 54,
+    "same_as_base": 10,
+    "dev_vs_retail_gmst_differences": 1
+  },
+  "categories": {
+    "Survival": 3,
+    "Death/Loot": 1,
+    "Other": 18,
+    "Combat": 54,
+    "NW-specific": 11,
+    "PVP/Player": 6,
+    "Action Points": 5,
+    "Critical": 3,
+    "Map/UI": 2,
+    "Scope/Optics": 4,
+    "Weather": 1
+  },
+  "overrides": [
+    {
+      "gmst_name": "bAllowCampInRestrictedAreas",
+      "formid": "0x00477BEB",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Survival"
+    },
+    {
+      "gmst_name": "bDeathDropAllExceptCosmeticAndBrokenItems",
+      "formid": "0x0046C7D2",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Death/Loot"
+    },
+    {
+      "gmst_name": "bDisableAddiction",
+      "formid": "0x004E8054",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bDisableDisease",
+      "formid": "0x004E8055",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bDisableExplosionLimbDamage",
+      "formid": "0x002B78D3",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "bDisableSurvival",
+      "formid": "0x00438531",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Survival"
+    },
+    {
+      "gmst_name": "bEnableItemConditionDamage",
+      "formid": "0x0052E1AA",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "bForceBaseEsmForExteriorPrevisGen",
+      "formid": "0x003ECB90",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bHoldToReviveEnabled",
+      "formid": "0x003EE912",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "bNuclearWinterMode",
+      "formid": "0x0050D5EB",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bPVPNormalizeEnabled",
+      "formid": "0x004FB03E",
+      "nw_value": "0",
+      "base_esm_value": null,
+      "dev_value": "0",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "bPipboyShowPlayerXPInfo",
+      "formid": "0x003EA962",
+      "nw_value": "0",
+      "base_esm_value": null,
+      "dev_value": "0",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "bPlayerHasUnlimitedLockPicks",
+      "formid": "0x003E3FF7",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "bSetAllRegionNukable",
+      "formid": "0x003A0BF3",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bShowFeaturedItemPopup",
+      "formid": "0x0051DDEB",
+      "nw_value": "0",
+      "base_esm_value": null,
+      "dev_value": "0",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bUpdatePlayerWeatherFromStormLevel",
+      "formid": "0x003CE6AD",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "bWeaponConditionDamage",
+      "formid": "0x0003AF3F",
+      "nw_value": "0",
+      "base_esm_value": "1",
+      "dev_value": "0",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fAVDActionPointsMult",
+      "formid": "0x0004D879",
+      "nw_value": "0.000000",
+      "base_esm_value": "10.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fAVDCarryWeightBase",
+      "formid": "0x000F92CB",
+      "nw_value": "75.000000",
+      "base_esm_value": "150.000000",
+      "dev_value": "75.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fAVDCarryWeightMult",
+      "formid": "0x000F92CC",
+      "nw_value": "0.000000",
+      "base_esm_value": "5.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fAVDHealthStartEndMult",
+      "formid": "0x000E6EAC",
+      "nw_value": "0.000000",
+      "base_esm_value": "5.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fAVDMeleeDamageMult",
+      "formid": "0x0004C933",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.050000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fArmorBaseFactor",
+      "formid": "0x00021A71",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fBabylonEndGameCapsPerAiKill_Elite",
+      "formid": "0x00428A2F",
+      "nw_value": "5.000000",
+      "base_esm_value": null,
+      "dev_value": "5.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fBabylonEndGameCapsPerAiKill_Medium",
+      "formid": "0x00428A30",
+      "nw_value": "4.000000",
+      "base_esm_value": null,
+      "dev_value": "4.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fBabylonEndGameExperiencePerAiKill_Elite",
+      "formid": "0x00428A31",
+      "nw_value": "9.000000",
+      "base_esm_value": null,
+      "dev_value": "9.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fBabylonPlayerHealthOffset",
+      "formid": "0x004FC124",
+      "nw_value": "5.000000",
+      "base_esm_value": null,
+      "dev_value": "5.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fClothingArmorBase",
+      "formid": "0x00508D77",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fCombatActionPointsRegenRateMult",
+      "formid": "0x00483319",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fCombatPlayerDamagePlayerMult",
+      "formid": "0x003C4C48",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fCombatPlayerLimbDamageMult",
+      "formid": "0x0001A188",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.550000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fCritEffectOnDeathPercent",
+      "formid": "0x0020E953",
+      "nw_value": "-1.000000",
+      "base_esm_value": "25.000000",
+      "dev_value": "-1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Critical"
+    },
+    {
+      "gmst_name": "fDamageStrengthMult",
+      "formid": "0x00118467",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.100000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnemyMarkerMaxDistance",
+      "formid": "0x003EC1CF",
+      "nw_value": "12000.000000",
+      "base_esm_value": null,
+      "dev_value": "12000.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Map/UI"
+    },
+    {
+      "gmst_name": "fEnergyArmorBase",
+      "formid": "0x003BA02B",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnergyArmorDmgReductionExp",
+      "formid": "0x0017D8A6",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnergyArmorFactor",
+      "formid": "0x0050D9AA",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnergyDamageBase",
+      "formid": "0x003BA024",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnergyDamageFactor",
+      "formid": "0x000769C8",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFallLegDamageMult",
+      "formid": "0x003C70BE",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireArmorBase",
+      "formid": "0x003BA02C",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireArmorDmgReductionExp",
+      "formid": "0x0017D8A7",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireArmorFactor",
+      "formid": "0x0050D9C9",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireDamageBase",
+      "formid": "0x003BA025",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireDamageFactor",
+      "formid": "0x000769C9",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostArmorBase",
+      "formid": "0x003BA02D",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostArmorDmgReductionExp",
+      "formid": "0x0017D8A8",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostArmorFactor",
+      "formid": "0x0050D9CA",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostDamageBase",
+      "formid": "0x003BA026",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostDamageFactor",
+      "formid": "0x000769CA",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fHealthEnduranceOffset",
+      "formid": "0x000E6F16",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fHoldToReviveHoldTime",
+      "formid": "0x00417782",
+      "nw_value": "2.500000",
+      "base_esm_value": "3.000000",
+      "dev_value": "2.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fJumpingAPDrain",
+      "formid": "0x00081A65",
+      "nw_value": "0.000000",
+      "base_esm_value": "10.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fLeveledLockMult",
+      "formid": "0x003D7A3A",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fLimbDamageBase",
+      "formid": "0x003BA027",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fLimbDamageFactor",
+      "formid": "0x0007E293",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.150000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fLockSkillMult",
+      "formid": "0x003C9EA8",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fMagicDiseaseTransferMult",
+      "formid": "0x003C69E1",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fMapMarkerScale",
+      "formid": "0x00477FED",
+      "nw_value": "2.500000",
+      "base_esm_value": null,
+      "dev_value": "2.500000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Map/UI"
+    },
+    {
+      "gmst_name": "fMoveCampCost",
+      "formid": "0x002E28EB",
+      "nw_value": "10.000000",
+      "base_esm_value": null,
+      "dev_value": "10.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Survival"
+    },
+    {
+      "gmst_name": "fOutOfBreathActionPointsRegenDelay",
+      "formid": "0x004263C1",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fPhysicalArmorBase",
+      "formid": "0x00085FA4",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPhysicalArmorDmgReductionExp",
+      "formid": "0x0017D8A9",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPhysicalArmorFactor",
+      "formid": "0x0050D82A",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPhysicalDamageBase",
+      "formid": "0x00085FA3",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPhysicalDamageFactor",
+      "formid": "0x000769CB",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPlayerBaseReviveHealth",
+      "formid": "0x0047A263",
+      "nw_value": "125.000000",
+      "base_esm_value": null,
+      "dev_value": "125.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fPlayerFireWeaponEvent",
+      "formid": "0x005723F5",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPlayerMobilityBothLegsCrippledSpeedMult",
+      "formid": "0x0052BAD7",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "fPlayerMobilityOneLegCrippledSpeedMult",
+      "formid": "0x0052BAD6",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "fPoisonArmorBase",
+      "formid": "0x003BA02F",
+      "nw_value": "280.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "280.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonArmorDmgReductionExp",
+      "formid": "0x0017D8AA",
+      "nw_value": "0.330000",
+      "base_esm_value": "0.365000",
+      "dev_value": "0.330000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonArmorFactor",
+      "formid": "0x0050D9CB",
+      "nw_value": "5.400000",
+      "base_esm_value": null,
+      "dev_value": "5.400000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonDamageBase",
+      "formid": "0x003BA028",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonDamageFactor",
+      "formid": "0x000769CC",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fQuickPlayShutdownTime",
+      "formid": "0x003FB7AF",
+      "nw_value": "15.000000",
+      "base_esm_value": null,
+      "dev_value": "15.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fRadsArmorBase",
+      "formid": "0x003BA030",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fRadsArmorDmgReductionExp",
+      "formid": "0x0017D8AB",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fRadsArmorFactor",
+      "formid": "0x0050D9CC",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fRadsDamageBase",
+      "formid": "0x003BA029",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fRadsDamageFactor",
+      "formid": "0x000769CD",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fScopeEnteringFadeInSec",
+      "formid": "0x0045E2F5",
+      "nw_value": "0.100000",
+      "base_esm_value": "0.100000",
+      "dev_value": "0.100000",
+      "is_new_gmst": false,
+      "value_changed": false,
+      "category": "Scope/Optics"
+    },
+    {
+      "gmst_name": "fScopeEnteringFadeOutSec",
+      "formid": "0x0045E2F6",
+      "nw_value": "0.400000",
+      "base_esm_value": "0.100000",
+      "dev_value": "0.400000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Scope/Optics"
+    },
+    {
+      "gmst_name": "fScopeExitingFadeInSec",
+      "formid": "0x0045E2F7",
+      "nw_value": "0.100000",
+      "base_esm_value": null,
+      "dev_value": "0.100000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Scope/Optics"
+    },
+    {
+      "gmst_name": "fScopeExitingFadeOutSec",
+      "formid": "0x0045E2F8",
+      "nw_value": "0.100000",
+      "base_esm_value": null,
+      "dev_value": "0.100000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Scope/Optics"
+    },
+    {
+      "gmst_name": "fShockArmorBase",
+      "formid": "0x003BA031",
+      "nw_value": "280.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "280.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fShockArmorDmgReductionExp",
+      "formid": "0x0017D8AC",
+      "nw_value": "0.330000",
+      "base_esm_value": "0.365000",
+      "dev_value": "0.330000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fShockArmorFactor",
+      "formid": "0x0050D9C8",
+      "nw_value": "5.700000",
+      "base_esm_value": null,
+      "dev_value": "5.700000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fShockDamageBase",
+      "formid": "0x003BA02A",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fShockDamageFactor",
+      "formid": "0x000769CE",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fSpectatorCamOffsetY",
+      "formid": "0x003ECB8A",
+      "nw_value": "-50.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "-50.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fSprintActionPointsEndBase",
+      "formid": "0x00056117",
+      "nw_value": "1.000000",
+      "base_esm_value": "1.050000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fSprintActionPointsEndMult",
+      "formid": "0x00056118",
+      "nw_value": "0.000000",
+      "base_esm_value": "-0.020000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fStagger1WeapAR",
+      "formid": "0x004F8FAE",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fStagger2WeapAR",
+      "formid": "0x004F8FAF",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fStaggerBowAR",
+      "formid": "0x004F8FB0",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fStaggerDaggerAR",
+      "formid": "0x004F8FB1",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fVATSChancePerceptionMultiplier",
+      "formid": "0x000A2777",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.004000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fVATSCriticalChargeLimit",
+      "formid": "0x0031C86D",
+      "nw_value": "100.000000",
+      "base_esm_value": null,
+      "dev_value": "100.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Critical"
+    },
+    {
+      "gmst_name": "fVATSCriticalChargeMult",
+      "formid": "0x0023AEC0",
+      "nw_value": "0.000000",
+      "base_esm_value": "1.500000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Critical"
+    },
+    {
+      "gmst_name": "fWeatherHourOverride",
+      "formid": "0x0050EC8D",
+      "nw_value": "13.000000",
+      "base_esm_value": null,
+      "dev_value": "13.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Weather"
+    },
+    {
+      "gmst_name": "fXPModMult",
+      "formid": "0x000AA776",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.030000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "iContainerLockLevelOverride",
+      "formid": "0x003E3FF8",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "iHackingMaxWords",
+      "formid": "0x003CD697",
+      "nw_value": "8",
+      "base_esm_value": null,
+      "dev_value": "8",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "iHackingMinWords",
+      "formid": "0x003CD698",
+      "nw_value": "8",
+      "base_esm_value": null,
+      "dev_value": "8",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "iStaggerAttackChance",
+      "formid": "0x0010B0DE",
+      "nw_value": "0",
+      "base_esm_value": "100",
+      "dev_value": "0",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "iTerminalLockLevelOverride",
+      "formid": "0x002B7864",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "sConnectionMessageRejectQuickplayBadRoute",
+      "formid": "0x0044CC66",
+      "nw_value": "[0x420000b0]",
+      "base_esm_value": "[0x00047105]",
+      "dev_value": "<ID=420000B0>Connection failed: You must create a character before playing Nuclear Winter.",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "NW-specific"
+    }
+  ],
+  "overrides_that_change_base": [
+    {
+      "gmst_name": "bWeaponConditionDamage",
+      "formid": "0x0003AF3F",
+      "nw_value": "0",
+      "base_esm_value": "1",
+      "dev_value": "0",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fAVDActionPointsMult",
+      "formid": "0x0004D879",
+      "nw_value": "0.000000",
+      "base_esm_value": "10.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fAVDCarryWeightBase",
+      "formid": "0x000F92CB",
+      "nw_value": "75.000000",
+      "base_esm_value": "150.000000",
+      "dev_value": "75.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fAVDCarryWeightMult",
+      "formid": "0x000F92CC",
+      "nw_value": "0.000000",
+      "base_esm_value": "5.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fAVDHealthStartEndMult",
+      "formid": "0x000E6EAC",
+      "nw_value": "0.000000",
+      "base_esm_value": "5.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fAVDMeleeDamageMult",
+      "formid": "0x0004C933",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.050000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fCombatPlayerLimbDamageMult",
+      "formid": "0x0001A188",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.550000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fCritEffectOnDeathPercent",
+      "formid": "0x0020E953",
+      "nw_value": "-1.000000",
+      "base_esm_value": "25.000000",
+      "dev_value": "-1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Critical"
+    },
+    {
+      "gmst_name": "fDamageStrengthMult",
+      "formid": "0x00118467",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.100000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnergyArmorDmgReductionExp",
+      "formid": "0x0017D8A6",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnergyDamageBase",
+      "formid": "0x003BA024",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnergyDamageFactor",
+      "formid": "0x000769C8",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireArmorDmgReductionExp",
+      "formid": "0x0017D8A7",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireDamageBase",
+      "formid": "0x003BA025",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireDamageFactor",
+      "formid": "0x000769C9",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostArmorDmgReductionExp",
+      "formid": "0x0017D8A8",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostDamageBase",
+      "formid": "0x003BA026",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostDamageFactor",
+      "formid": "0x000769CA",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fHoldToReviveHoldTime",
+      "formid": "0x00417782",
+      "nw_value": "2.500000",
+      "base_esm_value": "3.000000",
+      "dev_value": "2.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fJumpingAPDrain",
+      "formid": "0x00081A65",
+      "nw_value": "0.000000",
+      "base_esm_value": "10.000000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fLimbDamageFactor",
+      "formid": "0x0007E293",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.150000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPhysicalArmorDmgReductionExp",
+      "formid": "0x0017D8A9",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPhysicalDamageBase",
+      "formid": "0x00085FA3",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPhysicalDamageFactor",
+      "formid": "0x000769CB",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonArmorBase",
+      "formid": "0x003BA02F",
+      "nw_value": "280.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "280.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonArmorDmgReductionExp",
+      "formid": "0x0017D8AA",
+      "nw_value": "0.330000",
+      "base_esm_value": "0.365000",
+      "dev_value": "0.330000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonDamageBase",
+      "formid": "0x003BA028",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPoisonDamageFactor",
+      "formid": "0x000769CC",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fRadsArmorDmgReductionExp",
+      "formid": "0x0017D8AB",
+      "nw_value": "1.000000",
+      "base_esm_value": "0.365000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fRadsDamageBase",
+      "formid": "0x003BA029",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fRadsDamageFactor",
+      "formid": "0x000769CD",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fScopeEnteringFadeOutSec",
+      "formid": "0x0045E2F6",
+      "nw_value": "0.400000",
+      "base_esm_value": "0.100000",
+      "dev_value": "0.400000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Scope/Optics"
+    },
+    {
+      "gmst_name": "fShockArmorBase",
+      "formid": "0x003BA031",
+      "nw_value": "280.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "280.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fShockArmorDmgReductionExp",
+      "formid": "0x0017D8AC",
+      "nw_value": "0.330000",
+      "base_esm_value": "0.365000",
+      "dev_value": "0.330000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fShockDamageBase",
+      "formid": "0x003BA02A",
+      "nw_value": "329.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "329.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fShockDamageFactor",
+      "formid": "0x000769CE",
+      "nw_value": "-0.500000",
+      "base_esm_value": "0.150000",
+      "dev_value": "-0.500000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fSpectatorCamOffsetY",
+      "formid": "0x003ECB8A",
+      "nw_value": "-50.000000",
+      "base_esm_value": "0.000000",
+      "dev_value": "-50.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fSprintActionPointsEndBase",
+      "formid": "0x00056117",
+      "nw_value": "1.000000",
+      "base_esm_value": "1.050000",
+      "dev_value": "1.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fSprintActionPointsEndMult",
+      "formid": "0x00056118",
+      "nw_value": "0.000000",
+      "base_esm_value": "-0.020000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fVATSChancePerceptionMultiplier",
+      "formid": "0x000A2777",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.004000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fVATSCriticalChargeMult",
+      "formid": "0x0023AEC0",
+      "nw_value": "0.000000",
+      "base_esm_value": "1.500000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Critical"
+    },
+    {
+      "gmst_name": "fXPModMult",
+      "formid": "0x000AA776",
+      "nw_value": "0.000000",
+      "base_esm_value": "0.030000",
+      "dev_value": "0.000000",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "iStaggerAttackChance",
+      "formid": "0x0010B0DE",
+      "nw_value": "0",
+      "base_esm_value": "100",
+      "dev_value": "0",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "sConnectionMessageRejectQuickplayBadRoute",
+      "formid": "0x0044CC66",
+      "nw_value": "[0x420000b0]",
+      "base_esm_value": "[0x00047105]",
+      "dev_value": "<ID=420000B0>Connection failed: You must create a character before playing Nuclear Winter.",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "NW-specific"
+    }
+  ],
+  "new_gmsts": [
+    {
+      "gmst_name": "bAllowCampInRestrictedAreas",
+      "formid": "0x00477BEB",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Survival"
+    },
+    {
+      "gmst_name": "bDeathDropAllExceptCosmeticAndBrokenItems",
+      "formid": "0x0046C7D2",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Death/Loot"
+    },
+    {
+      "gmst_name": "bDisableAddiction",
+      "formid": "0x004E8054",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bDisableDisease",
+      "formid": "0x004E8055",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bDisableExplosionLimbDamage",
+      "formid": "0x002B78D3",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "bDisableSurvival",
+      "formid": "0x00438531",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Survival"
+    },
+    {
+      "gmst_name": "bEnableItemConditionDamage",
+      "formid": "0x0052E1AA",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "bForceBaseEsmForExteriorPrevisGen",
+      "formid": "0x003ECB90",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bHoldToReviveEnabled",
+      "formid": "0x003EE912",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "bNuclearWinterMode",
+      "formid": "0x0050D5EB",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bPVPNormalizeEnabled",
+      "formid": "0x004FB03E",
+      "nw_value": "0",
+      "base_esm_value": null,
+      "dev_value": "0",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "bPipboyShowPlayerXPInfo",
+      "formid": "0x003EA962",
+      "nw_value": "0",
+      "base_esm_value": null,
+      "dev_value": "0",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "bPlayerHasUnlimitedLockPicks",
+      "formid": "0x003E3FF7",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "bSetAllRegionNukable",
+      "formid": "0x003A0BF3",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bShowFeaturedItemPopup",
+      "formid": "0x0051DDEB",
+      "nw_value": "0",
+      "base_esm_value": null,
+      "dev_value": "0",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "bUpdatePlayerWeatherFromStormLevel",
+      "formid": "0x003CE6AD",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "fBabylonEndGameCapsPerAiKill_Elite",
+      "formid": "0x00428A2F",
+      "nw_value": "5.000000",
+      "base_esm_value": null,
+      "dev_value": "5.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fBabylonEndGameCapsPerAiKill_Medium",
+      "formid": "0x00428A30",
+      "nw_value": "4.000000",
+      "base_esm_value": null,
+      "dev_value": "4.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fBabylonEndGameExperiencePerAiKill_Elite",
+      "formid": "0x00428A31",
+      "nw_value": "9.000000",
+      "base_esm_value": null,
+      "dev_value": "9.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fBabylonPlayerHealthOffset",
+      "formid": "0x004FC124",
+      "nw_value": "5.000000",
+      "base_esm_value": null,
+      "dev_value": "5.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fCombatActionPointsRegenRateMult",
+      "formid": "0x00483319",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fCombatPlayerDamagePlayerMult",
+      "formid": "0x003C4C48",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fEnemyMarkerMaxDistance",
+      "formid": "0x003EC1CF",
+      "nw_value": "12000.000000",
+      "base_esm_value": null,
+      "dev_value": "12000.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Map/UI"
+    },
+    {
+      "gmst_name": "fEnergyArmorFactor",
+      "formid": "0x0050D9AA",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFallLegDamageMult",
+      "formid": "0x003C70BE",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFireArmorFactor",
+      "formid": "0x0050D9C9",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fFrostArmorFactor",
+      "formid": "0x0050D9CA",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fLeveledLockMult",
+      "formid": "0x003D7A3A",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fLockSkillMult",
+      "formid": "0x003C9EA8",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fMagicDiseaseTransferMult",
+      "formid": "0x003C69E1",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "fMapMarkerScale",
+      "formid": "0x00477FED",
+      "nw_value": "2.500000",
+      "base_esm_value": null,
+      "dev_value": "2.500000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Map/UI"
+    },
+    {
+      "gmst_name": "fMoveCampCost",
+      "formid": "0x002E28EB",
+      "nw_value": "10.000000",
+      "base_esm_value": null,
+      "dev_value": "10.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Survival"
+    },
+    {
+      "gmst_name": "fOutOfBreathActionPointsRegenDelay",
+      "formid": "0x004263C1",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Action Points"
+    },
+    {
+      "gmst_name": "fPhysicalArmorFactor",
+      "formid": "0x0050D82A",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPlayerBaseReviveHealth",
+      "formid": "0x0047A263",
+      "nw_value": "125.000000",
+      "base_esm_value": null,
+      "dev_value": "125.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fPlayerFireWeaponEvent",
+      "formid": "0x005723F5",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fPlayerMobilityBothLegsCrippledSpeedMult",
+      "formid": "0x0052BAD7",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "fPlayerMobilityOneLegCrippledSpeedMult",
+      "formid": "0x0052BAD6",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "PVP/Player"
+    },
+    {
+      "gmst_name": "fPoisonArmorFactor",
+      "formid": "0x0050D9CB",
+      "nw_value": "5.400000",
+      "base_esm_value": null,
+      "dev_value": "5.400000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fQuickPlayShutdownTime",
+      "formid": "0x003FB7AF",
+      "nw_value": "15.000000",
+      "base_esm_value": null,
+      "dev_value": "15.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "fRadsArmorFactor",
+      "formid": "0x0050D9CC",
+      "nw_value": "1.000000",
+      "base_esm_value": null,
+      "dev_value": "1.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fScopeExitingFadeInSec",
+      "formid": "0x0045E2F7",
+      "nw_value": "0.100000",
+      "base_esm_value": null,
+      "dev_value": "0.100000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Scope/Optics"
+    },
+    {
+      "gmst_name": "fScopeExitingFadeOutSec",
+      "formid": "0x0045E2F8",
+      "nw_value": "0.100000",
+      "base_esm_value": null,
+      "dev_value": "0.100000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Scope/Optics"
+    },
+    {
+      "gmst_name": "fShockArmorFactor",
+      "formid": "0x0050D9C8",
+      "nw_value": "5.700000",
+      "base_esm_value": null,
+      "dev_value": "5.700000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fStagger1WeapAR",
+      "formid": "0x004F8FAE",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fStagger2WeapAR",
+      "formid": "0x004F8FAF",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fStaggerBowAR",
+      "formid": "0x004F8FB0",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fStaggerDaggerAR",
+      "formid": "0x004F8FB1",
+      "nw_value": "0.000000",
+      "base_esm_value": null,
+      "dev_value": "0.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Combat"
+    },
+    {
+      "gmst_name": "fVATSCriticalChargeLimit",
+      "formid": "0x0031C86D",
+      "nw_value": "100.000000",
+      "base_esm_value": null,
+      "dev_value": "100.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Critical"
+    },
+    {
+      "gmst_name": "fWeatherHourOverride",
+      "formid": "0x0050EC8D",
+      "nw_value": "13.000000",
+      "base_esm_value": null,
+      "dev_value": "13.000000",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Weather"
+    },
+    {
+      "gmst_name": "iContainerLockLevelOverride",
+      "formid": "0x003E3FF8",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "iHackingMaxWords",
+      "formid": "0x003CD697",
+      "nw_value": "8",
+      "base_esm_value": null,
+      "dev_value": "8",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    },
+    {
+      "gmst_name": "iHackingMinWords",
+      "formid": "0x003CD698",
+      "nw_value": "8",
+      "base_esm_value": null,
+      "dev_value": "8",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "NW-specific"
+    },
+    {
+      "gmst_name": "iTerminalLockLevelOverride",
+      "formid": "0x002B7864",
+      "nw_value": "1",
+      "base_esm_value": null,
+      "dev_value": "1",
+      "is_new_gmst": true,
+      "value_changed": false,
+      "category": "Other"
+    }
+  ],
+  "dev_retail_differences": [
+    {
+      "gmst_name": "sConnectionMessageRejectQuickplayBadRoute",
+      "formid": "0x0044CC66",
+      "nw_value": "[0x420000b0]",
+      "base_esm_value": "[0x00047105]",
+      "dev_value": "<ID=420000B0>Connection failed: You must create a character before playing Nuclear Winter.",
+      "is_new_gmst": false,
+      "value_changed": true,
+      "category": "NW-specific"
+    }
+  ]
+}
