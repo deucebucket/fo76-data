@@ -1,0 +1,436 @@
+{
+  "catalog_date": "2026-03-21",
+  "source_archives": {
+    "Sounds01": {
+      "file": "SeventySix - Sounds01.ba2",
+      "size_gb": 4.0,
+      "file_count": 19393
+    },
+    "Sounds02": {
+      "file": "SeventySix - Sounds02.ba2",
+      "size_gb": 1.6,
+      "file_count": 4322
+    },
+    "total_files": 23715
+  },
+  "top_level_categories": {
+    "sound_fx": 22701,
+    "music": 1010,
+    "dev_null_refs": 4
+  },
+  "sound_fx_breakdown": {
+    "npc_creatures": 4936,
+    "weapons": 2627,
+    "ambience": 2496,
+    "ui": 1874,
+    "objects": 1607,
+    "music_fx": 1305,
+    "effects": 1025,
+    "dlc04_nuka": 879,
+    "quests": 831,
+    "dlc03": 706,
+    "footsteps": 609,
+    "dlc01": 509,
+    "dlc05": 502,
+    "physics": 469,
+    "items": 458,
+    "doors": 449,
+    "dlc02": 421,
+    "vocals": 317,
+    "doors_custom": 304,
+    "dlc06": 195,
+    "76dlc01_babylon_nw": 87,
+    "traps": 63,
+    "xxx_debug": 15,
+    "atx_atomshop": 9,
+    "test_placeholder": 10
+  },
+  "music_categories": {
+    "combat": "High/Med/Low intensity with finales, DailyOps and Invaders variants",
+    "exploration": {
+      "regions": ["forest", "bog", "mountains", "mtnremoval", "toxiclake", "whitespring", "suburbia", "shenandoah"],
+      "time_of_day": ["day", "dusk", "night"],
+      "shenandoah_subtypes": ["cave", "corrupted", "dead", "forest", "swamp", "vault"]
+    },
+    "discovery": ["dungeon", "generic", "military", "rural", "urban"],
+    "dungeons": ["silo", "decryption", "uplink", "thepitt"],
+    "cultist": 2,
+    "brotherhood": "Steel Dawn/Reign exploration",
+    "wastelanders": "Separate music set",
+    "vaults": "Vault-specific ambient music",
+    "atlantic_city": {
+      "tracks": ["combat", "explore_a", "explore_b", "explore_aquarium", "explore_flooded", "pursuit", "stealth"],
+      "palettes": 18
+    },
+    "blue_moon": {
+      "palettes": 20,
+      "combat": 3,
+      "explore": 2,
+      "dungeon": 1
+    },
+    "nuclear_winter": {
+      "survival_tracks": 4,
+      "palette_sets": 4,
+      "total_palette_files": 57,
+      "total_files": 61,
+      "size_mb": 19.4,
+      "note": "REMOVED MODE - full music suite still in archives"
+    },
+    "events": ["dailyops", "invaders"],
+    "special": {
+      "main_menus": ["atlantic_city", "invaders", "storm", "thepitt", "zetan"],
+      "main_themes": ["bluemoon", "nuka", "original", "51", "bos", "steeldawn", "wastelanders"]
+    },
+    "season_radio_dramas": {
+      "seasons": [5, 9, 11, 12, 13],
+      "note": "Scoreboard radio drama chapters, unique narrative audio"
+    },
+    "placeholder": "music/placeholder.xwm exists"
+  },
+  "radio_stations": {
+    "total_tracks": 278,
+    "stations": {
+      "pirate_radio": {
+        "tracks": 102,
+        "note": "Appalachia Radio (largest station)"
+      },
+      "classical": {
+        "tracks": 59,
+        "composers": ["Scriabin", "Borodin", "Ponchielli", "Smetana", "Schubert", "Brahms", "Tchaikovsky", "Schumann"]
+      },
+      "general": {
+        "tracks": 49,
+        "note": "Includes Tennessee Ernie Ford, Sons of the Pioneers"
+      },
+      "jukebox_mountains": 14,
+      "vault76_muzak_jukebox": 8,
+      "vault76_muzak": 8,
+      "classical_jukebox": 8,
+      "whitespring_muzak": 5,
+      "vault76_turntable": 3,
+      "raider_jukeboxes": {
+        "types": ["sweetonme", "rockabillyrebel", "hotrodrocker", "guitarhighway"],
+        "tracks_each": 2
+      },
+      "nukashine_jukebox": 2,
+      "frathouse_jukebox": 2,
+      "blueridge_office": 2,
+      "atlas_observatory_pinkydinky": 2,
+      "meatweek_gramophone": 2,
+      "other_gramophones": ["vanlowe", "trainstation", "hollywood"]
+    },
+    "circus_music": "musradio76qstsm03.xwm (quest-related)",
+    "mischief_night_radio": {
+      "tracks": 3,
+      "static_bg": 1,
+      "fanfares": 4,
+      "total_size_mb": 4.5,
+      "note": "REMOVED EVENT - audio still in archives"
+    },
+    "nuka_cola_jingle": "dlc04 radio intro jingle"
+  },
+  "creatures": {
+    "total_creature_types": 73,
+    "by_file_count": {
+      "human": 738,
+      "robot_generic": 324,
+      "dogmeat_fo4_leftover": 278,
+      "scorchbeast": 210,
+      "grafton_monster": 152,
+      "radtoad": 146,
+      "robot_pioneer": 145,
+      "floater": 130,
+      "megasloth": 112,
+      "deathclaw": 112,
+      "scorched": 106,
+      "overgrown": 102,
+      "mothman": 101,
+      "moleminer": 101,
+      "feral_ghoul": 98,
+      "wendigo": 88,
+      "radstag": 87,
+      "scorchbeast_queen": 75,
+      "molerat": 69,
+      "yaoguai": 66,
+      "wendigo_colossus": 63,
+      "snallygaster": 60,
+      "honeybeast": 58,
+      "mirelurk_queen": 57,
+      "sheepsquatch": 55,
+      "dog_fev_hound": 50,
+      "tick": 49,
+      "super_mutant_behemoth": 49,
+      "radscorpion": 44,
+      "dog_raider": 44,
+      "critter_radbeaver": 44,
+      "brahmin": 44,
+      "mirelurk_hunter": 42,
+      "alien_zetan_invader": 42,
+      "alien_generic": 41,
+      "robot_liberty_prime": 39,
+      "radturkey": 39,
+      "mirelurk": 39,
+      "gorilla_fo4_leftover": 38,
+      "radroach": 37,
+      "robot_protectron": 36,
+      "dog_vicious": 36,
+      "flatwoods_monster": 34,
+      "robot_storm_boss": 33,
+      "radant": 33,
+      "mirelurk_king": 33,
+      "crow": 33,
+      "ultracite_abomination": 31,
+      "super_mutant": 31,
+      "jersey_devil": 31,
+      "birds": 31,
+      "generic": 30,
+      "critter_generic": 30,
+      "mirelurkling": 27,
+      "critter_radsquirrel": 25,
+      "critter_frog": 23,
+      "cat": 20,
+      "stingwing": 18,
+      "blue_devil": 17,
+      "critter_owl": 16,
+      "radpheasant": 15,
+      "radgull": 15,
+      "sheepsquatch_fake_assaultron": 14,
+      "critter_firefly": 14,
+      "bloodbug": 14,
+      "bloatfly": 14,
+      "strangler_heart": 13,
+      "super_mutant_behemoth_swan": 12,
+      "trog": 10,
+      "dog_generic": 10,
+      "synth_gen1_fo4_leftover": 8,
+      "foot_generic": 8,
+      "ogua": 7,
+      "dog_collectron": 7,
+      "protectron_drinking_buddy": 6,
+      "critter_fox": 6,
+      "zetan_drone": 4,
+      "robot_eyebot": 4,
+      "feral_ghoul_glowing": 4,
+      "spawner": 3,
+      "singing_eyebot": 3,
+      "gnat_swarm": 3
+    }
+  },
+  "weapons": {
+    "total_types": 95,
+    "notable": {
+      "cover_system_cut": {
+        "files": [
+          "sound/fx/wpn/coverinout/wpn_cover_pistol_in_01.wav",
+          "sound/fx/wpn/coverinout/wpn_cover_pistol_out_01.wav",
+          "sound/fx/wpn/coverinout/wpn_cover_rifle_in_01.wav",
+          "sound/fx/wpn/coverinout/wpn_cover_rifle_out_01.wav"
+        ],
+        "size_mb": 0.3,
+        "note": "CUT MECHANIC - Cover system with pistol/rifle enter/exit sounds, never implemented"
+      },
+      "pistol_covert": "Suppressed pistol with unique fire sounds",
+      "chinese_assault_rifle": "Multiple fire rates (420-900 RPM), silenced variants",
+      "circuit_breaker": "Atlantic City energy pistol",
+      "rifle_hank": "Internal codename weapon, semi-auto",
+      "rifle_istvan": "Internal codename weapon, auto with reload sounds",
+      "rifle_redding": "Internal codename weapon",
+      "pistol_bos": "Brotherhood of Steel pistol",
+      "alien_disintegrator": "Zetan event weapon",
+      "alien_probe": "Zetan melee weapon",
+      "blade_ripper": "Melee with idle motor loop",
+      "cattle_prod": "Electric melee with idle loop",
+      "auto_axe": "Pitt expedition melee",
+      "plasma_caster": "Heavy energy weapon",
+      "gauss_minigun": "Endgame heavy weapon",
+      "gauss_shotgun": "Endgame shotgun",
+      "gauss_pistol": "Endgame pistol",
+      "compound_bow": "Bow variant",
+      "crossbow": "Bow variant",
+      "continuous_laser_test": "TEST weapon - never released",
+      "test_wpn": "sound/fx/wpn/test/wpn_initialrifletest_reload.wav - developer test"
+    }
+  },
+  "cut_and_removed_content": {
+    "babylon_nuclear_winter": {
+      "total_files": 67,
+      "size_mb": 87.6,
+      "categories": {
+        "lobby_music": ["mus_76_babylon_zaxmusic_01.xwm", "mus_76_babylon_zaxmusic_02.xwm"],
+        "nw_lobby_music": 4,
+        "staging_area_ambience": {
+          "boxing_ring": 2,
+          "casino_room": 2,
+          "computer_room": 7,
+          "entry_birds": 1,
+          "canned_birds": 3
+        },
+        "storm_sounds": {
+          "sear_line": 3,
+          "boundary_tier1": 1,
+          "boundary_storm": 1
+        },
+        "crate_loot_sounds": {
+          "epic_crate": 2,
+          "high_crate": 2,
+          "med_crate": 2,
+          "epic_crate_broadcast": 1
+        },
+        "ui_sounds": {
+          "endgame": ["infoblade", "overseerrankup", "overseerxpgained", "playerwins", "upcomingrewards"],
+          "gameplay": ["enemykilled", "finalfight", "huntbegins", "nukeavailable", "nukebriefcasefound", "nukewarning", "nukecasesiren"],
+          "progression": ["overseerlevellow", "perkcardlanding", "perkgained", "perktokengained"],
+          "status": ["playerkilled", "preparetosurvive", "radwarning", "spawntimercountdown", "spawntimerfinal", "startnewgamenw", "stormstops", "targetdowned", "targetkilled", "tensurvivorsleft", "ticketsgained", "timerwarning"]
+        },
+        "test_sounds": 3
+      },
+      "note": "BABYLON was the internal codename for Nuclear Winter. Full BR mode audio suite remains in archives despite mode removal in Dec 2021. Includes unique ZAX music, casino/boxing ring staging area ambience, battle royale UI feedback, storm/nuke mechanics audio."
+    },
+    "cover_system": {
+      "total_files": 4,
+      "size_mb": 0.3,
+      "note": "Pistol and rifle cover enter/exit sounds. Cover-based shooting mechanic was prototyped but never shipped."
+    },
+    "mischief_night": {
+      "total_files": 8,
+      "size_mb": 4.5,
+      "note": "Halloween event removed after 2019 due to server instability. Radio music, fanfares, and static background remain."
+    },
+    "fo4_leftovers": {
+      "total_files": 133,
+      "size_mb": 7.6,
+      "items": {
+        "kellogg": {
+          "files": "Secret door, door kick, 3-synth kill scene, Kellogg's brain memory den sequences",
+          "note": "FO4 main quest audio (MQ203 Dangerous Minds) still in FO76 archives"
+        },
+        "shaun_baby": {
+          "files": "15+ crying sounds, cryopod memory den variants",
+          "note": "Baby Shaun from FO4's opening and memory sequences"
+        },
+        "synth_gen1": {
+          "files": 8,
+          "note": "Gen-1 synth bullet impact sounds from FO4"
+        },
+        "dogmeat": {
+          "files": 278,
+          "note": "MASSIVE amount - full Dogmeat companion audio still in FO76"
+        },
+        "gorilla": {
+          "files": 38,
+          "note": "Institute gorilla sounds from FO4"
+        },
+        "swan_behemoth": {
+          "files": 12,
+          "note": "Swan's Pond unique behemoth from FO4 Boston Common"
+        },
+        "combat_zone": {
+          "files": 2,
+          "note": "Crowd walla from FO4's cut Combat Zone arena"
+        },
+        "freedom_trail": {
+          "files": 1,
+          "note": "Freedom Trail walla sound from FO4 Boston"
+        },
+        "mass_fusion": "FO4 quest location",
+        "prydwen_flyover": "BOS Prydwen arrival scene from FO4",
+        "silver_shroud_radio_plays": "Diamond City Radio drama SFX from FO4",
+        "memory_den": "FO4 Goodneighbor Memory Den sequences",
+        "railroad_morse_signals": "FO4 Railroad faction",
+        "spectacle_island": "FO4 settlement location",
+        "chargen_test_dialogue": "Character generation test dialogue (male/female/vault111)"
+      }
+    },
+    "singing_eyebot": {
+      "total_files": 3,
+      "size_mb": 0.3,
+      "tracks": ["combat", "exploration", "sad"],
+      "note": "Eyebot with unique singing behavior - 3 mood-based songs. Rare/underused in-game."
+    }
+  },
+  "notable_findings": {
+    "babylon_zax_music": {
+      "files": ["sound/fx/76dlc01/lobbymusic/mus_76_babylon_zaxmusic_01.xwm", "sound/fx/76dlc01/lobbymusic/mus_76_babylon_zaxmusic_02.xwm"],
+      "note": "Unique ZAX AI music tracks from Nuclear Winter lobby - ZAX was the vault AI overseer for the BR mode. These tracks are NOT the same as the NW lobby music."
+    },
+    "babylon_casino_and_boxing": {
+      "note": "Staging area had both a casino room and boxing ring ambience, suggesting the NW pre-game lobby was themed as an underground fight club/casino. This is unique environmental storytelling audio that players can no longer access."
+    },
+    "test_dialogue_files": {
+      "files": [
+        "sound/fx/xxx/xxx_testdialoguea_dialogueconcordarea__0001a91d_1.xwm",
+        "sound/fx/xxx/xxx_testdialogueb_holotapesquest__00056dd1_1.xwm",
+        "sound/fx/xxx/xxx_testdialogued_chargen_female.xwm",
+        "sound/fx/xxx/xxx_testdialogued_chargen_male.xwm",
+        "sound/fx/xxx/xxx_testdialogued_chargen_playermale.xwm",
+        "sound/fx/xxx/xxx_testdialogued_chargen_vault111voice.xwm",
+        "sound/fx/xxx/xxxtestdialoguec_tvreporter.xwm"
+      ],
+      "note": "Developer test dialogue files with FormID references. 'Concord area' and 'Vault 111' references are FO4 content. The TV reporter test dialogue may be from the FO4 intro sequence."
+    },
+    "compound_test_sounds": {
+      "files": ["sound/fx/xxx/xxx_compoundtest_a_lp.wav", "sound/fx/xxx/xxx_compoundtest_b_lp.wav", "sound/fx/xxx/xxx_compoundtest_c_lp.wav"],
+      "note": "Looping compound test sounds in debug directory - possibly compound bow prototyping or generic weapon testing"
+    },
+    "pipboy_ping_test": {
+      "files": [
+        "sound/fx/ui/pipboy/ping/ui_pipboy_ping_test_lp.wav",
+        "sound/fx/ui/pipboy/ping/ui_pipboy_ping_test_pulse_01.xwm",
+        "sound/fx/ui/pipboy/ping/ui_pipboy_ping_test_pulse_02.xwm",
+        "sound/fx/ui/pipboy/ping/ui_pipboy_ping_test_pulse_03.xwm"
+      ],
+      "note": "Pip-Boy ping/pulse test sounds - could be prototype for a player-tracking or radar mechanic that was tested but not shipped"
+    },
+    "nuka_cola_radio_jingle": {
+      "file": "sound/fx/dlc04/mus/jingle/mus_jingle_nukacola_mq00radiointro_01.xwm",
+      "note": "Nuka-Cola radio jingle referencing MQ00 (main quest intro) - from Nuka-World on Tour DLC"
+    },
+    "beacon_workshop_creature_radio": {
+      "count": 42,
+      "note": "DLC03 creature lure workshop radio signals - 14 variants x 3 segments each. Extensive radio broadcast system for creature traps."
+    },
+    "test_sine_waves": {
+      "count": 7,
+      "note": "1kHz test tones at 0dBFS in every DLC directory - audio engineer calibration files left in shipping archives"
+    },
+    "placeholder_beeps": {
+      "files": ["xxx_placeholder_beeps.xwm", "xxx_placeholder_beeps_a/b/c.xwm", "xxx_placeholder_silence.xwm"],
+      "note": "Debug placeholder audio used during development, never cleaned up"
+    },
+    "elevator_scaffold": {
+      "note": "Sounds for a scaffold elevator (both metal and wood variants) - functional elevator mechanic with gate extend/retract. May be cut CAMP building piece or quest-specific."
+    },
+    "shenandoah_corrupted_and_dead": {
+      "files": ["mus_76_explore_shenandoah_corrupted_01.xwm", "mus_76_explore_shenandoah_dead_01.xwm"],
+      "note": "Shenandoah (Backwoods update) has 'corrupted' and 'dead' zone music variants suggesting environmental storytelling through dynamic music states"
+    },
+    "blue_devil_vs_jersey_devil": {
+      "note": "Two separate devil creatures: Blue Devil (17 files, unique howl + conscious loop) and Jersey Devil (31 files, includes 'lesser devil' variant with ranged roar). Blue Devil appears to be a distinct cryptid, not just a Jersey Devil reskin."
+    },
+    "perk_card_pack_gold": {
+      "files": ["ui_perkmenu_cards_pack_4cardflipgold_01/02/03.xwm"],
+      "note": "Gold perk card pack flip sounds - premium/rare card opening animation audio"
+    },
+    "emoji_wheel_placeholder": {
+      "file": "sound/fx/ui/pipboy/wheel/emojis/ui_pipboy_wheel_emoji_placeholder.xwm",
+      "note": "Emote wheel has a placeholder emoji sound, suggesting planned but unimplemented emotes"
+    },
+    "dogmeat_278_files": {
+      "note": "Dogmeat has MORE sound files (278) than most FO76-native creatures. Full companion AI audio including archetype behaviors (agitated, idle). This is the single largest FO4 leftover set."
+    },
+    "dlc_numbering": {
+      "dlc01": "Workshop/Wild Appalachia era",
+      "dlc02": "Neon signs / workshop additions",
+      "dlc03": "Creature lure / wasteland workshop",
+      "dlc04": "Nuka-World on Tour",
+      "dlc05": "Unknown (weapons/UI)",
+      "dlc06": "Unknown (recent, minimal)"
+    }
+  },
+  "summary": {
+    "total_sound_files": 23715,
+    "total_archive_size_gb": 5.6,
+    "format": "XWM (xWMA compressed) and WAV (looping/ambient)",
+    "key_finding": "Archives contain 87.6 MB of Babylon/Nuclear Winter battle royale audio, 7.6 MB of Fallout 4 leftover content (Kellogg, Shaun, synths, 278 Dogmeat files), cover system prototype sounds, Mischief Night removed event audio, developer test files with FormID references, and 7 calibration test tones. The Babylon content reveals the NW staging area was themed as a casino/boxing ring, and the ZAX AI had unique lobby music separate from gameplay music."
+  }
+}
