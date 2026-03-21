@@ -1,0 +1,3924 @@
+{
+  "rifle": [
+    {
+      "perk_name": "Easy Target",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+25% ranged damage to crippled targets.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Easy Target",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+50% ranged damage to crippled targets.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Easy Target",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+75% ranged damage to crippled targets.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Center Masochist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "+25% ranged damage when attacking the torso.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Center Masochist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "+50% ranged damage when attacking the torso.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Center Masochist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "+75% ranged damage when attacking the torso.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Down Ranger",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "You do +10% ranged damage to far enemies.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Down Ranger",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "You do +15% ranged damage to far enemies.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Down Ranger",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "You do +20% ranged damage to far enemies.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Long Shot",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Your rifles have 30% more range and more accuracy when aiming down sights.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Sniper",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Gain improved control and hold your breath 75% longer while aiming scopes.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Tank Killer",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your ranged weapons ignore 20% armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Tank Killer",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your ranged weapons ignore 40% armor.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.15x normal damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.3x normal damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.5x normal damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +10% ranged damage to close enemies.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +15% ranged damage to close enemies.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +20% ranged damage to close enemies.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Guerrilla Master",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "+5% ranged damage to close enemies per Onslaught stack, +5 max stacks. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Gun Runner",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Your running speed is increased by 10% when you have a ranged weapon equipped.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Gun Runner",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Your running speed is increased by 20% when you have a ranged weapon equipped.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +6% weak spot damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +9% weak spot damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +12% weak spot damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Gunslinger Expert",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "+1% ranged weak spot damage per Onslaught stack, +3 max stacks. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Ricochet",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Gain a chance to Deflect ranged attacks based on LCK.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Arms of Steel",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Your sturdy arms allow you to handle ranged weapons better, increasing accuracy by 15%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Arms of Steel",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Your sturdy arms allow you to handle ranged weapons better, increasing accuracy by 30%.",
+      "cost": 2
+    }
+  ],
+  "pistol": [
+    {
+      "perk_name": "Guerrilla",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +10% ranged damage to close enemies.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +15% ranged damage to close enemies.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +20% ranged damage to close enemies.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Guerrilla Expert",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "+1% reload speed per Onslaught stack, +3 max stacks. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Guerrilla Master",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "+5% ranged damage to close enemies per Onslaught stack, +5 max stacks. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +6% weak spot damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +9% weak spot damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +12% weak spot damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Gunslinger Expert",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "+1% ranged weak spot damage per Onslaught stack, +3 max stacks. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Gunslinger Master",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "Gain Onslaught stacks over time and spend them on attacks, +10 max stacks. (Cost: 3)",
+      "cost": 3
+    }
+  ],
+  "shotgun": [
+    {
+      "perk_name": "Scattershot",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "20% of the damage dealt to a limb is applied to all limbs on your target. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Shotgun Champ",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "+10% damage to crippled targets per projectile your weapon fires. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Skeet Shooter",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Your small guns have 45% better accuracy and spread.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Enforcer",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your shotguns gain a 5% stagger chance and +25% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Enforcer",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your shotguns gain a 10% stagger chance and +50% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Enforcer",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your shotguns gain a 15% stagger chance and +75% limb damage.",
+      "cost": 3
+    }
+  ],
+  "heavy_gun": [
+    {
+      "perk_name": "Bear Arms",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Each stack of Bullet Storm increases your bash damage by 5%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bringing the Big Guns",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Your Bullet Storm stack limit is doubled. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Lock and Load",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "You keep half of your Bullet Storm stacks when you reload. +1% reload speed per stack. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bullet Shield",
+      "rank": 1,
+      "max_rank": 4,
+      "special": "Endurance",
+      "description": "Gain 5% Deflect chance for 6 sec when firing a heavy gun.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bullet Shield",
+      "rank": 2,
+      "max_rank": 4,
+      "special": "Endurance",
+      "description": "Gain 10% Deflect chance for 6 sec when firing a heavy gun.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bullet Shield",
+      "rank": 3,
+      "max_rank": 4,
+      "special": "Endurance",
+      "description": "Gain 15% Deflect chance for 6 sec when firing a heavy gun.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Bullet Shield",
+      "rank": 4,
+      "max_rank": 4,
+      "special": "Endurance",
+      "description": "Gain 20% Deflect chance for 6 sec when firing a heavy gun.",
+      "cost": 4
+    },
+    {
+      "perk_name": "Stabilized",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Big guns gain 30% accuracy. Double in Power Armor. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "One Gun Army",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Heavy guns gain a 4% stagger chance and +25% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "One Gun Army",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Heavy guns gain a 8% stagger chance and +50% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "One Gun Army",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Heavy guns gain a 12% stagger chance and +75% limb damage.",
+      "cost": 3
+    }
+  ],
+  "melee": [
+    {
+      "perk_name": "Blocker",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Take 15% less damage from your opponents' melee attacks.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Blocker",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Take 30% less damage from your opponents' melee attacks.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Blocker",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Take 45% less damage from your opponents' melee attacks.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Heavy Hitter",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Melee weapons deal +25% power attack damage. (No Power Tools) (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Incisor",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee attacks ignore 25% of your target's armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Incisor",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee attacks ignore 50% of your target's armor.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Incisor",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee attacks ignore 75% of your target's armor.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Knee-Capper",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Melee weapons deal +50% limb damage. (No Power Tools) (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Martial Artist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons weigh 20% less, and you can swing them 10% faster.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Martial Artist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons weigh 40% less, and you can swing them 20% faster.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Martial Artist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons weigh 60% less, and you can swing them 30% faster.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Natural Stance",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "While equipping a melee weapon, reduce Incoming Stagger by 25%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Slugger",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons do +10% damage to crippled targets.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Slugger",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons do +20% damage to crippled targets.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Slugger",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons do +30% damage to crippled targets.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Master Archer",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Arrows and thrown melee weapons pierce targets.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Overly Generous",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "Rads increase your chance to inflict 25 rads with a melee attack.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Overly Generous",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "Rads increase your chance to inflict 50 rads with a melee attack.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Makeshift Warrior",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Melee weapons break 40% slower.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Makeshift Warrior",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Melee weapons break 60% slower.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Makeshift Warrior",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Melee weapons break 80% slower.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Stable Tools",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Automatic melee weapons break 10% slower.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Stable Tools",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Automatic melee weapons break 25% slower.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Stable Tools",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Automatic melee weapons break 40% slower.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Ninja",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Bows, throwing, and melee weapons do +50% sneak attack damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Ninja",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Bows, throwing, and melee weapons do +100% sneak attack damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bone Shatterer",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapon attacks have +25% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bone Shatterer",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapon attacks have +50% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bone Shatterer",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapon attacks have +75% limb damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Rad-Reaver",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Dealing non-automatic melee damage provides a small amount of Glow.",
+      "cost": 1
+    }
+  ],
+  "unarmed": [
+    {
+      "perk_name": "Iron Fist",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Your Fists deal more damage based on your DR.",
+      "cost": 1
+    }
+  ],
+  "explosive": [
+    {
+      "perk_name": "Ordnance Express",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Explosives weigh 45% less.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Ordnance Express",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Explosives weigh 90% less.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Grenadier",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your explosives detonate with a 50% larger radius.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Grenadier",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your explosives detonate with twice the radius.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Demolition Expert",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your explosives do +20% damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Demolition Expert",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your explosives do +40% damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Demolition Expert",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your explosives do +60% damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Scrounger",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Find more non-explosive ammo based on your LCK.",
+      "cost": 1
+    }
+  ],
+  "energy": [
+    {
+      "perk_name": "Full Charge",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Sprinting in Power Armor consumes half as much Fusion Core energy.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Full Charge",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Sprinting in Power Armor consumes no extra Fusion Core energy.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Refractor",
+      "rank": 1,
+      "max_rank": 4,
+      "special": "Perception",
+      "description": "Gain +10 Energy Resistance.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Refractor",
+      "rank": 2,
+      "max_rank": 4,
+      "special": "Perception",
+      "description": "You now gain +20 Energy Resistance.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Refractor",
+      "rank": 3,
+      "max_rank": 4,
+      "special": "Perception",
+      "description": "You now gain +30 Energy Resistance.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Refractor",
+      "rank": 4,
+      "max_rank": 4,
+      "special": "Perception",
+      "description": "You now gain +40 Energy Resistance.",
+      "cost": 4
+    },
+    {
+      "perk_name": "Iron Stomach",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Increased Damage and Energy Resistance based on END while not diseased.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bodyguards",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Charisma",
+      "description": "Gain Damage & Energy Resistance based on your CHA and number of teammates.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Batteries Included",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Intelligence",
+      "description": "Energy weapon ammo weighs 45% less.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Batteries Included",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Intelligence",
+      "description": "Energy weapon ammo weighs 90% less.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Science\\!",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Increase energy damage based on your INT. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Mad Scientist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Energy Weapons expend a small amount of Glow per attack for +10% Damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Mad Scientist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Energy Weapons expend a small amount of Glow per attack for +15% Damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Mad Scientist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Energy Weapons expend a small amount of Glow per attack for +20% Damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Science Monster",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "While you have Glow, gain 5% bonus damage for 10 seconds upon getting hit.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Science Monster",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "While you have Glow, gain 10% bonus damage for 10 seconds upon getting hit.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Science Monster",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "While you have Glow, gain 15% bonus damage for 10 seconds upon getting hit.",
+      "cost": 3
+    }
+  ],
+  "power_armor": [
+    {
+      "perk_name": "Full Charge",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Sprinting in Power Armor consumes half as much Fusion Core energy.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Full Charge",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Sprinting in Power Armor consumes no extra Fusion Core energy.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Pain Train",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Damage and stagger enemies by sprinting into them with Power Armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Pain Train",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Smash and stagger enemies by sprinting into them with Power Armor.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Pain Train",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Devastate and stagger enemies by sprinting into them with Power Armor.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Portable Power",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "All Power Armor parts and chassis weights are reduced by 50%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Portable Power",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "All Power Armor parts and chassis weights are reduced by 75%.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 130% of normal maximum condition.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 160% of normal maximum condition.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 200% of normal maximum condition.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 20% more slowly and is cheaper to repair.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 40% more slowly and is cheaper to repair.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 60% more slowly and is cheaper to repair.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Power Smith",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Your crafted Power Armor now has improved durability and costs fewer materials.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Power User",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Fusion Cores now last 30% longer.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Power User",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Fusion Cores now last 60% longer.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Power User",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Fusion Core duration is now doubled.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Stabilized",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Big guns gain 30% accuracy. Double in Power Armor. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Evasive",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "Chance to Evade attacks based on AGI. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Marathoner",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Sprinting consumes 20% fewer Action Points. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Marathoner",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Sprinting consumes 30% fewer Action Points. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Marathoner",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Sprinting consumes 40% fewer Action Points. (No Power Armor)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Moving Target",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Gain +5% chance to Evade while sprinting. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Moving Target",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Gain +10% chance to Evade while sprinting. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Moving Target",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Gain +15% chance to Evade while sprinting. (No Power Armor)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Serendipity",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "While below 30% health, gain a chance to Evade based on LCK. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 3% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 6% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 10% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Rad Specialist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Increase Glow intake by 5% on Armor & Power Armor, Double if wearing a matching set.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Rad Specialist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Increase Glow intake by 10% on Armor & Power Armor, Double if wearing a matching set.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Rad Specialist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Increase Glow intake by 15% on Armor & Power Armor, Double if wearing a matching set.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Hyper Reflexes",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "When your Glow is high, gain a 10% evasion chance. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Hyper Reflexes",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "When your Glow is high, gain a 15% evasion chance. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Hyper Reflexes",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "When your Glow is high, gain a 20% evasion chance. (No Power Armor)",
+      "cost": 3
+    }
+  ],
+  "armor": [
+    {
+      "perk_name": "Barbarian",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Gain Damage Resistance based on your STR. Doubled when not wearing armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Full Charge",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Sprinting in Power Armor consumes half as much Fusion Core energy.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Full Charge",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Sprinting in Power Armor consumes no extra Fusion Core energy.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Incisor",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee attacks ignore 25% of your target's armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Incisor",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee attacks ignore 50% of your target's armor.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Incisor",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee attacks ignore 75% of your target's armor.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Pain Train",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Damage and stagger enemies by sprinting into them with Power Armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Pain Train",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Smash and stagger enemies by sprinting into them with Power Armor.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Pain Train",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Devastate and stagger enemies by sprinting into them with Power Armor.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Portable Power",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "All Power Armor parts and chassis weights are reduced by 50%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Portable Power",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "All Power Armor parts and chassis weights are reduced by 75%.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Sturdy Frame",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Armor weighs 25% less than normal.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Sturdy Frame",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Armor weighs 50% less than normal.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bow Before Me",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your bows and crossbows ignore 20% armor and have a 5% chance to stagger.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bow Before Me",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your bows and crossbows ignore 40% armor and have a 10% chance to stagger.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Exterminator",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Your attacks ignore 25% armor of any insect.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Exterminator",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Your attacks ignore 50% armor of any insect.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Exterminator",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Your attacks ignore 75% armor of any insect.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Tank Killer",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your ranged weapons ignore 20% armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Tank Killer",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Perception",
+      "description": "Your ranged weapons ignore 40% armor.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Ironclad",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Armor provides 15% more protection. Double if wearing a matching set.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Ironclad",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Armor provides 20% more protection. Double if wearing a matching set.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Ironclad",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Armor provides 25% more protection. Double if wearing a matching set.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Armorer",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Your crafted armor has improved durability and costs fewer materials.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 130% of normal maximum condition.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 160% of normal maximum condition.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 200% of normal maximum condition.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 20% more slowly and is cheaper to repair.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 40% more slowly and is cheaper to repair.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 60% more slowly and is cheaper to repair.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Power Smith",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Your crafted Power Armor now has improved durability and costs fewer materials.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Scrapper",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Obtain more components when you scrap weapons and armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Stabilized",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Big guns gain 30% accuracy. Double in Power Armor. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "White Knight",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your armor breaks 20% more slowly and is cheaper to repair.",
+      "cost": 1
+    },
+    {
+      "perk_name": "White Knight",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your armor breaks 40% more slowly and is cheaper to repair.",
+      "cost": 2
+    },
+    {
+      "perk_name": "White Knight",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your armor breaks 60% more slowly and is cheaper to repair.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Dodgy",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "+5% chance to Evade. Evade no longer has a cooldown. Instead it costs AP.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Evasive",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "Chance to Evade attacks based on AGI. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Marathoner",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Sprinting consumes 20% fewer Action Points. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Marathoner",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Sprinting consumes 30% fewer Action Points. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Marathoner",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Sprinting consumes 40% fewer Action Points. (No Power Armor)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Moving Target",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Gain +5% chance to Evade while sprinting. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Moving Target",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Gain +10% chance to Evade while sprinting. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Moving Target",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Gain +15% chance to Evade while sprinting. (No Power Armor)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Lucky Break",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Slight chance your equipped armor will repair itself when struck.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Lucky Break",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Chance your equipped armor will repair itself even more when struck.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Lucky Break",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Chance your equipped armor will greatly repair itself when struck.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Serendipity",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "While below 30% health, gain a chance to Evade based on LCK. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 3% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 6% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 10% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Rad Specialist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Increase Glow intake by 5% on Armor & Power Armor, Double if wearing a matching set.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Rad Specialist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Increase Glow intake by 10% on Armor & Power Armor, Double if wearing a matching set.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Rad Specialist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Increase Glow intake by 15% on Armor & Power Armor, Double if wearing a matching set.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Hyper Reflexes",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "When your Glow is high, gain a 10% evasion chance. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Hyper Reflexes",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "When your Glow is high, gain a 15% evasion chance. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Hyper Reflexes",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "When your Glow is high, gain a 20% evasion chance. (No Power Armor)",
+      "cost": 3
+    }
+  ],
+  "food_drink": [
+    {
+      "perk_name": "Bloodsucker",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Bloodpacks and Cannibal now satisfy thirst, no longer irradiate, and heal twice as much.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Cannibal",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Eating human, Ghoul, Super Mutant, Scorched, or Mole Miner Corpses restores Health and hunger.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Cola Nut",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Nuka-Cola products are now twice as beneficial.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Cola Nut",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Nuka-Cola products are now three times as beneficial.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Dromedary",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "All drinks quench thirst by an additional 50%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Dromedary",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "All drinks quench thirst by an additional 100%.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Good Doggy",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Eating dog food is now three times as beneficial.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Hydro Fix",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore thirst.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Hydro Fix",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore twice as much thirst.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Lead Belly",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "You take less radiation from eating or drinking based on your END.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Munchy Resistance",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore hunger.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Munchy Resistance",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore twice as much hunger.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Professional Drinker",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "There's no chance you'll get addicted to alcohol. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Slow Metabolizer",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "All food satisfies hunger by an additional 50%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Slow Metabolizer",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "All food satisfies hunger by an additional 100%.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Thirst Quencher",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Increased Max AP based on END while not diseased.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Thru-hiker",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Food and drink weights are reduced by 45%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Thru-hiker",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Food and drink weights are reduced by 90%.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Happy Camper",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "Hunger and thirst grow 40% more slowly when in camp or in a team workshop.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Happy Camper",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "Hunger and thirst grow 80% more slowly when in camp or in a team workshop.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Party Boy",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "The effects of alcohol are doubled. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Party Boy",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "The effects of alcohol are tripled. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Party Girl",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "The effects of alcohol are doubled. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Party Girl",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "The effects of alcohol are tripled. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Philanthropist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Restore some of your teammates hunger and thirst when you eat or drink.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Philanthropist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Restore more of your teammates hunger and thirst when you eat or drink.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Philanthropist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Restore much more of your teammates hunger and thirst when you eat or drink.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Rad Sponge",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Charisma",
+      "description": "Absorb 20% of RADs taken and restore Hunger and Thirst. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Good with Salt",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Luck",
+      "description": "Food in your inventory will spoil 45% slower.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Good with Salt",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Luck",
+      "description": "Food in your inventory will spoil 90% slower.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Glowing Gut",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Irradiated food and drink grant 100% more rads.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Glowing Gut",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Irradiated food and drink grant 200% more rads.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Glowing Gut",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Irradiated food and drink grant 300% more rads.",
+      "cost": 3
+    }
+  ],
+  "chem": [
+    {
+      "perk_name": "Traveling Pharmacy",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Weights of all Chems (including Stimpaks) are reduced by 45%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Traveling Pharmacy",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Weights of all Chems (including Stimpaks) are reduced by 90%.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Chem Fiend",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Any chems you take last 100% longer. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Chem Resistant",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "You're half as likely to get addicted when consuming Chems.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Chem Resistant",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "You gain complete immunity to chem addiction.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Hydro Fix",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore thirst.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Hydro Fix",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore twice as much thirst.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Munchy Resistance",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore hunger.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Munchy Resistance",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Chems restore twice as much hunger.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Starched Genes",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "You will never mutate from rads and RadAway will never cure mutations.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Team Medic",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Your Stimpaks now also heal your teammates for half the normal strength.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Team Medic",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Your Stimpaks now also heal nearby teammates for 75% of normal strength.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Team Medic",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Your Stimpaks now also heal nearby teammates for their full strength.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Chemist",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "You get double the quantity when you craft chems!",
+      "cost": 1
+    },
+    {
+      "perk_name": "Field Surgeon",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Stimpaks and RadAway heal 60% faster. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "First Aid",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Stimpaks restore more HP based on your INT.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Pharmacist",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "RadAway removes more radiation based on your INT.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Born Survivor",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Falling below 20% health will automatically use a Stimpak, once every 20s.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Born Survivor",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Falling below 30% health will automatically use a Stimpak, once every 20s.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Born Survivor",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Falling below 40% health will automatically use a Stimpak, once every 20s.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Dry Nurse",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "You have a 50% chance to keep your Stimpak when you revive another player.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Mystery Meat",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Stimpaks may generate edible meat tissue. Higher Rads improve the chance.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Mystery Meat",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Stimpaks generate edible meat. Higher Rads improve the chance.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Mystery Meat",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Stimpaks generate excessive edible meat. Higher Rads improve the chance.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Pharma Farma",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Find more first aid Chems based on your LCK.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Chem Diet",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Chems are 25% more effective at reducing how feral you are.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Chem Diet",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Chems are 50% more effective at reducing how feral you are.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Chem Diet",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Chems are 75% more effective at reducing how feral you are.",
+      "cost": 3
+    }
+  ],
+  "stealth": [
+    {
+      "perk_name": "Night Eyes",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Gain Night Vision while sneaking. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.15x normal damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.3x normal damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.5x normal damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Escape Artist",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "Sneak to lose enemies, and running no longer affects stealth.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Light Footed",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "While sneaking, you never trigger mines or floor-based traps.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Mister Sandman",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Your silenced weapons do an additional 50% sneak attack damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Mister Sandman",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Your silenced weapons do an additional 100% sneak attack damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Ninja",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Bows, throwing, and melee weapons do +50% sneak attack damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Ninja",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Bows, throwing, and melee weapons do +100% sneak attack damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Secret Agent",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Stealth Boys last twice as long!",
+      "cost": 1
+    },
+    {
+      "perk_name": "Secret Agent",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Stealth Boys last three times as long!",
+      "cost": 2
+    },
+    {
+      "perk_name": "Secret Agent",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Stealth Boys last four times as long!",
+      "cost": 3
+    },
+    {
+      "perk_name": "Sneak",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You are 25% harder to detect while sneaking.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Sneak",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You are 50% harder to detect while sneaking.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Sneak",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You are 75% harder to detect while sneaking.",
+      "cost": 3
+    }
+  ],
+  "vats": [
+    {
+      "perk_name": "Awareness",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Gain more VATS accuracy based on your PER. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Concentrated Fire",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Focus fire to gain accuracy and +1% damage per shot.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Concentrated Fire",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Focus fire to gain more accuracy and +2% damage per shot.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Concentrated Fire",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Focus fire to gain high accuracy and +3% damage per shot.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Better Criticals",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "V.A.T.S. criticals now do +50% damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Better Criticals",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "V.A.T.S. criticals now do +75% damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Better Criticals",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "V.A.T.S. criticals now do +100% damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Critical Savvy",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Critical Hits now only consume 85% of your critical meter.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Critical Savvy",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Critical Hits now only consume 70% of your critical meter.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Critical Savvy",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Critical Hits now only consume 55% of your critical meter.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Four Leaf Clover",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Misses in V.A.T.S. now contribute to the Critical Meter based on your LCK.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Grim Reaper's Sprint",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Any kill in V.A.T.S. restores Action Points, based on your LCK. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Psychopath",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Hits outside V.A.T.S. refill your Critical Meter at 10% contribution. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Glowing Criticals",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When your Glow is high, Gain 20% bonus Critical damage in V.A.T.S.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Glowing Criticals",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When your Glow is high, Gain 35% bonus Critical damage in V.A.T.S.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Glowing Criticals",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When your Glow is high, Gain 50% bonus Critical damage in V.A.T.S.",
+      "cost": 3
+    }
+  ],
+  "crafting": [
+    {
+      "perk_name": "Armorer",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Your crafted armor has improved durability and costs fewer materials.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Chemist",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "You get double the quantity when you craft chems!",
+      "cost": 1
+    },
+    {
+      "perk_name": "Contractor",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Intelligence",
+      "description": "Crafting workshop items now costs 25% fewer materials.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Contractor",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Intelligence",
+      "description": "Crafting workshop items now costs 50% fewer materials.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 130% of normal maximum condition.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 160% of normal maximum condition.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Fix It Good",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair armor and Power Armor to 200% of normal maximum condition.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Licensed Plumber",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your pipe weapons break 20% more slowly and are cheaper to repair.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Licensed Plumber",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your pipe weapons break 40% more slowly and are cheaper to repair.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Licensed Plumber",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your pipe weapons break 60% more slowly and are cheaper to repair.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 20% more slowly and is cheaper to repair.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 40% more slowly and is cheaper to repair.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Power Patcher",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your Power Armor breaks 60% more slowly and is cheaper to repair.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Power Smith",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Your crafted Power Armor now has improved durability and costs fewer materials.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Scrapper",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Obtain more components when you scrap weapons and armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Weapon Artisan",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair any weapon to 130% of normal maximum condition.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Weapon Artisan",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair any weapon to 160% of normal maximum condition.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Weapon Artisan",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "You can repair any weapon to 200% of normal maximum condition.",
+      "cost": 3
+    },
+    {
+      "perk_name": "White Knight",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your armor breaks 20% more slowly and is cheaper to repair.",
+      "cost": 1
+    },
+    {
+      "perk_name": "White Knight",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your armor breaks 40% more slowly and is cheaper to repair.",
+      "cost": 2
+    },
+    {
+      "perk_name": "White Knight",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your armor breaks 60% more slowly and is cheaper to repair.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Ammosmith",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Produce 40% more rounds when crafting ammunition.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Ammosmith",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Produce 80% more rounds when crafting ammunition.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Home Defense",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You can craft and disarm better traps and craft better turrets. (Plans required)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Home Defense",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You can craft and disarm advanced traps and craft advanced turrets. (Plans required)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Home Defense",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You can craft and disarm expert traps and craft expert turrets. (Plans required)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Luck of the Draw",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Slight chance your weapon will repair itself when hitting an enemy.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Luck of the Draw",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Chance your weapon will repair itself even more when hitting an enemy.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Luck of the Draw",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Chance your weapon will greatly repair itself when hitting an enemy.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Lucky Break",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Slight chance your equipped armor will repair itself when struck.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Lucky Break",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Chance your equipped armor will repair itself even more when struck.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Lucky Break",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Chance your equipped armor will greatly repair itself when struck.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Super Duper",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When you craft anything, there is a 10% chance you'll get double results!",
+      "cost": 1
+    },
+    {
+      "perk_name": "Super Duper",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When you craft anything, there is a 20% chance you'll get double results!",
+      "cost": 2
+    },
+    {
+      "perk_name": "Super Duper",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When you craft anything, there is a 30% chance you'll get double results!",
+      "cost": 3
+    }
+  ],
+  "general_damage": [
+    {
+      "perk_name": "Barbarian",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Gain Damage Resistance based on your STR. Doubled when not wearing armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Basher",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Gun bashing does +25% damage and +35% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Basher",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Strength",
+      "description": "Gun bashing does +50% damage and +75% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bear Arms",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Each stack of Bullet Storm increases your bash damage by 5%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Blocker",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Take 15% less damage from your opponents' melee attacks.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Blocker",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Take 30% less damage from your opponents' melee attacks.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Blocker",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Take 45% less damage from your opponents' melee attacks.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Blood Luster",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Your bleed effects have 35% more damage and 25% less duration.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bullet Storm",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Gain 3% damage per 30 ammo spent. 10 max stacks.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bullet Storm",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Gain 6% damage per 30 ammo spent. 10 max stacks.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bullet Storm",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Gain 9% damage per 30 ammo spent. 10 max stacks.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Easy Target",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+25% ranged damage to crippled targets.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Easy Target",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+50% ranged damage to crippled targets.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Easy Target",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+75% ranged damage to crippled targets.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Heavy Hitter",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Melee weapons deal +25% power attack damage. (No Power Tools) (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Iron Fist",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Your Fists deal more damage based on your DR.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Knee-Capper",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Melee weapons deal +50% limb damage. (No Power Tools) (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Pain Train",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Damage and stagger enemies by sprinting into them with Power Armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Scattershot",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "20% of the damage dealt to a limb is applied to all limbs on your target. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Shotgun Champ",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "+10% damage to crippled targets per projectile your weapon fires. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Slugger",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons do +10% damage to crippled targets.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Slugger",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons do +20% damage to crippled targets.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Slugger",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapons do +30% damage to crippled targets.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Wound Salter",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+10% damage against bleeding targets.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Wound Salter",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+20% damage against bleeding targets.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Wound Salter",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "+30% damage against bleeding targets.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Wrecking Ball",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "You deal +100% damage to objects and now damage your own objects.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Center Masochist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "+25% ranged damage when attacking the torso.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Center Masochist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "+50% ranged damage when attacking the torso.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Center Masochist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "+75% ranged damage when attacking the torso.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Concentrated Fire",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Focus fire to gain accuracy and +1% damage per shot.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Concentrated Fire",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Focus fire to gain more accuracy and +2% damage per shot.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Concentrated Fire",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Focus fire to gain high accuracy and +3% damage per shot.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Deal Sealer",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Deal +10% damage for each impairment your target has. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Down Ranger",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "You do +10% ranged damage to far enemies.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Down Ranger",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "You do +15% ranged damage to far enemies.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Down Ranger",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "You do +20% ranged damage to far enemies.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Glow Sight",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Deal +20% damage to glowing enemies.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Glow Sight",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Deal +40% damage to glowing enemies.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Glow Sight",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Deal +60% damage to glowing enemies.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Hat Trick",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Arrows and throwing weapons bounce towards an additional target dealing 70% damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Hat Trick",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Arrows and throwing weapons bounce towards two additional targets dealing 70% damage per bounce.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Hat Trick",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Perception",
+      "description": "Arrows and throwing weapons bounce towards three additional targets dealing 70% damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Number Cruncher",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Your weapons have 2% increased damage per AP cost. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Smart Shot",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Deal +25% weak spot damage while aiming a scoped weapon. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Tormentor",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "You deal 20% more damage per crippled limb your target has. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Adamantium Skeleton",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Gain Limb Damage Reduction based on your END.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Aquaboy",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "You no longer take Rad damage from swimming and can breathe underwater.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Aquagirl",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "You no longer take Rad damage from swimming and can breathe underwater.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fireproof",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Take 15% less damage from explosions and flame attacks.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fireproof",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Take 30% less damage from explosions and flame attacks.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Fireproof",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Take 45% less damage from explosions and flame attacks.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Iron Stomach",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Increased Damage and Energy Resistance based on END while not diseased.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Sun Kissed",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Slowly regen radiation damage between the hours of 6 a.m. and 6 p.m.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Sun Kissed",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Quickly regen radiation damage between the hours of 6 a.m. and 6 p.m.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bodyguards",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Charisma",
+      "description": "Gain Damage & Energy Resistance based on your CHA and number of teammates.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Revenant",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Charisma",
+      "description": "Players you revive have +25% damage for 2 min.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Suppressor",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Reduce your target's damage output by 10% for 2 seconds after you attack.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Suppressor",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Reduce your target's damage output by 20% for 2 seconds after you attack.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Suppressor",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Reduce your target's damage output by 30% for 2 seconds after you attack.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Tenderizer",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Charisma",
+      "description": "Each attack makes your target take increased damage. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Cryologist",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Increase cryo damage based on your INT. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Demolition Expert",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your explosives do +20% damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Demolition Expert",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your explosives do +40% damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Demolition Expert",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Your explosives do +60% damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Nerd Rage\\!",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "While your Health is low, gain increased damage and AP regen. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Pyro-Technician",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Increase fire damage based on your INT. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Science\\!",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "Increase energy damage based on your INT. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Adrenaline",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "Gain +10% damage per kill while on a Kill Streak (Max 10). (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.15x normal damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.3x normal damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Covert Operative",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged sneak attacks do 2.5x normal damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Enforcer",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your shotguns gain a 5% stagger chance and +25% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Enforcer",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your shotguns gain a 10% stagger chance and +50% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Enforcer",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your shotguns gain a 15% stagger chance and +75% limb damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Goat Legs",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "Take no damage from falling.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +10% ranged damage to close enemies.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +15% ranged damage to close enemies.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Guerrilla",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "You do +20% ranged damage to close enemies.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Guerrilla Master",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "+5% ranged damage to close enemies per Onslaught stack, +5 max stacks. (Cost: 3)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Gun Fu",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "V.A.T.S. swaps targets on kill with +30% damage to your next target.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Gun Fu",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "V.A.T.S. swaps targets on kill with +60% damage up to 2 targets.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Gun Fu",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "V.A.T.S. swaps targets on kill with +90% damage up to 3 targets.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +6% weak spot damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +9% weak spot damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Gunslinger",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Your ranged weapons do +12% weak spot damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Gunslinger Expert",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Agility",
+      "description": "+1% ranged weak spot damage per Onslaught stack, +3 max stacks. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Mister Sandman",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Your silenced weapons do an additional 50% sneak attack damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Mister Sandman",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Your silenced weapons do an additional 100% sneak attack damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Modern Renegade",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Small guns gain +15% hip fire accuracy and +25% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Modern Renegade",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Small guns gain +30% hip fire accuracy and +50% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Modern Renegade",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Small guns gain +45% hip fire accuracy and +75% limb damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Ninja",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Bows, throwing, and melee weapons do +50% sneak attack damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Ninja",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Bows, throwing, and melee weapons do +100% sneak attack damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Better Criticals",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "V.A.T.S. criticals now do +50% damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Better Criticals",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "V.A.T.S. criticals now do +75% damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Better Criticals",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "V.A.T.S. criticals now do +100% damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Bloody Mess",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Bleeding enemies you kill have a chance to explode based on your LCK.",
+      "cost": 1
+    },
+    {
+      "perk_name": "One Gun Army",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Heavy guns gain a 4% stagger chance and +25% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "One Gun Army",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Heavy guns gain a 8% stagger chance and +50% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "One Gun Army",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "Heavy guns gain a 12% stagger chance and +75% limb damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Bone Shatterer",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapon attacks have +25% limb damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bone Shatterer",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapon attacks have +50% limb damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bone Shatterer",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Your melee weapon attacks have +75% limb damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Radioactive Strength",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Expend a moderate amount of Glow to deal 50% more damage with power attacks and bashing.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Radioactive Strength",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Expend a moderate amount of Glow to deal 100% more damage with power attacks and bashing.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Radioactive Strength",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Strength",
+      "description": "Expend a moderate amount of Glow to deal 150% more damage with power attacks and bashing.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Rad-Reaver",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Perception",
+      "description": "Dealing non-automatic melee damage provides a small amount of Glow.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Radiation Power",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Expend a small amount of Glow per hit to deal 10% bonus damage to targets.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Radiation Power",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Expend a small amount of Glow per hit to deal 15% bonus damage to targets.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Radiation Power",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Expend a small amount of Glow per hit to deal 20% bonus damage to targets.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 3% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 6% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Thick Skin",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "You take 10% less damage from Ballistic attacks. (No Power Armor)",
+      "cost": 3
+    },
+    {
+      "perk_name": "Feral Presence",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "While Feral, Reduce your target's damage output by 15% after you attack for 5 seconds.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Feral Presence",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Charisma",
+      "description": "While Feral, Reduce your target's damage output by 30% after you attack for 5 seconds.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bomb Scientist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Expending Glow makes your thrown grenades' deal +20% damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Bomb Scientist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Expending Glow makes your thrown grenades' deal +35% damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Bomb Scientist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Expending Glow makes your thrown grenades' deal +50% damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Mad Scientist",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Energy Weapons expend a small amount of Glow per attack for +10% Damage.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Mad Scientist",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Energy Weapons expend a small amount of Glow per attack for +15% Damage.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Mad Scientist",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "Energy Weapons expend a small amount of Glow per attack for +20% Damage.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Science Monster",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "While you have Glow, gain 5% bonus damage for 10 seconds upon getting hit.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Science Monster",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "While you have Glow, gain 10% bonus damage for 10 seconds upon getting hit.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Science Monster",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Intelligence",
+      "description": "While you have Glow, gain 15% bonus damage for 10 seconds upon getting hit.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Faulty Spots",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "Weak point damage is increased by 15%. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Glowing Criticals",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When your Glow is high, Gain 20% bonus Critical damage in V.A.T.S.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Glowing Criticals",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When your Glow is high, Gain 35% bonus Critical damage in V.A.T.S.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Glowing Criticals",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Luck",
+      "description": "When your Glow is high, Gain 50% bonus Critical damage in V.A.T.S.",
+      "cost": 3
+    }
+  ],
+  "general_defense": [
+    {
+      "perk_name": "Barbarian",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Strength",
+      "description": "Gain Damage Resistance based on your STR. Doubled when not wearing armor.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Adamantium Skeleton",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Gain Limb Damage Reduction based on your END.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Cannibal",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Endurance",
+      "description": "Eating human, Ghoul, Super Mutant, Scorched, or Mole Miner Corpses restores Health and hunger.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fireproof",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Take 15% less damage from explosions and flame attacks.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Fireproof",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Take 30% less damage from explosions and flame attacks.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Fireproof",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Take 45% less damage from explosions and flame attacks.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Ghoulish",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Radiation now regenerates your lost Health.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Ghoulish",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Radiation now regenerates more of your lost Health.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Ghoulish",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Endurance",
+      "description": "Radiation now regenerates even more of your lost Health!",
+      "cost": 3
+    },
+    {
+      "perk_name": "Nocturnal Fortitude",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Gain +20 to Max Health between the hours of 6 p.m. and 6 a.m.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Nocturnal Fortitude",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Gain +40 to Max Health between the hours of 6 p.m. and 6 a.m.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Photosynthetic",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Gain health regen between the hours of 6 a.m. and 6 p.m.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Photosynthetic",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Endurance",
+      "description": "Gain improved Health regen between the hours of 6 a.m. and 6 p.m.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Friendly Fire",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Teammates hit by your flame weapons regenerate health briefly (no grenades).",
+      "cost": 1
+    },
+    {
+      "perk_name": "Friendly Fire",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Teammates hit by your flame weapons regenerate more health briefly (no grenades).",
+      "cost": 2
+    },
+    {
+      "perk_name": "Friendly Fire",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Charisma",
+      "description": "Teammates hit by your flame weapons regenerate even more health briefly (no grenades).",
+      "cost": 3
+    },
+    {
+      "perk_name": "Nerd Rage\\!",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Intelligence",
+      "description": "While your Health is low, gain increased damage and AP regen. (Cost: 2)",
+      "cost": 2
+    },
+    {
+      "perk_name": "Born Survivor",
+      "rank": 1,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Falling below 20% health will automatically use a Stimpak, once every 20s.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Born Survivor",
+      "rank": 2,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Falling below 30% health will automatically use a Stimpak, once every 20s.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Born Survivor",
+      "rank": 3,
+      "max_rank": 3,
+      "special": "Agility",
+      "description": "Falling below 40% health will automatically use a Stimpak, once every 20s.",
+      "cost": 3
+    },
+    {
+      "perk_name": "Dead Man Sprinting",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Sprint 10% faster at increased AP cost when your health is below 40%.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Dead Man Sprinting",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Agility",
+      "description": "Sprint 20% faster at increased AP cost when your health is below 50%.",
+      "cost": 2
+    },
+    {
+      "perk_name": "Serendipity",
+      "rank": 1,
+      "max_rank": 1,
+      "special": "Luck",
+      "description": "While below 30% health, gain a chance to Evade based on LCK. (No Power Armor)",
+      "cost": 1
+    },
+    {
+      "perk_name": "Storm Chaser",
+      "rank": 1,
+      "max_rank": 2,
+      "special": "Luck",
+      "description": "Gain health regeneration while outside during rain or Rad Storms.",
+      "cost": 1
+    },
+    {
+      "perk_name": "Storm Chaser",
+      "rank": 2,
+      "max_rank": 2,
+      "special": "Luck",
+      "description": "Gain high health regeneration while outside during rain or Rad Storms.",
+      "cost": 2
+    }
+  ]
+}

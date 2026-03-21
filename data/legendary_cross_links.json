@@ -1,0 +1,5331 @@
+{
+  "weapon": [
+    {
+      "name": "Anti-Armor",
+      "effect": "Ignores a percentage of target's armor",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_AntiArmor"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "armor_penetration_pct": 50
+      }
+    },
+    {
+      "name": "Aristocrat's",
+      "effect": "Damage increases with caps held",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "weapon_damageviacaps",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1000,
+          "y": 3
+        },
+        {
+          "x": 2000,
+          "y": 5
+        },
+        {
+          "x": 15000,
+          "y": 27
+        },
+        {
+          "x": 16000,
+          "y": 28
+        },
+        {
+          "x": 17000,
+          "y": 30
+        },
+        {
+          "x": 29000,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "at_0_caps": 0,
+        "at_1000_caps": 3,
+        "at_2000_caps": 5,
+        "at_15000_caps": 27,
+        "at_17000_caps": 30,
+        "at_29000_caps": 50
+      }
+    },
+    {
+      "name": "Berserker's",
+      "effect": "Damage increases as DR decreases",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "weapon_damageunarmored",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 50
+        },
+        {
+          "x": 20,
+          "y": 30
+        },
+        {
+          "x": 40,
+          "y": 17
+        },
+        {
+          "x": 60,
+          "y": 5
+        }
+      ],
+      "key_values": {
+        "at_0_dr": 50,
+        "at_20_dr": 30,
+        "at_40_dr": 17,
+        "at_60_dr": 5
+      }
+    },
+    {
+      "name": "Bloodied",
+      "effect": "Damage increases as health decreases",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DamageInverseHealth"
+      ],
+      "curve_file": "weapon_damageinversehealth",
+      "curve_data": [
+        {
+          "x": 0.05,
+          "y": 130
+        },
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "key_values": {
+        "at_5pct_hp": 130,
+        "at_100pct_hp": 0
+      }
+    },
+    {
+      "name": "Executioner's",
+      "effect": "50% more damage when target is below 40% health",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Execute"
+      ],
+      "curve_file": "weapon_execute",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50,
+        "threshold": "target below 40% HP"
+      }
+    },
+    {
+      "name": "Furious",
+      "effect": "Damage increases with consecutive hits",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgConsecutiveHits"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "effect": "stacking_damage_per_hit"
+      }
+    },
+    {
+      "name": "Gourmand's",
+      "effect": "Damage bonus based on food/water satisfaction",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Gourmand"
+      ],
+      "curve_file": "weapon_gourmand",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 15
+        },
+        {
+          "x": 4,
+          "y": 20
+        },
+        {
+          "x": 5,
+          "y": 25
+        },
+        {
+          "x": 6,
+          "y": 30
+        },
+        {
+          "x": 7,
+          "y": 35
+        },
+        {
+          "x": 8,
+          "y": 40
+        }
+      ],
+      "key_values": {
+        "at_0_satisfaction": 0,
+        "at_1": 5,
+        "at_4": 20,
+        "at_8_max": 40
+      }
+    },
+    {
+      "name": "Instigating",
+      "effect": "Double damage to full-health targets",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DamageFirstBlood"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "bonus_pct": 100,
+        "condition": "target at full health"
+      }
+    },
+    {
+      "name": "Junkie's",
+      "effect": "Damage increases per addiction",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DamageAddiction"
+      ],
+      "curve_file": "weapon_damageaddiction",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 2,
+          "y": 20
+        },
+        {
+          "x": 3,
+          "y": 30
+        },
+        {
+          "x": 4,
+          "y": 40
+        },
+        {
+          "x": 5,
+          "y": 50
+        },
+        {
+          "x": 6,
+          "y": 60
+        },
+        {
+          "x": 7,
+          "y": 70
+        },
+        {
+          "x": 8,
+          "y": 80
+        },
+        {
+          "x": 9,
+          "y": 90
+        },
+        {
+          "x": 10,
+          "y": 100
+        }
+      ],
+      "key_values": {
+        "per_addiction": 10,
+        "at_5_addictions": 50,
+        "at_10_addictions": 100
+      }
+    },
+    {
+      "name": "Mutant's",
+      "effect": "Damage increases per mutation",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgWithMutation"
+      ],
+      "curve_file": "weapon_dmgwithmutation",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 15
+        },
+        {
+          "x": 4,
+          "y": 20
+        },
+        {
+          "x": 5,
+          "y": 25
+        },
+        {
+          "x": 6,
+          "y": 30
+        },
+        {
+          "x": 7,
+          "y": 35
+        },
+        {
+          "x": 8,
+          "y": 40
+        },
+        {
+          "x": 9,
+          "y": 45
+        },
+        {
+          "x": 10,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "per_mutation": 5,
+        "at_5_mutations": 25,
+        "at_10_mutations": 50
+      }
+    },
+    {
+      "name": "Nocturnal",
+      "effect": "+50% damage at night, +0% during day",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DamageNight"
+      ],
+      "curve_file": "weapon_damagenight",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 50
+        },
+        {
+          "x": 5,
+          "y": 50
+        },
+        {
+          "x": 6,
+          "y": 0
+        },
+        {
+          "x": 20,
+          "y": 0
+        },
+        {
+          "x": 21,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "hours_0_5": 50,
+        "hours_6_20": 0,
+        "hours_21_plus": 50
+      }
+    },
+    {
+      "name": "Quad",
+      "effect": "Quadruple magazine capacity",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Guns_AmmoCapacity4x"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "multiplier": 4
+      }
+    },
+    {
+      "name": "Two Shot",
+      "effect": "Fires additional projectile at reduced damage",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Guns_TwoShot"
+      ],
+      "curve_file": "weapon_damage",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.2
+        },
+        {
+          "x": 100,
+          "y": 0.2
+        }
+      ],
+      "key_values": {
+        "damage_multiplier": 0.2
+      }
+    },
+    {
+      "name": "Vampire's",
+      "effect": "Heal on hit",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Vampire"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "heal_per_hit": "small amount"
+      }
+    },
+    {
+      "name": "Damage via Health",
+      "effect": "Damage scales with max HP",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DamageViaHealth"
+      ],
+      "curve_file": "weapon_damageviahealth",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1000,
+          "y": 100
+        }
+      ],
+      "key_values": {
+        "at_0_hp": 0,
+        "at_1000_hp": 100
+      }
+    },
+    {
+      "name": "Hunter's",
+      "effect": "+50% damage to animals",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsAnimals"
+      ],
+      "curve_file": "weapon_dmgvsanimals",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Exterminator's",
+      "effect": "+50% damage to bugs",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsBugs"
+      ],
+      "curve_file": "weapon_dmgvsbugs",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Ghoul Slayer's",
+      "effect": "+50% damage to ghouls",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsGhouls"
+      ],
+      "curve_file": "weapon_dmgvsghouls",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Troubleshooter's",
+      "effect": "+50% damage to robots",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsRobots"
+      ],
+      "curve_file": "weapon_dmgvsrobots",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Zealot's",
+      "effect": "+50% damage to Scorched",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsScorched"
+      ],
+      "curve_file": "weapon_dmgvsscorched",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Mutant Slayer's",
+      "effect": "+50% damage to Super Mutants",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsSupermutants"
+      ],
+      "curve_file": "weapon_dmgvssupermutants",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Assassin's",
+      "effect": "+50% damage to players",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsPlayers"
+      ],
+      "curve_file": "weapon_dmgvsplayers",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Stalker's (Accuracy Not In Combat)",
+      "effect": "Increased accuracy when not in combat",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Guns_AccuracyNotInCombat"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "effect": "accuracy_bonus_outside_combat"
+      }
+    },
+    {
+      "name": "Suppressor's",
+      "effect": "Reduce target's damage output by 20%",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DebuffDamage"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "debuff_pct": 20
+      }
+    },
+    {
+      "name": "Medic's",
+      "effect": "VATS crits heal group",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Medic"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "effect": "VATS_crit_heals_group"
+      }
+    },
+    {
+      "name": "Damage Per Kill",
+      "effect": "Damage increases per kill (stacking)",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "weapon_damageperkill",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 100
+        }
+      ],
+      "key_values": {
+        "per_kill": 10,
+        "max_stacks": 10,
+        "max_bonus_pct": 100
+      }
+    },
+    {
+      "name": "Cryptid Hunter's",
+      "effect": "+50% damage to cryptids",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_DmgVsCryptids (implied)"
+      ],
+      "curve_file": "weapon_dmgvscryptids",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Feral",
+      "effect": "Melee feral bonus",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Melee_Feral"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Sniper",
+      "effect": "Sniping bonus (guns)",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Guns_Sniper"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Adrenal",
+      "effect": "Damage scaling based on health",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Weapon1_Adrenal"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Explosive",
+      "effect": "Bullets explode for area damage",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Guns_ExplosiveBullets"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "explosive_pct": 20
+      }
+    },
+    {
+      "name": "VATS Enhanced (Accuracy)",
+      "effect": "Increased VATS accuracy",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Guns_VATSAccuracy"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Faster Fire Rate",
+      "effect": "+25% fire rate",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Guns_RoF"
+      ],
+      "curve_file": "weapon_guns_rof",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.25
+        },
+        {
+          "x": 100,
+          "y": 0.25
+        }
+      ],
+      "key_values": {
+        "rof_multiplier": 0.25,
+        "rof_bonus_pct": 25
+      }
+    },
+    {
+      "name": "Aiming Damage",
+      "effect": "Increased damage while aiming",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Guns_DmgSights"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Bashing",
+      "effect": "Increased bash damage",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Guns_Bashing"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Limb Damage",
+      "effect": "+50% limb damage",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_DmgLimbs"
+      ],
+      "curve_file": "weapon_dmglimbs",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 50
+        },
+        {
+          "x": 100,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "bonus_pct": 50
+      }
+    },
+    {
+      "name": "Critical Damage",
+      "effect": "Increased VATS crit damage",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_DmgCrits"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "crit_damage_bonus": 50
+      }
+    },
+    {
+      "name": "Faster Swing Speed (Melee)",
+      "effect": "+40% swing speed",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Melee_SwingSpeed"
+      ],
+      "curve_file": "weapon_melee_swingspeed",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.4
+        },
+        {
+          "x": 100,
+          "y": 0.4
+        }
+      ],
+      "key_values": {
+        "swing_speed_multiplier": 0.4,
+        "bonus_pct": 40
+      }
+    },
+    {
+      "name": "Power Attack Damage (Melee)",
+      "effect": "Increased power attack damage",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Melee_DamagePowerAttack"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Block Reflects (Melee)",
+      "effect": "Reflects damage when blocking",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Melee_BlockReflects"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Steady (Melee)",
+      "effect": "Steady melee bonus",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Melee_Steady"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "AP on Kill",
+      "effect": "Restore AP on kill",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_APViaKill"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Last Shot",
+      "effect": "Last round in magazine does bonus damage",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Guns_LastShot"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "PickPocket (Melee)",
+      "effect": "Pickpocket bonus on melee",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Weapon2_Melee_PickPocket"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Reduced Weight",
+      "effect": "90% reduced weight",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Weight"
+      ],
+      "curve_file": "weapon_melee_weight",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": -0.9
+        },
+        {
+          "x": 100,
+          "y": -0.9
+        }
+      ],
+      "key_values": {
+        "weight_reduction": -0.9,
+        "reduction_pct": 90
+      }
+    },
+    {
+      "name": "Reload Speed",
+      "effect": "Faster reload speed",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Guns_ReloadSpeed"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "VATS AP Cost Reduction",
+      "effect": "Reduced VATS AP cost",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_VATSCostAP"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "ap_cost_reduction": 25
+      }
+    },
+    {
+      "name": "Critical Speed",
+      "effect": "Critical meter fills faster",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_CritSpeed"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Movement Speed While Aiming",
+      "effect": "Faster movement while aiming",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Guns_MoveSpeedSights"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Resist While Aiming",
+      "effect": "DR/ER bonus while aiming",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Guns_ResistSights"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Resist While Reloading",
+      "effect": "DR/ER bonus while reloading",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Guns_ResistReload"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Cloak on Hit",
+      "effect": "Stealth field on hit",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Guns_CloakOnHit"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "+1 SPECIAL Stats",
+      "effect": "+1 to various SPECIAL stats",
+      "star": 3,
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "bonus": "+1 to specified SPECIAL"
+      }
+    },
+    {
+      "name": "Durability",
+      "effect": "Weapon lasts 50% longer",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Durability"
+      ],
+      "curve_file": "weapon_durability",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 1.5
+        },
+        {
+          "x": 100,
+          "y": 1.5
+        }
+      ],
+      "key_values": {
+        "durability_multiplier": 1.5
+      }
+    },
+    {
+      "name": "Less Damage While Blocking (Melee)",
+      "effect": "Reduced damage while blocking",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Melee_LessDamageBlock"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Defenders (Melee)",
+      "effect": "Team defense bonus on melee",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Melee_Defenders"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Barbarian (Melee)",
+      "effect": "Strength-based melee bonus",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Melee_Barbarian"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Glowing",
+      "effect": "Glow-in-dark / glowing effect",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Weapon3_Glowing"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Charged (Melee)",
+      "effect": "Charged melee attack bonus",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Weapon4_Melee_Charged"
+      ],
+      "curve_file": "weapon_chargedmeleeattack",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.5
+        },
+        {
+          "x": 2,
+          "y": 1.5
+        },
+        {
+          "x": 3,
+          "y": 3
+        }
+      ],
+      "key_values": {
+        "tier_1": {
+          "multiplier": 0.5
+        },
+        "tier_2": {
+          "multiplier": 1.5
+        },
+        "tier_3": {
+          "multiplier": 3.0
+        }
+      }
+    },
+    {
+      "name": "Electricians",
+      "effect": "Adds energy damage scaling with base damage",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Weapon4_Guns_Electricians"
+      ],
+      "curve_file": "weapon_electriciansenergydmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 11
+        },
+        {
+          "x": 5,
+          "y": 12
+        },
+        {
+          "x": 10,
+          "y": 13
+        },
+        {
+          "x": 15,
+          "y": 14
+        },
+        {
+          "x": 20,
+          "y": 15
+        },
+        {
+          "x": 25,
+          "y": 16.5
+        },
+        {
+          "x": 30,
+          "y": 18
+        },
+        {
+          "x": 35,
+          "y": 19.5
+        },
+        {
+          "x": 40,
+          "y": 21
+        },
+        {
+          "x": 45,
+          "y": 23
+        },
+        {
+          "x": 50,
+          "y": 25
+        }
+      ],
+      "key_values": {
+        "at_base_1": 11,
+        "at_base_10": 13,
+        "at_base_25": 16.5,
+        "at_base_50": 25
+      }
+    },
+    {
+      "name": "Fracturers",
+      "effect": "Adds explosion damage",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Weapon4_Fracturers"
+      ],
+      "curve_file": "weapon_fracturersexplosiondmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 22
+        },
+        {
+          "x": 5,
+          "y": 24
+        },
+        {
+          "x": 10,
+          "y": 26
+        },
+        {
+          "x": 15,
+          "y": 28
+        },
+        {
+          "x": 20,
+          "y": 30
+        },
+        {
+          "x": 25,
+          "y": 33
+        },
+        {
+          "x": 30,
+          "y": 36
+        },
+        {
+          "x": 35,
+          "y": 39
+        },
+        {
+          "x": 40,
+          "y": 42
+        },
+        {
+          "x": 45,
+          "y": 46
+        },
+        {
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "key_values": {
+        "at_base_1": 22,
+        "at_base_10": 26,
+        "at_base_25": 33,
+        "at_base_50": 50
+      }
+    },
+    {
+      "name": "Voltaic (Energy + EMP)",
+      "effect": "Energy damage + EMP damage scaling",
+      "star": 4,
+      "omod_names": [
+        "P62_mod_Legendary_PowerArmor4_Voltaic"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "energy": [
+          {
+            "x": 1,
+            "y": 11
+          },
+          {
+            "x": 5,
+            "y": 12
+          },
+          {
+            "x": 10,
+            "y": 13
+          },
+          {
+            "x": 15,
+            "y": 14
+          },
+          {
+            "x": 20,
+            "y": 15
+          },
+          {
+            "x": 25,
+            "y": 16.5
+          },
+          {
+            "x": 30,
+            "y": 18
+          },
+          {
+            "x": 35,
+            "y": 19.5
+          },
+          {
+            "x": 40,
+            "y": 21
+          },
+          {
+            "x": 45,
+            "y": 23
+          },
+          {
+            "x": 50,
+            "y": 25
+          }
+        ],
+        "emp": [
+          {
+            "x": 1,
+            "y": 40
+          },
+          {
+            "x": 2,
+            "y": 60
+          },
+          {
+            "x": 3,
+            "y": 80
+          },
+          {
+            "x": 4,
+            "y": 100
+          },
+          {
+            "x": 5,
+            "y": 120
+          }
+        ]
+      },
+      "key_values": {
+        "energy_at_base_1": 11,
+        "energy_at_base_50": 25,
+        "emp_at_1_stack": 40,
+        "emp_at_5_stacks": 120
+      }
+    },
+    {
+      "name": "Cold Shoulder (Cryo)",
+      "effect": "Adds cryo damage",
+      "star": 4,
+      "omod_names": [],
+      "curve_file": "weapon_cscryodamage",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 44
+        },
+        {
+          "x": 5,
+          "y": 47
+        },
+        {
+          "x": 10,
+          "y": 50
+        },
+        {
+          "x": 15,
+          "y": 54
+        },
+        {
+          "x": 20,
+          "y": 59
+        },
+        {
+          "x": 25,
+          "y": 63
+        },
+        {
+          "x": 30,
+          "y": 68
+        },
+        {
+          "x": 35,
+          "y": 73
+        },
+        {
+          "x": 40,
+          "y": 79
+        },
+        {
+          "x": 45,
+          "y": 85
+        },
+        {
+          "x": 50,
+          "y": 91
+        }
+      ],
+      "key_values": {
+        "at_base_1": 44,
+        "at_base_10": 50,
+        "at_base_25": 63,
+        "at_base_50": 91
+      }
+    },
+    {
+      "name": "Sane (Weapon)",
+      "effect": "Sanity/clarity damage bonus",
+      "star": 4,
+      "omod_names": [],
+      "curve_file": "weapon_sane",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 15
+        },
+        {
+          "x": 4,
+          "y": 20
+        },
+        {
+          "x": 5,
+          "y": 25
+        },
+        {
+          "x": 6,
+          "y": 30
+        },
+        {
+          "x": 7,
+          "y": 35
+        },
+        {
+          "x": 8,
+          "y": 40
+        }
+      ],
+      "key_values": {
+        "at_0": 0,
+        "at_4": 20,
+        "at_8": 40
+      }
+    },
+    {
+      "name": "Reload/Melee Speed Per Kill",
+      "effect": "Reload or swing speed increases per kill",
+      "star": 4,
+      "omod_names": [],
+      "curve_file": "weapon_reloadmeleespeedperkill",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.03
+        },
+        {
+          "x": 10,
+          "y": 0.3
+        }
+      ],
+      "key_values": {
+        "per_kill": 0.03,
+        "at_10_kills": 0.3,
+        "bonus_pct_per_kill": 3,
+        "max_bonus_pct": 30
+      }
+    },
+    {
+      "name": "Bully",
+      "effect": "Bully effect on weapon",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Weapon4_Bully"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Pyromaniac",
+      "effect": "Fire damage on weapon",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Weapon4_Pyromaniac"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Vipers",
+      "effect": "Poison damage on weapon",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Weapon4_Vipers"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Polished",
+      "effect": "Polished weapon effect",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Weapon4_Polished"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Other 4-Star Weapon",
+      "effect": "",
+      "star": "4star",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    }
+  ],
+  "armor": [
+    {
+      "name": "Aristocrat's",
+      "effect": "Damage and Energy Resistance scale with caps",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "armor_aristocrat_01",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 2000,
+          "y": 0.13
+        },
+        {
+          "x": 4000,
+          "y": 0.16
+        },
+        {
+          "x": 6000,
+          "y": 0.2
+        },
+        {
+          "x": 8000,
+          "y": 0.25
+        },
+        {
+          "x": 10000,
+          "y": 0.32
+        },
+        {
+          "x": 12000,
+          "y": 0.4
+        },
+        {
+          "x": 14000,
+          "y": 0.5
+        },
+        {
+          "x": 16000,
+          "y": 0.63
+        },
+        {
+          "x": 18000,
+          "y": 0.79
+        },
+        {
+          "x": 20000,
+          "y": 1
+        },
+        {
+          "x": 22000,
+          "y": 1.26
+        },
+        {
+          "x": 24000,
+          "y": 1.58
+        },
+        {
+          "x": 26000,
+          "y": 2
+        },
+        {
+          "x": 28000,
+          "y": 2.51
+        },
+        {
+          "x": 30000,
+          "y": 3.16
+        },
+        {
+          "x": 32000,
+          "y": 3.98
+        },
+        {
+          "x": 34000,
+          "y": 5.01
+        },
+        {
+          "x": 36000,
+          "y": 6.31
+        },
+        {
+          "x": 38000,
+          "y": 7.94
+        },
+        {
+          "x": 40000,
+          "y": 10
+        }
+      ],
+      "key_values": {
+        "0_caps": 0,
+        "2000_caps": 0.13,
+        "10000_caps": 0.32,
+        "20000_caps": 1.0,
+        "30000_caps": 3.16,
+        "40000_caps": 10.0
+      }
+    },
+    {
+      "name": "Bolstering",
+      "effect": "Damage Resistance increases as health decreases",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Bolstering",
+        "mod_Legendary_PowerArmor1_Bolstering"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "1_piece": [
+          {
+            "x": 0,
+            "y": 0.9
+          },
+          {
+            "x": 0.15,
+            "y": 0.9
+          },
+          {
+            "x": 0.3,
+            "y": 0.91
+          },
+          {
+            "x": 0.5,
+            "y": 0.975
+          },
+          {
+            "x": 0.75,
+            "y": 1
+          },
+          {
+            "x": 0.9,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "2_pieces": [
+          {
+            "x": 0,
+            "y": 0.81
+          },
+          {
+            "x": 0.15,
+            "y": 0.81
+          },
+          {
+            "x": 0.3,
+            "y": 0.828
+          },
+          {
+            "x": 0.5,
+            "y": 0.951
+          },
+          {
+            "x": 0.75,
+            "y": 1
+          },
+          {
+            "x": 0.9,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "3_pieces": [
+          {
+            "x": 0,
+            "y": 0.729
+          },
+          {
+            "x": 0.15,
+            "y": 0.729
+          },
+          {
+            "x": 0.3,
+            "y": 0.754
+          },
+          {
+            "x": 0.5,
+            "y": 0.927
+          },
+          {
+            "x": 0.75,
+            "y": 1
+          },
+          {
+            "x": 0.9,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "4_pieces": [
+          {
+            "x": 0,
+            "y": 0.656
+          },
+          {
+            "x": 0.15,
+            "y": 0.656
+          },
+          {
+            "x": 0.3,
+            "y": 0.686
+          },
+          {
+            "x": 0.5,
+            "y": 0.904
+          },
+          {
+            "x": 0.75,
+            "y": 1
+          },
+          {
+            "x": 0.9,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "5_pieces": [
+          {
+            "x": 0,
+            "y": 0.59
+          },
+          {
+            "x": 0.15,
+            "y": 0.59
+          },
+          {
+            "x": 0.3,
+            "y": 0.624
+          },
+          {
+            "x": 0.5,
+            "y": 0.881
+          },
+          {
+            "x": 0.75,
+            "y": 1
+          },
+          {
+            "x": 0.9,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ],
+        "description": [
+          {
+            "x": 0,
+            "y": 10
+          },
+          {
+            "x": 0.15,
+            "y": 10
+          },
+          {
+            "x": 0.3,
+            "y": 9
+          },
+          {
+            "x": 0.5,
+            "y": 2.5
+          },
+          {
+            "x": 0.75,
+            "y": 0
+          },
+          {
+            "x": 0.9,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      "key_values": {
+        "1pc_at_0pct_hp": {
+          "multiplier": 0.9,
+          "dr_bonus_pct": 10
+        },
+        "2pc_at_0pct_hp": {
+          "multiplier": 0.81,
+          "dr_bonus_pct": 19
+        },
+        "3pc_at_0pct_hp": {
+          "multiplier": 0.729,
+          "dr_bonus_pct": 27.1
+        },
+        "4pc_at_0pct_hp": {
+          "multiplier": 0.656,
+          "dr_bonus_pct": 34.4
+        },
+        "5pc_at_0pct_hp": {
+          "multiplier": 0.59,
+          "dr_bonus_pct": 41.0
+        },
+        "threshold": "Effect starts below 75% HP",
+        "desc_max_per_piece": 10
+      }
+    },
+    {
+      "name": "Chameleon",
+      "effect": "Invisibility while sneaking and stationary",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Chameleon",
+        "mod_Legendary_PowerArmor1_Chameleon"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "effect": "binary_toggle"
+      }
+    },
+    {
+      "name": "Cloaking",
+      "effect": "Stealth field when hit in melee",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_CloakOnMelee",
+        "mod_Legendary_PowerArmor1_CloakOnMelee"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "effect": "stealth_field_on_melee_hit",
+        "cooldown": "30s"
+      }
+    },
+    {
+      "name": "Auto-Stim",
+      "effect": "Auto-use Stimpak when health drops below 25%",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LowHealthTriggersStimpak",
+        "mod_Legendary_PowerArmor1_LowHealthTriggersStimpak"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "threshold": "25% HP",
+        "cooldown": "30s"
+      }
+    },
+    {
+      "name": "Ghoul Slayer's",
+      "effect": "Reduces damage from ghouls by 15% per piece",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LessDMGGhouls",
+        "mod_Legendary_PowerArmor1_LessDMGGhouls"
+      ],
+      "curve_file": "armor_lessdmgghouls",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.85
+        },
+        {
+          "x": 2,
+          "y": 0.7225
+        },
+        {
+          "x": 3,
+          "y": 0.6141
+        },
+        {
+          "x": 4,
+          "y": 0.522
+        },
+        {
+          "x": 5,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "2_pieces": {
+          "multiplier": 0.7225,
+          "reduction_pct": 27.75
+        },
+        "3_pieces": {
+          "multiplier": 0.6141,
+          "reduction_pct": 38.59
+        },
+        "4_pieces": {
+          "multiplier": 0.522,
+          "reduction_pct": 47.8
+        },
+        "5_pieces": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Hunter's",
+      "effect": "Reduces damage from animals by 15% per piece",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LessDMGAnimals",
+        "mod_Legendary_PowerArmor1_LessDMGAnimals"
+      ],
+      "curve_file": "armor_lessdmganimals",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.85
+        },
+        {
+          "x": 2,
+          "y": 0.7225
+        },
+        {
+          "x": 3,
+          "y": 0.6141
+        },
+        {
+          "x": 4,
+          "y": 0.522
+        },
+        {
+          "x": 5,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "5_pieces": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Troubleshooter's",
+      "effect": "Reduces damage from robots by 15% per piece",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LessDMGRobots",
+        "mod_Legendary_PowerArmor1_LessDMGRobots"
+      ],
+      "curve_file": "armor_lessdmgrobots",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.85
+        },
+        {
+          "x": 2,
+          "y": 0.7225
+        },
+        {
+          "x": 3,
+          "y": 0.6141
+        },
+        {
+          "x": 4,
+          "y": 0.522
+        },
+        {
+          "x": 5,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "5_pieces": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Zealot's",
+      "effect": "Reduces damage from Scorched by 15% per piece",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LessDmgScorched",
+        "mod_Legendary_PowerArmor1_LessDmgScorched"
+      ],
+      "curve_file": "armor_lessdmgscorched",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.85
+        },
+        {
+          "x": 2,
+          "y": 0.7225
+        },
+        {
+          "x": 3,
+          "y": 0.6141
+        },
+        {
+          "x": 4,
+          "y": 0.522
+        },
+        {
+          "x": 5,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "5_pieces": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Assassin's",
+      "effect": "Reduces damage from players by 15% per piece",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LessDMGPlayers",
+        "mod_Legendary_PowerArmor1_LessDMGPlayers"
+      ],
+      "curve_file": "armor_lessdmgplayers",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.85
+        },
+        {
+          "x": 2,
+          "y": 0.7225
+        },
+        {
+          "x": 3,
+          "y": 0.6141
+        },
+        {
+          "x": 4,
+          "y": 0.522
+        },
+        {
+          "x": 5,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "5_pieces": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Exterminator's",
+      "effect": "Reduces damage from bugs by 15% per piece",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LessDMGBugs",
+        "mod_Legendary_PowerArmor1_LessDMGBugs"
+      ],
+      "curve_file": "armor_lessdmgbugs",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.85
+        },
+        {
+          "x": 2,
+          "y": 0.7225
+        },
+        {
+          "x": 3,
+          "y": 0.6141
+        },
+        {
+          "x": 4,
+          "y": 0.522
+        },
+        {
+          "x": 5,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "5_pieces": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Mutant Slayer's",
+      "effect": "Reduces damage from Super Mutants by 15% per piece",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LessDMGSuperMutants",
+        "mod_Legendary_PowerArmor1_LessDMGSuperMutants"
+      ],
+      "curve_file": "armor_lessdmgsupermutants",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.85
+        },
+        {
+          "x": 2,
+          "y": 0.7225
+        },
+        {
+          "x": 3,
+          "y": 0.6141
+        },
+        {
+          "x": 4,
+          "y": 0.522
+        },
+        {
+          "x": 5,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "5_pieces": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Life Saving",
+      "effect": "50% chance to auto-revive with Stimpak when downed",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_AutoRevive"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "chance": 50,
+        "cooldown": "60s"
+      }
+    },
+    {
+      "name": "Regenerating",
+      "effect": "Slowly regenerate HP when not in combat",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_HealthRegen",
+        "mod_Legendary_PowerArmor1_HealthRegen"
+      ],
+      "curve_file": "armor_healthregen",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.5
+        },
+        {
+          "x": 100,
+          "y": 0.5
+        }
+      ],
+      "key_values": {
+        "regen_rate": 0.5
+      }
+    },
+    {
+      "name": "Unyielding",
+      "effect": "Up to +3 to all SPECIAL stats (except END) when low health",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_LowHealthIncreasesStats"
+      ],
+      "curve_file": "armor_lowhealthincreasesstats",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 3
+        },
+        {
+          "x": 0.1999,
+          "y": 3
+        },
+        {
+          "x": 0.2,
+          "y": 2
+        },
+        {
+          "x": 0.3999,
+          "y": 2
+        },
+        {
+          "x": 0.4,
+          "y": 1
+        },
+        {
+          "x": 0.5999,
+          "y": 1
+        },
+        {
+          "x": 0.6,
+          "y": 0
+        }
+      ],
+      "key_values": {
+        "below_20pct_hp": 3,
+        "20_to_40pct_hp": 2,
+        "40_to_60pct_hp": 1,
+        "above_60pct_hp": 0
+      }
+    },
+    {
+      "name": "Vanguard's",
+      "effect": "Damage Resistance increases with higher health",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Vanguard"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "1_piece": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 100,
+            "y": 0.999
+          },
+          {
+            "x": 136,
+            "y": 0.999
+          },
+          {
+            "x": 185,
+            "y": 0.998
+          },
+          {
+            "x": 252,
+            "y": 0.998
+          },
+          {
+            "x": 342,
+            "y": 0.996
+          },
+          {
+            "x": 465,
+            "y": 0.993
+          },
+          {
+            "x": 633,
+            "y": 0.983
+          },
+          {
+            "x": 861,
+            "y": 0.943
+          },
+          {
+            "x": 1000,
+            "y": 0.94
+          }
+        ],
+        "2_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 100,
+            "y": 0.998
+          },
+          {
+            "x": 136,
+            "y": 0.998
+          },
+          {
+            "x": 185,
+            "y": 0.997
+          },
+          {
+            "x": 252,
+            "y": 0.995
+          },
+          {
+            "x": 342,
+            "y": 0.993
+          },
+          {
+            "x": 465,
+            "y": 0.986
+          },
+          {
+            "x": 633,
+            "y": 0.966
+          },
+          {
+            "x": 861,
+            "y": 0.89
+          },
+          {
+            "x": 1000,
+            "y": 0.884
+          }
+        ],
+        "3_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 100,
+            "y": 0.997
+          },
+          {
+            "x": 136,
+            "y": 0.996
+          },
+          {
+            "x": 185,
+            "y": 0.995
+          },
+          {
+            "x": 252,
+            "y": 0.993
+          },
+          {
+            "x": 342,
+            "y": 0.989
+          },
+          {
+            "x": 465,
+            "y": 0.979
+          },
+          {
+            "x": 633,
+            "y": 0.95
+          },
+          {
+            "x": 861,
+            "y": 0.839
+          },
+          {
+            "x": 1000,
+            "y": 0.831
+          }
+        ],
+        "4_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 100,
+            "y": 0.996
+          },
+          {
+            "x": 136,
+            "y": 0.995
+          },
+          {
+            "x": 185,
+            "y": 0.994
+          },
+          {
+            "x": 252,
+            "y": 0.991
+          },
+          {
+            "x": 342,
+            "y": 0.985
+          },
+          {
+            "x": 465,
+            "y": 0.972
+          },
+          {
+            "x": 633,
+            "y": 0.934
+          },
+          {
+            "x": 861,
+            "y": 0.792
+          },
+          {
+            "x": 1000,
+            "y": 0.781
+          }
+        ],
+        "5_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 100,
+            "y": 0.995
+          },
+          {
+            "x": 136,
+            "y": 0.994
+          },
+          {
+            "x": 185,
+            "y": 0.992
+          },
+          {
+            "x": 252,
+            "y": 0.989
+          },
+          {
+            "x": 342,
+            "y": 0.982
+          },
+          {
+            "x": 465,
+            "y": 0.965
+          },
+          {
+            "x": 633,
+            "y": 0.918
+          },
+          {
+            "x": 861,
+            "y": 0.747
+          },
+          {
+            "x": 1000,
+            "y": 0.734
+          }
+        ],
+        "description": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 100,
+            "y": 0.1
+          },
+          {
+            "x": 136,
+            "y": 0.1
+          },
+          {
+            "x": 185,
+            "y": 0.2
+          },
+          {
+            "x": 252,
+            "y": 0.2
+          },
+          {
+            "x": 342,
+            "y": 0.4
+          },
+          {
+            "x": 465,
+            "y": 0.7
+          },
+          {
+            "x": 633,
+            "y": 1.7
+          },
+          {
+            "x": 861,
+            "y": 5.7
+          },
+          {
+            "x": 1000,
+            "y": 6
+          }
+        ]
+      },
+      "key_values": {
+        "1pc_at_full_hp": {
+          "multiplier": 0.94,
+          "dr_bonus_pct": 6
+        },
+        "5pc_at_full_hp": {
+          "multiplier": 0.734,
+          "dr_bonus_pct": 26.6
+        },
+        "desc_max_per_piece": 6
+      }
+    },
+    {
+      "name": "Nocturnal",
+      "effect": "DR/ER increases at night, decreases during day",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_ResistancesNight",
+        "mod_Legendary_PowerArmor1_ResistancesNight"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "night_bonus": "increased",
+        "day_penalty": "decreased"
+      }
+    },
+    {
+      "name": "Mutant's",
+      "effect": "DR/ER increases per mutation",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_ResistancesMutation",
+        "mod_Legendary_PowerArmor1_ResistancesMutation"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "1_piece": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.998
+          },
+          {
+            "x": 2,
+            "y": 0.995
+          },
+          {
+            "x": 3,
+            "y": 0.993
+          },
+          {
+            "x": 4,
+            "y": 0.99
+          },
+          {
+            "x": 5,
+            "y": 0.988
+          },
+          {
+            "x": 6,
+            "y": 0.984
+          },
+          {
+            "x": 7,
+            "y": 0.98
+          },
+          {
+            "x": 8,
+            "y": 0.975
+          },
+          {
+            "x": 9,
+            "y": 0.968
+          },
+          {
+            "x": 10,
+            "y": 0.96
+          },
+          {
+            "x": 11,
+            "y": 0.955
+          },
+          {
+            "x": 12,
+            "y": 0.953
+          },
+          {
+            "x": 13,
+            "y": 0.952
+          },
+          {
+            "x": 14,
+            "y": 0.951
+          },
+          {
+            "x": 15,
+            "y": 0.951
+          },
+          {
+            "x": 16,
+            "y": 0.95
+          }
+        ],
+        "2_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.995
+          },
+          {
+            "x": 2,
+            "y": 0.99
+          },
+          {
+            "x": 3,
+            "y": 0.985
+          },
+          {
+            "x": 4,
+            "y": 0.98
+          },
+          {
+            "x": 5,
+            "y": 0.975
+          },
+          {
+            "x": 6,
+            "y": 0.968
+          },
+          {
+            "x": 7,
+            "y": 0.96
+          },
+          {
+            "x": 8,
+            "y": 0.951
+          },
+          {
+            "x": 9,
+            "y": 0.936
+          },
+          {
+            "x": 10,
+            "y": 0.922
+          },
+          {
+            "x": 11,
+            "y": 0.912
+          },
+          {
+            "x": 12,
+            "y": 0.908
+          },
+          {
+            "x": 13,
+            "y": 0.906
+          },
+          {
+            "x": 14,
+            "y": 0.904
+          },
+          {
+            "x": 15,
+            "y": 0.903
+          },
+          {
+            "x": 16,
+            "y": 0.903
+          }
+        ],
+        "3_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.993
+          },
+          {
+            "x": 2,
+            "y": 0.985
+          },
+          {
+            "x": 3,
+            "y": 0.978
+          },
+          {
+            "x": 4,
+            "y": 0.97
+          },
+          {
+            "x": 5,
+            "y": 0.963
+          },
+          {
+            "x": 6,
+            "y": 0.953
+          },
+          {
+            "x": 7,
+            "y": 0.941
+          },
+          {
+            "x": 8,
+            "y": 0.927
+          },
+          {
+            "x": 9,
+            "y": 0.906
+          },
+          {
+            "x": 10,
+            "y": 0.885
+          },
+          {
+            "x": 11,
+            "y": 0.871
+          },
+          {
+            "x": 12,
+            "y": 0.866
+          },
+          {
+            "x": 13,
+            "y": 0.862
+          },
+          {
+            "x": 14,
+            "y": 0.86
+          },
+          {
+            "x": 15,
+            "y": 0.859
+          },
+          {
+            "x": 16,
+            "y": 0.857
+          }
+        ],
+        "4_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.99
+          },
+          {
+            "x": 2,
+            "y": 0.98
+          },
+          {
+            "x": 3,
+            "y": 0.97
+          },
+          {
+            "x": 4,
+            "y": 0.961
+          },
+          {
+            "x": 5,
+            "y": 0.951
+          },
+          {
+            "x": 6,
+            "y": 0.938
+          },
+          {
+            "x": 7,
+            "y": 0.922
+          },
+          {
+            "x": 8,
+            "y": 0.904
+          },
+          {
+            "x": 9,
+            "y": 0.876
+          },
+          {
+            "x": 10,
+            "y": 0.849
+          },
+          {
+            "x": 11,
+            "y": 0.832
+          },
+          {
+            "x": 12,
+            "y": 0.825
+          },
+          {
+            "x": 13,
+            "y": 0.821
+          },
+          {
+            "x": 14,
+            "y": 0.818
+          },
+          {
+            "x": 15,
+            "y": 0.816
+          },
+          {
+            "x": 16,
+            "y": 0.815
+          }
+        ],
+        "5_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.988
+          },
+          {
+            "x": 2,
+            "y": 0.975
+          },
+          {
+            "x": 3,
+            "y": 0.963
+          },
+          {
+            "x": 4,
+            "y": 0.951
+          },
+          {
+            "x": 5,
+            "y": 0.939
+          },
+          {
+            "x": 6,
+            "y": 0.923
+          },
+          {
+            "x": 7,
+            "y": 0.904
+          },
+          {
+            "x": 8,
+            "y": 0.881
+          },
+          {
+            "x": 9,
+            "y": 0.848
+          },
+          {
+            "x": 10,
+            "y": 0.815
+          },
+          {
+            "x": 11,
+            "y": 0.794
+          },
+          {
+            "x": 12,
+            "y": 0.786
+          },
+          {
+            "x": 13,
+            "y": 0.781
+          },
+          {
+            "x": 14,
+            "y": 0.778
+          },
+          {
+            "x": 15,
+            "y": 0.776
+          },
+          {
+            "x": 16,
+            "y": 0.774
+          }
+        ],
+        "description": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0.25
+          },
+          {
+            "x": 2,
+            "y": 0.5
+          },
+          {
+            "x": 3,
+            "y": 0.75
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1.25
+          },
+          {
+            "x": 6,
+            "y": 1.6
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2.5
+          },
+          {
+            "x": 9,
+            "y": 3.25
+          },
+          {
+            "x": 10,
+            "y": 4
+          },
+          {
+            "x": 11,
+            "y": 4.5
+          },
+          {
+            "x": 12,
+            "y": 4.7
+          },
+          {
+            "x": 13,
+            "y": 4.83
+          },
+          {
+            "x": 14,
+            "y": 4.9
+          },
+          {
+            "x": 15,
+            "y": 4.95
+          },
+          {
+            "x": 16,
+            "y": 5
+          }
+        ]
+      },
+      "key_values": {
+        "1pc_at_5_mutations": {
+          "multiplier": 0.988,
+          "dr_bonus_pct": 1.2
+        },
+        "1pc_at_10_mutations": {
+          "multiplier": 0.96,
+          "dr_bonus_pct": 4.0
+        },
+        "5pc_at_10_mutations": {
+          "multiplier": 0.815,
+          "dr_bonus_pct": 18.5
+        },
+        "5pc_at_16_mutations": {
+          "multiplier": 0.774,
+          "dr_bonus_pct": 22.6
+        },
+        "desc_max_per_piece_at_16": 5
+      }
+    },
+    {
+      "name": "Overeater's",
+      "effect": "Damage reduction increases with higher food/water",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Overeater",
+        "mod_Legendary_PowerArmor1_Overeater"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "main": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.4,
+            "y": 0
+          },
+          {
+            "x": 0.8,
+            "y": 0
+          },
+          {
+            "x": 1.2,
+            "y": 0
+          },
+          {
+            "x": 1.6,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2.4,
+            "y": 1
+          },
+          {
+            "x": 2.8,
+            "y": 1
+          },
+          {
+            "x": 3.2,
+            "y": 1
+          },
+          {
+            "x": 3.6,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 4.4,
+            "y": 4
+          },
+          {
+            "x": 4.8,
+            "y": 5
+          },
+          {
+            "x": 5.2,
+            "y": 6
+          },
+          {
+            "x": 5.6,
+            "y": 8
+          },
+          {
+            "x": 6,
+            "y": 11
+          },
+          {
+            "x": 6.4,
+            "y": 14
+          },
+          {
+            "x": 6.8,
+            "y": 19
+          },
+          {
+            "x": 7.2,
+            "y": 25
+          },
+          {
+            "x": 7.6,
+            "y": 32
+          },
+          {
+            "x": 8,
+            "y": 40
+          }
+        ],
+        "effect": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 10,
+            "y": 1
+          },
+          {
+            "x": 12,
+            "y": 1
+          },
+          {
+            "x": 14,
+            "y": 1
+          },
+          {
+            "x": 16,
+            "y": 2
+          },
+          {
+            "x": 18,
+            "y": 2
+          },
+          {
+            "x": 20,
+            "y": 3
+          },
+          {
+            "x": 22,
+            "y": 4
+          },
+          {
+            "x": 24,
+            "y": 5
+          },
+          {
+            "x": 26,
+            "y": 6
+          },
+          {
+            "x": 28,
+            "y": 8
+          },
+          {
+            "x": 30,
+            "y": 11
+          },
+          {
+            "x": 32,
+            "y": 14
+          },
+          {
+            "x": 34,
+            "y": 19
+          },
+          {
+            "x": 36,
+            "y": 25
+          },
+          {
+            "x": 38,
+            "y": 32
+          },
+          {
+            "x": 40,
+            "y": 40
+          }
+        ]
+      },
+      "key_values": {
+        "at_max_food_water": {
+          "reduction_pct": 40
+        },
+        "at_zero": 0,
+        "threshold": "No benefit below ~20% satisfaction",
+        "at_half": {
+          "reduction_pct": 3
+        }
+      }
+    },
+    {
+      "name": "Heavyweight",
+      "effect": "Damage Resistance scales with carried weight",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Heavyweight"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "1_piece": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0.1,
+            "y": 0.994
+          },
+          {
+            "x": 0.28,
+            "y": 0.991
+          },
+          {
+            "x": 0.46,
+            "y": 0.986
+          },
+          {
+            "x": 0.64,
+            "y": 0.98
+          },
+          {
+            "x": 0.82,
+            "y": 0.971
+          },
+          {
+            "x": 1,
+            "y": 0.958
+          },
+          {
+            "x": 1.18,
+            "y": 0.94
+          },
+          {
+            "x": 1.36,
+            "y": 0.912
+          },
+          {
+            "x": 1.5,
+            "y": 0.9
+          }
+        ],
+        "2_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0.1,
+            "y": 0.987
+          },
+          {
+            "x": 0.28,
+            "y": 0.981
+          },
+          {
+            "x": 0.46,
+            "y": 0.973
+          },
+          {
+            "x": 0.64,
+            "y": 0.961
+          },
+          {
+            "x": 0.82,
+            "y": 0.943
+          },
+          {
+            "x": 1,
+            "y": 0.918
+          },
+          {
+            "x": 1.18,
+            "y": 0.883
+          },
+          {
+            "x": 1.36,
+            "y": 0.832
+          },
+          {
+            "x": 1.5,
+            "y": 0.81
+          }
+        ],
+        "3_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0.1,
+            "y": 0.981
+          },
+          {
+            "x": 0.28,
+            "y": 0.972
+          },
+          {
+            "x": 0.46,
+            "y": 0.96
+          },
+          {
+            "x": 0.64,
+            "y": 0.942
+          },
+          {
+            "x": 0.82,
+            "y": 0.916
+          },
+          {
+            "x": 1,
+            "y": 0.88
+          },
+          {
+            "x": 1.18,
+            "y": 0.829
+          },
+          {
+            "x": 1.36,
+            "y": 0.76
+          },
+          {
+            "x": 1.5,
+            "y": 0.729
+          }
+        ],
+        "4_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0.1,
+            "y": 0.974
+          },
+          {
+            "x": 0.28,
+            "y": 0.963
+          },
+          {
+            "x": 0.46,
+            "y": 0.946
+          },
+          {
+            "x": 0.64,
+            "y": 0.923
+          },
+          {
+            "x": 0.82,
+            "y": 0.89
+          },
+          {
+            "x": 1,
+            "y": 0.843
+          },
+          {
+            "x": 1.18,
+            "y": 0.779
+          },
+          {
+            "x": 1.36,
+            "y": 0.693
+          },
+          {
+            "x": 1.5,
+            "y": 0.656
+          }
+        ],
+        "5_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0.1,
+            "y": 0.968
+          },
+          {
+            "x": 0.28,
+            "y": 0.954
+          },
+          {
+            "x": 0.46,
+            "y": 0.934
+          },
+          {
+            "x": 0.64,
+            "y": 0.905
+          },
+          {
+            "x": 0.82,
+            "y": 0.864
+          },
+          {
+            "x": 1,
+            "y": 0.808
+          },
+          {
+            "x": 1.18,
+            "y": 0.732
+          },
+          {
+            "x": 1.36,
+            "y": 0.632
+          },
+          {
+            "x": 1.5,
+            "y": 0.59
+          }
+        ],
+        "description": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0.1,
+            "y": 0.65
+          },
+          {
+            "x": 0.28,
+            "y": 0.94
+          },
+          {
+            "x": 0.46,
+            "y": 1.37
+          },
+          {
+            "x": 0.64,
+            "y": 1.98
+          },
+          {
+            "x": 0.82,
+            "y": 2.87
+          },
+          {
+            "x": 1,
+            "y": 4.17
+          },
+          {
+            "x": 1.18,
+            "y": 6.04
+          },
+          {
+            "x": 1.36,
+            "y": 8.76
+          },
+          {
+            "x": 1.5,
+            "y": 10
+          }
+        ]
+      },
+      "key_values": {
+        "1pc_at_max_carry": {
+          "multiplier": 0.9,
+          "dr_bonus_pct": 10
+        },
+        "5pc_at_max_carry": {
+          "multiplier": 0.59,
+          "dr_bonus_pct": 41
+        },
+        "desc_max_per_piece": 10
+      }
+    },
+    {
+      "name": "Weightless",
+      "effect": "Armor weighs less, improves sneak",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Weightless (zzz'd on PA)"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "weight_mult": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.9
+          },
+          {
+            "x": 2,
+            "y": 0.81
+          },
+          {
+            "x": 3,
+            "y": 0.73
+          },
+          {
+            "x": 4,
+            "y": 0.66
+          },
+          {
+            "x": 5,
+            "y": 0.59
+          }
+        ],
+        "description": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 10
+          }
+        ]
+      },
+      "key_values": {
+        "1_piece_weight_reduction": 10,
+        "5_pieces_weight_reduction": 41,
+        "desc_max": 10
+      }
+    },
+    {
+      "name": "Adrenal",
+      "effect": "DR/ER based on health",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Adrenal",
+        "mod_Legendary_PowerArmor1_Adrenal"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "effect": "DR/ER scaling"
+      }
+    },
+    {
+      "name": "Lucid",
+      "effect": "Damage Resistance scales with rads taken",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_Lucid",
+        "mod_Legendary_PowerArmor1_Lucid"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "1_piece": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.996
+          },
+          {
+            "x": 2,
+            "y": 0.994
+          },
+          {
+            "x": 3,
+            "y": 0.991
+          },
+          {
+            "x": 4,
+            "y": 0.987
+          },
+          {
+            "x": 5,
+            "y": 0.981
+          },
+          {
+            "x": 6,
+            "y": 0.972
+          },
+          {
+            "x": 7,
+            "y": 0.959
+          },
+          {
+            "x": 8,
+            "y": 0.94
+          }
+        ],
+        "2_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.992
+          },
+          {
+            "x": 2,
+            "y": 0.988
+          },
+          {
+            "x": 3,
+            "y": 0.983
+          },
+          {
+            "x": 4,
+            "y": 0.975
+          },
+          {
+            "x": 5,
+            "y": 0.963
+          },
+          {
+            "x": 6,
+            "y": 0.945
+          },
+          {
+            "x": 7,
+            "y": 0.92
+          },
+          {
+            "x": 8,
+            "y": 0.884
+          }
+        ],
+        "3_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.988
+          },
+          {
+            "x": 2,
+            "y": 0.983
+          },
+          {
+            "x": 3,
+            "y": 0.975
+          },
+          {
+            "x": 4,
+            "y": 0.963
+          },
+          {
+            "x": 5,
+            "y": 0.945
+          },
+          {
+            "x": 6,
+            "y": 0.919
+          },
+          {
+            "x": 7,
+            "y": 0.882
+          },
+          {
+            "x": 8,
+            "y": 0.831
+          }
+        ],
+        "4_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.984
+          },
+          {
+            "x": 2,
+            "y": 0.977
+          },
+          {
+            "x": 3,
+            "y": 0.966
+          },
+          {
+            "x": 4,
+            "y": 0.95
+          },
+          {
+            "x": 5,
+            "y": 0.927
+          },
+          {
+            "x": 6,
+            "y": 0.894
+          },
+          {
+            "x": 7,
+            "y": 0.846
+          },
+          {
+            "x": 8,
+            "y": 0.781
+          }
+        ],
+        "5_pieces": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0.981
+          },
+          {
+            "x": 2,
+            "y": 0.971
+          },
+          {
+            "x": 3,
+            "y": 0.958
+          },
+          {
+            "x": 4,
+            "y": 0.938
+          },
+          {
+            "x": 5,
+            "y": 0.91
+          },
+          {
+            "x": 6,
+            "y": 0.869
+          },
+          {
+            "x": 7,
+            "y": 0.811
+          },
+          {
+            "x": 8,
+            "y": 0.734
+          }
+        ],
+        "description": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0.39
+          },
+          {
+            "x": 2,
+            "y": 0.58
+          },
+          {
+            "x": 3,
+            "y": 0.85
+          },
+          {
+            "x": 4,
+            "y": 1.26
+          },
+          {
+            "x": 5,
+            "y": 1.87
+          },
+          {
+            "x": 6,
+            "y": 2.77
+          },
+          {
+            "x": 7,
+            "y": 4.1
+          },
+          {
+            "x": 8,
+            "y": 6
+          }
+        ]
+      },
+      "key_values": {
+        "1pc_at_max_rads": {
+          "multiplier": 0.94,
+          "dr_bonus_pct": 6
+        },
+        "5pc_at_max_rads": {
+          "multiplier": 0.734,
+          "dr_bonus_pct": 26.6
+        },
+        "desc_max_per_piece": 6
+      }
+    },
+    {
+      "name": "Bolstering (Inverse Health DR)",
+      "effect": "DR increases as health decreases (flat DR version)",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_ResistancesInverseHealth",
+        "mod_Legendary_PowerArmor1_ResistancesInverseHealth"
+      ],
+      "curve_file": "armor_resistancesinversehealth",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 35
+        },
+        {
+          "x": 0.1,
+          "y": 35
+        },
+        {
+          "x": 0.2,
+          "y": 32
+        },
+        {
+          "x": 0.3,
+          "y": 28
+        },
+        {
+          "x": 0.4,
+          "y": 24
+        },
+        {
+          "x": 0.5,
+          "y": 20
+        },
+        {
+          "x": 0.6,
+          "y": 16
+        },
+        {
+          "x": 0.61,
+          "y": 0
+        }
+      ],
+      "key_values": {
+        "at_0pct_hp": 35,
+        "at_10pct_hp": 35,
+        "at_20pct_hp": 32,
+        "at_30pct_hp": 28,
+        "at_40pct_hp": 24,
+        "at_50pct_hp": 20,
+        "at_60pct_hp": 16,
+        "above_61pct_hp": 0
+      }
+    },
+    {
+      "name": "Resistances Per Kill",
+      "effect": "DR increases per kill (stacking)",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "armor_resistancesperkill",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 10
+        },
+        {
+          "x": 10,
+          "y": 100
+        }
+      ],
+      "key_values": {
+        "per_kill": 10,
+        "max_stacks": 10,
+        "max_dr": 100
+      }
+    },
+    {
+      "name": "Resistances via Caps (Aristocrat's backing)",
+      "effect": "DR/ER scales with caps held",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "armor_resistancesproportionalcaps",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1000,
+          "y": 0.67
+        },
+        {
+          "x": 2000,
+          "y": 1.34
+        },
+        {
+          "x": 3000,
+          "y": 2.01
+        },
+        {
+          "x": 4000,
+          "y": 2.68
+        },
+        {
+          "x": 5000,
+          "y": 3.35
+        },
+        {
+          "x": 6000,
+          "y": 4.02
+        },
+        {
+          "x": 7000,
+          "y": 4.69
+        },
+        {
+          "x": 8000,
+          "y": 5.36
+        },
+        {
+          "x": 9000,
+          "y": 6.03
+        },
+        {
+          "x": 10000,
+          "y": 6.7
+        },
+        {
+          "x": 11000,
+          "y": 7.37
+        },
+        {
+          "x": 12000,
+          "y": 8.04
+        },
+        {
+          "x": 13000,
+          "y": 8.71
+        },
+        {
+          "x": 14000,
+          "y": 9.38
+        },
+        {
+          "x": 15000,
+          "y": 10.05
+        },
+        {
+          "x": 16000,
+          "y": 10.72
+        },
+        {
+          "x": 17000,
+          "y": 11.39
+        },
+        {
+          "x": 18000,
+          "y": 12.06
+        },
+        {
+          "x": 19000,
+          "y": 12.73
+        },
+        {
+          "x": 20000,
+          "y": 13.4
+        },
+        {
+          "x": 21000,
+          "y": 14.07
+        },
+        {
+          "x": 22000,
+          "y": 14.74
+        },
+        {
+          "x": 23000,
+          "y": 15.41
+        },
+        {
+          "x": 24000,
+          "y": 16.08
+        },
+        {
+          "x": 25000,
+          "y": 16.75
+        },
+        {
+          "x": 26000,
+          "y": 17.42
+        },
+        {
+          "x": 27000,
+          "y": 18.09
+        },
+        {
+          "x": 28000,
+          "y": 18.76
+        },
+        {
+          "x": 29000,
+          "y": 19.43
+        },
+        {
+          "x": 30000,
+          "y": 20.1
+        }
+      ],
+      "key_values": {
+        "at_1000_caps": 0.67,
+        "at_10000_caps": 6.7,
+        "at_20000_caps": 13.4,
+        "at_29000_caps": 19.43,
+        "at_30000_caps": 20.1
+      }
+    },
+    {
+      "name": "Vanguard's (Proportional Health)",
+      "effect": "DR scales proportionally with current health",
+      "star": 1,
+      "omod_names": [
+        "mod_Legendary_Armor1_ResistancesProportionalHealth",
+        "mod_Legendary_PowerArmor1_ResistancesProportionalHealth"
+      ],
+      "curve_file": "armor_resistancesproportionalhealth",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0.5,
+          "y": 7
+        },
+        {
+          "x": 0.6,
+          "y": 14
+        },
+        {
+          "x": 0.7,
+          "y": 21
+        },
+        {
+          "x": 0.8,
+          "y": 28
+        },
+        {
+          "x": 0.9,
+          "y": 35
+        }
+      ],
+      "key_values": {
+        "at_50pct_hp": 7,
+        "at_60pct_hp": 14,
+        "at_70pct_hp": 21,
+        "at_80pct_hp": 28,
+        "at_90pct_hp": 35
+      }
+    },
+    {
+      "name": "Damage Resist via Caps",
+      "effect": "Direct damage resistance scaling with caps (separate from Aristocrat's)",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "armor_damageresistviacaps",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1000,
+          "y": 6
+        },
+        {
+          "x": 2000,
+          "y": 10
+        },
+        {
+          "x": 15000,
+          "y": 54
+        },
+        {
+          "x": 16000,
+          "y": 56
+        },
+        {
+          "x": 17000,
+          "y": 60
+        },
+        {
+          "x": 29000,
+          "y": 100
+        }
+      ],
+      "key_values": {
+        "at_0_caps": 0,
+        "at_1000_caps": 6,
+        "at_2000_caps": 10,
+        "at_15000_caps": 54,
+        "at_17000_caps": 60,
+        "at_29000_caps": 100
+      }
+    },
+    {
+      "name": "Resistances via Carry Weight",
+      "effect": "DR bonus when overencumbered",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": "armor_resistancecarryweight",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 199,
+          "y": 0
+        },
+        {
+          "x": 200,
+          "y": 1
+        },
+        {
+          "x": 350,
+          "y": 20
+        }
+      ],
+      "key_values": {
+        "below_200": 0,
+        "at_200": 1,
+        "at_350": 20
+      }
+    },
+    {
+      "name": "Overeater (backing)",
+      "effect": "See Overeater's above",
+      "star": 1,
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Stat Bonuses (+1 SPECIAL)",
+      "effect": "+1 to a SPECIAL stat",
+      "star": 2,
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "bonus": "+1 to specified SPECIAL"
+      }
+    },
+    {
+      "name": "Powered (AP Regen)",
+      "effect": "Increases Action Point refresh speed",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_APRegen",
+        "mod_Legendary_PowerArmor2_APRegen"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "effect": "AP_regen_increase"
+      }
+    },
+    {
+      "name": "Poisoner's",
+      "effect": "+25 Poison Resistance",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_PoisonResistance",
+        "mod_Legendary_PowerArmor2_PoisonResistance"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "poison_resist": 25
+      }
+    },
+    {
+      "name": "Rad Powered",
+      "effect": "+25 Radiation Resistance",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_RadResistance",
+        "mod_Legendary_PowerArmor2_RadResistance"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "rad_resist": 25
+      }
+    },
+    {
+      "name": "Cryo Resistance",
+      "effect": "Cryo Resistance",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_CryoResistance",
+        "mod_Legendary_PowerArmor2_CryoResistance"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "cryo_resist": "flat_bonus"
+      }
+    },
+    {
+      "name": "Fireproof",
+      "effect": "Fire Resistance",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_Fireproof",
+        "mod_Legendary_PowerArmor2_Fireproof"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "fire_resist": "flat_bonus"
+      }
+    },
+    {
+      "name": "Disease Resist",
+      "effect": "Disease Resistance",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_DiseaseResistance",
+        "mod_Legendary_PowerArmor2_DiseaseResistance"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "disease_resist": "flat_bonus"
+      }
+    },
+    {
+      "name": "Glutton's",
+      "effect": "Food/drink spoilage reduction",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_Glutton",
+        "mod_Legendary_PowerArmor2_Glutton"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Explosion Resist",
+      "effect": "Reduces explosion damage",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_ReduceExplosionDamage",
+        "mod_Legendary_PowerArmor2_ReduceExplosionDamage"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {
+        "explosion_resist": "flat_reduction"
+      }
+    },
+    {
+      "name": "Elementalist",
+      "effect": "Elemental damage effects",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_Elementalist",
+        "mod_Legendary_PowerArmor2_Elementalist"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Fierce",
+      "effect": "Melee damage bonus",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_Fierce"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Rushing",
+      "effect": "Sprint-related bonus",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_Rushing"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Painkiller",
+      "effect": "Chem duration/effect bonus",
+      "star": 2,
+      "omod_names": [
+        "mod_Legendary_Armor2_PainKiller",
+        "mod_Legendary_PowerArmor2_PainKiller"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Weapon Weight Reduction",
+      "effect": "Weapon weights reduced by 20%",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_WeightWeapons",
+        "mod_Legendary_PowerArmor3_WeightWeapons"
+      ],
+      "curve_file": "armor_weightweapons",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 20
+        },
+        {
+          "x": 100,
+          "y": 20
+        }
+      ],
+      "key_values": {
+        "reduction_pct": 20
+      }
+    },
+    {
+      "name": "Ammo Weight Reduction",
+      "effect": "Ammo weights reduced by 20%",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_WeightAmmo",
+        "mod_Legendary_PowerArmor3_WeightAmmo"
+      ],
+      "curve_file": "armor_weightammo",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 20
+        },
+        {
+          "x": 100,
+          "y": 20
+        }
+      ],
+      "key_values": {
+        "reduction_pct": 20
+      }
+    },
+    {
+      "name": "Food/Drink/Chem Weight Reduction",
+      "effect": "Food, drink, and chem weights reduced by 20%",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_WeightFoodDrinkChems",
+        "mod_Legendary_PowerArmor3_WeightFoodDrinkChems"
+      ],
+      "curve_file": "armor_weightfooddrink",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 20
+        },
+        {
+          "x": 100,
+          "y": 20
+        }
+      ],
+      "key_values": {
+        "reduction_pct": 20
+      }
+    },
+    {
+      "name": "Junk Weight Reduction",
+      "effect": "Junk item weights reduced by 20%",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_WeightJunk",
+        "mod_Legendary_PowerArmor3_WeightJunk"
+      ],
+      "curve_file": "armor_weightjunk",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 20
+        },
+        {
+          "x": 100,
+          "y": 20
+        }
+      ],
+      "key_values": {
+        "reduction_pct": 20
+      }
+    },
+    {
+      "name": "Cavalier's",
+      "effect": "Reduces damage while sprinting",
+      "star": 3,
+      "omod_names": [],
+      "curve_file": "armor_cavalier",
+      "curve_data": [
+        {
+          "x": 0.0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0.9
+        },
+        {
+          "x": 2,
+          "y": 0.81
+        },
+        {
+          "x": 3,
+          "y": 0.729
+        },
+        {
+          "x": 4,
+          "y": 0.6561
+        },
+        {
+          "x": 5,
+          "y": 0.59049
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.9,
+          "reduction_pct": 10
+        },
+        "2_pieces": {
+          "multiplier": 0.81,
+          "reduction_pct": 19
+        },
+        "3_pieces": {
+          "multiplier": 0.729,
+          "reduction_pct": 27.1
+        },
+        "4_pieces": {
+          "multiplier": 0.6561,
+          "reduction_pct": 34.39
+        },
+        "5_pieces": {
+          "multiplier": 0.59049,
+          "reduction_pct": 40.95
+        }
+      }
+    },
+    {
+      "name": "Sentinel's",
+      "effect": "Reduces damage while standing still",
+      "star": 3,
+      "omod_names": [],
+      "curve_file": "armor_sentinel",
+      "curve_data": [
+        {
+          "x": 0.0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0.95
+        },
+        {
+          "x": 2,
+          "y": 0.9
+        },
+        {
+          "x": 3,
+          "y": 0.86
+        },
+        {
+          "x": 4,
+          "y": 0.81
+        },
+        {
+          "x": 5,
+          "y": 0.77
+        }
+      ],
+      "key_values": {
+        "1_piece": {
+          "multiplier": 0.95,
+          "reduction_pct": 5
+        },
+        "2_pieces": {
+          "multiplier": 0.9,
+          "reduction_pct": 10
+        },
+        "3_pieces": {
+          "multiplier": 0.86,
+          "reduction_pct": 14
+        },
+        "4_pieces": {
+          "multiplier": 0.81,
+          "reduction_pct": 19
+        },
+        "5_pieces": {
+          "multiplier": 0.77,
+          "reduction_pct": 23
+        }
+      }
+    },
+    {
+      "name": "Less Damage Sprinting",
+      "effect": "Reduces damage while sprinting (different from Cavalier)",
+      "star": 3,
+      "omod_names": [],
+      "curve_file": "armor_lessdamagesprinting",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 5,
+          "y": 0.95
+        },
+        {
+          "x": 10,
+          "y": 0.9025
+        },
+        {
+          "x": 15,
+          "y": 0.8574
+        },
+        {
+          "x": 20,
+          "y": 0.8145
+        },
+        {
+          "x": 25,
+          "y": 0.7737
+        }
+      ],
+      "key_values": {
+        "5_pct": {
+          "multiplier": 0.95,
+          "reduction_pct": 5
+        },
+        "10_pct": {
+          "multiplier": 0.9025,
+          "reduction_pct": 9.75
+        },
+        "25_pct": {
+          "multiplier": 0.7737,
+          "reduction_pct": 22.63
+        }
+      }
+    },
+    {
+      "name": "Less Damage Standing Still",
+      "effect": "Reduces damage while standing still (backing for Sentinel)",
+      "star": 3,
+      "omod_names": [],
+      "curve_file": "armor_lessdamagestandstill",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 5,
+          "y": 0.95
+        },
+        {
+          "x": 10,
+          "y": 0.9025
+        },
+        {
+          "x": 15,
+          "y": 0.8574
+        },
+        {
+          "x": 20,
+          "y": 0.8145
+        },
+        {
+          "x": 25,
+          "y": 0.7737
+        }
+      ],
+      "key_values": {
+        "same_as_sprinting": true
+      }
+    },
+    {
+      "name": "Less Damage Blocking",
+      "effect": "Reduces damage while blocking",
+      "star": 3,
+      "omod_names": [],
+      "curve_file": "armor_lessdamageblocking",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 15,
+          "y": 0.85
+        },
+        {
+          "x": 30,
+          "y": 0.7225
+        },
+        {
+          "x": 45,
+          "y": 0.6141
+        },
+        {
+          "x": 60,
+          "y": 0.522
+        },
+        {
+          "x": 75,
+          "y": 0.4437
+        }
+      ],
+      "key_values": {
+        "15_units": {
+          "multiplier": 0.85,
+          "reduction_pct": 15
+        },
+        "75_units": {
+          "multiplier": 0.4437,
+          "reduction_pct": 55.63
+        }
+      }
+    },
+    {
+      "name": "Durability",
+      "effect": "Armor lasts 50% longer",
+      "star": 3,
+      "omod_names": [],
+      "curve_file": "armor_durability",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 1.5
+        },
+        {
+          "x": 100,
+          "y": 1.5
+        }
+      ],
+      "key_values": {
+        "durability_multiplier": 1.5
+      }
+    },
+    {
+      "name": "Less Fall Damage",
+      "effect": "50% reduced fall damage",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_LessFallDamage"
+      ],
+      "curve_file": "armor_lessfalldamage",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": -50
+        },
+        {
+          "x": 100,
+          "y": -50
+        }
+      ],
+      "key_values": {
+        "reduction": -50
+      }
+    },
+    {
+      "name": "Burning (Damage Attacker)",
+      "effect": "Fire damage to melee attackers",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Burning",
+        "mod_Legendary_PowerArmor3_Burning"
+      ],
+      "curve_file": "armor_burning_dmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 19
+        },
+        {
+          "x": 2,
+          "y": 38
+        },
+        {
+          "x": 3,
+          "y": 56
+        },
+        {
+          "x": 4,
+          "y": 77
+        },
+        {
+          "x": 5,
+          "y": 96
+        },
+        {
+          "x": 6,
+          "y": 115
+        }
+      ],
+      "key_values": {
+        "1_piece": 19,
+        "2_pieces": 38,
+        "3_pieces": 56,
+        "4_pieces": 77,
+        "5_pieces": 96,
+        "6_pieces": 115
+      }
+    },
+    {
+      "name": "Electrified (Damage Attacker)",
+      "effect": "Energy damage to melee attackers",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Electrified",
+        "mod_Legendary_PowerArmor3_Electrified"
+      ],
+      "curve_file": "armor_electrified_dmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 18
+        },
+        {
+          "x": 2,
+          "y": 35
+        },
+        {
+          "x": 3,
+          "y": 53
+        },
+        {
+          "x": 4,
+          "y": 70
+        },
+        {
+          "x": 5,
+          "y": 88
+        },
+        {
+          "x": 6,
+          "y": 105
+        }
+      ],
+      "key_values": {
+        "1_piece": 18,
+        "2_pieces": 35,
+        "3_pieces": 53,
+        "5_pieces": 88
+      }
+    },
+    {
+      "name": "Frozen (Damage Attacker)",
+      "effect": "Cryo damage to melee attackers",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Frozen",
+        "mod_Legendary_PowerArmor3_Frozen"
+      ],
+      "curve_file": "armor_frozen_dmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 24
+        },
+        {
+          "x": 3,
+          "y": 36
+        },
+        {
+          "x": 4,
+          "y": 48
+        },
+        {
+          "x": 5,
+          "y": 60
+        },
+        {
+          "x": 6,
+          "y": 72
+        }
+      ],
+      "key_values": {
+        "1_piece": 12,
+        "5_pieces": 60
+      }
+    },
+    {
+      "name": "Toxic (Damage Attacker)",
+      "effect": "Poison damage to melee attackers",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Toxic",
+        "mod_Legendary_PowerArmor3_Toxic"
+      ],
+      "curve_file": "armor_toxic_dmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 12
+        },
+        {
+          "x": 2,
+          "y": 23
+        },
+        {
+          "x": 3,
+          "y": 35
+        },
+        {
+          "x": 4,
+          "y": 47
+        },
+        {
+          "x": 5,
+          "y": 58
+        },
+        {
+          "x": 6,
+          "y": 70
+        }
+      ],
+      "key_values": {
+        "1_piece": 12,
+        "5_pieces": 58
+      }
+    },
+    {
+      "name": "Rads Regen",
+      "effect": "Radiation regeneration",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_RadsRegen",
+        "mod_Legendary_PowerArmor3_RadsRegen"
+      ],
+      "curve_file": "armor_radsregen",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 0.25
+        },
+        {
+          "x": 100,
+          "y": 0.25
+        }
+      ],
+      "key_values": {
+        "regen_rate": 0.25
+      }
+    },
+    {
+      "name": "Defenders",
+      "effect": "Team-oriented defense bonus",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Defenders",
+        "mod_Legendary_PowerArmor3_Defenders"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Healthy",
+      "effect": "Health-related bonus",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Healthy",
+        "mod_Legendary_PowerArmor3_Healthy"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Active",
+      "effect": "Activity-related bonus",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Active",
+        "mod_Legendary_PowerArmor3_Active"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Reflex",
+      "effect": "Reflex/reaction bonus",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_Reflex"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Increase Healing",
+      "effect": "Increased healing received",
+      "star": 3,
+      "omod_names": [
+        "mod_Legendary_Armor3_IncreaseHealing",
+        "mod_Legendary_PowerArmor3_IncreaseHealing"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Aegis",
+      "effect": "Incoming damage reduction scales per piece count",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_PowerArmor4_Aegis"
+      ],
+      "curve_file": "armor_aegis_modincomingdmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 20
+        },
+        {
+          "x": 2,
+          "y": 40
+        },
+        {
+          "x": 3,
+          "y": 60
+        },
+        {
+          "x": 4,
+          "y": 80
+        },
+        {
+          "x": 5,
+          "y": 100
+        }
+      ],
+      "key_values": {
+        "1_piece": 20,
+        "2_pieces": 40,
+        "3_pieces": 60,
+        "4_pieces": 80,
+        "5_pieces": 100
+      }
+    },
+    {
+      "name": "Tanky",
+      "effect": "Massive incoming damage modification",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_Armor4_Tanky",
+        "mod_Legendary_PowerArmor4_Tanky"
+      ],
+      "curve_file": "armor_tanky_modincomingdmg",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 200
+        },
+        {
+          "x": 2,
+          "y": 400
+        },
+        {
+          "x": 3,
+          "y": 600
+        },
+        {
+          "x": 4,
+          "y": 800
+        },
+        {
+          "x": 5,
+          "y": 1000
+        }
+      ],
+      "key_values": {
+        "1_piece": 200,
+        "2_pieces": 400,
+        "3_pieces": 600,
+        "4_pieces": 800,
+        "5_pieces": 1000
+      }
+    },
+    {
+      "name": "Stalwart's",
+      "effect": "Condition-based DR buff",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_PowerArmor4_Stalwarts"
+      ],
+      "curve_file": "armor_stalwarts_conditionbuff",
+      "curve_data": [
+        {
+          "x": 1,
+          "y": 5
+        },
+        {
+          "x": 2,
+          "y": 10
+        },
+        {
+          "x": 3,
+          "y": 15
+        },
+        {
+          "x": 4,
+          "y": 20
+        },
+        {
+          "x": 5,
+          "y": 25
+        }
+      ],
+      "key_values": {
+        "1_piece": 5,
+        "2_pieces": 10,
+        "3_pieces": 15,
+        "4_pieces": 20,
+        "5_pieces": 25
+      }
+    },
+    {
+      "name": "Rejuvenator's",
+      "effect": "Regeneration scaling per team member count",
+      "star": 4,
+      "omod_names": [
+        "mod_Legendary_PowerArmor4_Rejuvenators"
+      ],
+      "curve_file": null,
+      "curve_data": {
+        "tier1": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 4
+          },
+          {
+            "x": 5,
+            "y": 5
+          }
+        ],
+        "tier2": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 4
+          },
+          {
+            "x": 3,
+            "y": 6
+          },
+          {
+            "x": 4,
+            "y": 8
+          },
+          {
+            "x": 5,
+            "y": 10
+          }
+        ],
+        "tier3": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 6
+          },
+          {
+            "x": 3,
+            "y": 9
+          },
+          {
+            "x": 4,
+            "y": 12
+          },
+          {
+            "x": 5,
+            "y": 15
+          }
+        ],
+        "tier4": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 4
+          },
+          {
+            "x": 2,
+            "y": 8
+          },
+          {
+            "x": 3,
+            "y": 12
+          },
+          {
+            "x": 4,
+            "y": 16
+          },
+          {
+            "x": 5,
+            "y": 20
+          }
+        ],
+        "tier5": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 6
+          },
+          {
+            "x": 2,
+            "y": 12
+          },
+          {
+            "x": 3,
+            "y": 18
+          },
+          {
+            "x": 4,
+            "y": 24
+          },
+          {
+            "x": 5,
+            "y": 30
+          }
+        ]
+      },
+      "key_values": {
+        "tier1_per_piece": 1,
+        "tier2_per_piece": 2,
+        "tier3_per_piece": 3,
+        "tier4_per_piece": 4,
+        "tier5_per_piece": 6,
+        "tier5_max": 30
+      }
+    },
+    {
+      "name": "Sane",
+      "effect": "Sanity/clarity damage bonus scaling",
+      "star": 4,
+      "omod_names": [],
+      "curve_file": "armor_sane",
+      "curve_data": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 2,
+          "y": 2
+        },
+        {
+          "x": 3,
+          "y": 3
+        },
+        {
+          "x": 4,
+          "y": 4
+        },
+        {
+          "x": 5,
+          "y": 4
+        },
+        {
+          "x": 6,
+          "y": 5
+        },
+        {
+          "x": 7,
+          "y": 5
+        },
+        {
+          "x": 8,
+          "y": 6
+        }
+      ],
+      "key_values": {
+        "0_stacks": 0,
+        "4_stacks": 4,
+        "5_stacks": 4,
+        "6_stacks": 5,
+        "8_stacks": 6
+      }
+    },
+    {
+      "name": "Other 4-Star Armor",
+      "effect": "",
+      "star": "4star",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Weight (3-star armor)",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Low Health Increases Stats (PA)",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Weightless PA",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Resistances via Carry Weight",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [
+        "zzz_mod_Legendary_Armor1_ResistancesProportionalCarryWeight",
+        "zzz_mod_Legendary_PowerArmor1_ResistancesProportionalCarryWeight"
+      ],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Damage via Carry Weight (weapon)",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Ammo Capacity 2x",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Radiation Damage (weapon)",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "Various 4-star disabled",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    },
+    {
+      "name": "DEL (Deleted) 4-star",
+      "effect": "",
+      "star": "disabled_zzz",
+      "omod_names": [],
+      "curve_file": null,
+      "curve_data": null,
+      "key_values": {}
+    }
+  ]
+}
