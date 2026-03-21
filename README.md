@@ -152,6 +152,6 @@ Fallout 76 is a trademark of Bethesda Softworks LLC. This project is not affilia
 
 ## License
 
-The data and research in this repository are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Share and adapt for any purpose with credit.
+The extracted game data remains the property of Bethesda Softworks LLC. This repository documents factual information about the game's internal structure for research, modding, and community reference under fair use.
 
-The site code (index.html) is released under MIT.
+The site code (index.html) and analysis tools/scripts are released under MIT.
