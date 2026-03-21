@@ -1,0 +1,383 @@
+{
+  "analysis_date": "2026-03-21",
+  "source_files": {
+    "materials_ba2": "SeventySix - Materials.ba2",
+    "shaders_ba2": "SeventySix - Shaders.ba2"
+  },
+
+  "materials_summary": {
+    "total_bgsm_files": 25272,
+    "total_bgem_files": 3909,
+    "total_materials": 29181,
+    "categories_by_count": {
+      "atx_atom_shop": 10214,
+      "setdressing": 4577,
+      "actors": 2149,
+      "interiors": 1436,
+      "effects": 1320,
+      "weapons": 1262,
+      "architecture": 1223,
+      "props": 1174,
+      "landscape": 936,
+      "clothes": 643,
+      "dlc04_nuka_world": 607,
+      "vehicles": 530,
+      "babylon_the_backwoods_content": 442,
+      "dlc03": 381,
+      "dlc02": 341,
+      "armor": 293,
+      "lod": 278,
+      "decals": 226,
+      "dlc01": 183,
+      "dlc05": 160,
+      "interface": 138,
+      "furniture": 130,
+      "bluemoon": 121,
+      "dlc06_vault_content": 80,
+      "test": 44,
+      "shared": 42,
+      "sky": 31,
+      "animobjects": 28,
+      "backpacks": 27,
+      "ammo": 27,
+      "template": 22,
+      "traps": 22,
+      "workshop": 10,
+      "other_misc": 25
+    }
+  },
+
+  "debug_test_materials": {
+    "total_count": 90,
+    "genuine_debug_materials": {
+      "count": 16,
+      "files": [
+        "effects/debug/debug_blue.bgem",
+        "effects/debug/debug_red.bgem",
+        "interiors/shelters/debug/debug_coloredsizes/debug_ceilingdetailhigh.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_ceilingdetaillow.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_ceilingtiling.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_coloredsizes_trim.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_floordetailhigh.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_floordetaillow.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_floortiling.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_greeblepipes.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_greeblepipes02.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_walldetailhigh.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_walldetaillow.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_walltiling.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_walltiling02.bgsm",
+        "interiors/shelters/debug/debug_coloredsizes/debug_walltiling03.bgsm"
+      ],
+      "notes": "Shelter system debug materials for testing tile sizes and detail levels. Color-coded size visualization tools left in shipping BA2."
+    },
+    "test_materials": {
+      "count": 52,
+      "categories": {
+        "pbr_test_suite": {
+          "count": 40,
+          "path": "test/pbrmaterials/testpbrmat_01.bgsm through testpbrmat_40.bgsm",
+          "notes": "Complete PBR material test suite with 40 samples. Suggests extensive physically-based rendering pipeline development/testing."
+        },
+        "distortion_tests": {
+          "count": 3,
+          "files": [
+            "effects/test_distortion_mesh.bgem",
+            "effects/test_distortion_meshbgsm.bgsm",
+            "effects/test_distortion_particles.bgem"
+          ]
+        },
+        "glass_tests": {
+          "count": 3,
+          "files": [
+            "effects/test_glass_new_01.bgem",
+            "effects/test_glass_new_04.bgem",
+            "effects/test_glass_new_particledistortion_01.bgem"
+          ]
+        },
+        "fx_working_examples": {
+          "count": 2,
+          "files": [
+            "effects/workingexample/testfxlinked.bgem",
+            "effects/workingexample/testfxlinked2.bgem"
+          ],
+          "notes": "Dev tutorial/reference materials left in build."
+        },
+        "other_test_files": [
+          "test/tempartshader01.bgsm",
+          "test/testpbr01.bgsm",
+          "test/testtemplate01.bgsm",
+          "test/testtemplate01glow.bgsm",
+          "effects/pbrgreysmoketest.bgem",
+          "effects/test_billboards.bgem",
+          "props/test_spheres/test_spheres.bgsm",
+          "lod/architecture/testsimplygonhouse01.bgsm",
+          "lod/architecture/testsimplygonhouse02.bgsm",
+          "actors/createabot/protectronarmordometest.bgsm",
+          "actors/mechtest/mechtest.bgsm",
+          "setdressing/cluttergeneric/cluttergensmallaatest.bgsm",
+          "atx/armor/atx_libertyprime/pa_frame_rendertest.bgsm",
+          "atx/setdressing/atx_pts_pennant/atx_pts_pennant_testmetal.bgsm"
+        ]
+      }
+    },
+    "temp_placeholder_materials": {
+      "count": 9,
+      "files": [
+        "architecture/tempdelete.bgsm",
+        "dlc04/lod/temp01lod.bgsm",
+        "effects/templamp.bgsm",
+        "effects/tempscorched.bgsm",
+        "interiors/missilesilo/missilesilotemp.bgsm",
+        "landscape/ground/temp_groundtexture01.bgsm",
+        "landscape/ground/temp_groundtexture01decal.bgsm",
+        "setdressing/chargen/chargentemp01.bgsm",
+        "babylon/babylon_placeholder.bgsm"
+      ],
+      "notes": "tempdelete.bgsm is a file literally named for deletion that was never removed. babylon_placeholder suggests the Babylon update was scaffolded early."
+    },
+    "prototype_materials": {
+      "count": 13,
+      "files": [
+        "actors/fisherman/fishermanheadproto01.bgsm",
+        "actors/powerarmor/x01protoarm.bgsm",
+        "actors/powerarmor/x01protohelmet.bgsm",
+        "actors/powerarmor/x01protoleg.bgsm",
+        "actors/powerarmor/x01prototorso.bgsm",
+        "armor/hazmatsuit/hazmatsuitprototype.bgsm",
+        "armor/hazmatsuit/hazmatsuitprototypegloves.bgsm",
+        "armor/hazmatsuit/hazmatsuitprototypehelmet.bgsm",
+        "setdressing/computerconsolekit/computerconsolepanels01_prototype.bgsm",
+        "weapons/meltdown/protobar.bgsm",
+        "atx/actors/powerarmor/ultracite_prototype/atx_ultracite_prototype_arm.bgsm",
+        "atx/actors/powerarmor/ultracite_prototype/atx_ultracite_prototype_body.bgsm",
+        "atx/actors/powerarmor/ultracite_prototype/atx_ultracite_prototype_frame.bgsm",
+        "atx/actors/powerarmor/ultracite_prototype/atx_ultracite_prototype_helmet.bgsm",
+        "atx/actors/powerarmor/ultracite_prototype/atx_ultracite_prototype_leg.bgsm"
+      ],
+      "notes": "X-01 Proto and Hazmat Prototype are in-game items. fishermanheadproto01 and protobar (Meltdown weapon) are more interesting - early-stage assets."
+    }
+  },
+
+  "unreleased_and_dlc_content": {
+    "babylon_codename": {
+      "material_count": 442,
+      "description": "Large content block under 'babylon/' prefix. Includes Hellfire Power Armor, extensive PA skin variants (camoblue, camoforest, camotan, etc.), chargen kiosk materials, log trophies for 'survivors 2020' event, and a placeholder material. This is confirmed content from The Backwoods/Milepost Zero updates.",
+      "notable_items": [
+        "Hellfire Power Armor (full set: arm, body, helmet, leg)",
+        "Multiple PA camo skin sets across all PA types (Excavator, T-45, T-51, T-60, Ultracite)",
+        "Chargen kiosk for Babylon location",
+        "babylon_placeholder.bgsm (scaffolded content marker)",
+        "Log trophies with 'survivors2020' suffix"
+      ]
+    },
+    "bluemoon_codename": {
+      "material_count": 121,
+      "description": "Content under 'bluemoon/' prefix. Contains weapon materials for 'moon_pump' (pump-action weapon variants) and 'tgunrattattat' (automatic weapon). These appear to be weapons potentially associated with a Blue Moon themed update or event.",
+      "notable_items": [
+        "moon_pump weapon with multiple variants (wood stock, tech stock, rubber stock, bird stock, silencers, reflex sight, receivers, ghost ring sights, compensators)",
+        "tgunrattattat weapon (receiver, muzzle, grip, drum mag, barrel variants)"
+      ]
+    },
+    "dlc06_vault_content": {
+      "material_count": 80,
+      "description": "Vault-themed DLC content including Vault 88-style items. Features gym equipment, medical/optical equipment, entertainment, and construction signage.",
+      "notable_items": [
+        "Vault Boy/Girl statues",
+        "Vault workbench",
+        "Vault suit package 88",
+        "Phoropter (eye exam device)",
+        "Pommel horse, stationary bike, weight bench",
+        "Slot machine, jukebox",
+        "Vault construction signs, safety posters, navigation signs"
+      ]
+    },
+    "storm_skyline_valley": {
+      "material_count": 362,
+      "description": "Skyline Valley update content (codenamed 'storm'). Includes Storm Cutter weapon, lightning harvester set pieces, Vault 63 door, boss fabricator, snow globes, communist totem pole, Mole the Moe cutout, and manor interiors."
+    },
+    "burn_backwoods": {
+      "material_count": 396,
+      "description": "The Backwoods update content (codenamed 'burn'). Includes Burning Springs vehicle variants with patina finishes, dino mascot cutout, healing spear, Abraxo Cryolator skin, chemical waste train car, and dinosaur golf jeep."
+    }
+  },
+
+  "interesting_findings": {
+    "fisherman_actor": "actors/fisherman/fishermanheadproto01.bgsm - Early prototype for a Fisherman NPC or creature, only the head proto remains.",
+    "mechtest": "actors/mechtest/mechtest.bgsm - Mech test actor material, possibly early robot/PA prototype.",
+    "simplygon_lod": "lod/architecture/testsimplygonhouse01/02.bgsm - References to Simplygon LOD generation middleware (now owned by Microsoft). Shows the LOD pipeline tooling.",
+    "tempdelete": "architecture/tempdelete.bgsm - A file literally named 'temp delete' that was never deleted from the shipping build.",
+    "render_test_pa": "atx/armor/atx_libertyprime/pa_frame_rendertest.bgsm - Render test material accidentally shipped with Liberty Prime PA skin.",
+    "fx_working_examples": "effects/workingexample/ - Dev tutorial directory with linked FX test materials, left in production build.",
+    "pbr_test_suite": "test/pbrmaterials/ - 40-material PBR test suite suggests significant investment in physically-based rendering improvements.",
+    "template_materials": "template/ directory with 22 base material templates (asphalt, brick, cloth, metal, rock, rubber, wood + wet variants) - artist reference palette.",
+    "typo_condensation": "atx_vaulttecprotopurifier_condenstaion.bgem - Typo: 'condenstaion' instead of 'condensation'.",
+    "typo_devlilish": "atx_t51helmet_devlilish.bgsm - Typo: 'devlilish' instead of 'devilish'."
+  },
+
+  "shaders_summary": {
+    "file_count": 1,
+    "file_name": "shadersfx/shaders012.fxp",
+    "file_size_bytes": 27878706,
+    "file_size_mb": 26.6,
+    "format": "Compiled DirectX shader package (DXBC bytecode blobs in FXP container)",
+    "dxbc_shader_blobs": 3412,
+    "shader_programs": {
+      "image_space_shaders": {
+        "count": 61,
+        "programs": [
+          "ISApplyVolumetricLighting",
+          "ISBlur",
+          "ISBlurCS",
+          "ISClearGBuffer",
+          "ISClearSubRegionCS",
+          "ISCopy",
+          "ISCopyBuffersCS",
+          "ISCopyCubemapFace",
+          "ISCopyInstanceBuffersCS",
+          "ISCopySubRegionCS",
+          "ISCopyUpsample",
+          "ISDepthOfField",
+          "ISDilate",
+          "ISDisplayMapping",
+          "ISDOFAverageDepthCS",
+          "ISDOFBlur",
+          "ISDOFComposite",
+          "ISDOFDownsample",
+          "ISDOFTAA",
+          "ISDoubleVision",
+          "ISDownsample",
+          "ISDownsampleCS",
+          "ISDownsampleDepth",
+          "ISFullScreenColor",
+          "ISFXAA",
+          "ISGamma",
+          "ISGenerateBoundingSphereCS",
+          "ISHistogramClearCS",
+          "ISHistogramGenerateCS",
+          "ISHistogramReadCS",
+          "ISHistogramVisualize",
+          "ISHistogramVisualizeIgnored",
+          "ISIBLensFlare",
+          "ISMergeVLandLensFlareAdditive",
+          "ISModMenu",
+          "ISModMenuGlow",
+          "ISMotionBlur",
+          "ISOffscreenComposite",
+          "ISOverdraw",
+          "ISPerlinNoiseCS",
+          "ISPipboyScreen",
+          "ISRadialBlur",
+          "ISReconstructHDRSignal",
+          "ISReflectionsDownsample",
+          "ISReflectionsRayTracing",
+          "ISRefraction",
+          "ISReorderInstanceBuffersCS",
+          "ISSAOBlurCS",
+          "ISSAOCameraZAndMipsCS",
+          "ISSAORawAOCS",
+          "ISShadowAtlasDebug",
+          "ISSkyVisForceValue_Fade_Min_Max",
+          "ISSSLRBlur",
+          "ISTemporalAA",
+          "ISUnpackGBufferMotionVectors",
+          "ISVatsTarget",
+          "ISVisualizeBuffer",
+          "ISVolumetricLightingGenerateCS",
+          "ISVolumetricLightingRaymarchCS",
+          "ISWaterDisplacement",
+          "ISWaterFlow"
+        ]
+      },
+      "deferred_rendering_shaders": {
+        "count": 7,
+        "programs": [
+          "DFComposite",
+          "DFDecalsCS",
+          "DFLight",
+          "DFPrePass",
+          "DFTLCulling",
+          "DFTLDepthRange",
+          "DFTLLighting"
+        ]
+      },
+      "compute_shaders": {
+        "count": 10,
+        "programs": [
+          "ClusterOperationsCS",
+          "CombineGeometryCS",
+          "DismemberCS",
+          "IndexBufferOffsetCS",
+          "MergeInstancingCS",
+          "MeshCombinerCompute",
+          "ProcessLowProbesInVoxelsCS",
+          "SkinnedDecalCS",
+          "VertexBufferCopyCS",
+          "ClusterPrepass"
+        ]
+      },
+      "other_named_shaders": [
+        "SimpleVS",
+        "BloodSplatter",
+        "EnlightenCubemapRender"
+      ]
+    },
+    "rendering_features_detected": {
+      "deferred_rendering": "Full deferred pipeline: DFPrePass, DFLight, DFComposite, DFTLCulling/Lighting (tiled/clustered lighting)",
+      "volumetric_lighting": "ISVolumetricLightingGenerateCS + ISVolumetricLightingRaymarchCS - compute-based volumetric light/fog system",
+      "screen_space_reflections": "ISReflectionsRayTracing + ISReflectionsDownsample + ISSSLRBlur (screen-space local reflections)",
+      "screen_space_ao": "ISSAORawAOCS + ISSAOCameraZAndMipsCS + ISSAOBlurCS - compute-based SSAO pipeline",
+      "temporal_aa": "ISTemporalAA + ISDOFTAA - temporal anti-aliasing with DOF integration",
+      "fxaa": "ISFXAA - fallback fast approximate anti-aliasing",
+      "depth_of_field": "Full DOF pipeline: ISDepthOfField, ISDOFBlur, ISDOFComposite, ISDOFDownsample, ISDOFAverageDepthCS",
+      "motion_blur": "ISMotionBlur + ISUnpackGBufferMotionVectors",
+      "hdr_pipeline": "ISReconstructHDRSignal + ISHistogram* + ISDisplayMapping + DoGamma + DoGammaTo2020 + DoOETF",
+      "hdr_2020_colorspace": "DoGammaTo2020 suggests BT.2020/HDR10 wide color gamut support",
+      "lens_flare": "ISIBLensFlare + ISMergeVLandLensFlareAdditive",
+      "enlighten_gi": "EnlightenParams, EnlightenCubemapRender, EnlightenSkyCubemapScale, EnlightenHandPlacedCubemapsAttenuation, EnlightenFadeParams, EnlightenGPUVisibility - full Enlighten GI middleware integration",
+      "light_probes": "LightProbe, LightProbeAdjustParams, LightProbeFallbackColor, LightProbeNormalAdjust, ProcessLowProbesInVoxelsCS",
+      "voxel_based_probes": "ProcessLowProbesInVoxelsCS + MinVoxelCorner + VoxelSpaceDimensions - voxel-based light probe system",
+      "clustered_lighting": "ClusterOperationsCS + ClusterPrepass + ClusterInfos - GPU-driven clustered forward+ lighting",
+      "mesh_gpu_instancing": "MergeInstancingCS + CombineGeometryCS + MeshCombinerCompute - GPU-driven mesh batching/instancing",
+      "dismemberment_system": "DismemberCS + DismemberHitLoc + DismemberTransform/Normal/Tangent/Binormal - compute-based gore/dismemberment",
+      "skinned_decals": "SkinnedDecalCS - compute shader for decals on animated meshes",
+      "workshop_occlusion": "TopDownCameraClip_WorkshopOcclusionParams + WorkshopOcclusionMapProj - top-down camera system for CAMP building",
+      "pipboy_rendering": "ISPipboyScreen - dedicated Pip-Boy screen rendering shader",
+      "cinematic_mode": "Cinematic parameter detected - possible cinematic camera/rendering mode",
+      "water_system": "ISWaterDisplacement + ISWaterFlow - procedural water displacement and flow mapping",
+      "perlin_noise": "ISPerlinNoiseCS - compute-based procedural noise generation"
+    },
+    "debug_dev_shaders": {
+      "shadow_atlas_debug": "ISShadowAtlasDebug - shadow map atlas visualization (dev tool left in build)",
+      "overdraw_visualization": "ISOverdraw - overdraw debugging shader for performance analysis",
+      "histogram_visualize": "ISHistogramVisualize + ISHistogramVisualizeIgnored - exposure histogram debug display",
+      "visualize_buffer": "ISVisualizeBuffer - GBuffer visualization debug tool",
+      "enlighten_debug": "EnlightenDebugParams - Enlighten GI debug parameters",
+      "mod_menu_shaders": "ISModMenu + ISModMenuGlow - mod menu overlay rendering (interesting: suggests built-in mod support at shader level)",
+      "sky_vis_debug": "ISSkyVisForceValue_Fade_Min_Max - sky visibility debug override"
+    },
+    "notable_absent_features": {
+      "ray_tracing": "ISReflectionsRayTracing is screen-space ray tracing (not hardware RT). No DXR/RT shader stages detected.",
+      "mesh_shaders": "No mesh shader or amplification shader references found (no DX12 Ultimate features).",
+      "variable_rate_shading": "No VRS references detected."
+    }
+  },
+
+  "key_takeaways": [
+    "29,181 total material files (25,272 BGSM + 3,909 BGEM), with 35% being Atom Shop (ATX) content",
+    "90+ dev/test/debug materials shipped in production build, including a complete 40-material PBR test suite",
+    "16 debug shelter materials in a dedicated debug/ directory for testing tile sizes",
+    "tempdelete.bgsm is literally a file marked for deletion that was never cleaned up",
+    "Babylon codename maps to post-Backwoods content (Hellfire PA, extensive PA camo skins, new chargen)",
+    "BlueMoon codename contains 2 unreleased weapons: moon_pump (shotgun variants) and tgunrattattat (auto weapon)",
+    "DLC06 contains Vault-themed content (Vault 88 suit package, gym equipment, medical equipment)",
+    "Shader package contains 3,412 compiled DXBC blobs in a single FXP container",
+    "5 debug/visualization shaders shipped: shadow atlas debug, overdraw, histogram viz, buffer viz, Enlighten debug",
+    "Full Enlighten GI middleware integration (Geomerics/ARM) with GPU visibility, cubemap rendering, and probe systems",
+    "Voxel-based light probe system (ProcessLowProbesInVoxelsCS) - more advanced than typical probe placement",
+    "HDR pipeline includes BT.2020 color space support (DoGammaTo2020 + DoOETF) for HDR10 displays",
+    "ISReflectionsRayTracing is screen-space, NOT hardware ray tracing - no DXR support in the engine",
+    "ISModMenu shader suggests shader-level mod menu support was designed into the engine",
+    "GPU-driven rendering pipeline: clustered lighting, compute instancing, mesh combining - quite modern for Creation Engine"
+  ]
+}
