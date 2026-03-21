@@ -817,1369 +817,1521 @@
       "file": "dlc01robotcompanionbleepa/0000b1e3_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1e3",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.44,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e3_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e3_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1e4_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1e4",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.09,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e4_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e4_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1e5_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1e5",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.88,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e5_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e5_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1e6_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1e6",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.98,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e6_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e6_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1e7_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1e7",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.07,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e7_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e7_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1e8_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1e8",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.37,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e8_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e8_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1e9_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1e9",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.07,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e9_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1e9_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1ea_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1ea",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1ea_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1ea_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1eb_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1eb",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1eb_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1eb_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1ec_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1ec",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 3.58,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1ec_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1ec_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0000b1ed_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0000b1ed",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.65,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1ed_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0000b1ed_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010768_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010768",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010768_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010768_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010769_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010769",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.58,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010769_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010769_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001076a_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001076a",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.23,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076a_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076a_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001076b_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001076b",
-      "transcript": "BEEP BEEP BEEP BEEP",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.18,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076b_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076b_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001076c_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001076c",
-      "transcript": "That's it.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.25,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076c_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076c_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001076d_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001076d",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076d_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076d_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001076e_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001076e",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.88,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076e_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076e_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001076f_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001076f",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.98,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076f_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001076f_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010770_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010770",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010770_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010770_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010771_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010771",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010771_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010771_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010772_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010772",
-      "transcript": "I'll see you next time.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.41,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010772_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010772_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010773_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010773",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.04,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010773_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010773_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010774_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010774",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010774_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010774_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010775_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010775",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.07,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010775_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010775_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010776_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010776",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.21,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010776_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010776_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010777_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010777",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010777_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010777_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010778_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010778",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.44,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010778_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010778_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/00010779_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "00010779",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.39,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010779_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/00010779_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001077a_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001077a",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 3.25,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077a_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077a_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001077b_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001077b",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 3.34,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077b_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077b_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001077c_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001077c",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.7,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077c_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077c_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepa/0001077d_1.wav",
       "voice_type": "dlc01robotcompanionbleepa",
       "form_id": "0001077d",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.74,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077d_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepa/0001077d_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f76e_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f76e",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f76e_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f76e_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f76f_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f76f",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.0,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f76f_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f76f_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f770_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f770",
-      "transcript": "I don't know what to do.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.49,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f770_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f770_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f771_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f771",
-      "transcript": "A-HOP!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f771_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f771_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f772_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f772",
-      "transcript": "AHHHH!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.04,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f772_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f772_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f773_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f773",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.53,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f773_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f773_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f774_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f774",
-      "transcript": "B-B-B-B-B",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.95,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f774_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f774_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f775_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f775",
-      "transcript": "I'm sorry, I'm sorry, I'm sorry.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.39,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f775_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f775_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f776_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f776",
-      "transcript": "THIS IS SO GREAT!!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.76,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f776_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f776_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f777_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f777",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 3.58,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f777_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f777_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0000f778_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0000f778",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.35,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f778_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0000f778_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001077e_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001077e",
-      "transcript": "So",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.86,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001077e_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001077e_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001077f_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001077f",
-      "transcript": "B-b-b-b-b-b-b-b-b-b-b-b.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001077f_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001077f_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010780_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010780",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.58,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010780_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010780_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010781_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010781",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.53,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010781_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010781_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010782_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010782",
-      "transcript": "Blah, blah, blah, blah, blah, blah, blah",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.25,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010782_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010782_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010783_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010783",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.72,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010783_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010783_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010784_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010784",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.44,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010784_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010784_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010785_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010785",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.16,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010785_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010785_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010786_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010786",
-      "transcript": "AHHHHH",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.28,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010786_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010786_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010787_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010787",
-      "transcript": "I'M GONNA GO!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.37,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010787_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010787_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010788_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010788",
-      "transcript": "I",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.04,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010788_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010788_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010789_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010789",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010789_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010789_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001078a_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001078a",
-      "transcript": "Shhh!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.49,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078a_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078a_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001078b_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001078b",
-      "transcript": "I'm sorry, I'm sorry.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078b_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078b_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001078c_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001078c",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078c_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078c_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001078d_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001078d",
-      "transcript": "I",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.98,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078d_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078d_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001078e_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001078e",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.72,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078e_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078e_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/0001078f_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "0001078f",
-      "transcript": "N-N-N-N-N",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.76,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078f_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/0001078f_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010790_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010790",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 3.25,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010790_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010790_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010791_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010791",
-      "transcript": "MAMAMAMAMAMU",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 3.9,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010791_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010791_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010792_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010792",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010792_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010792_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepb/00010793_1.wav",
       "voice_type": "dlc01robotcompanionbleepb",
       "form_id": "00010793",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.53,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010793_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepb/00010793_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f77a_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f77a",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.67,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77a_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77a_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f77b_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f77b",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.9,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77b_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77b_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f77c_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f77c",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.74,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77c_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77c_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f77d_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f77d",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77d_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77d_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f77e_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f77e",
-      "transcript": "I'll see you next time!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77e_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77e_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f77f_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f77f",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.23,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77f_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f77f_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f780_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f780",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.79,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f780_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f780_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f781_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f781",
-      "transcript": "Bye bye.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f781_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f781_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f782_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f782",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f782_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f782_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f783_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f783",
-      "transcript": "PLEASE LIKE, COMMENT, SHARE, and SUBSCRIBE!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.69,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f783_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f783_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0000f784_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0000f784",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f784_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0000f784_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/00010794_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "00010794",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.76,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010794_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010794_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/00010795_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "00010795",
-      "transcript": "I'm sorry, I'm sorry.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.58,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010795_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010795_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/00010796_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "00010796",
-      "transcript": "So",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.86,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010796_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010796_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/00010797_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "00010797",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.72,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010797_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010797_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/00010798_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "00010798",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.39,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010798_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010798_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/00010799_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "00010799",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.25,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010799_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/00010799_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0001079a_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0001079a",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.44,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079a_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079a_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0001079b_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0001079b",
-      "transcript": ". . . . . .",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.35,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079b_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079b_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0001079c_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0001079c",
-      "transcript": "Uh-uh.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079c_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079c_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0001079d_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0001079d",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.67,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079d_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079d_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0001079e_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0001079e",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.23,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079e_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079e_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/0001079f_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "0001079f",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.6,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079f_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/0001079f_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a0_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a0",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.84,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a0_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a0_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a1_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a1",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.7,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a1_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a1_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a2_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a2",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a2_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a2_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a3_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a3",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a3_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a3_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a4_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a4",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.81,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a4_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a4_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a5_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a5",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.67,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a5_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a5_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a6_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a6",
-      "transcript": "I",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.79,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a6_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a6_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a7_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a7",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.28,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a7_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a7_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a8_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a8",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.98,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a8_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a8_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/000107a9_1.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "000107a9",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.98,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a9_1.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/000107a9_1.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepca_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.76,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepca_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Buh-buh-buh!",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepca_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "I'm sorry, I'm sorry.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.58,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepca_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepca_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.67,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepca_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.86,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Let's get started.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.72,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "N-N-N-N-N.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.67,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.58,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.9,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcb_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.39,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.39,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.25,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.74,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcc_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.25,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.44,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.35,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcd_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepce_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.23,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepce_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": ". . . .",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 3.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepce_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.09,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepce_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": ".",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.6,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepce_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.23,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepce_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.21,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "I'm sorry, I'm sorry, I'm sorry.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.35,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Uh-uh.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.67,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "I'm sorry.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcf_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Bye bye.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.07,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "I'll see you in the next video.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.11,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcg_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepch_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.63,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepch_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.32,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepch_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "F-f-f-f-f-f",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.49,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepch_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "N-N-N-N-N-N",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.3,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepch_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.44,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepch_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepci_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "We'll see you in the next video.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.09,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepci_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.18,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepci_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "This is the end of the video.",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.6,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepci_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.04,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepci_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "Oh",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 2.46,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepci_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.84,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.7,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.7,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_04.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.79,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_04.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_04.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_05.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.74,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_05.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepcj_05.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepck_01.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "You",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.98,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepck_01.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepck_01.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepck_02.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 0.98,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepck_02.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepck_02.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "dlc01robotcompanionbleepc/voc_robotcompanionbleepck_03.wav",
       "voice_type": "dlc01robotcompanionbleepc",
       "form_id": "voc",
-      "transcript": "",
+      "transcript": "[ROBOT BEEPS/BLEEPS \u2014 no speech content]",
       "duration": 1.02,
       "language_prob": 1,
-      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepck_03.fuz"
+      "ba2_path": "sound/voice/seventysix.esm/dlc01robotcompanionbleepc/voc_robotcompanionbleepck_03.fuz",
+      "whisper_hallucination": true
     },
     {
       "file": "femalechild/00017ac2_1.wav",

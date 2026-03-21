@@ -1703,17 +1703,19 @@ function renderOrphanedVoiceCard(item) {
         '<span class="expand-indicator">&#9654;</span>' +
       '</div>' +
     '</div>';
-  var transcript = d.transcript || 'No transcript available';
-  var summary = '<div class="card-summary" style="color:var(--text-dim);font-style:italic">"' + esc(transcript.substring(0, 120)) + (transcript.length > 120 ? '...' : '') + '"</div>';
+  var totalLines = d.total_lines || 0;
+  var transcripts = d.transcripts || [];
+  var previewLines = transcripts.slice(0, 3).map(function(t) { return t.transcript; }).filter(Boolean);
+  var previewText = previewLines.length > 0 ? previewLines.join(' / ') : 'No transcripts available';
+  var summary = '<div class="card-summary" style="color:var(--text-dim);font-style:italic">' +
+    esc(previewText.substring(0, 150)) + (previewText.length > 150 ? '...' : '') +
+    '</div>';
   var details = '<div class="card-details-inner">' +
     '<div class="detail-grid">' +
+    detailItem('NPC', d.npc_name) +
     detailItem('Voice Type', d.voice_type) +
-    detailItem('Form ID', d.form_id) +
-    detailItem('Duration', d.duration ? d.duration + 's' : null) +
-    detailItem('BA2 Path', d.ba2_path) +
-    detailItem('Status', d.text_in_strings ? 'Text exists in strings, INFO record removed' : 'No INFO record — audio only') +
+    detailItem('Total Lines', totalLines) +
     '</div>' +
-    (transcript ? '<div style="margin-top:0.8rem"><span class="detail-label" style="color:var(--cyan)">transcript</span><p style="color:var(--text-dim);margin-top:0.3rem;font-style:italic">"' + esc(transcript) + '"</p></div>' : '') +
   '</div>';
   return { header: header, details: details, summary: summary };
 }
@@ -2467,25 +2469,46 @@ function buildProfileContent(item) {
       if (d.voice_type) {
         html += '<span class="badge" style="color:var(--cyan);border-color:var(--cyan);margin-bottom:0.6rem;display:inline-block">' + esc(d.voice_type) + '</span> ';
       }
-      if (d.transcript) {
-        html += '<div class="profile-section">';
-        html += '<div class="profile-section-title" style="color:var(--cyan)">transcript</div>';
-        html += '<p style="color:var(--white);font-style:italic;font-size:1.1rem">"' + esc(d.transcript) + '"</p>';
-        html += '</div>';
+      if (item.description) {
+        html += '<p style="color:var(--text-dim);margin:0.6rem 0">' + esc(item.description) + '</p>';
       }
       html += '<div class="profile-section">';
-      html += '<div class="profile-section-title">file details</div>';
+      html += '<div class="profile-section-title">npc details</div>';
       html += '<div class="detail-grid">';
+      html += detailItem('NPC Name', d.npc_name);
       html += detailItem('Voice Type', d.voice_type);
-      html += detailItem('Form ID', d.form_id);
-      html += detailItem('Duration', d.duration ? d.duration + 's' : null);
-      html += detailItem('BA2 Location', d.ba2_path);
-      html += detailItem('Text in Strings', d.text_in_strings ? 'Yes — text exists but INFO record removed' : 'No — audio only, no text reference');
+      html += detailItem('Total Lines', d.total_lines);
       html += '</div>';
       html += '</div>';
+
+      var transcripts = d.transcripts || [];
+      if (transcripts.length > 0) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--cyan)">orphaned voice lines (' + transcripts.length + ')</div>';
+        html += '<div style="max-height:400px;overflow-y:auto;border:1px solid var(--border);border-radius:6px">';
+        html += '<table style="width:100%;border-collapse:collapse;font-size:0.85rem">';
+        html += '<thead style="position:sticky;top:0;background:var(--surface)">';
+        html += '<tr style="border-bottom:1px solid var(--border)">';
+        html += '<th style="padding:0.4rem 0.6rem;text-align:left;color:var(--text-dim);white-space:nowrap">Form ID</th>';
+        html += '<th style="padding:0.4rem 0.6rem;text-align:left;color:var(--text-dim);white-space:nowrap">Duration</th>';
+        html += '<th style="padding:0.4rem 0.6rem;text-align:left;color:var(--text-dim)">Transcript</th>';
+        html += '</tr></thead><tbody>';
+        transcripts.forEach(function(t, i) {
+          var rowBg = i % 2 === 0 ? 'transparent' : 'rgba(255,255,255,0.02)';
+          html += '<tr style="border-bottom:1px solid var(--border);background:' + rowBg + '">';
+          html += '<td style="padding:0.4rem 0.6rem;color:var(--amber);font-family:monospace;white-space:nowrap">' + esc(t.form_id || '') + '</td>';
+          html += '<td style="padding:0.4rem 0.6rem;color:var(--text-dim);white-space:nowrap">' + (t.duration ? t.duration + 's' : '-') + '</td>';
+          html += '<td style="padding:0.4rem 0.6rem;color:var(--white);font-style:italic">"' + esc(t.transcript || '') + '"</td>';
+          html += '</tr>';
+        });
+        html += '</tbody></table>';
+        html += '</div>';
+        html += '</div>';
+      }
+
       html += '<div class="profile-section">';
       html += '<div class="profile-section-title" style="color:var(--amber)">for modders</div>';
-      html += '<p style="color:var(--text-dim)">This voice file exists in your FO76 install but is not connected to any dialogue record. Modders can reference it by extracting from the BA2 path shown above. The Form ID can be used to create custom INFO records that connect this audio to new dialogue.</p>';
+      html += '<p style="color:var(--text-dim)">These voice files exist in your FO76 install but are not connected to any dialogue records. Modders can reference them by extracting from the BA2 paths listed above. The Form IDs can be used to create custom INFO records that connect this audio to new dialogue.</p>';
       html += '</div>';
       break;
 
