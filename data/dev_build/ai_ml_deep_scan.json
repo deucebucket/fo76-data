@@ -1,0 +1,497 @@
+{
+  "scan_metadata": {
+    "date": "2026-03-21",
+    "files_searched": [
+      "dev_build_strings.txt (121,780 strings from dev exe)",
+      "dev_build_functions.txt (6,146 named functions)",
+      "dev_build_source_tree.txt (3,625 source paths)",
+      "scripts_decompiled/ (all .psc Papyrus scripts)",
+      "esm_dump/full_esm_dump.txt",
+      "nw_esm_dump/nw_full_dump.txt"
+    ],
+    "verdict": "NO real AI/ML found. Zero neural networks, zero machine learning frameworks, zero training pipelines. What exists is traditional game AI (behavior trees, pathfinding, procedures) and a fascinating automated bot testing framework."
+  },
+
+  "ai_ml_frameworks": {
+    "neural_networks": [],
+    "tensorflow": [],
+    "pytorch": [],
+    "onnx": [],
+    "keras": [],
+    "scikit_learn": [],
+    "training_pipelines": [],
+    "inference_engines": [],
+    "embeddings": [],
+    "transformers_attention": [],
+    "generative_models": [],
+    "diffusion_models": [],
+    "reinforcement_learning": [],
+    "verdict": "ZERO matches for any AI/ML framework, neural network, or machine learning concept. The game contains no AI/ML technology whatsoever."
+  },
+
+  "false_positives_explained": {
+    "InertiaTensor": "Physics engine inertia tensor, not ML tensor",
+    "model_references": "3D model loading (game.streaming.model), not ML models",
+    "weights": "Animation blend weights (boneWeights, particleWeights, blendWeights), not neural network weights",
+    "checkpoint": "Memory checkpoints (GetMemCheckPoint, SetMemCheckPoint), not ML training checkpoints",
+    "training": "In-game training quests (burn_e02_training), not ML training",
+    "batch": "DeferredComponentUpdate::TBatchCommand (ECS batching), AutomatedTesting::ExecuteBatchedConsoleCommands, not ML batch processing",
+    "reward": "In-game rewards system (CPRewardInspectEvent, BGSGameplayReward, ClaimReward), not RL rewards",
+    "predict": "Network prediction for multiplayer (NetPredictDeath, bPredictedKill, netpredictedvalue.cpp), not ML prediction",
+    "classify": "String 'CLASSIFY' found once with no context - likely an enum value, not ML classification",
+    "cluster": "BSClusterRenderer - GPU instanced rendering of geometry clusters, not ML clustering",
+    "transform": "3D math transforms (ColorTransform, SoundTransform, TransformGestureEvent), not ML transformers",
+    "embedding": "No ML embeddings found - only 'NonLatentDeleteFunctor' and unrelated strings",
+    "attention": "No ML attention mechanisms found",
+    "generative": "hkbBlenderGeneratorChild (Havok animation blending), not generative AI",
+    "D9gpt_F88GPt_FX9Gpt": "Random hex-like data strings, not GPT references",
+    "gradient": "No gradient descent references found"
+  },
+
+  "automated_bot_testing": {
+    "significance": "MAJOR FIND - Complete automated player bot framework for QA testing",
+    "namespace": "AutoTestClient",
+    "base_class": "Player (extends the Player script class)",
+    "key_functions": ["SetAIDriven(True/False)", "PathToReference()", "SetWantSprinting(True)", "FindRandomCombatTarget()", "BatchRunCommand()"],
+    "scripts": {
+      "ExploreWorld": {
+        "file": "exploreworld.psc",
+        "purpose": "Bot that autonomously explores 24 named world locations, enters/exits interiors via doors",
+        "locations_visited": ["VTecAG", "Sugar Grove", "AaronholtHomestead", "AbandonedBogTown", "AlleghenyAsylum", "AMSCorporateHQ", "AppalachianAntiques", "ArktosPharma", "AVRMedicalCenter", "Beckley", "Berkeley", "BlackwaterMine", "BurningMine", "CamdenPark", "CampMcClintock", "Clarksburg", "DemoStart", "DollySodsWilderness", "EasternRegionalPen", "FreddyFearsHouseOfScares", "GiantTeapot", "Grafton", "HarpersFerry", "GarrahanEstate"],
+        "uses_AIDriven": true,
+        "uses_PathToReference": true,
+        "activates_doors": true
+      },
+      "GatherLoot": {
+        "file": "gatherloot.psc",
+        "purpose": "Bot that pathfinds to containers and flora, loots them, clears inventory, repeats",
+        "uses_AIDriven": true,
+        "uses_PathToReference": true,
+        "search_radius": 10000
+      },
+      "GrindMonsters": {
+        "file": "grindmonsters.psc",
+        "purpose": "Bot that finds random combat targets within range, pathfinds to them, fights them, refills ammo",
+        "uses_AIDriven": true,
+        "uses_FindRandomCombatTarget": true,
+        "combat_range": 10000,
+        "auto_refills_ammo": true
+      },
+      "NavigateMapMarkers": {
+        "file": "navigatemapmarkers.psc",
+        "purpose": "Bot that sequentially pathfinds to map markers with retry logic",
+        "uses_AIDriven": true,
+        "max_path_retries": 5
+      },
+      "PathfindToReference": {
+        "file": "pathfindtoreference.psc",
+        "purpose": "Bot that pathfinds to a specific reference with retry logic",
+        "uses_AIDriven": true,
+        "max_path_retries": 3
+      },
+      "BabylonTest": {
+        "file": "babylontest.psc",
+        "purpose": "Nuclear Winter (Babylon) battle royale bot - fires weapons, loots bags, moves toward storm zone center",
+        "features": ["Cycles through 12 weapon types", "Auto-fires on timer (1.9-2.1s)", "Auto-loots bags on timer (29-31s)", "Navigates toward storm zone center", "Alternates left/right strafing"]
+      },
+      "DamageTest": {
+        "file": "damagetest.psc",
+        "purpose": "Spawns creatures and weapons, measures damage per hit and hits-to-kill",
+        "automated_metrics": true
+      },
+      "Common": {
+        "file": "common.psc",
+        "purpose": "Distributes multiple bot clients across 24 world coordinates (CowToCell)",
+        "coordinates_count": 24
+      },
+      "LoadTestQuests": {
+        "file": "loadtestquests.psc",
+        "purpose": "Automated quest load testing - moves to locations and advances quest stages"
+      },
+      "SmokeTestQuests": {
+        "file": "smoketestquests.psc",
+        "purpose": "Runs through 10 quest smoke tests sequentially"
+      },
+      "SimultaneousTestQuests": {
+        "file": "simultaneoustestquests.psc",
+        "purpose": "Distributes different quest tests across multiple bot clients simultaneously"
+      },
+      "GPUBenchFakePlayerScript": {
+        "file": "gpubenchfakeplayerscript.psc",
+        "purpose": "Fake player for GPU benchmarking - enables AI, moves to linked ref, disables AI"
+      }
+    },
+    "infrastructure_strings": {
+      "GameplayAutomatedTesting": "Singleton class managing automated test execution",
+      "AutomatedTesting::ExecuteBatchedConsoleCommands": "Batched console command execution for bots",
+      "AutomatedTesting::RequestExecutionIndex": "Assigns unique indices to bot clients",
+      "AutomatedTesting::QuestAliasResponse": "Returns quest alias data to bots",
+      "bAutomatedTestEnableDebugLogging": "Debug logging toggle for automated tests",
+      "bAutomatedTestExitOnComplete": "Auto-exit when tests complete",
+      "gameplayautomatedtesting.cpp": "Source file for the automated testing system",
+      "reliableautomatedtestmessages.h": "Network messages for distributed bot testing"
+    },
+    "security_testing": {
+      "CallRMIFuzzed": "Fuzzes Remote Method Invocations with random/sequential/nefarious data",
+      "CallRMITesting": "Tests RMI calls with various patterns",
+      "usage_strings": [
+        "callrmifuzzed <count> <0=random, 1=useprid, 2=sequential, 3=nefarious>",
+        "callrmitesting <count> <0=random, 1=useprid, 2=sequential, 3=nefarious>"
+      ]
+    }
+  },
+
+  "traditional_game_ai": {
+    "procedure_system": {
+      "description": "BGS Procedure system - classic Bethesda AI behavior packages",
+      "source_files": [
+        "bgsprocedureactivate.cpp", "bgsprocedure.cpp", "bgsproceduredialogueactivate.cpp",
+        "bgsprocedureescort.cpp", "bgsprocedureflee.cpp", "bgsprocedureflightgrab.cpp",
+        "bgsprocedurefollow.cpp", "bgsprocedurehover.cpp", "bgsprocedureorbit.cpp",
+        "bgsprocedurepatrol.cpp", "bgsprocedurerange.cpp", "bgsproceduresandbox.cpp",
+        "bgsproceduresleep.cpp", "bgsprocedurestayaway.cpp", "bgsproceduretravel.cpp",
+        "bgsproceduretree.cpp", "bgsprocedureuseidlemarker.cpp", "bgsprocedurewander.cpp"
+      ],
+      "key_strings": [
+        "AIProcess::VisitProcedureTree",
+        "Actor::Location::ProcedureSandbox",
+        "SandBox Procedure Weights",
+        "Procedure Current Pack",
+        "Procedure time remaining",
+        "PACKAGE_PROCEDURE_EXPLORE_TRAVEL"
+      ]
+    },
+    "behavior_tree": {
+      "description": "Havok behavior tree system for animation and combat",
+      "source_files": ["bstbtreefile.cpp", "combatbehaviortreemanager.cpp"],
+      "key_strings": [
+        "Thread is in Behavior Tree with stack",
+        "CombatBehaviorThread::LoadGame",
+        "CombatBehaviorContextMelee::StartAttack"
+      ]
+    },
+    "combat_system": {
+      "description": "Combat AI with blackboard, cover generation, and target selection",
+      "key_strings": [
+        "combatblackboard.cpp",
+        "combatblackboard.inl",
+        "Blackboard:",
+        "DumpBlackboardInfo",
+        "CoverGenerationDebugGeometry",
+        "GenerateCoverEdges",
+        "RandomTargetSelector"
+      ]
+    },
+    "movement_planner": {
+      "description": "Movement planning agents for NPC navigation",
+      "source_files": ["movementplanneragentwarp.cpp", "snapshotfollowingplannerhandleragent.cpp"],
+      "key_strings": [
+        "Planner Facing Angle",
+        "Planner Movement Angle",
+        "Planner Movement Speed",
+        "SnapshotFollowingPlannerHandlerAgent::PerformMovementPlanning"
+      ]
+    },
+    "pathfinding": {
+      "description": "A* pathfinding on navmesh",
+      "key_strings": [
+        "AStarSearch::Search",
+        "astar-search.bad-goal-node-cost",
+        "NavmeshDebugManager",
+        "NavMeshRender",
+        "bDebugPathingCost",
+        "bDebugPathingHeuristic",
+        "bDebugPathingSolution",
+        "MoveToNearestNavmeshLocation"
+      ]
+    }
+  },
+
+  "procedural_generation": {
+    "grass_generation": {
+      "description": "Poisson disk sampling for procedural grass placement",
+      "key_strings": [
+        "BGSGrassManager::AddCellGrass::CreateGrassPoissonDiskSample",
+        "BGSGrassManager::AddCellGrass::CreateGrassPoissonDiskSample::GenerateNewPoints"
+      ]
+    },
+    "procedural_geometry": {
+      "description": "Procedural geometry and lightning effects",
+      "source_files": ["bsproceduralgeometry.cpp", "bsprocedurallightningcontroller.cpp"]
+    },
+    "noise_generation": {
+      "description": "Perlin noise for visual effects",
+      "key_strings": [
+        "PerlinNoiseCS",
+        "Noise Amplitude", "Noise Falloff", "Noise UV Scale",
+        "Noise Wind Direction", "Noise Wind Speed",
+        "Noise Simulation: %.2f Megabytes"
+      ]
+    },
+    "cover_edge_generation": {
+      "description": "Automatic cover position generation for combat AI",
+      "key_strings": ["GenerateCoverEdges", "CoverGenerationDebugGeometry", "Cover Edges"]
+    },
+    "random_world_name": {
+      "esm_string": "sWorldDataDefaultRandomWorldName",
+      "description": "Random world name generation for Fallout Worlds custom game mode"
+    },
+    "random_variant_debug": {
+      "esm_string": "Debug keyword used to generate random variants",
+      "description": "Debug tool for generating random item/creature variants"
+    }
+  },
+
+  "telemetry_analytics": {
+    "bi_event_system": {
+      "description": "Business Intelligence event tracking system (BIEvent)",
+      "source_files": ["bieventmanager.cpp", "clientbiperformance.cpp", "bcstelemetry/src/telemetry/factory.cpp"],
+      "key_strings": [
+        "BIEventManager::ServerSNREventType",
+        "bps.client.bievent",
+        "bps.server.bievent",
+        "bEnableBIHistoryTracking:BIEvents",
+        "bChallengePassBoardInteractionEnabled:BIEvents",
+        "bClientConsoleCommandEnabled:BIEvents"
+      ],
+      "tracked_events": [
+        "ChallengePassBoardInteraction",
+        "ClientConsoleCommand",
+        "TACGraphics",
+        "TACStandard"
+      ]
+    },
+    "telemetry_framework": {
+      "description": "BCS telemetry framework with counters, gauges, and sample storage",
+      "classes": [
+        "telemetry::bcs::Counter",
+        "telemetry::bcs::Gauge",
+        "telemetry::bcs::MetricBase",
+        "telemetry::bcs::SampleStorage"
+      ]
+    },
+    "performance_metrics": {
+      "description": "Client-side performance metrics collection",
+      "key_function": "ClientBIPerformance::GetPerformanceMetrics",
+      "debug_text": "DebugTextTelemetry"
+    },
+    "heatmap": {
+      "description": "Single reference to 'Heatmap' string - likely a debug visualization tool",
+      "string": "Heatmap"
+    },
+    "nuclear_winter_match_stats": {
+      "description": "Detailed match statistics tracking for Nuclear Winter (Babylon)",
+      "tracked_fields": [
+        "MatchStatsSnapshot.PlayerKills",
+        "MatchStatsSnapshot.PlayerDowns",
+        "MatchStatsSnapshot.NonEliteAIKills",
+        "MatchStatsSnapshot.EliteAIKills",
+        "MatchStatsSnapshot.Viewers",
+        "MatchStatsSnapshot.OverseerRank",
+        "MatchStatsSnapshot.PreMatchLevel"
+      ]
+    }
+  },
+
+  "cloud_infrastructure": {
+    "bethesda_platform_services": {
+      "description": "BPS (Bethesda Platform Services) client-server architecture",
+      "source_files": [
+        "bps/client/lobbyclient.cpp",
+        "bps/client/matchmakeclient.cpp",
+        "bps/client/matchmakerselector.cpp",
+        "bps/client/ping.cpp",
+        "bps/client/platformconfig.cpp",
+        "bps/client/pushyclient.cpp",
+        "bps/client/services.cpp"
+      ],
+      "key_classes": ["SeasonClient", "BIEventClient", "CGMProvider", "CGMController"]
+    },
+    "build_system": {
+      "description": "TeamCity CI/CD (buildagent paths visible in all source references)",
+      "build_path": "e:\\buildagent\\work\\820e97cc99338fb0\\project76\\",
+      "project_name": "project76"
+    },
+    "cgm_system": {
+      "description": "Custom Game Mode (CGM) - Fallout Worlds content delivery",
+      "source_files": ["cgmclient.cpp", "cgmcontroller.cpp", "cgmdownloader.inl", "cgmprovider.cpp", "cgmstorage.cpp"],
+      "features": ["CGM Editor (ImGui)", "Archive validation", "Download/storage management"]
+    }
+  },
+
+  "internal_dev_tools": {
+    "imgui_windows": {
+      "description": "Extensive ImGui debug UI system with remote WebSocket rendering",
+      "windows": [
+        "BSImGuiChallengePass - Challenge pass debugging",
+        "BSImGuiChallenges - Challenges debugging",
+        "BSImGuiEvents - Events debugging",
+        "BSImGuiExpeditions - Expeditions debugging",
+        "BSImGuiManagedWork - Managed work debugging",
+        "BSImGuiPerkMenu - Perk menu debugging",
+        "ImGuiAtomicMods - Atomic Shop mods debugging",
+        "ImGuiBNetTracker - Bethesda.net tracker",
+        "ImGuiCharacterManager - Character management debugging",
+        "ImGuiEntitlements - Entitlements debugging",
+        "ImGuiFalloutWorlds - Fallout Worlds debugging",
+        "ImGuiFalloutWorldsCGMEditor - CGM Editor",
+        "ImGuiJira - Jira integration in-game",
+        "ImGuiSocialSystems - Social systems debugging",
+        "ImGuiUIState - UI state debugging",
+        "ImGuiHitData - Hit/damage data debugging",
+        "ImGuiWeapons - Weapons debugging",
+        "ImGuiBatchFiles - Batch file operations",
+        "BSImGuiBabylon - Nuclear Winter (Babylon) debugging",
+        "BSImGuiConsole - In-game console",
+        "BSImGuiDailyContentManager - Daily content debugging",
+        "BSImGuiDebugText - Debug text overlay",
+        "BSImGuiHelpMenu - Help menu",
+        "BSImGuiStreaming - Streaming debugging",
+        "GameValidationImGui - Game validation tools",
+        "RenderEnlightenImguiBudgetWindow - Enlighten GI budget",
+        "RenderEnlightenImguiControlWindow - Enlighten GI controls"
+      ],
+      "remote_rendering": {
+        "description": "ImGui can render via WebSocket for remote debugging",
+        "source": "bsimguiwebsocketrenderer.cpp",
+        "settings": ["bImGuiAllowRemoteActivation:Debug", "uImGuiRemotePort:Debug"]
+      },
+      "jira_integration": {
+        "description": "In-game Jira bug reporting tool",
+        "class": "ImGuiJira"
+      }
+    },
+    "debug_overlays": [
+      "ActorsOverlay", "AnimationOverlay", "CellOverlay", "CollisionMeshOverlay",
+      "CombatAcquireSearchOverlay", "CombatCoveredPathOverlay", "CombatCoverSearchOverlay",
+      "CombatMeleeOverlay", "CombatPathingOverlay", "CombatProjectileOverlay",
+      "ConsoleOverlay", "DeferredDeleterOverlay", "HavokStepOverlay",
+      "LuaTerminalOverlay", "ModMenuOverlay", "PapyrusLogOverlay", "PapyrusStatsOverlay",
+      "ParticlesOverlay", "PolyOverlay", "QuestOverlay", "RadioOverlay",
+      "SAMPLEOverlay", "SceneGraphOverlay", "TexturesOverlay", "TimingOverlay",
+      "VDBOverlay", "WarningsOverlay", "WeaponFireOverlay"
+    ]
+  },
+
+  "nuclear_winter_babylon": {
+    "description": "Nuclear Winter battle royale mode (codename 'Babylon')",
+    "source_files": [
+      "babylonclientstormsim.cpp",
+      "quickplaybabylonfacade.cpp",
+      "hudbabylondatamodel.cpp",
+      "babylonhudmenu.cpp",
+      "quickplaybabylondatacomponent.cpp"
+    ],
+    "bot_support": {
+      "description": "Nuclear Winter had bot player support",
+      "evidence": [
+        "fBotRandomOffsetFromPlayerSpawnPoint:Babylon",
+        "quickplaybabylonfacade.cpp Line 1970 Value: botVal",
+        "BabylonTest.psc - full battle royale bot script"
+      ]
+    },
+    "storm_system": {
+      "description": "Shrinking storm zone simulation",
+      "key_strings": [
+        "StormWallManager",
+        "babylonclientstormsim.cpp",
+        "IsInsideStormZone",
+        "GetHeadingToStormZoneCenter",
+        "Cannot use optimized shrinking on non-volumetric(3D) shapes"
+      ]
+    }
+  },
+
+  "esm_ai_references": {
+    "artificial_intelligence_lore": {
+      "description": "In-game lore references to AI (not real AI technology)",
+      "records": [
+        "NAM2: a chipper pre-recorded algorithm driven artificial intelligence (mayor's chief of staff)",
+        "NAM2: chipper pre-recorded algorithm driven artificial intelligence (mayor's chief of staff) wants to be helpful"
+      ],
+      "context": "MODUS / Mayor AI character descriptions in dialogue"
+    },
+    "robot_entities": {
+      "description": "In-game robot NPCs and items (gameplay content, not AI technology)",
+      "types": ["Protectrons", "Assaultrons", "Sentry Bots", "Liberators", "Eyebots", "Mr. Handy variants"],
+      "stats_tracked": ["sStatProtectronsKilled", "sStatSentryBotsKilled", "sStatRobotsKilled", "sStatLiberatorsKilled", "sStatAssaultronsKilled"]
+    }
+  },
+
+  "lighting_gi": {
+    "enlighten": {
+      "description": "ARM Enlighten SDK for real-time global illumination (middleware, not AI)",
+      "source_files": [
+        "bsenlightencubemap.cpp", "bsenlightenprobesscene.cpp",
+        "bsenlightenruntime.cpp", "bsenlightensystemdata.cpp",
+        "bsenlightencubemapshader.cpp",
+        "sdk/enlightenapi/src/enlightenapi/libsrc/enlighten3/enlightenutils.inl"
+      ],
+      "imgui_windows": ["RenderEnlightenImguiBudgetWindow", "RenderEnlightenImguiControlWindow"]
+    }
+  },
+
+  "animation_physics_middleware": {
+    "havok": {
+      "description": "Havok middleware for physics, animation, cloth, and destruction",
+      "subsystems": {
+        "animation": ["hkbBlenderGeneratorChild", "hkbParametricMotionGeneratorViewer", "hkaWaveletCompressedAnimationCompressionParams"],
+        "physics": ["InertiaTensor", "GenerateWorldCollideTasks", "GenerateWorldSolveTasks"],
+        "cloth": ["hclSimClothData", "hclBendLinkConstraintSet", "hclCompressibleLinkConstraintSet"],
+        "navmesh": ["hkcdStaticAabbTree", "hkcdDynamicAabbTree"],
+        "behavior": ["bstbtreefile.cpp"]
+      }
+    }
+  },
+
+  "spawn_systems": {
+    "area_spawners": {
+      "description": "Location-based creature/NPC spawning system",
+      "examples": [
+        "FF00_AreaSpawner",
+        "MTR03_BigBend_AreaSpawner",
+        "MTR03_BlackwaterMine_AreaSpawner",
+        "MTR03_BurningMine_AreaSpawner",
+        "MTR03_FloodedMine_AreaSpawner",
+        "MTR03_MonongahMine_AreaSpawner",
+        "MTR03_UncannyCaverns_AreaSpawner",
+        "SQ_Horde_FindSpawnMarkers",
+        "SQ_ScorchbeastSpawn",
+        "EN07_MQ_Fissure_SpawnerQuest"
+      ]
+    },
+    "net_spawn": {
+      "description": "Network-synchronized spawning",
+      "functions": ["NetSpawn::NetSpawn_Actor", "NetSpawn::NetSpawn_TESObjectREFR"]
+    },
+    "respawn_system": {
+      "description": "Player respawn with multiple strategies",
+      "settings": [
+        "fServerRespawnTeammateSearchRadius",
+        "fServerRespawnRevengeSearchRadius",
+        "fHoursToRespawnActors",
+        "fHoursToRespawnCellCleared",
+        "bRespawnDisabled",
+        "bUseEventRespawnSystem"
+      ]
+    }
+  },
+
+  "anti_cheat_security": {
+    "anti_tamper": {
+      "strings": [
+        "antitamper.debugger.checkremotedebuggerpresent",
+        "antitamper.debugger.isdebuggerpresent",
+        "antitamper.debugger.outputdebugstring"
+      ]
+    },
+    "rmi_fuzzing": {
+      "description": "Remote Method Invocation fuzzing for security testing",
+      "commands": [
+        "callrmifuzzed <count> <0=random, 1=useprid, 2=sequential, 3=nefarious>",
+        "callrmitesting <count> <0=random, 1=useprid, 2=sequential, 3=nefarious>"
+      ],
+      "related_string": "Testing function for security, send random RMIs and data to the server"
+    }
+  }
+}
