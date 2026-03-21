@@ -1,0 +1,458 @@
+{
+  "source": "SeventySix - Localization.ba2",
+  "extraction_date": "2026-03-21",
+  "summary": {
+    "total_files": 91,
+    "languages": 13,
+    "translation_files": {
+      "count": 13,
+      "entries_english": 3576,
+      "format": "UTF-16LE key-value pairs (UI strings)"
+    },
+    "string_tables": {
+      "seventysix_strings_en": {
+        "entries": 158269,
+        "type": "names/labels"
+      },
+      "seventysix_dlstrings_en": {
+        "entries": 20119,
+        "type": "descriptions/dialogue"
+      },
+      "seventysix_ilstrings_en": {
+        "entries": 69217,
+        "type": "info/loading strings"
+      },
+      "nw_strings_en": {
+        "entries": 3195,
+        "type": "Nuclear Winter names"
+      },
+      "nw_dlstrings_en": {
+        "entries": 323,
+        "type": "Nuclear Winter descriptions"
+      }
+    },
+    "nuclear_winter_still_present": true,
+    "nw_string_count": 3519
+  },
+  "key_findings": {
+    "alien_translation_todo": {
+      "formid": "0x0003C845",
+      "text": "[TODO: Remove actual Translations, Add alien Font Tags]\r\nid;R9q^S(N={+Q\"%6\r\n\r\n(Long have wait arrive Stars Listen)\r\nACELRX\r\n\r\n(We are going to come soon)\r\nKLJ\r\n\r\n(Prepare yourself, Wait)\r\nWE\r\n\r\nx+iK!?pl-H{C<0wF{.&^\r\n",
+      "significance": "Developer TODO with actual alien-to-English translations still in data. Shows alien language was being developed with real cipher system. Instructions say to 'Remove actual Translations, Add alien Font Tags' - meaning the translations were meant to be hidden behind alien font rendering."
+    },
+    "zzz_prefixed_cut_content": [
+      {
+        "formid": "0x36d91",
+        "text": "zzzTune into the distress beacon signal"
+      },
+      {
+        "formid": "0x39297632",
+        "text": "ZZZNuclear-Powered Jetpack"
+      },
+      {
+        "formid": "0x4100eff3",
+        "text": "zzz_Collect a Mini Nuke with the Money Bags Backpack equipped"
+      },
+      {
+        "formid": "0x4100f035",
+        "text": "zzz_Destroy a Protectron with the Money Bags Backpack equipped"
+      },
+      {
+        "formid": "0x4100f037",
+        "text": "zzz_Collect Caps test"
+      },
+      {
+        "formid": "0x590032cc",
+        "text": "ZZZ_Craft a Glowing Bloodpack while wearing a Costume"
+      },
+      {
+        "formid": "0x6100d4de",
+        "text": "zzz"
+      },
+      {
+        "formid": "0x61023e59",
+        "text": "zzz_Collect Caps with the Money Bags Backpack equipped"
+      },
+      {
+        "formid": "0x61023e5a",
+        "text": "zzz_Kill an Enemy with the Money Bags Backpack equipped test"
+      },
+      {
+        "formid": "0x61023e5c",
+        "text": "zzz_Craft Ballistic Ammo with the Money Bags Backpack equipped"
+      },
+      {
+        "formid": "0x610273be",
+        "text": "ZZZ Kill the cultists standing guard"
+      },
+      {
+        "formid": "0x7100eb1d",
+        "text": "zzz"
+      },
+      {
+        "formid": "0x7100f121",
+        "text": "ZZZ Checkpoint Canyon Interior"
+      },
+      {
+        "formid": "0x7101203c",
+        "text": "ZZZ_Burn_Drive-in_Holotape"
+      }
+    ],
+    "debug_weapons": [
+      {
+        "formid": "0x3e5fd",
+        "text": "Debug weapon to test ExplosionNuka enchantment (only found on paddleball)"
+      },
+      {
+        "formid": "0x3e60b",
+        "text": "Debug weapon to test mult+add modifier"
+      },
+      {
+        "formid": "0x3e628",
+        "text": "Debug weapon to test energy damage"
+      },
+      {
+        "formid": "0x3e676",
+        "text": "Debug weapon to test CrippleAndLimbDMG mod"
+      },
+      {
+        "formid": "0x3e6ae",
+        "text": "Debug weapon to test bleeding enchantment"
+      },
+      {
+        "formid": "0x3e6ee",
+        "text": "Debug weapon to test mult+add modifier"
+      },
+      {
+        "formid": "0x3e74f",
+        "text": "Debug weapon to test Stagger enchantment"
+      },
+      {
+        "formid": "0x3e7ca",
+        "text": "Debug weapon to test Shock enchantment"
+      },
+      {
+        "formid": "0x3e7e8",
+        "text": "Debug weapon to test ExplosionQuantum enchantment (only found on paddleball)"
+      },
+      {
+        "formid": "0x3e829",
+        "text": "Debug weapon"
+      },
+      {
+        "formid": "0x3e82e",
+        "text": "Debug weapon to test ExplosionCherry enchantment (only found on paddleball)"
+      },
+      {
+        "formid": "0x3e843",
+        "text": "Debug weapon to test standard damage"
+      },
+      {
+        "formid": "0x3e849",
+        "text": "Debug weapon to test Stagger enchantment"
+      },
+      {
+        "formid": "0x3e870",
+        "text": "Debug weapon to multiple damage types"
+      },
+      {
+        "formid": "0x3e895",
+        "text": "Debug weapon to test ShockStun enchantment"
+      },
+      {
+        "formid": "0x3e8c3",
+        "text": "Debug weapon to test energy damage"
+      },
+      {
+        "formid": "0x3e8d0",
+        "text": "Debug weapon to test ShockAndBleed enchantment"
+      },
+      {
+        "formid": "0x3e8e4",
+        "text": "Debug weapon to test Fire enchantment"
+      },
+      {
+        "formid": "0x3e8f7",
+        "text": "Debug weapon to test Poison enchantment"
+      }
+    ],
+    "placeholder_strings": [
+      {
+        "formid": "0x3f8bf",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3f8cd",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3f978",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3f9e7",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3fa3b",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3fa6e",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3fba4",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3fbb0",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3fbde",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3fc0e",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x3fc17",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x48820",
+        "text": "(TEMP) We're bringing this crazy new alcohol called Nukashine to the party.\r\n\r\n(Replaced by entry on Ted's terminal)"
+      },
+      {
+        "formid": "0x4954d",
+        "text": "(TEMP) The key fits into the lock, revealing the diary's secrets."
+      },
+      {
+        "formid": "0x4954e",
+        "text": "(TEMP) There are two pairs of footprints in the mud, as though the students scrambled up the hill in a hurry."
+      },
+      {
+        "formid": "0x39000c23",
+        "text": "(TEMP) A crumpled up note is on the ground."
+      },
+      {
+        "formid": "0x390023cc",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x39005968",
+        "text": "This is just a placeholder for where the tutorial message explaining how to launch expeditions would go."
+      },
+      {
+        "formid": "0x39293828",
+        "text": "(TEMP) This event has mutated! Complete it for additional rewards."
+      },
+      {
+        "formid": "0x39294ff9",
+        "text": "(TEMP) This is placeholder. Will be replaced with a tutorial screen listing benefits and downsides of playing as a ghoul."
+      },
+      {
+        "formid": "0x59001ae7",
+        "text": "This is a PLACEHOLDER message to represent where loadout select should go.\r\n\r\nSelect a loadout:"
+      },
+      {
+        "formid": "0x6100375e",
+        "text": "Placeholder SP\r\n\r\n- APPAREL IS CRAFTABLE AT ARMOR WORKBENCHES. - "
+      },
+      {
+        "formid": "0x6100b37d",
+        "text": "(TEMP) This note will say there's a serious security problem. Resetting the circuit breaker will let anyone get through the laser grid."
+      },
+      {
+        "formid": "0x6100f3f6",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x7100739f",
+        "text": "(TEMP) \r\n\r\nThe Nukashine speakeasy will be reopening! New drinks, new talent, and a great time! You don't wanna miss it!\r\n\r\nTo find our location, try reading the label on a bottle of Nukashine."
+      },
+      {
+        "formid": "0x7100b40a",
+        "text": "This is a placeholder to be filled in later."
+      },
+      {
+        "formid": "0x81000379",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x8100037c",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x8100062f",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x81000632",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x81000c4c",
+        "text": "TEST TO SEE WHERE THIS APPEARS"
+      },
+      {
+        "formid": "0x8100286f",
+        "text": "Placeholder Fail Message \r\n"
+      },
+      {
+        "formid": "0x81002870",
+        "text": "Placeholder success Message \r\n"
+      }
+    ],
+    "horse_dismount_string": {
+      "formid": "0x00012332",
+      "text": "Dismount Horse before going through door.",
+      "significance": "Inherited from Skyrim/FO4 engine. Shows mount/dismount system exists in engine code."
+    },
+    "off_road_vehicle": [
+      {
+        "formid": "0x36522",
+        "text": "Off-Road Vehicle"
+      },
+      {
+        "formid": "0x3929a871",
+        "text": "Off-road Vehicle"
+      },
+      {
+        "formid": "0x3929a873",
+        "text": "Off-road Vehicle"
+      },
+      {
+        "formid": "0x41010526",
+        "text": "Off-Road Vehicle"
+      },
+      {
+        "formid": "0x61024e5c",
+        "text": "Off-Road Vehicle"
+      },
+      {
+        "formid": "0x8100d5d8",
+        "text": "Off-Road Vehicle"
+      }
+    ],
+    "steal_horse_prompt": {
+      "formid": "0x00000329",
+      "text": "Do you want to steal this horse?",
+      "significance": "Skyrim-era string still present in FO76 data"
+    },
+    "dungeon_cleared": {
+      "formid": "0x00011236",
+      "text": "Dungeon Cleared!",
+      "significance": "Generic dungeon completion message - may relate to instanced content system"
+    },
+    "faction_raids": {
+      "formid": "0x0000217D",
+      "text": "Faction for the player during raids",
+      "significance": "Vault Raid system faction assignment - raids were removed from game"
+    },
+    "casino_disabled": {
+      "text": "Casino games are currently unavailable.",
+      "significance": "Casino system exists but is disabled - Atlantic City DLC related"
+    },
+    "ghoul_player_system_strings": {
+      "count": "20+",
+      "significance": "Ghoul transformation feature has extensive UI strings including disable/maintenance messages suggesting it was toggled on/off during development"
+    },
+    "babylon_death_lines": [
+      {
+        "formid": "BabylonDeathLine0",
+        "text": "Seems like someone got the best of you, better luck next time!... or not. Probably not."
+      },
+      {
+        "formid": "BabylonDeathLine1",
+        "text": "That didn't seem to go as planned. Was there a plan?"
+      },
+      {
+        "formid": "BabylonDeathLine2",
+        "text": "\"Do I even have teammates?\" you muttered through your last breath."
+      },
+      {
+        "formid": "BabylonDeathLine3",
+        "text": "Your performance seemed pretty strong there for a minute or two."
+      },
+      {
+        "formid": "BabylonDeathLine4",
+        "text": "\"How does one miss so many shots?\" they thought as they looted your corpse."
+      }
+    ],
+    "babylon_victory_lines": [
+      {
+        "formid": "BabylonVictoryLine0",
+        "text": "You have ascended to a higher plane of existence. One where doors and even chairs open up to you."
+      },
+      {
+        "formid": "BabylonVictoryLine1",
+        "text": "Hold on to that four leaf clover. First, you survive the nuclear holocaust - now this. Keep it up!"
+      },
+      {
+        "formid": "BabylonVictoryLine2",
+        "text": "Sometimes you have to ruffle some feathers on your way to the top. Or murder your enemies.."
+      },
+      {
+        "formid": "BabylonVictoryLine3",
+        "text": "After catching your breath from all the killing, you realize you left the oven on in the vault."
+      },
+      {
+        "formid": "BabylonVictoryLine4",
+        "text": "Murder sure does work up a thirst. Grab a Nuka-Cola and kick back - you deserve it!"
+      }
+    ],
+    "survival_mode_remnants": {
+      "significance": "Complete Survival Mode UI still in localization - leaderboards, rules, scoring. Mode was removed.",
+      "sample_strings": [
+        "SURVIVAL MODE LEADERBOARDS",
+        "Other players may be attacked without restriction",
+        "Cap rewards for player kills are doubled",
+        "All XP gained increased by 20%"
+      ]
+    },
+    "unused_challenge_categories": [
+      {
+        "key": "Challenges_Exploration",
+        "text": "Unused"
+      },
+      {
+        "key": "Challenges_Tracker",
+        "text": "Unused3"
+      },
+      {
+        "key": "Challenges_Unsorted",
+        "text": "Unused4"
+      }
+    ],
+    "expedition_placeholder": {
+      "formid": "0x39005968",
+      "text": "This is just a placeholder for where the tutorial message explaining how to launch expeditions would go."
+    },
+    "ghoul_placeholder": {
+      "formid": "0x39294FF9",
+      "text": "(TEMP) This is placeholder. Will be replaced with a tutorial screen listing benefits and downsides of playing as a ghoul."
+    }
+  },
+  "nuclear_winter_analysis": {
+    "total_nw_strings": 3195,
+    "total_nw_dlstrings": 323,
+    "codename": "Babylon",
+    "still_fully_localized": true,
+    "languages_with_nw_data": 13,
+    "key_features_in_strings": [
+      "Overseer Rank system",
+      "Overseer Tickets currency",
+      "7-card perk deck system",
+      "SPECIAL-based card equipping",
+      "Death/Victory flavor text lines",
+      "NW-specific perk cards",
+      "NW-specific challenges",
+      "Squad/team matchmaking"
+    ],
+    "nw_specific_items_count": 3195,
+    "significance": "All 13 languages still have complete Nuclear Winter translations. The mode was removed in 2021 but all localization data remains intact."
+  }
+}
