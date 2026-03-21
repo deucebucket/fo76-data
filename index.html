@@ -228,18 +228,23 @@ body::after {
 .card-tags {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5rem 0.7rem;
   flex-wrap: wrap;
-  padding: 0 1rem 0.4rem;
+  padding: 0.15rem 1rem 0.5rem;
 }
 .card-tags .badge {
   max-width: 100%;
-  white-space: normal;
+  white-space: nowrap;
   line-height: 1.3;
+  flex-shrink: 0;
 }
 .card-tags .dim {
   opacity: 0.5;
   font-size: 0.75rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 280px;
 }
 .card-tags .dim::before {
   content: '·';
@@ -619,7 +624,19 @@ body::after {
   transition: all 0.15s;
   flex-shrink: 0;
 }
-.profile-back-btn:hover,
+.profile-back-btn {
+  font-size: 0.95rem;
+  padding: 0.35rem 0.9rem;
+  border-color: var(--green-dark);
+  background: rgba(20, 254, 23, 0.04);
+}
+.profile-back-btn:hover {
+  border-color: var(--green);
+  color: var(--green);
+  text-shadow: 0 0 10px rgba(20, 254, 23, 0.6);
+  box-shadow: 0 0 12px rgba(20, 254, 23, 0.15);
+  background: rgba(20, 254, 23, 0.08);
+}
 .profile-close-btn:hover {
   border-color: var(--green);
   color: var(--green);
@@ -783,6 +800,26 @@ body::after {
 }
 .profile-body .card-image:hover {
   border-color: var(--green-dim);
+}
+
+.profile-image-gallery {
+  display: flex;
+  gap: 0.6rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--green-dark) #0d0d0d;
+}
+.profile-image-gallery::-webkit-scrollbar { height: 6px; }
+.profile-image-gallery::-webkit-scrollbar-track { background: var(--bg); }
+.profile-image-gallery::-webkit-scrollbar-thumb { background: var(--green-dark); }
+.profile-image-gallery::-webkit-scrollbar-thumb:hover { background: var(--green-dim); }
+.profile-image-gallery .card-image {
+  max-width: 400px;
+  max-height: 300px;
+  flex-shrink: 0;
+  margin: 0;
 }
 
 .profile-body .md-content h1 { font-size: 1.3rem; color: var(--green); margin: 1rem 0 0.5rem; }
@@ -1835,6 +1872,17 @@ function findEntryById(id) {
   for (var i = 0; i < allData.length; i++) {
     if (allData[i].id === id) return allData[i];
   }
+  // Also search lazy-loaded data that may not yet be in allData
+  if (rttiData) {
+    for (var i = 0; i < rttiData.length; i++) {
+      if (rttiData[i].id === id) return rttiData[i];
+    }
+  }
+  if (scriptsData) {
+    for (var i = 0; i < scriptsData.length; i++) {
+      if (scriptsData[i].id === id) return scriptsData[i];
+    }
+  }
   return null;
 }
 
@@ -2102,10 +2150,16 @@ function buildProfileContent(item) {
       var allImages = item.images || (item.image ? [item.image] : []);
       if (allImages.length > 0) {
         html += '<div class="profile-section">';
-        html += '<div class="profile-section-title">images</div>';
-        allImages.forEach(function(img) {
-          html += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
-        });
+        html += '<div class="profile-section-title">images (' + allImages.length + ')</div>';
+        if (allImages.length > 1) {
+          html += '<div class="profile-image-gallery">';
+          allImages.forEach(function(img) {
+            html += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
+          });
+          html += '</div>';
+        } else {
+          html += '<img class="card-image" src="' + esc(allImages[0]) + '" alt="' + esc(item.title) + '" loading="lazy">';
+        }
         html += '</div>';
       }
       html += '<div class="profile-section">';
@@ -2123,9 +2177,15 @@ function buildProfileContent(item) {
       var allImages = item.images || (item.image ? [item.image] : []);
       if (allImages.length > 0) {
         html += '<div class="profile-section">';
-        allImages.forEach(function(img) {
-          html += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
-        });
+        if (allImages.length > 1) {
+          html += '<div class="profile-image-gallery">';
+          allImages.forEach(function(img) {
+            html += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
+          });
+          html += '</div>';
+        } else {
+          html += '<img class="card-image" src="' + esc(allImages[0]) + '" alt="' + esc(item.title) + '" loading="lazy">';
+        }
         html += '</div>';
       }
       if (d.theory) {
@@ -2232,11 +2292,11 @@ function buildProfileContent(item) {
   }
 
   // Show other connected items (exclude self and already-shown curves)
-  var shownIds = new Set();
-  shownIds.add(item.id);
-  curveLinks.forEach(function(cl) { shownIds.add(cl.entry.id); });
+  var shownIds = {};
+  shownIds[item.id] = true;
+  curveLinks.forEach(function(cl) { shownIds[cl.entry.id] = true; });
 
-  var filteredOther = otherLinks.filter(function(ol) { return !shownIds.has(ol.entry.id); });
+  var filteredOther = otherLinks.filter(function(ol) { return !shownIds[ol.entry.id]; });
   if (filteredOther.length > 0) {
     html += '<div class="profile-section">';
     html += '<div class="profile-section-title">connected items</div>';
@@ -2244,6 +2304,13 @@ function buildProfileContent(item) {
       html += renderLinkedCard(ol.entry);
     });
     html += '</div>';
+  }
+
+  // Empty state: if no content was generated beyond empty strings
+  if (!html.trim()) {
+    html = '<div class="profile-section" style="text-align:center;padding:2rem 1rem">' +
+      '<div style="color:var(--text-faint);font-size:0.9rem">no additional data available for this entry</div>' +
+    '</div>';
   }
 
   return html;
@@ -2260,9 +2327,9 @@ function openProfile(id) {
   }
 
   profileHeader.innerHTML =
-    '<button class="profile-back-btn" id="profile-back" ' + (profileHistory.length <= 1 ? 'disabled' : '') + '>&larr; Back</button>' +
+    '<button class="profile-back-btn" id="profile-back" ' + (profileHistory.length <= 1 ? 'disabled' : '') + '>&#9664; Back</button>' +
     '<div class="profile-title-area">' +
-      '<span class="profile-title-text">' + esc(item.title) + '</span>' +
+      '<span class="profile-title-text">' + esc(item.data && item.data.display_name ? item.data.display_name : (item.data && item.data.mutation_name ? item.data.mutation_name : item.title)) + '</span>' +
       renderBadgeForType(item.type) +
     '</div>' +
     '<button class="profile-close-btn" id="profile-close-btn">&times; Close</button>';
