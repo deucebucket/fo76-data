@@ -18,12 +18,14 @@ A searchable database of 38,000+ Fallout 76 game data entries extracted from the
 | Cut Content | 18 | Verified cut/disabled content entries with ESM record references |
 | Mutations | 19 | Every mutation with positive/negative effects and curve data |
 | Power Armor | 14 | All PA sets with stat curves |
+| Conjecture vs Data | 12 | Community beliefs stacked against verified game data with verdicts and raw curve evidence |
+| Orphaned Voices | 9 | 596 transcribed voice lines from 9 NPCs — audio in BA2 with no ESM INFO record (large-v3 whisper) |
 | Model Renders | 4 | Rendered creature/item models (Wanamingo, Babymingo, Interloper, MechTest) |
 | Speculations | 3 | Analysis-based interpretations clearly labeled as speculative |
 | C++ Classes (RTTI) | 28,866 | Runtime Type Information from the retail binary — full class hierarchy (lazy-loaded) |
 | Scripts | 7,095 | Papyrus script dependency graph nodes (lazy-loaded) |
 
-**Total: 38,244 searchable entries** across 2,102 files.
+**Total: 38,265 searchable entries** across 2,304+ indexed items.
 
 ## Key Data Categories
 
