@@ -127,14 +127,6 @@
     "sig_length_used": 32,
     "match_type": "unique"
   },
-  "LoadedAreaManager::ClearOldestUnattachedBufferedCell": {
-    "dev_va": 5383370224,
-    "dev_rva": 14661104,
-    "retail_rva": 24207872,
-    "retail_va": 5392916992,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
   "SnapTemplateUtils::ForEachSnapPoint": {
     "dev_va": 5383571008,
     "dev_rva": 14861888,
@@ -231,14 +223,6 @@
     "sig_length_used": 16,
     "match_type": "unique"
   },
-  "CellLoaderTask::Finish": {
-    "dev_va": 5387115680,
-    "dev_rva": 18406560,
-    "retail_rva": 32494640,
-    "retail_va": 5401203760,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "TESObjectCELL::UpdateManagedNodes": {
     "dev_va": 5387194704,
     "dev_rva": 18485584,
@@ -311,92 +295,12 @@
     "sig_length_used": 32,
     "match_type": "unique"
   },
-  "Events::CommandModeEnter": {
-    "dev_va": 5388023168,
-    "dev_rva": 19314048,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::CommandModeExit": {
-    "dev_va": 5388023744,
-    "dev_rva": 19314624,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::Resurrect": {
-    "dev_va": 5388028064,
-    "dev_rva": 19318944,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::EnterBleedout": {
-    "dev_va": 5388029968,
-    "dev_rva": 19320848,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::ExitBleedout": {
-    "dev_va": 5388030544,
-    "dev_rva": 19321424,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::EnterSneaking": {
-    "dev_va": 5388031120,
-    "dev_rva": 19322000,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::EscortWaitStart": {
-    "dev_va": 5388031696,
-    "dev_rva": 19322576,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::EscortWaitStop": {
-    "dev_va": 5388032272,
-    "dev_rva": 19323152,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::ExitLooksMenu": {
-    "dev_va": 5388034160,
-    "dev_rva": 19325040,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
   "Events::LockChanged": {
     "dev_va": 5388043552,
     "dev_rva": 19334432,
     "retail_rva": 22528864,
     "retail_va": 5391237984,
     "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Events::Reset": {
-    "dev_va": 5388053856,
-    "dev_rva": 19344736,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
     "match_type": "unique"
   },
   "TESObjectREFR::Events::SendResolveNPCTemplatesEvent": {
@@ -413,86 +317,6 @@
     "retail_rva": 55196496,
     "retail_va": 5423905616,
     "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "Events::SwitchRaceCompleteEvent": {
-    "dev_va": 5388066720,
-    "dev_rva": 19357600,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::PickNewIdleEvent": {
-    "dev_va": 5388068720,
-    "dev_rva": 19359600,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::ActorForOnPCDialogueTarget": {
-    "dev_va": 5388069296,
-    "dev_rva": 19360176,
-    "retail_rva": 22528864,
-    "retail_va": 5391237984,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Events::OnPlayerHealTeammate": {
-    "dev_va": 5388071840,
-    "dev_rva": 19362720,
-    "retail_rva": 22528864,
-    "retail_va": 5391237984,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Events::OnPlayerCompanionDismiss": {
-    "dev_va": 5388072432,
-    "dev_rva": 19363312,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::OnPlayerCreateRobot": {
-    "dev_va": 5388074112,
-    "dev_rva": 19364992,
-    "retail_rva": 22528864,
-    "retail_va": 5391237984,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Events::OnPlayerEnterVertibird": {
-    "dev_va": 5388076336,
-    "dev_rva": 19367216,
-    "retail_rva": 22528864,
-    "retail_va": 5391237984,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Events::OnPlayerUseWorkBench": {
-    "dev_va": 5388076928,
-    "dev_rva": 19367808,
-    "retail_rva": 22528864,
-    "retail_va": 5391237984,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Events::OnSpeechChallengeAvailable": {
-    "dev_va": 5388077520,
-    "dev_rva": 19368400,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Events::WorkshopReferenceReservationChanged": {
-    "dev_va": 5388078096,
-    "dev_rva": 19368976,
-    "retail_rva": 10975680,
-    "retail_va": 5379684800,
-    "sig_length_used": 32,
     "match_type": "unique"
   },
   "TESObjectREFR::GetWeightInContainer": {
@@ -711,14 +535,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "InventoryDataModel::ProcessEvent::BGSInventoryListEvent": {
-    "dev_va": 5402822416,
-    "dev_rva": 34113296,
-    "retail_rva": 24207872,
-    "retail_va": 5392916992,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
   "OtherInventoryTypeDataModel::UpdateSlotData": {
     "dev_va": 5402963392,
     "dev_rva": 34254272,
@@ -919,14 +735,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "Actor::TrymoveToMiddleLow": {
-    "dev_va": 5411434608,
-    "dev_rva": 42725488,
-    "retail_rva": 7171776,
-    "retail_va": 5375880896,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "Actor::DetachHavok": {
     "dev_va": 5411442560,
     "dev_rva": 42733440,
@@ -983,27 +791,11 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "Actor::ApplyPerksFromBase": {
-    "dev_va": 5411658272,
-    "dev_rva": 42949152,
-    "retail_rva": 7171776,
-    "retail_va": 5375880896,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "Actor::ClearLookAtTarget": {
     "dev_va": 5411704672,
     "dev_rva": 42995552,
     "retail_rva": 29455936,
     "retail_va": 5398165056,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Actor::WornArmorChanged": {
-    "dev_va": 5411834896,
-    "dev_rva": 43125776,
-    "retail_rva": 7171776,
-    "retail_va": 5375880896,
     "sig_length_used": 24,
     "match_type": "unique"
   },
@@ -1069,14 +861,6 @@
     "retail_rva": 46348784,
     "retail_va": 5415057904,
     "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "AIProcess::SetFurniture": {
-    "dev_va": 5412776384,
-    "dev_rva": 44067264,
-    "retail_rva": 6662720,
-    "retail_va": 5375371840,
-    "sig_length_used": 24,
     "match_type": "unique"
   },
   "AIProcess::UpdateTimers": {
@@ -1210,30 +994,6 @@
   "ObjectInterface::GetArraySize": {
     "dev_va": 5426483040,
     "dev_rva": 57773920,
-    "retail_rva": 15468496,
-    "retail_va": 5384177616,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "ObjectInterface::SetArraySize": {
-    "dev_va": 5426483280,
-    "dev_rva": 57774160,
-    "retail_rva": 15468496,
-    "retail_va": 5384177616,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "ObjectInterface::GetCxform": {
-    "dev_va": 5426495696,
-    "dev_rva": 57786576,
-    "retail_rva": 15468496,
-    "retail_va": 5384177616,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "ObjectInterface::SetCxform": {
-    "dev_va": 5426496000,
-    "dev_rva": 57786880,
     "retail_rva": 15468496,
     "retail_va": 5384177616,
     "sig_length_used": 24,
@@ -1391,46 +1151,6 @@
     "sig_length_used": 16,
     "match_type": "unique"
   },
-  "BSResource::GlobalLocations::DoCreateAsyncStream": {
-    "dev_va": 5449294688,
-    "dev_rva": 80585568,
-    "retail_rva": 8684176,
-    "retail_va": 5377393296,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "BSResource::GlobalPaths::DoCreateAsyncStream": {
-    "dev_va": 5449295568,
-    "dev_rva": 80586448,
-    "retail_rva": 8684176,
-    "retail_va": 5377393296,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "BSResource::GlobalLocations::DoCreateStream": {
-    "dev_va": 5449297584,
-    "dev_rva": 80588464,
-    "retail_rva": 8684176,
-    "retail_va": 5377393296,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "BSResource::GlobalPaths::DoCreateStream": {
-    "dev_va": 5449298464,
-    "dev_rva": 80589344,
-    "retail_rva": 8684176,
-    "retail_va": 5377393296,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "VirtualMachine::FindBoundObject": {
-    "dev_va": 5449711504,
-    "dev_rva": 81002384,
-    "retail_rva": 6662720,
-    "retail_va": 5375371840,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "VirtualMachine::DispatchMethodCallImpl": {
     "dev_va": 5449776448,
     "dev_rva": 81067328,
@@ -1548,14 +1268,6 @@
     "dev_rva": 82062720,
     "retail_rva": 55417776,
     "retail_va": 5424126896,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "DrawWorld::MainRenderSetup": {
-    "dev_va": 5450787408,
-    "dev_rva": 82078288,
-    "retail_rva": 6662720,
-    "retail_va": 5375371840,
     "sig_length_used": 24,
     "match_type": "unique"
   },
@@ -1757,16 +1469,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 12
   },
-  "LoadedAreaManager::NotifyCellUnloaded": {
-    "dev_va": 5383380928,
-    "dev_rva": 14671808,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
   "LoadedAreaManager::LoadCellInternal": {
     "dev_va": 5383383488,
     "dev_rva": 14674368,
@@ -1796,26 +1498,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 10
-  },
-  "Workshop::DestroyWall": {
-    "dev_va": 5384462928,
-    "dev_rva": 15753808,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "Workshop::ExtraData::DestroyWall Called.": {
-    "dev_va": 5384462928,
-    "dev_rva": 15753808,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
   },
   "WorkshopNetwork::SnapshotComponent::Serialize": {
     "dev_va": 5384549504,
@@ -1847,16 +1529,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 14
   },
-  "PerkCard::Unequip": {
-    "dev_va": 5385322320,
-    "dev_rva": 16613200,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
   "ExteriorCellLoader::AttachLoadedCell": {
     "dev_va": 5387116720,
     "dev_rva": 18407600,
@@ -1866,26 +1538,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 20
-  },
-  "ExteriorCellLoader::CancelAllCellLoads": {
-    "dev_va": 5387121984,
-    "dev_rva": 18412864,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "ExteriorCellLoader::FinishLoadingAllQueuedCells": {
-    "dev_va": 5387125024,
-    "dev_rva": 18415904,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
   },
   "ExteriorCellLoader::RemoveCell": {
     "dev_va": 5387127488,
@@ -1957,16 +1609,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12
   },
-  "BSTempEffectDebris::Init": {
-    "dev_va": 5392190507,
-    "dev_rva": 23481387,
-    "retail_rva": 2170399,
-    "retail_va": 5370879519,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
   "BGSTerrainManager::UpdateLODLighting": {
     "dev_va": 5392976528,
     "dev_rva": 24267408,
@@ -2017,56 +1659,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 8
   },
-  "BasePlayerCharacter::SetVisitorType": {
-    "dev_va": 5394439744,
-    "dev_rva": 25730624,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
-  "BasePlayerCharacter::NotifyLeftCombatGroup": {
-    "dev_va": 5394440336,
-    "dev_rva": 25731216,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
-  "BasePlayerCharacter::SetVATSCriticalCharge": {
-    "dev_va": 5394448144,
-    "dev_rva": 25739024,
-    "retail_rva": 7255968,
-    "retail_va": 5375965088,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "BasePlayerCharacter::SetGodMode": {
-    "dev_va": 5394462176,
-    "dev_rva": 25753056,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
-  "NetworkQuest::NetDelete": {
-    "dev_va": 5398683792,
-    "dev_rva": 29974672,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
   "NetworkQuestManager::GetNetworkQuest": {
     "dev_va": 5398704352,
     "dev_rva": 29995232,
@@ -2076,66 +1668,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 14
-  },
-  "VisibilityTests::ObjectVisibleToAnyPlayer": {
-    "dev_va": 5399229248,
-    "dev_rva": 30520128,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
-  "HubDataModel::ProcessEvent::InitialClientInfoMsg_Execute": {
-    "dev_va": 5401831456,
-    "dev_rva": 33122336,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "HubDataModel::ProcessEvent::ResetFromQuickplay_Event": {
-    "dev_va": 5401831648,
-    "dev_rva": 33122528,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "HubDataModel::ProcessEvent::ResetFromBabylon_Event": {
-    "dev_va": 5401831856,
-    "dev_rva": 33122736,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "GameStatePromptDataModel::Suspend": {
-    "dev_va": 5403117792,
-    "dev_rva": 34408672,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
-  "GameStatePromptDataModel::Resume": {
-    "dev_va": 5403118016,
-    "dev_rva": 34408896,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
   },
   "WorldDataModel::BabylonConnect": {
     "dev_va": 5403581024,
@@ -2167,16 +1699,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12
   },
-  "UI::Warning": {
-    "dev_va": 5404552793,
-    "dev_rva": 35843673,
-    "retail_rva": 23483296,
-    "retail_va": 5392192416,
-    "sig_length_used": 24,
-    "match_type": "wildcard-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16
-  },
   "PipboyMenu::Call::SCF_ON_NEW_TAB": {
     "dev_va": 5406220435,
     "dev_rva": 37511315,
@@ -2185,26 +1707,6 @@
     "sig_length_used": 14,
     "match_type": "wildcard-14b-4wc",
     "wildcarded_bytes": 4,
-    "concrete_bytes": 10
-  },
-  "WorkshopMenu::ProcessMessage": {
-    "dev_va": 5406652667,
-    "dev_rva": 37943547,
-    "retail_rva": 37611577,
-    "retail_va": 5406320697,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "HeroStats::UpdateHeroStat": {
-    "dev_va": 5407050672,
-    "dev_rva": 38341552,
-    "retail_rva": 35047888,
-    "retail_va": 5403757008,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
     "concrete_bytes": 10
   },
   "PipboyQuestData::Populate()": {
@@ -2237,26 +1739,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 10
   },
-  "MagicTarget::CheckAddEffect": {
-    "dev_va": 5407433255,
-    "dev_rva": 38724135,
-    "retail_rva": 23483296,
-    "retail_va": 5392192416,
-    "sig_length_used": 24,
-    "match_type": "wildcard-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16
-  },
-  "Social::Lobby::KickError - Error sending kick. Not lobby leader.": {
-    "dev_va": 5408014630,
-    "dev_rva": 39305510,
-    "retail_rva": 23704646,
-    "retail_va": 5392413766,
-    "sig_length_used": 10,
-    "match_type": "wildcard-10b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 6
-  },
   "ActiveEffectNetworkEntity::NetDelete": {
     "dev_va": 5408440096,
     "dev_rva": 39730976,
@@ -2266,26 +1748,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 8
-  },
-  "ActiveEffectSnapshotComponent::Serialize": {
-    "dev_va": 5408448776,
-    "dev_rva": 39739656,
-    "retail_rva": 23483296,
-    "retail_va": 5392192416,
-    "sig_length_used": 24,
-    "match_type": "wildcard-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16
-  },
-  "ActorValuesSnapshotComponent::Serialize": {
-    "dev_va": 5408596919,
-    "dev_rva": 39887799,
-    "retail_rva": 23483296,
-    "retail_va": 5392192416,
-    "sig_length_used": 24,
-    "match_type": "wildcard-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16
   },
   "AnimationProgressComponent::UpdateInterpolatorTask": {
     "dev_va": 5408621056,
@@ -2297,16 +1759,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 10
   },
-  "CellNonRefrEntity::PostSerializeRead::NotFound": {
-    "dev_va": 5408640414,
-    "dev_rva": 39931294,
-    "retail_rva": 23483296,
-    "retail_va": 5392192416,
-    "sig_length_used": 24,
-    "match_type": "wildcard-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16
-  },
   "AddInstantEffectMessage::Execute (Failed)": {
     "dev_va": 5410300013,
     "dev_rva": 41590893,
@@ -2317,26 +1769,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 10
   },
-  "SSyncedVariable::Serialize": {
-    "dev_va": 5410429026,
-    "dev_rva": 41719906,
-    "retail_rva": 6651690,
-    "retail_va": 5375360810,
-    "sig_length_used": 16,
-    "match_type": "wildcard-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8
-  },
-  "Game::TESObjectREFR::Selected::SnapshotContents::SSyncedVariable::ScriptValue": {
-    "dev_va": 5410432716,
-    "dev_rva": 41723596,
-    "retail_rva": 14821206,
-    "retail_va": 5383530326,
-    "sig_length_used": 10,
-    "match_type": "wildcard-10b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 6
-  },
   "SnapshotInterpolator::Update": {
     "dev_va": 5410510096,
     "dev_rva": 41800976,
@@ -2346,26 +1778,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 20
-  },
-  "BGSSaveLoadGame::SaveGlobalData": {
-    "dev_va": 5410659527,
-    "dev_rva": 41950407,
-    "retail_rva": 23423975,
-    "retail_va": 5392133095,
-    "sig_length_used": 10,
-    "match_type": "wildcard-10b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 6
-  },
-  "BGSSaveLoadGame::RevertGlobalData": {
-    "dev_va": 5410663428,
-    "dev_rva": 41954308,
-    "retail_rva": 24204580,
-    "retail_va": 5392913700,
-    "sig_length_used": 10,
-    "match_type": "wildcard-10b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 6
   },
   "Actor::Jump": {
     "dev_va": 5411427824,
@@ -2407,16 +1819,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 10
   },
-  "Actor::CancelNetPredictDeath": {
-    "dev_va": 5411523536,
-    "dev_rva": 42814416,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
   "ActorUtils::ForEachRelevantPlayer": {
     "dev_va": 5411609696,
     "dev_rva": 42900576,
@@ -2447,26 +1849,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12
   },
-  "ActorMediator::DoAction": {
-    "dev_va": 5412401336,
-    "dev_rva": 43692216,
-    "retail_rva": 3264752,
-    "retail_va": 5371973872,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
-  "LocalPlayerCharacter::RequestNetworkAuthorityUpdate": {
-    "dev_va": 5413039344,
-    "dev_rva": 44330224,
-    "retail_rva": 59549496,
-    "retail_va": 5428258616,
-    "sig_length_used": 12,
-    "match_type": "wildcard-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8
-  },
   "PerkVisitor::ExportProgressDataPerkVisitor": {
     "dev_va": 5413268256,
     "dev_rva": 44559136,
@@ -2496,16 +1878,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 20
-  },
-  "CombatBehaviorContextMelee::StartAttack": {
-    "dev_va": 5416285413,
-    "dev_rva": 47576293,
-    "retail_rva": 23483296,
-    "retail_va": 5392192416,
-    "sig_length_used": 24,
-    "match_type": "wildcard-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16
   },
   "MovieImpl::Advance": {
     "dev_va": 5423924464,
@@ -2637,47 +2009,7 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20
   },
-  "BSTextureStreamer::Schedule": {
-    "dev_va": 5446948816,
-    "dev_rva": 78239696,
-    "retail_rva": 24656922,
-    "retail_va": 5393366042,
-    "sig_length_used": 10,
-    "match_type": "wildcard-10b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 6
-  },
   "CullingJob::BatchProcessCuller": {
-    "dev_va": 5447075280,
-    "dev_rva": 78366160,
-    "retail_rva": 33428224,
-    "retail_va": 5402137344,
-    "sig_length_used": 14,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 14
-  },
-  "CullingJob::BatchProcessNodeCuller": {
-    "dev_va": 5447075280,
-    "dev_rva": 78366160,
-    "retail_rva": 33428224,
-    "retail_va": 5402137344,
-    "sig_length_used": 14,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 14
-  },
-  "CullingJob::BatchCullP1Arena": {
-    "dev_va": 5447075280,
-    "dev_rva": 78366160,
-    "retail_rva": 33428224,
-    "retail_va": 5402137344,
-    "sig_length_used": 14,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 14
-  },
-  "CullingJob::Accum": {
     "dev_va": 5447075280,
     "dev_rva": 78366160,
     "retail_rva": 33428224,
@@ -2833,94 +2165,6 @@
     "concrete_bytes": 20,
     "interior_offset": 5
   },
-  "LoggingSystem::DEV::game.misc.fow-setting-enum": {
-    "dev_va": 5380401874,
-    "dev_rva": 11692754,
-    "retail_rva": 19156210,
-    "retail_va": 5387865330,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "LoggingSystem::PROD::game.guid": {
-    "dev_va": 5380402020,
-    "dev_rva": 11692900,
-    "retail_rva": 19156210,
-    "retail_va": 5387865330,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "LoggingSystem::DEV::game.guid": {
-    "dev_va": 5380402020,
-    "dev_rva": 11692900,
-    "retail_rva": 19156210,
-    "retail_va": 5387865330,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "LoggingSystem::PROD::game.hotloading": {
-    "dev_va": 5380402020,
-    "dev_rva": 11692900,
-    "retail_rva": 19156210,
-    "retail_va": 5387865330,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "LoggingSystem::DEV::game.hotloading": {
-    "dev_va": 5380402020,
-    "dev_rva": 11692900,
-    "retail_rva": 19156210,
-    "retail_va": 5387865330,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "LoggingSystem::PROD::game.misc.statsd": {
-    "dev_va": 5380406455,
-    "dev_rva": 11697335,
-    "retail_rva": 36784864,
-    "retail_va": 5405493984,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "LoggingSystem::DEV::game.misc.statsd": {
-    "dev_va": 5380406455,
-    "dev_rva": 11697335,
-    "retail_rva": 36784864,
-    "retail_va": 5405493984,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "LoggingSystem::PROD::game.network.componentFactory": {
-    "dev_va": 5380406455,
-    "dev_rva": 11697335,
-    "retail_rva": 36784864,
-    "retail_va": 5405493984,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
   "ContainerItemExtra::GetHealthPercent": {
     "dev_va": 5380900416,
     "dev_rva": 12191296,
@@ -3008,17 +2252,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 10
-  },
-  "TESDataHandler::CreateReferenceAtLocation": {
-    "dev_va": 5382116950,
-    "dev_rva": 13407830,
-    "retail_rva": 13180736,
-    "retail_va": 5381889856,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "TESForm::InitItem": {
     "dev_va": 5382425456,
@@ -3117,17 +2350,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 12,
     "interior_offset": 20
-  },
-  "InstancedCellManager::GenerateRefIDMapper::bDebugCellInstancing": {
-    "dev_va": 5383218702,
-    "dev_rva": 14509582,
-    "retail_rva": 19601792,
-    "retail_va": 5388310912,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
   },
   "InstancedLocation::ForEachCell": {
     "dev_va": 5383227328,
@@ -3228,17 +2450,6 @@
     "concrete_bytes": 24,
     "interior_offset": 5
   },
-  "StatChallengeManager::LogChallengeTrace": {
-    "dev_va": 5383447472,
-    "dev_rva": 14738352,
-    "retail_rva": 18009088,
-    "retail_va": 5386718208,
-    "sig_length_used": 12,
-    "match_type": "interior-off1-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 1
-  },
   "PlayerArea::Detach": {
     "dev_va": 5383504096,
     "dev_rva": 14794976,
@@ -3261,17 +2472,6 @@
     "concrete_bytes": 20,
     "interior_offset": 10
   },
-  "Workshop::UpdateCellAttachment::CellAttached": {
-    "dev_va": 5383877104,
-    "dev_rva": 15167984,
-    "retail_rva": 27429664,
-    "retail_va": 5396138784,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
   "Workshop::WouldSnapFromDistance": {
     "dev_va": 5383941504,
     "dev_rva": 15232384,
@@ -3282,17 +2482,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 12,
     "interior_offset": 15
-  },
-  "WorkshopClient::MultiEditHelper ::ResolveMustSnapItems": {
-    "dev_va": 5384310633,
-    "dev_rva": 15601513,
-    "retail_rva": 46627088,
-    "retail_va": 5415336208,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "WorkshopClient::MultiEditHelper::SetupPlacementValues": {
     "dev_va": 5384311616,
@@ -3358,17 +2547,6 @@
     "match_type": "aggressive-24b-4wc",
     "wildcarded_bytes": 4,
     "concrete_bytes": 20
-  },
-  "BGSLODTerrainManager::UpdateClipmaps": {
-    "dev_va": 5385178908,
-    "dev_rva": 16469788,
-    "retail_rva": 56416032,
-    "retail_va": 5425125152,
-    "sig_length_used": 12,
-    "match_type": "interior-off1-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 1
   },
   "PerkCard::Equip": {
     "dev_va": 5385322032,
@@ -3436,17 +2614,6 @@
     "concrete_bytes": 20,
     "interior_offset": 10
   },
-  "TESEffectShader::StopEffectShader": {
-    "dev_va": 5386437088,
-    "dev_rva": 17727968,
-    "retail_rva": 6844144,
-    "retail_va": 5375553264,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
   "TESObjectDOOR::HandlePlayerTeleport": {
     "dev_va": 5386656256,
     "dev_rva": 17947136,
@@ -3489,17 +2656,6 @@
     "match_type": "interior-off5-20b-0wc",
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
-    "interior_offset": 5
-  },
-  "CellLoaderTask::Cancel": {
-    "dev_va": 5387117328,
-    "dev_rva": 18408208,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
     "interior_offset": 5
   },
   "ExteriorCellLoader::LoadCellData": {
@@ -3545,17 +2701,6 @@
     "concrete_bytes": 20,
     "interior_offset": 15
   },
-  "CELL::ClearReference3D": {
-    "dev_va": 5387262645,
-    "dev_rva": 18553525,
-    "retail_rva": 56416032,
-    "retail_va": 5425125152,
-    "sig_length_used": 16,
-    "match_type": "interior-off20-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "TESObjectCELL::UpdateReferences3DandProcess": {
     "dev_va": 5387265376,
     "dev_rva": 18556256,
@@ -3567,55 +2712,11 @@
     "concrete_bytes": 20,
     "interior_offset": 10
   },
-  "TESObjectCELL::HandlePackInCalcAndReset": {
-    "dev_va": 5387276847,
-    "dev_rva": 18567727,
-    "retail_rva": 5387024,
-    "retail_va": 5374096144,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 12,
-    "interior_offset": 15
-  },
-  "TESObjectCELL::LoadAllTempData": {
-    "dev_va": 5387284446,
-    "dev_rva": 18575326,
-    "retail_rva": 5387024,
-    "retail_va": 5374096144,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 12,
-    "interior_offset": 15
-  },
-  "TESObjectCELL::LoadAndAttachVisibilityData": {
-    "dev_va": 5387292430,
-    "dev_rva": 18583310,
-    "retail_rva": 5387024,
-    "retail_va": 5374096144,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 12,
-    "interior_offset": 15
-  },
   "CELL::UpdateHavokCamera": {
     "dev_va": 5387304277,
     "dev_rva": 18595157,
     "retail_rva": 46627088,
     "retail_va": 5415336208,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 12,
-    "interior_offset": 15
-  },
-  "TESObjectCELL::PrepareStaticNodeAABB": {
-    "dev_va": 5387325646,
-    "dev_rva": 18616526,
-    "retail_rva": 5387024,
-    "retail_va": 5374096144,
     "sig_length_used": 20,
     "match_type": "interior-off15-20b-8wc",
     "wildcarded_bytes": 8,
@@ -3631,17 +2732,6 @@
     "match_type": "interior-off1-12b-0wc",
     "wildcarded_bytes": 0,
     "concrete_bytes": 12,
-    "interior_offset": 1
-  },
-  "TESObjectCELL::LockEnlightenData": {
-    "dev_va": 5387346944,
-    "dev_rva": 18637824,
-    "retail_rva": 6844144,
-    "retail_va": 5375553264,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
     "interior_offset": 1
   },
   "InstancedCellManager::AccessRemapperFn": {
@@ -3688,17 +2778,6 @@
     "concrete_bytes": 16,
     "interior_offset": 15
   },
-  "TESObjectREFR::MarkForPredictiveEnable": {
-    "dev_va": 5387716400,
-    "dev_rva": 19007280,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off1-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 1
-  },
   "TESObjectREFR::MoveRefToNewSpace": {
     "dev_va": 5387718864,
     "dev_rva": 19009744,
@@ -3708,28 +2787,6 @@
     "match_type": "interior-off10-20b-0wc",
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
-    "interior_offset": 10
-  },
-  "Events::LocationLoadStateChanged": {
-    "dev_va": 5388026401,
-    "dev_rva": 19317281,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Events::FormDeleteEvent": {
-    "dev_va": 5388037488,
-    "dev_rva": 19328368,
-    "retail_rva": 10188256,
-    "retail_va": 5378897376,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
     "interior_offset": 10
   },
   "Events::Hit": {
@@ -3742,28 +2799,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12,
     "interior_offset": 5
-  },
-  "Events::QuestInit": {
-    "dev_va": 5388049424,
-    "dev_rva": 19340304,
-    "retail_rva": 10188256,
-    "retail_va": 5378897376,
-    "sig_length_used": 16,
-    "match_type": "interior-off20-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Events::QuestInit::ERROR": {
-    "dev_va": 5388049424,
-    "dev_rva": 19340304,
-    "retail_rva": 10188256,
-    "retail_va": 5378897376,
-    "sig_length_used": 16,
-    "match_type": "interior-off20-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "Events::QuestStartStop::ERROR": {
     "dev_va": 5388052912,
@@ -3796,17 +2831,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 32,
     "interior_offset": 10
-  },
-  "Leveling::GetCalcLevel": {
-    "dev_va": 5388329152,
-    "dev_rva": 19620032,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off1-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 1
   },
   "TESObjectREFR::RemoveItem": {
     "dev_va": 5388417776,
@@ -3874,17 +2898,6 @@
     "concrete_bytes": 16,
     "interior_offset": 15
   },
-  "BGSEntryPoint::HandleEntryPoint": {
-    "dev_va": 5389914941,
-    "dev_rva": 21205821,
-    "retail_rva": 24613982,
-    "retail_va": 5393323102,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
   "PerkEntryVisitor::FanFareEntryPointVisitor": {
     "dev_va": 5389916384,
     "dev_rva": 21207264,
@@ -3905,820 +2918,6 @@
     "match_type": "aggressive-24b-4wc",
     "wildcarded_bytes": 4,
     "concrete_bytes": 20
-  },
-  "Quests::DialogueSharedInfos::Warning": {
-    "dev_va": 5390401765,
-    "dev_rva": 21692645,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::DialogueSuperMutantConversations01::Warning": {
-    "dev_va": 5390401765,
-    "dev_rva": 21692645,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::DialogueSuperMutantConversations02::Warning": {
-    "dev_va": 5390401765,
-    "dev_rva": 21692645,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::DialogueSuperMutantConversations03::Warning": {
-    "dev_va": 5390401765,
-    "dev_rva": 21692645,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::GQ_Swarm::Warning": {
-    "dev_va": 5390420965,
-    "dev_rva": 21711845,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::GQ_WorkshopAttack::Warning": {
-    "dev_va": 5390420965,
-    "dev_rva": 21711845,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::GQ_WorkshopAttackScorchbeasts::Warning": {
-    "dev_va": 5390420965,
-    "dev_rva": 21711845,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::GQ_WorkshopAttackVultures::Warning": {
-    "dev_va": 5390420965,
-    "dev_rva": 21711845,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTNZ03_Box_Hunter::Warning": {
-    "dev_va": 5390428916,
-    "dev_rva": 21719796,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::MTNZ04_Meltdown::Warning": {
-    "dev_va": 5390429066,
-    "dev_rva": 21719946,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::MTNZ05_Messenger::Warning": {
-    "dev_va": 5390429066,
-    "dev_rva": 21719946,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::RDR_Radio_Boosted::Warning": {
-    "dev_va": 5390440165,
-    "dev_rva": 21731045,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::RDR_Radio_Weak::Warning": {
-    "dev_va": 5390440165,
-    "dev_rva": 21731045,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::RE_AssaultKMK01::Warning": {
-    "dev_va": 5390440165,
-    "dev_rva": 21731045,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::RE_AssaultKMK02::Warning": {
-    "dev_va": 5390440165,
-    "dev_rva": 21731045,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::TESTQuestLVC_StackDialogue::Warning": {
-    "dev_va": 5390459365,
-    "dev_rva": 21750245,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::TESTQuestMaster_LVC::Warning": {
-    "dev_va": 5390459365,
-    "dev_rva": 21750245,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::TESTWeather::Warning": {
-    "dev_va": 5390459365,
-    "dev_rva": 21750245,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::TW001::Warning": {
-    "dev_va": 5390459365,
-    "dev_rva": 21750245,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueRadRoach::Scripts": {
-    "dev_va": 5390491621,
-    "dev_rva": 21782501,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueRadStag::Scripts": {
-    "dev_va": 5390491621,
-    "dev_rva": 21782501,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueRadscorpion::Scripts": {
-    "dev_va": 5390491621,
-    "dev_rva": 21782501,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueReaperBot::Scripts": {
-    "dev_va": 5390491621,
-    "dev_rva": 21782501,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::DQ01_DailyQuest::Scripts": {
-    "dev_va": 5390494472,
-    "dev_rva": 21785352,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::DQ01_KillCreatures::Scripts": {
-    "dev_va": 5390494622,
-    "dev_rva": 21785502,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::DQ01_RadioDailyQuest::Scripts": {
-    "dev_va": 5390494622,
-    "dev_rva": 21785502,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::DQR01::Scripts": {
-    "dev_va": 5390494622,
-    "dev_rva": 21785502,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::DQR03::Scripts": {
-    "dev_va": 5390494622,
-    "dev_rva": 21785502,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::FS02::Scripts": {
-    "dev_va": 5390510821,
-    "dev_rva": 21801701,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::FS02_Fruition::Scripts": {
-    "dev_va": 5390510821,
-    "dev_rva": 21801701,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::FS03::Scripts": {
-    "dev_va": 5390510821,
-    "dev_rva": 21801701,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::FSS01::Scripts": {
-    "dev_va": 5390510821,
-    "dev_rva": 21801701,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTR09_Misc::Scripts": {
-    "dev_va": 5390530021,
-    "dev_rva": 21820901,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTR10_Battle::Scripts": {
-    "dev_va": 5390530021,
-    "dev_rva": 21820901,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTRG01_Overtime::Scripts": {
-    "dev_va": 5390530021,
-    "dev_rva": 21820901,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTNG01_Regional::Scripts": {
-    "dev_va": 5390530021,
-    "dev_rva": 21820901,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SF05_ReturnToNormalcy::Scripts": {
-    "dev_va": 5390544052,
-    "dev_rva": 21834932,
-    "retail_rva": 43489344,
-    "retail_va": 5412198464,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SF06_RespectTheDead::Scripts": {
-    "dev_va": 5390544052,
-    "dev_rva": 21834932,
-    "retail_rva": 43489344,
-    "retail_va": 5412198464,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SF07_MoeDigsSafety::Scripts": {
-    "dev_va": 5390544052,
-    "dev_rva": 21834932,
-    "retail_rva": 43489344,
-    "retail_va": 5412198464,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SQ_AirDrop::Scripts": {
-    "dev_va": 5390549221,
-    "dev_rva": 21840101,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SQ_Bounty_Assault::Scripts": {
-    "dev_va": 5390549221,
-    "dev_rva": 21840101,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SQ_Bounty_MostWanted::Scripts": {
-    "dev_va": 5390549221,
-    "dev_rva": 21840101,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SQ_Bounty_Murder::Scripts": {
-    "dev_va": 5390549221,
-    "dev_rva": 21840101,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::TestKurtHolotapeQuest::Scripts": {
-    "dev_va": 5390560022,
-    "dev_rva": 21850902,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::TestKurtQuest::Scripts": {
-    "dev_va": 5390560172,
-    "dev_rva": 21851052,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::TestKurtQuest02::Scripts": {
-    "dev_va": 5390560172,
-    "dev_rva": 21851052,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::TestKurtQuest03::Scripts": {
-    "dev_va": 5390560172,
-    "dev_rva": 21851052,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::TestObjectiveTimer::Scripts": {
-    "dev_va": 5390560172,
-    "dev_rva": 21851052,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::W05_MQR_205P::Scripts": {
-    "dev_va": 5390568421,
-    "dev_rva": 21859301,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::W05_MQR101A::Scripts": {
-    "dev_va": 5390568421,
-    "dev_rva": 21859301,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::W05_MQS201::Scripts": {
-    "dev_va": 5390568421,
-    "dev_rva": 21859301,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::W05_MQS202::Scripts": {
-    "dev_va": 5390568421,
-    "dev_rva": 21859301,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueAssaultron::Scenes": {
-    "dev_va": 5390581477,
-    "dev_rva": 21872357,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueBloatfly::Scenes": {
-    "dev_va": 5390581477,
-    "dev_rva": 21872357,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueBloodbug::Scenes": {
-    "dev_va": 5390581477,
-    "dev_rva": 21872357,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::CreatureDialogueBrahmin::Scenes": {
-    "dev_va": 5390581477,
-    "dev_rva": 21872357,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::ENz04_PatrolHandler::Scenes": {
-    "dev_va": 5390600677,
-    "dev_rva": 21891557,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::ENz09_Room::Scenes": {
-    "dev_va": 5390600677,
-    "dev_rva": 21891557,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::EWSEncounterBuyTable::Scenes": {
-    "dev_va": 5390600677,
-    "dev_rva": 21891557,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::FF00_AreaSpawner::Scenes": {
-    "dev_va": 5390600677,
-    "dev_rva": 21891557,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTR03_BlackwaterMine_AreaSpawner::Scenes": {
-    "dev_va": 5390619877,
-    "dev_rva": 21910757,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTR03_BurningMine_AreaSpawner::Scenes": {
-    "dev_va": 5390619877,
-    "dev_rva": 21910757,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTR03_Demerits::Scenes": {
-    "dev_va": 5390619877,
-    "dev_rva": 21910757,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTR03_DialogueMineGamesSystem::Scenes": {
-    "dev_va": 5390619877,
-    "dev_rva": 21910757,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::MTR_Hornwright_Industrial_Master::Scenes": {
-    "dev_va": 5390625578,
-    "dev_rva": 21916458,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::NoQuest::Scenes": {
-    "dev_va": 5390625578,
-    "dev_rva": 21916458,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::Nuke_Codes::Scenes": {
-    "dev_va": 5390625578,
-    "dev_rva": 21916458,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Quests::SF07_MoeDigsSafety::Scenes": {
-    "dev_va": 5390639077,
-    "dev_rva": 21929957,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SF08_SuicideRun::Scenes": {
-    "dev_va": 5390639077,
-    "dev_rva": 21929957,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::SF08_SuicideRunPre::Scenes": {
-    "dev_va": 5390639077,
-    "dev_rva": 21929957,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::V94Access::Scenes": {
-    "dev_va": 5390658277,
-    "dev_rva": 21949157,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::V94_1::Scenes": {
-    "dev_va": 5390658277,
-    "dev_rva": 21949157,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::V94_2::Scenes": {
-    "dev_va": 5390658277,
-    "dev_rva": 21949157,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Quests::V94_3::Scenes": {
-    "dev_va": 5390658277,
-    "dev_rva": 21949157,
-    "retail_rva": 35880016,
-    "retail_va": 5404589136,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "TESTopicInfo::GetResponseList": {
     "dev_va": 5390952656,
@@ -4785,17 +2984,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
     "interior_offset": 1
-  },
-  "DBTraits::ResolveTextureArrayDependencies": {
-    "dev_va": 5392857294,
-    "dev_rva": 24148174,
-    "retail_rva": 25065360,
-    "retail_va": 5393774480,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 10
   },
   "BGSBttDB::Create": {
     "dev_va": 5392900640,
@@ -4939,17 +3127,6 @@
     "concrete_bytes": 24,
     "interior_offset": 10
   },
-  "Actor::DoNetAction (FAILURE)": {
-    "dev_va": 5394371264,
-    "dev_rva": 25662144,
-    "retail_rva": 33244778,
-    "retail_va": 5401953898,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
   "PC::Resurrect": {
     "dev_va": 5394427984,
     "dev_rva": 25718864,
@@ -4960,61 +3137,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 10
-  },
-  "PC::Update": {
-    "dev_va": 5394430512,
-    "dev_rva": 25721392,
-    "retail_rva": 30356416,
-    "retail_va": 5399065536,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
-  },
-  "BasePlayerCharacter::Update": {
-    "dev_va": 5394430512,
-    "dev_rva": 25721392,
-    "retail_rva": 30356416,
-    "retail_va": 5399065536,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
-  },
-  "BasePlayerCharacter::Update::UpdateCollisionState": {
-    "dev_va": 5394431329,
-    "dev_rva": 25722209,
-    "retail_rva": 43135705,
-    "retail_va": 5411844825,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "NetworkedActivation::Shared::SetAIControlled": {
-    "dev_va": 5394461440,
-    "dev_rva": 25752320,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "NetworkedActivation::Client::SetAIControlled": {
-    "dev_va": 5394461824,
-    "dev_rva": 25752704,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
   },
   "SpectatorCameraState::Begin": {
     "dev_va": 5394658816,
@@ -5049,39 +3171,6 @@
     "concrete_bytes": 24,
     "interior_offset": 5
   },
-  "PowerArmor::HandleFailedInteractionPowerArmorWorkbench": {
-    "dev_va": 5397216368,
-    "dev_rva": 28507248,
-    "retail_rva": 27429664,
-    "retail_va": 5396138784,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "PowerArmor::EndWorkbenchInteraction": {
-    "dev_va": 5397217152,
-    "dev_rva": 28508032,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "RemotePlayerCharacter::CachedPlayerState::Save": {
-    "dev_va": 5397229568,
-    "dev_rva": 28520448,
-    "retail_rva": 30356416,
-    "retail_va": 5399065536,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
   "PerkEntryVisitor::RenderPerkEntryArraysVisitor": {
     "dev_va": 5397732768,
     "dev_rva": 29023648,
@@ -5103,17 +3192,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
     "interior_offset": 1
-  },
-  "NetworkQuestManager::UnregisterNetworkQuest": {
-    "dev_va": 5398705456,
-    "dev_rva": 29996336,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
   },
   "GroupMatchmakingManager::OnWorldJoinInviteResponseReceived received response from an account that was not pending.": {
     "dev_va": 5398828791,
@@ -5170,17 +3248,6 @@
     "concrete_bytes": 12,
     "interior_offset": 20
   },
-  "StormWallManager::UpdateGeometryFromRadius": {
-    "dev_va": 5399041641,
-    "dev_rva": 30332521,
-    "retail_rva": 5387024,
-    "retail_va": 5374096144,
-    "sig_length_used": 24,
-    "match_type": "interior-off15-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16,
-    "interior_offset": 15
-  },
   "TestSetManager::Update": {
     "dev_va": 5399219968,
     "dev_rva": 30510848,
@@ -5203,17 +3270,6 @@
     "concrete_bytes": 16,
     "interior_offset": 15
   },
-  "FalloutWorldsDataModel::ShouldRefreshWorldSocial": {
-    "dev_va": 5400258281,
-    "dev_rva": 31549161,
-    "retail_rva": 59901264,
-    "retail_va": 5428610384,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
   "HUDMessages::ProcessEvent": {
     "dev_va": 5400941456,
     "dev_rva": 32232336,
@@ -5235,16 +3291,6 @@
     "concrete_bytes": 12,
     "interior_offset": 5
   },
-  "PlayerInfoUIDataModel::UpdateDataModel": {
-    "dev_va": 5402628064,
-    "dev_rva": 33918944,
-    "retail_rva": 28266752,
-    "retail_va": 5396975872,
-    "sig_length_used": 24,
-    "match_type": "aggressive-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20
-  },
   "InventoryDataModel::PopulateItem": {
     "dev_va": 5402697568,
     "dev_rva": 33988448,
@@ -5261,39 +3307,6 @@
     "dev_rva": 34000304,
     "retail_rva": 24963760,
     "retail_va": 5393672880,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 1
-  },
-  "OtherInventoryTypeDataModel::PlayerTradeEnd": {
-    "dev_va": 5402710272,
-    "dev_rva": 34001152,
-    "retail_rva": 6844144,
-    "retail_va": 5375553264,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 1
-  },
-  "OtherInventoryTypeDataModel::MenuOpenCloseEvent": {
-    "dev_va": 5402713056,
-    "dev_rva": 34003936,
-    "retail_rva": 6844144,
-    "retail_va": 5375553264,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
-  "OtherInventoryTypeDataModel::PlayerVendingBegin": {
-    "dev_va": 5402714000,
-    "dev_rva": 34004880,
-    "retail_rva": 6844144,
-    "retail_va": 5375553264,
     "sig_length_used": 20,
     "match_type": "interior-off1-20b-0wc",
     "wildcarded_bytes": 0,
@@ -5331,17 +3344,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 20
-  },
-  "HUDDataModel::UpdateHUDModels": {
-    "dev_va": 5404541389,
-    "dev_rva": 35832269,
-    "retail_rva": 33741901,
-    "retail_va": 5402451021,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
   },
   "HUDDataModel::QueueNotification": {
     "dev_va": 5404543760,
@@ -5431,17 +3433,6 @@
     "concrete_bytes": 20,
     "interior_offset": 10
   },
-  "PipboyQuestData::DoClearData()": {
-    "dev_va": 5407096864,
-    "dev_rva": 38387744,
-    "retail_rva": 55378112,
-    "retail_va": 5424087232,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 15
-  },
   "PipboyPlayerInfoData::FillWeaponData": {
     "dev_va": 5407136400,
     "dev_rva": 38427280,
@@ -5474,17 +3465,6 @@
     "concrete_bytes": 32,
     "interior_offset": 1
   },
-  "PipboyPlayerInfoData::FillHPGainData": {
-    "dev_va": 5407140993,
-    "dev_rva": 38431873,
-    "retail_rva": 2183843,
-    "retail_va": 5370892963,
-    "sig_length_used": 16,
-    "match_type": "interior-off5-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
   "ActiveEffect::ResetMagnitude": {
     "dev_va": 5407282304,
     "dev_rva": 38573184,
@@ -5494,16 +3474,6 @@
     "match_type": "aggressive-24b-4wc",
     "wildcarded_bytes": 4,
     "concrete_bytes": 20
-  },
-  "ActiveEffectManager::GenerateUniqueActiveEffectID.Wrapped": {
-    "dev_va": 5407300720,
-    "dev_rva": 38591600,
-    "retail_rva": 24207872,
-    "retail_va": 5392916992,
-    "sig_length_used": 32,
-    "match_type": "aggressive-32b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 28
   },
   "ActorMagicCaster::Update": {
     "dev_va": 5407310352,
@@ -5579,16 +3549,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 28
   },
-  "Social::Lobby::MessageError - Attempted to send member message to the local client.": {
-    "dev_va": 5408009633,
-    "dev_rva": 39300513,
-    "retail_rva": 37093768,
-    "retail_va": 5405802888,
-    "sig_length_used": 20,
-    "match_type": "aggressive-20b-12wc",
-    "wildcarded_bytes": 12,
-    "concrete_bytes": 8
-  },
   "Social::Lobby::JoinLobby - Join Lobby request sent": {
     "dev_va": 5408010852,
     "dev_rva": 39301732,
@@ -5599,17 +3559,6 @@
     "wildcarded_bytes": 12,
     "concrete_bytes": 12,
     "interior_offset": 20
-  },
-  "Social::Lobby::LeaveLobby - Left the Lobby": {
-    "dev_va": 5408023874,
-    "dev_rva": 39314754,
-    "retail_rva": 33240132,
-    "retail_va": 5401949252,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
   },
   "ActorBehaviorComponent::UpdateInterpolatorTask": {
     "dev_va": 5408470256,
@@ -5687,16 +3636,6 @@
     "concrete_bytes": 12,
     "interior_offset": 20
   },
-  "ClientInventoryMutator::AddItem": {
-    "dev_va": 5408782804,
-    "dev_rva": 40073684,
-    "retail_rva": 37093768,
-    "retail_va": 5405802888,
-    "sig_length_used": 20,
-    "match_type": "aggressive-20b-12wc",
-    "wildcarded_bytes": 12,
-    "concrete_bytes": 8
-  },
   "ClientInventoryMutator::SendEvent": {
     "dev_va": 5408788816,
     "dev_rva": 40079696,
@@ -5741,61 +3680,6 @@
     "concrete_bytes": 12,
     "interior_offset": 1
   },
-  "ObjectREFRNetworkEntity::NetDelete": {
-    "dev_va": 5409181488,
-    "dev_rva": 40472368,
-    "retail_rva": 54598768,
-    "retail_va": 5423307888,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "ObjectREFRNetworkEntity::MarkNetCreated canceling delete": {
-    "dev_va": 5409182400,
-    "dev_rva": 40473280,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 16,
-    "match_type": "interior-off20-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "ObjectREFRNetworkEntity::ProcessPendingNetDelete from network": {
-    "dev_va": 5409182640,
-    "dev_rva": 40473520,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 20,
-    "match_type": "interior-off20-20b-12wc",
-    "wildcarded_bytes": 12,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "ObjectREFRNetworkEntity::ProcessPendingNetDelete from game": {
-    "dev_va": 5409182640,
-    "dev_rva": 40473520,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 20,
-    "match_type": "interior-off20-20b-12wc",
-    "wildcarded_bytes": 12,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "PlayerConnection::ProcessEvent": {
-    "dev_va": 5409212592,
-    "dev_rva": 40503472,
-    "retail_rva": 8570704,
-    "retail_va": 5377279824,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
   "PlatformSessionManager::Update - at capacity request timed out": {
     "dev_va": 5409243696,
     "dev_rva": 40534576,
@@ -5806,1128 +3690,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
     "interior_offset": 15
-  },
-  "PlayerCoreSnapshotComponent::PostSerializeRead": {
-    "dev_va": 5409437537,
-    "dev_rva": 40728417,
-    "retail_rva": 60367073,
-    "retail_va": 5429076193,
-    "sig_length_used": 12,
-    "match_type": "interior-off1-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 1
-  },
-  "GameNetworkMessageManager::HandleMessage::EnableClientToSpendVATSCrit": {
-    "dev_va": 5409945153,
-    "dev_rva": 41236033,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::SecureTrading::PlayerTradeRejectOffer": {
-    "dev_va": 5409945153,
-    "dev_rva": 41236033,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::PlayerEmoteUIEventToClient": {
-    "dev_va": 5409945153,
-    "dev_rva": 41236033,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::SecureTrading::PlayerTradeRequestItem": {
-    "dev_va": 5409945153,
-    "dev_rva": 41236033,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::SecureTrading::PlayerTradeAcceptFail": {
-    "dev_va": 5409945665,
-    "dev_rva": 41236545,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::AutomatedTesting::QuestAliasResponse": {
-    "dev_va": 5409945665,
-    "dev_rva": 41236545,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::MessageBoxNetwork::ResetHelpMessageOnClient": {
-    "dev_va": 5409945665,
-    "dev_rva": 41236545,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::LockItemMessage": {
-    "dev_va": 5409945665,
-    "dev_rva": 41236545,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::CreateInstancedCellInLocationMsg": {
-    "dev_va": 5409946433,
-    "dev_rva": 41237313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::RequestOpenPerkCardPackMsg": {
-    "dev_va": 5409946433,
-    "dev_rva": 41237313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::PlayerDecorating::RequestDisplayDecorateItemInSlot": {
-    "dev_va": 5409946433,
-    "dev_rva": 41237313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::HUDExperienceUpdateEventMsg": {
-    "dev_va": 5409946433,
-    "dev_rva": 41237313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::SecureTradingCampVending::ShowItemSoldHudMessage": {
-    "dev_va": 5409947713,
-    "dev_rva": 41238593,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::ActiveDuelServerMsg": {
-    "dev_va": 5409947713,
-    "dev_rva": 41238593,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::DialogueNetworkRM::SetScriptHeadTrackTargetDialogueMessage": {
-    "dev_va": 5409947713,
-    "dev_rva": 41238593,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::NetworkPathManagerHelpers::RequestShortPathBuild": {
-    "dev_va": 5409947713,
-    "dev_rva": 41238593,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::LegendaryPerkCardRequest": {
-    "dev_va": 5409949889,
-    "dev_rva": 41240769,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::ChallengePassXPIncrementedMsg": {
-    "dev_va": 5409949889,
-    "dev_rva": 41240769,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::CreateChainExplosionMessageServer": {
-    "dev_va": 5409949889,
-    "dev_rva": 41240769,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::RequestStartDailyContentMsg": {
-    "dev_va": 5409949889,
-    "dev_rva": 41240769,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::AutomatedTesting::RequestExecutionIndex": {
-    "dev_va": 5409951937,
-    "dev_rva": 41242817,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::AuditClientSharedTitleStorageSettingsMessage": {
-    "dev_va": 5409951937,
-    "dev_rva": 41242817,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::SeasonRankUpPurchasedMsg": {
-    "dev_va": 5409951937,
-    "dev_rva": 41242817,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::HotloadPluginCompleteMessage": {
-    "dev_va": 5409952321,
-    "dev_rva": 41243201,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::RequestTransferItemBatchMsg": {
-    "dev_va": 5409952321,
-    "dev_rva": 41243201,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::SendOnScreenMsg": {
-    "dev_va": 5409952321,
-    "dev_rva": 41243201,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::HandleMessage::WorkshopNetwork::RequestAdjustableSettingUpdate": {
-    "dev_va": 5409952321,
-    "dev_rva": 41243201,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SeenLootMsg": {
-    "dev_va": 5409987201,
-    "dev_rva": 41278081,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeCancelRequestItem": {
-    "dev_va": 5409987201,
-    "dev_rva": 41278081,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::Transporting::CenterOnCellMsg": {
-    "dev_va": 5409987201,
-    "dev_rva": 41278081,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestTransferItemMsg": {
-    "dev_va": 5409987201,
-    "dev_rva": 41278081,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::AbortTransportToInstancedCellMsg": {
-    "dev_va": 5409988609,
-    "dev_rva": 41279489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::MessageBoxNetwork::ClearHelpMessagesOnClient": {
-    "dev_va": 5409988609,
-    "dev_rva": 41279489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::DebugGameplayAutoTestComplete": {
-    "dev_va": 5409988609,
-    "dev_rva": 41279489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ReconnectWireMessage": {
-    "dev_va": 5409988609,
-    "dev_rva": 41279489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PlayDistantSoundMsg": {
-    "dev_va": 5409991809,
-    "dev_rva": 41282689,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::FastTravel::PendingFastTravelCanceledMsg": {
-    "dev_va": 5409991809,
-    "dev_rva": 41282689,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::BabylonBriefcasePickupMsg": {
-    "dev_va": 5409991809,
-    "dev_rva": 41282689,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::EntitlementMappingsRefreshReceiptMsg": {
-    "dev_va": 5409992193,
-    "dev_rva": 41283073,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTrading::RequestPlayerTradeSyncOffers": {
-    "dev_va": 5409992193,
-    "dev_rva": 41283073,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PerkCardChangesMsg": {
-    "dev_va": 5409992193,
-    "dev_rva": 41283073,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PlayerEmoteUIEventToServer": {
-    "dev_va": 5409992193,
-    "dev_rva": 41283073,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::BabylonStalemateMsg": {
-    "dev_va": 5409992705,
-    "dev_rva": 41283585,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestPlaySoundForNearbyPlayersMsg": {
-    "dev_va": 5409992705,
-    "dev_rva": 41283585,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::PlacePackinMessage": {
-    "dev_va": 5409992705,
-    "dev_rva": 41283585,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTradingCampVending::PlayerVendingCreateOffer": {
-    "dev_va": 5409992705,
-    "dev_rva": 41283585,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::AddMusicTypeOnClient": {
-    "dev_va": 5409999745,
-    "dev_rva": 41290625,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PlayerEnteredKeycodeMsg": {
-    "dev_va": 5409999745,
-    "dev_rva": 41290625,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PowerArmorRequestBatteryTransfer": {
-    "dev_va": 5409999745,
-    "dev_rva": 41290625,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::Transporting::NotifyClientAreaLoadedMsg": {
-    "dev_va": 5409999745,
-    "dev_rva": 41290625,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::ContestWorkshopMessage": {
-    "dev_va": 5410000257,
-    "dev_rva": 41291137,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::NewWireMessage": {
-    "dev_va": 5410000257,
-    "dev_rva": 41291137,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PredictKillDeniedMsg": {
-    "dev_va": 5410000257,
-    "dev_rva": 41291137,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::StoreItemMessage": {
-    "dev_va": 5410000257,
-    "dev_rva": 41291137,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PlayDistantLoopingSoundMsg": {
-    "dev_va": 5410002433,
-    "dev_rva": 41293313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::Transporting::ForceMoveToTransformMsg": {
-    "dev_va": 5410002433,
-    "dev_rva": 41293313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::ClientSpecificCollisionChangeMsg": {
-    "dev_va": 5410002433,
-    "dev_rva": 41293313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestWorkshopBudgetReportMessage": {
-    "dev_va": 5410002433,
-    "dev_rva": 41293313,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::CustomMarkerChangeMsg": {
-    "dev_va": 5410002945,
-    "dev_rva": 41293825,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::TerminalNet::NotifyTerminalCloseMessage": {
-    "dev_va": 5410002945,
-    "dev_rva": 41293825,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::TerminalNet::ServerEvalResultsMessage": {
-    "dev_va": 5410002945,
-    "dev_rva": 41293825,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestActivateRefMsg": {
-    "dev_va": 5410002945,
-    "dev_rva": 41293825,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestButtonPressOnServer": {
-    "dev_va": 5410004609,
-    "dev_rva": 41295489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::DialogueNetworkRM::SayTopicInfoMessage": {
-    "dev_va": 5410004609,
-    "dev_rva": 41295489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestCampSlotActivationMsg": {
-    "dev_va": 5410004609,
-    "dev_rva": 41295489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestCampSlotUpdateMsg": {
-    "dev_va": 5410004609,
-    "dev_rva": 41295489,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::Transporting::DenyTeleportToLocationMsg": {
-    "dev_va": 5410006145,
-    "dev_rva": 41297025,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RepairAllMessage": {
-    "dev_va": 5410006145,
-    "dev_rva": 41297025,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::ClientSNREventUpdated": {
-    "dev_va": 5410006145,
-    "dev_rva": 41297025,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::BabylonCombatFeedbackMsg": {
-    "dev_va": 5410006145,
-    "dev_rva": 41297025,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTradingCampVending::PlayerVendingAcceptFail": {
-    "dev_va": 5410010113,
-    "dev_rva": 41300993,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestHitEvent": {
-    "dev_va": 5410010113,
-    "dev_rva": 41300993,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::DailyContentResetMsg": {
-    "dev_va": 5410010113,
-    "dev_rva": 41300993,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SyncGameSecondsPlayed": {
-    "dev_va": 5410010113,
-    "dev_rva": 41300993,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::BabylonTeamLossMsg": {
-    "dev_va": 5410010753,
-    "dev_rva": 41301633,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestInventorySyncMsg": {
-    "dev_va": 5410010753,
-    "dev_rva": 41301633,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::PlayerCurrencyUpdateNotificationMsg": {
-    "dev_va": 5410010753,
-    "dev_rva": 41301633,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestNextSpectatorTargetMsg": {
-    "dev_va": 5410010753,
-    "dev_rva": 41301633,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkbenchNet::RequestScrapItemBatchMessage": {
-    "dev_va": 5410015617,
-    "dev_rva": 41306497,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::QuickPlayMapVotingVoteCastedMsg": {
-    "dev_va": 5410015617,
-    "dev_rva": 41306497,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::ApplyCategorySnapshotOnClient": {
-    "dev_va": 5410015617,
-    "dev_rva": 41306497,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestReloadWeapon": {
-    "dev_va": 5410017537,
-    "dev_rva": 41308417,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestCriticalVATSMsg": {
-    "dev_va": 5410017537,
-    "dev_rva": 41308417,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::EnableClientToSpendVATSCrit": {
-    "dev_va": 5410017537,
-    "dev_rva": 41308417,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeRejectOffer": {
-    "dev_va": 5410017537,
-    "dev_rva": 41308417,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeRequestItem": {
-    "dev_va": 5410018177,
-    "dev_rva": 41309057,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTrading::PlayerTradeAcceptFail": {
-    "dev_va": 5410018177,
-    "dev_rva": 41309057,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::AutomatedTesting::QuestAliasResponse": {
-    "dev_va": 5410018177,
-    "dev_rva": 41309057,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::MessageBoxNetwork::ResetHelpMessageOnClient": {
-    "dev_va": 5410018177,
-    "dev_rva": 41309057,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::DialogueNetworkRM::SetActorInPrivateSceneDialogueMessage": {
-    "dev_va": 5410021505,
-    "dev_rva": 41312385,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::ForceGetPerkCardChangesFromServerMsg": {
-    "dev_va": 5410021505,
-    "dev_rva": 41312385,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::SecureTradingCampVending::RequestPlayerVendingAcceptOffer": {
-    "dev_va": 5410021505,
-    "dev_rva": 41312385,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::AutomatedTesting::QueueBatchedConsoleCommand": {
-    "dev_va": 5410021505,
-    "dev_rva": 41312385,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::CampCollisionMsg": {
-    "dev_va": 5410024187,
-    "dev_rva": 41315067,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "GameNetworkMessageManager::SendMessage::WorkshopNetwork::RequestCampPackUpMsg": {
-    "dev_va": 5410024315,
-    "dev_rva": 41315195,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "GameNetworkMessageManager::SendMessage::RequestSpecialBuildReset": {
-    "dev_va": 5410024315,
-    "dev_rva": 41315195,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "GameNetworkMessageManager::SendMessage::UpdateEntitlementRequests": {
-    "dev_va": 5410024315,
-    "dev_rva": 41315195,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "GameNetworkMessageManager::SendMessage::AutomatedTesting::RequestExecutionIndex": {
-    "dev_va": 5410024315,
-    "dev_rva": 41315195,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "GameNetworkMessageManager::SendMessage::RequestStartExpeditionMsg": {
-    "dev_va": 5410025857,
-    "dev_rva": 41316737,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::RequestStartExpeditionResponseMsg": {
-    "dev_va": 5410025857,
-    "dev_rva": 41316737,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "GameNetworkMessageManager::SendMessage::UNKNOWNMESSAGETYPE": {
-    "dev_va": 5410025857,
-    "dev_rva": 41316737,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
   },
   "InitialClientInfoMsg::PlayerArrivalCallback.NoInventory": {
     "dev_va": 5410162096,
@@ -6961,17 +3723,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 32,
     "interior_offset": 15
-  },
-  "SkyNetworkEntity::NetDelete": {
-    "dev_va": 5410468784,
-    "dev_rva": 41759664,
-    "retail_rva": 27429488,
-    "retail_va": 5396138608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
   },
   "TESObjectREFRPhysicsSnapshotComponent::UpdateInterpolator": {
     "dev_va": 5410477680,
@@ -7059,17 +3810,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12,
     "interior_offset": 15
-  },
-  "ReferenceHandleCleanupPolicy::CleanupItem (Success)": {
-    "dev_va": 5411024293,
-    "dev_rva": 42315173,
-    "retail_rva": 14946004,
-    "retail_va": 5383655124,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 10
   },
   "Main::QuitGame": {
     "dev_va": 5411110144,
@@ -7473,17 +4213,6 @@
     "concrete_bytes": 16,
     "interior_offset": 5
   },
-  "AIProcess::UpdatePendingHeadLoads": {
-    "dev_va": 5412568544,
-    "dev_rva": 43859424,
-    "retail_rva": 25646912,
-    "retail_va": 5394356032,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
   "AIProcess::UpdateHigh": {
     "dev_va": 5412573872,
     "dev_rva": 43864752,
@@ -7516,17 +4245,6 @@
     "wildcarded_bytes": 8,
     "concrete_bytes": 16
   },
-  "LocalPlayerCharacter::HandleActivationResult": {
-    "dev_va": 5412988947,
-    "dev_rva": 44279827,
-    "retail_rva": 22256434,
-    "retail_va": 5390965554,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
   "LocalPlayerCharacter::UpdateQPShuttingDown": {
     "dev_va": 5412993744,
     "dev_rva": 44284624,
@@ -7537,17 +4255,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 10
-  },
-  "LocalPlayerCharacter::OnNetworkTargetAreaLoaded - called": {
-    "dev_va": 5413043664,
-    "dev_rva": 44334544,
-    "retail_rva": 55378112,
-    "retail_va": 5424087232,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 15
   },
   "LocalPlayerCharacter::WornArmorChangedImpl": {
     "dev_va": 5413070432,
@@ -7603,27 +4310,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 15
-  },
-  "MovementAvoidanceManager::Update": {
-    "dev_va": 5413525712,
-    "dev_rva": 44816592,
-    "retail_rva": 28266752,
-    "retail_va": 5396975872,
-    "sig_length_used": 24,
-    "match_type": "aggressive-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20
-  },
-  "ConeProjectile::ProcessImpacts": {
-    "dev_va": 5414083901,
-    "dev_rva": 45374781,
-    "retail_rva": 37288432,
-    "retail_va": 5405997552,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
   },
   "GiganticExplosion::FindTargets": {
     "dev_va": 5414128576,
@@ -7691,391 +4377,6 @@
     "concrete_bytes": 20,
     "interior_offset": 5
   },
-  "Scripts::DebugTrace::ENz03": {
-    "dev_va": 5418584035,
-    "dev_rva": 49874915,
-    "retail_rva": 26039500,
-    "retail_va": 5394748620,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Scripts::DebugTrace::ENz04": {
-    "dev_va": 5418584035,
-    "dev_rva": 49874915,
-    "retail_rva": 26039500,
-    "retail_va": 5394748620,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Scripts::DebugTrace::ENz05": {
-    "dev_va": 5418584035,
-    "dev_rva": 49874915,
-    "retail_rva": 26039500,
-    "retail_va": 5394748620,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Scripts::DebugTrace::ENz06": {
-    "dev_va": 5418584035,
-    "dev_rva": 49874915,
-    "retail_rva": 26039500,
-    "retail_va": 5394748620,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Scripts::DebugTrace::LC066": {
-    "dev_va": 5418596417,
-    "dev_rva": 49887297,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::LC067": {
-    "dev_va": 5418596417,
-    "dev_rva": 49887297,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::LC068": {
-    "dev_va": 5418596417,
-    "dev_rva": 49887297,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::LC143": {
-    "dev_va": 5418607321,
-    "dev_rva": 49898201,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::LC144": {
-    "dev_va": 5418607321,
-    "dev_rva": 49898201,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::LC145": {
-    "dev_va": 5418607321,
-    "dev_rva": 49898201,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::LC157": {
-    "dev_va": 5418609445,
-    "dev_rva": 49900325,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Scripts::DebugTrace::LC158": {
-    "dev_va": 5418609445,
-    "dev_rva": 49900325,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Scripts::DebugTrace::LC194": {
-    "dev_va": 5418614593,
-    "dev_rva": 49905473,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::LC195": {
-    "dev_va": 5418614593,
-    "dev_rva": 49905473,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::LC196": {
-    "dev_va": 5418614593,
-    "dev_rva": 49905473,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::POI009": {
-    "dev_va": 5418629852,
-    "dev_rva": 49920732,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 16,
-    "match_type": "interior-off15-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Scripts::DebugTrace::POI010": {
-    "dev_va": 5418629994,
-    "dev_rva": 49920874,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 16,
-    "match_type": "interior-off15-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Scripts::DebugTrace::POI011": {
-    "dev_va": 5418629994,
-    "dev_rva": 49920874,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 16,
-    "match_type": "interior-off15-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Scripts::DebugTrace::POI012": {
-    "dev_va": 5418629994,
-    "dev_rva": 49920874,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 16,
-    "match_type": "interior-off15-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Scripts::DebugTrace::POI013": {
-    "dev_va": 5418629994,
-    "dev_rva": 49920874,
-    "retail_rva": 9797056,
-    "retail_va": 5378506176,
-    "sig_length_used": 16,
-    "match_type": "interior-off15-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "Scripts::DebugTrace::POI030": {
-    "dev_va": 5418632769,
-    "dev_rva": 49923649,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::POI031": {
-    "dev_va": 5418632769,
-    "dev_rva": 49923649,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::POI032": {
-    "dev_va": 5418632769,
-    "dev_rva": 49923649,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::POI059": {
-    "dev_va": 5418636857,
-    "dev_rva": 49927737,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::POI060": {
-    "dev_va": 5418636857,
-    "dev_rva": 49927737,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::POI061": {
-    "dev_va": 5418636857,
-    "dev_rva": 49927737,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::POI158": {
-    "dev_va": 5418650945,
-    "dev_rva": 49941825,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::POI159": {
-    "dev_va": 5418650945,
-    "dev_rva": 49941825,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::POI160": {
-    "dev_va": 5418650945,
-    "dev_rva": 49941825,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::POI187": {
-    "dev_va": 5418655033,
-    "dev_rva": 49945913,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::POI188": {
-    "dev_va": 5418655033,
-    "dev_rva": 49945913,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::POI189": {
-    "dev_va": 5418655033,
-    "dev_rva": 49945913,
-    "retail_rva": 25183488,
-    "retail_va": 5393892608,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 10
-  },
-  "Scripts::DebugTrace::V63": {
-    "dev_va": 5418669121,
-    "dev_rva": 49960001,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::V76": {
-    "dev_va": 5418669121,
-    "dev_rva": 49960001,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "Scripts::DebugTrace::V94": {
-    "dev_va": 5418669121,
-    "dev_rva": 49960001,
-    "retail_rva": 7360752,
-    "retail_va": 5376069872,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
   "LoadProcess::AddImageResource": {
     "dev_va": 5424440448,
     "dev_rva": 55731328,
@@ -8101,83 +4402,6 @@
   "SKI_BlendMode::DrawBundleEntry": {
     "dev_va": 5425548384,
     "dev_rva": 56839264,
-    "retail_rva": 41172016,
-    "retail_va": 5409881136,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "SKI_Filter::DrawBundleEntry": {
-    "dev_va": 5425549024,
-    "dev_rva": 56839904,
-    "retail_rva": 41172016,
-    "retail_va": 5409881136,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "SKI_ViewMatrix3D::DrawBundleEntry": {
-    "dev_va": 5425550000,
-    "dev_rva": 56840880,
-    "retail_rva": 41172016,
-    "retail_va": 5409881136,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "SKI_Primitive::DrawBundleEntry": {
-    "dev_va": 5425550352,
-    "dev_rva": 56841232,
-    "retail_rva": 41172016,
-    "retail_va": 5409881136,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "SKI_ProjectionMatrix3D::DrawBundleEntry": {
-    "dev_va": 5425551936,
-    "dev_rva": 56842816,
-    "retail_rva": 41172016,
-    "retail_va": 5409881136,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "Scaleform::Render::SKI_UserData::DrawBundleEntry": {
-    "dev_va": 5425552576,
-    "dev_rva": 56843456,
-    "retail_rva": 41172016,
-    "retail_va": 5409881136,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "SKI_MaskStart::DrawBundleEntry": {
-    "dev_va": 5425553264,
-    "dev_rva": 56844144,
-    "retail_rva": 41172016,
-    "retail_va": 5409881136,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "SKI_TextPrimitive::DrawBundleEntry": {
-    "dev_va": 5426058592,
-    "dev_rva": 57349472,
     "retail_rva": 41172016,
     "retail_va": 5409881136,
     "sig_length_used": 24,
@@ -8912,17 +5136,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "ClassTraits::AVM1Movie": {
-    "dev_va": 5428095600,
-    "dev_rva": 59386480,
-    "retail_rva": 39147883,
-    "retail_va": 5407857003,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "ClassTraits::ActionScriptVersion": {
     "dev_va": 5428095648,
     "dev_rva": 59386528,
@@ -8944,39 +5157,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 16,
     "interior_offset": 1
-  },
-  "ClassTraits::BlendMode": {
-    "dev_va": 5428095808,
-    "dev_rva": 59386688,
-    "retail_rva": 39123752,
-    "retail_va": 5407832872,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "Classes::CapsStyle": {
-    "dev_va": 5428095856,
-    "dev_rva": 59386736,
-    "retail_rva": 34187539,
-    "retail_va": 5402896659,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "InstanceTraits::DisplayObject": {
-    "dev_va": 5428095888,
-    "dev_rva": 59386768,
-    "retail_rva": 60524650,
-    "retail_va": 5429233770,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "InstanceTraits::DisplayObjectContainer": {
     "dev_va": 5428095936,
@@ -9011,17 +5191,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "InstanceTraits::GraphicsEndFill": {
-    "dev_va": 5428096160,
-    "dev_rva": 59387040,
-    "retail_rva": 34387504,
-    "retail_va": 5403096624,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "InstanceTraits::GraphicsPath": {
     "dev_va": 5428096256,
     "dev_rva": 59387136,
@@ -9043,17 +5212,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 16,
     "interior_offset": 1
-  },
-  "ClassTraits::IGraphicsFill": {
-    "dev_va": 5428096480,
-    "dev_rva": 59387360,
-    "retail_rva": 13700830,
-    "retail_va": 5382409950,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "Classes::InterpolationMethod": {
     "dev_va": 5428096576,
@@ -9086,39 +5244,6 @@
     "match_type": "interior-off20-24b-8wc",
     "wildcarded_bytes": 8,
     "concrete_bytes": 16,
-    "interior_offset": 20
-  },
-  "Classes::LoaderInfo": {
-    "dev_va": 5428096720,
-    "dev_rva": 59387600,
-    "retail_rva": 14250127,
-    "retail_va": 5382959247,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "InstanceTraits::LoaderInfo": {
-    "dev_va": 5428096736,
-    "dev_rva": 59387616,
-    "retail_rva": 14250127,
-    "retail_va": 5382959247,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "ClassTraits::MorphShape": {
-    "dev_va": 5428096768,
-    "dev_rva": 59387648,
-    "retail_rva": 59190432,
-    "retail_va": 5427899552,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
     "interior_offset": 20
   },
   "InstanceTraits::MorphShape": {
@@ -9165,50 +5290,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "ClassTraits::ShaderJob": {
-    "dev_va": 5428097024,
-    "dev_rva": 59387904,
-    "retail_rva": 44145613,
-    "retail_va": 5412854733,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "ClassTraits::ShaderParameterType": {
-    "dev_va": 5428097056,
-    "dev_rva": 59387936,
-    "retail_rva": 4838352,
-    "retail_va": 5373547472,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "ClassTraits::ShaderPrecision": {
-    "dev_va": 5428097088,
-    "dev_rva": 59387968,
-    "retail_rva": 23387621,
-    "retail_va": 5392096741,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "InstanceTraits::Shape": {
-    "dev_va": 5428097136,
-    "dev_rva": 59388016,
-    "retail_rva": 6790416,
-    "retail_va": 5375499536,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "ClassTraits::SimpleButton": {
     "dev_va": 5428097168,
     "dev_rva": 59388048,
@@ -9231,17 +5312,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "ClassTraits::SpreadMethod": {
-    "dev_va": 5428097216,
-    "dev_rva": 59388096,
-    "retail_rva": 36093327,
-    "retail_va": 5404802447,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "ClassTraits::Sprite": {
     "dev_va": 5428097248,
     "dev_rva": 59388128,
@@ -9252,17 +5322,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 16,
     "interior_offset": 1
-  },
-  "InstanceTraits::Sprite": {
-    "dev_va": 5428097264,
-    "dev_rva": 59388144,
-    "retail_rva": 59190432,
-    "retail_va": 5427899552,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "ClassTraits::StageDisplayState": {
     "dev_va": 5428097392,
@@ -9275,17 +5334,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "Classes::StageDisplayState": {
-    "dev_va": 5428097408,
-    "dev_rva": 59388288,
-    "retail_rva": 31852336,
-    "retail_va": 5400561456,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "ClassTraits::StageQuality": {
     "dev_va": 5428097424,
     "dev_rva": 59388304,
@@ -9296,28 +5344,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 16,
     "interior_offset": 1
-  },
-  "Classes::StageScaleMode": {
-    "dev_va": 5428097472,
-    "dev_rva": 59388352,
-    "retail_rva": 20732624,
-    "retail_va": 5389441744,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 5
-  },
-  "ClassTraits::ApplicationDomain": {
-    "dev_va": 5428124160,
-    "dev_rva": 59415040,
-    "retail_rva": 13700830,
-    "retail_va": 5382409950,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "ClassTraits::IME": {
     "dev_va": 5428124256,
@@ -9352,17 +5378,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "ClassTraits::LoaderContext": {
-    "dev_va": 5428124320,
-    "dev_rva": 59415200,
-    "retail_rva": 51056265,
-    "retail_va": 5419765385,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "Classes::SecurityDomain": {
     "dev_va": 5428124416,
     "dev_rva": 59415296,
@@ -9396,17 +5411,6 @@
     "concrete_bytes": 20,
     "interior_offset": 15
   },
-  "ClassTraits::InvalidSWFError": {
-    "dev_va": 5428128432,
-    "dev_rva": 59419312,
-    "retail_rva": 51056265,
-    "retail_va": 5419765385,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "ClassTraits::StackOverflowError": {
     "dev_va": 5428128480,
     "dev_rva": 59419360,
@@ -9417,28 +5421,6 @@
     "wildcarded_bytes": 12,
     "concrete_bytes": 20,
     "interior_offset": 5
-  },
-  "ClassTraits::AccessibilityImplementation": {
-    "dev_va": 5428132720,
-    "dev_rva": 59423600,
-    "retail_rva": 51056265,
-    "retail_va": 5419765385,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "InstanceTraits::AccessibilityProperties": {
-    "dev_va": 5428132784,
-    "dev_rva": 59423664,
-    "retail_rva": 9685030,
-    "retail_va": 5378394150,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
   },
   "ClassTraits::ColorTransform": {
     "dev_va": 5428239056,
@@ -9605,17 +5587,6 @@
     "concrete_bytes": 24,
     "interior_offset": 10
   },
-  "BSCoreMessage::DoWarning": {
-    "dev_va": 5437074768,
-    "dev_rva": 68365648,
-    "retail_rva": 8570704,
-    "retail_va": 5377279824,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
   "BSCoreMessage::Warning": {
     "dev_va": 5437075408,
     "dev_rva": 68366288,
@@ -9626,17 +5597,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12,
     "interior_offset": 15
-  },
-  "BSCoreMessage::VSend": {
-    "dev_va": 5437077376,
-    "dev_rva": 68368256,
-    "retail_rva": 8570704,
-    "retail_va": 5377279824,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
   },
   "AnimationFileManagerSingleton::UpdateForManager": {
     "dev_va": 5442080080,
@@ -9748,17 +5708,6 @@
     "concrete_bytes": 16,
     "interior_offset": 10
   },
-  "BSScaleformManager::LoadMovieDef": {
-    "dev_va": 5447621040,
-    "dev_rva": 78911920,
-    "retail_rva": 6844144,
-    "retail_va": 5375553264,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
   "UiFlashPublisher::OnShowLoadingScreen": {
     "dev_va": 5447636272,
     "dev_rva": 78927152,
@@ -9768,17 +5717,6 @@
     "match_type": "interior-off15-24b-0wc",
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
-    "interior_offset": 15
-  },
-  "Scaleform::Render::D3D1x::Texture::Initialize": {
-    "dev_va": 5447807488,
-    "dev_rva": 79098368,
-    "retail_rva": 40762240,
-    "retail_va": 5409471360,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
     "interior_offset": 15
   },
   "Classes::ExternalInterface": {
@@ -9869,28 +5807,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "Classes::XMLNodeType": {
-    "dev_va": 5447960032,
-    "dev_rva": 79250912,
-    "retail_rva": 39229824,
-    "retail_va": 5407938944,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
-  "MovementAvoidBoxManager::CheckAvoidBox() - Create avoid Box": {
-    "dev_va": 5449101952,
-    "dev_rva": 80392832,
-    "retail_rva": 45858044,
-    "retail_va": 5414567164,
-    "sig_length_used": 16,
-    "match_type": "interior-off20-16b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 8,
-    "interior_offset": 20
-  },
   "BSResource::LocationTree::DoCreateAsyncStream": {
     "dev_va": 5449296448,
     "dev_rva": 80587328,
@@ -9968,39 +5884,6 @@
     "concrete_bytes": 24,
     "interior_offset": 5
   },
-  "BSEnlighten::EnlightenSceneData::ToggleLightmaps": {
-    "dev_va": 5450454640,
-    "dev_rva": 81745520,
-    "retail_rva": 37303664,
-    "retail_va": 5406012784,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "BSEnlighten::EnlightenSceneData::ToggleProbes": {
-    "dev_va": 5450454880,
-    "dev_rva": 81745760,
-    "retail_rva": 37303664,
-    "retail_va": 5406012784,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
-  "BSEnlighten::EnlightenSceneData::ToggleCubeMaps": {
-    "dev_va": 5450455120,
-    "dev_rva": 81746000,
-    "retail_rva": 37303664,
-    "retail_va": 5406012784,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 8,
-    "interior_offset": 15
-  },
   "BSEnlighten::Lightmaps::`anonymous-namespace'::SetEnvironmentLightValues": {
     "dev_va": 5450550416,
     "dev_rva": 81841296,
@@ -10011,16 +5894,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
     "interior_offset": 10
-  },
-  "BSEnlighten::Global::`anonymous-namespace'::UpdateEnlightenSystems": {
-    "dev_va": 5450555104,
-    "dev_rva": 81845984,
-    "retail_rva": 28266752,
-    "retail_va": 5396975872,
-    "sig_length_used": 24,
-    "match_type": "aggressive-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20
   },
   "BSEnlighten::Global::`anonymous-namespace'::UpdateEnlightenSystemsProbeSetsAndCubemaps": {
     "dev_va": 5450555792,
@@ -10078,28 +5951,6 @@
     "interior_offset": 10
   },
   "DrawWorld::Render_PreUI": {
-    "dev_va": 5450749408,
-    "dev_rva": 82040288,
-    "retail_rva": 32494640,
-    "retail_va": 5401203760,
-    "sig_length_used": 16,
-    "match_type": "interior-off20-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 20
-  },
-  "DrawWorld::UpdateTerrain": {
-    "dev_va": 5450749408,
-    "dev_rva": 82040288,
-    "retail_rva": 32494640,
-    "retail_va": 5401203760,
-    "sig_length_used": 16,
-    "match_type": "interior-off20-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 20
-  },
-  "DrawWorld::UpdateWater": {
     "dev_va": 5450749408,
     "dev_rva": 82040288,
     "retail_rva": 32494640,
@@ -10274,16 +6125,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 5
-  },
-  "BNetWebsocket::Shutdown: called": {
-    "dev_va": 5457168448,
-    "dev_rva": 88459328,
-    "retail_rva": 55378112,
-    "retail_va": 5424087232,
-    "sig_length_used": 32,
-    "match_type": "aggressive-32b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 28
   },
   "?$ArrayNestedUIValue::UItemLevelEligibilityEntry::ExamineMenu::vfunc_0": {
     "dev_va": 5369037961,
@@ -18385,15 +14226,6 @@
     "vtable_class": "BGSIdleMarker",
     "vtable_index": 0
   },
-  "BGSIdleMarker::vfunc_9_base144": {
-    "dev_va": 5369665641,
-    "dev_rva": 956521,
-    "retail_rva": 5747552,
-    "retail_va": 5374456672,
-    "match_type": "vtable",
-    "vtable_class": "BGSIdleMarker",
-    "vtable_index": 9
-  },
   "BGSIdleMarker::vfunc_0_base152": {
     "dev_va": 5369472281,
     "dev_rva": 763161,
@@ -19672,15 +15504,6 @@
     "vtable_class": "BGSTerminal",
     "vtable_index": 117
   },
-  "BGSTerminal::vfunc_118": {
-    "dev_va": 5369451406,
-    "dev_rva": 742286,
-    "retail_rva": 4543904,
-    "retail_va": 5373253024,
-    "match_type": "vtable",
-    "vtable_class": "BGSTerminal",
-    "vtable_index": 118
-  },
   "BGSTerminal::vfunc_0_base144": {
     "dev_va": 5369026321,
     "dev_rva": 317201,
@@ -20725,69 +16548,6 @@
     "vtable_class": "BSGeometry",
     "vtable_index": 12
   },
-  "BSGeometry::vfunc_30": {
-    "dev_va": 5369120046,
-    "dev_rva": 410926,
-    "retail_rva": 3789088,
-    "retail_va": 5372498208,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 30
-  },
-  "BSGeometry::vfunc_31": {
-    "dev_va": 5369966186,
-    "dev_rva": 1257066,
-    "retail_rva": 3789136,
-    "retail_va": 5372498256,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 31
-  },
-  "BSGeometry::vfunc_32": {
-    "dev_va": 5368854791,
-    "dev_rva": 145671,
-    "retail_rva": 3789120,
-    "retail_va": 5372498240,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 32
-  },
-  "BSGeometry::vfunc_33": {
-    "dev_va": 5368767421,
-    "dev_rva": 58301,
-    "retail_rva": 3789168,
-    "retail_va": 5372498288,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 33
-  },
-  "BSGeometry::vfunc_34": {
-    "dev_va": 5369355606,
-    "dev_rva": 646486,
-    "retail_rva": 3789152,
-    "retail_va": 5372498272,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 34
-  },
-  "BSGeometry::vfunc_35": {
-    "dev_va": 5369828606,
-    "dev_rva": 1119486,
-    "retail_rva": 3789200,
-    "retail_va": 5372498320,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 35
-  },
-  "BSGeometry::vfunc_36": {
-    "dev_va": 5369456411,
-    "dev_rva": 747291,
-    "retail_rva": 3789184,
-    "retail_va": 5372498304,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 36
-  },
   "BSGeometry::vfunc_37": {
     "dev_va": 5370081861,
     "dev_rva": 1372741,
@@ -20850,15 +16610,6 @@
     "match_type": "vtable",
     "vtable_class": "BSGeometry",
     "vtable_index": 53
-  },
-  "BSGeometry::vfunc_54": {
-    "dev_va": 5369018366,
-    "dev_rva": 309246,
-    "retail_rva": 3789472,
-    "retail_va": 5372498592,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 54
   },
   "BSGeometry::vfunc_55": {
     "dev_va": 5369391311,
@@ -20931,15 +16682,6 @@
     "match_type": "vtable",
     "vtable_class": "BSGeometry",
     "vtable_index": 62
-  },
-  "BSGeometry::vfunc_63": {
-    "dev_va": 5369535346,
-    "dev_rva": 826226,
-    "retail_rva": 58572592,
-    "retail_va": 5427281712,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 63
   },
   "BSGeometry::vfunc_64": {
     "dev_va": 5370037681,
@@ -21021,15 +16763,6 @@
     "match_type": "vtable",
     "vtable_class": "BSGeometry",
     "vtable_index": 72
-  },
-  "BSGeometry::vfunc_73": {
-    "dev_va": 5369058856,
-    "dev_rva": 349736,
-    "retail_rva": 58630464,
-    "retail_va": 5427339584,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 73
   },
   "BSInputEventUser::vfunc_0": {
     "dev_va": 5368865681,
@@ -21157,69 +16890,6 @@
     "vtable_class": "BSTriShape",
     "vtable_index": 16
   },
-  "BSTriShape::vfunc_30": {
-    "dev_va": 5368988641,
-    "dev_rva": 279521,
-    "retail_rva": 3789088,
-    "retail_va": 5372498208,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 30
-  },
-  "BSTriShape::vfunc_31": {
-    "dev_va": 5369112066,
-    "dev_rva": 402946,
-    "retail_rva": 3789136,
-    "retail_va": 5372498256,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 31
-  },
-  "BSTriShape::vfunc_32": {
-    "dev_va": 5369696826,
-    "dev_rva": 987706,
-    "retail_rva": 3789120,
-    "retail_va": 5372498240,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 32
-  },
-  "BSTriShape::vfunc_33": {
-    "dev_va": 5369596676,
-    "dev_rva": 887556,
-    "retail_rva": 3789168,
-    "retail_va": 5372498288,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 33
-  },
-  "BSTriShape::vfunc_34": {
-    "dev_va": 5369109126,
-    "dev_rva": 400006,
-    "retail_rva": 3789152,
-    "retail_va": 5372498272,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 34
-  },
-  "BSTriShape::vfunc_35": {
-    "dev_va": 5368877026,
-    "dev_rva": 167906,
-    "retail_rva": 3789200,
-    "retail_va": 5372498320,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 35
-  },
-  "BSTriShape::vfunc_36": {
-    "dev_va": 5369278286,
-    "dev_rva": 569166,
-    "retail_rva": 3789184,
-    "retail_va": 5372498304,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 36
-  },
   "BSTriShape::vfunc_55": {
     "dev_va": 5369391311,
     "dev_rva": 682191,
@@ -21273,15 +16943,6 @@
     "match_type": "vtable",
     "vtable_class": "BSTriShape",
     "vtable_index": 60
-  },
-  "BSTriShape::vfunc_73": {
-    "dev_va": 5369635086,
-    "dev_rva": 925966,
-    "retail_rva": 58630464,
-    "retail_va": 5427339584,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 73
   },
   "ContainerMenu::vfunc_0": {
     "dev_va": 5369939621,
@@ -21768,15 +17429,6 @@
     "match_type": "vtable",
     "vtable_class": "EnchantmentItem",
     "vtable_index": 22
-  },
-  "EnchantmentItem::vfunc_132": {
-    "dev_va": 5370105796,
-    "dev_rva": 1396676,
-    "retail_rva": 4543568,
-    "retail_va": 5373252688,
-    "match_type": "vtable",
-    "vtable_class": "EnchantmentItem",
-    "vtable_index": 132
   },
   "EnchantmentItem::vfunc_133": {
     "dev_va": 5368831406,
@@ -23425,33 +19077,6 @@
     "vtable_class": "MagicTarget",
     "vtable_index": 1
   },
-  "MagicTarget::vfunc_2": {
-    "dev_va": 5369778851,
-    "dev_rva": 1069731,
-    "retail_rva": 59562960,
-    "retail_va": 5428272080,
-    "match_type": "vtable",
-    "vtable_class": "MagicTarget",
-    "vtable_index": 2
-  },
-  "MagicTarget::vfunc_3": {
-    "dev_va": 5369504806,
-    "dev_rva": 795686,
-    "retail_rva": 59562960,
-    "retail_va": 5428272080,
-    "match_type": "vtable",
-    "vtable_class": "MagicTarget",
-    "vtable_index": 3
-  },
-  "MagicTarget::vfunc_4": {
-    "dev_va": 5369904166,
-    "dev_rva": 1195046,
-    "retail_rva": 59562960,
-    "retail_va": 5428272080,
-    "match_type": "vtable",
-    "vtable_class": "MagicTarget",
-    "vtable_index": 4
-  },
   "MagicTarget::vfunc_5": {
     "dev_va": 5369216411,
     "dev_rva": 507291,
@@ -23839,60 +19464,6 @@
     "vtable_class": "NiNode",
     "vtable_index": 8
   },
-  "NiAVObject::vfunc_31": {
-    "dev_va": 5369635516,
-    "dev_rva": 926396,
-    "retail_rva": 3789136,
-    "retail_va": 5372498256,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 31
-  },
-  "NiAVObject::vfunc_32": {
-    "dev_va": 5369405766,
-    "dev_rva": 696646,
-    "retail_rva": 3789120,
-    "retail_va": 5372498240,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 32
-  },
-  "NiAVObject::vfunc_33": {
-    "dev_va": 5370011246,
-    "dev_rva": 1302126,
-    "retail_rva": 3789168,
-    "retail_va": 5372498288,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 33
-  },
-  "NiAVObject::vfunc_34": {
-    "dev_va": 5369192751,
-    "dev_rva": 483631,
-    "retail_rva": 3789152,
-    "retail_va": 5372498272,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 34
-  },
-  "NiAVObject::vfunc_35": {
-    "dev_va": 5369249131,
-    "dev_rva": 540011,
-    "retail_rva": 3789200,
-    "retail_va": 5372498320,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 35
-  },
-  "NiAVObject::vfunc_36": {
-    "dev_va": 5369844396,
-    "dev_rva": 1135276,
-    "retail_rva": 3789184,
-    "retail_va": 5372498304,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 36
-  },
   "NiAVObject::vfunc_37": {
     "dev_va": 5369225211,
     "dev_rva": 516091,
@@ -23919,15 +19490,6 @@
     "match_type": "vtable",
     "vtable_class": "NiAVObject",
     "vtable_index": 53
-  },
-  "NiAVObject::vfunc_54": {
-    "dev_va": 5369125096,
-    "dev_rva": 415976,
-    "retail_rva": 3789472,
-    "retail_va": 5372498592,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 54
   },
   "NiAVObject::vfunc_55": {
     "dev_va": 5369698231,
@@ -23992,15 +19554,6 @@
     "vtable_class": "NiAVObject",
     "vtable_index": 61
   },
-  "NiAVObject::vfunc_63": {
-    "dev_va": 5369490196,
-    "dev_rva": 781076,
-    "retail_rva": 58572592,
-    "retail_va": 5427281712,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 63
-  },
   "NiNode::vfunc_0": {
     "dev_va": 5368887076,
     "dev_rva": 177956,
@@ -24019,33 +19572,6 @@
     "vtable_class": "NiNode",
     "vtable_index": 2
   },
-  "NiNode::vfunc_30": {
-    "dev_va": 5370056896,
-    "dev_rva": 1347776,
-    "retail_rva": 3789088,
-    "retail_va": 5372498208,
-    "match_type": "vtable",
-    "vtable_class": "NiNode",
-    "vtable_index": 30
-  },
-  "NiNode::vfunc_36": {
-    "dev_va": 5368915306,
-    "dev_rva": 206186,
-    "retail_rva": 3789184,
-    "retail_va": 5372498304,
-    "match_type": "vtable",
-    "vtable_class": "NiNode",
-    "vtable_index": 36
-  },
-  "NiNode::vfunc_54": {
-    "dev_va": 5369521821,
-    "dev_rva": 812701,
-    "retail_rva": 3789472,
-    "retail_va": 5372498592,
-    "match_type": "vtable",
-    "vtable_class": "NiNode",
-    "vtable_index": 54
-  },
   "NiNode::vfunc_55": {
     "dev_va": 5369554736,
     "dev_rva": 845616,
@@ -24063,24 +19589,6 @@
     "match_type": "vtable",
     "vtable_class": "NiNode",
     "vtable_index": 59
-  },
-  "NiNode::vfunc_63": {
-    "dev_va": 5369360931,
-    "dev_rva": 651811,
-    "retail_rva": 58572592,
-    "retail_va": 5427281712,
-    "match_type": "vtable",
-    "vtable_class": "NiNode",
-    "vtable_index": 63
-  },
-  "NiNode::vfunc_73": {
-    "dev_va": 5369960201,
-    "dev_rva": 1251081,
-    "retail_rva": 58630464,
-    "retail_va": 5427339584,
-    "match_type": "vtable",
-    "vtable_class": "NiNode",
-    "vtable_index": 73
   },
   "PendingActorHeadData::AIProcess::vfunc_0": {
     "dev_va": 5369187266,
@@ -24378,15 +19886,6 @@
     "match_type": "vtable",
     "vtable_class": "SpellItem",
     "vtable_index": 22
-  },
-  "SpellItem::vfunc_132": {
-    "dev_va": 5369995226,
-    "dev_rva": 1286106,
-    "retail_rva": 4543568,
-    "retail_va": 5373252688,
-    "match_type": "vtable",
-    "vtable_class": "SpellItem",
-    "vtable_index": 132
   },
   "SpellItem::vfunc_133": {
     "dev_va": 5369144376,
@@ -24729,15 +20228,6 @@
     "match_type": "vtable",
     "vtable_class": "TESNPC",
     "vtable_index": 93
-  },
-  "TESNPC::vfunc_132": {
-    "dev_va": 5368880966,
-    "dev_rva": 171846,
-    "retail_rva": 4543568,
-    "retail_va": 5373252688,
-    "match_type": "vtable",
-    "vtable_class": "TESNPC",
-    "vtable_index": 132
   },
   "TESActorBase::vfunc_133": {
     "dev_va": 5370054826,
@@ -25315,15 +20805,6 @@
     "vtable_class": "TESAmmo",
     "vtable_index": 0
   },
-  "TESAmmo::vfunc_9_base400": {
-    "dev_va": 5369030266,
-    "dev_rva": 321146,
-    "retail_rva": 5747552,
-    "retail_va": 5374456672,
-    "match_type": "vtable",
-    "vtable_class": "TESAmmo",
-    "vtable_index": 9
-  },
   "TESAmmo::vfunc_0_base408": {
     "dev_va": 5369881011,
     "dev_rva": 1171891,
@@ -25765,15 +21246,6 @@
     "vtable_class": "TESFlora",
     "vtable_index": 115
   },
-  "TESFlora::vfunc_118": {
-    "dev_va": 5369245756,
-    "dev_rva": 536636,
-    "retail_rva": 4543904,
-    "retail_va": 5373253024,
-    "match_type": "vtable",
-    "vtable_class": "TESFlora",
-    "vtable_index": 118
-  },
   "TESFlora::vfunc_0_base144": {
     "dev_va": 5369179351,
     "dev_rva": 470231,
@@ -25890,15 +21362,6 @@
     "match_type": "vtable",
     "vtable_class": "TESFurniture",
     "vtable_index": 72
-  },
-  "TESFurniture::vfunc_118": {
-    "dev_va": 5369284471,
-    "dev_rva": 575351,
-    "retail_rva": 4543904,
-    "retail_va": 5373253024,
-    "match_type": "vtable",
-    "vtable_class": "TESFurniture",
-    "vtable_index": 118
   },
   "TESFurniture::vfunc_0_base144": {
     "dev_va": 5369006406,
@@ -26214,15 +21677,6 @@
     "match_type": "vtable",
     "vtable_class": "TESKey",
     "vtable_index": 104
-  },
-  "TESKey::vfunc_132": {
-    "dev_va": 5369103936,
-    "dev_rva": 394816,
-    "retail_rva": 4543568,
-    "retail_va": 5373252688,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 132
   },
   "TESKey::vfunc_0_base144": {
     "dev_va": 5369565096,
@@ -26674,15 +22128,6 @@
     "vtable_class": "TESNPC",
     "vtable_index": 115
   },
-  "TESNPC::vfunc_118": {
-    "dev_va": 5369889041,
-    "dev_rva": 1179921,
-    "retail_rva": 4543904,
-    "retail_va": 5373253024,
-    "match_type": "vtable",
-    "vtable_class": "TESNPC",
-    "vtable_index": 118
-  },
   "TESNPC::vfunc_133": {
     "dev_va": 5369737451,
     "dev_rva": 1028331,
@@ -26880,15 +22325,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectACTI",
     "vtable_index": 115
-  },
-  "TESObjectACTI::vfunc_118": {
-    "dev_va": 5369366211,
-    "dev_rva": 657091,
-    "retail_rva": 4543904,
-    "retail_va": 5373253024,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectACTI",
-    "vtable_index": 118
   },
   "TESObjectACTI::vfunc_0_base144": {
     "dev_va": 5369374141,
@@ -27511,15 +22947,6 @@
     "vtable_class": "TESObjectBOOK",
     "vtable_index": 0
   },
-  "TESObjectBOOK::vfunc_9_base416": {
-    "dev_va": 5368973541,
-    "dev_rva": 264421,
-    "retail_rva": 5747552,
-    "retail_va": 5374456672,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectBOOK",
-    "vtable_index": 9
-  },
   "TESObjectBOOK::vfunc_0_base424": {
     "dev_va": 5369513171,
     "dev_rva": 804051,
@@ -27735,15 +23162,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectCONT",
     "vtable_index": 115
-  },
-  "TESObjectCONT::vfunc_118": {
-    "dev_va": 5368772656,
-    "dev_rva": 63536,
-    "retail_rva": 4543904,
-    "retail_va": 5373253024,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectCONT",
-    "vtable_index": 118
   },
   "TESObjectCONT::vfunc_0_base144": {
     "dev_va": 5369893056,
@@ -27996,15 +23414,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectDOOR",
     "vtable_index": 115
-  },
-  "TESObjectDOOR::vfunc_118": {
-    "dev_va": 5370004781,
-    "dev_rva": 1295661,
-    "retail_rva": 4543904,
-    "retail_va": 5373253024,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectDOOR",
-    "vtable_index": 118
   },
   "TESObjectDOOR::vfunc_0_base144": {
     "dev_va": 5368826021,
@@ -30859,15 +26268,6 @@
     "vtable_class": "TESObjectWEAP",
     "vtable_index": 0
   },
-  "TESObjectWEAP::vfunc_9_base424": {
-    "dev_va": 5369601471,
-    "dev_rva": 892351,
-    "retail_rva": 5747552,
-    "retail_va": 5374456672,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectWEAP",
-    "vtable_index": 9
-  },
   "TESObjectWEAP::vfunc_0_base432": {
     "dev_va": 5369931171,
     "dev_rva": 1222051,
@@ -32154,5 +27554,179 @@
     "match_type": "vtable",
     "vtable_class": "UI",
     "vtable_index": 0
+  },
+  "LoadedAreaManager::GetGridCell": {
+    "dev_va": 5383365104,
+    "dev_rva": 14655984,
+    "retail_rva": 24713520,
+    "retail_va": 5393422640,
+    "sig_length_used": 28,
+    "match_type": "interior-off1-28b-0wc",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 28,
+    "interior_offset": 1
+  },
+  "LoadedAreaManager::NotifyCellUnloaded": {
+    "dev_va": 5383380928,
+    "dev_rva": 14671808,
+    "retail_rva": 59549496,
+    "retail_va": 5428258616,
+    "sig_length_used": 12,
+    "match_type": "prefix-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "StatChallengeManager::LogChallengeTrace": {
+    "dev_va": 5383447472,
+    "dev_rva": 14738352,
+    "retail_rva": 21138475,
+    "retail_va": 5389847595,
+    "sig_length_used": 20,
+    "match_type": "interior-off15-20b-0wc",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 20,
+    "interior_offset": 15
+  },
+  "BSTempEffectDebris::Init": {
+    "dev_va": 5392190507,
+    "dev_rva": 23481387,
+    "retail_rva": 2170399,
+    "retail_va": 5370879519,
+    "sig_length_used": 12,
+    "match_type": "prefix-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "BasePlayerCharacter::SetVATSCriticalCharge": {
+    "dev_va": 5394448144,
+    "dev_rva": 25739024,
+    "retail_rva": 7255968,
+    "retail_va": 5375965088,
+    "sig_length_used": 12,
+    "match_type": "prefix-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "WorkshopMenu::ProcessMessage": {
+    "dev_va": 5406652667,
+    "dev_rva": 37943547,
+    "retail_rva": 37611577,
+    "retail_va": 5406320697,
+    "sig_length_used": 12,
+    "match_type": "prefix-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "Social::Lobby::MessageError - Attempted to send member message to the local client.": {
+    "dev_va": 5408009633,
+    "dev_rva": 39300513,
+    "retail_rva": 37093768,
+    "retail_va": 5405802888,
+    "sig_length_used": 20,
+    "match_type": "aggressive-20b-12wc",
+    "wildcarded_bytes": 12,
+    "concrete_bytes": 8
+  },
+  "Social::Lobby::KickError - Error sending kick. Not lobby leader.": {
+    "dev_va": 5408014630,
+    "dev_rva": 39305510,
+    "retail_rva": 23704646,
+    "retail_va": 5392413766,
+    "sig_length_used": 10,
+    "match_type": "prefix-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "ClientInventoryMutator::AddItem": {
+    "dev_va": 5408782804,
+    "dev_rva": 40073684,
+    "retail_rva": 37093768,
+    "retail_va": 5405802888,
+    "sig_length_used": 20,
+    "match_type": "aggressive-20b-12wc",
+    "wildcarded_bytes": 12,
+    "concrete_bytes": 8
+  },
+  "SSyncedVariable::Serialize": {
+    "dev_va": 5410429026,
+    "dev_rva": 41719906,
+    "retail_rva": 6651690,
+    "retail_va": 5375360810,
+    "sig_length_used": 16,
+    "match_type": "prefix-16b-8wc",
+    "wildcarded_bytes": 8,
+    "concrete_bytes": 8
+  },
+  "Game::TESObjectREFR::Selected::SnapshotContents::SSyncedVariable::ScriptValue": {
+    "dev_va": 5410432716,
+    "dev_rva": 41723596,
+    "retail_rva": 14821206,
+    "retail_va": 5383530326,
+    "sig_length_used": 10,
+    "match_type": "prefix-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "BGSSaveLoadGame::SaveGlobalData": {
+    "dev_va": 5410659527,
+    "dev_rva": 41950407,
+    "retail_rva": 23423975,
+    "retail_va": 5392133095,
+    "sig_length_used": 10,
+    "match_type": "prefix-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "BGSSaveLoadGame::RevertGlobalData": {
+    "dev_va": 5410663428,
+    "dev_rva": 41954308,
+    "retail_rva": 24204580,
+    "retail_va": 5392913700,
+    "sig_length_used": 10,
+    "match_type": "prefix-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
+  },
+  "Actor::ShowDamageNumber": {
+    "dev_va": 5411833488,
+    "dev_rva": 43124368,
+    "retail_rva": 26400672,
+    "retail_va": 5395109792,
+    "sig_length_used": 28,
+    "match_type": "interior-off1-28b-0wc",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 28,
+    "interior_offset": 1
+  },
+  "ActorMediator::DoAction": {
+    "dev_va": 5412401336,
+    "dev_rva": 43692216,
+    "retail_rva": 3264752,
+    "retail_va": 5371973872,
+    "sig_length_used": 12,
+    "match_type": "prefix-12b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 8
+  },
+  "Classes::StageScaleMode": {
+    "dev_va": 5428097472,
+    "dev_rva": 59388352,
+    "retail_rva": 40629404,
+    "retail_va": 5409338524,
+    "sig_length_used": 32,
+    "match_type": "interior-off15-32b-0wc",
+    "wildcarded_bytes": 0,
+    "concrete_bytes": 32,
+    "interior_offset": 15
+  },
+  "BSTextureStreamer::Schedule": {
+    "dev_va": 5446948816,
+    "dev_rva": 78239696,
+    "retail_rva": 24656922,
+    "retail_va": 5393366042,
+    "sig_length_used": 10,
+    "match_type": "prefix-10b-4wc",
+    "wildcarded_bytes": 4,
+    "concrete_bytes": 6
   }
 }
