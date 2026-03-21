@@ -7,14 +7,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "ExtraDataList::CompareList": {
-    "dev_va": 5380924912,
-    "dev_rva": 12215792,
-    "retail_rva": 24628288,
-    "retail_va": 5393337408,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "ModelLoader::UpdateAttachDistant3DQueue": {
     "dev_va": 5381905328,
     "dev_rva": 13196208,
@@ -135,14 +127,6 @@
     "sig_length_used": 32,
     "match_type": "unique"
   },
-  "WorkshopCommonUpdate::CheckCollisionAgainstWorld": {
-    "dev_va": 5383948928,
-    "dev_rva": 15239808,
-    "retail_rva": 15537952,
-    "retail_va": 5384247072,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "Workshop::UpdateCellAttachment::CaptureBorders": {
     "dev_va": 5384240768,
     "dev_rva": 15531648,
@@ -165,14 +149,6 @@
     "retail_rva": 29085680,
     "retail_va": 5397794800,
     "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "WorkshopClient::MultiEditHelper::PrepareBlueprintPackin": {
-    "dev_va": 5384314464,
-    "dev_rva": 15605344,
-    "retail_rva": 13179488,
-    "retail_va": 5381888608,
-    "sig_length_used": 24,
     "match_type": "unique"
   },
   "Workshop::CreateWall": {
@@ -343,14 +319,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "TESWorldSpace::RemoveFromPersistentRefData": {
-    "dev_va": 5388602752,
-    "dev_rva": 19893632,
-    "retail_rva": 28010320,
-    "retail_va": 5396719440,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "BGSScenePhaseInstance::EndPhase": {
     "dev_va": 5390188816,
     "dev_rva": 21479696,
@@ -365,14 +333,6 @@
     "retail_rva": 30108656,
     "retail_va": 5398817776,
     "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "LoadedAreaBound::AddToBirdsEyeHavokVisualDebugger": {
-    "dev_va": 5391020416,
-    "dev_rva": 22311296,
-    "retail_rva": 59252752,
-    "retail_va": 5427961872,
-    "sig_length_used": 16,
     "match_type": "unique"
   },
   "Sky::Update": {
@@ -431,14 +391,6 @@
     "sig_length_used": 16,
     "match_type": "unique"
   },
-  "QuestTrackerDataModel::SynchronizeObjectives": {
-    "dev_va": 5394285936,
-    "dev_rva": 25576816,
-    "retail_rva": 23733712,
-    "retail_va": 5392442832,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "LocalPlayerCharacter::PreNetUpdate": {
     "dev_va": 5397011648,
     "dev_rva": 28302528,
@@ -495,44 +447,12 @@
     "sig_length_used": 16,
     "match_type": "unique"
   },
-  "StormWallManager::UpdateEffects": {
-    "dev_va": 5399058512,
-    "dev_rva": 30349392,
-    "retail_rva": 28049600,
-    "retail_va": 5396758720,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "TeamSnapshotComponent::PostSerializeRead": {
     "dev_va": 5399148224,
     "dev_rva": 30439104,
     "retail_rva": 46104272,
     "retail_va": 5414813392,
     "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "ServerPromptDataModel::ShowPrompt": {
-    "dev_va": 5401233264,
-    "dev_rva": 32524144,
-    "retail_rva": 57403344,
-    "retail_va": 5426112464,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "InventoryDataModel::FlushRemoveQueue": {
-    "dev_va": 5402699744,
-    "dev_rva": 33990624,
-    "retail_rva": 28929856,
-    "retail_va": 5397638976,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "OtherInventoryTypeDataModel::ContainerInteractionMsg": {
-    "dev_va": 5402711008,
-    "dev_rva": 34001888,
-    "retail_rva": 34306912,
-    "retail_va": 5403016032,
-    "sig_length_used": 24,
     "match_type": "unique"
   },
   "OtherInventoryTypeDataModel::UpdateSlotData": {
@@ -575,43 +495,11 @@
     "sig_length_used": 16,
     "match_type": "unique"
   },
-  "PipboyMenu::MovieLoaded": {
-    "dev_va": 5406217008,
-    "dev_rva": 37507888,
-    "retail_rva": 46502224,
-    "retail_va": 5415211344,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "WorkbenchMenuBase::ProcessMessage": {
-    "dev_va": 5406622112,
-    "dev_rva": 37912992,
-    "retail_rva": 15589808,
-    "retail_va": 5384298928,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "PipboyPlayerInfoData::FillCarryWeightData": {
     "dev_va": 5407135184,
     "dev_rva": 38426064,
     "retail_rva": 55863536,
     "retail_va": 5424572656,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "ActiveEffectManager::ForEachActiveEffect": {
-    "dev_va": 5407299488,
-    "dev_rva": 38590368,
-    "retail_rva": 33802544,
-    "retail_va": 5402511664,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "BGSInventoryUtils::RemoveNonRefItem": {
-    "dev_va": 5407744144,
-    "dev_rva": 39035024,
-    "retail_rva": 25272384,
-    "retail_va": 5393981504,
     "sig_length_used": 24,
     "match_type": "unique"
   },
@@ -621,14 +509,6 @@
     "retail_rva": 32165920,
     "retail_va": 5400875040,
     "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "ActorPerksSnapshotComponent::Serialize": {
-    "dev_va": 5408509312,
-    "dev_rva": 39800192,
-    "retail_rva": 18073760,
-    "retail_va": 5386782880,
-    "sig_length_used": 24,
     "match_type": "unique"
   },
   "ConvergenceAim::ClearAimAtPoints": {
@@ -679,14 +559,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "NetworkJobAccumulator::ProcessJobFunctor": {
-    "dev_va": 5409159664,
-    "dev_rva": 40450544,
-    "retail_rva": 28049600,
-    "retail_va": 5396758720,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "OtherInventoryTypeDataModel::VendorSnapshotData::PSRPreREFR": {
     "dev_va": 5409446800,
     "dev_rva": 40737680,
@@ -701,14 +573,6 @@
     "retail_rva": 10572832,
     "retail_va": 5379281952,
     "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "GameNetworkMessageManager::HandleMessage": {
-    "dev_va": 5409547120,
-    "dev_rva": 40838000,
-    "retail_rva": 33556000,
-    "retail_va": 5402265120,
-    "sig_length_used": 32,
     "match_type": "unique"
   },
   "BGSUnloadedFormBuffer::Save": {
@@ -735,22 +599,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "Actor::DetachHavok": {
-    "dev_va": 5411442560,
-    "dev_rva": 42733440,
-    "retail_rva": 59253472,
-    "retail_va": 5427962592,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Actor::RagdollHandler::DoRagdoll": {
-    "dev_va": 5411452912,
-    "dev_rva": 42743792,
-    "retail_rva": 12377856,
-    "retail_va": 5381086976,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
   "Actor::ChangeProcessLevel": {
     "dev_va": 5411546528,
     "dev_rva": 42837408,
@@ -775,22 +623,6 @@
     "sig_length_used": 16,
     "match_type": "unique"
   },
-  "Actor::MovetoMiddleHigh": {
-    "dev_va": 5411615872,
-    "dev_rva": 42906752,
-    "retail_rva": 10572832,
-    "retail_va": 5379281952,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Actor::ResetCachedValuesForPerk": {
-    "dev_va": 5411657824,
-    "dev_rva": 42948704,
-    "retail_rva": 23733712,
-    "retail_va": 5392442832,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "Actor::ClearLookAtTarget": {
     "dev_va": 5411704672,
     "dev_rva": 42995552,
@@ -805,14 +637,6 @@
     "retail_rva": 7245712,
     "retail_va": 5375954832,
     "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "Actor::PostReanimate": {
-    "dev_va": 5412334256,
-    "dev_rva": 43625136,
-    "retail_rva": 59711456,
-    "retail_va": 5428420576,
-    "sig_length_used": 16,
     "match_type": "unique"
   },
   "ActorEquipManager::EquipFirstEqual": {
@@ -845,14 +669,6 @@
     "retail_rva": 6662720,
     "retail_va": 5375371840,
     "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "AIProcess::DoUpdate3dModel": {
-    "dev_va": 5412640672,
-    "dev_rva": 43931552,
-    "retail_rva": 25996224,
-    "retail_va": 5394705344,
-    "sig_length_used": 32,
     "match_type": "unique"
   },
   "AIProcess::UpdateKnockState": {
@@ -919,22 +735,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "ProcessLists::UpdateClient": {
-    "dev_va": 5413372880,
-    "dev_rva": 44663760,
-    "retail_rva": 46348784,
-    "retail_va": 5415057904,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "Explosion::ProcessTargets": {
-    "dev_va": 5414108576,
-    "dev_rva": 45399456,
-    "retail_rva": 10572832,
-    "retail_va": 5379281952,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "BSJobs::CombatUpdateJob": {
     "dev_va": 5415213920,
     "dev_rva": 46504800,
@@ -970,14 +770,6 @@
   "ObjectInterface::SetMember": {
     "dev_va": 5426475952,
     "dev_rva": 57766832,
-    "retail_rva": 20651648,
-    "retail_va": 5389360768,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "ObjectInterface::Invoke": {
-    "dev_va": 5426477232,
-    "dev_rva": 57768112,
     "retail_rva": 20651648,
     "retail_va": 5389360768,
     "sig_length_used": 16,
@@ -1047,14 +839,6 @@
     "sig_length_used": 32,
     "match_type": "unique"
   },
-  "BSTextureStreamer::HandleLoadRequest": {
-    "dev_va": 5446927200,
-    "dev_rva": 78218080,
-    "retail_rva": 15537952,
-    "retail_va": 5384247072,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "BSTextureStreamer::HandleModifyRequest": {
     "dev_va": 5446928880,
     "dev_rva": 78219760,
@@ -1071,28 +855,12 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "BSTextureStreamer::WaitForStreamedHandle": {
-    "dev_va": 5446956704,
-    "dev_rva": 78247584,
-    "retail_rva": 11595712,
-    "retail_va": 5380304832,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
   "BSImGuiWebSocketRenderer::Render": {
     "dev_va": 5447248224,
     "dev_rva": 78539104,
     "retail_rva": 27999712,
     "retail_va": 5396708832,
     "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "BSImGuiWebSocketRenderer::ProcessEvent": {
-    "dev_va": 5447249056,
-    "dev_rva": 78539936,
-    "retail_rva": 27999712,
-    "retail_va": 5396708832,
-    "sig_length_used": 24,
     "match_type": "unique"
   },
   "UIDataShuttleManager::Flush": {
@@ -1183,14 +951,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "BSEnlighten::EnlightenSceneData::UpdateProbeSetPriorities": {
-    "dev_va": 5450450608,
-    "dev_rva": 81741488,
-    "retail_rva": 28876496,
-    "retail_va": 5397585616,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "BSEnlighten::EnlightenSceneData::UpdateDustersGPUVisibility": {
     "dev_va": 5450451264,
     "dev_rva": 81742144,
@@ -1231,14 +991,6 @@
     "sig_length_used": 32,
     "match_type": "unique"
   },
-  "BSClusterRenderer::AppendIndices": {
-    "dev_va": 5450572944,
-    "dev_rva": 81863824,
-    "retail_rva": 24312704,
-    "retail_va": 5393021824,
-    "sig_length_used": 32,
-    "match_type": "unique"
-  },
   "BSClusterRenderer::GatherToUnifiedBuffer": {
     "dev_va": 5450574432,
     "dev_rva": 81865312,
@@ -1271,22 +1023,6 @@
     "sig_length_used": 24,
     "match_type": "unique"
   },
-  "BSShaderAccumulator::FinishAccumulating_LODOnly": {
-    "dev_va": 5450872624,
-    "dev_rva": 82163504,
-    "retail_rva": 33717616,
-    "retail_va": 5402426736,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
-  "BSShaderAccumulator::RenderBatches": {
-    "dev_va": 5450877248,
-    "dev_rva": 82168128,
-    "retail_rva": 9738640,
-    "retail_va": 5378447760,
-    "sig_length_used": 24,
-    "match_type": "unique"
-  },
   "BSPreCulledObjects::AddToShadowCullingGroups": {
     "dev_va": 5450902224,
     "dev_rva": 82193104,
@@ -1298,14 +1034,6 @@
   "BSPrecomputedVisibility::CombineStaticQueryResults": {
     "dev_va": 5451150272,
     "dev_rva": 82441152,
-    "retail_rva": 27340720,
-    "retail_va": 5396049840,
-    "sig_length_used": 16,
-    "match_type": "unique"
-  },
-  "BSPrecomputedVisibility::BuildShadowCullerJob": {
-    "dev_va": 5451151120,
-    "dev_rva": 82442000,
     "retail_rva": 27340720,
     "retail_va": 5396049840,
     "sig_length_used": 16,
@@ -1325,14 +1053,6 @@
     "retail_rva": 26953984,
     "retail_va": 5395663104,
     "sig_length_used": 32,
-    "match_type": "unique"
-  },
-  "Umbra::ProcessMultiStreamInstanceShadows": {
-    "dev_va": 5451194112,
-    "dev_rva": 82484992,
-    "retail_rva": 30108656,
-    "retail_va": 5398817776,
-    "sig_length_used": 24,
     "match_type": "unique"
   },
   "BSEnlighten::Probes::Scene::LoadProbeData": {
@@ -1369,16 +1089,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12
   },
-  "EntityManager::AddTESObjectREFRHelper entity id [": {
-    "dev_va": 5380266032,
-    "dev_rva": 11556912,
-    "retail_rva": 6547536,
-    "retail_va": 5375256656,
-    "sig_length_used": 12,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12
-  },
   "TES::LoadExteriorCell": {
     "dev_va": 5381967344,
     "dev_rva": 13258224,
@@ -1388,16 +1098,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 20
-  },
-  "TESDataHandler::UnloadCell": {
-    "dev_va": 5382115488,
-    "dev_rva": 13406368,
-    "retail_rva": 7608368,
-    "retail_va": 5376317488,
-    "sig_length_used": 16,
-    "match_type": "wildcard-16b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 12
   },
   "TESDataHandler::CompileFiles": {
     "dev_va": 5382134048,
@@ -1589,26 +1289,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12
   },
-  "GlobalChanges::SetValue::Script": {
-    "dev_va": 5388966784,
-    "dev_rva": 20257664,
-    "retail_rva": 29529488,
-    "retail_va": 5398238608,
-    "sig_length_used": 12,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12
-  },
-  "GlobalChanges::SetValue::Console": {
-    "dev_va": 5388966784,
-    "dev_rva": 20257664,
-    "retail_rva": 29529488,
-    "retail_va": 5398238608,
-    "sig_length_used": 12,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12
-  },
   "BGSTerrainManager::UpdateLODLighting": {
     "dev_va": 5392976528,
     "dev_rva": 24267408,
@@ -1638,16 +1318,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 12
-  },
-  "PC::UpdateAnimation": {
-    "dev_va": 5394429216,
-    "dev_rva": 25720096,
-    "retail_rva": 12086768,
-    "retail_va": 5380795888,
-    "sig_length_used": 8,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 8
   },
   "PC::UpdateActor3DPosition": {
     "dev_va": 5394433104,
@@ -1679,16 +1349,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 14
   },
-  "GameUIModel::OnGameDataLoaded": {
-    "dev_va": 5403900624,
-    "dev_rva": 35191504,
-    "retail_rva": 31980896,
-    "retail_va": 5400690016,
-    "sig_length_used": 20,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20
-  },
   "HUDCrosshair::UpdateSpreadReticleRadius": {
     "dev_va": 5404163312,
     "dev_rva": 35454192,
@@ -1708,16 +1368,6 @@
     "match_type": "wildcard-14b-4wc",
     "wildcarded_bytes": 4,
     "concrete_bytes": 10
-  },
-  "PipboyQuestData::Populate()": {
-    "dev_va": 5407096128,
-    "dev_rva": 38387008,
-    "retail_rva": 46647168,
-    "retail_va": 5415356288,
-    "sig_length_used": 14,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 14
   },
   "ActiveEffect::OnRemove": {
     "dev_va": 5407263504,
@@ -1739,26 +1389,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 10
   },
-  "ActiveEffectNetworkEntity::NetDelete": {
-    "dev_va": 5408440096,
-    "dev_rva": 39730976,
-    "retail_rva": 56603712,
-    "retail_va": 5425312832,
-    "sig_length_used": 8,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 8
-  },
-  "AnimationProgressComponent::UpdateInterpolatorTask": {
-    "dev_va": 5408621056,
-    "dev_rva": 39911936,
-    "retail_rva": 61619904,
-    "retail_va": 5430329024,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
   "AddInstantEffectMessage::Execute (Failed)": {
     "dev_va": 5410300013,
     "dev_rva": 41590893,
@@ -1768,26 +1398,6 @@
     "match_type": "wildcard-14b-4wc",
     "wildcarded_bytes": 4,
     "concrete_bytes": 10
-  },
-  "SnapshotInterpolator::Update": {
-    "dev_va": 5410510096,
-    "dev_rva": 41800976,
-    "retail_rva": 31980896,
-    "retail_va": 5400690016,
-    "sig_length_used": 20,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20
-  },
-  "Actor::Jump": {
-    "dev_va": 5411427824,
-    "dev_rva": 42718704,
-    "retail_rva": 12086768,
-    "retail_va": 5380795888,
-    "sig_length_used": 8,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 8
   },
   "Actor::RagdollHandler::PrepareForRagdoll": {
     "dev_va": 5411453888,
@@ -1804,16 +1414,6 @@
     "dev_rva": 42772096,
     "retail_rva": 59252752,
     "retail_va": 5427961872,
-    "sig_length_used": 10,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 10
-  },
-  "Actor::SetCurrentTarget": {
-    "dev_va": 5411500880,
-    "dev_rva": 42791760,
-    "retail_rva": 59258704,
-    "retail_va": 5427967824,
     "sig_length_used": 10,
     "match_type": "exact",
     "wildcarded_bytes": 0,
@@ -1868,16 +1468,6 @@
     "match_type": "exact",
     "wildcarded_bytes": 0,
     "concrete_bytes": 10
-  },
-  "Projectile::Update": {
-    "dev_va": 5414334448,
-    "dev_rva": 45625328,
-    "retail_rva": 8485712,
-    "retail_va": 5377194832,
-    "sig_length_used": 20,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20
   },
   "MovieImpl::Advance": {
     "dev_va": 5423924464,
@@ -1959,16 +1549,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20
   },
-  "MovieRoot::DoActions": {
-    "dev_va": 5426550848,
-    "dev_rva": 57841728,
-    "retail_rva": 55716704,
-    "retail_va": 5424425824,
-    "sig_length_used": 20,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20
-  },
   "Object::AS3propertyIsEnumerable": {
     "dev_va": 5426972288,
     "dev_rva": 58263168,
@@ -2014,16 +1594,6 @@
     "dev_rva": 78366160,
     "retail_rva": 33428224,
     "retail_va": 5402137344,
-    "sig_length_used": 14,
-    "match_type": "exact",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 14
-  },
-  "UI::Assert": {
-    "dev_va": 5447552368,
-    "dev_rva": 78843248,
-    "retail_rva": 56065360,
-    "retail_va": 5424774480,
     "sig_length_used": 14,
     "match_type": "exact",
     "wildcarded_bytes": 0,
@@ -2273,17 +1843,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12,
     "interior_offset": 1
-  },
-  "BGSConstructFormsInFileMap::ConstructForms": {
-    "dev_va": 5382617264,
-    "dev_rva": 13908144,
-    "retail_rva": 9766240,
-    "retail_va": 5378475360,
-    "sig_length_used": 24,
-    "match_type": "interior-off15-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 15
   },
   "BGSConstructFormsInAllFilesMap::ConstructForms": {
     "dev_va": 5382623824,
@@ -2570,17 +2129,6 @@
     "concrete_bytes": 20,
     "interior_offset": 10
   },
-  "BGSDismembermentManager::DoCut": {
-    "dev_va": 5385414704,
-    "dev_rva": 16705584,
-    "retail_rva": 9782352,
-    "retail_va": 5378491472,
-    "sig_length_used": 20,
-    "match_type": "interior-off10-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 10
-  },
   "TESQuestInstance::FillAliases": {
     "dev_va": 5385671824,
     "dev_rva": 16962704,
@@ -2592,28 +2140,6 @@
     "concrete_bytes": 16,
     "interior_offset": 20
   },
-  "TESQuestInstance::FindRefsForAlias": {
-    "dev_va": 5385722448,
-    "dev_rva": 17013328,
-    "retail_rva": 51607872,
-    "retail_va": 5420316992,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 15
-  },
-  "TESEffectShader::StartEffectShader": {
-    "dev_va": 5386436416,
-    "dev_rva": 17727296,
-    "retail_rva": 4806400,
-    "retail_va": 5373515520,
-    "sig_length_used": 20,
-    "match_type": "interior-off10-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 10
-  },
   "TESObjectDOOR::HandlePlayerTeleport": {
     "dev_va": 5386656256,
     "dev_rva": 17947136,
@@ -2624,17 +2150,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
     "interior_offset": 10
-  },
-  "BGSCombinedCellGeometryDB::ModelDB::Create": {
-    "dev_va": 5386875008,
-    "dev_rva": 18165888,
-    "retail_rva": 5640064,
-    "retail_va": 5374349184,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
   },
   "BGSCombinedCellGeometryDB::RequestPreload": {
     "dev_va": 5386880928,
@@ -2689,17 +2204,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
     "interior_offset": 10
-  },
-  "CELL::ChangeProcessLevel": {
-    "dev_va": 5387258832,
-    "dev_rva": 18549712,
-    "retail_rva": 29397904,
-    "retail_va": 5398107024,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 15
   },
   "TESObjectCELL::UpdateReferences3DandProcess": {
     "dev_va": 5387265376,
@@ -2898,27 +2402,6 @@
     "concrete_bytes": 16,
     "interior_offset": 15
   },
-  "PerkEntryVisitor::FanFareEntryPointVisitor": {
-    "dev_va": 5389916384,
-    "dev_rva": 21207264,
-    "retail_rva": 32033808,
-    "retail_va": 5400742928,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
-  "PerkEntryVisitor::HandleEntryPointVisitor": {
-    "dev_va": 5389917152,
-    "dev_rva": 21208032,
-    "retail_rva": 43055712,
-    "retail_va": 5411764832,
-    "sig_length_used": 24,
-    "match_type": "aggressive-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20
-  },
   "TESTopicInfo::GetResponseList": {
     "dev_va": 5390952656,
     "dev_rva": 22243536,
@@ -2952,28 +2435,6 @@
     "concrete_bytes": 16,
     "interior_offset": 10
   },
-  "BSFaceGenDB::TRI::Create": {
-    "dev_va": 5391308560,
-    "dev_rva": 22599440,
-    "retail_rva": 19443440,
-    "retail_va": 5388152560,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
-  "BSTempEffectParticle::Spawn": {
-    "dev_va": 5392217104,
-    "dev_rva": 23507984,
-    "retail_rva": 53552112,
-    "retail_va": 5422261232,
-    "sig_length_used": 12,
-    "match_type": "interior-off5-12b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12,
-    "interior_offset": 5
-  },
   "PathingLockData::CanTraverse::DisallowTransportDoor": {
     "dev_va": 5392600704,
     "dev_rva": 23891584,
@@ -2995,17 +2456,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
     "interior_offset": 5
-  },
-  "BGSTerrainManager::RunUpdate_CellGridShift": {
-    "dev_va": 5392980464,
-    "dev_rva": 24271344,
-    "retail_rva": 33421696,
-    "retail_va": 5402130816,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
   },
   "BGSStoryManager::GetQuestsForEvent": {
     "dev_va": 5393319040,
@@ -3094,17 +2544,6 @@
     "concrete_bytes": 12,
     "interior_offset": 20
   },
-  "QuestTrackerDataModel::UpdateProvider": {
-    "dev_va": 5394286608,
-    "dev_rva": 25577488,
-    "retail_rva": 46498480,
-    "retail_va": 5415207600,
-    "sig_length_used": 12,
-    "match_type": "interior-off20-12b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12,
-    "interior_offset": 20
-  },
   "Actor::OnActionStarted": {
     "dev_va": 5394368160,
     "dev_rva": 25659040,
@@ -3170,17 +2609,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
     "interior_offset": 5
-  },
-  "PerkEntryVisitor::RenderPerkEntryArraysVisitor": {
-    "dev_va": 5397732768,
-    "dev_rva": 29023648,
-    "retail_rva": 7608368,
-    "retail_va": 5376317488,
-    "sig_length_used": 16,
-    "match_type": "interior-off1-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 1
   },
   "PerkEntryVisitor::ListAllPerkEntryVisitor": {
     "dev_va": 5398016720,
@@ -3302,17 +2730,6 @@
     "concrete_bytes": 20,
     "interior_offset": 20
   },
-  "OtherInventoryTypeDataModel::PlayerTradeAcceptFail": {
-    "dev_va": 5402709424,
-    "dev_rva": 34000304,
-    "retail_rva": 24963760,
-    "retail_va": 5393672880,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 1
-  },
   "OtherInventoryTypeDataModel::CampVendingMachineInventoryTransferEvent": {
     "dev_va": 5402714608,
     "dev_rva": 34005488,
@@ -3388,28 +2805,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
     "interior_offset": 5
-  },
-  "EndOfMatchMenu::UpdateData": {
-    "dev_va": 5405389184,
-    "dev_rva": 36680064,
-    "retail_rva": 21138475,
-    "retail_va": 5389847595,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
-  "ExamineMenu::MovieLoaded": {
-    "dev_va": 5405441632,
-    "dev_rva": 36732512,
-    "retail_rva": 33695776,
-    "retail_va": 5402404896,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 1
   },
   "MapMenu::ProcessMessage": {
     "dev_va": 5405937216,
@@ -3582,16 +2977,6 @@
     "concrete_bytes": 24,
     "interior_offset": 5
   },
-  "ActorProjectileSnapshotComponent::CreateProjectileMsg::Execute": {
-    "dev_va": 5408536768,
-    "dev_rva": 39827648,
-    "retail_rva": 59711456,
-    "retail_va": 5428420576,
-    "sig_length_used": 16,
-    "match_type": "aggressive-16b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 12
-  },
   "ActorCoreSnapshotComponent::PostSerializeReadREFR": {
     "dev_va": 5408561648,
     "dev_rva": 39852528,
@@ -3614,17 +2999,6 @@
     "concrete_bytes": 20,
     "interior_offset": 10
   },
-  "CharacterCustomizationNetworkData::ApplyTo": {
-    "dev_va": 5408694064,
-    "dev_rva": 39984944,
-    "retail_rva": 57886992,
-    "retail_va": 5426596112,
-    "sig_length_used": 24,
-    "match_type": "interior-off1-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 1
-  },
   "GAME_NETWORK_MESSAGES::PerformHitsOnActors": {
     "dev_va": 5408772784,
     "dev_rva": 40063664,
@@ -3646,17 +3020,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 32,
     "interior_offset": 5
-  },
-  "DeferredComponentUpdate::Impl::~Impl": {
-    "dev_va": 5408855472,
-    "dev_rva": 40146352,
-    "retail_rva": 24963760,
-    "retail_va": 5393672880,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 1
   },
   "NetworkedTimeManager::Callback": {
     "dev_va": 5409088224,
@@ -3690,17 +3053,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
     "interior_offset": 15
-  },
-  "InitialClientInfoMsg::PlayerArrivalCallback.NoInventory": {
-    "dev_va": 5410162096,
-    "dev_rva": 41452976,
-    "retail_rva": 47855920,
-    "retail_va": 5416565040,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12,
-    "interior_offset": 10
   },
   "Game::TESObjectREFR::All::SnapshotContents::SSyncedVariable::ScriptKey": {
     "dev_va": 5410436208,
@@ -3757,17 +3109,6 @@
     "concrete_bytes": 12,
     "interior_offset": 15
   },
-  "BGSReconstructFormsInAllFilesMap::ReconstructForms": {
-    "dev_va": 5410578032,
-    "dev_rva": 41868912,
-    "retail_rva": 33426496,
-    "retail_va": 5402135616,
-    "sig_length_used": 16,
-    "match_type": "interior-off15-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 15
-  },
   "BGSSaveLoadGame::LoadCell": {
     "dev_va": 5410633632,
     "dev_rva": 41924512,
@@ -3777,28 +3118,6 @@
     "match_type": "aggressive-24b-4wc",
     "wildcarded_bytes": 4,
     "concrete_bytes": 20
-  },
-  "BGSSaveLoadManager::DoLoadGame": {
-    "dev_va": 5410710464,
-    "dev_rva": 42001344,
-    "retail_rva": 33727472,
-    "retail_va": 5402436592,
-    "sig_length_used": 12,
-    "match_type": "interior-off1-12b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12,
-    "interior_offset": 1
-  },
-  "BGSSaveLoadReferencesMap::LoadReferencesForCell": {
-    "dev_va": 5410777552,
-    "dev_rva": 42068432,
-    "retail_rva": 43588976,
-    "retail_va": 5412298096,
-    "sig_length_used": 32,
-    "match_type": "interior-off1-32b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 32,
-    "interior_offset": 1
   },
   "MemoryManager::ProcessMemoryProblemImpl": {
     "dev_va": 5410845488,
@@ -3864,17 +3183,6 @@
     "match_type": "interior-off15-16b-0wc",
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
-    "interior_offset": 15
-  },
-  "Actor::DefaultRagdollHandler::InitRagdoll": {
-    "dev_va": 5411454896,
-    "dev_rva": 42745776,
-    "retail_rva": 30197152,
-    "retail_va": 5398906272,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12,
     "interior_offset": 15
   },
   "Actor::LowMvmt": {
@@ -3985,17 +3293,6 @@
     "concrete_bytes": 16,
     "interior_offset": 10
   },
-  "Actor::AddTemporaryPerk": {
-    "dev_va": 5411655120,
-    "dev_rva": 42946000,
-    "retail_rva": 25093008,
-    "retail_va": 5393802128,
-    "sig_length_used": 16,
-    "match_type": "interior-off10-16b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 16,
-    "interior_offset": 10
-  },
   "Actor::DoRemovePerk": {
     "dev_va": 5411658640,
     "dev_rva": 42949520,
@@ -4029,28 +3326,6 @@
     "concrete_bytes": 12,
     "interior_offset": 10
   },
-  "Actor::MoveToHigh_Internal": {
-    "dev_va": 5411724832,
-    "dev_rva": 43015712,
-    "retail_rva": 14944688,
-    "retail_va": 5383653808,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "Actor::OnCrippleLimb": {
-    "dev_va": 5411762176,
-    "dev_rva": 43053056,
-    "retail_rva": 9782352,
-    "retail_va": 5378491472,
-    "sig_length_used": 20,
-    "match_type": "interior-off10-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 10
-  },
   "Actor::Move": {
     "dev_va": 5411788368,
     "dev_rva": 43079248,
@@ -4072,16 +3347,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12,
     "interior_offset": 10
-  },
-  "Actor::DoHitMe_Predicted": {
-    "dev_va": 5412215248,
-    "dev_rva": 43506128,
-    "retail_rva": 8936512,
-    "retail_va": 5377645632,
-    "sig_length_used": 24,
-    "match_type": "aggressive-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20
   },
   "Actor::ChangeGunState": {
     "dev_va": 5412223296,
@@ -4116,38 +3381,6 @@
     "concrete_bytes": 24,
     "interior_offset": 5
   },
-  "Actor::UpdateMagic": {
-    "dev_va": 5412329328,
-    "dev_rva": 43620208,
-    "retail_rva": 33537488,
-    "retail_va": 5402246608,
-    "sig_length_used": 16,
-    "match_type": "aggressive-16b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 12
-  },
-  "ActorEquipManager::EquipItem": {
-    "dev_va": 5412362272,
-    "dev_rva": 43653152,
-    "retail_rva": 14084448,
-    "retail_va": 5382793568,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
-  },
-  "ActorEquipManager::UnequipItem": {
-    "dev_va": 5412364704,
-    "dev_rva": 43655584,
-    "retail_rva": 14084448,
-    "retail_va": 5382793568,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
-  },
   "AIProcess::Update": {
     "dev_va": 5412435504,
     "dev_rva": 43726384,
@@ -4158,28 +3391,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 10
-  },
-  "AIProcess::VisitProcedureTree": {
-    "dev_va": 5412437712,
-    "dev_rva": 43728592,
-    "retail_rva": 56404944,
-    "retail_va": 5425114064,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
-  },
-  "AIProcess::UpdateLow": {
-    "dev_va": 5412459488,
-    "dev_rva": 43750368,
-    "retail_rva": 57886992,
-    "retail_va": 5426596112,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
   },
   "AIProcess::UpdateDetection": {
     "dev_va": 5412547920,
@@ -4235,16 +3446,6 @@
     "concrete_bytes": 20,
     "interior_offset": 10
   },
-  "LocalPlayerCharacter::CenterOnCell": {
-    "dev_va": 5412936544,
-    "dev_rva": 44227424,
-    "retail_rva": 12623984,
-    "retail_va": 5381333104,
-    "sig_length_used": 24,
-    "match_type": "aggressive-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16
-  },
   "LocalPlayerCharacter::UpdateQPShuttingDown": {
     "dev_va": 5412993744,
     "dev_rva": 44284624,
@@ -4277,17 +3478,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 16,
     "interior_offset": 10
-  },
-  "ProcessLists::AddReferenceUnique::SkippingBecauseInstanced": {
-    "dev_va": 5413366800,
-    "dev_rva": 44657680,
-    "retail_rva": 25642640,
-    "retail_va": 5394351760,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
   },
   "ProcessLists::QueueActorTransformWithFootIKResults": {
     "dev_va": 5413405744,
@@ -4453,17 +3643,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 12,
     "interior_offset": 15
-  },
-  "ObjectInterface::IsByteArray": {
-    "dev_va": 5426486624,
-    "dev_rva": 57777504,
-    "retail_rva": 20895792,
-    "retail_va": 5389604912,
-    "sig_length_used": 20,
-    "match_type": "interior-off10-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 10
   },
   "ObjectInterface::IsDisplayObjectActive": {
     "dev_va": 5426488592,
@@ -4762,17 +3941,6 @@
     "concrete_bytes": 20,
     "interior_offset": 20
   },
-  "ClassTraits::Socket": {
-    "dev_va": 5427522432,
-    "dev_rva": 58813312,
-    "retail_rva": 45680432,
-    "retail_va": 5414389552,
-    "sig_length_used": 24,
-    "match_type": "interior-off20-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20,
-    "interior_offset": 20
-  },
   "InstanceTraits::Socket": {
     "dev_va": 5427522448,
     "dev_rva": 58813328,
@@ -4888,17 +4056,6 @@
     "dev_rva": 59008256,
     "retail_rva": 46672176,
     "retail_va": 5415381296,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 16,
-    "interior_offset": 1
-  },
-  "InstanceTraits::Dictionary": {
-    "dev_va": 5427717456,
-    "dev_rva": 59008336,
-    "retail_rva": 26239088,
-    "retail_va": 5394948208,
     "sig_length_used": 20,
     "match_type": "interior-off1-20b-4wc",
     "wildcarded_bytes": 4,
@@ -5031,17 +4188,6 @@
     "dev_rva": 59173120,
     "retail_rva": 26722640,
     "retail_va": 5395431760,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 16,
-    "interior_offset": 1
-  },
-  "Classes::HTTPStatusEvent": {
-    "dev_va": 5427882384,
-    "dev_rva": 59173264,
-    "retail_rva": 26717968,
-    "retail_va": 5395427088,
     "sig_length_used": 20,
     "match_type": "interior-off1-20b-4wc",
     "wildcarded_bytes": 4,
@@ -5257,17 +4403,6 @@
     "concrete_bytes": 16,
     "interior_offset": 1
   },
-  "ClassTraits::MovieClip": {
-    "dev_va": 5428096816,
-    "dev_rva": 59387696,
-    "retail_rva": 46669920,
-    "retail_va": 5415379040,
-    "sig_length_used": 20,
-    "match_type": "interior-off1-20b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 16,
-    "interior_offset": 1
-  },
   "ClassTraits::PixelSnapping": {
     "dev_va": 5428096864,
     "dev_rva": 59387744,
@@ -5344,17 +4479,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 16,
     "interior_offset": 1
-  },
-  "ClassTraits::IME": {
-    "dev_va": 5428124256,
-    "dev_rva": 59415136,
-    "retail_rva": 46162800,
-    "retail_va": 5414871920,
-    "sig_length_used": 24,
-    "match_type": "interior-off20-24b-8wc",
-    "wildcarded_bytes": 8,
-    "concrete_bytes": 16,
-    "interior_offset": 20
   },
   "Classes::IME": {
     "dev_va": 5428124272,
@@ -5620,17 +4744,6 @@
     "concrete_bytes": 12,
     "interior_offset": 5
   },
-  "BSGraphics::Renderer::UpdateTextureData": {
-    "dev_va": 5443332480,
-    "dev_rva": 74623360,
-    "retail_rva": 7641328,
-    "retail_va": 5376350448,
-    "sig_length_used": 24,
-    "match_type": "interior-off10-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 10
-  },
   "BSImGui::Impl::EndFrame": {
     "dev_va": 5446605248,
     "dev_rva": 77896128,
@@ -5653,17 +4766,6 @@
     "concrete_bytes": 12,
     "interior_offset": 15
   },
-  "BSStaticTriShapeDB::Create": {
-    "dev_va": 5446816736,
-    "dev_rva": 78107616,
-    "retail_rva": 25642640,
-    "retail_va": 5394351760,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
-  },
   "Lightning::Process": {
     "dev_va": 5447143184,
     "dev_rva": 78434064,
@@ -5674,17 +4776,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
     "interior_offset": 10
-  },
-  "UI::FinishLoadingMovie": {
-    "dev_va": 5447424688,
-    "dev_rva": 78715568,
-    "retail_rva": 46498480,
-    "retail_va": 5415207600,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20,
-    "interior_offset": 5
   },
   "BSScaleformManager::StartMovieLoad": {
     "dev_va": 5447615936,
@@ -5818,17 +4909,6 @@
     "concrete_bytes": 12,
     "interior_offset": 15
   },
-  "BSResource::LocationTree::DoCreateStream": {
-    "dev_va": 5449299344,
-    "dev_rva": 80590224,
-    "retail_rva": 55088160,
-    "retail_va": 5423797280,
-    "sig_length_used": 12,
-    "match_type": "interior-off15-12b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12,
-    "interior_offset": 15
-  },
   "VirtualMachine::AddPendingVariableUpdate": {
     "dev_va": 5449726848,
     "dev_rva": 81017728,
@@ -5838,17 +4918,6 @@
     "match_type": "interior-off5-24b-0wc",
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
-    "interior_offset": 5
-  },
-  "VirtualMachine::FindBoundObjectImpl": {
-    "dev_va": 5449775264,
-    "dev_rva": 81066144,
-    "retail_rva": 60250976,
-    "retail_va": 5428960096,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-4wc",
-    "wildcarded_bytes": 4,
-    "concrete_bytes": 20,
     "interior_offset": 5
   },
   "BSEnlighten::Global::ConvertPixels": {
@@ -5894,17 +4963,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 24,
     "interior_offset": 10
-  },
-  "BSEnlighten::Global::`anonymous-namespace'::UpdateEnlightenSystemsProbeSetsAndCubemaps": {
-    "dev_va": 5450555792,
-    "dev_rva": 81846672,
-    "retail_rva": 7245712,
-    "retail_va": 5375954832,
-    "sig_length_used": 20,
-    "match_type": "interior-off5-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 5
   },
   "BSClusterRenderer::RenderClusters": {
     "dev_va": 5450576576,
@@ -6037,28 +5095,6 @@
     "wildcarded_bytes": 0,
     "concrete_bytes": 20,
     "interior_offset": 10
-  },
-  "PrecomputedVis::LaunchClusterQueryFn": {
-    "dev_va": 5451148592,
-    "dev_rva": 82439472,
-    "retail_rva": 15589808,
-    "retail_va": 5384298928,
-    "sig_length_used": 12,
-    "match_type": "interior-off10-12b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 12,
-    "interior_offset": 10
-  },
-  "Umbra::Query::Lights": {
-    "dev_va": 5451169312,
-    "dev_rva": 82460192,
-    "retail_rva": 56404944,
-    "retail_va": 5425114064,
-    "sig_length_used": 24,
-    "match_type": "interior-off5-24b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 24,
-    "interior_offset": 5
   },
   "Umbra::ProcessTopFadeNode": {
     "dev_va": 5451199584,
@@ -13965,42 +13001,6 @@
     "vtable_class": "BGSExplosion",
     "vtable_index": 0
   },
-  "BGSExplosion::vfunc_2_base160": {
-    "dev_va": 5369035036,
-    "dev_rva": 325916,
-    "retail_rva": 6231104,
-    "retail_va": 5374940224,
-    "match_type": "vtable",
-    "vtable_class": "BGSExplosion",
-    "vtable_index": 2
-  },
-  "BGSExplosion::vfunc_3_base160": {
-    "dev_va": 5369111646,
-    "dev_rva": 402526,
-    "retail_rva": 6231120,
-    "retail_va": 5374940240,
-    "match_type": "vtable",
-    "vtable_class": "BGSExplosion",
-    "vtable_index": 3
-  },
-  "BGSExplosion::vfunc_7_base160": {
-    "dev_va": 5369752306,
-    "dev_rva": 1043186,
-    "retail_rva": 6231136,
-    "retail_va": 5374940256,
-    "match_type": "vtable",
-    "vtable_class": "BGSExplosion",
-    "vtable_index": 7
-  },
-  "BGSExplosion::vfunc_9_base160": {
-    "dev_va": 5369187296,
-    "dev_rva": 478176,
-    "retail_rva": 6231280,
-    "retail_va": 5374940400,
-    "match_type": "vtable",
-    "vtable_class": "BGSExplosion",
-    "vtable_index": 9
-  },
   "BGSExplosion::vfunc_0_base256": {
     "dev_va": 5369314241,
     "dev_rva": 605121,
@@ -14847,42 +13847,6 @@
     "vtable_class": "BGSProjectile",
     "vtable_index": 0
   },
-  "BGSProjectile::vfunc_2_base296": {
-    "dev_va": 5369359646,
-    "dev_rva": 650526,
-    "retail_rva": 8734016,
-    "retail_va": 5377443136,
-    "match_type": "vtable",
-    "vtable_class": "BGSProjectile",
-    "vtable_index": 2
-  },
-  "BGSProjectile::vfunc_3_base296": {
-    "dev_va": 5368957871,
-    "dev_rva": 248751,
-    "retail_rva": 8733984,
-    "retail_va": 5377443104,
-    "match_type": "vtable",
-    "vtable_class": "BGSProjectile",
-    "vtable_index": 3
-  },
-  "BGSProjectile::vfunc_4_base296": {
-    "dev_va": 5369351166,
-    "dev_rva": 642046,
-    "retail_rva": 4399952,
-    "retail_va": 5373109072,
-    "match_type": "vtable",
-    "vtable_class": "BGSProjectile",
-    "vtable_index": 4
-  },
-  "BGSProjectile::vfunc_7_base296": {
-    "dev_va": 5369953876,
-    "dev_rva": 1244756,
-    "retail_rva": 8734000,
-    "retail_va": 5377443120,
-    "match_type": "vtable",
-    "vtable_class": "BGSProjectile",
-    "vtable_index": 7
-  },
   "BGSScene::vfunc_0": {
     "dev_va": 5370040166,
     "dev_rva": 1331046,
@@ -15431,24 +14395,6 @@
     "match_type": "vtable",
     "vtable_class": "BGSTerminal",
     "vtable_index": 91
-  },
-  "BGSTerminal::vfunc_105": {
-    "dev_va": 5369128076,
-    "dev_rva": 418956,
-    "retail_rva": 9064688,
-    "retail_va": 5377773808,
-    "match_type": "vtable",
-    "vtable_class": "BGSTerminal",
-    "vtable_index": 105
-  },
-  "BGSTerminal::vfunc_106": {
-    "dev_va": 5369949176,
-    "dev_rva": 1240056,
-    "retail_rva": 9064704,
-    "retail_va": 5377773824,
-    "match_type": "vtable",
-    "vtable_class": "BGSTerminal",
-    "vtable_index": 106
   },
   "BGSTerminal::vfunc_111": {
     "dev_va": 5369724841,
@@ -16503,15 +15449,6 @@
     "vtable_class": "BSGeometry",
     "vtable_index": 4
   },
-  "BSGeometry::vfunc_6": {
-    "dev_va": 5369697551,
-    "dev_rva": 988431,
-    "retail_rva": 3788704,
-    "retail_va": 5372497824,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 6
-  },
   "BSGeometry::vfunc_7": {
     "dev_va": 5369740366,
     "dev_rva": 1031246,
@@ -16547,69 +15484,6 @@
     "match_type": "vtable",
     "vtable_class": "BSGeometry",
     "vtable_index": 12
-  },
-  "BSGeometry::vfunc_37": {
-    "dev_va": 5370081861,
-    "dev_rva": 1372741,
-    "retail_rva": 3789232,
-    "retail_va": 5372498352,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 37
-  },
-  "BSGeometry::vfunc_38": {
-    "dev_va": 5368770516,
-    "dev_rva": 61396,
-    "retail_rva": 3789216,
-    "retail_va": 5372498336,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 38
-  },
-  "BSGeometry::vfunc_46": {
-    "dev_va": 5369033131,
-    "dev_rva": 324011,
-    "retail_rva": 3789344,
-    "retail_va": 5372498464,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 46
-  },
-  "BSGeometry::vfunc_47": {
-    "dev_va": 5369492471,
-    "dev_rva": 783351,
-    "retail_rva": 3789392,
-    "retail_va": 5372498512,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 47
-  },
-  "BSGeometry::vfunc_48": {
-    "dev_va": 5369756966,
-    "dev_rva": 1047846,
-    "retail_rva": 3789376,
-    "retail_va": 5372498496,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 48
-  },
-  "BSGeometry::vfunc_52": {
-    "dev_va": 5369391201,
-    "dev_rva": 682081,
-    "retail_rva": 3789440,
-    "retail_va": 5372498560,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 52
-  },
-  "BSGeometry::vfunc_53": {
-    "dev_va": 5368810971,
-    "dev_rva": 101851,
-    "retail_rva": 3789488,
-    "retail_va": 5372498608,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 53
   },
   "BSGeometry::vfunc_55": {
     "dev_va": 5369391311,
@@ -16683,51 +15557,6 @@
     "vtable_class": "BSGeometry",
     "vtable_index": 62
   },
-  "BSGeometry::vfunc_64": {
-    "dev_va": 5370037681,
-    "dev_rva": 1328561,
-    "retail_rva": 58572608,
-    "retail_va": 5427281728,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 64
-  },
-  "BSGeometry::vfunc_65": {
-    "dev_va": 5369360921,
-    "dev_rva": 651801,
-    "retail_rva": 58572624,
-    "retail_va": 5427281744,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 65
-  },
-  "BSGeometry::vfunc_66": {
-    "dev_va": 5369209501,
-    "dev_rva": 500381,
-    "retail_rva": 58572640,
-    "retail_va": 5427281760,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 66
-  },
-  "BSGeometry::vfunc_67": {
-    "dev_va": 5369046321,
-    "dev_rva": 337201,
-    "retail_rva": 58572656,
-    "retail_va": 5427281776,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 67
-  },
-  "BSGeometry::vfunc_68": {
-    "dev_va": 5369732771,
-    "dev_rva": 1023651,
-    "retail_rva": 58572672,
-    "retail_va": 5427281792,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 68
-  },
   "BSGeometry::vfunc_69": {
     "dev_va": 5368755506,
     "dev_rva": 46386,
@@ -16754,15 +15583,6 @@
     "match_type": "vtable",
     "vtable_class": "BSGeometry",
     "vtable_index": 71
-  },
-  "BSGeometry::vfunc_72": {
-    "dev_va": 5370034601,
-    "dev_rva": 1325481,
-    "retail_rva": 58630448,
-    "retail_va": 5427339568,
-    "match_type": "vtable",
-    "vtable_class": "BSGeometry",
-    "vtable_index": 72
   },
   "BSInputEventUser::vfunc_0": {
     "dev_va": 5368865681,
@@ -16862,15 +15682,6 @@
     "match_type": "vtable",
     "vtable_class": "BSTriShape",
     "vtable_index": 2
-  },
-  "BSTriShape::vfunc_10": {
-    "dev_va": 5369821201,
-    "dev_rva": 1112081,
-    "retail_rva": 3788768,
-    "retail_va": 5372497888,
-    "match_type": "vtable",
-    "vtable_class": "BSTriShape",
-    "vtable_index": 10
   },
   "BSTriShape::vfunc_15": {
     "dev_va": 5369567946,
@@ -17493,15 +16304,6 @@
     "vtable_class": "EnchantmentItem",
     "vtable_index": 143
   },
-  "EnchantmentItem::vfunc_146": {
-    "dev_va": 5369248416,
-    "dev_rva": 539296,
-    "retail_rva": 4594176,
-    "retail_va": 5373303296,
-    "match_type": "vtable",
-    "vtable_class": "EnchantmentItem",
-    "vtable_index": 146
-  },
   "EnchantmentItem::vfunc_147": {
     "dev_va": 5369073891,
     "dev_rva": 364771,
@@ -17520,15 +16322,6 @@
     "vtable_class": "EnchantmentItem",
     "vtable_index": 148
   },
-  "EnchantmentItem::vfunc_149": {
-    "dev_va": 5369985196,
-    "dev_rva": 1276076,
-    "retail_rva": 4596608,
-    "retail_va": 5373305728,
-    "match_type": "vtable",
-    "vtable_class": "EnchantmentItem",
-    "vtable_index": 149
-  },
   "EnchantmentItem::vfunc_150": {
     "dev_va": 5369999866,
     "dev_rva": 1290746,
@@ -17538,15 +16331,6 @@
     "vtable_class": "EnchantmentItem",
     "vtable_index": 150
   },
-  "EnchantmentItem::vfunc_151": {
-    "dev_va": 5368827746,
-    "dev_rva": 118626,
-    "retail_rva": 4543552,
-    "retail_va": 5373252672,
-    "match_type": "vtable",
-    "vtable_class": "EnchantmentItem",
-    "vtable_index": 151
-  },
   "EnchantmentItem::vfunc_152": {
     "dev_va": 5368778021,
     "dev_rva": 68901,
@@ -17555,15 +16339,6 @@
     "match_type": "vtable",
     "vtable_class": "EnchantmentItem",
     "vtable_index": 152
-  },
-  "EnchantmentItem::vfunc_153": {
-    "dev_va": 5369732706,
-    "dev_rva": 1023586,
-    "retail_rva": 4597744,
-    "retail_va": 5373306864,
-    "match_type": "vtable",
-    "vtable_class": "EnchantmentItem",
-    "vtable_index": 153
   },
   "EnchantmentItem::vfunc_154": {
     "dev_va": 5369944681,
@@ -17591,15 +16366,6 @@
     "match_type": "vtable",
     "vtable_class": "EnchantmentItem",
     "vtable_index": 156
-  },
-  "EnchantmentItem::vfunc_157": {
-    "dev_va": 5369453741,
-    "dev_rva": 744621,
-    "retail_rva": 4598176,
-    "retail_va": 5373307296,
-    "match_type": "vtable",
-    "vtable_class": "EnchantmentItem",
-    "vtable_index": 157
   },
   "EnchantmentItem::vfunc_158": {
     "dev_va": 5368899501,
@@ -18483,15 +17249,6 @@
     "vtable_class": "HUDMenu",
     "vtable_index": 6
   },
-  "HUDMenu::vfunc_21": {
-    "dev_va": 5369411306,
-    "dev_rva": 702186,
-    "retail_rva": 14275664,
-    "retail_va": 5382984784,
-    "match_type": "vtable",
-    "vtable_class": "HUDMenu",
-    "vtable_index": 21
-  },
   "HUDMenu::vfunc_0_base16": {
     "dev_va": 5368753981,
     "dev_rva": 44861,
@@ -18617,15 +17374,6 @@
     "match_type": "vtable",
     "vtable_class": "IMenu",
     "vtable_index": 15
-  },
-  "IMenu::vfunc_19": {
-    "dev_va": 5369609451,
-    "dev_rva": 900331,
-    "retail_rva": 14275696,
-    "retail_va": 5382984816,
-    "match_type": "vtable",
-    "vtable_class": "IMenu",
-    "vtable_index": 19
   },
   "IMenu::vfunc_0_base16": {
     "dev_va": 5368795826,
@@ -18995,15 +17743,6 @@
     "match_type": "vtable",
     "vtable_class": "LockpickingMenu",
     "vtable_index": 6
-  },
-  "LockpickingMenu::vfunc_17": {
-    "dev_va": 5368860826,
-    "dev_rva": 151706,
-    "retail_rva": 14275728,
-    "retail_va": 5382984848,
-    "match_type": "vtable",
-    "vtable_class": "LockpickingMenu",
-    "vtable_index": 17
   },
   "LockpickingMenu::vfunc_18": {
     "dev_va": 5368986841,
@@ -19455,51 +18194,6 @@
     "vtable_class": "NiAVObject",
     "vtable_index": 2
   },
-  "NiNode::vfunc_8": {
-    "dev_va": 5369898376,
-    "dev_rva": 1189256,
-    "retail_rva": 3788736,
-    "retail_va": 5372497856,
-    "match_type": "vtable",
-    "vtable_class": "NiNode",
-    "vtable_index": 8
-  },
-  "NiAVObject::vfunc_37": {
-    "dev_va": 5369225211,
-    "dev_rva": 516091,
-    "retail_rva": 3789232,
-    "retail_va": 5372498352,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 37
-  },
-  "NiAVObject::vfunc_48": {
-    "dev_va": 5369803876,
-    "dev_rva": 1094756,
-    "retail_rva": 3789376,
-    "retail_va": 5372498496,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 48
-  },
-  "NiAVObject::vfunc_53": {
-    "dev_va": 5368993441,
-    "dev_rva": 284321,
-    "retail_rva": 3789488,
-    "retail_va": 5372498608,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 53
-  },
-  "NiAVObject::vfunc_55": {
-    "dev_va": 5369698231,
-    "dev_rva": 989111,
-    "retail_rva": 58571472,
-    "retail_va": 5427280592,
-    "match_type": "vtable",
-    "vtable_class": "NiAVObject",
-    "vtable_index": 55
-  },
   "NiAVObject::vfunc_56": {
     "dev_va": 5369286991,
     "dev_rva": 577871,
@@ -19580,15 +18274,6 @@
     "match_type": "vtable",
     "vtable_class": "NiNode",
     "vtable_index": 55
-  },
-  "NiNode::vfunc_59": {
-    "dev_va": 5368888186,
-    "dev_rva": 179066,
-    "retail_rva": 58590224,
-    "retail_va": 5427299344,
-    "match_type": "vtable",
-    "vtable_class": "NiNode",
-    "vtable_index": 59
   },
   "PendingActorHeadData::AIProcess::vfunc_0": {
     "dev_va": 5369187266,
@@ -19761,15 +18446,6 @@
     "vtable_class": "PipboyMenu",
     "vtable_index": 6
   },
-  "PipboyMenu::vfunc_17": {
-    "dev_va": 5369949736,
-    "dev_rva": 1240616,
-    "retail_rva": 14275728,
-    "retail_va": 5382984848,
-    "match_type": "vtable",
-    "vtable_class": "PipboyMenu",
-    "vtable_index": 17
-  },
   "PipboyMenu::vfunc_18": {
     "dev_va": 5368986841,
     "dev_rva": 277721,
@@ -19932,15 +18608,6 @@
     "vtable_class": "SpellItem",
     "vtable_index": 137
   },
-  "SpellItem::vfunc_138": {
-    "dev_va": 5368889556,
-    "dev_rva": 180436,
-    "retail_rva": 4589200,
-    "retail_va": 5373298320,
-    "match_type": "vtable",
-    "vtable_class": "SpellItem",
-    "vtable_index": 138
-  },
   "SpellItem::vfunc_139": {
     "dev_va": 5369278281,
     "dev_rva": 569161,
@@ -19977,15 +18644,6 @@
     "vtable_class": "SpellItem",
     "vtable_index": 142
   },
-  "SpellItem::vfunc_143": {
-    "dev_va": 5369972821,
-    "dev_rva": 1263701,
-    "retail_rva": 4589680,
-    "retail_va": 5373298800,
-    "match_type": "vtable",
-    "vtable_class": "SpellItem",
-    "vtable_index": 143
-  },
   "SpellItem::vfunc_144": {
     "dev_va": 5369892926,
     "dev_rva": 1183806,
@@ -20013,15 +18671,6 @@
     "vtable_class": "SpellItem",
     "vtable_index": 146
   },
-  "SpellItem::vfunc_148": {
-    "dev_va": 5369739511,
-    "dev_rva": 1030391,
-    "retail_rva": 4582144,
-    "retail_va": 5373291264,
-    "match_type": "vtable",
-    "vtable_class": "SpellItem",
-    "vtable_index": 148
-  },
   "SpellItem::vfunc_149": {
     "dev_va": 5369062131,
     "dev_rva": 353011,
@@ -20039,15 +18688,6 @@
     "match_type": "vtable",
     "vtable_class": "SpellItem",
     "vtable_index": 150
-  },
-  "SpellItem::vfunc_151": {
-    "dev_va": 5369160166,
-    "dev_rva": 451046,
-    "retail_rva": 4543552,
-    "retail_va": 5373252672,
-    "match_type": "vtable",
-    "vtable_class": "SpellItem",
-    "vtable_index": 151
   },
   "SpellItem::vfunc_152": {
     "dev_va": 5369665881,
@@ -20210,24 +18850,6 @@
     "match_type": "vtable",
     "vtable_class": "TESClass",
     "vtable_index": 22
-  },
-  "TESNPC::vfunc_92": {
-    "dev_va": 5368823861,
-    "dev_rva": 114741,
-    "retail_rva": 4547520,
-    "retail_va": 5373256640,
-    "match_type": "vtable",
-    "vtable_class": "TESNPC",
-    "vtable_index": 92
-  },
-  "TESNPC::vfunc_93": {
-    "dev_va": 5370002406,
-    "dev_rva": 1293286,
-    "retail_rva": 4547552,
-    "retail_va": 5373256672,
-    "match_type": "vtable",
-    "vtable_class": "TESNPC",
-    "vtable_index": 93
   },
   "TESActorBase::vfunc_133": {
     "dev_va": 5370054826,
@@ -20445,15 +19067,6 @@
     "vtable_class": "TESActorBase",
     "vtable_index": 4
   },
-  "TESActorBase::vfunc_5_base368": {
-    "dev_va": 5369699916,
-    "dev_rva": 990796,
-    "retail_rva": 10188864,
-    "retail_va": 5378897984,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 5
-  },
   "TESActorBase::vfunc_6_base368": {
     "dev_va": 5369878216,
     "dev_rva": 1169096,
@@ -20462,24 +19075,6 @@
     "match_type": "vtable",
     "vtable_class": "TESActorBase",
     "vtable_index": 6
-  },
-  "TESActorBase::vfunc_7_base368": {
-    "dev_va": 5368745596,
-    "dev_rva": 36476,
-    "retail_rva": 10183312,
-    "retail_va": 5378892432,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 7
-  },
-  "TESActorBase::vfunc_8_base368": {
-    "dev_va": 5369631821,
-    "dev_rva": 922701,
-    "retail_rva": 10188880,
-    "retail_va": 5378898000,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 8
   },
   "TESActorBase::vfunc_9_base368": {
     "dev_va": 5369990286,
@@ -20490,24 +19085,6 @@
     "vtable_class": "TESActorBase",
     "vtable_index": 9
   },
-  "TESActorBase::vfunc_10_base368": {
-    "dev_va": 5369216096,
-    "dev_rva": 506976,
-    "retail_rva": 10185440,
-    "retail_va": 5378894560,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 10
-  },
-  "TESActorBase::vfunc_11_base368": {
-    "dev_va": 5369125411,
-    "dev_rva": 416291,
-    "retail_rva": 10185424,
-    "retail_va": 5378894544,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 11
-  },
   "TESActorBase::vfunc_0_base432": {
     "dev_va": 5369997786,
     "dev_rva": 1288666,
@@ -20516,42 +19093,6 @@
     "match_type": "vtable",
     "vtable_class": "TESActorBase",
     "vtable_index": 0
-  },
-  "TESActorBase::vfunc_2_base432": {
-    "dev_va": 5369637501,
-    "dev_rva": 928381,
-    "retail_rva": 5746464,
-    "retail_va": 5374455584,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 2
-  },
-  "TESActorBase::vfunc_3_base432": {
-    "dev_va": 5368847001,
-    "dev_rva": 137881,
-    "retail_rva": 5746480,
-    "retail_va": 5374455600,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 3
-  },
-  "TESActorBase::vfunc_4_base432": {
-    "dev_va": 5369942711,
-    "dev_rva": 1233591,
-    "retail_rva": 5747328,
-    "retail_va": 5374456448,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 4
-  },
-  "TESActorBase::vfunc_7_base432": {
-    "dev_va": 5370056721,
-    "dev_rva": 1347601,
-    "retail_rva": 5746496,
-    "retail_va": 5374455616,
-    "match_type": "vtable",
-    "vtable_class": "TESActorBase",
-    "vtable_index": 7
   },
   "TESAmmo::vfunc_0": {
     "dev_va": 5368878326,
@@ -20616,15 +19157,6 @@
     "vtable_class": "TESAmmo",
     "vtable_index": 88
   },
-  "TESAmmo::vfunc_89": {
-    "dev_va": 5369976886,
-    "dev_rva": 1267766,
-    "retail_rva": 6256944,
-    "retail_va": 5374966064,
-    "match_type": "vtable",
-    "vtable_class": "TESAmmo",
-    "vtable_index": 89
-  },
   "TESAmmo::vfunc_94": {
     "dev_va": 5369365416,
     "dev_rva": 656296,
@@ -20651,15 +19183,6 @@
     "match_type": "vtable",
     "vtable_class": "TESAmmo",
     "vtable_index": 118
-  },
-  "TESAmmo::vfunc_119": {
-    "dev_va": 5369488911,
-    "dev_rva": 779791,
-    "retail_rva": 4544576,
-    "retail_va": 5373253696,
-    "match_type": "vtable",
-    "vtable_class": "TESAmmo",
-    "vtable_index": 119
   },
   "TESAmmo::vfunc_0_base144": {
     "dev_va": 5369195396,
@@ -21813,33 +20336,6 @@
     "vtable_class": "TESKey",
     "vtable_index": 0
   },
-  "TESKey::vfunc_2_base320": {
-    "dev_va": 5369359646,
-    "dev_rva": 650526,
-    "retail_rva": 6231104,
-    "retail_va": 5374940224,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 2
-  },
-  "TESKey::vfunc_3_base320": {
-    "dev_va": 5368957871,
-    "dev_rva": 248751,
-    "retail_rva": 6231120,
-    "retail_va": 5374940240,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 3
-  },
-  "TESKey::vfunc_7_base320": {
-    "dev_va": 5369953876,
-    "dev_rva": 1244756,
-    "retail_rva": 6231136,
-    "retail_va": 5374940256,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 7
-  },
   "TESKey::vfunc_0_base384": {
     "dev_va": 5369741326,
     "dev_rva": 1032206,
@@ -21849,42 +20345,6 @@
     "vtable_class": "TESKey",
     "vtable_index": 0
   },
-  "TESKey::vfunc_2_base384": {
-    "dev_va": 5369678166,
-    "dev_rva": 969046,
-    "retail_rva": 5755072,
-    "retail_va": 5374464192,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 2
-  },
-  "TESKey::vfunc_3_base384": {
-    "dev_va": 5369062051,
-    "dev_rva": 352931,
-    "retail_rva": 5755104,
-    "retail_va": 5374464224,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 3
-  },
-  "TESKey::vfunc_4_base384": {
-    "dev_va": 5369129616,
-    "dev_rva": 420496,
-    "retail_rva": 4399952,
-    "retail_va": 5373109072,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 4
-  },
-  "TESKey::vfunc_7_base384": {
-    "dev_va": 5369745341,
-    "dev_rva": 1036221,
-    "retail_rva": 5755152,
-    "retail_va": 5374464272,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 7
-  },
   "TESKey::vfunc_0_base408": {
     "dev_va": 5369804856,
     "dev_rva": 1095736,
@@ -21893,42 +20353,6 @@
     "match_type": "vtable",
     "vtable_class": "TESKey",
     "vtable_index": 0
-  },
-  "TESKey::vfunc_2_base408": {
-    "dev_va": 5369077966,
-    "dev_rva": 368846,
-    "retail_rva": 5771680,
-    "retail_va": 5374480800,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 2
-  },
-  "TESKey::vfunc_3_base408": {
-    "dev_va": 5368758961,
-    "dev_rva": 49841,
-    "retail_rva": 5771712,
-    "retail_va": 5374480832,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 3
-  },
-  "TESKey::vfunc_4_base408": {
-    "dev_va": 5369120011,
-    "dev_rva": 410891,
-    "retail_rva": 5771808,
-    "retail_va": 5374480928,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 4
-  },
-  "TESKey::vfunc_7_base408": {
-    "dev_va": 5369783451,
-    "dev_rva": 1074331,
-    "retail_rva": 5771728,
-    "retail_va": 5374480848,
-    "match_type": "vtable",
-    "vtable_class": "TESKey",
-    "vtable_index": 7
   },
   "TESLoadScreen::vfunc_0": {
     "dev_va": 5369174351,
@@ -22128,15 +20552,6 @@
     "vtable_class": "TESNPC",
     "vtable_index": 115
   },
-  "TESNPC::vfunc_133": {
-    "dev_va": 5369737451,
-    "dev_rva": 1028331,
-    "retail_rva": 11836608,
-    "retail_va": 5380545728,
-    "match_type": "vtable",
-    "vtable_class": "TESNPC",
-    "vtable_index": 133
-  },
   "TESNPC::vfunc_134": {
     "dev_va": 5369794526,
     "dev_rva": 1085406,
@@ -22208,24 +20623,6 @@
     "match_type": "vtable",
     "vtable_class": "TESNPC",
     "vtable_index": 1
-  },
-  "TESNPC::vfunc_10_base368": {
-    "dev_va": 5368911831,
-    "dev_rva": 202711,
-    "retail_rva": 10185440,
-    "retail_va": 5378894560,
-    "match_type": "vtable",
-    "vtable_class": "TESNPC",
-    "vtable_index": 10
-  },
-  "TESNPC::vfunc_11_base368": {
-    "dev_va": 5369250651,
-    "dev_rva": 541531,
-    "retail_rva": 10185424,
-    "retail_va": 5378894544,
-    "match_type": "vtable",
-    "vtable_class": "TESNPC",
-    "vtable_index": 11
   },
   "TESNPC::vfunc_0_base432": {
     "dev_va": 5369641756,
@@ -22488,15 +20885,6 @@
     "vtable_class": "TESObjectARMO",
     "vtable_index": 103
   },
-  "TESObjectARMO::vfunc_126": {
-    "dev_va": 5368793111,
-    "dev_rva": 83991,
-    "retail_rva": 4543232,
-    "retail_va": 5373252352,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectARMO",
-    "vtable_index": 126
-  },
   "TESObjectARMO::vfunc_127": {
     "dev_va": 5369219296,
     "dev_rva": 510176,
@@ -22514,15 +20902,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectARMO",
     "vtable_index": 128
-  },
-  "TESObjectARMO::vfunc_130": {
-    "dev_va": 5369946481,
-    "dev_rva": 1237361,
-    "retail_rva": 4543856,
-    "retail_va": 5373252976,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectARMO",
-    "vtable_index": 130
   },
   "TESObjectARMO::vfunc_131": {
     "dev_va": 5369297806,
@@ -22622,51 +21001,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectARMO",
     "vtable_index": 0
-  },
-  "TESObjectARMO::vfunc_2_base176": {
-    "dev_va": 5369284156,
-    "dev_rva": 575036,
-    "retail_rva": 6235424,
-    "retail_va": 5374944544,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectARMO",
-    "vtable_index": 2
-  },
-  "TESObjectARMO::vfunc_3_base176": {
-    "dev_va": 5369979106,
-    "dev_rva": 1269986,
-    "retail_rva": 6235456,
-    "retail_va": 5374944576,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectARMO",
-    "vtable_index": 3
-  },
-  "TESObjectARMO::vfunc_4_base176": {
-    "dev_va": 5369749486,
-    "dev_rva": 1040366,
-    "retail_rva": 6235472,
-    "retail_va": 5374944592,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectARMO",
-    "vtable_index": 4
-  },
-  "TESObjectARMO::vfunc_7_base176": {
-    "dev_va": 5369548956,
-    "dev_rva": 839836,
-    "retail_rva": 6235680,
-    "retail_va": 5374944800,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectARMO",
-    "vtable_index": 7
-  },
-  "TESObjectARMO::vfunc_9_base176": {
-    "dev_va": 5369870416,
-    "dev_rva": 1161296,
-    "retail_rva": 6236048,
-    "retail_va": 5374945168,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectARMO",
-    "vtable_index": 9
   },
   "TESObjectARMO::vfunc_0_base200": {
     "dev_va": 5369137061,
@@ -23991,15 +22325,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 99
   },
-  "TESObjectREFR::vfunc_102": {
-    "dev_va": 5369126926,
-    "dev_rva": 417806,
-    "retail_rva": 9900112,
-    "retail_va": 5378609232,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 102
-  },
   "TESObjectREFR::vfunc_104": {
     "dev_va": 5369001706,
     "dev_rva": 292586,
@@ -24008,24 +22333,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 104
-  },
-  "TESObjectREFR::vfunc_105": {
-    "dev_va": 5369048876,
-    "dev_rva": 339756,
-    "retail_rva": 10185840,
-    "retail_va": 5378894960,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 105
-  },
-  "TESObjectREFR::vfunc_106": {
-    "dev_va": 5369880651,
-    "dev_rva": 1171531,
-    "retail_rva": 9905968,
-    "retail_va": 5378615088,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 106
   },
   "TESObjectREFR::vfunc_107": {
     "dev_va": 5369239471,
@@ -24071,15 +22378,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 111
-  },
-  "TESObjectREFR::vfunc_112": {
-    "dev_va": 5369923346,
-    "dev_rva": 1214226,
-    "retail_rva": 10550656,
-    "retail_va": 5379259776,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 112
   },
   "TESObjectREFR::vfunc_113": {
     "dev_va": 5369283181,
@@ -24180,24 +22478,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 123
   },
-  "TESObjectREFR::vfunc_124": {
-    "dev_va": 5369221516,
-    "dev_rva": 512396,
-    "retail_rva": 10472224,
-    "retail_va": 5379181344,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 124
-  },
-  "TESObjectREFR::vfunc_125": {
-    "dev_va": 5369140141,
-    "dev_rva": 431021,
-    "retail_rva": 10472352,
-    "retail_va": 5379181472,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 125
-  },
   "TESObjectREFR::vfunc_126": {
     "dev_va": 5368845026,
     "dev_rva": 135906,
@@ -24252,15 +22532,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 133
   },
-  "TESObjectREFR::vfunc_134": {
-    "dev_va": 5369497651,
-    "dev_rva": 788531,
-    "retail_rva": 9932928,
-    "retail_va": 5378642048,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 134
-  },
   "TESObjectREFR::vfunc_135": {
     "dev_va": 5369911491,
     "dev_rva": 1202371,
@@ -24278,24 +22549,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 136
-  },
-  "TESObjectREFR::vfunc_137": {
-    "dev_va": 5370006576,
-    "dev_rva": 1297456,
-    "retail_rva": 9933024,
-    "retail_va": 5378642144,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 137
-  },
-  "TESObjectREFR::vfunc_138": {
-    "dev_va": 5368813991,
-    "dev_rva": 104871,
-    "retail_rva": 9933008,
-    "retail_va": 5378642128,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 138
   },
   "TESObjectREFR::vfunc_139": {
     "dev_va": 5369601951,
@@ -24323,24 +22576,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 141
-  },
-  "TESObjectREFR::vfunc_142": {
-    "dev_va": 5369477161,
-    "dev_rva": 768041,
-    "retail_rva": 10185152,
-    "retail_va": 5378894272,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 142
-  },
-  "TESObjectREFR::vfunc_143": {
-    "dev_va": 5369438756,
-    "dev_rva": 729636,
-    "retail_rva": 10188240,
-    "retail_va": 5378897360,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 143
   },
   "TESObjectREFR::vfunc_144": {
     "dev_va": 5369097176,
@@ -24377,15 +22612,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 148
-  },
-  "TESObjectREFR::vfunc_149": {
-    "dev_va": 5369606096,
-    "dev_rva": 896976,
-    "retail_rva": 10562640,
-    "retail_va": 5379271760,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 149
   },
   "TESObjectREFR::vfunc_150": {
     "dev_va": 5369644751,
@@ -24450,24 +22676,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 158
   },
-  "TESObjectREFR::vfunc_159": {
-    "dev_va": 5369937956,
-    "dev_rva": 1228836,
-    "retail_rva": 10183152,
-    "retail_va": 5378892272,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 159
-  },
-  "TESObjectREFR::vfunc_160": {
-    "dev_va": 5369229986,
-    "dev_rva": 520866,
-    "retail_rva": 9946768,
-    "retail_va": 5378655888,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 160
-  },
   "TESObjectREFR::vfunc_161": {
     "dev_va": 5368765321,
     "dev_rva": 56201,
@@ -24495,15 +22703,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 163
   },
-  "TESObjectREFR::vfunc_164": {
-    "dev_va": 5369130481,
-    "dev_rva": 421361,
-    "retail_rva": 9958784,
-    "retail_va": 5378667904,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 164
-  },
   "TESObjectREFR::vfunc_165": {
     "dev_va": 5369454071,
     "dev_rva": 744951,
@@ -24513,15 +22712,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 165
   },
-  "TESObjectREFR::vfunc_166": {
-    "dev_va": 5369242751,
-    "dev_rva": 533631,
-    "retail_rva": 9966192,
-    "retail_va": 5378675312,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 166
-  },
   "TESObjectREFR::vfunc_167": {
     "dev_va": 5370014641,
     "dev_rva": 1305521,
@@ -24530,15 +22720,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 167
-  },
-  "TESObjectREFR::vfunc_171": {
-    "dev_va": 5369505811,
-    "dev_rva": 796691,
-    "retail_rva": 9967248,
-    "retail_va": 5378676368,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 171
   },
   "TESObjectREFR::vfunc_173": {
     "dev_va": 5369177711,
@@ -24567,15 +22748,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 177
   },
-  "TESObjectREFR::vfunc_178": {
-    "dev_va": 5368903361,
-    "dev_rva": 194241,
-    "retail_rva": 9980736,
-    "retail_va": 5378689856,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 178
-  },
   "TESObjectREFR::vfunc_180": {
     "dev_va": 5369850536,
     "dev_rva": 1141416,
@@ -24584,15 +22756,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 180
-  },
-  "TESObjectREFR::vfunc_181": {
-    "dev_va": 5368975966,
-    "dev_rva": 266846,
-    "retail_rva": 9982816,
-    "retail_va": 5378691936,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 181
   },
   "TESObjectREFR::vfunc_182": {
     "dev_va": 5369659246,
@@ -24647,24 +22810,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 187
-  },
-  "TESObjectREFR::vfunc_188": {
-    "dev_va": 5369472741,
-    "dev_rva": 763621,
-    "retail_rva": 9983056,
-    "retail_va": 5378692176,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 188
-  },
-  "TESObjectREFR::vfunc_189": {
-    "dev_va": 5369657221,
-    "dev_rva": 948101,
-    "retail_rva": 10199456,
-    "retail_va": 5378908576,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 189
   },
   "TESObjectREFR::vfunc_190": {
     "dev_va": 5369007186,
@@ -24774,24 +22919,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 201
   },
-  "TESObjectREFR::vfunc_205": {
-    "dev_va": 5368927256,
-    "dev_rva": 218136,
-    "retail_rva": 10567696,
-    "retail_va": 5379276816,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 205
-  },
-  "TESObjectREFR::vfunc_206": {
-    "dev_va": 5369417316,
-    "dev_rva": 708196,
-    "retail_rva": 10188064,
-    "retail_va": 5378897184,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 206
-  },
   "TESObjectREFR::vfunc_207": {
     "dev_va": 5369468126,
     "dev_rva": 759006,
@@ -24837,15 +22964,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 211
   },
-  "TESObjectREFR::vfunc_212": {
-    "dev_va": 5369346926,
-    "dev_rva": 637806,
-    "retail_rva": 10187936,
-    "retail_va": 5378897056,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 212
-  },
   "TESObjectREFR::vfunc_213": {
     "dev_va": 5369213596,
     "dev_rva": 504476,
@@ -24890,33 +23008,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 217
-  },
-  "TESObjectREFR::vfunc_221": {
-    "dev_va": 5369082196,
-    "dev_rva": 373076,
-    "retail_rva": 10185120,
-    "retail_va": 5378894240,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 221
-  },
-  "TESObjectREFR::vfunc_222": {
-    "dev_va": 5369441776,
-    "dev_rva": 732656,
-    "retail_rva": 10185216,
-    "retail_va": 5378894336,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 222
-  },
-  "TESObjectREFR::vfunc_223": {
-    "dev_va": 5369904311,
-    "dev_rva": 1195191,
-    "retail_rva": 10185200,
-    "retail_va": 5378894320,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 223
   },
   "TESObjectREFR::vfunc_224": {
     "dev_va": 5369931026,
@@ -24972,15 +23063,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 230
   },
-  "TESObjectREFR::vfunc_231": {
-    "dev_va": 5370110731,
-    "dev_rva": 1401611,
-    "retail_rva": 10014928,
-    "retail_va": 5378724048,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 231
-  },
   "TESObjectREFR::vfunc_232": {
     "dev_va": 5369452621,
     "dev_rva": 743501,
@@ -25017,24 +23099,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 235
   },
-  "TESObjectREFR::vfunc_237": {
-    "dev_va": 5369991131,
-    "dev_rva": 1282011,
-    "retail_rva": 10031456,
-    "retail_va": 5378740576,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 237
-  },
-  "TESObjectREFR::vfunc_238": {
-    "dev_va": 5369117646,
-    "dev_rva": 408526,
-    "retail_rva": 10031792,
-    "retail_va": 5378740912,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 238
-  },
   "TESObjectREFR::vfunc_240": {
     "dev_va": 5369599241,
     "dev_rva": 890121,
@@ -25052,15 +23116,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 241
-  },
-  "TESObjectREFR::vfunc_242": {
-    "dev_va": 5369883081,
-    "dev_rva": 1173961,
-    "retail_rva": 10184656,
-    "retail_va": 5378893776,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 242
   },
   "TESObjectREFR::vfunc_243": {
     "dev_va": 5369322951,
@@ -25161,15 +23216,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 253
   },
-  "TESObjectREFR::vfunc_254": {
-    "dev_va": 5369914526,
-    "dev_rva": 1205406,
-    "retail_rva": 10045760,
-    "retail_va": 5378754880,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 254
-  },
   "TESObjectREFR::vfunc_255": {
     "dev_va": 5369173711,
     "dev_rva": 464591,
@@ -25215,15 +23261,6 @@
     "vtable_class": "TESObjectREFR",
     "vtable_index": 259
   },
-  "TESObjectREFR::vfunc_260": {
-    "dev_va": 5370106726,
-    "dev_rva": 1397606,
-    "retail_rva": 10182544,
-    "retail_va": 5378891664,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 260
-  },
   "TESObjectREFR::vfunc_261": {
     "dev_va": 5369182731,
     "dev_rva": 473611,
@@ -25250,15 +23287,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectREFR",
     "vtable_index": 263
-  },
-  "TESObjectREFR::vfunc_264": {
-    "dev_va": 5369120136,
-    "dev_rva": 411016,
-    "retail_rva": 10048064,
-    "retail_va": 5378757184,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectREFR",
-    "vtable_index": 264
   },
   "TESObjectREFR::vfunc_0_base40": {
     "dev_va": 5369466491,
@@ -25953,15 +23981,6 @@
     "vtable_class": "TESObjectWEAP",
     "vtable_index": 66
   },
-  "TESObjectWEAP::vfunc_74": {
-    "dev_va": 5369802686,
-    "dev_rva": 1093566,
-    "retail_rva": 4543648,
-    "retail_va": 5373252768,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectWEAP",
-    "vtable_index": 74
-  },
   "TESObjectWEAP::vfunc_83": {
     "dev_va": 5368951121,
     "dev_rva": 242001,
@@ -26024,24 +24043,6 @@
     "match_type": "vtable",
     "vtable_class": "TESObjectWEAP",
     "vtable_index": 124
-  },
-  "TESObjectWEAP::vfunc_125": {
-    "dev_va": 5368949911,
-    "dev_rva": 240791,
-    "retail_rva": 4543248,
-    "retail_va": 5373252368,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectWEAP",
-    "vtable_index": 125
-  },
-  "TESObjectWEAP::vfunc_126": {
-    "dev_va": 5368859646,
-    "dev_rva": 150526,
-    "retail_rva": 4543232,
-    "retail_va": 5373252352,
-    "match_type": "vtable",
-    "vtable_class": "TESObjectWEAP",
-    "vtable_index": 126
   },
   "TESObjectWEAP::vfunc_127": {
     "dev_va": 5369852526,
@@ -27576,17 +25577,6 @@
     "wildcarded_bytes": 4,
     "concrete_bytes": 8
   },
-  "StatChallengeManager::LogChallengeTrace": {
-    "dev_va": 5383447472,
-    "dev_rva": 14738352,
-    "retail_rva": 21138475,
-    "retail_va": 5389847595,
-    "sig_length_used": 20,
-    "match_type": "interior-off15-20b-0wc",
-    "wildcarded_bytes": 0,
-    "concrete_bytes": 20,
-    "interior_offset": 15
-  },
   "BSTempEffectDebris::Init": {
     "dev_va": 5392190507,
     "dev_rva": 23481387,
@@ -27636,16 +25626,6 @@
     "match_type": "prefix-10b-4wc",
     "wildcarded_bytes": 4,
     "concrete_bytes": 6
-  },
-  "ClientInventoryMutator::AddItem": {
-    "dev_va": 5408782804,
-    "dev_rva": 40073684,
-    "retail_rva": 37093768,
-    "retail_va": 5405802888,
-    "sig_length_used": 20,
-    "match_type": "aggressive-20b-12wc",
-    "wildcarded_bytes": 12,
-    "concrete_bytes": 8
   },
   "SSyncedVariable::Serialize": {
     "dev_va": 5410429026,
