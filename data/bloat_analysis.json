@@ -1,0 +1,58 @@
+{
+  "analysis_date": "2026-03-21",
+  "install_size_gb": 117,
+  "total_dead_data_estimate_gb": 2.3,
+  "nuclear_winter_babylon": {
+    "total_mb": 1328.5,
+    "textures_mb": 1168.3,
+    "sounds_mb": 87.5,
+    "meshes_mb": 24.0,
+    "voices_mb": 23.1,
+    "scripts_ui_mb": 25.6,
+    "note": "Complete Nuclear Winter mode removed Sept 2021. All assets still ship. NW.esm (28MB) also still included."
+  },
+  "orphaned_voices": {
+    "total_files": 29039,
+    "total_voice_types": 197,
+    "estimated_size_mb": 950,
+    "note": "24% of all voice files have no matching INFO record in the ESM. Audio exists, can never play in-game."
+  },
+  "fo4_legacy": {
+    "child_voice_files": 281,
+    "note": "FO4 child NPC voice recordings carried over from engine fork. Diamond City, Commonwealth, vault references."
+  },
+  "test_debug_meshes": {
+    "total": 328,
+    "examples": [
+      "rottweilertest.nif",
+      "mechtest.nif",
+      "vulturetest.nif",
+      "lagbonetest.nif",
+      "scorchbeastemp.nif",
+      "testsimplygonhouse01.nif"
+    ]
+  },
+  "interesting_assets": {
+    "cornbot_cobby": {
+      "meshes": 1,
+      "textures_mb": 15.8,
+      "note": "Burning Springs corn-themed robot mascot with full texture set"
+    },
+    "lesser_devil": {
+      "meshes": 5,
+      "note": "Jersey Devil variant with 3 horn styles \u2014 smaller cousin?"
+    },
+    "vulture": {
+      "meshes": 4,
+      "note": "Flying scavenger bird with posed corpse variant and DNA sample prop"
+    },
+    "babylon_pa_tiers": {
+      "meshes": 57,
+      "note": "T-45 PA in 4 NW-exclusive visual tiers with level-gated skins"
+    },
+    "babylon_hud": {
+      "files": 2,
+      "note": "babylonhudmenu.swf and babylonspectatorhud.swf \u2014 complete Flash UI for NW mode"
+    }
+  }
+}
