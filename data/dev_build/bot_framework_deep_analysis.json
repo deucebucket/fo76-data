@@ -1,0 +1,654 @@
+{
+  "title": "Fallout 76 AutoTestClient Bot Framework - Deep Analysis",
+  "date": "2026-03-21",
+  "summary": "Bethesda shipped a comprehensive automated testing and bot framework inside the Fallout 76 game files as Papyrus scripts under the AutoTestClient namespace. These scripts extend the Player or Actor base class and use native engine functions (SetAIDriven, PathToReference, FindRandomCombatTarget, etc.) to simulate full player behavior: navigation, combat, looting, interior transitions, weapon testing, chem usage, quest progression, and Nuclear Winter (Babylon) bot behavior. The framework includes a client distribution system that spreads bots across the map, a shared assertion/logging API in Debug.psc, and a network message (DebugGameplayAutoTestComplete) for reporting test results to the server.",
+
+  "architecture": {
+    "base_classes": {
+      "Player": "Engine-native class (player.psc) that exposes SetAIDriven(), GetPlayerControls(), SetWantSprinting(), PathToReference(), FindRandomCombatTarget(), FindClosestReferenceOfType(), FindRandomReferenceWithKeyword(), IsInsideStormZone(), GetHeadingToStormZoneCenter(), HasSpawnedIntoBabylonGame(), FastTravel(), MoveTo(), and all standard Actor methods.",
+      "Actor": "Standard Creation Engine actor class with combat, pathfinding, inventory, and state machine APIs."
+    },
+    "namespace": "AutoTestClient (client-side bots) and AutoTestServer/AutoTestShared (server-side tests and shared utilities)",
+    "entry_point": "Each script has a StartTest() function, called by the engine's autotest system. Tests report completion via Debug.AutoTestComplete(bool).",
+    "client_distribution": "AutoTestClient:Common.DistributeClients() teleports each bot client to one of 24 predefined world cell coordinates using CowToCell(), spreading load across the map.",
+    "test_completion": "DebugGameplayAutoTestComplete network message (single bool: m_succeeded) sent from client to server when a test finishes.",
+    "server76_integration": "The Server76 private server emulator has the DebugGameplayAutoTestComplete message type defined, the BabylonFacadeComponent includes a botVal field (3 bits), and the BabylonManager initializes Nuclear Winter match state. No reimplementation of SetAIDriven/PathToReference was found - those are engine-native functions."
+  },
+
+  "core_apis": {
+    "navigation": {
+      "SetAIDriven(bool)": "CRITICAL: Native function on Player that switches the player character to AI-controlled mode. When true, the engine's NPC AI system drives the player character, enabling pathfinding and autonomous movement.",
+      "PathToReference(ObjectReference, float)": "Native function that makes the AI-driven player pathfind to a target reference using the engine's navmesh system. Returns bool for success/failure. Used with retry loops (typically 3-5 attempts).",
+      "SetWantSprinting(bool)": "Makes the AI-driven player sprint while navigating.",
+      "MoveTo(ObjectReference, float, float, float, bool)": "Instant teleport to a reference position.",
+      "GetPlayerControls()": "Checks if player has manual control (used to guard SetAIDriven calls).",
+      "Debug.CenterOnCell(string)": "Teleport to a named cell.",
+      "Debug.CenterOnWorldAndWait(string, int, int)": "Teleport to world coordinates and wait for load.",
+      "Debug.PlayerMoveToAndWait(string)": "Move to reference and wait.",
+      "Debug.PlayerGoTo(string)": "Navigate to a string key reference."
+    },
+    "combat": {
+      "FindRandomCombatTarget(float)": "Finds a random hostile actor within radius. Used by GrindMonsters and MoveAndFight scripts.",
+      "StartCombat(Actor, bool)": "Initiates combat with a target.",
+      "Debug.AutoTestFire()": "Fires currently equipped weapon.",
+      "Debug.AutoTestFireWeapon()": "Alternative fire function.",
+      "Debug.AutoTestFireOnTarget(Actor)": "Fires at specific target.",
+      "Debug.AutoTestFaceTarget(Actor)": "Rotates to face a target."
+    },
+    "interaction": {
+      "Activate(ObjectReference, bool)": "Activates doors, containers, flora, and other interactables.",
+      "Debug.AutoTestLootContainer(ObjectReference)": "Loots a container automatically.",
+      "FindClosestReferenceOfType(Form, float)": "Finds nearest reference of a given form type.",
+      "FindClosestValidReferenceOfType(Form, float)": "Same but validates the reference.",
+      "FindAllReferencesOfType(Form, float)": "Gets array of all references of type in radius.",
+      "FindRandomReferenceWithKeyword(Form, float, bool)": "Finds random reference by keyword.",
+      "Debug.FindRandomReferenceWithFormTypeId(ObjectReference, int, float)": "Finds random reference by form type ID."
+    },
+    "data_collection": {
+      "Debug.GetNormalizedDamageResistance(Actor)": "Gets normalized DR for an actor.",
+      "Debug.GetNormalizedEnergyResistance(Actor)": "Gets normalized ER.",
+      "Debug.GetNormalizedRadiationResistance(Actor)": "Gets normalized rad resist.",
+      "Debug.GetNormalizedFireResistance(Actor)": "Gets normalized fire resist.",
+      "Debug.GetNormalizedCryoResistance(Actor)": "Gets normalized cryo resist.",
+      "Debug.GetNormalizedPoisonResistance(Actor)": "Gets normalized poison resist.",
+      "Debug.GetNormalizedUnarmedDamage(Actor)": "Gets normalized unarmed damage.",
+      "Debug.GetNormalizedWeaponsDamageForActor(Actor)": "Gets array of weapon damage values.",
+      "Debug.GetWeaponsInActorInventory(Actor)": "Gets array of weapons an actor has.",
+      "Debug.GetInstanceLevelOfPlayerWeapons(Actor)": "Gets instance levels of player weapons.",
+      "Debug.AutoTestGetNormalizedLevel(Actor)": "Gets normalized actor level.",
+      "Debug.AutoTestGetNormalizedHealth(Actor)": "Gets normalized HP.",
+      "Debug.AutoTestGetNormalizedHealthMax(Actor)": "Gets max normalized HP.",
+      "Debug.AutoTestGetCurrentWeaponLevel()": "Gets current weapon instance level.",
+      "Debug.GetFormsByType(int)": "Gets ALL forms of a given type - can enumerate every item, NPC, weapon, etc.",
+      "Debug.GetNumMapMarkers()": "Gets total number of map markers.",
+      "Debug.GetMapMarkerByIndex(int)": "Gets specific map marker reference.",
+      "Debug.AutoTestReadFile(string)": "Reads a text file from disk (batch files, config, etc).",
+      "Debug.DBSendPlayerPosition()": "Sends player position to a database.",
+      "Debug.QuestGetInstanceIDs(string)": "Gets quest instance IDs by name.",
+      "Debug.QuestGetStage(int)": "Gets quest stage.",
+      "Debug.QuestGetCompleted(int)": "Checks quest completion.",
+      "Debug.QuestGetFailed(int)": "Checks quest failure."
+    },
+    "assertions": {
+      "Debug.AutoTestExpectTrue(bool, string)": "Assert true.",
+      "Debug.AutoTestExpectFalse(bool, string)": "Assert false.",
+      "Debug.AutoTestExpectEqInt/Float/String/Bool/Object": "Equality assertions.",
+      "Debug.AutoTestExpectNotEqInt/Float/String/Object": "Inequality assertions.",
+      "Debug.AutoTestExpectGreaterInt/Float": "Greater-than assertions.",
+      "Debug.AutoTestExpectGreaterEqInt/Float": "Greater-or-equal assertions.",
+      "Debug.AutoTestExpectLessInt/Float": "Less-than assertions.",
+      "Debug.AutoTestExpectLessEqInt/Float": "Less-or-equal assertions.",
+      "Debug.AutoTestComplete(bool)": "Marks test as complete with pass/fail.",
+      "Debug.AutoTestLog(string)": "Logs a test message.",
+      "Debug.AutoTestDebugLog(string)": "Debug-level test log.",
+      "Debug.AutoTestGetExecutionDuration()": "Gets test runtime.",
+      "Debug.AutoTestGetExecutionIndex()": "Gets bot client index (for multi-bot distribution)."
+    },
+    "nuclear_winter_babylon": {
+      "IsInsideStormZone(float)": "Checks if player is inside the NW storm zone with extra radius buffer.",
+      "GetHeadingToStormZoneCenter()": "Gets heading angle toward storm safe zone center.",
+      "HasSpawnedIntoBabylonGame()": "Checks if player has spawned into a NW match.",
+      "Debug.BabylonBotShouldLoot()": "Native bool: should the NW bot go loot right now.",
+      "Debug.BabylonBotShouldShoot()": "Native bool: should the NW bot shoot right now.",
+      "Debug.BabylonBotShouldMove()": "Native bool: should the NW bot move right now.",
+      "SpawnPickRandomPoint()": "Picks random spawn point on NW map.",
+      "SetSeenBabylonTutorial(int, bool)": "Marks NW tutorial as seen.",
+      "HasSeenBabylonTutorial(int)": "Checks NW tutorial state."
+    },
+    "world_manipulation": {
+      "Debug.SetGodMode(bool)": "Enables/disables god mode.",
+      "Debug.EnableAI(bool)": "Enables/disables all AI.",
+      "Debug.EnableDetection(bool)": "Enables/disables NPC detection.",
+      "Debug.EnableCollisions(bool)": "Enables/disables collisions.",
+      "Debug.EnableMenus(bool)": "Enables/disables UI menus.",
+      "Debug.TestAllCells(int, int, int, int, string)": "Tests all cells from a file list.",
+      "Debug.ExecuteServerConsole(string)": "Runs server console commands.",
+      "Debug.ExecuteLocalConsole(string)": "Runs local console commands.",
+      "Debug.QueueBatchedServerConsoleCommand(string)": "Queues console commands for batch execution.",
+      "Debug.ExecuteBatchedServerConsoleCommands()": "Executes all queued commands."
+    },
+    "profiling": {
+      "Debug.StartScriptProfiling(string)": "Start profiling a script.",
+      "Debug.StopScriptProfiling(string)": "Stop profiling a script.",
+      "Debug.StartStackProfiling()": "Start stack profiling.",
+      "Debug.StopStackProfiling()": "Stop stack profiling.",
+      "Debug.StartStackRootProfiling(string, ScriptObject)": "Profile from a root.",
+      "Debug.StopStackRootProfiling(string, ScriptObject)": "Stop root profiling."
+    }
+  },
+
+  "scripts": {
+    "core_behavior_bots": [
+      {
+        "file": "exploreworld.psc",
+        "class": "AutoTestClient:ExploreWorld",
+        "extends": "Player",
+        "purpose": "World exploration bot - visits 24 named locations by pathfinding to map markers, enters/exits interior doors",
+        "behavior": [
+          "Distributes clients across map via Common.DistributeClients()",
+          "Sets player to AI-driven mode with sprinting",
+          "Loops forever through 24 locations: VTecAG, Sugar Grove, Aaronholt Homestead, Abandoned Bog Town, Allegheny Asylum, AMS Corporate HQ, Appalachian Antiques, Arktos Pharma, AVR Medical Center, Beckley, Berkeley, Blackwater Mine, Burning Mine, Camden Park, Camp McClintock, Clarksburg, DemoStart, Dolly Sods, Eastern Regional Pen, Freddy Fears, Giant Teapot, Grafton, Harpers Ferry, Garrahan Estate",
+          "For each location: PathToReference with up to 5 retries, then enters/exits each interior door pair",
+          "Interior visits: pathfind to door, activate it, wait 150 seconds inside, activate exit door, wait 40 seconds",
+          "Randomly selects destination each loop iteration"
+        ],
+        "data_collected": "Pathfinding success/failure per location, door interaction reliability, load time between cells",
+        "apis_used": ["SetAIDriven", "SetWantSprinting", "PathToReference", "GetPlayerControls", "Game.GetFormFromFile", "Activate", "Utility.Wait", "DistributeClients"]
+      },
+      {
+        "file": "gatherloot.psc",
+        "class": "AutoTestClient:GatherLoot",
+        "extends": "Player",
+        "purpose": "Loot collection bot - finds and loots containers or harvests flora within 10000 unit radius",
+        "behavior": [
+          "Distributes clients, sets timer for test duration",
+          "Sets AI-driven with sprinting",
+          "Alternates between container looting and flora harvesting based on execution parameter",
+          "Container mode: finds nearest container (form type 33), pathfinds to it, waits, clears inventory",
+          "Flora mode: finds nearest flora (form type 46), pathfinds to it, activates (harvests), waits, clears inventory",
+          "CollectionRadius of 10000 units for search area",
+          "Clears inventory after each collection to prevent weight overload"
+        ],
+        "data_collected": "Container/flora density and distribution, pathfinding coverage, loot availability patterns",
+        "apis_used": ["SetAIDriven", "SetWantSprinting", "PathToReference", "Activate", "ClearInventory", "DistributeClients", "StartTimer"]
+      },
+      {
+        "file": "grindmonsters.psc",
+        "class": "AutoTestClient:GrindMonsters",
+        "extends": "Player",
+        "purpose": "Combat grinding bot - finds and fights random enemies in a 10000 unit radius",
+        "behavior": [
+          "Loads ammo form (ID 127606 = likely 5mm or .308) from SeventySix.esm",
+          "Fills ammo inventory",
+          "Distributes clients, waits 10 seconds for world to settle",
+          "Sets AI-driven with sprinting",
+          "Main loop: FindRandomCombatTarget at 10000 range, pathfind to target, engage in combat",
+          "Fight function: disables AI-driven mode (transfers to engine combat AI), polls target death for up to 100 ticks (1 second), refills ammo, re-enables AI-driven",
+          "The AI-driven toggle during combat is critical: SetAIDriven(false) lets the engine's combat AI take over for actual fighting, then SetAIDriven(true) resumes pathfinding control"
+        ],
+        "data_collected": "Enemy spawn density, combat encounter rates, time-to-kill metrics, pathfinding-to-combat transitions",
+        "apis_used": ["SetAIDriven", "SetWantSprinting", "FindRandomCombatTarget", "PathToReference", "IsDead", "Game.GetFormFromFile", "GetItemCount", "FillAmmo", "DistributeClients"]
+      }
+    ],
+
+    "nuclear_winter_bot": [
+      {
+        "file": "babylontest.psc",
+        "class": "AutoTestClient:BabylonTest",
+        "extends": "Player",
+        "purpose": "Nuclear Winter (codename 'Babylon') battle royale bot - simulates a player in NW matches with firing, looting, and storm zone awareness",
+        "behavior": [
+          "Waits random delay, selects one of 12 weapon loadouts by index",
+          "Each weapon has hex form IDs for weapon + ammo + count (100 rounds for most, 10 for heavy weapons)",
+          "Gets BabylonBagKeyword (form 5307850) for finding NW loot bags",
+          "Starts two timer systems: fire timer (1.9-2.1s interval) and loot timer (29-31s interval)",
+          "Movement: checks if inside storm zone (500 unit buffer), moves toward center if outside, alternates left/right flanking if still outside, random heading if safe",
+          "Fire timer: polls Debug.BabylonBotShouldShoot(), decrements reload counter, reloads when empty",
+          "Loot timer: polls Debug.BabylonBotShouldLoot(), finds random reference with BabylonBagKeyword within 5000 units, teleports to bag",
+          "Movement controlled by Debug.BabylonBotShouldMove() native function",
+          "NOTE: The main movement While loop has 'While false' - likely decompiler artifact or the movement was controlled entirely by native BabylonBot functions"
+        ],
+        "data_collected": "NW match flow, storm zone behavior, loot bag distribution, weapon cycling, combat timing",
+        "apis_used": ["IsInsideStormZone", "GetHeadingToStormZoneCenter", "FindRandomReferenceWithKeyword", "MoveTo", "Debug.BabylonBotShouldLoot", "Debug.BabylonBotShouldShoot", "Debug.BabylonBotShouldMove", "Game.GetFormFromFile", "StartTimer"],
+        "notable": "The 3 Debug.BabylonBot* native functions indicate the engine has a C++ layer that makes tactical decisions about when bots should shoot, loot, or move. The Papyrus script is just the execution layer - the actual AI decision-making happens in native code."
+      }
+    ],
+
+    "movement_bots": [
+      {
+        "file": "moveandfightindirection.psc",
+        "class": "AutoTestClient:MoveAndFightInDirection",
+        "extends": "Player",
+        "purpose": "Moves in a heading direction with a serpentine pattern, fights any enemy encountered within 1000 units",
+        "behavior": [
+          "Distributes clients, gets random heading and test duration",
+          "Movement pattern: move 5s forward, 3s right, 5s forward, 3s left (serpentine)",
+          "Between each move segment, checks for combat targets at 1000 range",
+          "If target found: engages until dead, then resumes movement",
+          "Fight is blocking: polls IsDead() every 10ms"
+        ],
+        "apis_used": ["FindRandomCombatTarget", "IsDead", "DoMove", "DistributeClients"]
+      },
+      {
+        "file": "moveincircles.psc",
+        "class": "AutoTestClient:MoveInCircles",
+        "extends": "Actor",
+        "purpose": "Simple circular movement pattern for stress testing - moves in 4 directions for 5s each",
+        "behavior": "Loops four 5-second movement segments until timer expires. Likely 4 cardinal directions creating a rough circle."
+      },
+      {
+        "file": "moveindirection.psc",
+        "class": "AutoTestClient:MoveInDirection",
+        "extends": "Actor",
+        "purpose": "Straight-line movement with serpentine: 5s forward, 2s sideways, repeat"
+      },
+      {
+        "file": "moveindirectionsoak.psc",
+        "class": "AutoTestClient:MoveInDirectionSoak",
+        "extends": "Actor",
+        "purpose": "Long-duration movement soak test - moves for 10 minutes then teleports back to start and repeats",
+        "behavior": "Every 600 seconds, teleports back to a starting position with a new random heading. Runs indefinitely. Used for stability/memory leak testing."
+      },
+      {
+        "file": "moveindirectiondistributed.psc",
+        "class": "AutoTestClient:MoveInDirectionDistributed",
+        "extends": "Actor",
+        "purpose": "Same as MoveInDirection but distributes clients first"
+      },
+      {
+        "file": "moveinfixeddirectiondistributed.psc",
+        "class": "AutoTestClient:MoveInFixedDirectionDistributed",
+        "extends": "Actor",
+        "purpose": "Fixed heading movement with client distribution"
+      },
+      {
+        "file": "navigatemapmarkers.psc",
+        "class": "AutoTestClient:NavigateMapMarkers",
+        "extends": "Player",
+        "purpose": "Pathfinds to map markers sequentially using AI-driven mode with up to 5 retries per marker",
+        "behavior": "Gets a list of markers, optionally teleports to a start position, then pathfinds to each marker in order. Uses CheckAndSetPlayerAIDriven/CheckAndClearPlayerAIDriven pattern.",
+        "apis_used": ["SetAIDriven", "SetWantSprinting", "GetPlayerControls", "PathToReference", "MoveTo"]
+      },
+      {
+        "file": "pathfindtoreference.psc",
+        "class": "AutoTestClient:PathfindToReference",
+        "extends": "Player",
+        "purpose": "Simple pathfinding test - navigates to a single reference (form 80769) with 3 retries"
+      }
+    ],
+
+    "cell_transition_bots": [
+      {
+        "file": "movetointeriordistributed.psc",
+        "class": "AutoTestClient:MoveToInteriorDistributed",
+        "extends": "Actor",
+        "purpose": "Distributes bots into 24 interior cells including major dungeons, missile silos, and vaults",
+        "notable_cells": [
+          "BigBendTunnelInt", "GlassedCavern01", "BelchingBetty01", "WendigoCave01",
+          "WhitespringResort01", "KerwoodMine01", "GarrahanMiningHQ01", "BurningMine01",
+          "MonongahMine01", "MonongahMissileSilo01", "SpruceKnobMissileSilo01",
+          "SugarGroveMissileSilo01", "BlackwaterMine01", "PoseidonPlant01",
+          "MTR08LodeBaring01/02", "WhitespringGroundsHoldingCell", "UncannyCaverns01",
+          "CultistCave01", "AlleghenyAsylum01", "ValleyGalleria01", "Vault63",
+          "CharGen03", "CharGen04"
+        ]
+      },
+      {
+        "file": "interiorexteriortransition.psc",
+        "class": "AutoTestClient:InteriorExteriorTransition",
+        "extends": "Actor",
+        "purpose": "Stress-tests interior/exterior cell transitions by entering and exiting a specific door 3 times using state machine",
+        "behavior": "Uses Papyrus state machine (transitionedToInterior/transitionedToExterior) and RegisterForPlayerTeleport events. Tests door forms 396052 (interior) and 396049 (exterior)."
+      },
+      {
+        "file": "visitinterior.psc",
+        "class": "AutoTestClient:VisitInterior",
+        "extends": "Player",
+        "purpose": "Repeatedly visits a specific interior (door pair 4103764/4103721) until timer expires"
+      },
+      {
+        "file": "cocandwait.psc",
+        "class": "AutoTestClient:COCAndWait",
+        "extends": "ObjectReference",
+        "purpose": "CenterOnCell stress test - teleports through the 24 predefined cells sequentially"
+      },
+      {
+        "file": "sheltertest.psc",
+        "class": "AutoTestClient:ShelterTest",
+        "extends": "Player",
+        "purpose": "Tests player shelters - creates CAMP, enters shelter vaults (Reception, Atrium, Server Room, Living Quarters)",
+        "notable": "Contains 26 encoded test location strings (hex coordinate data) for placing CAMPs at different map positions"
+      },
+      {
+        "file": "sheltertest_cycle.psc",
+        "class": "AutoTestClient:ShelterTest_Cycle",
+        "extends": "AutoTestClient:ShelterTest",
+        "purpose": "Cycles through all shelter types (Reception -> Atrium -> Server Room -> Exit) infinitely"
+      },
+      {
+        "file": "sheltertest_inout.psc",
+        "class": "AutoTestClient:ShelterTest_InOut",
+        "extends": "AutoTestClient:ShelterTest",
+        "purpose": "Simple shelter in/out stress test"
+      }
+    ],
+
+    "weapon_and_combat_tests": [
+      {
+        "file": "equipandfireweapon.psc",
+        "class": "AutoTestClient:EquipAndFireWeapon",
+        "extends": "Actor",
+        "purpose": "Tests equipping and firing 17 different weapons, verifying ammo consumption",
+        "behavior": "For each weapon: adds weapon+ammo via console, equips, fires 150 shots (0.1s interval), checks ammo count decreased. Tests: 10mm Pistol, Hunting Rifle, Combat Shotgun, Laser Rifle, Plasma Gun, Gatling Laser, Fat Man, Minigun, Assault Rifle, Missile Launcher, Broadsider, .44 Revolver, etc.",
+        "data_collected": "Weapon fire rate validation, ammo consumption accuracy"
+      },
+      {
+        "file": "damagetest.psc",
+        "class": "AutoTestClient:DamageTest",
+        "extends": "Player",
+        "purpose": "Comprehensive damage testing - spawns weapons and creatures, measures damage per hit and hits-to-kill",
+        "behavior": "For each weapon: spawns creature, measures HP before/after a shot, calculates damage and hits-to-kill. Reads creature list from file. Provides weapon-vs-creature damage matrix data.",
+        "data_collected": "Damage per hit, hits to kill, weapon instance levels, creature HP - a complete damage balance dataset"
+      },
+      {
+        "file": "combatbat.psc",
+        "class": "AutoTestClient:CombatBat",
+        "extends": "Player",
+        "purpose": "Simple combat wait test - distributes clients and waits 180 seconds"
+      },
+      {
+        "file": "masscombat.psc",
+        "class": "AutoTestClient:MassCombat",
+        "extends": "Player",
+        "purpose": "Spawns mass combat scenarios: Rats vs Brotherhood of Steel, Raiders vs Deathclaw, Robot Fight. Repeats 3 times with 40s intervals.",
+        "data_collected": "Server performance under mass NPC combat load"
+      },
+      {
+        "file": "explosiontest.psc",
+        "class": "AutoTestClient:ExplosionTest",
+        "extends": "Player",
+        "purpose": "Tests explosion effects - reads explosion form names and triggers them sequentially"
+      },
+      {
+        "file": "spawnandkillai.psc",
+        "class": "AutoTestClient:SpawnAndKillAI",
+        "extends": "Player",
+        "purpose": "Spawns a Molerat, equips weapon (form 974060), initiates combat via StartCombat(), registers for OnDying event",
+        "notable": "Uses RegisterForRemoteEvent on the target's OnDying event - demonstrates event-driven combat AI"
+      },
+      {
+        "file": "killallnpcs.psc",
+        "class": "AutoTestClient:KillAllNPCs",
+        "extends": "Player",
+        "purpose": "Iterates through NPC forms (type 50) and kills them"
+      }
+    ],
+
+    "item_and_stat_tests": [
+      {
+        "file": "spawnallitems.psc",
+        "class": "AutoTestClient:SpawnAllItems",
+        "extends": "Player",
+        "purpose": "Spawns every item in the game by form type - ARMO, BOOK, INGR, MISC, CNCY, WEAP, AMMO, KEYM, NOTE, PPAK, PACH, LVLI, ARMA, OTFT, COBJ, OMOD",
+        "data_collected": "Complete item database enumeration - uses Debug.GetFormsByType() to get ALL forms of each type",
+        "notable": "This is essentially a complete game database dump tool. It enumerates every armor, weapon, ammo, key, note, outfit, recipe, and mod in the game."
+      },
+      {
+        "file": "spawnai.psc",
+        "class": "AutoTestClient:SpawnAI",
+        "extends": "ObjectReference",
+        "purpose": "Spawns and verifies 6 creature types: LvlRadtoad, LvlMolerat, LvlScorchedRanged, LvlBloatfly, LvlReaperBot, LvlMirelurkCrab",
+        "behavior": "Spawns each creature, waits, then finds nearest reference of that type within 2000 units to verify spawn worked"
+      },
+      {
+        "file": "spawncreaturesandgetstats.psc",
+        "class": "AutoTestClient:SpawnCreaturesAndGetStats",
+        "extends": "Player",
+        "purpose": "Spawns creatures and extracts full stat blocks: DR, ER, Fire/Poison/Cryo/Rad resistance, MaxHP, unarmed damage, weapon inventory, weapon damage values",
+        "data_collected": "Complete creature stat database - normalized resistances, HP, damage values, weapon inventories. Reads creature list from file, so any creature can be profiled.",
+        "notable": "This is a data mining goldmine. It can generate a complete creature stats spreadsheet for every enemy in the game."
+      },
+      {
+        "file": "getweaponstatsinplayerinventory.psc",
+        "class": "AutoTestClient:GetWeaponStatsInPlayerInventory",
+        "extends": "Player",
+        "purpose": "Dumps all weapons in player inventory with damage values and instance levels"
+      },
+      {
+        "file": "equipallarmor.psc",
+        "class": "AutoTestClient:EquipAllArmor",
+        "extends": "Player",
+        "purpose": "Iterates through every armor form in the game (type 31) and attempts to equip each one"
+      },
+      {
+        "file": "usechems.psc",
+        "class": "AutoTestClient:UseChems",
+        "extends": "Actor",
+        "purpose": "Comprehensive chem testing - uses every chem and verifies actor value changes",
+        "chems_tested": ["Berry Mentats", "Buffout", "Bufftats", "Calmex", "Daddy-O", "Day Tripper", "Fury", "Grape Mentats", "Med-X", "Mentats", "Orange Mentats", "Overdrive", "Psycho", "Psychobuff", "Psychotats", "Rad-X", "Skeeto Spit", "X-Cell"],
+        "data_collected": "Exact actor value changes per chem, perk grants, verification of game balance data"
+      },
+      {
+        "file": "usestimpak.psc",
+        "class": "AutoTestClient:UseStimpak",
+        "extends": "Actor",
+        "purpose": "Tests healing items: Stimpak, Super Stimpak, Diluted Stimpak, Healing Salve, Blood Pack"
+      },
+      {
+        "file": "usepowerarmor.psc",
+        "class": "AutoTestClient:UsePowerArmor",
+        "extends": "Actor",
+        "purpose": "Tests entering and exiting power armor using state machine (waitForEnter/waitForExit/done) with OnSit/OnGetUp events"
+      }
+    ],
+
+    "quest_tests": [
+      {
+        "file": "smoketestquests.psc",
+        "class": "AutoTestClient:SmokeTestQuests",
+        "extends": "Player",
+        "purpose": "Runs through 9 smoke test quests (TestSmokeQuest01-10) by teleporting to quest locations and checking instance IDs"
+      },
+      {
+        "file": "simultaneoustestquests.psc",
+        "class": "AutoTestClient:SimultaneousTestQuests",
+        "extends": "Player",
+        "purpose": "Distributes bot clients across 5 different quests simultaneously for parallel quest testing"
+      },
+      {
+        "file": "loadtestquests.psc",
+        "class": "AutoTestClient:LoadTestQuests",
+        "extends": "Player",
+        "purpose": "Load testing - teleports to quest location, sets quest stage via server console commands"
+      },
+      {
+        "file": "loadvault94_v1.psc",
+        "class": "AutoTestClient:LoadVault94_v1",
+        "extends": "Player",
+        "purpose": "Vault 94 raid load test - teleports in, moves and fights in serpentine pattern for 10 minutes, teleports out, repeats",
+        "behavior": "Vault run timer of 600s, test timer of 120s. Serpentine movement with combat checks. Tests Vault 94 raid stability."
+      }
+    ],
+
+    "distribution_and_infrastructure": [
+      {
+        "file": "common.psc",
+        "class": "AutoTestClient:Common",
+        "extends": "ScriptObject",
+        "purpose": "Shared utilities - DistributeClients() sends bot clients to 24 predefined cell coordinates spread across the map",
+        "coordinates": "24 (x,y) cell coordinate pairs covering the full Appalachia map from (-43,-37) to (43,35)"
+      },
+      {
+        "file": "distributeclientsformaxload.psc",
+        "class": "AutoTestClient:DistributeClientsForMaxLoad",
+        "extends": "Actor",
+        "purpose": "Distributes 32 clients in a grid pattern for maximum server load testing, including a dense cluster near (0,0)"
+      },
+      {
+        "file": "distributeclientsfromfile.psc",
+        "class": "AutoTestClient:DistributeClientsFromFile",
+        "extends": "Actor",
+        "purpose": "Advanced distribution - reads cell names from a file, converts to world coordinates, uses Ulam spiral algorithm for overflow placement",
+        "notable": "Implements a spiral coordinate algorithm to place excess clients that don't fit in predefined cells. Shows sophisticated test infrastructure."
+      },
+      {
+        "file": "utilities.psc",
+        "class": "AutoTestShared:Utilities",
+        "extends": "ScriptObject",
+        "purpose": "Shared test utilities: CreateDummyPlayer(), SetGameHour(), GetGlobalByFormId(), GetActorValueByFormId(), GetPerkCardByFormId()"
+      },
+      {
+        "file": "wait.psc",
+        "class": "AutoTestClient:Wait",
+        "extends": "Actor",
+        "purpose": "Simply waits for a specified duration - used as a baseline/control test"
+      },
+      {
+        "file": "debug.psc",
+        "class": "Debug",
+        "extends": "ScriptObject",
+        "purpose": "Core debug/test API exposing 60+ native functions for testing, assertions, world manipulation, data extraction, and profiling"
+      }
+    ],
+
+    "graphics_and_performance_tests": [
+      {
+        "file": "tacallstandard.psc",
+        "class": "AutoTestClient:TACAllStandard",
+        "purpose": "TAC (Test All Cells) standard test - empty, likely triggers native TestAllCells"
+      },
+      {
+        "file": "tacallstandarddistributed.psc",
+        "class": "AutoTestClient:TACAllStandardDistributed",
+        "purpose": "Distributed TAC test - assigns each of 24 clients a different cell set"
+      },
+      {
+        "file": "tacgraphicstest.psc",
+        "class": "AutoTestClient:TACGraphicsTest",
+        "purpose": "Graphics rendering test across all cells"
+      },
+      {
+        "file": "tacgraphicstestlimited.psc",
+        "class": "AutoTestClient:TACGraphicsTestLimited",
+        "purpose": "Limited graphics test using BatchFiles/tac11cells.txt cell list"
+      },
+      {
+        "file": "tacinteriorsstandard.psc",
+        "class": "AutoTestClient:TACInteriorsStandard",
+        "purpose": "Interior-only graphics/performance test"
+      }
+    ],
+
+    "other_tests": [
+      {
+        "file": "actorvaluetests.psc",
+        "class": "AutoTestShared:ActorValueTests",
+        "purpose": "Verifies SPECIAL actor values exist and are > 0, tests SetActorValue server authority"
+      },
+      {
+        "file": "debugfunctionstests.psc",
+        "class": "AutoTestShared:DebugFunctionsTests",
+        "purpose": "Tests the Debug assertion functions themselves"
+      },
+      {
+        "file": "gametimetests.psc",
+        "class": "AutoTestShared:GameTimeTests",
+        "purpose": "Tests game hour manipulation and wrapping (0, 12, 30, -30 hours)"
+      },
+      {
+        "file": "perkcardtests.psc",
+        "class": "AutoTestServer:PerkCardTests",
+        "purpose": "Server-side perk card testing (empty - likely native)"
+      },
+      {
+        "file": "specialbonusperkcardstests.psc",
+        "class": "AutoTestServer:PerkCardTests:SpecialBonusPerkCardsTests",
+        "purpose": "SPECIAL bonus perk card testing (empty - likely native)"
+      },
+      {
+        "file": "timeofdayperkcardstests.psc",
+        "class": "AutoTestServer:PerkCardTests:TimeOfDayPerkCardsTests",
+        "purpose": "Time-of-day dependent perk card testing (empty - likely native)"
+      },
+      {
+        "file": "testscriptnetworkingkeywords.psc",
+        "class": "AutoTestClient:TestScriptNetworkingKeywords",
+        "purpose": "Tests networked keyword scripting by activating 9 buttons and counting enabled baseball statue references"
+      },
+      {
+        "file": "test_vharbison_robotrager.psc",
+        "class": "Quests:Test:test_Vharbison_RobotRager",
+        "purpose": "Developer test quest (V. Harbison) for a robot rager event with bot behavior timers, destruction objectives, frenzy effects, and NPC wave spawning",
+        "notable": "Named after a specific Bethesda developer (V. Harbison). Contains BotBehavior timer and scenes with Nice Bots, Barking Bots, and attack waves."
+      }
+    ]
+  },
+
+  "server76_findings": {
+    "autotest_network_message": {
+      "file": "Server76.Snapshots/Messages/DebugGameplayAutoTestComplete.cs",
+      "description": "Network message for reporting autotest completion. Contains single bool m_succeeded. Shows the client-server protocol for test result reporting."
+    },
+    "babylon_bot_support": {
+      "file": "Server76.Snapshots/Components/QuickPlayBabylonFacadeComponent.cs",
+      "description": "The QuickPlayBabylonFacadeComponent has a botVal field (3 bits, 0-7) that tracks bot status in Nuclear Winter matches. This is the server-side representation of NW bots.",
+      "fields": ["connectedPlayerCount (max 52)", "totalPlayersInMatch (max 52)", "alivePlayers (max 52)", "shutdownTime (uint32)", "botVal (3 bits)"]
+    },
+    "babylon_manager": {
+      "file": "Server76.Logic/World/Managers/BabylonManager.cs",
+      "description": "Initializes Nuclear Winter match infrastructure with storm zones, map voting, spawn pickers, team management, and nuke scheduling."
+    },
+    "native_functions_not_reimplemented": "SetAIDriven, PathToReference, FindRandomCombatTarget, and other bot-critical native functions are NOT found in Server76's PapyrusVMNode. These are engine-native C++ functions that only exist in Bethesda's official server binary."
+  },
+
+  "ai_training_potential": {
+    "assessment": "HIGH - This bot framework represents a production-quality automated testing and data collection system that could be repurposed or studied for AI training in several ways.",
+    "data_collection_capabilities": [
+      {
+        "capability": "Complete world map coverage",
+        "scripts": ["ExploreWorld", "NavigateMapMarkers", "MoveToInteriorDistributed"],
+        "description": "Bots systematically visit every named location, interior, and map marker in the game. This generates complete navmesh traversal data and location connectivity graphs."
+      },
+      {
+        "capability": "Combat encounter profiling",
+        "scripts": ["GrindMonsters", "MoveAndFightInDirection", "SpawnAndKillAI", "DamageTest"],
+        "description": "Bots encounter, fight, and track enemies across the world. DamageTest generates weapon-vs-creature damage matrices. SpawnCreaturesAndGetStats extracts full stat blocks for every creature."
+      },
+      {
+        "capability": "Complete item/form enumeration",
+        "scripts": ["SpawnAllItems", "SpawnCreaturesAndGetStats", "GetWeaponStatsInPlayerInventory"],
+        "description": "Debug.GetFormsByType() can enumerate EVERY form of any type in the game. Combined with stat extraction, this creates a complete game database."
+      },
+      {
+        "capability": "Game balance validation",
+        "scripts": ["UseChems", "UseStimpak", "DamageTest", "EquipAndFireWeapon"],
+        "description": "These scripts verify exact numeric effects of every consumable, weapon damage values, and ammo consumption rates."
+      },
+      {
+        "capability": "Performance/load telemetry",
+        "scripts": ["MoveInDirectionSoak", "DistributeClientsForMaxLoad", "TACAllStandard"],
+        "description": "Long-running soak tests and distributed load tests with 24-32 simultaneous bots generate server performance baselines."
+      },
+      {
+        "capability": "Battle royale AI behavior",
+        "scripts": ["BabylonTest"],
+        "description": "The NW bot demonstrates a complete BR decision loop: storm zone awareness, looting, firing, movement. The native BabylonBotShould* functions suggest deeper C++ AI logic."
+      }
+    ],
+    "key_native_apis_for_ai": [
+      "SetAIDriven(bool) - The master switch for autonomous player control",
+      "PathToReference() - Navmesh-based pathfinding from player perspective",
+      "FindRandomCombatTarget() - Enemy detection and target selection",
+      "Debug.GetFormsByType() - Complete game database enumeration",
+      "Debug.AutoTestReadFile() - External data input for parameterized tests",
+      "Debug.DBSendPlayerPosition() - Database telemetry output",
+      "Debug.BabylonBotShould*() - Native AI decision functions"
+    ],
+    "implications_for_gamecryptids": [
+      "The ExploreWorld script's location list provides a curated list of 24 key locations to investigate for secrets",
+      "MoveToInteriorDistributed lists 24 interior cells including hidden areas like WhitespringGroundsHoldingCell and Vault63",
+      "The pathfinding retry system (3-5 attempts) reveals areas that are hard to reach or have navmesh issues - potential secret areas",
+      "Debug.GetFormsByType() could enumerate every MISC, NOTE, TERM, and BOOK form to find hidden lore",
+      "The chem testing reveals exact stat values that could identify hidden or unused chems",
+      "SpawnCreaturesAndGetStats could profile every creature to find anomalous stat blocks suggesting unused/hidden enemies",
+      "The shelter test location strings contain encoded coordinate data for every testable map position"
+    ]
+  },
+
+  "total_scripts_found": 57,
+  "script_categories": {
+    "core_behavior_bots": 3,
+    "nuclear_winter_bot": 1,
+    "movement_bots": 7,
+    "cell_transition_bots": 6,
+    "weapon_and_combat_tests": 7,
+    "item_and_stat_tests": 8,
+    "quest_tests": 4,
+    "distribution_infrastructure": 5,
+    "graphics_performance_tests": 5,
+    "other_tests": 7,
+    "base_classes": 2,
+    "developer_test_quests": 1,
+    "empty_stubs": 1
+  }
+}
