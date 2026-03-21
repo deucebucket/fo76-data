@@ -144,7 +144,7 @@
     "Timer::AS3Constructor",
     "as3func",
     "as3func :: Invoke AS3 methods from console, including setting/getting variables",
-    "e:\\buildagent\\work\\820e97cc99338fb0\\project76\\shared\\formcomponents\\bgsswfimageform.cpp"
+    "project76\\shared\\formcomponents\\bgsswfimageform.cpp"
   ],
   "audio_functions": [
     "Actor::UpdateSoundCallBack",
@@ -220,16 +220,16 @@
     "BGSVivoxUtils::VIVOX_CONNECTION_REPORT_REASON",
     "BGSVivoxUtils::VIVOX_CONNECTION_REPORT_STATUS",
     "BGSVivoxUtils::VOICE_CHAT_STATUS",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\gameplay\\teammanager.cpp, Line: 3803, Value: BGSVivoxUtils::VOICE_CHAT_STATUS",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\gameplay\\teammanager.cpp, Line: 3804, Value: BGSVivoxUtils::VIVOX_CHANNEL_TYPE",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\gameplay\\teammanager.cpp, Line: 4163, Value: rPlayerTeam.VoiceChatData",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\network\\clientplayercoresnapshotcomponent.cpp, Line: 67, Value: BGSVivoxUtils::VIVOX_CHANNEL_TYPE",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\network\\clientplayercoresnapshotcomponent.cpp, Line: 68, Value: BGSVivoxUtils::VOICE_CHAT_STATUS",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\network\\gamenetworkmessages.cpp, Line: 1667, Value: m_sVivoxKeyIssuer",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\network\\gamenetworkmessages.cpp, Line: 7968, Value: BGSVivoxUtils::VIVOX_CONNECTION_REPORT_STATUS",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\network\\gamenetworkmessages.cpp, Line: 7969, Value: BGSVivoxUtils::VIVOX_CONNECTION_REPORT_REASON",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\network\\playercoresnapshotcomponent.cpp, Line: 221, Value: BGSVivoxUtils::VIVOX_CHANNEL_TYPE",
-    "File: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\game\\network\\playercoresnapshotcomponent.cpp, Line: 222, Value: BGSVivoxUtils::VOICE_CHAT_STATUS",
+    "File: project76\\game\\gameplay\\teammanager.cpp, Line: 3803, Value: BGSVivoxUtils::VOICE_CHAT_STATUS",
+    "File: project76\\game\\gameplay\\teammanager.cpp, Line: 3804, Value: BGSVivoxUtils::VIVOX_CHANNEL_TYPE",
+    "File: project76\\game\\gameplay\\teammanager.cpp, Line: 4163, Value: rPlayerTeam.VoiceChatData",
+    "File: project76\\game\\network\\clientplayercoresnapshotcomponent.cpp, Line: 67, Value: BGSVivoxUtils::VIVOX_CHANNEL_TYPE",
+    "File: project76\\game\\network\\clientplayercoresnapshotcomponent.cpp, Line: 68, Value: BGSVivoxUtils::VOICE_CHAT_STATUS",
+    "File: project76\\game\\network\\gamenetworkmessages.cpp, Line: 1667, Value: m_sVivoxKeyIssuer",
+    "File: project76\\game\\network\\gamenetworkmessages.cpp, Line: 7968, Value: BGSVivoxUtils::VIVOX_CONNECTION_REPORT_STATUS",
+    "File: project76\\game\\network\\gamenetworkmessages.cpp, Line: 7969, Value: BGSVivoxUtils::VIVOX_CONNECTION_REPORT_REASON",
+    "File: project76\\game\\network\\playercoresnapshotcomponent.cpp, Line: 221, Value: BGSVivoxUtils::VIVOX_CHANNEL_TYPE",
+    "File: project76\\game\\network\\playercoresnapshotcomponent.cpp, Line: 222, Value: BGSVivoxUtils::VOICE_CHAT_STATUS",
     "GameNetworkMessageManager::HandleMessage::RequestVivoxToken",
     "GameNetworkMessageManager::HandleMessage::VivoxConnectionReportMsg",
     "GameNetworkMessageManager::HandleMessage::VoiceChatDataMsg",
@@ -254,7 +254,7 @@
     "VoiceChatStatusMsg",
     "XAudio2_7.dll",
     "bUseVivox:Voice",
-    "e:\\buildagent\\work\\820e97cc99338fb0\\project76\\bsaudio\\bsaudiomanager.cpp"
+    "project76\\bsaudio\\bsaudiomanager.cpp"
   ],
   "havok_physics": [
     "\"(%s) reseting havok to pitch (%f) roll (%f) fallheight (%f)\"",

@@ -309,7 +309,7 @@
     },
     "build_system": {
       "description": "TeamCity CI/CD (buildagent paths visible in all source references)",
-      "build_path": "e:\\buildagent\\work\\820e97cc99338fb0\\project76\\",
+      "build_path": "project76\\",
       "project_name": "project76"
     },
     "cgm_system": {

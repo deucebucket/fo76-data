@@ -1,0 +1,315 @@
+{
+  "description": "GMST values that differ between Adventure mode (base ESM) and Nuclear Winter (NW.esm overlay). These show what Bethesda CAN tune and what they changed for a different game mode.",
+  "note": "We only have one ESM snapshot (Patch 66 / The Backwoods). Patch-over-patch history requires comparing multiple ESM versions, which we don't have. Curve tables (4,263 files in Startup.ba2) have NO update overrides \u2014 they have never changed since the current client patch.",
+  "changed_gmsts": [
+    {
+      "name": "bWeaponConditionDamage",
+      "formid": "0x0003AF3F",
+      "adventure_value": "1",
+      "nw_value": "0",
+      "category": "Combat"
+    },
+    {
+      "name": "fAVDActionPointsMult",
+      "formid": "0x0004D879",
+      "adventure_value": "10.000000",
+      "nw_value": "0.000000",
+      "category": "Action Points"
+    },
+    {
+      "name": "fAVDCarryWeightBase",
+      "formid": "0x000F92CB",
+      "adventure_value": "150.000000",
+      "nw_value": "75.000000",
+      "category": "Other"
+    },
+    {
+      "name": "fAVDCarryWeightMult",
+      "formid": "0x000F92CC",
+      "adventure_value": "5.000000",
+      "nw_value": "0.000000",
+      "category": "Other"
+    },
+    {
+      "name": "fAVDHealthStartEndMult",
+      "formid": "0x000E6EAC",
+      "adventure_value": "5.000000",
+      "nw_value": "0.000000",
+      "category": "Other"
+    },
+    {
+      "name": "fAVDMeleeDamageMult",
+      "formid": "0x0004C933",
+      "adventure_value": "0.050000",
+      "nw_value": "0.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fCombatPlayerLimbDamageMult",
+      "formid": "0x0001A188",
+      "adventure_value": "0.550000",
+      "nw_value": "0.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fCritEffectOnDeathPercent",
+      "formid": "0x0020E953",
+      "adventure_value": "25.000000",
+      "nw_value": "-1.000000",
+      "category": "Critical"
+    },
+    {
+      "name": "fDamageStrengthMult",
+      "formid": "0x00118467",
+      "adventure_value": "0.100000",
+      "nw_value": "0.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fEnergyArmorDmgReductionExp",
+      "formid": "0x0017D8A6",
+      "adventure_value": "0.365000",
+      "nw_value": "1.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fEnergyDamageBase",
+      "formid": "0x003BA024",
+      "adventure_value": "0.000000",
+      "nw_value": "329.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fEnergyDamageFactor",
+      "formid": "0x000769C8",
+      "adventure_value": "0.150000",
+      "nw_value": "-0.500000",
+      "category": "Combat"
+    },
+    {
+      "name": "fFireArmorDmgReductionExp",
+      "formid": "0x0017D8A7",
+      "adventure_value": "0.365000",
+      "nw_value": "1.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fFireDamageBase",
+      "formid": "0x003BA025",
+      "adventure_value": "0.000000",
+      "nw_value": "329.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fFireDamageFactor",
+      "formid": "0x000769C9",
+      "adventure_value": "0.150000",
+      "nw_value": "-0.500000",
+      "category": "Combat"
+    },
+    {
+      "name": "fFrostArmorDmgReductionExp",
+      "formid": "0x0017D8A8",
+      "adventure_value": "0.365000",
+      "nw_value": "1.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fFrostDamageBase",
+      "formid": "0x003BA026",
+      "adventure_value": "0.000000",
+      "nw_value": "329.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fFrostDamageFactor",
+      "formid": "0x000769CA",
+      "adventure_value": "0.150000",
+      "nw_value": "-0.500000",
+      "category": "Combat"
+    },
+    {
+      "name": "fHoldToReviveHoldTime",
+      "formid": "0x00417782",
+      "adventure_value": "3.000000",
+      "nw_value": "2.500000",
+      "category": "NW-specific"
+    },
+    {
+      "name": "fJumpingAPDrain",
+      "formid": "0x00081A65",
+      "adventure_value": "10.000000",
+      "nw_value": "0.000000",
+      "category": "Action Points"
+    },
+    {
+      "name": "fLimbDamageFactor",
+      "formid": "0x0007E293",
+      "adventure_value": "0.150000",
+      "nw_value": "0.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fPhysicalArmorDmgReductionExp",
+      "formid": "0x0017D8A9",
+      "adventure_value": "0.365000",
+      "nw_value": "1.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fPhysicalDamageBase",
+      "formid": "0x00085FA3",
+      "adventure_value": "0.000000",
+      "nw_value": "329.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fPhysicalDamageFactor",
+      "formid": "0x000769CB",
+      "adventure_value": "0.150000",
+      "nw_value": "-0.500000",
+      "category": "Combat"
+    },
+    {
+      "name": "fPoisonArmorBase",
+      "formid": "0x003BA02F",
+      "adventure_value": "0.000000",
+      "nw_value": "280.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fPoisonArmorDmgReductionExp",
+      "formid": "0x0017D8AA",
+      "adventure_value": "0.365000",
+      "nw_value": "0.330000",
+      "category": "Combat"
+    },
+    {
+      "name": "fPoisonDamageBase",
+      "formid": "0x003BA028",
+      "adventure_value": "0.000000",
+      "nw_value": "329.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fPoisonDamageFactor",
+      "formid": "0x000769CC",
+      "adventure_value": "0.150000",
+      "nw_value": "-0.500000",
+      "category": "Combat"
+    },
+    {
+      "name": "fRadsArmorDmgReductionExp",
+      "formid": "0x0017D8AB",
+      "adventure_value": "0.365000",
+      "nw_value": "1.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fRadsDamageBase",
+      "formid": "0x003BA029",
+      "adventure_value": "0.000000",
+      "nw_value": "329.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fRadsDamageFactor",
+      "formid": "0x000769CD",
+      "adventure_value": "0.150000",
+      "nw_value": "-0.500000",
+      "category": "Combat"
+    },
+    {
+      "name": "fScopeEnteringFadeOutSec",
+      "formid": "0x0045E2F6",
+      "adventure_value": "0.100000",
+      "nw_value": "0.400000",
+      "category": "Scope/Optics"
+    },
+    {
+      "name": "fShockArmorBase",
+      "formid": "0x003BA031",
+      "adventure_value": "0.000000",
+      "nw_value": "280.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fShockArmorDmgReductionExp",
+      "formid": "0x0017D8AC",
+      "adventure_value": "0.365000",
+      "nw_value": "0.330000",
+      "category": "Combat"
+    },
+    {
+      "name": "fShockDamageBase",
+      "formid": "0x003BA02A",
+      "adventure_value": "0.000000",
+      "nw_value": "329.000000",
+      "category": "Combat"
+    },
+    {
+      "name": "fShockDamageFactor",
+      "formid": "0x000769CE",
+      "adventure_value": "0.150000",
+      "nw_value": "-0.500000",
+      "category": "Combat"
+    },
+    {
+      "name": "fSpectatorCamOffsetY",
+      "formid": "0x003ECB8A",
+      "adventure_value": "0.000000",
+      "nw_value": "-50.000000",
+      "category": "NW-specific"
+    },
+    {
+      "name": "fSprintActionPointsEndBase",
+      "formid": "0x00056117",
+      "adventure_value": "1.050000",
+      "nw_value": "1.000000",
+      "category": "Action Points"
+    },
+    {
+      "name": "fSprintActionPointsEndMult",
+      "formid": "0x00056118",
+      "adventure_value": "-0.020000",
+      "nw_value": "0.000000",
+      "category": "Action Points"
+    },
+    {
+      "name": "fVATSChancePerceptionMultiplier",
+      "formid": "0x000A2777",
+      "adventure_value": "0.004000",
+      "nw_value": "0.000000",
+      "category": "Other"
+    },
+    {
+      "name": "fVATSCriticalChargeMult",
+      "formid": "0x0023AEC0",
+      "adventure_value": "1.500000",
+      "nw_value": "0.000000",
+      "category": "Critical"
+    },
+    {
+      "name": "fXPModMult",
+      "formid": "0x000AA776",
+      "adventure_value": "0.030000",
+      "nw_value": "0.000000",
+      "category": "Other"
+    },
+    {
+      "name": "iStaggerAttackChance",
+      "formid": "0x0010B0DE",
+      "adventure_value": "100",
+      "nw_value": "0",
+      "category": "Combat"
+    },
+    {
+      "name": "sConnectionMessageRejectQuickplayBadRoute",
+      "formid": "0x0044CC66",
+      "adventure_value": "[0x00047105]",
+      "nw_value": "[0x420000b0]",
+      "category": "NW-specific"
+    }
+  ],
+  "unchanged_count": 64
+}

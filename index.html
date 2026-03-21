@@ -329,6 +329,7 @@ body::after {
 .badge-model-render { color: #fe14a0; border-color: #fe14a0; }
 .badge-speculation { color: #feaa14; border-color: #feaa14; }
 .badge-cut-content { color: #fe5050; border-color: #fe5050; }
+.badge-conjecture { color: #14fec8; border-color: #14fec8; }
 
 .card-image {
   max-width: 100%;
@@ -951,13 +952,15 @@ var TYPE_TO_DISPLAY = {
   script: 'Scripts',
   model_render: 'Model Renders',
   cut_content: 'Cut Content',
+  conjecture: 'Conjecture vs Data',
+  orphaned_voice: 'Orphaned Voices',
   speculation: 'Speculations'
 };
 
 var DISPLAY_TO_TYPE = {};
 Object.keys(TYPE_TO_DISPLAY).forEach(function(k) { DISPLAY_TO_TYPE[TYPE_TO_DISPLAY[k]] = k; });
 
-var FILTER_ORDER = ['All', 'Findings', 'Model Renders', 'Cut Content', 'Weapons', 'Perks', 'Legendary', 'Mutations', 'Power Armor', 'Game Settings', 'Native Functions', 'Curve Tables', 'C++ Classes', 'Scripts', 'Speculations'];
+var FILTER_ORDER = ['All', 'Findings', 'Model Renders', 'Cut Content', 'Conjecture vs Data', 'Orphaned Voices', 'Weapons', 'Perks', 'Legendary', 'Mutations', 'Power Armor', 'Game Settings', 'Native Functions', 'Curve Tables', 'C++ Classes', 'Scripts', 'Speculations'];
 
 var LAZY_COUNTS = { 'C++ Classes': 28866, 'Scripts': 7095 };
 
@@ -1659,6 +1662,62 @@ function renderCutContentCard(item) {
   return { header: header, details: details, summary: preview };
 }
 
+function renderConjectureCard(item) {
+  var d = item.data || {};
+
+  var verdictColors = {
+    'CONFIRMED': 'color:var(--green);border-color:var(--green)',
+    'PARTIALLY CORRECT': 'color:var(--amber);border-color:var(--amber)',
+    'WRONG': 'color:var(--red);border-color:var(--red)',
+    'UNKNOWN PAST CLIENT': 'color:var(--purple);border-color:var(--purple)'
+  };
+  var verdictStyle = verdictColors[(d.verdict || '').toUpperCase()] || '';
+  var verdictBadge = d.verdict ? '<span class="badge" style="' + verdictStyle + '">' + esc(d.verdict) + '</span>' : '';
+
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-conjecture">conjecture vs data</span>' +
+        verdictBadge +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>';
+
+  var summary = '<div class="card-summary">' + esc(item.description || '') + '</div>';
+
+  var details = '<div class="card-details-inner">' +
+    (d.community_claim ? '<div style="margin-top:0.5rem"><span class="detail-label" style="color:var(--amber)">community says</span><div style="color:var(--text-dim);margin-top:0.3rem">' + esc(d.community_claim) + '</div></div>' : '') +
+    (d.actual_data ? '<div style="margin-top:0.5rem"><span class="detail-label" style="color:var(--green)">game data says</span><div style="color:var(--text-dim);margin-top:0.3rem">' + esc(d.actual_data) + '</div></div>' : '') +
+  '</div>';
+
+  return { header: header, details: details, summary: summary };
+}
+
+function renderOrphanedVoiceCard(item) {
+  var d = item.data || {};
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge" style="color:var(--red);border-color:var(--red)">orphaned</span>' +
+        '<span class="badge" style="color:var(--text-dim);border-color:var(--text-faint)">' + esc(d.voice_type || '') + '</span>' +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>';
+  var transcript = d.transcript || 'No transcript available';
+  var summary = '<div class="card-summary" style="color:var(--text-dim);font-style:italic">"' + esc(transcript.substring(0, 120)) + (transcript.length > 120 ? '...' : '') + '"</div>';
+  var details = '<div class="card-details-inner">' +
+    '<div class="detail-grid">' +
+    detailItem('Voice Type', d.voice_type) +
+    detailItem('Form ID', d.form_id) +
+    detailItem('Duration', d.duration ? d.duration + 's' : null) +
+    detailItem('BA2 Path', d.ba2_path) +
+    detailItem('Status', d.text_in_strings ? 'Text exists in strings, INFO record removed' : 'No INFO record — audio only') +
+    '</div>' +
+    (transcript ? '<div style="margin-top:0.8rem"><span class="detail-label" style="color:var(--cyan)">transcript</span><p style="color:var(--text-dim);margin-top:0.3rem;font-style:italic">"' + esc(transcript) + '"</p></div>' : '') +
+  '</div>';
+  return { header: header, details: details, summary: summary };
+}
+
 function renderSpeculationCard(item) {
   var d = item.data || {};
 
@@ -1736,6 +1795,8 @@ function renderCard(item) {
     case 'script': parts = renderScriptCard(item); break;
     case 'model_render': parts = renderModelRenderCard(item); break;
     case 'cut_content': parts = renderCutContentCard(item); break;
+    case 'conjecture': parts = renderConjectureCard(item); break;
+    case 'orphaned_voice': parts = renderOrphanedVoiceCard(item); break;
     case 'speculation': parts = renderSpeculationCard(item); break;
     default: parts = {
       header: '<div class="card-header-top"><div class="card-title">' + esc(item.title) + '</div><div class="card-meta"><span class="badge" style="color:var(--text-dim);border-color:var(--text-faint)">' + esc(item.type) + '</span><span class="expand-indicator">&#9654;</span></div></div>',
@@ -2316,6 +2377,116 @@ function buildProfileContent(item) {
         html += '<p style="color:var(--text-dim)">' + esc(item.description) + '</p>';
         html += '</div>';
       }
+      break;
+
+    case 'conjecture':
+      var verdictColors = {
+        'CONFIRMED': 'color:var(--green);border-color:var(--green)',
+        'PARTIALLY CORRECT': 'color:var(--amber);border-color:var(--amber)',
+        'WRONG': 'color:var(--red);border-color:var(--red)',
+        'UNKNOWN PAST CLIENT': 'color:var(--purple);border-color:var(--purple)'
+      };
+      var verdictStyle = verdictColors[(d.verdict || '').toUpperCase()] || '';
+      if (d.verdict) {
+        html += '<span class="badge" style="' + verdictStyle + ';margin-bottom:0.6rem;display:inline-block">' + esc(d.verdict) + '</span> ';
+      }
+      var confColors = {
+        'BAKED': 'color:var(--green);border-color:var(--green)',
+        'SERVER-TUNABLE': 'color:var(--amber);border-color:var(--amber)',
+        'HARDCODED': 'color:var(--blue);border-color:var(--blue)',
+        'MIXED': 'color:var(--purple);border-color:var(--purple)'
+      };
+      var confStyle = confColors[(d.confidence || '').toUpperCase()] || '';
+      if (d.confidence) {
+        html += '<span class="badge" style="' + confStyle + ';margin-bottom:0.6rem;display:inline-block">' + esc(d.confidence) + '</span> ';
+      }
+      if (d.community_claim) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--amber)">community says</div>';
+        html += '<p style="color:var(--text-dim)">' + esc(d.community_claim) + '</p>';
+        html += '</div>';
+      }
+      if (d.actual_data) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--green)">game data says</div>';
+        html += '<p style="color:var(--text-dim)">' + esc(d.actual_data) + '</p>';
+        html += '</div>';
+      }
+      var conjCurve = d.curve_data || [];
+      if (conjCurve.length > 0) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">raw curve data</div>';
+        html += renderCurvePointsTable(conjCurve);
+        html += '</div>';
+      }
+      if (d.sources && Array.isArray(d.sources)) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title">source files</div>';
+        html += '<ul style="margin:0 0 0 1.5rem;color:var(--text-dim)">';
+        d.sources.forEach(function(s) {
+          var srcText = s.file;
+          if (s.field) srcText += ' \u2192 ' + s.field;
+          if (s.value !== undefined) srcText += ' = ' + s.value;
+          html += '<li>' + esc(srcText) + '</li>';
+        });
+        html += '</ul>';
+        html += '</div>';
+      }
+      // Related perks (cross-linking)
+      if (d.related_perks && Array.isArray(d.related_perks)) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--cyan)">related perks</div>';
+        html += '<table class="profile-curve-table"><tr><th>Perk</th><th>SPECIAL</th><th>Ranks</th><th>Effect</th></tr>';
+        d.related_perks.forEach(function(p) {
+          html += '<tr><td>' + esc(p.name) + '</td><td>' + esc(p.special || '') + '</td><td>' + esc(p.ranks || '') + '</td><td style="color:var(--text-dim)">' + esc(p.effect) + '</td></tr>';
+        });
+        html += '</table>';
+        html += '</div>';
+      }
+      // Drain actions / mechanic breakdown
+      if (d.drain_actions && Array.isArray(d.drain_actions)) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--cyan)">drain sources</div>';
+        html += '<table class="profile-curve-table"><tr><th>Action</th><th>Drain</th><th>Mitigated By</th></tr>';
+        d.drain_actions.forEach(function(a) {
+          html += '<tr><td>' + esc(a.action) + '</td><td>' + esc(a.drain) + '</td><td style="color:var(--text-dim)">' + esc(a.mitigated_by || '') + '</td></tr>';
+        });
+        html += '</table>';
+        html += '</div>';
+      }
+      if (d.confidence_note) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--purple)">visibility boundary</div>';
+        html += '<p style="color:var(--text-faint);font-style:italic">' + esc(d.confidence_note) + '</p>';
+        html += '</div>';
+      }
+      break;
+
+    case 'orphaned_voice':
+      html += '<span class="badge" style="color:var(--red);border-color:var(--red);margin-bottom:0.6rem;display:inline-block">ORPHANED — No INFO Record</span> ';
+      if (d.voice_type) {
+        html += '<span class="badge" style="color:var(--cyan);border-color:var(--cyan);margin-bottom:0.6rem;display:inline-block">' + esc(d.voice_type) + '</span> ';
+      }
+      if (d.transcript) {
+        html += '<div class="profile-section">';
+        html += '<div class="profile-section-title" style="color:var(--cyan)">transcript</div>';
+        html += '<p style="color:var(--white);font-style:italic;font-size:1.1rem">"' + esc(d.transcript) + '"</p>';
+        html += '</div>';
+      }
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">file details</div>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Voice Type', d.voice_type);
+      html += detailItem('Form ID', d.form_id);
+      html += detailItem('Duration', d.duration ? d.duration + 's' : null);
+      html += detailItem('BA2 Location', d.ba2_path);
+      html += detailItem('Text in Strings', d.text_in_strings ? 'Yes — text exists but INFO record removed' : 'No — audio only, no text reference');
+      html += '</div>';
+      html += '</div>';
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title" style="color:var(--amber)">for modders</div>';
+      html += '<p style="color:var(--text-dim)">This voice file exists in your FO76 install but is not connected to any dialogue record. Modders can reference it by extracting from the BA2 path shown above. The Form ID can be used to create custom INFO records that connect this audio to new dialogue.</p>';
+      html += '</div>';
       break;
 
     case 'game_setting':

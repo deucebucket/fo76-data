@@ -11,7 +11,7 @@ the fo76 engine contains a fully implemented PvP duel system with real-stakes be
 
 the entire system is implemented in a dedicated source file:
 ```
-e:\buildagent\work\820e97cc99338fb0\project76\game\network\activeduelsmessages.cpp
+project76\game\network\activeduelsmessages.cpp
 ```
 
 it uses a client-server message protocol through `ActiveDuelClientMsg` and `ActiveDuelServerMsg`.
@@ -156,7 +156,7 @@ the built-but-unused system adds:
 
 the interface layer for this system is implemented in:
 ```
-e:\buildagent\work\820e97cc99338fb0\project76\game\interface\data\pvpeventdatamodel.cpp
+project76\game\interface\data\pvpeventdatamodel.cpp
 ```
 
 this file handles the UI side — displaying duel challenges, ante amounts, scores, and results to both players.

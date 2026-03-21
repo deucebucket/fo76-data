@@ -1,6 +1,6 @@
 {
-  "build_agent_path": "e:\\buildagent\\work\\820e97cc99338fb0\\project76\\",
-  "build_system": "TeamCity (buildagent work directory: 820e97cc99338fb0)",
+  "build_agent_path": "project76\\",
+  "build_system": "TeamCity (buildagent work directory: [build-hash])",
   "total_modules": 34,
   "total_source_files": 1540,
   "total_assert_references": 2163,

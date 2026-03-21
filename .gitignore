@@ -1,3 +1,8 @@
 meshes/
 textures/
 blender_work/
+orphaned_voices/extracted/
+orphaned_voices/fuz/
+orphaned_voices/wav/
+orphaned_voices/*.sh
+orphaned_voices/*.py

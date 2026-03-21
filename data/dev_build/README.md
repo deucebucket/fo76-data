@@ -21,7 +21,7 @@ Data extracted from Project76Profile.exe (Jan 2024 profiling build, 139MB).
 
 ## Build Server
 
-Build path: `e:\buildagent\work\820e97cc99338fb0\project76\`
+Build path: `project76\`
 
 ## Engine Module Structure
 

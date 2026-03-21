@@ -53,7 +53,7 @@
     {
       "date": "2023-11-22",
       "event": "Dev Build Date (Project76Profile)",
-      "notes": "The profiling build we analyzed. Contains 6,146 named functions, 3,625 source paths, 121,780 dev-only strings, 641 dev-only RTTI classes, 57 bot scripts. Build path: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\"
+      "notes": "The profiling build we analyzed. Contains 6,146 named functions, 3,625 source paths, 121,780 dev-only strings, 641 dev-only RTTI classes, 57 bot scripts. Build path: project76\\"
     },
     {
       "date": "2024-07",

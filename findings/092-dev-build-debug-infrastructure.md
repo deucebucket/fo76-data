@@ -181,7 +181,7 @@ bEnableCheatPrompt:General
 bEnableModuleRuns:CheatDetection
 ```
 
-source file: `e:\buildagent\work\820e97cc99338fb0\project76\game\misc\bscheatdetection.cpp`
+source file: `project76\game\misc\bscheatdetection.cpp`
 
 the detection system fires a `PlayerCheatingEventToServer` network message when triggered, which the server logs and presumably flags the account.
 
@@ -243,9 +243,9 @@ game/debug/overlay/warningsoverlay.cpp — runtime warnings
 
 ## build system
 
-the build agent path `e:\buildagent\work\820e97cc99338fb0\project76\` reveals:
+the build agent path `project76\` reveals:
 - **TeamCity** is the CI/CD system (buildagent is TeamCity's agent directory)
-- **work ID 820e97cc99338fb0** is the project76 build configuration hash
+- **work ID [redacted-hash]** is the project76 build configuration hash
 - the build server runs on windows (e:\ drive)
 - "project76" is the internal project name for fallout 76
 
