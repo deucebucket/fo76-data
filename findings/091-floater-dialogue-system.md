@@ -5,7 +5,9 @@
 
 ## overview
 
-three quest records in the dev build reveal that bethesda planned to give floater creatures their own NPC-like dialogue system, with separate dialogue quests for each floater variant: Flamer, Freezer, and Gnasher. in the live game, floaters are mindless hostile creatures with no dialogue. these cut quests would have made them something fundamentally different.
+three quest records in the dev build reveal that bethesda planned to give floater creatures their own NPC-like dialogue system, with separate dialogue quests for each floater variant: Flamer, Freezer, and Gnasher.
+
+**important context:** floaters in the live game are NOT completely silent. they already have combat vocalizations (grunts, shrieks, the distinctive "Gloooooorrrp! Bleghk?" sounds), death audio (loud shriek as flotation sac expands), and ambient sounds. super mutants also have dialogue lines referencing floaters as companions ("Look at that smile. I think it like you!"). what these cut CreatureDialogue quests represent is a more structured, variant-specific vocalization system — giving each floater type (Flamer, Freezer, Gnasher) its own distinct audio personality rather than sharing a generic sound set.
 
 ## confirmed records
 
@@ -70,4 +72,4 @@ it also raises the question of whether other creature families were planned to h
 
 ## why this is novel
 
-no wiki, datamine, or community source documents floater-specific dialogue quests. the fallout 76 unused content pages mention various cut creatures and quests, but the concept of variant-specific creature dialogue systems for floaters is completely undocumented. the idea that bethesda planned NPC-like dialogue quest infrastructure for hostile creatures is a design insight that hasn't surfaced anywhere in the community.
+no wiki, datamine, or community source documents floater-specific dialogue quests as discrete CreatureDialogue quest records. the finding is not that floaters were going to "talk" — they already have basic creature audio in the live game. the novel finding is that bethesda built the infrastructure for variant-specific vocalization systems (three separate dialogue quests, one per floater type) that would have given each variant a distinct audio personality, going beyond the shared generic creature sounds they currently use.

@@ -1,12 +1,12 @@
 # FO76 Finding 001: Nuclear Winter (Battle Royale) Code Still Fully Present
 
-## Status: CONFIRMED — 3,589 string entries, full UI, match-finding, perk system
+## Status: CONFIRMED — 3,257+ string entries, full UI, match-finding, perk system
 ## Source: nw_en.strings, nw_en.dlstrings, translate_en_utf8.txt
 
 ## What's Still In The Files
 - **Internal codename: "Babylon"** — all code references use this name
-- **3,195 string entries** in NW-specific string table (item names, locations, perks)
-- **323 dialogue/description strings** in NW dlstrings
+- **3,257 string entries** in NW-specific string table (item names, locations, perks)
+- **332 dialogue/description strings** in NW dlstrings
 - **Complete match-finding system**: `$GameStatePrompt_FindingBabylonPrompt` "Finding a Nuclear Winter match"
 - **Perk card system**: ZAX-dispensed perk cards, Overseer Ranks, NW-specific challenges
 - **Vault 51 storyline**: Full overseer competition narrative
