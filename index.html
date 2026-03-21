@@ -298,6 +298,7 @@ body::after {
 .badge-script { color: #fe64a0; border-color: #fe64a0; }
 .badge-model-render { color: #fe14a0; border-color: #fe14a0; }
 .badge-speculation { color: #feaa14; border-color: #feaa14; }
+.badge-cut-content { color: #fe5050; border-color: #fe5050; }
 
 .card-image {
   max-width: 100%;
@@ -914,13 +915,14 @@ var TYPE_TO_DISPLAY = {
   rtti_class: 'C++ Classes',
   script: 'Scripts',
   model_render: 'Model Renders',
+  cut_content: 'Cut Content',
   speculation: 'Speculations'
 };
 
 var DISPLAY_TO_TYPE = {};
 Object.keys(TYPE_TO_DISPLAY).forEach(function(k) { DISPLAY_TO_TYPE[TYPE_TO_DISPLAY[k]] = k; });
 
-var FILTER_ORDER = ['All', 'Findings', 'Model Renders', 'Weapons', 'Perks', 'Legendary', 'Mutations', 'Power Armor', 'Game Settings', 'Native Functions', 'Curve Tables', 'C++ Classes', 'Scripts', 'Speculations'];
+var FILTER_ORDER = ['All', 'Findings', 'Model Renders', 'Cut Content', 'Weapons', 'Perks', 'Legendary', 'Mutations', 'Power Armor', 'Game Settings', 'Native Functions', 'Curve Tables', 'C++ Classes', 'Scripts', 'Speculations'];
 
 var LAZY_COUNTS = { 'C++ Classes': 28866, 'Scripts': 7095 };
 
@@ -1571,6 +1573,27 @@ function renderModelRenderCard(item) {
   return { header: header, details: details, summary: summary };
 }
 
+function renderCutContentCard(item) {
+  var d = item.data || {};
+  var header = '<div class="card-header-top">' +
+      '<div class="card-title">' + esc(item.title) + '</div>' +
+      '<div class="card-meta">' +
+        '<span class="badge badge-cut-content">cut content</span>' +
+        (item.status ? '<span class="badge status-partial">' + esc(item.status) + '</span>' : '') +
+        '<span class="expand-indicator">&#9654;</span>' +
+      '</div>' +
+    '</div>';
+  var preview = '';
+  if (item.description) {
+    preview = '<div class="card-summary">' + esc(item.description.slice(0, 200)) + (item.description.length > 200 ? '...' : '') + '</div>';
+  }
+  var details = '<div class="card-details-inner md-content">' +
+    (item.source ? '<div class="dim" style="margin-bottom:0.5rem">Source: ' + esc(item.source) + '</div>' : '') +
+    renderMarkdown(item.content || item.description || 'No content available.') +
+  '</div>';
+  return { header: header, details: details, summary: preview };
+}
+
 function renderSpeculationCard(item) {
   var d = item.data || {};
 
@@ -1647,6 +1670,7 @@ function renderCard(item) {
     case 'rtti_class': parts = renderRttiClassCard(item); break;
     case 'script': parts = renderScriptCard(item); break;
     case 'model_render': parts = renderModelRenderCard(item); break;
+    case 'cut_content': parts = renderCutContentCard(item); break;
     case 'speculation': parts = renderSpeculationCard(item); break;
     default: parts = {
       header: '<div class="card-header-top"><div class="card-title">' + esc(item.title) + '</div><div class="card-meta"><span class="badge" style="color:var(--text-dim);border-color:var(--text-faint)">' + esc(item.type) + '</span><span class="expand-indicator">&#9654;</span></div></div>',
