@@ -582,9 +582,14 @@ body::after {
   .filters { gap: 0.3rem; }
   .filter-btn { padding: 0.35rem 0.5rem; font-size: 0.75rem; }
   .card-header { padding: 0.6rem 0.7rem; }
+  .card-header-top { flex-direction: column; gap: 0.4rem; }
+  .card-meta { flex-wrap: wrap; }
   .card-details-inner { padding: 0.7rem; }
   .detail-grid { grid-template-columns: 1fr; }
   .container { padding: 1rem 0.5rem; }
+  .card-tags { padding: 0.15rem 0.7rem 0.5rem; }
+  .card-tags .badge { max-width: 160px; }
+  .card-tags .dim { max-width: 200px; }
 }
 
 .sentinel {
@@ -1584,19 +1589,21 @@ function renderModelRenderCard(item) {
 
   var summary = '<div class="card-summary">' + thumbHtml + esc(item.description || '') + '</div>';
 
-  // Build all images for expanded view
+  // Build all images for expanded view (skip if none)
   var allImages = item.images || (item.image ? [item.image] : []);
   var imagesHtml = '';
-  allImages.forEach(function(img) {
-    imagesHtml += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
-  });
+  if (allImages.length > 0) {
+    allImages.forEach(function(img) {
+      imagesHtml += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
+    });
+  }
 
   var details = '<div class="card-details-inner">' +
     imagesHtml +
     '<div class="detail-grid" style="margin-top:0.5rem">' +
       detailItem('Mesh', d.mesh) +
       detailItem('Status', d.status) +
-      detailItem('Images', d.image_count) +
+      (allImages.length > 0 ? detailItem('Images', d.image_count) : '') +
     '</div>' +
   '</div>';
 
@@ -1737,20 +1744,23 @@ function renderCard(item) {
     };
   }
 
-  // Append data_status tag to header if present
-  var dataStatus = item.data && item.data.data_status;
-  if (dataStatus && dataStatus !== 'active') {
-    var statusDotClass = 'status-dot-' + dataStatus;
-    var statusLabel = dataStatus === 'legacy_values' ? 'legacy' : dataStatus;
-    parts.header += '<div class="card-tags"><span class="data-status-tag"><span class="status-dot ' + statusDotClass + '"></span>' + esc(statusLabel) + '</span></div>';
-  } else if (dataStatus === 'active') {
-    // Show green dot only, no text for active
-    parts.header += '<div class="card-tags"><span class="data-status-tag"><span class="status-dot status-dot-active"></span></span></div>';
-  }
-
   var card = document.createElement('div');
   card.className = 'card';
   card.setAttribute('data-id', item.id);
+
+  // Inject data_status dot into the header HTML
+  var dataStatus = item.data && item.data.data_status;
+  if (dataStatus) {
+    var statusDotClass = 'status-dot-' + dataStatus;
+    var statusLabel = dataStatus === 'legacy_values' ? 'legacy' : (dataStatus === 'active' ? '' : dataStatus);
+    var statusHtml = '<span class="data-status-tag"><span class="status-dot ' + statusDotClass + '"></span>' + (statusLabel ? esc(statusLabel) : '') + '</span>';
+    // Try to inject into existing card-tags div, else append a new one
+    if (parts.header.indexOf('card-tags') !== -1) {
+      parts.header = parts.header.replace(/<\/div>\s*$/, statusHtml + '</div>');
+    } else {
+      parts.header += '<div class="card-tags">' + statusHtml + '</div>';
+    }
+  }
 
   var headerDiv = document.createElement('div');
   headerDiv.className = 'card-header';
@@ -2247,11 +2257,11 @@ function buildProfileContent(item) {
         if (allImages.length > 1) {
           html += '<div class="profile-image-gallery">';
           allImages.forEach(function(img) {
-            html += '<img class="card-image" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
+            html += '<img class="card-image profile-lightbox-img" src="' + esc(img) + '" alt="' + esc(item.title) + '" loading="lazy">';
           });
           html += '</div>';
         } else {
-          html += '<img class="card-image" src="' + esc(allImages[0]) + '" alt="' + esc(item.title) + '" loading="lazy">';
+          html += '<img class="card-image profile-lightbox-img" src="' + esc(allImages[0]) + '" alt="' + esc(item.title) + '" loading="lazy">';
         }
         html += '</div>';
       }
@@ -2349,6 +2359,48 @@ function buildProfileContent(item) {
       html += detailItem('Carry Weight Bonus', d.carry_weight_bonus);
       html += detailItem('Unique Effects', d.unique_effects);
       html += detailItem('Data Source', d.data_source);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    case 'cut_content':
+      var ccVerificationStatusMap = {
+        'NOVEL': 'color:var(--green);border-color:var(--green)',
+        'PARTIALLY_KNOWN': 'color:var(--amber);border-color:var(--amber)',
+        'KNOWN': 'color:var(--text-faint);border-color:var(--text-faint)',
+        'WRONG': 'color:var(--red);border-color:var(--red)'
+      };
+      var ccVStatus = d.verification_status || item.verification_status || '';
+      html += '<div class="profile-section">';
+      if (ccVStatus) {
+        var ccVStyle = ccVerificationStatusMap[ccVStatus.toUpperCase()] || '';
+        html += '<span class="badge" style="' + ccVStyle + ';margin-bottom:0.6rem;display:inline-block">' + esc(ccVStatus) + '</span> ';
+      }
+      if (item.status) html += '<span class="badge status-partial" style="margin-bottom:0.6rem;display:inline-block">' + esc(item.status) + '</span> ';
+      var ccTimeline = d.timeline_era || item.timeline_era || '';
+      if (ccTimeline) html += '<span class="dim" style="margin-bottom:0.6rem;display:inline-block">' + esc(ccTimeline) + '</span>';
+      if (item.source) html += '<div class="dim" style="margin:0.4rem 0">Source: ' + esc(item.source) + '</div>';
+      html += '<div class="md-content" style="margin-top:0.8rem">' + renderMarkdown(item.content || item.description || 'No content available.') + '</div>';
+      html += '</div>';
+      break;
+
+    case 'script':
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">script details</div>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Script Name', item.title);
+      html += detailItem('Type', item.script_type);
+      html += '</div>';
+      html += '</div>';
+      break;
+
+    case 'rtti_class':
+      html += '<div class="profile-section">';
+      html += '<div class="profile-section-title">class details</div>';
+      html += '<div class="detail-grid">';
+      html += detailItem('Class Name', item.title);
+      html += detailItem('Category', item.category);
+      html += detailItem('Parent Class', item.parent);
       html += '</div>';
       html += '</div>';
       break;
@@ -2598,36 +2650,20 @@ async function init() {
     fuseOptions = {
       keys: [
         { name: 'title', weight: 3 },
-        { name: 'perk_name', weight: 2.5 },
         { name: 'effect_name', weight: 2.5 },
-        { name: 'function_name', weight: 2.5 },
+        { name: 'function_name', weight: 2 },
         { name: 'class_name', weight: 2 },
-        { name: 'description', weight: 2 },
-        { name: 'content', weight: 1 },
+        { name: 'description', weight: 1.5 },
         { name: 'category', weight: 1.5 },
-        { name: 'subcategory', weight: 1.5 },
-        { name: 'special', weight: 1.5 },
         { name: 'editor_id', weight: 1 },
-        { name: 'form_id', weight: 1 },
         { name: 'ammo_type', weight: 1 },
-        { name: 'damage_type', weight: 1 },
-        { name: 'scaling_type', weight: 1 },
-        { name: 'applies_to', weight: 1 },
-        { name: 'curve_file', weight: 1 },
-        { name: 'parent', weight: 1 },
-        { name: 'script_type', weight: 1 },
-        { name: 'return_type', weight: 1 },
-        { name: 'params', weight: 0.8 },
         { name: 'data.mutation_name', weight: 2 },
         { name: 'data.display_name', weight: 2 },
         { name: 'data.setting_name', weight: 2 },
-        { name: 'data.benefit_description', weight: 1.5 },
-        { name: 'data.penalty_description', weight: 1.5 },
-        { name: 'data.description', weight: 1.5 },
         { name: 'status', weight: 1 },
         { name: 'source', weight: 1 }
       ],
-      threshold: 0.35,
+      threshold: 0.3,
       ignoreLocation: true,
       minMatchCharLength: 2
     };
