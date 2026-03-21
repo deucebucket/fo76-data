@@ -1,0 +1,101 @@
+{
+  "timeline": [
+    {
+      "date": "2018-11-14",
+      "event": "Fallout 76 Launch",
+      "notes": "Original release with Adventure and Survival modes. Cap loss on death was active. Per-weapon/per-creature damage curves were the primary system."
+    },
+    {
+      "date": "2019-06-10",
+      "event": "Nuclear Winter (Babylon) Launches",
+      "notes": "Battle royale mode added. NW.esm loaded as conditional overlay with completely different damage formula (base 329, linear armor), zeroed XP/VATS/AP costs. ZAX narrator with 620 voice files."
+    },
+    {
+      "date": "2019-10-23",
+      "event": "Fallout 1st / Private Worlds Launch",
+      "notes": "Subscription service with private servers. Survival mode removed around this time."
+    },
+    {
+      "date": "2020-04-14",
+      "event": "Wastelanders Update",
+      "notes": "NPCs added. Beckett companion with original 17-quest arc (later cut to 15, The Bone removed, Poseidon finale simplified). Visitor corpse added to The Deep."
+    },
+    {
+      "date": "2020-09-15",
+      "event": "One Wasteland / Legendary Perks",
+      "notes": "Level scaling reworked. Legendary perk slots added at levels 50/75/100/150/200/300. Universal tier system likely introduced around this period for damage/health/armor scaling. Wanamingo plushie added."
+    },
+    {
+      "date": "2021-03-09",
+      "event": "Microsoft Acquisition Complete",
+      "notes": "ZeniMax/Bethesda acquired by Microsoft for $7.5B. Azure AI infrastructure now available to Bethesda studios."
+    },
+    {
+      "date": "2021-09-08",
+      "event": "Nuclear Winter Removed",
+      "notes": "NW mode shut down. 1,874 records ZZZ_-disabled in ESM. NW.esm kept as master file. Client code, NW perk cards, Vault 51 map, matchmaking, ZAX dialogue all remain in game files."
+    },
+    {
+      "date": "2022-09-13",
+      "event": "The Pitt Expeditions Launch",
+      "notes": "Instanced dungeon system. Trogg creatures, Jersey Devil, Overgrown enemies added."
+    },
+    {
+      "date": "2022-12",
+      "event": "Perk System Rework Begins",
+      "notes": "Perks consolidated from multi-rank to single-rank. CUT_ prefix records for rank 4/5 perks likely deprecated around this time. Death cap loss on PvE death removed."
+    },
+    {
+      "date": "2023-06-12",
+      "event": "Skyline Valley Part 1",
+      "notes": "Storm content (StormBoss, Scorchtongue), Vault 63, Wanamingo corpse (Storm_WanamingoCorpse_MSTT). Moon_SQ03_Libby quest record found in NW.esm — bethesda putting new content in the NW plugin."
+    },
+    {
+      "date": "2023-11-22",
+      "event": "Dev Build Date (Project76Profile)",
+      "notes": "The profiling build we analyzed. Contains 6,146 named functions, 3,625 source paths, 121,780 dev-only strings, 641 dev-only RTTI classes, 57 bot scripts. Build path: e:\\buildagent\\work\\820e97cc99338fb0\\project76\\"
+    },
+    {
+      "date": "2024-07",
+      "event": "Skyline Valley Part 2",
+      "notes": "Additional Skyline Valley content. Thrasher (RadTurkey) creatures added."
+    },
+    {
+      "date": "2024-09",
+      "event": "4-Star Legendary Effects (PTS)",
+      "notes": "4-star legendary effects datamined from PTS. Universal tier system for legendary scaling. Bruiser effect among the new 4-stars."
+    },
+    {
+      "date": "2024-12",
+      "event": "Gleaming Depths Update",
+      "notes": "CAMP pets (cats, dogs) released. Hard Bargain perk consolidated to single rank (7 CHA when bartering). EN06 Guardian boss."
+    },
+    {
+      "date": "2025-06",
+      "event": "Atlantic City Updates",
+      "notes": "Casino system, NukaWorld on Tour content. E09A prefix content (Bloatfly Launcher weapon cut from this era). Jersey Devil, Overgrown creatures."
+    },
+    {
+      "date": "2026-02-18",
+      "event": "Pre-Hotfix Retail Exe",
+      "notes": "The Feb 2026 exe we used for signature comparison. 101MB."
+    },
+    {
+      "date": "2026-03-03",
+      "event": "The Backwoods Update (Patch 66)",
+      "notes": "Current live version. Bounty hunting system with Walter Goggins ghoul NPC. Burning Springs, Highway Town. RustKing raiders. Bigfoot, Ogua, DustDevil creatures. 6,083 Backwoods records, 79,198 total new records since dev build."
+    },
+    {
+      "date": "2026-03-11",
+      "event": "Current Build Date",
+      "notes": "Build 1.7.23.40-RelPC-peach-beaver-PC. The retail exe we analyzed. Codename peach-beaver."
+    }
+  ],
+  "data_trust_notes": {
+    "active_values": "Legendary effects, mutations, perk descriptions, GMST game settings — verified against active OMOD/CURV chains",
+    "universal_tiers": "Damage (100 tiers), armor (100 tiers), creature health (60 tiers) — the current scaling system. per-item curves are legacy originals within 1-6 points",
+    "legacy_curves": "Per-weapon damage curves, death cap loss, some economy curves — original design values, may not reflect current live game",
+    "patched_values": "Fast travel costs (25% reduction applied), vendor pricing (CHA caps at 20-25), perk ranks (many consolidated to 1)",
+    "nw_overrides": "NW.esm GMST overrides only apply during Babylon/NW sessions, not Adventure mode. content records in NW.esm load universally"
+  }
+}
